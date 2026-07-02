@@ -2050,8 +2050,7 @@ ${contextText}`;
         function safeParseJson(text) {
             text = text.trim();
             if (text.startsWith('```')) {
-                const firstNewLine = text.indexOf('
-');
+                const firstNewLine = text.indexOf('\n');
                 const lastBackticks = text.lastIndexOf('```');
                 if (firstNewLine !== -1 && lastBackticks !== -1) {
                     text = text.substring(firstNewLine + 1, lastBackticks).trim();
@@ -2367,10 +2366,7 @@ ${contextText}`;
                         name: name,
                         category: category,
                         product_type: sShooting >= 4 ? 'Showcase' : 'Regular',
-                        description: desc + '
-
-**Mentör Raporu:**
-' + text,
+                        description: desc + '\n\n**Mentör Raporu:**\n' + text,
                         why_viral: 'Manuel değerlendirildi.',
                         hook_ideas: ['Rapora göz atın.'],
                         est_price: '29.99',
