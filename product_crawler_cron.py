@@ -3,6 +3,7 @@ import json
 import urllib.request
 import re
 import time
+from datetime import datetime
 
 API_KEY = os.environ.get("GEMINI_API_KEY")
 if not API_KEY:
@@ -62,6 +63,7 @@ def scan_category(category):
         "category": "{category}",
         "product_type": "Showcase" veya "Regular",
         "description": "Ürünün kısa açıklaması ve işlevi",
+        "image_url": "Google Arama grounding aracıyla bulduğun, ürüne ait doğrudan geçerli bir görsel URL'si (Shopify CDN, AliExpress, Amazon, Pinterest vb. sitelerden hotlink edilebilir doğrudan jpg, png, webp vb. uzantılı resim adresi)",
         "why_viral": "Son 7-14 gündeki viral olma durumu ve gerekçesi",
         "hook_ideas": ["Kanca fikri 1", "Kanca fikri 2"],
         "est_price": "29.99",
@@ -123,13 +125,56 @@ def main():
         # Sleep to avoid rate limiting
         time.sleep(3)
         
-    print(f"\nTotal products found: {len(all_products)}")
+    print(f"\nTotal products found in this scan: {len(all_products)}")
+    
+    # Add crawled_at field to newly scanned products
+    today_str = datetime.today().strftime('%Y-%m-%d')
+    for p in all_products:
+        p["crawled_at"] = today_str
+        
+    output_path = "precrawled_products.json"
+    existing_products = []
+    
+    # Read existing products if file exists
+    if os.path.exists(output_path):
+        try:
+            with open(output_path, "r", encoding="utf-8") as f:
+                existing_products = json.load(f)
+                if not isinstance(existing_products, list):
+                    existing_products = []
+            print(f"Loaded {len(existing_products)} existing products from history.")
+        except Exception as e:
+            print(f"Error reading existing products file: {e}")
+            existing_products = []
+
+    # Merge new products with existing history, avoiding duplicates by name (case-insensitive)
+    existing_by_name = {p["name"].lower().strip(): p for p in existing_products if "name" in p}
+    merged_products = list(existing_products)
+    
+    new_added_count = 0
+    updated_count = 0
+    
+    for p in all_products:
+        name_lower = p.get("name", "").lower().strip()
+        if not name_lower:
+            continue
+        if name_lower in existing_by_name:
+            # Overwrite the existing product details with updated info
+            old_prod = existing_by_name[name_lower]
+            idx = merged_products.index(old_prod)
+            merged_products[idx] = p
+            updated_count += 1
+        else:
+            # Append new product
+            merged_products.append(p)
+            new_added_count += 1
+            
+    print(f"Merge summary: {new_added_count} new products added, {updated_count} existing products updated.")
     
     # Save output
-    output_path = "precrawled_products.json"
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(all_products, f, indent=2, ensure_ascii=False)
-    print(f"Saved pre-crawled products to {output_path}")
+        json.dump(merged_products, f, indent=2, ensure_ascii=False)
+    print(f"Saved total {len(merged_products)} products to {output_path}")
 
 if __name__ == "__main__":
     main()

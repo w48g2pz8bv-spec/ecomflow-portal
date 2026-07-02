@@ -747,6 +747,30 @@
             box-shadow: 0 4px 15px rgba(16, 185, 129, 0.1);
         }
 
+        .product-image-container {
+            margin-bottom: 12px;
+            height: 160px;
+            overflow: hidden;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            background: #111827;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .product-image-container img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover .product-image-container img {
+            transform: scale(1.05);
+        }
+
         .product-card-header {
             display: flex;
             justify-content: space-between;
@@ -2163,14 +2187,28 @@ ${contextText}`;
                     `;
                 }
 
+                let imageHtml = '';
+                if (p.image_url) {
+                    imageHtml = `
+                        <div class="product-image-container">
+                            <img src="${p.image_url}" alt="${p.name}" onerror="this.parentElement.style.display='none';">
+                        </div>
+                    `;
+                }
+
                 card.innerHTML = `
                     <div class="product-card-header">
                         <div>
                             <div class="product-name">${p.name}</div>
-                            <div style="font-size:0.8rem; color:var(--text-muted); margin-top:2px;">Kategori: ${p.category}</div>
+                            <div style="font-size:0.8rem; color:var(--text-muted); margin-top:2px; display:flex; gap:8px; align-items:center;">
+                                <span>Kategori: ${p.category}</span>
+                                ${p.crawled_at ? `<span style="color:var(--text-muted);">|</span> <span style="color:#60a5fa; display:inline-flex; align-items:center; gap:2px;">🗓️ ${p.crawled_at}</span>` : ''}
+                            </div>
                         </div>
                         <span class="product-badge ${typeClass}">${p.product_type || 'Showcase'}</span>
                     </div>
+
+                    ${imageHtml}
 
                     <div style="margin-bottom:12px;">
                         <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.85rem; font-weight:700;">
@@ -2256,14 +2294,28 @@ ${contextText}`;
                 const typeClass = (p.product_type || 'Showcase').toLowerCase();
                 const totalScore = p.total_score || (p.scores.viral_potential + p.scores.shooting_feasibility + p.scores.purchase_desire + p.scores.problem_solving + p.scores.shipping_ease);
 
+                let imageHtml = '';
+                if (p.image_url) {
+                    imageHtml = `
+                        <div class="product-image-container" style="height:120px;">
+                            <img src="${p.image_url}" alt="${p.name}" onerror="this.parentElement.style.display='none';">
+                        </div>
+                    `;
+                }
+
                 card.innerHTML = `
                     <div class="product-card-header">
                         <div>
                             <div class="product-name">${p.name}</div>
-                            <div style="font-size:0.8rem; color:var(--text-muted); margin-top:2px;">Kategori: ${p.category}</div>
+                            <div style="font-size:0.8rem; color:var(--text-muted); margin-top:2px; display:flex; gap:8px; align-items:center;">
+                                <span>Kategori: ${p.category}</span>
+                                ${p.crawled_at ? `<span style="color:var(--text-muted);">|</span> <span style="color:#60a5fa; display:inline-flex; align-items:center; gap:2px;">🗓️ ${p.crawled_at}</span>` : ''}
+                            </div>
                         </div>
                         <button onclick="removeProductFromWinner('${escapeJsString(p.name)}')" style="background:transparent; border:none; color:#ef4444; cursor:pointer; font-weight:bold; font-size:1.1rem;" title="Sil">✕</button>
                     </div>
+
+                    ${imageHtml}
                     <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.85rem; margin-bottom:8px;">
                         <span class="product-badge ${typeClass}">${p.product_type || 'Showcase'}</span>
                         <span style="font-weight:700; color:#10b981;">Puan: ${totalScore}/25</span>
