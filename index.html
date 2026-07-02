@@ -1094,6 +1094,15 @@
                     <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--border-color); padding-bottom:12px; margin-bottom:10px;">
                         <h2 style="font-size:1.1rem; color:#fff;">🔍 Viral Keşif Havuzu</h2>
                         <div style="display:flex; gap:10px; align-items:center;">
+                            <!-- View Toggle Buttons -->
+                            <div style="display:flex; border:1px solid var(--border-color); border-radius:4px; overflow:hidden;">
+                                <button onclick="setHunterViewMode('grid'); return false;" id="hunter-btn-grid" style="background:#10b981; border:none; color:#fff; padding:6px 12px; cursor:pointer; font-size:0.85rem; font-weight:600; display:flex; align-items:center; gap:4px;" title="Klasik Liste Görünümü">
+                                    🎛️ Liste
+                                </button>
+                                <button onclick="setHunterViewMode('swipe'); return false;" id="hunter-btn-swipe" style="background:#1f2937; border:none; color:#fff; padding:6px 12px; cursor:pointer; font-size:0.85rem; font-weight:600; display:flex; align-items:center; gap:4px;" title="TikTok Tarzı Kaydırma Modu">
+                                    📺 TikTok Modu
+                                </button>
+                            </div>
                             <select id="hunter-category-filter" onchange="filterProductsUI()" style="background:#1f2937; border:1px solid var(--border-color); color:#fff; padding:6px 10px; border-radius:4px; outline:none; font-size:0.85rem;">
                                 <option value="all">Tüm Kategoriler</option>
                                 <option value="Mutfak Gereçleri">Mutfak Gereçleri</option>
@@ -2145,57 +2154,249 @@ ${contextText}`;
             return 'low';
         }
 
-        function getScoreBarColor(score) {
-            if (score >= 20) return '#10b981'; // Green
-            if (score >= 15) return '#f59e0b'; // Yellow
+        let hunterViewMode = 'grid'; // 'grid' or 'swipe'
+        let swipeCurrentIndex = 0;
+
+        function setHunterViewMode(mode) {
+            hunterViewMode = mode;
+            const btnGrid = document.getElementById('hunter-btn-grid');
+            const btnSwipe = document.getElementById('hunter-btn-swipe');
+            if (mode === 'grid') {
+                btnGrid.style.background = '#10b981';
+                btnSwipe.style.background = '#1f2937';
+            } else {
+                btnGrid.style.background = '#1f2937';
+                btnSwipe.style.background = '#10b981';
+                swipeCurrentIndex = 0;
+            }
+            renderHunterProducts();
+        }
+
+        function getFilteredProducts() {
+            const categoryFilter = document.getElementById('hunter-category-filter').value;
+            return syncedProducts.filter(p => {
+                if (categoryFilter === 'all') return true;
+                return p.category === categoryFilter;
+            });
+        }
+
+        function navigateSwipe(dir) {
+            const filtered = getFilteredProducts();
+            if (filtered.length === 0) return;
+            swipeCurrentIndex += dir;
+            if (swipeCurrentIndex < 0) {
+                swipeCurrentIndex = filtered.length - 1;
+            } else if (swipeCurrentIndex >= filtered.length) {
+                swipeCurrentIndex = 0;
+            }
+            renderHunterProducts();
+        }
+
+        function getScoreBarColor(score, max = 25) {
+            const ratio = score / max;
+            if (ratio >= 0.8) return '#10b981'; // Green
+            if (ratio >= 0.6) return '#3b82f6'; // Blue
+            if (ratio >= 0.4) return '#f59e0b'; // Orange
             return '#ef4444'; // Red
         }
 
         function renderHunterProducts() {
             const grid = document.getElementById('hunter-products-grid');
-            const categoryFilter = document.getElementById('hunter-category-filter').value;
             grid.innerHTML = '';
-
-            const filtered = syncedProducts.filter(p => {
-                if (categoryFilter === 'all') return true;
-                return p.category === categoryFilter;
-            });
+            const filtered = getFilteredProducts();
 
             if (filtered.length === 0) {
                 grid.innerHTML = '<p style="color:var(--text-muted); font-style:italic; text-align:center; padding: 40px;">Kriterlere uyan ürün bulunamadı. Eşitle butonuna basarak verileri yükleyin veya canlı tarama yapın.</p>';
                 return;
             }
 
-            filtered.forEach(p => {
-                const card = document.createElement('div');
-                card.className = 'product-card';
+            if (hunterViewMode === 'grid') {
+                filtered.forEach(p => {
+                    const card = createProductCardElement(p, false);
+                    grid.appendChild(card);
+                });
+            } else {
+                if (swipeCurrentIndex >= filtered.length) {
+                    swipeCurrentIndex = 0;
+                }
+                const p = filtered[swipeCurrentIndex];
                 
-                const typeClass = (p.product_type || 'Showcase').toLowerCase();
-                const totalScore = p.total_score || (p.scores.viral_potential + p.scores.shooting_feasibility + p.scores.purchase_desire + p.scores.problem_solving + p.scores.shipping_ease);
-                const scorePercent = (totalScore / 25) * 100;
-                const barColor = getScoreBarColor(totalScore);
+                const navHeader = document.createElement('div');
+                navHeader.style.display = 'flex';
+                navHeader.style.justifyContent = 'space-between';
+                navHeader.style.alignItems = 'center';
+                navHeader.style.background = '#111827';
+                navHeader.style.padding = '8px 12px';
+                navHeader.style.borderRadius = '6px';
+                navHeader.style.marginBottom = '10px';
+                navHeader.style.border = '1px solid var(--border-color)';
+                navHeader.innerHTML = `
+                    <div style="font-size:0.85rem; font-weight:700; color:#10b981; display:flex; align-items:center; gap:6px;">
+                        📺 TİKTOK AKIŞ MODU
+                    </div>
+                    <div style="display:flex; gap:10px; align-items:center;">
+                        <button onclick="navigateSwipe(-1); return false;" class="hunter-btn-outline" style="padding:4px 8px; font-size:0.75rem;">⬅️ Önceki</button>
+                        <span style="font-size:0.85rem; font-weight:700; color:#fff;">${swipeCurrentIndex + 1} / ${filtered.length}</span>
+                        <button onclick="navigateSwipe(1); return false;" class="hunter-btn-outline" style="padding:4px 8px; font-size:0.75rem;">Sonraki ➡️</button>
+                    </div>
+                    <div style="font-size:0.75rem; color:var(--text-muted);">
+                        (Klavyeden ⬆️ / ⬇️ veya ⬅️ / ➡️ tuşlarını kullanabilirsiniz)
+                    </div>
+                `;
+                grid.appendChild(navHeader);
+                
+                const card = createProductCardElement(p, true);
+                grid.appendChild(card);
+            }
+        }
 
-                let hooksHtml = '';
-                if (p.hook_ideas && p.hook_ideas.length > 0) {
-                    hooksHtml = `
-                        <div class="hook-box">
-                            <strong style="color:#10b981; font-size:0.85rem;">🎬 Önerilen Reklam Kancaları (Hooks):</strong>
-                            <ul style="margin-top:6px; padding-left:15px; font-size:0.85rem; color:#d1d5db; display:flex; flex-direction:column; gap:4px;">
-                                ${p.hook_ideas.map(h => `<li>${h}</li>`).join('')}
-                            </ul>
+        function createProductCardElement(p, isSwipe = false) {
+            const card = document.createElement('div');
+            card.className = 'product-card';
+            if (isSwipe) {
+                card.style.display = 'flex';
+                card.style.flexDirection = 'row';
+                card.style.gap = '20px';
+                card.style.padding = '24px';
+                card.style.background = '#1f2937';
+                card.style.alignItems = 'stretch';
+            }
+            
+            const typeClass = (p.product_type || 'Showcase').toLowerCase();
+            let totalScore = 0;
+            let maxScore = 25;
+            let scoreHTML = '';
+            
+            if (p.scores.visual_satisfaction !== undefined) {
+                const vis = p.scores.visual_satisfaction || 0;
+                const prob = p.scores.problem_solving || 0;
+                const und = p.scores.immediate_understandability || 0;
+                const react = p.scores.reaction_potential || 0;
+                
+                totalScore = p.total_score || (vis + prob + und + react);
+                maxScore = 20;
+                
+                scoreHTML = `
+                    <div class="score-pill-container" style="${isSwipe ? 'grid-template-columns: repeat(2, 1fr);' : ''}">
+                        <div class="score-pill">📺 Görsel Tatmin: <span class="score-pill-val ${getScoreColorClass(vis)}">${vis}</span></div>
+                        <div class="score-pill">🧠 Problem Çözme: <span class="score-pill-val ${getScoreColorClass(prob)}">${prob}</span></div>
+                        <div class="score-pill">⚡ Anlaşılabilirlik: <span class="score-pill-val ${getScoreColorClass(und)}">${und}</span></div>
+                        <div class="score-pill">💬 Tepki Gücü: <span class="score-pill-val ${getScoreColorClass(react)}">${react}</span></div>
+                    </div>
+                `;
+            } else {
+                const viral = p.scores.viral_potential || 0;
+                const shoot = p.scores.shooting_feasibility || 0;
+                const demand = p.scores.purchase_desire || 0;
+                const prob = p.scores.problem_solving || 0;
+                const ship = p.scores.shipping_ease || 0;
+                
+                totalScore = p.total_score || (viral + shoot + demand + prob + ship);
+                maxScore = 25;
+                
+                scoreHTML = `
+                    <div class="score-pill-container" style="${isSwipe ? 'grid-template-columns: repeat(2, 1fr);' : ''}">
+                        <div class="score-pill">🔥 Viral: <span class="score-pill-val ${getScoreColorClass(viral)}">${viral}</span></div>
+                        <div class="score-pill">📹 Çekim: <span class="score-pill-val ${getScoreColorClass(shoot)}">${shoot}</span></div>
+                        <div class="score-pill">💬 Talep: <span class="score-pill-val ${getScoreColorClass(demand)}">${demand}</span></div>
+                        <div class="score-pill">🧠 Çözüm: <span class="score-pill-val ${getScoreColorClass(prob)}">${prob}</span></div>
+                        <div class="score-pill">📦 Kargo: <span class="score-pill-val ${getScoreColorClass(ship)}">${ship}</span></div>
+                    </div>
+                `;
+            }
+
+            const scorePercent = (totalScore / maxScore) * 100;
+            const barColor = getScoreBarColor(totalScore, maxScore);
+
+            let hooksHtml = '';
+            if (p.hook_ideas && p.hook_ideas.length > 0) {
+                hooksHtml = `
+                    <div class="hook-box" style="margin-top:10px;">
+                        <strong style="color:#10b981; font-size:0.85rem;">🎬 Önerilen Reklam Kancaları (Hooks):</strong>
+                        <ul style="margin-top:6px; padding-left:15px; font-size:0.85rem; color:#d1d5db; display:flex; flex-direction:column; gap:4px;">
+                            ${p.hook_ideas.map(h => `<li>${h}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+
+            let imageHtml = '';
+            if (p.image_url) {
+                if (isSwipe) {
+                    imageHtml = `
+                        <div class="product-image-container" style="flex: 1.2; height: 100%; min-height: 280px; margin-bottom: 0; background: #111827;">
+                            <img src="${p.image_url}" alt="${p.name}" style="width: 100%; height: 100%; object-fit: contain;" onerror="this.parentElement.style.display='none';">
                         </div>
                     `;
-                }
-
-                let imageHtml = '';
-                if (p.image_url) {
+                } else {
                     imageHtml = `
                         <div class="product-image-container">
                             <img src="${p.image_url}" alt="${p.name}" onerror="this.parentElement.style.display='none';">
                         </div>
                     `;
                 }
+            } else if (isSwipe) {
+                imageHtml = `
+                    <div class="product-image-container" style="flex: 1.2; height: 100%; min-height: 280px; margin-bottom: 0; background: #111827; display:flex; flex-direction:column; justify-content:center; align-items:center; gap:10px;">
+                        <span style="font-size:3rem; filter:grayscale(1);">📷</span>
+                        <span style="font-size:0.8rem; color:var(--text-muted);">Görsel Yok</span>
+                    </div>
+                `;
+            }
 
+            const detailsHtml = `
+                <div style="flex: 1.5; display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <div class="product-card-header" style="margin-bottom: 8px;">
+                            <div>
+                                <div class="product-name" style="${isSwipe ? 'font-size:1.3rem;' : ''}">${p.name}</div>
+                                <div style="font-size:0.8rem; color:var(--text-muted); margin-top:2px; display:flex; gap:8px; align-items:center;">
+                                    <span>Kategori: ${p.category}</span>
+                                    ${p.crawled_at ? `<span style="color:var(--text-muted);">|</span> <span style="color:#60a5fa; display:inline-flex; align-items:center; gap:2px;">🗓️ ${p.crawled_at}</span>` : ''}
+                                </div>
+                            </div>
+                            <span class="product-badge ${typeClass}">${p.product_type || 'Showcase'}</span>
+                        </div>
+
+                        <div style="margin-bottom:12px;">
+                            <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.85rem; font-weight:700;">
+                                <span style="color:#fff;">Toplam Puan (Matris):</span>
+                                <span style="color:${barColor};">${totalScore}/${maxScore} (${p.verdict || 'Winner Adayı'})</span>
+                            </div>
+                            <div class="score-gauge-bar" style="height:6px; background:#111827;">
+                                <div class="score-gauge-fill" style="width:${scorePercent}%; background:${barColor};"></div>
+                            </div>
+                        </div>
+
+                        ${scoreHTML}
+
+                        <div class="product-details" style="margin-top:12px; font-size:0.9rem;">
+                            <p style="margin-bottom:6px; line-height:1.4;"><strong style="color:#9ca3af;">Açıklama:</strong> ${p.description}</p>
+                            <p style="margin-bottom:6px; line-height:1.4;"><strong style="color:#9ca3af;">Neden Viral?</strong> ${p.why_viral}</p>
+                            ${hooksHtml}
+                        </div>
+                    </div>
+
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-top:15px; border-top:1px solid var(--border-color); padding-top:12px;">
+                        <span style="font-weight:700; color:#10b981; font-size:1.2rem;">$${p.est_price || '29.99'}</span>
+                        <div style="display:flex; gap:10px;">
+                            <a href="${p.aliexpress_url}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:8px 14px; font-size:0.85rem; display:flex; align-items:center; gap:4px;">
+                                🛒 AliExpress'te Ara
+                            </a>
+                            <button onclick="saveProductToWinner('${escapeJsString(p.name)}'); return false;" class="hunter-btn" style="padding:8px 14px; font-size:0.85rem;">
+                                🏆 Listeme Ekle
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            if (isSwipe) {
+                card.innerHTML = `
+                    ${imageHtml}
+                    ${detailsHtml}
+                `;
+            } else {
                 card.innerHTML = `
                     <div class="product-card-header">
                         <div>
@@ -2213,20 +2414,14 @@ ${contextText}`;
                     <div style="margin-bottom:12px;">
                         <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.85rem; font-weight:700;">
                             <span style="color:#fff;">Toplam Puan (Matris):</span>
-                            <span style="color:${barColor};">${totalScore}/25 (${p.verdict || 'Winner Adayı'})</span>
+                            <span style="color:${barColor};">${totalScore}/${maxScore} (${p.verdict || 'Winner Adayı'})</span>
                         </div>
                         <div class="score-gauge-bar">
                             <div class="score-gauge-fill" style="width:${scorePercent}%; background:${barColor};"></div>
                         </div>
                     </div>
 
-                    <div class="score-pill-container">
-                        <div class="score-pill">🔥 Viral: <span class="score-pill-val ${getScoreColorClass(p.scores.viral_potential)}">${p.scores.viral_potential}</span></div>
-                        <div class="score-pill">📹 Çekim: <span class="score-pill-val ${getScoreColorClass(p.scores.shooting_feasibility)}">${p.scores.shooting_feasibility}</span></div>
-                        <div class="score-pill">💬 Talep: <span class="score-pill-val ${getScoreColorClass(p.scores.purchase_desire)}">${p.scores.purchase_desire}</span></div>
-                        <div class="score-pill">🧠 Çözüm: <span class="score-pill-val ${getScoreColorClass(p.scores.problem_solving)}">${p.scores.problem_solving}</span></div>
-                        <div class="score-pill">📦 Kargo: <span class="score-pill-val ${getScoreColorClass(p.scores.shipping_ease)}">${p.scores.shipping_ease}</span></div>
-                    </div>
+                    ${scoreHTML}
 
                     <div class="product-details">
                         <p style="margin-bottom:8px;"><strong>Açıklama:</strong> ${p.description}</p>
@@ -2240,14 +2435,14 @@ ${contextText}`;
                             <a href="${p.aliexpress_url}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:6px 12px; font-size:0.8rem; display:flex; align-items:center; gap:4px;">
                                 🛒 AliExpress'te Ara
                             </a>
-                            <button onclick="saveProductToWinner('${escapeJsString(p.name)}')" class="hunter-btn" style="padding:6px 12px; font-size:0.8rem;">
+                            <button onclick="saveProductToWinner('${escapeJsString(p.name)}'); return false;" class="hunter-btn" style="padding:6px 12px; font-size:0.8rem;">
                                 🏆 Listeme Ekle
                             </button>
                         </div>
                     </div>
                 `;
-                grid.appendChild(card);
-            });
+            }
+            return card;
         }
 
         function filterProductsUI() {
@@ -2292,7 +2487,16 @@ ${contextText}`;
                 card.style.background = 'rgba(16, 185, 129, 0.02)';
 
                 const typeClass = (p.product_type || 'Showcase').toLowerCase();
-                const totalScore = p.total_score || (p.scores.viral_potential + p.scores.shooting_feasibility + p.scores.purchase_desire + p.scores.problem_solving + p.scores.shipping_ease);
+                
+                let totalScore = 0;
+                let maxScore = 25;
+                if (p.scores.visual_satisfaction !== undefined) {
+                    totalScore = p.total_score || (p.scores.visual_satisfaction + p.scores.problem_solving + p.scores.immediate_understandability + p.scores.reaction_potential);
+                    maxScore = 20;
+                } else {
+                    totalScore = p.total_score || (p.scores.viral_potential + p.scores.shooting_feasibility + p.scores.purchase_desire + p.scores.problem_solving + p.scores.shipping_ease);
+                    maxScore = 25;
+                }
 
                 let imageHtml = '';
                 if (p.image_url) {
@@ -2312,13 +2516,13 @@ ${contextText}`;
                                 ${p.crawled_at ? `<span style="color:var(--text-muted);">|</span> <span style="color:#60a5fa; display:inline-flex; align-items:center; gap:2px;">🗓️ ${p.crawled_at}</span>` : ''}
                             </div>
                         </div>
-                        <button onclick="removeProductFromWinner('${escapeJsString(p.name)}')" style="background:transparent; border:none; color:#ef4444; cursor:pointer; font-weight:bold; font-size:1.1rem;" title="Sil">✕</button>
+                        <button onclick="removeProductFromWinner('${escapeJsString(p.name)}'); return false;" style="background:transparent; border:none; color:#ef4444; cursor:pointer; font-weight:bold; font-size:1.1rem;" title="Sil">✕</button>
                     </div>
 
                     ${imageHtml}
                     <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.85rem; margin-bottom:8px;">
                         <span class="product-badge ${typeClass}">${p.product_type || 'Showcase'}</span>
-                        <span style="font-weight:700; color:#10b981;">Puan: ${totalScore}/25</span>
+                        <span style="font-weight:700; color:#10b981;">Puan: ${totalScore}/${maxScore}</span>
                     </div>
                     <div style="font-size:0.85rem; color:#d1d5db; line-height:1.4; margin-bottom:10px;">
                         ${p.description}
@@ -2537,6 +2741,19 @@ ${contextText}`;
             } else {
                 renderSidebar();
             }
+
+            // Keyboard navigation for Swipe Mode
+            window.addEventListener('keydown', (e) => {
+                if (typeof hunterViewMode !== 'undefined' && hunterViewMode === 'swipe') {
+                    if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+                        navigateSwipe(-1);
+                        e.preventDefault();
+                    } else if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
+                        navigateSwipe(1);
+                        e.preventDefault();
+                    }
+                }
+            });
         };
     </script>
 </body>

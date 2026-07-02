@@ -45,13 +45,15 @@ def scan_category(category):
     prompt = f"""
     Lütfen Google Arama grounding aracını kullanarak son 7-14 gün içinde TikTok ve Instagram'da yeni viral olmaya başlamış, doymamış ve e-ticarete/dropshippinge uygun 10 adet benzersiz "{category}" ürünü tespit et.
 
-    Eğitim kriterlerimiz şunlardır:
-    1. Ürün Tipi: 'Showcase' (gösterişli, estetik ve çekimi kolay) veya 'Regular' (hikaye/kurgu gerektiren, yüksek potansiyelli).
-    2. Viral Potansiyel (1-5 Puan)
-    3. Çekilebilirlik/İçerik Kolaylığı (1-5 Puan)
-    4. Satın Alma Talebi (1-5 Puan)
-    5. Problem Çözme/Değer (1-5 Puan)
-    6. Tedarik/Kargo Kolaylığı (1-5 Puan)
+    Soruşturma Taktikleri:
+    - TikTok ve Instagram aramalarında özellikle şu etiketleri ve popüler video başlıklarını araştır: "#tiktokmademebuyit", "#amazonfinds", "#problemsolving", "#viralgadgets", "#lifehacks".
+    - Ürünü bulan videoların yorum bölümlerinde insanların "nereden alabilirim?", "link?", "where to buy?", "how much?" gibi satın alma isteği belirten aktif tepkiler verip vermediğini analiz et. Sadece yorumlarda talep gören ürünlere odaklan.
+
+    Eğitim kriterlerimiz (4 Altın Kural) şunlardır:
+    1. Görsel Tatmin (Visual Satisfaction) (1-5 Puan): Videoda izlemesi ne kadar keyifli, tatmin edici ve hipnotize edici?
+    2. Problem Çözme Gücü (1-5 Puan): İnsanların günlük hayattaki can sıkıcı bir sorununu ne kadar güçlü çözüyor?
+    3. Anında Anlaşılabilirlik (1-5 Puan): Videonun ilk 3 saniyesinde izleyici ürünün ne işe yaradığını hemen anlıyor mu?
+    4. Tepki Potansiyeli (1-5 Puan): Yorum yazma, arkadaş etiketleme, paylaşma veya "nereden bulurum" deme isteği uyandırma gücü nedir?
 
     ÖNEMLİ: Klasikleşmiş, doymuş ürünleri kesinlikle listeleme! Tamamen yeni trendlere odaklan.
 
@@ -64,18 +66,17 @@ def scan_category(category):
         "product_type": "Showcase" veya "Regular",
         "description": "Ürünün kısa açıklaması ve işlevi",
         "image_url": "Google Arama grounding aracıyla bulduğun, ürüne ait doğrudan geçerli bir görsel URL'si (Shopify CDN, AliExpress, Amazon, Pinterest vb. sitelerden hotlink edilebilir doğrudan jpg, png, webp vb. uzantılı resim adresi)",
-        "why_viral": "Son 7-14 gündeki viral olma durumu ve gerekçesi",
+        "why_viral": "Son 7-14 gündeki viral olma durumu, video yorumlarındaki talep seviyesi ve viral gerekçesi",
         "hook_ideas": ["Kanca fikri 1", "Kanca fikri 2"],
         "est_price": "29.99",
         "aliexpress_url": "https://www.aliexpress.com/w/wholesale-ürün-adı.html",
         "scores": {{
-          "viral_potential": 4,
-          "shooting_feasibility": 5,
-          "purchase_desire": 4,
-          "problem_solving": 5,
-          "shipping_ease": 5
+          "visual_satisfaction": 5,
+          "problem_solving": 4,
+          "immediate_understandability": 5,
+          "reaction_potential": 5
         }},
-        "total_score": 23,
+        "total_score": 19,
         "verdict": "Winner Adayı"
       }}
     ]
