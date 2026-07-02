@@ -1,0 +1,131 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:07,560"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 7560
+			},
+			"text": " Şimdi işin güzel kısımlarına gelecek olursak sonunda ürün takip formunu artık kendi platformımıza entekledik ne demek."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,560",
+				"to": "00:00:14,960"
+			},
+			"offsets": {
+				"from": 7560,
+				"to": 14960
+			},
+			"text": " Artık siz ürün takipi için üründenizi bize göndermeden önce farklı bir link üzerinden göndermenize gerek olmayacak demek."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,960",
+				"to": "00:00:23,040"
+			},
+			"offsets": {
+				"from": 14960,
+				"to": 23040
+			},
+			"text": " Girdeniz zaman direkt olarak bu paneli görüyor olacaksanız burada ilk ürün ekle dediğiniz zaman burada ürün yüzün ismini test videolinkini"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,040",
+				"to": "00:00:52,080"
+			},
+			"offsets": {
+				"from": 23040,
+				"to": 52080
+			},
+			"text": " kokul nokta kong koyalım şimdilik. Bunun alexpress linkini ürün fiyatına dolar veya Türk lirası cinsinden mesela bin beş yüz lira olsun devamında burada virali potansiyeni görüyor olacaksanız burada eğer çok viral olduğunu düşünüyorsunuz üç koyacaksanız talep var mı eğer insanlar yoruma girip buna yorum atıyorlar sayığına cevap veriyorlar ise bu kısmını evet diyeceksiniz sonuçsuz gün boyunu viralmi ve ürün hakkınızda düşündüğünüz notları buraya yazabilirsiniz çok güzel ürün."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:52,080",
+				"to": "00:01:07,720"
+			},
+			"offsets": {
+				"from": 52080,
+				"to": 67720
+			},
+			"text": " Devamında burada ürünün ikinci kısmına geldiğiniz zaman ekranınız şuna dönüyor olacak. Burada ürün denizi girdikten sonra bize inceleme göndermek istediğiniz zaman şurada ilkarda inceleme talebi var buna bastığınız zaman bizim önümüzde bu ürünler düşüyor olacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:07,720",
+				"to": "00:01:18,760"
+			},
+			"offsets": {
+				"from": 67720,
+				"to": 78760
+			},
+			"text": " Devamında bu ürünleri incelediğimiz zaman ise ekranınız şuna dönecek. Ürün denizin incelemesi bittiği zaman ekranınız bu şekilde olacak görüyorsunuz artık birden fazla durum üzerinden ilerliyor olacağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:18,760",
+				"to": "00:01:30,240"
+			},
+			"offsets": {
+				"from": 78760,
+				"to": 90240
+			},
+			"text": " Eğer ürününüz güzelse burada dene alıyor olacaksınız eğer ürününüz biraz soru işaret hissek ya da üründen sipariş vermek gerekiyorsa araştır birazcık da sipariş ver birazcık da incelik kısmını görüyor olacaksınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:30,240",
+				"to": "00:01:44,160"
+			},
+			"offsets": {
+				"from": 90240,
+				"to": 104160
+			},
+			"text": " Eğer ürününüz çok teslimlemeyecek bir ürün ise direkt olarak geç kısmını göreceksiniz eğer ürününüz yurt dışında denilebilecek bir ürün ise yurt dışı dene kısmını görüyor olacaksınız bu yurt dışı demek aynı zamanda Türkiye'de deninlebilir demek olacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:44,160",
+				"to": "00:01:48,480"
+			},
+			"offsets": {
+				"from": 104160,
+				"to": 108480
+			},
+			"text": " O yüzden yurt dış aldığınız zaman genel olarak ürünü, yeşil olarak değerlendirebilirsiniz."
+		}
+	]
+}

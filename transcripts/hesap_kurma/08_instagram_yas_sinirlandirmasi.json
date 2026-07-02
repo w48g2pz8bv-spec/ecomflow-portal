@@ -1,0 +1,428 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:04,260"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 4260
+			},
+			"text": " Evet selamlar, bu bize nasıl istiyegemde yaş sınlandırması koyabiliriz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,260",
+				"to": "00:00:08,000"
+			},
+			"offsets": {
+				"from": 4260,
+				"to": 8000
+			},
+			"text": " Yani bize eğer biz cültteşine verir olduğumuz zaman"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,000",
+				"to": "00:00:11,420"
+			},
+			"offsets": {
+				"from": 8000,
+				"to": 11420
+			},
+			"text": " Hindistan'lar bizim videomuza düşünüyor başlıyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:11,420",
+				"to": "00:00:17,020"
+			},
+			"offsets": {
+				"from": 11420,
+				"to": 17020
+			},
+			"text": " Eğer bu nasıl en geldiği biliriz, bu nasıl işte o yaş sınlandırmasına koyabiliriz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,020",
+				"to": "00:00:17,920"
+			},
+			"offsets": {
+				"from": 17020,
+				"to": 17920
+			},
+			"text": " Bunu anlatacağım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,920",
+				"to": "00:00:21,840"
+			},
+			"offsets": {
+				"from": 17920,
+				"to": 21840
+			},
+			"text": " Eğer bu yaş sınlandırmasını yapmasın istiyegem ayarlarımdan"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:21,840",
+				"to": "00:00:24,520"
+			},
+			"offsets": {
+				"from": 21840,
+				"to": 24520
+			},
+			"text": " bizim visual olmuş videomuz Hindistan'lara."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,520",
+				"to": "00:00:28,460"
+			},
+			"offsets": {
+				"from": 24520,
+				"to": 28460
+			},
+			"text": " İşte çok fazla nüfus olan insanları kitilesi düşecek."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:28,460",
+				"to": "00:00:31,620"
+			},
+			"offsets": {
+				"from": 28460,
+				"to": 31620
+			},
+			"text": " O yüzden bu ayarı yapmak, yurt dışında önemli."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:31,620",
+				"to": "00:00:34,040"
+			},
+			"offsets": {
+				"from": 31620,
+				"to": 34040
+			},
+			"text": " Şimdi o mensize bunu göstereyim de sapacağınızı."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:34,040",
+				"to": "00:00:36,940"
+			},
+			"offsets": {
+				"from": 34040,
+				"to": 36940
+			},
+			"text": " Evet ilk önce bu ayarı yapmadığın önce"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:36,940",
+				"to": "00:00:39,320"
+			},
+			"offsets": {
+				"from": 36940,
+				"to": 39320
+			},
+			"text": " hesabınızı profesyonel hesaba geçirmeniz lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:39,320",
+				"to": "00:00:44,320"
+			},
+			"offsets": {
+				"from": 39320,
+				"to": 44320
+			},
+			"text": " Yani işletme hesabı bir içeri kredisi geçirmenize, işletmeye geçirsen itibriyosunuz ki"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:44,320",
+				"to": "00:00:45,820"
+			},
+			"offsets": {
+				"from": 44320,
+				"to": 45820
+			},
+			"text": " videolar izlenmiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:45,820",
+				"to": "00:00:47,420"
+			},
+			"offsets": {
+				"from": 45820,
+				"to": 47420
+			},
+			"text": " Reklam'a puş görsenir."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:47,420",
+				"to": "00:00:49,700"
+			},
+			"offsets": {
+				"from": 47420,
+				"to": 49700
+			},
+			"text": " Eğer hesabı profesyonel geçirmeniz lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:49,700",
+				"to": "00:00:53,240"
+			},
+			"offsets": {
+				"from": 49700,
+				"to": 53240
+			},
+			"text": " İçeri kredisi hesabına geçirmeniz lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:53,240",
+				"to": "00:00:55,440"
+			},
+			"offsets": {
+				"from": 53240,
+				"to": 55440
+			},
+			"text": " Yani profesyonel hesaba geçirmeniz lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:55,440",
+				"to": "00:00:59,180"
+			},
+			"offsets": {
+				"from": 55440,
+				"to": 59180
+			},
+			"text": " Ondan sonra buradan profesyonel panoya basıyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:59,180",
+				"to": "00:01:04,000"
+			},
+			"offsets": {
+				"from": 59180,
+				"to": 64000
+			},
+			"text": " Bundan sonra buraya getten sonra sağ üstten ayarlara basıyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:04,000",
+				"to": "00:01:07,600"
+			},
+			"offsets": {
+				"from": 64000,
+				"to": 67600
+			},
+			"text": " Ve burada minimum yaş var ayarlara bastım sonra."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:07,600",
+				"to": "00:01:09,080"
+			},
+			"offsets": {
+				"from": 67600,
+				"to": 69080
+			},
+			"text": " Buna giriyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:09,080",
+				"to": "00:01:10,880"
+			},
+			"offsets": {
+				"from": 69080,
+				"to": 70880
+			},
+			"text": " Ve burada ülke ekle var."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:10,880",
+				"to": "00:01:15,680"
+			},
+			"offsets": {
+				"from": 70880,
+				"to": 75680
+			},
+			"text": " Burada ülkeklere getikten sonra, ülkeklere getikten sonra burada Hindistan'ı seçiyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:15,680",
+				"to": "00:01:17,440"
+			},
+			"offsets": {
+				"from": 75680,
+				"to": 77440
+			},
+			"text": " Hindistan olur."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:17,440",
+				"to": "00:01:19,480"
+			},
+			"offsets": {
+				"from": 77440,
+				"to": 79480
+			},
+			"text": " İsterseniz Türkiye'de olur."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,480",
+				"to": "00:01:24,080"
+			},
+			"offsets": {
+				"from": 79480,
+				"to": 84080
+			},
+			"text": " Yurt dışında lazım Türkiye'de düşebiliyor mesela VPN'yla bir şey yanlış koyduysanız"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:24,080",
+				"to": "00:01:26,140"
+			},
+			"offsets": {
+				"from": 84080,
+				"to": 86140
+			},
+			"text": " Türkiye'de kovatabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:26,140",
+				"to": "00:01:28,940"
+			},
+			"offsets": {
+				"from": 86140,
+				"to": 88940
+			},
+			"text": " Hindistan olabilir, Filipinler olabilir."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:28,940",
+				"to": "00:01:30,420"
+			},
+			"offsets": {
+				"from": 88940,
+				"to": 90420
+			},
+			"text": " Hindistan'a ekliyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:30,420",
+				"to": "00:01:32,600"
+			},
+			"offsets": {
+				"from": 90420,
+				"to": 92600
+			},
+			"text": " Sonra buraya yaşını yazıyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:32,600",
+				"to": "00:01:37,440"
+			},
+			"offsets": {
+				"from": 92600,
+				"to": 97440
+			},
+			"text": " Hatta 25 yaş buraya 25 yaşıyoruz ve sonra buraya okuyuyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:37,440",
+				"to": "00:01:44,200"
+			},
+			"offsets": {
+				"from": 97440,
+				"to": 104200
+			},
+			"text": " Bu şekilde istedimde birileri olmuş bir videonuzu Hindistan'a düşmesin engeveye"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:44,200",
+				"to": "00:01:45,200"
+			},
+			"offsets": {
+				"from": 104200,
+				"to": 105200
+			},
+			"text": " bilesindim."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:45,200",
+				"to": "00:01:48,840"
+			},
+			"offsets": {
+				"from": 105200,
+				"to": 108840
+			},
+			"text": " Tamamen engelleymesindimde çünkü her tül, her çarpto Hindistan geliyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:48,840",
+				"to": "00:01:54,440"
+			},
+			"offsets": {
+				"from": 108840,
+				"to": 114440
+			},
+			"text": " Ama biz bunu yüzde 50'den 60'den, yüzde 20'e ya da yüzde ona düşebiliyoruz."
+		}
+	]
+}

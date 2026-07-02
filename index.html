@@ -1,0 +1,2499 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcomFlow - Çevrimdışı Eğitim Portalı</title>
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --sidebar-bg: #111827;
+            --card-bg: #1f2937;
+            --accent-color: #3b82f6;
+            --accent-hover: #2563eb;
+            --text-color: #f3f4f6;
+            --text-muted: #9ca3af;
+            --border-color: #374151;
+            --success-color: #10b981;
+            --tab-active: #3b82f6;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Sidebar styling */
+        .sidebar {
+            width: 320px;
+            background-color: var(--sidebar-bg);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .sidebar-header {
+            padding: 20px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .sidebar-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 11px 14px;
+            background-color: #1f2937;
+            border: 1px solid #374151;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 0.9rem;
+            outline: none;
+            transition: all 0.2s ease;
+        }
+
+        .search-box:focus {
+            border-color: var(--accent-color);
+            background-color: #111827;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+        }
+
+        .btn-chats-search {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-weight: 700;
+            font-size: 0.85rem;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+        }
+
+        .btn-chats-search:hover {
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            transform: translateY(-1px);
+            box-shadow: 0 6px 16px rgba(59, 130, 246, 0.3);
+        }
+
+        .btn-ai-specialist {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, #8b5cf6, #ec4899);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-weight: 700;
+            font-size: 0.85rem;
+            margin-top: 8px;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 12px rgba(139, 92, 246, 0.25);
+        }
+
+        .btn-ai-specialist:hover {
+            background: linear-gradient(135deg, #7c3aed, #db2777);
+            transform: translateY(-1px);
+            box-shadow: 0 6px 16px rgba(139, 92, 246, 0.35);
+        }
+
+        .progress-container {
+            padding: 15px 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .progress-bar-bg {
+            width: 100%;
+            height: 8px;
+            background-color: #374151;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 5px;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            width: 0%;
+            background-color: var(--success-color);
+            transition: width 0.3s;
+        }
+
+        .progress-text {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .lesson-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px;
+        }
+
+        .space-group {
+            margin-bottom: 8px;
+        }
+
+        .space-header {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            padding: 10px;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            border-radius: 6px;
+            transition: all 0.2s;
+            user-select: none;
+        }
+
+        .space-header:hover {
+            color: #fff;
+            background-color: rgba(255, 255, 255, 0.03);
+        }
+
+        .space-lessons {
+            transition: max-height 0.25s ease-out;
+            overflow: hidden;
+        }
+
+        .lesson-item {
+            padding: 10px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+
+        .lesson-item:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+            transform: translateX(4px);
+        }
+
+        .lesson-item.active {
+            background-color: rgba(59, 130, 246, 0.15);
+            color: #fff;
+            border-left: 3px solid var(--accent-color);
+            border-radius: 0 6px 6px 0;
+            padding-left: 9px; /* offset the border */
+        }
+
+        .lesson-item.active .lesson-title {
+            color: #fff;
+        }
+
+        .lesson-checkbox {
+            width: 16px;
+            height: 16px;
+            border-radius: 4px;
+            border: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            background-color: #0b0f19;
+            flex-shrink: 0;
+        }
+
+        .lesson-checkbox.completed {
+            background-color: var(--success-color);
+            border-color: var(--success-color);
+        }
+
+        .lesson-checkbox.completed::after {
+            content: "✓";
+            color: #fff;
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        .lesson-title-container {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            min-width: 0;
+        }
+
+        .lesson-title {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text-color);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .lesson-type {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .lesson-item.active .lesson-type {
+            color: #d1d5db;
+        }
+
+        /* Main content styling */
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            background-color: var(--bg-color);
+            overflow: hidden;
+        }
+
+        .video-container {
+            width: 100%;
+            background-color: #000;
+            aspect-ratio: 16/9;
+            max-height: 55vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            outline: none;
+        }
+
+        .video-error-placeholder {
+            padding: 40px;
+            text-align: center;
+            color: var(--text-muted);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 500px;
+        }
+
+        .video-error-placeholder button {
+            padding: 10px 20px;
+            background-color: var(--accent-color);
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .video-error-placeholder button:hover {
+            background-color: var(--accent-hover);
+        }
+
+        .details-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .details-header {
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .details-title-group h1 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .details-meta {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .btn-complete-toggle {
+            padding: 10px 20px;
+            background-color: #1f2937;
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .btn-complete-toggle:hover {
+            background-color: #374151;
+        }
+
+        .btn-complete-toggle.completed {
+            background-color: var(--success-color);
+            color: #fff;
+            border-color: var(--success-color);
+        }
+
+        /* Tabs Container */
+        .tabs-header {
+            display: flex;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 20px;
+            gap: 15px;
+        }
+
+        .tab-btn {
+            padding: 10px 15px;
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-weight: 600;
+            font-size: 0.95rem;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+
+        .tab-btn:hover {
+            color: #fff;
+        }
+
+        .tab-btn.active {
+            color: var(--tab-active);
+            border-bottom-color: var(--tab-active);
+        }
+
+        .tab-content {
+            display: none;
+            flex: 1;
+        }
+
+        .transcript-segment {
+            margin-bottom: 12px;
+            display: flex;
+            align-items: flex-start;
+            padding: 4px 8px;
+            border-radius: 4px;
+            transition: background 0.15s;
+        }
+        .transcript-segment:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+        .transcript-time {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+            margin-right: 12px;
+            font-family: monospace;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        .transcript-time:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+        }
+        .transcript-text {
+            color: #d1d5db;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Post Body Content formatting */
+        .content-body {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: #d1d5db;
+        }
+
+        .content-body p {
+            margin-bottom: 15px;
+        }
+
+        .content-body h1, .content-body h2, .content-body h3 {
+            color: #fff;
+            margin: 25px 0 10px 0;
+            font-weight: 600;
+        }
+
+        .content-body ul, .content-body ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .content-body li {
+            margin-bottom: 5px;
+        }
+
+        .content-body blockquote {
+            border-left: 4px solid var(--accent-color);
+            background-color: #111827;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+
+        .attachments-list {
+            margin-top: 25px;
+            padding: 20px;
+            background-color: #111827;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+        }
+
+        .attachments-header {
+            font-weight: 700;
+            font-size: 0.95rem;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .attachment-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            background-color: #1f2937;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-size: 0.85rem;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .attachment-item:hover {
+            background-color: var(--accent-color);
+            color: #fff;
+        }
+
+        /* Q&A Comments Area */
+        .qa-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .comment-card {
+            background-color: #111827;
+            border: 1px solid var(--border-color);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .comment-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #1f2937;
+            padding-bottom: 8px;
+        }
+
+        .comment-author {
+            font-weight: 700;
+            color: #3b82f6;
+            font-size: 0.95rem;
+        }
+
+        .comment-body-text {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #e5e7eb;
+            white-space: pre-wrap;
+        }
+
+        .reply-card {
+            background-color: #1f2937;
+            border-left: 3px solid #10b981;
+            padding: 12px 18px;
+            border-radius: 4px;
+            margin-top: 12px;
+            margin-left: 20px;
+        }
+
+        .reply-author {
+            font-weight: 700;
+            color: #10b981;
+            font-size: 0.85rem;
+            margin-bottom: 4px;
+        }
+
+        .reply-body {
+            font-size: 0.9rem;
+            color: #d1d5db;
+            white-space: pre-wrap;
+        }
+
+        /* Chats Search Dashboard View */
+        .chats-search-view {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            padding: 30px;
+            overflow-y: auto;
+        }
+
+        .chats-search-header {
+            margin-bottom: 25px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+
+        .chats-search-header h1 {
+            font-size: 1.8rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .chats-search-filters {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .chats-search-input {
+            flex: 1;
+            padding: 12px 15px;
+            background-color: #111827;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: #fff;
+            font-size: 0.95rem;
+            outline: none;
+        }
+
+        .chats-search-input:focus {
+            border-color: var(--accent-color);
+        }
+
+        .chats-select-filter {
+            padding: 12px;
+            background-color: #111827;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: #fff;
+            font-size: 0.95rem;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .chats-results-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .chat-result-card {
+            background-color: #111827;
+            border: 1px solid var(--border-color);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .chat-result-meta {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            border-bottom: 1px solid #1f2937;
+            padding-bottom: 6px;
+        }
+
+        .chat-result-channel {
+            color: #3b82f6;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.5px;
+        }
+
+        .chat-result-author {
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 5px;
+            font-size: 0.95rem;
+        }
+
+        .chat-result-body {
+            font-size: 0.95rem;
+            color: #e5e7eb;
+            line-height: 1.6;
+            white-space: pre-wrap;
+        }
+
+        .highlight {
+            background-color: rgba(251, 191, 36, 0.3);
+            color: #fff;
+            padding: 1px 3px;
+            border-radius: 2px;
+        }
+
+        /* AI Product Hunter Custom Styles */
+        .btn-product-hunter {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, #10b981, #06b6d4);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-weight: 700;
+            font-size: 0.85rem;
+            margin-top: 8px;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.25);
+        }
+
+        .btn-product-hunter:hover {
+            background: linear-gradient(135deg, #059669, #0891b2);
+            transform: translateY(-1px);
+            box-shadow: 0 6px 16px rgba(16, 185, 129, 0.35);
+        }
+
+        .hunter-grid-layout {
+            display: grid;
+            grid-template-columns: 62% 38%;
+            gap: 20px;
+            margin-top: 15px;
+            height: calc(100% - 130px);
+            min-height: 0;
+            box-sizing: border-box;
+        }
+
+        .hunter-column {
+            background: #111827;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            box-sizing: border-box;
+            min-height: 0;
+        }
+
+        .hunter-products-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 15px;
+            overflow-y: auto;
+            flex: 1;
+            min-height: 0;
+            padding-right: 5px;
+        }
+
+        .product-card {
+            background: #1f2937;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 18px;
+            transition: all 0.2s;
+            position: relative;
+        }
+
+        .product-card:hover {
+            border-color: #10b981;
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.1);
+        }
+
+        .product-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .product-name {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .product-badge {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .product-badge.showcase {
+            background: rgba(139, 92, 246, 0.2);
+            color: #c084fc;
+            border: 1px solid rgba(139, 92, 246, 0.4);
+        }
+
+        .product-badge.regular {
+            background: rgba(59, 130, 246, 0.2);
+            color: #60a5fa;
+            border: 1px solid rgba(59, 130, 246, 0.4);
+        }
+
+        .score-pill-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        .score-pill {
+            background: #111827;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 4px 8px;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            display: flex;
+            gap: 5px;
+        }
+
+        .score-pill-val {
+            font-weight: 700;
+        }
+
+        .score-pill-val.high { color: #10b981; }
+        .score-pill-val.medium { color: #f59e0b; }
+        .score-pill-val.low { color: #ef4444; }
+
+        .score-gauge-bar {
+            width: 100%;
+            height: 6px;
+            background: #374151;
+            border-radius: 3px;
+            overflow: hidden;
+            margin-top: 5px;
+        }
+
+        .score-gauge-fill {
+            height: 100%;
+            border-radius: 3px;
+            transition: width 0.3s;
+        }
+
+        .product-details {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            color: #d1d5db;
+            line-height: 1.5;
+        }
+
+        .hook-box {
+            background: #111827;
+            border-left: 3px solid #10b981;
+            padding: 10px;
+            border-radius: 0 6px 6px 0;
+            margin-top: 10px;
+        }
+
+        .hunter-btn {
+            background: #10b981;
+            color: #fff;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .hunter-btn:hover {
+            background: #059669;
+            transform: translateY(-1px);
+        }
+
+        .hunter-btn-outline {
+            background: transparent;
+            color: #fff;
+            border: 1px solid var(--border-color);
+            padding: 8px 15px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .hunter-btn-outline:hover {
+            background: #1f2937;
+            border-color: #9ca3af;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-title">
+                <span>⚡</span> EcomFlow Portal
+            </div>
+            <input type="text" class="search-box" id="search-input" placeholder="Ders veya konu ara..." oninput="onSearch()">
+            <button class="btn-chats-search" onclick="showChatsDashboard()">
+                💬 Mentör Sohbet Arşivi Arama
+            </button>
+            <button class="btn-ai-specialist" onclick="showAISpecialist()">
+                🤖 EcomFlow AI Specialist
+            </button>
+            <button class="btn-product-hunter" onclick="showProductHunter()">
+                🔍 AI Ürün Avcısı
+            </button>
+        </div>
+        
+        <div class="progress-container">
+            <div class="progress-text">
+                <span>İlerleme Durumu</span>
+                <span id="progress-percent">0%</span>
+            </div>
+            <div class="progress-bar-bg">
+                <div class="progress-bar-fill" id="progress-fill"></div>
+            </div>
+        </div>
+
+        <div class="lesson-list" id="lesson-list-container">
+            <!-- Dynamic list will go here -->
+        </div>
+    </div>
+
+    <!-- Main Content Panel -->
+    <div class="main-content" id="main-content-panel">
+        
+        <!-- Lesson View (Default) -->
+        <div id="lesson-view-container" style="display:flex; flex-direction:column; height:100%;">
+            <div class="video-container" id="video-wrapper">
+                <!-- Video tag will be loaded dynamically -->
+            </div>
+
+            <div class="details-container">
+                <div class="details-header">
+                    <div class="details-title-group">
+                        <h1 id="active-title">Yükleniyor...</h1>
+                        <div class="details-meta" id="active-meta">Seçim yapın</div>
+                    </div>
+                    <button class="btn-complete-toggle" id="btn-complete" onclick="toggleCompleteActive()">
+                        Tamamlandı İşaretle
+                    </button>
+                </div>
+
+                <!-- Tabs Header -->
+                <div class="tabs-header">
+                    <button class="tab-btn active" onclick="switchTab('notes')">📖 Ders Notları</button>
+                    <button class="tab-btn" id="tab-btn-qa" onclick="switchTab('qa')">🙋‍♂️ Mentör Soru-Cevapları (<span id="qa-count">0</span>)</button>
+                    <button class="tab-btn" id="tab-btn-transcript" onclick="switchTab('transcript')" style="display:none;">🎙️ Ders Metni (Transkript)</button>
+                </div>
+
+                <!-- Tab: Notes -->
+                <div class="tab-content active" id="tab-notes">
+                    <div class="content-body" id="active-body">
+                        <!-- Text body will load here -->
+                    </div>
+
+                    <div class="attachments-list" id="active-attachments-wrapper" style="display:none;">
+                        <div class="attachments-header">📂 Ekler & Şablonlar</div>
+                        <div id="active-attachments"></div>
+                    </div>
+                </div>
+
+                <!-- Tab: Q&A Comments -->
+                <div class="tab-content" id="tab-qa">
+                    <div class="qa-list" id="active-qa-list">
+                        <!-- Q&A list will load here -->
+                    </div>
+                </div>
+
+                <!-- Tab: Transcript -->
+                <div class="tab-content" id="tab-transcript">
+                    <div class="content-body" id="active-transcript" style="line-height: 1.8; font-size: 0.95rem; max-height: 480px; overflow-y: auto; padding: 15px; background: rgba(0,0,0,0.15); border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
+                        <!-- Interactive transcript will load here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chats Dashboard View (Hidden by default) -->
+        <div id="chats-dashboard-container" class="chats-search-view" style="display:none;">
+            <div class="chats-search-header">
+                <h1>💬 Canlı Sohbet Mentör Arşivi</h1>
+                <p style="color:var(--text-muted); font-size:0.95rem;">Grup Chat ve Mastermind Chat odalarındaki mentörlerin/yöneticilerin önemli soru-cevaplarını arayın.</p>
+                <div class="chats-search-filters">
+                    <input type="text" class="chats-search-input" id="chat-search-input" placeholder="Sohbet geçmişinde anahtar kelime arayın (örn. ban, proxy, kargo, reklam)..." oninput="onChatSearch()">
+                    <select class="chats-select-filter" id="chat-channel-filter" onchange="onChatSearch()">
+                        <option value="all">Tüm Odalar</option>
+                        <option value="grup-chat">Grup Chat</option>
+                        <option value="mastermind-chat">Mastermind Chat</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="chats-results-list" id="chat-results-container">
+                <!-- Search results will load here -->
+            </div>
+        </div>
+
+        <!-- EcomFlow AI Specialist Dashboard View (Hidden by default) -->
+        <div id="ai-specialist-container" class="chats-search-view" style="display:none; flex-direction:column; height:100%; max-height:100%; box-sizing:border-box;">
+            <div class="chats-search-header" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px; padding-bottom:15px;">
+                <div>
+                    <h1 style="display:flex; align-items:center; gap:10px;">🤖 EcomFlow AI Specialist</h1>
+                    <p style="color:var(--text-muted); font-size:0.95rem; margin-top:4px;">174 Ders videosu, ders notları ve canlı sohbet verilerine dayalı akıllı dropshipping mentörünüz.</p>
+                </div>
+                <button onclick="toggleAISettings()" style="background:#1f2937; border:1px solid var(--border-color); color:#fff; padding:8px 12px; border-radius:6px; font-weight:600; cursor:pointer; display:flex; align-items:center; gap:6px; transition:all 0.2s;">
+                    ⚙️ Ayarlar
+                </button>
+            </div>
+
+            <!-- Settings Panel (Hidden by default) -->
+            <div id="ai-settings-panel" style="display:none; background:#111827; border:1px solid var(--border-color); padding:15px; border-radius:8px; margin-bottom:15px; flex-direction:column; gap:12px;">
+                <h3 style="font-size:1rem; color:#fff;">🤖 AI Yapılandırma Ayarları</h3>
+                
+                <div style="display:flex; flex-direction:column; gap:6px;">
+                    <label style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">Yapay Zeka Servisi:</label>
+                    <select id="ai-service-select" onchange="onAIServiceChange()" style="background:#1f2937; border:1px solid var(--border-color); color:#fff; padding:8px; border-radius:4px; outline:none;">
+                        <option value="gemini">Google Gemini API (Önerilen - En Akıllı)</option>
+                        <option value="ollama">Yerel Ollama (Çevrimdışı / Local)</option>
+                    </select>
+                </div>
+
+                <!-- Gemini API config -->
+                <div id="config-group-gemini" style="display:flex; flex-direction:column; gap:6px;">
+                    <label style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">Gemini API Anahtarı:</label>
+                    <div style="display:flex; gap:10px;">
+                        <input type="password" id="gemini-api-key" placeholder="AIZAy..." style="flex:1; background:#1f2937; border:1px solid var(--border-color); color:#fff; padding:8px 12px; border-radius:4px; outline:none; font-family:monospace;">
+                        <button onclick="saveAISettings()" style="background:var(--accent-color); color:#fff; border:none; padding:8px 15px; border-radius:4px; font-weight:600; cursor:pointer;">Kaydet</button>
+                    </div>
+                    <p style="font-size:0.75rem; color:var(--text-muted);">API anahtarınız sadece tarayıcınızda (localStorage) saklanır, dışarıya sızdırılmaz. <a href="https://aistudio.google.com/" target="_blank" style="color:var(--accent-color); text-decoration:none;">Buraya tıklayarak ücretsiz Gemini API anahtarı alabilirsiniz.</a></p>
+                </div>
+
+                <!-- Ollama config -->
+                <div id="config-group-ollama" style="display:none; flex-direction:column; gap:6px;">
+                    <label style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">Ollama Local Endpoint:</label>
+                    <input type="text" id="ollama-url" value="http://localhost:11434" style="background:#1f2937; border:1px solid var(--border-color); color:#fff; padding:8px 12px; border-radius:4px; outline:none;">
+                    <label style="font-size:0.85rem; color:var(--text-muted); font-weight:600; margin-top:6px;">Model Adı (Local Model):</label>
+                    <div style="display:flex; gap:10px;">
+                        <input type="text" id="ollama-model" value="llama3" style="flex:1; background:#1f2937; border:1px solid var(--border-color); color:#fff; padding:8px 12px; border-radius:4px; outline:none;">
+                        <button onclick="saveAISettings()" style="background:var(--accent-color); color:#fff; border:none; padding:8px 15px; border-radius:4px; font-weight:600; cursor:pointer;">Kaydet</button>
+                    </div>
+                    <p style="font-size:0.75rem; color:var(--text-muted);">Yerel Mac bilgisayarınızda Ollama uygulamasının açık olduğundan ve belirtilen modelin yüklü olduğundan (örn. `ollama run llama3`) emin olun.</p>
+                </div>
+            </div>
+
+            <!-- Chat Dialog Window -->
+            <div id="ai-chat-window" style="flex:1; display:flex; flex-direction:column; background:#111827; border:1px solid var(--border-color); border-radius:8px; overflow:hidden; min-height:0;">
+                <div id="ai-messages-container" style="flex:1; padding:20px; overflow-y:auto; display:flex; flex-direction:column; gap:15px; min-height:0;">
+                    <div class="ai-msg-bubble system" style="background:#1f2937; border:1px solid var(--border-color); color:#f3f4f6; padding:15px; border-radius:8px; line-height:1.6; max-width:85%;">
+                        <p style="font-weight:700; color:#a78bfa; margin-bottom:6px; display:flex; align-items:center; gap:6px;">🤖 EcomFlow AI Specialist'e Hoş Geldiniz!</p>
+                        <p style="font-size:0.92rem; margin-bottom:8px;">Ben 174 video ders, transkriptler ve tüm mentör yazışmalarını bilen yapay zeka dropshipping asistanıyım. Bana dropshipping süreci, ürün seçimi, reklam stratejileri veya şirket kurulumu hakkında merak ettiğiniz her şeyi sorabilirsiniz.</p>
+                        <p style="font-size:0.85rem; color:var(--text-muted); font-style:italic;">Başlamak için sağ üstteki ⚙️ Ayarlar panelinden Gemini API anahtarınızı girin ve aşağıdaki kutudan sorunuzu sorun.</p>
+                    </div>
+                </div>
+
+                <div style="background:#1f2937; border-top:1px solid var(--border-color); padding:15px; display:flex; gap:10px; align-items:center;">
+                    <textarea id="ai-input-text" placeholder="Dropshipping mentörünüze sorun (örn. Meta reklamlarında piksel kurulumunu nasıl yaparım?)..." style="flex:1; background:#111827; border:1px solid var(--border-color); color:#fff; padding:10px 12px; border-radius:6px; outline:none; resize:none; height:45px; line-height:1.4; font-size:0.95rem; font-family:inherit;" onkeydown="handleAISubmitKey(event)"></textarea>
+                    <button id="ai-send-btn" onclick="submitAIQuery()" style="background:linear-gradient(135deg, #8b5cf6, #ec4899); color:#fff; border:none; width:45px; height:45px; border-radius:6px; font-size:1.2rem; cursor:pointer; display:flex; align-items:center; justify-content:center; transition:transform 0.15s; outline:none;" title="Gönder">
+                        ➔
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- AI Product Hunter View (Hidden by default) -->
+        <div id="product-hunter-container" class="chats-search-view" style="display:none; flex-direction:column; height:100%; max-height:100%; box-sizing:border-box;">
+            <div class="chats-search-header" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px; padding-bottom:15px;">
+                <div>
+                    <h1 style="display:flex; align-items:center; gap:10px;">🔍 AI Ürün Avcısı & Trend Tarayıcı</h1>
+                    <p style="color:var(--text-muted); font-size:0.95rem; margin-top:4px;">Bulut otomasyonu ile taranmış veya canlı keşfedilmiş en taze winner adaylarını analiz edin.</p>
+                </div>
+                <div style="display:flex; gap:10px; align-items:center;">
+                    <label style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">GitHub Reponuz:</label>
+                    <input type="text" id="git-repo-path" placeholder="kullaniciadi/depo-adi" style="background:#1f2937; border:1px solid var(--border-color); color:#fff; padding:8px 12px; border-radius:6px; outline:none; width:180px; font-size:0.9rem;" value="">
+                    <button onclick="syncCloudProducts()" class="hunter-btn" style="display:flex; align-items:center; gap:6px;">
+                        ☁️ Eşitle
+                    </button>
+                </div>
+            </div>
+
+            <!-- Hunter Layout Grid -->
+            <div class="hunter-grid-layout">
+                <!-- Left: Product List / Scanning -->
+                <div class="hunter-column">
+                    <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--border-color); padding-bottom:12px; margin-bottom:10px;">
+                        <h2 style="font-size:1.1rem; color:#fff;">🔍 Viral Keşif Havuzu</h2>
+                        <div style="display:flex; gap:10px; align-items:center;">
+                            <select id="hunter-category-filter" onchange="filterProductsUI()" style="background:#1f2937; border:1px solid var(--border-color); color:#fff; padding:6px 10px; border-radius:4px; outline:none; font-size:0.85rem;">
+                                <option value="all">Tüm Kategoriler</option>
+                                <option value="Mutfak Gereçleri">Mutfak Gereçleri</option>
+                                <option value="Güzellik ve Cilt Bakımı">Güzellik & Cilt Bakımı</option>
+                                <option value="Ev ve Yaşam / Dekorasyon">Ev & Yaşam / Dekorasyon</option>
+                                <option value="Evcil Hayvan Ürünleri">Evcil Hayvan Ürünleri</option>
+                                <option value="Teknoloji ve Oto Aksesuar">Teknoloji & Oto Aksesuar</option>
+                            </select>
+                            <button onclick="scanViralProductsLocal()" class="hunter-btn" style="padding:6px 12px; font-size:0.85rem;">
+                                🚀 Canlı Tara (Gemini)
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="hunter-status-box" style="display:none; padding:12px; background:rgba(59, 130, 246, 0.1); border:1px solid rgba(59, 130, 246, 0.3); border-radius:6px; margin-bottom:10px; font-size:0.9rem; color:#60a5fa; align-items:center; gap:8px;">
+                        <span class="spinner" style="border: 2px solid rgba(255,255,255,0.1); border-top: 2px solid #60a5fa; border-radius: 50%; width: 14px; height: 14px; animation: spin 1s linear infinite; display: inline-block;"></span>
+                        <span id="hunter-status-text">İşlem yapılıyor...</span>
+                    </div>
+
+                    <style>
+                        @keyframes spin {
+                            0% { transform: rotate(0deg); }
+                            100% { transform: rotate(360deg); }
+                        }
+                    </style>
+
+                    <div class="hunter-products-list" id="hunter-products-grid">
+                        <p style="color:var(--text-muted); font-style:italic; text-align:center; padding: 40px;">Eşitle butonuna basarak buluttaki ürünleri yükleyin veya Canlı Tara ile yeni ürünler keşfedin.</p>
+                    </div>
+                </div>
+
+                <!-- Right: Saved Winner Products / Manual Matrix -->
+                <div class="hunter-column" style="border-left:1px solid var(--border-color);">
+                    <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--border-color); padding-bottom:12px; margin-bottom:10px;">
+                        <h2 style="font-size:1.1rem; color:#fff;">🏆 Winner Adaylarım</h2>
+                        <button onclick="toggleManualMatrixForm()" class="hunter-btn-outline" style="padding:6px 12px; font-size:0.85rem;">
+                            ➕ Manuel Puanlama
+                        </button>
+                    </div>
+
+                    <!-- Manual Matrix Form (Hidden by default) -->
+                    <div id="manual-matrix-form" style="display:none; background:#1f2937; border:1px solid var(--border-color); border-radius:8px; padding:15px; margin-bottom:15px; flex-direction:column; gap:10px;">
+                        <h3 style="font-size:0.95rem; color:#fff; margin-bottom:5px;">📝 Yeni Ürün Değerlendir</h3>
+                        
+                        <input type="text" id="manual-prod-name" placeholder="Ürün Adı (örn. Temizlik Jeli)..." style="background:#111827; border:1px solid var(--border-color); color:#fff; padding:8px; border-radius:4px; outline:none; font-size:0.9rem;">
+                        
+                        <select id="manual-prod-category" style="background:#111827; border:1px solid var(--border-color); color:#fff; padding:8px; border-radius:4px; outline:none; font-size:0.9rem;">
+                            <option value="Mutfak Gereçleri">Mutfak Gereçleri</option>
+                            <option value="Güzellik ve Cilt Bakımı">Güzellik & Cilt Bakımı</option>
+                            <option value="Ev ve Yaşam / Dekorasyon">Ev & Yaşam / Dekorasyon</option>
+                            <option value="Evcil Hayvan Ürünleri">Evcil Hayvan Ürünleri</option>
+                            <option value="Teknoloji ve Oto Aksesuar">Teknoloji & Oto Aksesuar</option>
+                        </select>
+
+                        <textarea id="manual-prod-desc" placeholder="Ürün açıklaması, ne işe yaradığı..." style="background:#111827; border:1px solid var(--border-color); color:#fff; padding:8px; border-radius:4px; outline:none; font-size:0.9rem; resize:none; height:50px; font-family:inherit;"></textarea>
+
+                        <!-- Sliders -->
+                        <div style="display:flex; flex-direction:column; gap:8px; margin-top:5px;">
+                            <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted);">
+                                <span>1. Viral Potansiyel:</span>
+                                <span id="val-viral">3</span>
+                            </div>
+                            <input type="range" min="1" max="5" value="3" id="slide-viral" oninput="document.getElementById('val-viral').innerText = this.value" style="accent-color:#10b981;">
+
+                            <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted);">
+                                <span>2. Çekim Kolaylığı:</span>
+                                <span id="val-shooting">3</span>
+                            </div>
+                            <input type="range" min="1" max="5" value="3" id="slide-shooting" oninput="document.getElementById('val-shooting').innerText = this.value" style="accent-color:#10b981;">
+
+                            <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted);">
+                                <span>3. Satın Alma Talebi:</span>
+                                <span id="val-demand">3</span>
+                            </div>
+                            <input type="range" min="1" max="5" value="3" id="slide-demand" oninput="document.getElementById('val-demand').innerText = this.value" style="accent-color:#10b981;">
+
+                            <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted);">
+                                <span>4. Problem Çözme:</span>
+                                <span id="val-value">3</span>
+                            </div>
+                            <input type="range" min="1" max="5" value="3" id="slide-value" oninput="document.getElementById('val-value').innerText = this.value" style="accent-color:#10b981;">
+
+                            <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted);">
+                                <span>5. Tedarik/Kargo:</span>
+                                <span id="val-shipping">3</span>
+                            </div>
+                            <input type="range" min="1" max="5" value="3" id="slide-shipping" oninput="document.getElementById('val-shipping').innerText = this.value" style="accent-color:#10b981;">
+                        </div>
+
+                        <div style="display:flex; gap:10px; margin-top:10px;">
+                            <button onclick="analyzeManualProduct()" class="hunter-btn" style="flex:1;">🤖 Mentör Raporu Çıkar</button>
+                            <button onclick="toggleManualMatrixForm()" class="hunter-btn-outline" style="padding:8px 12px;">İptal</button>
+                        </div>
+                    </div>
+
+                    <div class="hunter-products-list" id="hunter-saved-grid">
+                        <!-- Saved items will load here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Load Local JSON Database -->
+    <script src="data.js"></script>
+    <script>
+        let completedSet = new Set();
+        let activeItem = null;
+        let isShowingChatsDashboard = false;
+        const collapsedSpaces = new Set();
+        let isFirstRender = true;
+
+        // Load progress from localStorage
+        function loadProgress() {
+            try {
+                const saved = localStorage.getItem('organik_celik_progress');
+                if (saved) {
+                    completedSet = new Set(JSON.parse(saved));
+                }
+            } catch(e) {
+                console.error('Failed to load progress:', e);
+            }
+        }
+
+        // Save progress to localStorage
+        function saveProgress() {
+            try {
+                localStorage.setItem('organik_celik_progress', JSON.stringify(Array.from(completedSet)));
+            } catch(e) {
+                console.error('Failed to save progress:', e);
+            }
+            updateProgressBar();
+        }
+
+        function updateProgressBar() {
+            if (!window.portalData || portalData.length === 0) return;
+            const percent = Math.round((completedSet.size / portalData.length) * 100);
+            document.getElementById('progress-percent').innerText = `${percent}%`;
+            document.getElementById('progress-fill').style.width = `${percent}%`;
+        }
+
+        // Switch Tabs under lesson view
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+
+            if (tabName === 'notes') {
+                document.querySelectorAll('.tab-btn')[0].classList.add('active');
+                document.getElementById('tab-notes').classList.add('active');
+            } else if (tabName === 'qa') {
+                document.getElementById('tab-btn-qa').classList.add('active');
+                document.getElementById('tab-qa').classList.add('active');
+            } else if (tabName === 'transcript') {
+                document.getElementById('tab-btn-transcript').classList.add('active');
+                document.getElementById('tab-transcript').classList.add('active');
+            }
+        }
+
+        let isShowingAISpecialist = false;
+        let isShowingProductHunter = false;
+
+        function showAISpecialist() {
+            isShowingChatsDashboard = false;
+            isShowingAISpecialist = true;
+            isShowingProductHunter = false;
+            document.getElementById('lesson-view-container').style.display = 'none';
+            document.getElementById('chats-dashboard-container').style.display = 'none';
+            document.getElementById('ai-specialist-container').style.display = 'flex';
+            document.getElementById('product-hunter-container').style.display = 'none';
+            
+            document.querySelectorAll('.lesson-item').forEach(el => el.classList.remove('active'));
+            loadAISettingsUI();
+        }
+
+        // Show chats search dashboard instead of lesson view
+        function showChatsDashboard() {
+            isShowingChatsDashboard = true;
+            isShowingAISpecialist = false;
+            isShowingProductHunter = false;
+            document.getElementById('lesson-view-container').style.display = 'none';
+            document.getElementById('chats-dashboard-container').style.display = 'flex';
+            document.getElementById('ai-specialist-container').style.display = 'none';
+            document.getElementById('product-hunter-container').style.display = 'none';
+            
+            // Remove active highlights in sidebar
+            document.querySelectorAll('.lesson-item').forEach(el => el.classList.remove('active'));
+            
+            // Init empty search or load all
+            onChatSearch();
+        }
+
+        // Show Product Hunter Dashboard
+        function showProductHunter() {
+            isShowingChatsDashboard = false;
+            isShowingAISpecialist = false;
+            isShowingProductHunter = true;
+            document.getElementById('lesson-view-container').style.display = 'none';
+            document.getElementById('chats-dashboard-container').style.display = 'none';
+            document.getElementById('ai-specialist-container').style.display = 'none';
+            document.getElementById('product-hunter-container').style.display = 'flex';
+            
+            document.querySelectorAll('.lesson-item').forEach(el => el.classList.remove('active'));
+            
+            // Load saved settings and files
+            const savedRepo = localStorage.getItem('ecomflow_git_repo') || '';
+            document.getElementById('git-repo-path').value = savedRepo;
+            
+            loadLocalSavedProducts();
+            loadSyncedProductsList();
+        }
+
+        // Hide dashboards and show lesson view
+        function showLessonView() {
+            isShowingChatsDashboard = false;
+            isShowingAISpecialist = false;
+            isShowingProductHunter = false;
+            document.getElementById('lesson-view-container').style.display = 'flex';
+            document.getElementById('chats-dashboard-container').style.display = 'none';
+            document.getElementById('ai-specialist-container').style.display = 'none';
+            document.getElementById('product-hunter-container').style.display = 'none';
+        }
+
+        // Render the sidebar list grouped by Space
+        function renderSidebar(filterText = '') {
+            const listContainer = document.getElementById('lesson-list-container');
+            listContainer.innerHTML = '';
+
+            const groups = {};
+            portalData.forEach(item => {
+                if (filterText) {
+                    const matchTitle = item.title.toLowerCase().includes(filterText.toLowerCase());
+                    const matchBody = item.bodyHtml.toLowerCase().includes(filterText.toLowerCase());
+                    const matchSpace = item.space.toLowerCase().includes(filterText.toLowerCase());
+                    if (!matchTitle && !matchBody && !matchSpace) return;
+                }
+
+                if (!groups[item.space]) {
+                    groups[item.space] = [];
+                }
+                groups[item.space].push(item);
+            });
+
+            if (isFirstRender && portalData.length > 0) {
+                // Collapse all spaces except the active item's space
+                const activeSpace = activeItem ? activeItem.space : portalData[0].space;
+                const allSpaces = new Set(portalData.map(item => item.space));
+                allSpaces.forEach(sp => {
+                    if (sp !== activeSpace) {
+                        collapsedSpaces.add(sp);
+                    }
+                });
+                isFirstRender = false;
+            }
+
+            for (const space in groups) {
+                const groupDiv = document.createElement('div');
+                groupDiv.className = 'space-group';
+
+                const isCollapsed = collapsedSpaces.has(space);
+                if (isCollapsed) {
+                    groupDiv.classList.add('collapsed');
+                }
+
+                const header = document.createElement('div');
+                header.className = 'space-header';
+                
+                const chevron = document.createElement('span');
+                chevron.className = 'space-chevron';
+                chevron.innerText = isCollapsed ? '▶ ' : '▼ ';
+                chevron.style = 'font-size: 0.65rem; margin-right: 8px; color: var(--accent-color); transition: transform 0.2s; display: inline-block; width: 12px;';
+                header.appendChild(chevron);
+
+                const titleSpan = document.createElement('span');
+                titleSpan.innerText = space;
+                header.appendChild(titleSpan);
+
+                header.onclick = () => {
+                    if (collapsedSpaces.has(space)) {
+                        collapsedSpaces.delete(space);
+                    } else {
+                        collapsedSpaces.add(space);
+                    }
+                    renderSidebar(document.getElementById('search-input').value);
+                };
+                groupDiv.appendChild(header);
+
+                const lessonsContainer = document.createElement('div');
+                lessonsContainer.className = 'space-lessons';
+                lessonsContainer.style.display = isCollapsed ? 'none' : 'block';
+
+                groups[space].forEach(item => {
+                    const lItem = document.createElement('div');
+                    lItem.className = 'lesson-item';
+                    if (!isShowingChatsDashboard && !isShowingAISpecialist && !isShowingProductHunter && activeItem && activeItem.url === item.url) {
+                        lItem.classList.add('active');
+                    }
+                    lItem.onclick = () => {
+                        showLessonView();
+                        selectItem(item);
+                    };
+
+                    const chk = document.createElement('div');
+                    chk.className = 'lesson-checkbox';
+                    if (completedSet.has(item.url)) {
+                        chk.classList.add('completed');
+                    }
+                    chk.onclick = (e) => {
+                        e.stopPropagation();
+                        toggleItemComplete(item, chk);
+                    };
+                    lItem.appendChild(chk);
+
+                    const titleContainer = document.createElement('div');
+                    titleContainer.className = 'lesson-title-container';
+
+                    const title = document.createElement('div');
+                    title.className = 'lesson-title';
+                    title.innerText = item.title;
+                    titleContainer.appendChild(title);
+
+                    const type = document.createElement('div');
+                    type.className = 'lesson-type';
+                    type.innerText = item.type === 'Course' ? 'Ders' : 'Gönderi';
+                    titleContainer.appendChild(type);
+
+                    lItem.appendChild(titleContainer);
+                    lessonsContainer.appendChild(lItem);
+                });
+
+                groupDiv.appendChild(lessonsContainer);
+                listContainer.appendChild(groupDiv);
+            }
+        }
+
+        function onSearch() {
+            const val = document.getElementById('search-input').value;
+            renderSidebar(val);
+        }
+
+        // Highlight matching text in chat results
+        function highlightText(text, keyword) {
+            if (!keyword) return text;
+            const regex = new RegExp(`(${keyword.replace(/[-\/\^$*+?.()|[\]{}]/g, '\$&')})`, 'gi');
+            return text.replace(regex, '<span class="highlight">$1</span>');
+        }
+
+        // Execute chat search logs
+        function onChatSearch() {
+            const searchInput = document.getElementById('chat-search-input').value.trim().toLowerCase();
+            const channelFilter = document.getElementById('chat-channel-filter').value;
+            const resultsContainer = document.getElementById('chat-results-container');
+            
+            resultsContainer.innerHTML = '';
+            
+            let allMessages = [];
+            
+            if (channelFilter === 'all' || channelFilter === 'grup-chat') {
+                const grupMsgs = chatsData['grup-chat'] || [];
+                grupMsgs.forEach(m => allMessages.push({ ...m, channel: 'Grup Chat' }));
+            }
+            if (channelFilter === 'all' || channelFilter === 'mastermind-chat') {
+                const mastermindMsgs = chatsData['mastermind-chat'] || [];
+                mastermindMsgs.forEach(m => allMessages.push({ ...m, channel: 'Mastermind Chat' }));
+            }
+
+            // Filter by keyword
+            let filtered = allMessages;
+            if (searchInput) {
+                filtered = allMessages.filter(m => {
+                    const qMatch = m.question && (
+                        (m.question.body && m.question.body.toLowerCase().includes(searchInput)) ||
+                        (m.question.author && m.question.author.toLowerCase().includes(searchInput))
+                    );
+                    const aMatch = m.answer && (
+                        (m.answer.body && m.answer.body.toLowerCase().includes(searchInput)) ||
+                        (m.answer.author && m.answer.author.toLowerCase().includes(searchInput))
+                    );
+                    return qMatch || aMatch;
+                });
+            }
+
+            if (filtered.length === 0) {
+                resultsContainer.innerHTML = `<p style="color:var(--text-muted); font-style:italic; text-align:center; padding: 40px;">Arama kriterlerine uygun mentör mesajı bulunamadı.</p>`;
+                return;
+            }
+
+            filtered.forEach(m => {
+                const card = document.createElement('div');
+                card.className = 'chat-result-card';
+                card.style = 'border: 1px solid var(--border-color); background: var(--card-bg); padding: 15px; border-radius: 8px; margin-bottom: 12px;';
+                
+                const meta = document.createElement('div');
+                meta.className = 'chat-result-meta';
+                meta.style = 'display: flex; justify-content: space-between; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 8px;';
+                
+                const channelSpan = document.createElement('span');
+                channelSpan.className = 'chat-result-channel';
+                channelSpan.innerText = m.channel;
+                channelSpan.style = 'background: rgba(59, 130, 246, 0.15); color: #60a5fa; padding: 2px 6px; border-radius: 4px; font-weight: 500;';
+                meta.appendChild(channelSpan);
+                
+                const timeSpan = document.createElement('span');
+                timeSpan.innerText = m.answer ? (m.answer.time || '') : '';
+                meta.appendChild(timeSpan);
+                
+                card.appendChild(meta);
+                
+                // Question Row
+                if (m.question && m.question.body) {
+                    const qContainer = document.createElement('div');
+                    qContainer.style = 'margin-bottom: 10px; padding-left: 10px; border-left: 2px solid #ef4444;';
+                    
+                    const qAuthor = document.createElement('div');
+                    qAuthor.style = 'font-weight: 600; font-size: 0.85rem; color: #f87171;';
+                    qAuthor.innerHTML = '🙋‍♂️ ' + highlightText(m.question.author, searchInput);
+                    qContainer.appendChild(qAuthor);
+                    
+                    const qBody = document.createElement('div');
+                    qBody.style = 'font-size: 0.9rem; color: var(--text-muted); margin-top: 3px;';
+                    qBody.innerHTML = highlightText(m.question.body, searchInput);
+                    qContainer.appendChild(qBody);
+                    
+                    card.appendChild(qContainer);
+                }
+
+                // Answer Row
+                if (m.answer && m.answer.body) {
+                    const aContainer = document.createElement('div');
+                    aContainer.style = 'padding-left: 10px; border-left: 2px solid #10b981;';
+                    
+                    const aAuthor = document.createElement('div');
+                    aAuthor.style = 'font-weight: 600; font-size: 0.85rem; color: #34d399;';
+                    aAuthor.innerHTML = '💡 ' + highlightText(m.answer.author, searchInput);
+                    aContainer.appendChild(aAuthor);
+                    
+                    const aBody = document.createElement('div');
+                    aBody.style = 'font-size: 0.9rem; color: var(--text-color); margin-top: 3px; line-height: 1.4;';
+                    aBody.innerHTML = highlightText(m.answer.body, searchInput);
+                    aContainer.appendChild(aBody);
+                    
+                    card.appendChild(aContainer);
+                }
+                
+                resultsContainer.appendChild(card);
+            });
+        }
+
+        // Select and load a lesson
+        function selectItem(item) {
+            activeItem = item;
+            
+            // Highlight active element in list
+            document.querySelectorAll('.lesson-item').forEach(el => el.classList.remove('active'));
+            renderSidebar(document.getElementById('search-input').value);
+
+            // Set Title & Meta
+            document.getElementById('active-title').innerText = item.title;
+            document.getElementById('active-meta').innerText = `${item.space} • ${item.type === 'Course' ? 'Eğitim Dersi' : 'Ek Gönderi'}`;
+
+            // Set Complete button state
+            const btn = document.getElementById('btn-complete');
+            if (completedSet.has(item.url)) {
+                btn.classList.add('completed');
+                btn.innerText = 'Tamamlandı';
+            } else {
+                btn.classList.remove('completed');
+                btn.innerText = 'Tamamlandı İşaretle';
+            }
+
+            // Load Video Player
+            const videoWrapper = document.getElementById('video-wrapper');
+            videoWrapper.innerHTML = '';
+            
+            const video = document.createElement('video');
+            video.controls = true;
+            video.autoplay = false;
+            
+            const source = document.createElement('source');
+            source.src = item.videoPath;
+            source.type = 'video/mp4';
+            
+            source.onerror = () => {
+                videoWrapper.innerHTML = `
+                    <div class="video-error-placeholder">
+                        <p style="font-size:1.1rem; font-weight:600; color:#fff;">Video Dosyası Bulunamadı</p>
+                        <p style="font-size:0.9rem;">Bu video henüz indirilmemiş veya taşınmış olabilir. Klasör yolunu kontrol edin:</p>
+                        <code style="background:#111827; padding:8px; border-radius:4px; font-size:0.8rem; word-break:break-all;">${item.videoPath}</code>
+                        <button onclick="window.open('${item.url}')">Videoyu Sitede Aç</button>
+                    </div>
+                `;
+            };
+            
+            video.appendChild(source);
+            videoWrapper.appendChild(video);
+
+            // Set Body HTML
+            document.getElementById('active-body').innerHTML = item.bodyHtml || '<p style="color:gray; font-style:italic;">Bu ders için yazılı not bulunmuyor.</p>';
+
+            // Load comments
+            const qaList = document.getElementById('active-qa-list');
+            const qaCount = document.getElementById('qa-count');
+            qaList.innerHTML = '';
+            
+            const comments = item.comments || [];
+            qaCount.innerText = comments.length;
+
+            if (comments.length === 0) {
+                qaList.innerHTML = `<p style="color:var(--text-muted); font-style:italic; padding:10px;">Bu ders için kayıtlı mentör soru-cevabı bulunmuyor.</p>`;
+            } else {
+                comments.forEach(c => {
+                    const card = document.createElement('div');
+                    card.className = 'comment-card';
+                    
+                    const header = document.createElement('div');
+                    header.className = 'comment-header';
+                    
+                    const author = document.createElement('span');
+                    author.className = 'comment-author';
+                    author.innerText = c.author;
+                    header.appendChild(author);
+                    
+                    card.appendChild(header);
+                    
+                    const body = document.createElement('div');
+                    body.className = 'comment-body-text';
+                    body.innerText = c.body;
+                    card.appendChild(body);
+                    
+                    // Replies
+                    if (c.replies && c.replies.length > 0) {
+                        c.replies.forEach(r => {
+                            const repCard = document.createElement('div');
+                            repCard.className = 'reply-card';
+                            
+                            const repAuth = document.createElement('div');
+                            repAuth.className = 'reply-author';
+                            repAuth.innerText = r.author;
+                            repCard.appendChild(repAuth);
+                            
+                            const repBody = document.createElement('div');
+                            repBody.className = 'reply-body';
+                            repBody.innerText = r.body;
+                            repCard.appendChild(repBody);
+                            
+                            card.appendChild(repCard);
+                        });
+                    }
+                    
+                    qaList.appendChild(card);
+                });
+            }
+
+            // Load attachments
+            const attachWrapper = document.getElementById('active-attachments-wrapper');
+            const attachList = document.getElementById('active-attachments');
+            attachList.innerHTML = '';
+
+            if (item.attachments && item.attachments.length > 0) {
+                attachWrapper.style.display = 'block';
+                item.attachments.forEach(att => {
+                    const a = document.createElement('a');
+                    a.className = 'attachment-item';
+                    a.href = att.url;
+                    a.target = '_blank';
+                    a.innerText = att.text;
+                    attachList.appendChild(a);
+                });
+            } else {
+                attachWrapper.style.display = 'none';
+            }
+
+            // Load transcript
+            const transcriptTabBtn = document.getElementById('tab-btn-transcript');
+            const transcriptContainer = document.getElementById('active-transcript');
+            transcriptContainer.innerHTML = '';
+            
+            if (item.transcript && item.transcript.length > 0) {
+                transcriptTabBtn.style.display = 'inline-block';
+                item.transcript.forEach(seg => {
+                    const segmentDiv = document.createElement('div');
+                    segmentDiv.className = 'transcript-segment';
+                    
+                    const timeLink = document.createElement('a');
+                    timeLink.className = 'transcript-time';
+                    timeLink.href = '#';
+                    timeLink.innerText = `[${formatTime(seg.offsets.from)}]`;
+                    timeLink.onclick = (e) => {
+                        e.preventDefault();
+                        seekVideo(seg.offsets.from);
+                    };
+                    
+                    const textSpan = document.createElement('span');
+                    textSpan.className = 'transcript-text';
+                    textSpan.innerText = seg.text;
+                    
+                    segmentDiv.appendChild(timeLink);
+                    segmentDiv.appendChild(textSpan);
+                    transcriptContainer.appendChild(segmentDiv);
+                });
+            } else {
+                transcriptTabBtn.style.display = 'none';
+            }
+
+            // Always switch back to notes tab by default on lesson select
+            switchTab('notes');
+        }
+
+        function formatTime(ms) {
+            const seconds = Math.floor(ms / 1000);
+            const hrs = Math.floor(seconds / 3600);
+            const mins = Math.floor((seconds % 3600) / 60);
+            const secs = seconds % 60;
+            
+            const pad = (num) => String(num).padStart(2, '0');
+            
+            if (hrs > 0) {
+                return `${pad(hrs)}:${pad(mins)}:${pad(secs)}`;
+            }
+            return `${pad(mins)}:${pad(secs)}`;
+        }
+
+        function seekVideo(ms) {
+            const video = document.querySelector('#video-wrapper video');
+            if (video) {
+                video.currentTime = ms / 1000;
+                video.play();
+            }
+        }
+
+        function toggleItemComplete(item, checkboxEl) {
+            if (completedSet.has(item.url)) {
+                completedSet.delete(item.url);
+                checkboxEl.classList.remove('completed');
+            } else {
+                completedSet.add(item.url);
+                checkboxEl.classList.add('completed');
+            }
+            saveProgress();
+            
+            if (activeItem && activeItem.url === item.url) {
+                const btn = document.getElementById('btn-complete');
+                if (completedSet.has(item.url)) {
+                    btn.classList.add('completed');
+                    btn.innerText = 'Tamamlandı';
+                } else {
+                    btn.classList.remove('completed');
+                    btn.innerText = 'Tamamlandı İşaretle';
+                }
+            }
+        }
+
+        function toggleCompleteActive() {
+            if (!activeItem) return;
+            const btn = document.getElementById('btn-complete');
+            if (completedSet.has(activeItem.url)) {
+                completedSet.delete(activeItem.url);
+                btn.classList.remove('completed');
+                btn.innerText = 'Tamamlandı İşaretle';
+            } else {
+                completedSet.add(activeItem.url);
+                btn.classList.add('completed');
+                btn.innerText = 'Tamamlandı';
+            }
+            saveProgress();
+            renderSidebar(document.getElementById('search-input').value);
+        }
+
+        // TF-IDF Client-side similarity search engine
+        function searchContextChunks(queryText, limit = 5) {
+            if (typeof aiChunks === 'undefined' || typeof aiIndex === 'undefined') return [];
+            
+            const stopwords = new Set(["ve", "bir", "bu", "da", "de", "icin", "ile", "o", "en", "ama", "ki", "mi", "mu", "ise", "gibi", "kadar", "daha", "cok", "ne", "sonra", "olarak", "olan", "olanlar"]);
+            
+            function tokenize(text) {
+                text = text.toLowerCase();
+                text = text.replace(/ı/g, "i").replace(/ğ/g, "g").replace(/ü/g, "u").replace(/ş/g, "s").replace(/ö/g, "o").replace(/ç/g, "c");
+                const words = text.match(/\b\w+\b/g) || [];
+                return words.filter(w => w.length > 1 && !stopwords.has(w));
+            }
+            
+            const queryTokens = tokenize(queryText);
+            if (queryTokens.length === 0) return [];
+            
+            const queryFreqs = {};
+            queryTokens.forEach(t => {
+                queryFreqs[t] = (queryFreqs[t] || 0) + 1;
+            });
+            
+            const chunkScores = {};
+            
+            queryTokens.forEach(token => {
+                const postings = aiIndex[token];
+                if (!postings) return;
+                
+                const idf = Math.log(aiChunks.length / (postings.length + 1));
+                const queryWeight = queryFreqs[token] * idf;
+                
+                postings.forEach(post => {
+                    const [chunkId, freq] = post;
+                    const chunkWeight = freq * idf;
+                    
+                    chunkScores[chunkId] = (chunkScores[chunkId] || 0) + (queryWeight * chunkWeight);
+                });
+            });
+            
+            const ranked = Object.keys(chunkScores).map(chunkId => {
+                const id = parseInt(chunkId);
+                return {
+                    chunk: aiChunks[id],
+                    score: chunkScores[chunkId]
+                };
+            });
+            
+            ranked.sort((a, b) => b.score - a.score);
+            return ranked.slice(0, limit).map(r => r.chunk);
+        }
+
+        // Save and Load AI configurations
+        function saveAISettings() {
+            const service = document.getElementById('ai-service-select').value;
+            const apiKey = document.getElementById('gemini-api-key').value.trim();
+            const url = document.getElementById('ollama-url').value.trim();
+            const model = document.getElementById('ollama-model').value.trim();
+            
+            localStorage.setItem('ecomflow_ai_service', service);
+            localStorage.setItem('ecomflow_gemini_key', apiKey);
+            localStorage.setItem('ecomflow_ollama_url', url);
+            localStorage.setItem('ecomflow_ollama_model', model);
+            
+            alert('Yapay zeka ayarları başarıyla kaydedildi!');
+            document.getElementById('ai-settings-panel').style.display = 'none';
+        }
+        
+        function loadAISettingsUI() {
+            const service = localStorage.getItem('ecomflow_ai_service') || 'gemini';
+            const apiKey = localStorage.getItem('ecomflow_gemini_key') || '';
+            const url = localStorage.getItem('ecomflow_ollama_url') || 'http://localhost:11434';
+            const model = localStorage.getItem('ecomflow_ollama_model') || 'llama3';
+            
+            document.getElementById('ai-service-select').value = service;
+            document.getElementById('gemini-api-key').value = apiKey;
+            document.getElementById('ollama-url').value = url;
+            document.getElementById('ollama-model').value = model;
+            
+            onAIServiceChange();
+        }
+        
+        function onAIServiceChange() {
+            const service = document.getElementById('ai-service-select').value;
+            if (service === 'gemini') {
+                document.getElementById('config-group-gemini').style.display = 'flex';
+                document.getElementById('config-group-ollama').style.display = 'none';
+            } else {
+                document.getElementById('config-group-gemini').style.display = 'none';
+                document.getElementById('config-group-ollama').style.display = 'flex';
+            }
+        }
+        
+        function toggleAISettings() {
+            const panel = document.getElementById('ai-settings-panel');
+            if (panel.style.display === 'none') {
+                panel.style.display = 'flex';
+                loadAISettingsUI();
+            } else {
+                panel.style.display = 'none';
+            }
+        }
+
+        async function submitAIQuery() {
+            const inputEl = document.getElementById('ai-input-text');
+            const query = inputEl.value.trim();
+            if (!query) return;
+            
+            appendAIMessage('user', query);
+            inputEl.value = '';
+            
+            const loadingId = appendAIMessage('system', '🤖 Düşünüyor ve video transkriptlerini tarıyor...');
+            
+            try {
+                const matchedChunks = searchContextChunks(query, 5);
+                
+                let contextText = "";
+                if (matchedChunks.length > 0) {
+                    matchedChunks.forEach((chunk, index) => {
+                        contextText += `[KAYNAK ${index + 1}] type: ${chunk.type}, space: ${chunk.space}, title: ${chunk.title}, offset: ${formatTime(chunk.offset)}
+Metin: ${chunk.text}
+
+`;
+                    });
+                } else {
+                    contextText = "Eşleşen kaynak bulunamadı.";
+                }
+                
+                const systemPrompt = `Sen "EcomFlow AI Specialist" adında akıllı bir dropshipping yapay zeka mentörüsün. Sana sunulan ve 174 ders videosu transkripti, ders notları ve mentör canlı yazışmalarından süzülmüş olan bilgileri (Context) kullanarak kullanıcının sorularını yanıtlamakla yükümlüsün.
+
+Uyman gereken katı kurallar:
+1. Yanıtlarını öncelikle sana sunulan "Context" içerisindeki bilgilere dayandır.
+2. Bir cevabı hazırlarken mutlaka hangi derse/sohbet arşivine dayandığını belirt. Örneğin: "Hakan Celikbilek 'Mar 16' dersinde [00:15] dakikasında belirtmiştir..." ya da "[GRUP CHAT] arşivindeki mentör cevabına göre..." şeklinde atıfta bulun.
+3. ÖNEMLİ: Eğer kullanıcının sorduğu sorunun cevabı sana sunulan kaynaklar içerisinde yoksa veya yetersizse, KAFANDAN BİLGİ UYDURMA. Bunun yerine, soruyu genel dropshipping prensiplerine göre yanıtlayabilirsin ancak cevabının başına veya ilgili bölümlerine net bir şekilde "⚠️ BU BİLGİ VİDEO KAYNAKLARINDA YER ALMAMAKTA OLUP, GENEL DROPSHIPPING PRENSİPLERİNE GÖRE EKLENMİŞTİR:" uyarısını ekle. Video kaynaklarından gelen bilgiler ile genel dropshipping bilgilerini asla birbirine karıştırma, ayrımı net yap.
+4. Video ve dakika referanslarını tam olarak şu formatta yaz ki sistemimiz onları tıklanabilir video atlama linklerine dönüştürebilsin: [Ders Adı - Dakika:Saniye] (Örn: [Verimlilik Tablosu Nasıl Doldurulur - 02:15] veya [Amerika Şirket Kurma - 12:40]). 
+5. Yanıtlarını Türkçe dilinde, saygılı, net, kısa paragraflar halinde ve markdown formatında (kalın yazım, listeler vb.) hazırla.`;
+
+                const finalPrompt = `Kullanıcı Sorusu: ${query}
+
+Context (Ders Transkriptleri ve Notlar):
+${contextText}`;
+                
+                const service = localStorage.getItem('ecomflow_ai_service') || 'gemini';
+                let responseText = "";
+                
+                if (service === 'gemini') {
+                    const apiKey = localStorage.getItem('ecomflow_gemini_key') || '';
+                    if (!apiKey) {
+                        removeAIMessage(loadingId);
+                        appendAIMessage('system', '❌ Hata: Lütfen ayarlardan Gemini API anahtarınızı girin.');
+                        return;
+                    }
+                    
+                    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+                    const res = await fetch(url, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            contents: [{ role: 'user', parts: [{ text: finalPrompt }] }],
+                            systemInstruction: { parts: [{ text: systemPrompt }] },
+                            generationConfig: { temperature: 0.2 }
+                        })
+                    });
+                    
+                    if (!res.ok) {
+                        const errData = await res.json();
+                        throw new Error(errData.error?.message || 'API Hatası');
+                    }
+                    
+                    const resData = await res.json();
+                    responseText = resData.candidates?.[0]?.content?.parts?.[0]?.text || "Boş yanıt alındı.";
+                    
+                } else {
+                    const url = localStorage.getItem('ecomflow_ollama_url') || 'http://localhost:11434';
+                    const model = localStorage.getItem('ecomflow_ollama_model') || 'llama3';
+                    
+                    const res = await fetch(`${url}/api/generate`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            model: model,
+                            system: systemPrompt,
+                            prompt: finalPrompt,
+                            stream: false
+                        })
+                    });
+                    
+                    if (!res.ok) throw new Error('Ollama sunucusuna bağlanılamadı.');
+                    const resData = await res.json();
+                    responseText = resData.response || "Boş yanıt alındı.";
+                }
+                
+                removeAIMessage(loadingId);
+                appendAIMessage('assistant', responseText);
+                
+            } catch (err) {
+                console.error(err);
+                removeAIMessage(loadingId);
+                appendAIMessage('system', `❌ Hata: ${err.message}`);
+            }
+        }
+
+        let msgCounter = 0;
+        
+        function appendAIMessage(role, text) {
+            const container = document.getElementById('ai-messages-container');
+            const msgId = `ai-msg-${msgCounter++}`;
+            
+            const msgDiv = document.createElement('div');
+            msgDiv.id = msgId;
+            msgDiv.className = `ai-msg-bubble ${role}`;
+            
+            let bubbleStyle = "padding:12px 15px; border-radius:8px; line-height:1.6; max-width:85%; font-size:0.95rem; margin-bottom:10px; ";
+            if (role === 'user') {
+                bubbleStyle += "background:var(--accent-color); color:#fff; align-self:flex-end; border-bottom-right-radius:2px;";
+                msgDiv.innerHTML = renderMarkdown(text);
+            } else if (role === 'assistant') {
+                bubbleStyle += "background:#1f2937; border:1px solid var(--border-color); color:#f3f4f6; align-self:flex-start; border-bottom-left-radius:2px;";
+                msgDiv.innerHTML = parseReferenceLinks(renderMarkdown(text));
+            } else if (role === 'system') {
+                bubbleStyle += "background:rgba(239,68,68,0.1); border:1px solid rgba(239,68,68,0.2); color:#f87171; align-self:flex-start; font-style:italic;";
+                msgDiv.innerHTML = text;
+            }
+            
+            msgDiv.style.cssText = bubbleStyle;
+            container.appendChild(msgDiv);
+            container.scrollTop = container.scrollHeight;
+            return msgId;
+        }
+        
+        function removeAIMessage(id) {
+            const msg = document.getElementById(id);
+            if (msg) msg.remove();
+        }
+        
+        function handleAISubmitKey(e) {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                submitAIQuery();
+            }
+        }
+        
+        function escapeJsString(str) {
+            return str.replace(/'/g, "\'").replace(/"/g, '\"');
+        }
+
+        function renderMarkdown(text) {
+            let html = text;
+            html = html.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+            html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+            html = html.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+            html = html.replace(/`([^`]+)`/g, '<code style="background:rgba(255,255,255,0.08); padding:2px 4px; border-radius:3px; font-family:monospace;">$1</code>');
+            html = html.replace(/\n/g, '<br>');
+            return html;
+        }
+
+        function parseReferenceLinks(text) {
+            const regex = /\[([^\]]+)\s*-\s*(\d{1,2}(?::\d{2}){1,2})\]/g;
+            return text.replace(regex, (match, title, timeStr) => {
+                const parts = timeStr.split(':').map(Number);
+                let ms = 0;
+                if (parts.length === 3) {
+                    ms = (parts[0] * 3600 + parts[1] * 60 + parts[2]) * 1000;
+                } else if (parts.length === 2) {
+                    ms = (parts[0] * 60 + parts[1]) * 1000;
+                }
+                return `<a href="#" class="transcript-time" onclick="jumpToVideoRef('${escapeJsString(title.trim())}', ${ms}); return false;">[${title} - ${timeStr}]</a>`;
+            });
+        }
+
+        function jumpToVideoRef(title, ms) {
+            const item = portalData.find(i => i.title.toLowerCase().includes(title.toLowerCase()) || title.toLowerCase().includes(i.title.toLowerCase()));
+            if (item) {
+                showLessonView();
+                selectItem(item);
+                setTimeout(() => {
+                    seekVideo(ms);
+                }, 800);
+            } else {
+                alert(`Referans verilen ders bulunamadı: ${title}`);
+            }
+        }
+            } else {
+                alert(`Referans verilen ders bulunamadı: ${title}`);
+            }
+        }
+
+        // ==========================================
+        // AI PRODUCT HUNTER LOGIC AND CONTROLLERS
+        // ==========================================
+        let syncedProducts = [];
+        let savedProducts = [];
+
+        function showHunterStatus(text, isError = false) {
+            const box = document.getElementById('hunter-status-box');
+            const textEl = document.getElementById('hunter-status-text');
+            box.style.display = 'flex';
+            textEl.innerText = text;
+            if (isError) {
+                box.style.background = 'rgba(239, 68, 68, 0.1)';
+                box.style.borderColor = 'rgba(239, 68, 68, 0.3)';
+                box.style.color = '#f87171';
+                box.querySelector('.spinner').style.display = 'none';
+            } else {
+                box.style.background = 'rgba(59, 130, 246, 0.1)';
+                box.style.borderColor = 'rgba(59, 130, 246, 0.3)';
+                box.style.color = '#60a5fa';
+                box.querySelector('.spinner').style.display = 'inline-block';
+            }
+        }
+
+        function hideHunterStatus() {
+            document.getElementById('hunter-status-box').style.display = 'none';
+        }
+
+        function safeParseJson(text) {
+            text = text.trim();
+            if (text.startsWith('```')) {
+                const firstNewLine = text.indexOf('
+');
+                const lastBackticks = text.lastIndexOf('```');
+                if (firstNewLine !== -1 && lastBackticks !== -1) {
+                    text = text.substring(firstNewLine + 1, lastBackticks).trim();
+                }
+            }
+            return JSON.parse(text);
+        }
+
+        // Eşitle (Fetch pre-crawled products from GitHub)
+        async function syncCloudProducts() {
+            const repoPath = document.getElementById('git-repo-path').value.trim();
+            if (!repoPath) {
+                alert('Lütfen kullanıcıadı/depo-adi şeklinde GitHub depo yolunuzu girin.');
+                return;
+            }
+
+            localStorage.setItem('ecomflow_git_repo', repoPath);
+            showHunterStatus('GitHub bulut deposundan veriler eşitleniyor...');
+
+            const url = `https://raw.githubusercontent.com/${repoPath}/main/precrawled_products.json`;
+
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`Dosya indirilemedi. Deponuzun public (herkese açık) olduğundan emin olun. Status: ${response.status}`);
+                }
+                const data = await response.json();
+                syncedProducts = data;
+                localStorage.setItem('ecomflow_synced_products', JSON.stringify(data));
+                
+                renderHunterProducts();
+                showHunterStatus(`Başarıyla eşitlendi! ${data.length} adet trend ürün yüklendi.`);
+                setTimeout(hideHunterStatus, 4000);
+            } catch (err) {
+                showHunterStatus(`Hata: ${err.message}`, true);
+            }
+        }
+
+        function loadSyncedProductsList() {
+            try {
+                const cached = localStorage.getItem('ecomflow_synced_products');
+                if (cached) {
+                    syncedProducts = JSON.parse(cached);
+                    renderHunterProducts();
+                }
+            } catch (e) {
+                console.error('Failed to load cached synced products:', e);
+            }
+        }
+
+        function loadLocalSavedProducts() {
+            try {
+                const saved = localStorage.getItem('ecomflow_saved_products');
+                if (saved) {
+                    savedProducts = JSON.parse(saved);
+                } else {
+                    savedProducts = [];
+                }
+                renderSavedProductsUI();
+            } catch (e) {
+                console.error('Failed to load saved products:', e);
+            }
+        }
+
+        function getScoreColorClass(score) {
+            if (score >= 5) return 'high';
+            if (score >= 3) return 'medium';
+            return 'low';
+        }
+
+        function getScoreBarColor(score) {
+            if (score >= 20) return '#10b981'; // Green
+            if (score >= 15) return '#f59e0b'; // Yellow
+            return '#ef4444'; // Red
+        }
+
+        function renderHunterProducts() {
+            const grid = document.getElementById('hunter-products-grid');
+            const categoryFilter = document.getElementById('hunter-category-filter').value;
+            grid.innerHTML = '';
+
+            const filtered = syncedProducts.filter(p => {
+                if (categoryFilter === 'all') return true;
+                return p.category === categoryFilter;
+            });
+
+            if (filtered.length === 0) {
+                grid.innerHTML = '<p style="color:var(--text-muted); font-style:italic; text-align:center; padding: 40px;">Kriterlere uyan ürün bulunamadı. Eşitle butonuna basarak verileri yükleyin veya canlı tarama yapın.</p>';
+                return;
+            }
+
+            filtered.forEach(p => {
+                const card = document.createElement('div');
+                card.className = 'product-card';
+                
+                const typeClass = (p.product_type || 'Showcase').toLowerCase();
+                const totalScore = p.total_score || (p.scores.viral_potential + p.scores.shooting_feasibility + p.scores.purchase_desire + p.scores.problem_solving + p.scores.shipping_ease);
+                const scorePercent = (totalScore / 25) * 100;
+                const barColor = getScoreBarColor(totalScore);
+
+                let hooksHtml = '';
+                if (p.hook_ideas && p.hook_ideas.length > 0) {
+                    hooksHtml = `
+                        <div class="hook-box">
+                            <strong style="color:#10b981; font-size:0.85rem;">🎬 Önerilen Reklam Kancaları (Hooks):</strong>
+                            <ul style="margin-top:6px; padding-left:15px; font-size:0.85rem; color:#d1d5db; display:flex; flex-direction:column; gap:4px;">
+                                ${p.hook_ideas.map(h => `<li>${h}</li>`).join('')}
+                            </ul>
+                        </div>
+                    `;
+                }
+
+                card.innerHTML = `
+                    <div class="product-card-header">
+                        <div>
+                            <div class="product-name">${p.name}</div>
+                            <div style="font-size:0.8rem; color:var(--text-muted); margin-top:2px;">Kategori: ${p.category}</div>
+                        </div>
+                        <span class="product-badge ${typeClass}">${p.product_type || 'Showcase'}</span>
+                    </div>
+
+                    <div style="margin-bottom:12px;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.85rem; font-weight:700;">
+                            <span style="color:#fff;">Toplam Puan (Matris):</span>
+                            <span style="color:${barColor};">${totalScore}/25 (${p.verdict || 'Winner Adayı'})</span>
+                        </div>
+                        <div class="score-gauge-bar">
+                            <div class="score-gauge-fill" style="width:${scorePercent}%; background:${barColor};"></div>
+                        </div>
+                    </div>
+
+                    <div class="score-pill-container">
+                        <div class="score-pill">🔥 Viral: <span class="score-pill-val ${getScoreColorClass(p.scores.viral_potential)}">${p.scores.viral_potential}</span></div>
+                        <div class="score-pill">📹 Çekim: <span class="score-pill-val ${getScoreColorClass(p.scores.shooting_feasibility)}">${p.scores.shooting_feasibility}</span></div>
+                        <div class="score-pill">💬 Talep: <span class="score-pill-val ${getScoreColorClass(p.scores.purchase_desire)}">${p.scores.purchase_desire}</span></div>
+                        <div class="score-pill">🧠 Çözüm: <span class="score-pill-val ${getScoreColorClass(p.scores.problem_solving)}">${p.scores.problem_solving}</span></div>
+                        <div class="score-pill">📦 Kargo: <span class="score-pill-val ${getScoreColorClass(p.scores.shipping_ease)}">${p.scores.shipping_ease}</span></div>
+                    </div>
+
+                    <div class="product-details">
+                        <p style="margin-bottom:8px;"><strong>Açıklama:</strong> ${p.description}</p>
+                        <p style="margin-bottom:8px;"><strong>Neden Viral?</strong> ${p.why_viral}</p>
+                        ${hooksHtml}
+                    </div>
+
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-top:15px; border-top:1px solid var(--border-color); padding-top:12px;">
+                        <span style="font-weight:700; color:#10b981; font-size:1rem;">$${p.est_price || '29.99'}</span>
+                        <div style="display:flex; gap:10px;">
+                            <a href="${p.aliexpress_url}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:6px 12px; font-size:0.8rem; display:flex; align-items:center; gap:4px;">
+                                🛒 AliExpress'te Ara
+                            </a>
+                            <button onclick="saveProductToWinner('${escapeJsString(p.name)}')" class="hunter-btn" style="padding:6px 12px; font-size:0.8rem;">
+                                🏆 Listeme Ekle
+                            </button>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function filterProductsUI() {
+            renderHunterProducts();
+        }
+
+        function saveProductToWinner(name) {
+            const found = syncedProducts.find(p => p.name === name);
+            if (!found) return;
+
+            // Check if already saved
+            if (savedProducts.some(p => p.name === name)) {
+                alert('Bu ürün zaten winner listenizde kayıtlı!');
+                return;
+            }
+
+            savedProducts.push(found);
+            localStorage.setItem('ecomflow_saved_products', JSON.stringify(savedProducts));
+            renderSavedProductsUI();
+            alert('Ürün winner listenize başarıyla eklendi!');
+        }
+
+        function removeProductFromWinner(name) {
+            savedProducts = savedProducts.filter(p => p.name !== name);
+            localStorage.setItem('ecomflow_saved_products', JSON.stringify(savedProducts));
+            renderSavedProductsUI();
+        }
+
+        function renderSavedProductsUI() {
+            const grid = document.getElementById('hunter-saved-grid');
+            grid.innerHTML = '';
+
+            if (savedProducts.length === 0) {
+                grid.innerHTML = '<p style="color:var(--text-muted); font-style:italic; text-align:center; padding: 40px;">Henüz kaydedilmiş winner ürün yok.</p>';
+                return;
+            }
+
+            savedProducts.forEach(p => {
+                const card = document.createElement('div');
+                card.className = 'product-card';
+                card.style.borderColor = 'rgba(16, 185, 129, 0.4)';
+                card.style.background = 'rgba(16, 185, 129, 0.02)';
+
+                const typeClass = (p.product_type || 'Showcase').toLowerCase();
+                const totalScore = p.total_score || (p.scores.viral_potential + p.scores.shooting_feasibility + p.scores.purchase_desire + p.scores.problem_solving + p.scores.shipping_ease);
+
+                card.innerHTML = `
+                    <div class="product-card-header">
+                        <div>
+                            <div class="product-name">${p.name}</div>
+                            <div style="font-size:0.8rem; color:var(--text-muted); margin-top:2px;">Kategori: ${p.category}</div>
+                        </div>
+                        <button onclick="removeProductFromWinner('${escapeJsString(p.name)}')" style="background:transparent; border:none; color:#ef4444; cursor:pointer; font-weight:bold; font-size:1.1rem;" title="Sil">✕</button>
+                    </div>
+                    <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.85rem; margin-bottom:8px;">
+                        <span class="product-badge ${typeClass}">${p.product_type || 'Showcase'}</span>
+                        <span style="font-weight:700; color:#10b981;">Puan: ${totalScore}/25</span>
+                    </div>
+                    <div style="font-size:0.85rem; color:#d1d5db; line-height:1.4; margin-bottom:10px;">
+                        ${p.description}
+                    </div>
+                    <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(255,255,255,0.05); padding-top:10px; font-size:0.8rem;">
+                        <span style="font-weight:700; color:#10b981; font-size:0.95rem;">$${p.est_price || '29.99'}</span>
+                        <a href="${p.aliexpress_url}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:4px 8px; font-size:0.75rem;">
+                            🛒 Tedarikçi Bul
+                        </a>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function toggleManualMatrixForm() {
+            const form = document.getElementById('manual-matrix-form');
+            if (form.style.display === 'none') {
+                form.style.display = 'flex';
+            } else {
+                form.style.display = 'none';
+            }
+        }
+
+        // Manuel Değerlendir & Rapor Al
+        async function analyzeManualProduct() {
+            const name = document.getElementById('manual-prod-name').value.trim();
+            const category = document.getElementById('manual-prod-category').value;
+            const desc = document.getElementById('manual-prod-desc').value.trim();
+
+            if (!name || !desc) {
+                alert('Lütfen ürün adı ve açıklamasını girin.');
+                return;
+            }
+
+            const apiKey = localStorage.getItem('gemini_api_key') || '';
+            if (!apiKey) {
+                alert('Canlı analiz yapabilmek için lütfen sol menüdeki 🤖 EcomFlow AI Specialist sekmesinden Gemini API anahtarınızı (API Key) kaydedin.');
+                return;
+            }
+
+            const sViral = parseInt(document.getElementById('slide-viral').value);
+            const sShooting = parseInt(document.getElementById('slide-shooting').value);
+            const sDemand = parseInt(document.getElementById('slide-demand').value);
+            const sValue = parseInt(document.getElementById('slide-value').value);
+            const sShipping = parseInt(document.getElementById('slide-shipping').value);
+
+            const totalScore = sViral + sShooting + sDemand + sValue + sShipping;
+            let verdict = 'Es Geç';
+            if (totalScore >= 20) verdict = 'Winner Adayı';
+            else if (totalScore >= 15) verdict = 'Potansiyelli Ürün';
+
+            showHunterStatus('EcomFlow Mentör Yapay Zekası ürünü analiz ediyor...');
+            toggleManualMatrixForm();
+
+            const prompt = `Lütfen aşağıdaki dropshipping ürünü analiz et ve bana profesyonel mentörlük değerlendirme raporu sun.
+            
+            Ürün Adı: ${name}
+            Kategori: ${category}
+            Ürün Tanımı: ${desc}
+            Kriter Puanları:
+            - Viral Potansiyel: ${sViral}/5
+            - Çekim Kolaylığı: ${sShooting}/5
+            - Satın Alma Arzusu (Talep): ${sDemand}/5
+            - Problem Çözme Gücü: ${sValue}/5
+            - Kargo ve Tedarik Kolaylığı: ${sShipping}/5
+            Toplam Puan: ${totalScore}/25
+            Nihai Karar: ${verdict}
+
+            Lütfen şu başlıklar altında Türkçe detaylı rapor çıkar:
+            1. Ürün Tipi Analizi (Showcase mi yoksa Regular mı konumlandırılmalı? Neden?)
+            2. Güçlü Yönler (Strengths)
+            3. Zayıf Yönler (Weaknesses)
+            4. Önerilen Video Kancası (Hook) Fikirleri
+            5. Nihai Mentör Tavsiyesi
+            `;
+
+            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+
+            try {
+                const response = await fetch(url, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        contents: [{ parts: [{ text: prompt }] }]
+                    })
+                });
+
+                if (!response.ok) throw new Error('API isteği başarısız oldu.');
+                const resJson = await response.json();
+                
+                if (resJson.candidates && resJson.candidates[0]) {
+                    const text = resJson.candidates[0].content.parts[0].text;
+                    
+                    // Create simulated product and add to winner candidate list with report
+                    const newProd = {
+                        name: name,
+                        category: category,
+                        product_type: sShooting >= 4 ? 'Showcase' : 'Regular',
+                        description: desc + '
+
+**Mentör Raporu:**
+' + text,
+                        why_viral: 'Manuel değerlendirildi.',
+                        hook_ideas: ['Rapora göz atın.'],
+                        est_price: '29.99',
+                        aliexpress_url: `https://www.aliexpress.com/w/wholesale-${encodeURIComponent(name)}.html`,
+                        scores: {
+                            viral_potential: sViral,
+                            shooting_feasibility: sShooting,
+                            purchase_desire: sDemand,
+                            problem_solving: sValue,
+                            shipping_ease: sShipping
+                        },
+                        total_score: totalScore,
+                        verdict: verdict
+                    };
+
+                    savedProducts.push(newProd);
+                    localStorage.setItem('ecomflow_saved_products', JSON.stringify(savedProducts));
+                    renderSavedProductsUI();
+                    
+                    showHunterStatus('Manuel ürün analizi tamamlandı ve listenize kaydedildi!');
+                    setTimeout(hideHunterStatus, 4000);
+                } else {
+                    throw new Error('API yanıt döndürmedi.');
+                }
+            } catch (err) {
+                showHunterStatus(`Hata: ${err.message}`, true);
+            }
+        }
+
+        // Canlı Tara (Grounding tabanlı yerel arama)
+        async function scanViralProductsLocal() {
+            const category = document.getElementById('hunter-category-filter').value;
+            const targetCat = category === 'all' ? 'Genel Dropshipping' : category;
+
+            const apiKey = localStorage.getItem('gemini_api_key') || '';
+            if (!apiKey) {
+                alert('Canlı tarama yapabilmek için lütfen sol menüdeki 🤖 EcomFlow AI Specialist sekmesinden Gemini API anahtarınızı (API Key) kaydedin.');
+                return;
+            }
+
+            showHunterStatus(`İnternet üzerinde yeni viral ${targetCat} ürünleri taranıyor (Google Search)...`);
+
+            const prompt = `Lütfen Google Arama grounding aracını kullanarak son 7-14 gün içinde TikTok ve Instagram'da yeni viral olmaya başlamış, doymamış ve e-ticarete/dropshippinge uygun 5 adet benzersiz "${targetCat}" ürünü tespit et.
+
+            Eğitim kriterlerimiz şunlardır:
+            1. Ürün Tipi: 'Showcase' (gösterişli, estetik ve çekimi kolay) veya 'Regular' (hikaye/kurgu gerektiren, yüksek potansiyelli).
+            2. Viral Potansiyel (1-5 Puan)
+            3. Çekilebilirlik/İçerik Kolaylığı (1-5 Puan)
+            4. Satın Alma Talebi (1-5 Puan)
+            5. Problem Çözme/Değer (1-5 Puan)
+            6. Tedarik/Kargo Kolaylığı (1-5 Puan)
+
+            ÖNEMLİ: Klasikleşmiş, doymuş ürünleri kesinlikle listeleme! Tamamen yeni trendlere odaklan.
+
+            Yanıtını tam olarak şu JSON şemasında döndür. Markdown sarmalayıcıları (\`\`\`json vb.) kullanma, doğrudan geçerli bir JSON string döndür:
+
+            [
+              {
+                "name": "Ürün Adı",
+                "category": "${targetCat}",
+                "product_type": "Showcase" veya "Regular",
+                "description": "Ürünün kısa açıklaması ve işlevi",
+                "why_viral": "Son 7-14 gündeki viral olma durumu ve gerekçesi",
+                "hook_ideas": ["Kanca fikri 1", "Kanca fikri 2"],
+                "est_price": "29.99",
+                "aliexpress_url": "https://www.aliexpress.com/w/wholesale-ürün-adı.html",
+                "scores": {
+                  "viral_potential": 4,
+                  "shooting_feasibility": 5,
+                  "purchase_desire": 4,
+                  "problem_solving": 5,
+                  "shipping_ease": 5
+                },
+                "total_score": 23,
+                "verdict": "Winner Adayı"
+              }
+            ]`;
+
+            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+
+            try {
+                const response = await fetch(url, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        contents: [{ parts: [{ text: prompt }] }],
+                        tools: [{ googleSearch: {} }]
+                    })
+                });
+
+                if (!response.ok) throw new Error('API isteği başarısız oldu.');
+                const resJson = await response.json();
+                
+                if (resJson.candidates && resJson.candidates[0]) {
+                    const text = resJson.candidates[0].content.parts[0].text;
+                    const cleaned = safeParseJson(text);
+                    
+                    syncedProducts = cleaned;
+                    renderHunterProducts();
+
+                    showHunterStatus(`Tarama tamamlandı! ${cleaned.length} adet yeni ürün listelendi.`);
+                    setTimeout(hideHunterStatus, 4000);
+                } else {
+                    throw new Error('API yanıt döndürmedi.');
+                }
+            } catch (err) {
+                showHunterStatus(`Hata: ${err.message}`, true);
+            }
+        }
+
+        window.onload = () => {
+            loadProgress();
+            updateProgressBar();
+            if (window.portalData && portalData.length > 0) {
+                selectItem(portalData[0]);
+            } else {
+                renderSidebar();
+            }
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:03,160"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 3160
+			},
+			"text": " Evet, selamlar ben Berkan, mentorli hoş geldiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,160",
+				"to": "00:00:07,920"
+			},
+			"offsets": {
+				"from": 3160,
+				"to": 7920
+			},
+			"text": " Kısaca ben kimim, onu anlatayım, ben 2020 yılından beri Dropshipli uğraşıyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,920",
+				"to": "00:00:11,680"
+			},
+			"offsets": {
+				"from": 7920,
+				"to": 11680
+			},
+			"text": " İlk başta bu işi reklam ne yapmaya çalıştım ama bir sürü para kaybettim."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:11,680",
+				"to": "00:00:13,840"
+			},
+			"offsets": {
+				"from": 11680,
+				"to": 13840
+			},
+			"text": " Sonuna organik Dropshiplikle tanıştım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,840",
+				"to": "00:00:16,240"
+			},
+			"offsets": {
+				"from": 13840,
+				"to": 16240
+			},
+			"text": " Burada sizin gibi öğrencilerek başladım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:16,240",
+				"to": "00:00:18,680"
+			},
+			"offsets": {
+				"from": 16240,
+				"to": 18680
+			},
+			"text": " Bir sürü marka kurdum ve satışlar aldım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,680",
+				"to": "00:00:21,320"
+			},
+			"offsets": {
+				"from": 18680,
+				"to": 21320
+			},
+			"text": " Şimdi burada size yardımcı olmak için buradayım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:21,320",
+				"to": "00:00:24,520"
+			},
+			"offsets": {
+				"from": 21320,
+				"to": 24520
+			},
+			"text": " Size verilenlikler üzerinden benimle görüşmaladırsınız."
+		}
+	]
+}

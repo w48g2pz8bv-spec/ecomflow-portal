@@ -1,0 +1,2529 @@
+{
+  "systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+  "model": {
+    "type": "base",
+    "multilingual": true,
+    "vocab": 51865,
+    "audio": {
+      "ctx": 1500,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "text": {
+      "ctx": 448,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "mels": 80,
+    "ftype": 1
+  },
+  "params": {
+    "model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+    "language": "tr",
+    "translate": false
+  },
+  "result": {
+    "language": "tr"
+  },
+  "transcription": [
+    {
+      "timestamps": {
+        "from": "00:00:00,000",
+        "to": "00:00:03,120"
+      },
+      "offsets": {
+        "from": 0,
+        "to": 3120
+      },
+      "text": " Şimdi bunun devamında Shadow Ban nedenlere var?"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:03,120",
+        "to": "00:00:07,040"
+      },
+      "offsets": {
+        "from": 3120,
+        "to": 7040
+      },
+      "text": " Şimdi Shadow Ban arkadaşlar çok kolay, çok hızlı olabilir bir şey değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:07,040",
+        "to": "00:00:10,600"
+      },
+      "offsets": {
+        "from": 7040,
+        "to": 10600
+      },
+      "text": " Yani size eğer az görüntülenme alıyorsanız video paylaşmaya başladığınız,"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:10,600",
+        "to": "00:00:11,960"
+      },
+      "offsets": {
+        "from": 10600,
+        "to": 11960
+      },
+      "text": " yüz iki yüz görüntülenme aldınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:11,960",
+        "to": "00:00:13,520"
+      },
+      "offsets": {
+        "from": 11960,
+        "to": 13520
+      },
+      "text": " Ah! Hayat bitti."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:13,520",
+        "to": "00:00:14,520"
+      },
+      "offsets": {
+        "from": 13520,
+        "to": 14520
+      },
+      "text": " Shadow Ban yedik."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:14,520",
+        "to": "00:00:17,240"
+      },
+      "offsets": {
+        "from": 14520,
+        "to": 17240
+      },
+      "text": " Hayır, Shadow Ban yemeniz o kadar çok kolay bir iş değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:17,240",
+        "to": "00:00:20,920"
+      },
+      "offsets": {
+        "from": 17240,
+        "to": 20920
+      },
+      "text": " O yüzden eğer yeni başladığınız zaman düşük görüntülenme alıyorsanız"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:20,920",
+        "to": "00:00:24,400"
+      },
+      "offsets": {
+        "from": 20920,
+        "to": 24400
+      },
+      "text": " ilk başta kendinizi suçlayın derim, videokalitenizi suçlayın derim."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:24,400",
+        "to": "00:00:27,920"
+      },
+      "offsets": {
+        "from": 24400,
+        "to": 27920
+      },
+      "text": " Yani eğer kötü izlenmeleri de kalıyorsanız büyük ihtimalle videokalitenizi"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:27,920",
+        "to": "00:00:29,840"
+      },
+      "offsets": {
+        "from": 27920,
+        "to": 29840
+      },
+      "text": " birazcık da artırmanız gerekli."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:29,840",
+        "to": "00:00:33,280"
+      },
+      "offsets": {
+        "from": 29840,
+        "to": 33280
+      },
+      "text": " Ama her şart da burada dikkat edilmesi gereken specific krallar var."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:33,280",
+        "to": "00:00:34,480"
+      },
+      "offsets": {
+        "from": 33280,
+        "to": 34480
+      },
+      "text": " Şimdi size bunları anlatacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:34,480",
+        "to": "00:00:38,320"
+      },
+      "offsets": {
+        "from": 34480,
+        "to": 38320
+      },
+      "text": " Öncelikle hesabı yeni açtığımız zaman agresif kullanmamamız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:38,320",
+        "to": "00:00:41,000"
+      },
+      "offsets": {
+        "from": 38320,
+        "to": 41000
+      },
+      "text": " Düşünün yeni bir tanesi açıyorsunuz, hiç asındırma yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:41,000",
+        "to": "00:00:43,800"
+      },
+      "offsets": {
+        "from": 41000,
+        "to": 43800
+      },
+      "text": " Direkt günde beşen olan video paylaşmaya başlıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:43,800",
+        "to": "00:00:46,320"
+      },
+      "offsets": {
+        "from": 43800,
+        "to": 46320
+      },
+      "text": " Direkt olarak yorumları spamlamaya başlıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:46,320",
+        "to": "00:00:49,480"
+      },
+      "offsets": {
+        "from": 46320,
+        "to": 49480
+      },
+      "text": " Direkt olarak farklı hesaplara girip falı olamaya başlıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:49,480",
+        "to": "00:00:53,480"
+      },
+      "offsets": {
+        "from": 49480,
+        "to": 53480
+      },
+      "text": " Bir yerden sonra platform, bunu bot davranış olarak algılıyor"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:53,480",
+        "to": "00:00:55,520"
+      },
+      "offsets": {
+        "from": 53480,
+        "to": 55520
+      },
+      "text": " ve direkt olarak restorik duyguluyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:55,520",
+        "to": "00:00:59,240"
+      },
+      "offsets": {
+        "from": 55520,
+        "to": 59240
+      },
+      "text": " O yüzden mesela yeni açılan hesaplarda çok kişiyi takip edersen."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:59,240",
+        "to": "00:01:00,840"
+      },
+      "offsets": {
+        "from": 59240,
+        "to": 60840
+      },
+      "text": " Ya da mesela bir tane hesabım var."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:00,840",
+        "to": "00:01:03,760"
+      },
+      "offsets": {
+        "from": 60840,
+        "to": 63760
+      },
+      "text": " Çok fazla kişiyi aynı anda takiplen çıkmaya başlarsan"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:03,760",
+        "to": "00:01:05,120"
+      },
+      "offsets": {
+        "from": 63760,
+        "to": 65120
+      },
+      "text": " Instagram diyor ki, tamam bir adet."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:05,120",
+        "to": "00:01:05,840"
+      },
+      "offsets": {
+        "from": 65120,
+        "to": 65840
+      },
+      "text": " Sen bir saykino."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:05,840",
+        "to": "00:01:07,240"
+      },
+      "offsets": {
+        "from": 65840,
+        "to": 67240
+      },
+      "text": " Sen böyle bir bir gün kendine gel."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:07,240",
+        "to": "00:01:08,440"
+      },
+      "offsets": {
+        "from": 67240,
+        "to": 68440
+      },
+      "text": " Bunu deneyimlemiştinizdir."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:08,440",
+        "to": "00:01:12,160"
+      },
+      "offsets": {
+        "from": 68440,
+        "to": 72160
+      },
+      "text": " Aynı şekilde girip mesela çok fazla yorum atarsanız sağ sola."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:12,160",
+        "to": "00:01:15,000"
+      },
+      "offsets": {
+        "from": 72160,
+        "to": 75000
+      },
+      "text": " Ya da çok fazla aynı anda video atmayı çalışırsanız"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:15,000",
+        "to": "00:01:18,120"
+      },
+      "offsets": {
+        "from": 75000,
+        "to": 78120
+      },
+      "text": " platform, sizin bot davranış yaptığınızı gözlemliyor"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:18,120",
+        "to": "00:01:20,440"
+      },
+      "offsets": {
+        "from": 78120,
+        "to": 80440
+      },
+      "text": " ve sizin etkileşimlerinizi düşürüyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:20,440",
+        "to": "00:01:25,000"
+      },
+      "offsets": {
+        "from": 80440,
+        "to": 85000
+      },
+      "text": " Burada yeni hesabaçtığınız zaman hesap ısınlırma tak diye gerçekten çok önemli."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:25,000",
+        "to": "00:01:29,040"
+      },
+      "offsets": {
+        "from": 85000,
+        "to": 89040
+      },
+      "text": " Bunun amacı da sizin birazcık da hedef kitleniz olaşmak değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:29,040",
+        "to": "00:01:32,040"
+      },
+      "offsets": {
+        "from": 89040,
+        "to": 92040
+      },
+      "text": " Yani siz hesabaçtığınız zaman farklı hesapları"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:32,040",
+        "to": "00:01:34,240"
+      },
+      "offsets": {
+        "from": 92040,
+        "to": 94240
+      },
+      "text": " yani kendi nişinizdeki hesapları takip edip"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:34,240",
+        "to": "00:01:37,240"
+      },
+      "offsets": {
+        "from": 94240,
+        "to": 97240
+      },
+      "text": " onları takip ettiğin zaman onlara ulaşma değil de"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:37,240",
+        "to": "00:01:39,600"
+      },
+      "offsets": {
+        "from": 97240,
+        "to": 99600
+      },
+      "text": " birazcık da platformak insan olduğunu"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:39,600",
+        "to": "00:01:41,760"
+      },
+      "offsets": {
+        "from": 99600,
+        "to": 101760
+      },
+      "text": " insan gibi davranlarını hissettirebiliyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:41,760",
+        "to": "00:01:44,640"
+      },
+      "offsets": {
+        "from": 101760,
+        "to": 104640
+      },
+      "text": " O yüzden ilk açtığımız zaman birazcık da sakin davranacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:44,640",
+        "to": "00:01:45,840"
+      },
+      "offsets": {
+        "from": 104640,
+        "to": 105840
+      },
+      "text": " Normal etkileşimler."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:45,840",
+        "to": "00:01:48,040"
+      },
+      "offsets": {
+        "from": 105840,
+        "to": 108040
+      },
+      "text": " Normal bir insan açtığı zaman nasıl davranıyorsa"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:48,040",
+        "to": "00:01:50,240"
+      },
+      "offsets": {
+        "from": 108040,
+        "to": 110240
+      },
+      "text": " kendi Instagramımızı girip neler yapıyorsanız"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:50,240",
+        "to": "00:01:52,960"
+      },
+      "offsets": {
+        "from": 110240,
+        "to": 112960
+      },
+      "text": " anam antikte hesaplı ısındırırken aynı şey yapacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:52,960",
+        "to": "00:01:55,840"
+      },
+      "offsets": {
+        "from": 112960,
+        "to": 115840
+      },
+      "text": " Çok ekstrem böyle super ayrı böyle özellik değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:55,840",
+        "to": "00:01:59,200"
+      },
+      "offsets": {
+        "from": 115840,
+        "to": 119200
+      },
+      "text": " Normal açın kaydırın, videoları izleyin, beğenirseniz yorum atın."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:59,200",
+        "to": "00:02:01,200"
+      },
+      "offsets": {
+        "from": 119200,
+        "to": 121200
+      },
+      "text": " Kaydedin ya da başka birine gönderin."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:01,200",
+        "to": "00:02:03,200"
+      },
+      "offsets": {
+        "from": 121200,
+        "to": 123200
+      },
+      "text": " Ama bot gibi davranmayın."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:03,200",
+        "to": "00:02:06,960"
+      },
+      "offsets": {
+        "from": 123200,
+        "to": 126960
+      },
+      "text": " Okuyabilir, ikinci olarak aynı videoyu tekrar tekrar yüklemek."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:06,960",
+        "to": "00:02:10,640"
+      },
+      "offsets": {
+        "from": 126960,
+        "to": 130640
+      },
+      "text": " Arkadaşlar asla ama asla burada spam yapmamamız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:10,640",
+        "to": "00:02:12,960"
+      },
+      "offsets": {
+        "from": 130640,
+        "to": 132960
+      },
+      "text": " Burada asla repost yapmamamız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:12,960",
+        "to": "00:02:14,800"
+      },
+      "offsets": {
+        "from": 132960,
+        "to": 134800
+      },
+      "text": " Özellikle TikTok ve YouTube."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:14,800",
+        "to": "00:02:17,360"
+      },
+      "offsets": {
+        "from": 134800,
+        "to": 137360
+      },
+      "text": " Biraz an size Instagram repost tradisini vereceğim."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:17,360",
+        "to": "00:02:19,360"
+      },
+      "offsets": {
+        "from": 137360,
+        "to": 139360
+      },
+      "text": " Bunu ilk defa benden duyulacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:19,360",
+        "to": "00:02:21,360"
+      },
+      "offsets": {
+        "from": 139360,
+        "to": 141360
+      },
+      "text": " Çünkü bunun dışarıya vermediğim bir taktik."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:21,360",
+        "to": "00:02:25,760"
+      },
+      "offsets": {
+        "from": 141360,
+        "to": 145760
+      },
+      "text": " Ama anam antikte sizin asla ama asla repost yapmamamız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:25,760",
+        "to": "00:02:29,600"
+      },
+      "offsets": {
+        "from": 145760,
+        "to": 149600
+      },
+      "text": " Aynı dosyayı çünkü bunlar aynı metadata üzerinde oluyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:29,600",
+        "to": "00:02:32,240"
+      },
+      "offsets": {
+        "from": 149600,
+        "to": 152240
+      },
+      "text": " Ve algoritma bir yerden sonra bunları yakalıyor arkadaşlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:32,240",
+        "to": "00:02:35,040"
+      },
+      "offsets": {
+        "from": 152240,
+        "to": 155040
+      },
+      "text": " Şimdi bana diyeceksiniz ki bazı hesaplar var."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:35,040",
+        "to": "00:02:38,080"
+      },
+      "offsets": {
+        "from": 155040,
+        "to": 158080
+      },
+      "text": " Instagram hesapları her gün aynı videoyu atıyorlar ve virar oluyorlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:38,080",
+        "to": "00:02:41,680"
+      },
+      "offsets": {
+        "from": 158080,
+        "to": 161680
+      },
+      "text": " Evet, bunlar Instagram'da bu şekilde şansına virar olabiliyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:41,680",
+        "to": "00:02:44,800"
+      },
+      "offsets": {
+        "from": 161680,
+        "to": 164800
+      },
+      "text": " Bu adamların tek deneyleri de şey aslında şansına virar olmak fark edersiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:44,800",
+        "to": "00:02:49,920"
+      },
+      "offsets": {
+        "from": 164800,
+        "to": 169920
+      },
+      "text": " O yüzden hesaplara giriyorsunuz ki 1233500'denmiş bir tanesi atıyorum 300 bin izlenmiş."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:49,920",
+        "to": "00:02:51,280"
+      },
+      "offsets": {
+        "from": 169920,
+        "to": 171280
+      },
+      "text": " Mesela bu olabilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:51,280",
+        "to": "00:02:58,320"
+      },
+      "offsets": {
+        "from": 171280,
+        "to": 178320
+      },
+      "text": " Ama burada bizim yaptığımız olay kumar oynamak gibi rast kere şansına iş yapıp bir gün virar olmayı umut etmek değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:58,320",
+        "to": "00:02:59,760"
+      },
+      "offsets": {
+        "from": 178320,
+        "to": 179760
+      },
+      "text": " Biz burada iş kuruyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:59,760",
+        "to": "00:03:02,800"
+      },
+      "offsets": {
+        "from": 179760,
+        "to": 182800
+      },
+      "text": " İş kurduğumuz için de ciddi bir şekilde buna yaklaşmamız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:02,800",
+        "to": "00:03:04,800"
+      },
+      "offsets": {
+        "from": 182800,
+        "to": 184800
+      },
+      "text": " O yüzden asla repost yapmıyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:04,800",
+        "to": "00:03:07,280"
+      },
+      "offsets": {
+        "from": 184800,
+        "to": 187280
+      },
+      "text": " TikTok ile YouTube'da dediğim gibi repost atmıyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:07,280",
+        "to": "00:03:08,640"
+      },
+      "offsets": {
+        "from": 187280,
+        "to": 188640
+      },
+      "text": " Instagram stratejisi."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:08,640",
+        "to": "00:03:12,080"
+      },
+      "offsets": {
+        "from": 188640,
+        "to": 192080
+      },
+      "text": " Bakın bu kısım önemli bu kısım daha önce hiç duymadığınız bir yerde."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:12,080",
+        "to": "00:03:19,920"
+      },
+      "offsets": {
+        "from": 192080,
+        "to": 199920
+      },
+      "text": " Eğer siz Instagram'da virar olduysanız bir videonuz 2 milyon, 3 milyon, 5 milyon izlendiysen demek ki bu videoyu güzeldir."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:19,920",
+        "to": "00:03:26,240"
+      },
+      "offsets": {
+        "from": 199920,
+        "to": 206240
+      },
+      "text": " O zaman yapmanız gereken şey 1 hafta sonra bu videoyu alıp tekrardan aynı videoyu repost atabilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:26,240",
+        "to": "00:03:29,440"
+      },
+      "offsets": {
+        "from": 206240,
+        "to": 209440
+      },
+      "text": " Bu bizim büyük hesaplarda aktif olarak denediğimiz bu olay."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:29,440",
+        "to": "00:03:31,840"
+      },
+      "offsets": {
+        "from": 209440,
+        "to": 211840
+      },
+      "text": " Ama bakın burada şunu yanlış anlamamak lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:31,840",
+        "to": "00:03:34,080"
+      },
+      "offsets": {
+        "from": 211840,
+        "to": 214080
+      },
+      "text": " Siz atıyorum 20 tane post paylaştınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:34,080",
+        "to": "00:03:35,760"
+      },
+      "offsets": {
+        "from": 214080,
+        "to": 215760
+      },
+      "text": " Bunlardan bir tanesi 1 milyon izlendi."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:35,760",
+        "to": "00:03:39,040"
+      },
+      "offsets": {
+        "from": 215760,
+        "to": 219040
+      },
+      "text": " O 1 milyon her hafta düzenli düzenli atmamız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:39,040",
+        "to": "00:03:45,840"
+      },
+      "offsets": {
+        "from": 219040,
+        "to": 225840
+      },
+      "text": " Burada hedef virar oldu, yarın 1 milyon 1 milyon izlenden videoları bir kez repostlayıp ondan sonra gidiş altına bakmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:45,840",
+        "to": "00:03:50,960"
+      },
+      "offsets": {
+        "from": 225840,
+        "to": 230960
+      },
+      "text": " Ama hani bir video bir kez virar oldu diye onu 10 kez tekrar tekrar her hafta düzenli atmamak lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:50,960",
+        "to": "00:03:51,920"
+      },
+      "offsets": {
+        "from": 230960,
+        "to": 231920
+      },
+      "text": " Bıksın çok önemli."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:51,920",
+        "to": "00:03:58,640"
+      },
+      "offsets": {
+        "from": 231920,
+        "to": 238640
+      },
+      "text": " Ve en sonunda 1 videoyu 1-1 aynı sını çekeceksin, aynısını yapacaksan bile burada üşemmemek lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:58,640",
+        "to": "00:04:01,200"
+      },
+      "offsets": {
+        "from": 238640,
+        "to": 241200
+      },
+      "text": " Oturup videoyu sıfırdan baştan çekmeniz lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:01,200",
+        "to": "00:04:02,480"
+      },
+      "offsets": {
+        "from": 241200,
+        "to": 242480
+      },
+      "text": " İlk gün size anlatıyordum."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:02,480",
+        "to": "00:04:06,880"
+      },
+      "offsets": {
+        "from": 242480,
+        "to": 246880
+      },
+      "text": " İki aile hesaplan aynı ürünü yürütseniz bile videoların farklı olması lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:06,880",
+        "to": "00:04:12,640"
+      },
+      "offsets": {
+        "from": 246880,
+        "to": 252640
+      },
+      "text": " O yüzden bizim dünkü çektiğimiz gibi bir hareketi getirin, orada durdurun tekrardan aynı hareketi yapın."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:12,640",
+        "to": "00:04:18,560"
+      },
+      "offsets": {
+        "from": 252640,
+        "to": 258560
+      },
+      "text": " Burada yaptığınız 1. videoyu, 1. kısımda, 2. videoyu da, 2. kısımda kullanın okuyamadır."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:18,560",
+        "to": "00:04:23,760"
+      },
+      "offsets": {
+        "from": 258560,
+        "to": 263760
+      },
+      "text": " Üçüncü olarak çok fazla silip yüklemek, aslında çok fazlayi kaldırmak lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:23,760",
+        "to": "00:04:25,680"
+      },
+      "offsets": {
+        "from": 263760,
+        "to": 265680
+      },
+      "text": " Videoları silip tekrar yüklemek."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:25,680",
+        "to": "00:04:34,480"
+      },
+      "offsets": {
+        "from": 265680,
+        "to": 274480
+      },
+      "text": " Bakın, eğer bir videonuz performans göstermediyse az izlenmede kaldıysa ya da videoyu çektiğiniz paylaştığınız bir baktığınızda bir şey koymaya unutmuşunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:34,480",
+        "to": "00:04:38,000"
+      },
+      "offsets": {
+        "from": 274480,
+        "to": 278000
+      },
+      "text": " hook atmamışınız mesela, olabilir insanlık halidir, hata yapabiliriz."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:38,000",
+        "to": "00:04:40,720"
+      },
+      "offsets": {
+        "from": 278000,
+        "to": 280720
+      },
+      "text": " Burada videoyu silmemeniz lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:40,720",
+        "to": "00:04:46,080"
+      },
+      "offsets": {
+        "from": 280720,
+        "to": 286080
+      },
+      "text": " Eğer videoyu profilten kaldırmak istiyorsanız, yapmanız gereken, arşivalmak okuyamadır."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:46,080",
+        "to": "00:04:51,280"
+      },
+      "offsets": {
+        "from": 286080,
+        "to": 291280
+      },
+      "text": " Ayağları gidiyorsunuz, videoyu arşival alıyorsunuz ve bu videoyu sizin takipçilerinize gözükmüyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:51,280",
+        "to": "00:04:56,480"
+      },
+      "offsets": {
+        "from": 291280,
+        "to": 296480
+      },
+      "text": " Tiktokta arşivalmak gibi muhabbet yok ama tiktokta ayağları girdiğiniz zaman kime gösteriliyor?"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:56,480",
+        "to": "00:04:58,240"
+      },
+      "offsets": {
+        "from": 296480,
+        "to": 298240
+      },
+      "text": " Kısımında 3 ayrı seçenek var."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:58,240",
+        "to": "00:05:02,240"
+      },
+      "offsets": {
+        "from": 298240,
+        "to": 302240
+      },
+      "text": " Birincisi, herkes, ikincisi takipçilerin 3. sadece ben."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:02,240",
+        "to": "00:05:05,040"
+      },
+      "offsets": {
+        "from": 302240,
+        "to": 305040
+      },
+      "text": " Tiktokta da, sadece beni seçmeniz gerek."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:05,040",
+        "to": "00:05:10,880"
+      },
+      "offsets": {
+        "from": 305040,
+        "to": 310880
+      },
+      "text": " Ama ne kadar çok mükemmeliyetçi olsanız da, günün sonunda videoyu çok izlenmese bile bir problem yok abi."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:10,880",
+        "to": "00:05:12,680"
+      },
+      "offsets": {
+        "from": 310880,
+        "to": 312680
+      },
+      "text": " Zaten günlük iki tane videotu olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:12,680",
+        "to": "00:05:14,720"
+      },
+      "offsets": {
+        "from": 312680,
+        "to": 314720
+      },
+      "text": " Bir hafta sonra o videoyu gözükmeyecek bile yani."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:14,720",
+        "to": "00:05:18,560"
+      },
+      "offsets": {
+        "from": 314720,
+        "to": 318560
+      },
+      "text": " O yüzden burada çok fazla aksona gelmenize gerek yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:18,560",
+        "to": "00:05:21,600"
+      },
+      "offsets": {
+        "from": 318560,
+        "to": 321600
+      },
+      "text": " Videoları silmenizi kesinlikle önemliyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:21,600",
+        "to": "00:05:27,960"
+      },
+      "offsets": {
+        "from": 321600,
+        "to": 327960
+      },
+      "text": " Bir videoyu eğer paylaştığınız devamında bunu beğenmediniz ya da hukunu unuttunuz ya da herhangi bir şey değiştirmeyi unuttunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:27,960",
+        "to": "00:05:37,920"
+      },
+      "offsets": {
+        "from": 327960,
+        "to": 337920
+      },
+      "text": " Arşivaldınız, ikinci videoyu paylaşmadan önce 2 saat beklemeniz önemli, nasıl bir post atarken 2 saat bekliyorsak burada da 2 saat bekliyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:37,920",
+        "to": "00:05:38,840"
+      },
+      "offsets": {
+        "from": 337920,
+        "to": 338840
+      },
+      "text": " Devam ediyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:38,840",
+        "to": "00:05:45,520"
+      },
+      "offsets": {
+        "from": 338840,
+        "to": 345520
+      },
+      "text": " VPN IP değişimi farklı cihaz girişlerin platform farklı cihazlar girişlerini liste olarak görür."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:45,520",
+        "to": "00:05:52,320"
+      },
+      "offsets": {
+        "from": 345520,
+        "to": 352320
+      },
+      "text": " Mesela siz bir bölün resaldığınız var, bunu farklı bir telefonu aktarmak istiyorsunuz ya da sizin normal yürütlüğünüz besap var."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:52,320",
+        "to": "00:05:54,280"
+      },
+      "offsets": {
+        "from": 352320,
+        "to": 354280
+      },
+      "text": " Ama bunu kreatörünüze paylaşacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:54,280",
+        "to": "00:05:55,760"
+      },
+      "offsets": {
+        "from": 354280,
+        "to": 355760
+      },
+      "text": " Bugün ki yaptığımız olay mesela."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:55,760",
+        "to": "00:06:04,320"
+      },
+      "offsets": {
+        "from": 355760,
+        "to": 364320
+      },
+      "text": " Burada dikkat etmeniz gereken kızım şu hesap aktarıldığı zaman ilk gün bölünün gibi o hesapta kaydırıp ısındırma yapmanız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:04,320",
+        "to": "00:06:08,080"
+      },
+      "offsets": {
+        "from": 364320,
+        "to": 368080
+      },
+      "text": " Yani nasıl siz yeni hesa baştığınız zaman kaydırıp ısındırıp etkileşim veriyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:08,080",
+        "to": "00:06:12,960"
+      },
+      "offsets": {
+        "from": 368080,
+        "to": 372960
+      },
+      "text": " Aynı şekilde sizin 10 bin takipçili bir hesabınız var, bunu farklı bir telefonu aktardınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:12,960",
+        "to": "00:06:16,760"
+      },
+      "offsets": {
+        "from": 372960,
+        "to": 376760
+      },
+      "text": " Ya da bunu siz kreatörünüze verdiniz artık kreatör sizin yeni paylaşı olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:16,760",
+        "to": "00:06:20,880"
+      },
+      "offsets": {
+        "from": 376760,
+        "to": 380880
+      },
+      "text": " O yüzden burada onun kaydırıp ısındırma yapması çok önemli."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:20,880",
+        "to": "00:06:24,000"
+      },
+      "offsets": {
+        "from": 380880,
+        "to": 384000
+      },
+      "text": " Direkt olarak post atmaya başlamamanız problem."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:24,000",
+        "to": "00:06:32,400"
+      },
+      "offsets": {
+        "from": 384000,
+        "to": 392400
+      },
+      "text": " İlk gün ısındırmayı yaptınız, ikinci gün bir tane postu attınız, üçüncükünden itibaren iki şer, iki şer post paylaşmaya başlayabilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:32,400",
+        "to": "00:06:38,600"
+      },
+      "offsets": {
+        "from": 392400,
+        "to": 398600
+      },
+      "text": " Spam diyen yorumları diyen davranışları bakın burada çok öğrencenin canı yanda arkadaşlar bu kısım çok önemli."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:38,600",
+        "to": "00:06:43,600"
+      },
+      "offsets": {
+        "from": 398600,
+        "to": 403600
+      },
+      "text": " Öncelikle diyen kısmına ilk başla değineyim çünkü burası daha dikkat etmeniz gereken bıksın."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:43,600",
+        "to": "00:06:47,560"
+      },
+      "offsets": {
+        "from": 403600,
+        "to": 407560
+      },
+      "text": " Türkiye marketinde ürün yürütmeye başladığınız zaman çok hızlı veral olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:47,560",
+        "to": "00:06:53,040"
+      },
+      "offsets": {
+        "from": 407560,
+        "to": 413040
+      },
+      "text": " Eğer işinizi düzgün yapıyorsanız özenerek yapıyorsanız gerçekten veral olmanız çok kısa sürecek."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:53,040",
+        "to": "00:06:59,800"
+      },
+      "offsets": {
+        "from": 413040,
+        "to": 419800
+      },
+      "text": " Ama burada öğrenciler veral olur olmaz çok heyecanlanıyorlar, gaza geliyorlar çünkü çok fazla diyem oluyor herkes fiyat soruyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:59,800",
+        "to": "00:07:06,880"
+      },
+      "offsets": {
+        "from": 419800,
+        "to": 426880
+      },
+      "text": " Ne yapıyorlar? Bir tane mesaj yazıyorlar atıyorum işte indirimli fiyat için işte atıyorum ahmetçelik bileklik nokta kom."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:06,880",
+        "to": "00:07:12,080"
+      },
+      "offsets": {
+        "from": 426880,
+        "to": 432080
+      },
+      "text": " Bunu kopi, sonra bütün takipçilere bambam bambam bambam spam kopi peys kopi peysi aynı diyem."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:12,080",
+        "to": "00:07:14,600"
+      },
+      "offsets": {
+        "from": 432080,
+        "to": 434600
+      },
+      "text": " Ne oluyor günün sonunda? Şadooban yiyorsunuz arkadaşlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:14,600",
+        "to": "00:07:17,320"
+      },
+      "offsets": {
+        "from": 434600,
+        "to": 437320
+      },
+      "text": " İşte bu en ızlı Şadooban yemeği öntemidir."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:17,320",
+        "to": "00:07:21,480"
+      },
+      "offsets": {
+        "from": 437320,
+        "to": 441480
+      },
+      "text": " Asla ama asla diyenlere kopi peys yani cevap vermememiz lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:21,480",
+        "to": "00:07:26,960"
+      },
+      "offsets": {
+        "from": 441480,
+        "to": 446960
+      },
+      "text": " Burada baktınız ki çok veral olunuz çok hızlı bir şekilde beklemiyordunuz olabilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:26,960",
+        "to": "00:07:32,120"
+      },
+      "offsets": {
+        "from": 446960,
+        "to": 452120
+      },
+      "text": " Burada eğer yapacaksanız videolar pardon yorumları değiştire değiştire yazmanız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:32,120",
+        "to": "00:07:38,800"
+      },
+      "offsets": {
+        "from": 452120,
+        "to": 458800
+      },
+      "text": " Küçük değişiklikler yapın başına bir emacı koyun ya da işte atıyorum indirimli fiyat için şuraya bak indirimli fiyat bugün özel."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:38,800",
+        "to": "00:07:41,800"
+      },
+      "offsets": {
+        "from": 458800,
+        "to": 461800
+      },
+      "text": " Şöyle böyle küçük değiştire değiştiraksanız problem olmaz."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:41,800",
+        "to": "00:07:48,600"
+      },
+      "offsets": {
+        "from": 461800,
+        "to": 468600
+      },
+      "text": " Ama bir gün içerisinde de böyle 300-500 kişi takipçiye göndermeyin gelebilecek daha yavaşalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:48,600",
+        "to": "00:07:54,840"
+      },
+      "offsets": {
+        "from": 468600,
+        "to": 474840
+      },
+      "text": " Burada ilerisi için sistem şöyle devamında siz baktınız hesabınız güzel gitmeye başlıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:54,840",
+        "to": "00:07:58,040"
+      },
+      "offsets": {
+        "from": 474840,
+        "to": 478040
+      },
+      "text": " İlk ve en öncelikle yapmanız gereken şey menişet kurmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:58,040",
+        "to": "00:08:00,600"
+      },
+      "offsets": {
+        "from": 478040,
+        "to": 480600
+      },
+      "text": " Neden? Çünkü menişette güzel otomasyonlar var."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:00,600",
+        "to": "00:08:06,280"
+      },
+      "offsets": {
+        "from": 480600,
+        "to": 486280
+      },
+      "text": " Adamlar fiyat yazacak ona gönderceksiniz ya da bugün özel indirim yazılıyorum olarak indirimden gönderelim."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:06,280",
+        "to": "00:08:08,280"
+      },
+      "offsets": {
+        "from": 486280,
+        "to": 488280
+      },
+      "text": " Menişette herhangi bir problem yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:08,280",
+        "to": "00:08:11,480"
+      },
+      "offsets": {
+        "from": 488280,
+        "to": 491480
+      },
+      "text": " Çünkü Instagram siyasunun kendi onayladı, kendi postu var."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:11,480",
+        "to": "00:08:14,480"
+      },
+      "offsets": {
+        "from": 491480,
+        "to": 494480
+      },
+      "text": " Menişet gibi otomasyonların sıkıntı yaratmadığına dair."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:14,480",
+        "to": "00:08:22,040"
+      },
+      "offsets": {
+        "from": 494480,
+        "to": 502040
+      },
+      "text": " O yüzden olabildiğince hesabınız baktınız iyi gidiyor, yapmanız gereken direkt olarak menişet üzerinden insanlara fiyat gönderebiliyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:22,040",
+        "to": "00:08:24,600"
+      },
+      "offsets": {
+        "from": 502040,
+        "to": 504600
+      },
+      "text": " Olmak. Bir de spam yorum muhabbeti var."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:24,600",
+        "to": "00:08:30,120"
+      },
+      "offsets": {
+        "from": 504600,
+        "to": 510120
+      },
+      "text": " Siz eğer girip mesela sürekli yorumlara link bir yoda işte gidin benim hesabımdan satınalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:30,120",
+        "to": "00:08:37,120"
+      },
+      "offsets": {
+        "from": 510120,
+        "to": 517120
+      },
+      "text": " Bugün özel indirimli bunları spamlarsanız genel olarak videolarınızda etkileşemlerin düştüğünü göreceksiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:37,120",
+        "to": "00:08:38,320"
+      },
+      "offsets": {
+        "from": 517120,
+        "to": 518320
+      },
+      "text": " Burada şöyle bir kısım var."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:38,320",
+        "to": "00:08:40,760"
+      },
+      "offsets": {
+        "from": 518320,
+        "to": 520760
+      },
+      "text": " Özellikle bu yurt dışı pazarını etkiliyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:40,760",
+        "to": "00:08:51,200"
+      },
+      "offsets": {
+        "from": 520760,
+        "to": 531200
+      },
+      "text": " Yurt dışı pazarında özellikle platform İngilizceyi daha iyi anladığı için yazı olarak linkin bayağı yazdığınız zaman videolarda bazen etkileşim düşmesi yaşayabiliyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:51,200",
+        "to": "00:08:53,800"
+      },
+      "offsets": {
+        "from": 531200,
+        "to": 533800
+      },
+      "text": " Bu daha yoğunluk olarak TikTok doluyor bu arada."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:53,800",
+        "to": "00:08:56,240"
+      },
+      "offsets": {
+        "from": 533800,
+        "to": 536240
+      },
+      "text": " Instagram birazcık rahat bir platform."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:56,240",
+        "to": "00:08:57,760"
+      },
+      "offsets": {
+        "from": 536240,
+        "to": 537760
+      },
+      "text": " Instagram size çok fazla kasmıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:57,760",
+        "to": "00:09:02,600"
+      },
+      "offsets": {
+        "from": 537760,
+        "to": 542600
+      },
+      "text": " Bir yere kadar yakalanmadan devam edebiliyorsunuz insada yakalanınca da bir daha olasal bir çik kullanılmıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:02,600",
+        "to": "00:09:14,280"
+      },
+      "offsets": {
+        "from": 542600,
+        "to": 554280
+      },
+      "text": " Doloresaylı ama TikTok bu tarz algoritma şeylerinde daha ön planda siz yazı olarak linkin bayağı yazmak yerine gidip bir kağıda linkin bayağı uzup ona açmanız daha mantıklı."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:14,280",
+        "to": "00:09:20,440"
+      },
+      "offsets": {
+        "from": 554280,
+        "to": 560440
+      },
+      "text": " O yüzden o tarz ilerlemeniz günün sonunda size daha iyi etkileşimler daha sorunsuz etkileşimler veriyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:20,440",
+        "to": "00:09:21,880"
+      },
+      "offsets": {
+        "from": 560440,
+        "to": 561880
+      },
+      "text": " Bakın şu kısım unutmamak lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:21,880",
+        "to": "00:09:24,680"
+      },
+      "offsets": {
+        "from": 561880,
+        "to": 564680
+      },
+      "text": " Platform bizi izlenme olarak ödülendiriyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:24,680",
+        "to": "00:09:25,160"
+      },
+      "offsets": {
+        "from": 564680,
+        "to": 565160
+      },
+      "text": " Neden?"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:25,160",
+        "to": "00:09:29,760"
+      },
+      "offsets": {
+        "from": 565160,
+        "to": 569760
+      },
+      "text": " Çünkü biz insanların sevebileceği insanların paylaşabileceği içerikler yapıyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:29,760",
+        "to": "00:09:36,200"
+      },
+      "offsets": {
+        "from": 569760,
+        "to": 576200
+      },
+      "text": " Bizim amacımız sizin de bildiğiniz gibi satış var içerikler yapmamak, virar olmaya çalışırken koltakçın kısmı ayrı."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:36,200",
+        "to": "00:09:44,600"
+      },
+      "offsets": {
+        "from": 576200,
+        "to": 584600
+      },
+      "text": " Devamında burada platformun bizi ödülendirmesinin yani bize daha çok izlenme vermesinin nedeni biz insanları o platform da tutuyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:44,600",
+        "to": "00:09:51,000"
+      },
+      "offsets": {
+        "from": 584600,
+        "to": 591000
+      },
+      "text": " Ama siz yavaş yavaş artık satışa geçmeye başladığınız zaman platform'ın içerisinden insan çekiyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:51,000",
+        "to": "00:09:59,840"
+      },
+      "offsets": {
+        "from": 591000,
+        "to": 599840
+      },
+      "text": " Platform da yani içerisinden kullanıcı kaybetmek istemediği için böyle şeyleri gördüğü zaman böyle şeyleri yakaladığı zaman size daha zehkileşim vermek isteyecek."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:59,840",
+        "to": "00:10:04,120"
+      },
+      "offsets": {
+        "from": 599840,
+        "to": 604120
+      },
+      "text": " Çünkü platform'ın amacı insanları olabildiğince kendi platformunda tutmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:04,120",
+        "to": "00:10:16,640"
+      },
+      "offsets": {
+        "from": 604120,
+        "to": 616640
+      },
+      "text": " O yüzden bunu en iyisi verebileceğimiz yöntem dediğin gibi yazı olarak linkin baya değil de bunu böyle bir kağıt da ya da bilgisayarın ekranında ya da o tarz bir şey de göstermek sizi yurt dışı marketinde daha da koruyor olacaktır."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:16,640",
+        "to": "00:10:21,880"
+      },
+      "offsets": {
+        "from": 616640,
+        "to": 621880
+      },
+      "text": " Son olarak tilifli içerikler ve votrum orkularımı bunu biz zaten asla yapmıyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:21,880",
+        "to": "00:10:38,140"
+      },
+      "offsets": {
+        "from": 621880,
+        "to": 638140
+      },
+      "text": " Bu bilgi benim direk kendi aldığım mentörlükten onlar diyorlar ki eğer siz örneğin TikTok'a girdiğiniz TikTok'a bir video paylaştığınız kendi galeninize paylaşılan video değil de gidip TikTok'dan videoyu indirilseniz platform'ın içine indirilseniz orada TikTok'u votrum ork oluyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:38,140",
+        "to": "00:10:41,240"
+      },
+      "offsets": {
+        "from": 638140,
+        "to": 641240
+      },
+      "text": " Görüyorsunuz sadus olduğu TikTok'a yazıyor böyle değişiyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:41,240",
+        "to": "00:10:44,640"
+      },
+      "offsets": {
+        "from": 641240,
+        "to": 644640
+      },
+      "text": " Bunlara asla çapraz platformlarda paylaşmayın."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:44,640",
+        "to": "00:10:46,300"
+      },
+      "offsets": {
+        "from": 644640,
+        "to": 646300
+      },
+      "text": " Buradaki önemli bu."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:46,300",
+        "to": "00:10:51,600"
+      },
+      "offsets": {
+        "from": 646300,
+        "to": 651600
+      },
+      "text": " Eğer Instagram'dan da indirdiğiniz zaman Instagram'da da sağda Instagram bu tonları şey de logolara çıkıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:51,600",
+        "to": "00:10:55,100"
+      },
+      "offsets": {
+        "from": 651600,
+        "to": 655100
+      },
+      "text": " O yüzden olabildiğince bunlara engel olun, bunların önüne geçin."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:55,100",
+        "to": "00:10:58,640"
+      },
+      "offsets": {
+        "from": 655100,
+        "to": 658640
+      },
+      "text": " Zaten bildiğiniz gibi asla böyle bir şey yapmıyoruz ama gene aklınızda bulunsun."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:58,640",
+        "to": "00:11:03,340"
+      },
+      "offsets": {
+        "from": 658640,
+        "to": 663340
+      },
+      "text": " Son olarak önemli olan kısım bu çoğul öğrencinin aklına gelen bana çok sorulan bir kısım."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:03,340",
+        "to": "00:11:16,540"
+      },
+      "offsets": {
+        "from": 663340,
+        "to": 676540
+      },
+      "text": " Biz nas hesab, yeni bir hesab açtığımız zaman profesyonel işletme sabrına geçeceğiz mi? Evet, profesyonel işletme sabrına geçeceğiz. Ama burada işletme hesabını biz nas hesabı değil de kreatör hesabı olarak kullanmamız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:16,540",
+        "to": "00:11:17,580"
+      },
+      "offsets": {
+        "from": 676540,
+        "to": 677580
+      },
+      "text": " Bunun ikil edeni var."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:17,580",
+        "to": "00:11:21,780"
+      },
+      "offsets": {
+        "from": 677580,
+        "to": 681780
+      },
+      "text": " Birinci olarak kreatör hesabında siz daha çok müzik görüyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:21,780",
+        "to": "00:11:25,340"
+      },
+      "offsets": {
+        "from": 681780,
+        "to": 685340
+      },
+      "text": " Çünkü biz nas hesaplarında müzikleyen hepsi teleflü olay olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:25,340",
+        "to": "00:11:31,940"
+      },
+      "offsets": {
+        "from": 685340,
+        "to": 691940
+      },
+      "text": " O yüzden biz nas hesaplarına girdiğiniz zaman saçma sapan müziksiz yani böyle isimsiz müzikler görüyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:31,940",
+        "to": "00:11:36,500"
+      },
+      "offsets": {
+        "from": 691940,
+        "to": 696500
+      },
+      "text": " Bu sayede de biz kendi istediğimiz daha tren müzikler kullanamıyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:36,500",
+        "to": "00:11:46,340"
+      },
+      "offsets": {
+        "from": 696500,
+        "to": 706340
+      },
+      "text": " En önemli kısım bu ikinci olarak. Biz nas hesaplar amacı işletme olduğu için, amacı para kazanmak olduğu için Instagram ve TikTok bilerek onların görüntülenmeyi azaltıyorlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:46,340",
+        "to": "00:11:52,580"
+      },
+      "offsets": {
+        "from": 706340,
+        "to": 712580
+      },
+      "text": " Neden? Çünkü adam yani platform diyor ki bu adam eğer biz nas hesabı ise teklama paracısın daha çok insan olaysın."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:52,580",
+        "to": "00:11:55,580"
+      },
+      "offsets": {
+        "from": 712580,
+        "to": 715580
+      },
+      "text": " Yani oradaki amacı adamlardan olabildiğince para koparmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:55,580",
+        "to": "00:12:01,500"
+      },
+      "offsets": {
+        "from": 715580,
+        "to": 721500
+      },
+      "text": " Mesela burada öğrencilerin en çolaklığına takılan kısım TikTok'da bin takipçi olmayı beklemek zorunda değiliz."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:01,500",
+        "to": "00:12:12,900"
+      },
+      "offsets": {
+        "from": 721500,
+        "to": 732900
+      },
+      "text": " Direkt olarak biznsa geçirip link koyabiliriz. Elbette ama günün sonunda izlenme alamadığın sürece trafik çekemediğin sürece orada linkin olup olması çok bir şey yaramıyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:12,900",
+        "to": "00:12:17,700"
+      },
+      "offsets": {
+        "from": 732900,
+        "to": 737700
+      },
+      "text": " Son olarak hesabının topluluk ihlallerine yaklaşması ne demek bu?"
+    },
+    {
+      "timestamps": {
+        "from": "00:12:17,700",
+        "to": "00:12:24,700"
+      },
+      "offsets": {
+        "from": 737700,
+        "to": 744700
+      },
+      "text": " Eğer siz mesela bu şahane Facebook reklamlarında da yasak bu arada özellikle Türkiye'de ama birfor after claimleri yapıyorsanız."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:24,700",
+        "to": "00:12:27,540"
+      },
+      "offsets": {
+        "from": 744700,
+        "to": 747540
+      },
+      "text": " Mesela adam çok kiralıydı bunu kullandı çok zayıfladı."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:27,540",
+        "to": "00:12:33,980"
+      },
+      "offsets": {
+        "from": 747540,
+        "to": 753980
+      },
+      "text": " Ya da böyle çok specific sağlık vaatleri veriyorsanız, supplement markalarında işte birazcık doktor gibi takılıyorsanız."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:33,980",
+        "to": "00:12:39,140"
+      },
+      "offsets": {
+        "from": 753980,
+        "to": 759140
+      },
+      "text": " Mesela TikTok'da, doktor eyalarıp TikTok şopta doktor eyalarıp bir yara çok hızlı patladı."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:39,140",
+        "to": "00:12:42,420"
+      },
+      "offsets": {
+        "from": 759140,
+        "to": 762420
+      },
+      "text": " Bir tane çocuk ondan bir iki yüz iki yüz elli bin dolar falan yaptığı bir ihtimalle."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:42,420",
+        "to": "00:12:47,300"
+      },
+      "offsets": {
+        "from": 762420,
+        "to": 767300
+      },
+      "text": " Sonra TikTok bunu yakaladı anda bütün doktora benz yani hesapların hepsini aynı anda bağlanadılar."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:47,300",
+        "to": "00:12:54,060"
+      },
+      "offsets": {
+        "from": 767300,
+        "to": 774060
+      },
+      "text": " Neden? Çünkü siz doktormuş gibi TikTok'da çıkıp yani bu hesaplarının çok güzel adamlar doktor gibi giyiniyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:54,060",
+        "to": "00:12:58,060"
+      },
+      "offsets": {
+        "from": 774060,
+        "to": 778060
+      },
+      "text": " TikTok şopta videoya çoğular, canlı yeni çoğular, satıyorlar mesela."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:58,060",
+        "to": "00:13:00,780"
+      },
+      "offsets": {
+        "from": 778060,
+        "to": 780780
+      },
+      "text": " Tam böyle bir hafta falan çok büyük para yaptılar."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:00,780",
+        "to": "00:13:02,900"
+      },
+      "offsets": {
+        "from": 780780,
+        "to": 782900
+      },
+      "text": " Son TikTok bunu yakalar yakalamaz hepsini bağlamadı."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:02,900",
+        "to": "00:13:06,300"
+      },
+      "offsets": {
+        "from": 782900,
+        "to": 786300
+      },
+      "text": " O yüzden bu tarz sağlık vaatlerinden uzaklaşmanız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:06,300",
+        "to": "00:13:12,380"
+      },
+      "offsets": {
+        "from": 786300,
+        "to": 792380
+      },
+      "text": " Asla ama asla platforma gidip işte buğunu alın böyle yapının sağlığınızı iyi geliriz, zayıflarsanız edersiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:12,380",
+        "to": "00:13:14,540"
+      },
+      "offsets": {
+        "from": 792380,
+        "to": 794540
+      },
+      "text": " Böyle şeyler koymamamız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:14,540",
+        "to": "00:13:23,140"
+      },
+      "offsets": {
+        "from": 794540,
+        "to": 803140
+      },
+      "text": " Üçüncü olarak cinsellik sizin bir ürünüzde cinsel bir fotoğraf varsa yani ürünüz cinselliği gösterebilir, cinselliği ima edebilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:23,140",
+        "to": "00:13:26,180"
+      },
+      "offsets": {
+        "from": 803140,
+        "to": 806180
+      },
+      "text": " Mesela geçen gördüğümüz bu battani ürünü gibi."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:26,180",
+        "to": "00:13:34,180"
+      },
+      "offsets": {
+        "from": 806180,
+        "to": 814180
+      },
+      "text": " O da cinsell bir üründü. Burada cinsellikle problem yok ama açık açık cinsell fotoğraflar, cinsell şekiller olursa burada sıkıntı olur."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:34,180",
+        "to": "00:13:37,860"
+      },
+      "offsets": {
+        "from": 814180,
+        "to": 817860
+      },
+      "text": " Bir de ikincisiyle şöyle bir problem var küfür muhabbetin."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:37,860",
+        "to": "00:13:49,140"
+      },
+      "offsets": {
+        "from": 817860,
+        "to": 829140
+      },
+      "text": " Özellikle bu daha çok İngilizce de geçerli. Siz eğer videoda küfür ediyorsanız, eğer boysovurda küfürlü boysovur koyuyorsunuz, etkili şimdilerinizi kısıklıyor olabilirsiniz neden."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:49,140",
+        "to": "00:13:57,260"
+      },
+      "offsets": {
+        "from": 829140,
+        "to": 837260
+      },
+      "text": " Eğer platform, sizin videonuzda küfür olduğunu fark ederse onu artı 18 hatta Amerika'da artı 22-25'e kadar çekebiliyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:57,260",
+        "to": "00:14:01,620"
+      },
+      "offsets": {
+        "from": 837260,
+        "to": 841620
+      },
+      "text": " Ne oluyor? Sizin 25 yaş altındaki insanlar videolarınızı göremiyorlıyorlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:01,620",
+        "to": "00:14:07,380"
+      },
+      "offsets": {
+        "from": 841620,
+        "to": 847380
+      },
+      "text": " Bu sayede ne oluyor? Siz aslında belki 5 milyon, 10 milyon kişi oluşuyacakken 1 milyon ulaşabiliyorlıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:07,380",
+        "to": "00:14:09,140"
+      },
+      "offsets": {
+        "from": 847380,
+        "to": 849140
+      },
+      "text": " Ve bunun neden olduğunu bilmiyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:09,140",
+        "to": "00:14:16,900"
+      },
+      "offsets": {
+        "from": 849140,
+        "to": 856900
+      },
+      "text": " O yüzden genel olarak zaten Mark olarak ilerideyimiz için küfür etmek çok mantıklı değil evallah ama genel olarak küfür etmekten uzak durum."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:16,900",
+        "to": "00:14:23,740"
+      },
+      "offsets": {
+        "from": 856900,
+        "to": 863740
+      },
+      "text": " Okuyabilir. Son olarak silahdır, bıçaktır. Mesela elbise tanıtma videoları görürsünüz."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:23,740",
+        "to": "00:14:26,900"
+      },
+      "offsets": {
+        "from": 863740,
+        "to": 866900
+      },
+      "text": " Adam kutuyu getirir, bıçağı çar, bıçakla bunu keser."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:26,900",
+        "to": "00:14:28,580"
+      },
+      "offsets": {
+        "from": 866900,
+        "to": 868580
+      },
+      "text": " Bakın bunlar riskli hareketler."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:28,580",
+        "to": "00:14:34,100"
+      },
+      "offsets": {
+        "from": 868580,
+        "to": 874100
+      },
+      "text": " Eğer ürününüz bıçak gerektiren bir ürün değilse buna çok yaklaşmanız ödenmiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:34,100",
+        "to": "00:14:36,460"
+      },
+      "offsets": {
+        "from": 874100,
+        "to": 876460
+      },
+      "text": " Silah da aynı şekilde. Şimdi diyeceksiniz ki."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:36,460",
+        "to": "00:14:39,380"
+      },
+      "offsets": {
+        "from": 876460,
+        "to": 879380
+      },
+      "text": " Ulan bize böyle diyorsun ama sen de bunu satıyorsun."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:39,380",
+        "to": "00:14:49,460"
+      },
+      "offsets": {
+        "from": 879380,
+        "to": 889460
+      },
+      "text": " Evet ama arkada yaşanan kısmı ben ve ikibim biliyor. Yani bizim TikTok ve Instagram hesaplarının görseniz her iki videodan birisi kesinlikle ilgilendiriyor arkadaşlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:49,460",
+        "to": "00:14:53,660"
+      },
+      "offsets": {
+        "from": 889460,
+        "to": 893660
+      },
+      "text": " Yani o yüzden olabildiğince mesela şu anda silah şeklinde ürünler var."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:53,660",
+        "to": "00:14:56,780"
+      },
+      "offsets": {
+        "from": 893660,
+        "to": 896780
+      },
+      "text": " Silah çakmaklar var mesela içerisinden, sıkarı çıkan falan."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:56,780",
+        "to": "00:15:00,620"
+      },
+      "offsets": {
+        "from": 896780,
+        "to": 900620
+      },
+      "text": " Onları görmüşsünüzdür. Bu tarz ürünlerde de bu problemi yaşıyorlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:00,620",
+        "to": "00:15:07,380"
+      },
+      "offsets": {
+        "from": 900620,
+        "to": 907380
+      },
+      "text": " Anam artık da şöyle bir kısm var. Elbette ki bazı hesaplara bakarsanız adam gerçek silah kullanıyor ve program yaşamıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:07,380",
+        "to": "00:15:12,380"
+      },
+      "offsets": {
+        "from": 907380,
+        "to": 912380
+      },
+      "text": " Eyvallah ama ististanlar dediğim gibi kaydayı bozmaz. Böyle şeyler oluyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:12,380",
+        "to": "00:15:16,380"
+      },
+      "offsets": {
+        "from": 912380,
+        "to": 916380
+      },
+      "text": " Yani adam dediğim gibi mesela ben geçen video bakıyorum. Adam gerçek silahı atış ediyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:16,380",
+        "to": "00:15:22,100"
+      },
+      "offsets": {
+        "from": 916380,
+        "to": 922100
+      },
+      "text": " Bunun videoları var ve adamlar izleniyor. Ama biz mesela oyuncağını gösteriyoruz. Biz problem yaşıyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:22,100",
+        "to": "00:15:23,500"
+      },
+      "offsets": {
+        "from": 922100,
+        "to": 923500
+      },
+      "text": " Bunda yapabilecek bir şey yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:23,500",
+        "to": "00:15:30,700"
+      },
+      "offsets": {
+        "from": 923500,
+        "to": 930700
+      },
+      "text": " Platform bazı hesapları görmüyor. Bir yere kadar ama gördüğü zaman da cezasını kesiyor her şekilde."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:30,700",
+        "to": "00:15:37,860"
+      },
+      "offsets": {
+        "from": 930700,
+        "to": 937860
+      },
+      "text": " O yüzden bu tarz silahlı, bıçaktır eğer ürününüzle arak kalı değilse olabildiğince göstermeyin."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:37,860",
+        "to": "00:15:42,860"
+      },
+      "offsets": {
+        "from": 937860,
+        "to": 942860
+      },
+      "text": " Eğer ürününüz silah ürünün ise burada silahı yatay bir şekilde tutmamanız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:42,860",
+        "to": "00:15:50,220"
+      },
+      "offsets": {
+        "from": 942860,
+        "to": 950220
+      },
+      "text": " Olabildiğince olabildiğince birazcık da eğinli tutmanız lazım ki algoritma direkt olarak yatay halini görüp tamam bu silah dememesi lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:50,220",
+        "to": "00:15:55,420"
+      },
+      "offsets": {
+        "from": 950220,
+        "to": 955420
+      },
+      "text": " Algoritma arkadaşlar, özellikle yapay zekyalardan dolayı şu anda şikayetlerin en en enen yatırım yaptığı şeyler."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:55,420",
+        "to": "00:15:58,620"
+      },
+      "offsets": {
+        "from": 955420,
+        "to": 958620
+      },
+      "text": " Yani algoritmalar şu anda hepimiz bizden belki de daha iyi tanıyorlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:58,620",
+        "to": "00:16:02,540"
+      },
+      "offsets": {
+        "from": 958620,
+        "to": 962540
+      },
+      "text": " O yüzden algoritma anlar, onları yalnızmak zor diyeyim."
+    }
+  ]
+}

@@ -1,0 +1,1745 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ürün Talebi</title>
+<script>
+// Block direct (non-iframe) access from desktop browsers — but allow Circle
+// (web + mobile app webview) and mobile devices through. Circle's mobile app
+// loads the iframe in a webview where window.top === window.self, so the
+// strict iframe-only check would lock those users out.
+(function(){
+  if (window.top !== window.self) return; // embedded (Circle web), OK
+  var ref = (document.referrer || '').toLowerCase();
+  if (/(?:circle\.so|circleinternal\.com|circle-app|tryskool\.com)/.test(ref)) return; // came from Circle
+  var ua = navigator.userAgent || '';
+  if (/iPhone|iPad|iPod|Android|Mobile|CriOS|FxiOS|EdgiOS/i.test(ua)) return; // mobile device (incl. Circle mobile app webviews)
+  // Otherwise: direct desktop visit. Show blocked page.
+  document.documentElement.innerHTML =
+    '<head><meta charset="utf-8"><title>Erişim Engellendi</title>'
+    + '<style>html,body{height:100%}body{margin:0;font-family:-apple-system,Inter,system-ui,sans-serif;'
+    + 'display:flex;align-items:center;justify-content:center;background:#f8f8f6;color:#3d3d3a;'
+    + 'text-align:center;padding:24px}</style></head>'
+    + '<body><div><h1 style="font-size:18px;margin:0 0 8px;font-weight:700">Erişim Engellendi</h1>'
+    + '<p style="margin:0;font-size:14px;line-height:1.5">Bu sayfaya yalnızca topluluk paneli üzerinden erişilebilir.</p></div></body>';
+})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@24.6.0/build/css/intlTelInput.min.css">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#ffffff;--bg2:#f8f8f6;--bg3:#f2f2f0;
+  --border:rgba(0,0,0,0.08);--border2:rgba(0,0,0,0.15);--border3:rgba(0,0,0,0.25);
+  --text:#111110;--muted:#6b6b67;--muted2:#9a9a95;
+  --green:#16a34a;--green-bg:#dcfce7;--green-border:#86efac;--green-dark:#15803d;
+  --blue:#2563eb;--blue-bg:#dbeafe;--blue-border:#93c5fd;
+  --orange:#ea580c;--orange-bg:#ffedd5;--orange-border:#fdba74;
+  --red:#dc2626;--red-bg:#fee2e2;--red-border:#fca5a5;
+  --purple:#7c3aed;--purple-bg:#ede9fe;
+  --yellow-bg:#fef9c3;
+}
+html,body{min-height:100%;background:transparent}
+body{color:var(--text);font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased;overscroll-behavior:contain}
+body.modal-open{overflow:hidden;position:fixed;width:100%;top:var(--scroll-top,0)}
+
+.app{max-width:1080px;margin:0 auto;padding:24px 16px}
+
+.card{background:var(--bg);border:0.5px solid var(--border2);border-radius:18px;padding:26px 28px;box-shadow:0 1px 2px rgba(0,0,0,0.04),0 12px 40px -8px rgba(0,0,0,0.08)}
+
+/* Header */
+.head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:18px;flex-wrap:wrap}
+.title-wrap{display:flex;gap:10px;align-items:flex-start}
+.bar{width:4px;align-self:stretch;border-radius:4px;background:var(--purple);min-height:48px;margin-top:4px}
+h1{font-size:26px;font-weight:800;letter-spacing:-0.025em;color:var(--text);line-height:1.15;margin-bottom:4px}
+.subtitle{font-size:13px;color:var(--muted2)}
+.user-pill{display:inline-flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);background:var(--bg2);border:0.5px solid var(--border);padding:6px 12px;border-radius:100px;font-weight:500}
+.user-pill strong{color:var(--text);font-weight:700}
+.user-pill button{background:none;border:none;color:var(--muted2);font-size:11px;cursor:pointer;padding:0 0 0 6px;border-left:0.5px solid var(--border2);font-family:inherit;text-decoration:underline}
+.user-pill button:hover{color:var(--red)}
+
+/* Action row */
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.btn{display:inline-flex;align-items:center;gap:7px;padding:9px 14px;font-size:13px;font-weight:600;border-radius:9px;border:0.5px solid var(--border2);background:var(--bg);color:var(--text);cursor:pointer;font-family:inherit;transition:all .15s}
+.btn:hover:not(:disabled){background:var(--bg2);border-color:var(--border3)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.btn-primary{background:var(--blue);color:#fff;border-color:var(--blue)}
+.btn-primary:hover:not(:disabled){background:#1e40af;border-color:#1e40af}
+.btn-success{background:var(--green-bg);color:var(--green-dark);border-color:var(--green-border)}
+.btn-success:hover:not(:disabled){background:#bbf7d0}
+.btn-block{width:100%;justify-content:center;padding:11px 14px;font-size:14px}
+.btn svg{width:14px;height:14px;stroke-width:2.2}
+
+/* Stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:22px}
+@media(max-width:680px){.stats{grid-template-columns:repeat(2,1fr)}}
+.stat{padding:14px 16px;border-radius:12px;border:0.5px solid var(--border)}
+.stat .label{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.stat .val{font-size:24px;font-weight:800;letter-spacing:-0.02em;line-height:1}
+.stat.s1{background:#eef2ff} .stat.s1 .val{color:#4f46e5}
+.stat.s2{background:#fff7ed} .stat.s2 .val{color:var(--orange)}
+.stat.s3{background:#f0fdf4} .stat.s3 .val{color:var(--green)}
+.stat.s4{background:#eff6ff} .stat.s4 .val{color:var(--blue)}
+
+/* Filters */
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px;align-items:center}
+.filter{display:inline-flex;align-items:center;gap:6px;padding:7px 12px;font-size:12px;font-weight:600;border-radius:100px;background:transparent;border:0.5px solid transparent;cursor:pointer;color:var(--muted);font-family:inherit;transition:all .15s}
+.filter:hover{background:var(--bg2)}
+.filter.on{background:var(--bg);border-color:var(--border2);color:var(--text);box-shadow:0 1px 2px rgba(0,0,0,0.04)}
+.filter .dot{width:7px;height:7px;border-radius:50%}
+.filter.f-pending .dot{background:var(--orange)}
+.filter.f-priced .dot{background:var(--green)}
+.filter.f-approved .dot{background:var(--blue)}
+.filter.f-cancelled .dot{background:var(--red)}
+
+/* Section */
+.section-head{display:flex;align-items:center;gap:9px;margin:18px 0 10px;font-size:14px;font-weight:700;color:var(--text)}
+.section-head .pin{width:8px;height:8px;border-radius:50%}
+.section-head .count{font-size:11px;font-weight:700;color:var(--muted);background:var(--bg2);padding:2px 9px;border-radius:100px;border:0.5px solid var(--border)}
+.section-head.pending .pin{background:var(--orange)}
+.section-head.priced .pin{background:var(--green)}
+
+.empty{padding:38px 20px;text-align:center;color:var(--muted2);font-size:13px;border:1px dashed var(--border2);border-radius:12px;background:var(--bg2)}
+
+/* Collapsible cards */
+.cards{display:flex;flex-direction:column;gap:10px}
+.talep-card{background:var(--bg);border:0.5px solid var(--border2);border-radius:14px;overflow:hidden;transition:box-shadow .2s,border-color .2s;position:relative}
+.talep-card:hover{border-color:var(--border3);box-shadow:0 4px 12px rgba(0,0,0,0.04)}
+.talep-card[open]{box-shadow:0 8px 24px rgba(0,0,0,0.06);border-color:var(--border3)}
+.talep-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--orange)}
+.talep-card.status-priced::before{background:var(--green)}
+.talep-card.status-approved::before{background:var(--blue)}
+.talep-card.status-cancelled::before{background:var(--red)}
+
+.talep-card summary{list-style:none;cursor:pointer;padding:14px 18px 14px 22px;user-select:none;outline:none}
+.talep-card summary::-webkit-details-marker{display:none}
+.talep-card summary::marker{display:none}
+.talep-card summary:focus-visible{background:var(--bg2)}
+
+.card-summary{display:flex;align-items:center;gap:14px}
+.summary-status{flex-shrink:0;display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;color:var(--muted);padding:3px 9px;border-radius:100px;background:var(--bg2);border:0.5px solid var(--border)}
+.summary-status .d{width:6px;height:6px;border-radius:50%;background:var(--orange)}
+.talep-card.status-priced .summary-status .d{background:var(--green)}
+.talep-card.status-priced .summary-status{color:var(--green-dark);background:var(--green-bg);border-color:var(--green-border)}
+.talep-card.status-approved .summary-status .d{background:var(--blue)}
+.talep-card.status-approved .summary-status{color:#1e40af;background:var(--blue-bg);border-color:var(--blue-border)}
+.talep-card.status-cancelled .summary-status .d{background:var(--red)}
+.talep-card.status-cancelled .summary-status{color:#991b1b;background:var(--red-bg);border-color:var(--red-border)}
+.talep-card.status-pending .summary-status{color:#9a3412;background:var(--orange-bg);border-color:var(--orange-border)}
+
+.summary-main{flex:1;min-width:0}
+.summary-name{font-size:15px;font-weight:700;color:var(--text);letter-spacing:-0.01em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.summary-meta{font-size:12px;color:var(--muted);margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.summary-price{font-size:16px;font-weight:800;color:var(--green-dark);white-space:nowrap;font-variant-numeric:tabular-nums}
+.summary-price.muted-p{color:var(--muted);font-weight:600;font-size:12px;font-style:italic}
+.summary-paid{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;color:var(--green-dark);background:var(--green-bg);padding:3px 9px;border-radius:100px;border:0.5px solid var(--green-border);white-space:nowrap}
+.summary-chevron{width:18px;height:18px;color:var(--muted);transition:transform .25s;flex-shrink:0;display:inline-flex;align-items:center;justify-content:center}
+.summary-chevron svg{width:16px;height:16px;stroke-width:2.4}
+.talep-card[open] .summary-chevron{transform:rotate(180deg)}
+
+.card-body{padding:6px 22px 18px 22px;border-top:0.5px solid var(--border);background:var(--bg2)}
+.section-title{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:18px 0 8px;display:flex;align-items:center;gap:8px}
+.section-title::after{content:'';flex:1;height:0.5px;background:var(--border)}
+.section-title:first-child{margin-top:14px}
+
+.detail-row{display:flex;gap:12px;padding:6px 0;font-size:13px;align-items:flex-start}
+.detail-row .label{color:var(--muted);min-width:100px;flex-shrink:0;font-weight:500;font-size:12px;padding-top:1px}
+.detail-row .value{color:var(--text);flex:1;word-break:break-word;min-width:0}
+.detail-row .value a{color:var(--blue);text-decoration:none}
+.detail-row .value a:hover{text-decoration:underline}
+.detail-row .value.note{background:var(--yellow-bg);border:0.5px solid #fde68a;border-radius:8px;padding:8px 12px;white-space:pre-wrap;color:#713f12;font-size:12px;line-height:1.5}
+
+.address-block{background:var(--bg);border:0.5px solid var(--border);border-radius:9px;padding:12px 14px;font-size:13px;line-height:1.55}
+.address-block .a-name{font-weight:700;color:var(--text);margin-bottom:2px;display:flex;align-items:center;gap:6px}
+.address-block .a-verified{color:var(--green);font-size:11px}
+.address-block .a-phone{color:var(--blue);font-size:12.5px;margin-bottom:6px;text-decoration:none;display:inline-block}
+.address-block .a-phone:hover{text-decoration:underline}
+.address-block .a-text{color:var(--muted);font-size:12.5px;white-space:pre-wrap}
+
+.tracking-block{background:var(--bg);border:0.5px solid var(--border);border-radius:9px;padding:14px 16px}
+
+.card-actions{display:flex;gap:8px;margin-top:18px;padding-top:16px;border-top:0.5px solid var(--border);flex-wrap:wrap}
+.btn-pay{flex:1;min-width:200px;padding:12px 16px;background:var(--green);color:#fff;border:none;border-radius:10px;font-family:inherit;font-size:14px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:background .15s,opacity .15s}
+.btn-pay:hover:not(:disabled){background:var(--green-dark)}
+.btn-pay:disabled{opacity:.6;cursor:not-allowed}
+.btn-pay svg{width:16px;height:16px;stroke-width:2}
+.payment-paid{flex:1;min-width:200px;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 16px;background:var(--green-bg);color:var(--green-dark);border:1px solid var(--green-border);border-radius:10px;font-size:14px;font-weight:700}
+.payment-paid svg{width:16px;height:16px;stroke-width:2.5}
+.btn-card-action{padding:10px 14px;background:var(--bg);color:var(--text);border:0.5px solid var(--border2);border-radius:10px;font-family:inherit;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px}
+.btn-card-action:hover{background:var(--bg2);border-color:var(--border3)}
+.btn-card-action.danger{color:var(--red)}
+.btn-card-action.danger:hover{background:var(--red-bg);border-color:var(--red-border)}
+
+@media(max-width:520px){
+  .talep-card summary{padding:12px 14px 12px 18px}
+  .card-body{padding:6px 16px 16px 16px}
+  .summary-price{font-size:14px}
+  .summary-name{font-size:14px}
+  .summary-status{display:none}
+  .detail-row{flex-direction:column;gap:2px}
+  .detail-row .label{min-width:0}
+  .btn-pay{min-width:0;width:100%}
+}
+
+/* Table */
+.tbl-wrap{overflow-x:auto;border:0.5px solid var(--border);border-radius:12px;background:var(--bg)}
+table{width:100%;border-collapse:collapse;font-size:13px;min-width:1060px}
+thead th{background:var(--bg2);padding:11px 14px;text-align:left;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-bottom:0.5px solid var(--border);white-space:nowrap}
+thead th.note-h{color:var(--orange)}
+tbody td{padding:12px 14px;border-bottom:0.5px solid var(--border);vertical-align:middle}
+tbody tr:last-child td{border-bottom:none}
+tbody tr{transition:background .15s}
+tbody tr:hover{background:var(--bg2)}
+td.idx{font-weight:600;color:var(--muted);width:40px;position:relative}
+td.idx::before{content:'';position:absolute;left:0;top:6px;bottom:6px;width:3px;border-radius:0 3px 3px 0}
+tr.st-pending td.idx::before{background:var(--orange)}
+tr.st-priced td.idx::before{background:var(--green)}
+tr.st-approved td.idx::before{background:var(--blue)}
+tr.st-cancelled td.idx::before{background:var(--red)}
+
+.pill{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;font-size:11px;font-weight:700;border-radius:100px;border:0.5px solid;white-space:nowrap}
+.pill .d{width:6px;height:6px;border-radius:50%}
+.pill.p-pending{background:var(--orange-bg);color:#9a3412;border-color:var(--orange-border)} .pill.p-pending .d{background:var(--orange)}
+.pill.p-priced{background:var(--green-bg);color:var(--green-dark);border-color:var(--green-border)} .pill.p-priced .d{background:var(--green)}
+.pill.p-approved{background:var(--blue-bg);color:#1e40af;border-color:var(--blue-border)} .pill.p-approved .d{background:var(--blue)}
+.pill.p-cancelled{background:var(--red-bg);color:#991b1b;border-color:var(--red-border)} .pill.p-cancelled .d{background:var(--red)}
+
+.note-cell{background:var(--yellow-bg);border:0.5px solid #fde68a;border-radius:8px;padding:6px 10px;min-width:140px;max-width:240px;font-size:12px;color:#713f12;white-space:pre-wrap}
+.note-cell.empty-n{color:var(--muted2);font-style:italic;background:transparent;border-color:transparent}
+
+a.lnk{color:var(--blue);text-decoration:none;display:inline-flex;align-items:center;gap:4px;font-size:12px}
+a.lnk:hover{text-decoration:underline}
+a.lnk svg{width:11px;height:11px;opacity:.6}
+.no-link{color:var(--muted2);font-style:italic;font-size:12px}
+
+.row-actions{display:flex;gap:4px;justify-content:flex-end}
+.icon-btn{width:28px;height:28px;display:inline-flex;align-items:center;justify-content:center;border-radius:7px;border:0.5px solid transparent;background:transparent;cursor:pointer;color:var(--muted);transition:all .15s}
+.icon-btn:hover{background:var(--bg);border-color:var(--border2);color:var(--text)}
+.icon-btn.danger:hover{color:var(--red);border-color:var(--red-border);background:var(--red-bg)}
+.icon-btn:disabled{opacity:.3;cursor:not-allowed;pointer-events:none}
+.icon-btn svg{width:14px;height:14px;stroke-width:2}
+
+.price-cell{font-weight:700;color:var(--green-dark);white-space:nowrap}
+.date-cell{color:var(--text);font-variant-numeric:tabular-nums;white-space:nowrap}
+.muted{color:var(--muted2)}
+
+/* Tracking - rich visual stepper */
+.track-empty{color:var(--muted2);font-size:12px;font-style:italic;display:block;text-align:center;padding:14px 8px}
+.tracker{padding:6px 4px 0}
+.tracker-steps{display:flex;align-items:flex-start;justify-content:space-between;gap:0;position:relative;margin-bottom:18px}
+.tracker-step{display:flex;flex-direction:column;align-items:center;gap:8px;flex:1;min-width:0;position:relative;z-index:1}
+.tracker-step .icon-circ{width:48px;height:48px;border-radius:50%;background:#f3f4f6;border:1.5px solid #e5e7eb;display:flex;align-items:center;justify-content:center;color:#9ca3af;transition:all .25s;flex-shrink:0}
+.tracker-step .icon-circ svg{width:22px;height:22px;stroke-width:2}
+.tracker-step .lbl{font-size:11px;font-weight:600;color:var(--muted);text-align:center;line-height:1.25;letter-spacing:-0.005em;max-width:90px;min-height:28px}
+.tracker-step.done .icon-circ{background:var(--green);border-color:var(--green);color:#fff}
+.tracker-step.done .lbl{color:var(--text)}
+.tracker-step.now .icon-circ{background:var(--green);border-color:#fff;color:#fff;box-shadow:0 0 0 3px var(--green),0 4px 14px rgba(22,163,74,0.3);transform:scale(1.05)}
+.tracker-step.now .lbl{color:var(--green-dark);font-weight:800}
+/* Connecting lines between dots — drawn as pseudo elements between siblings via container background */
+.tracker-steps::before{content:'';position:absolute;top:23px;left:8%;right:8%;height:2px;background:#e5e7eb;z-index:0}
+.tracker-steps[data-progress="0"]::after{content:'';position:absolute;top:23px;left:8%;height:2px;background:var(--green);z-index:0;width:0}
+.tracker-steps[data-progress="1"]::after{content:'';position:absolute;top:23px;left:8%;height:2px;background:var(--green);z-index:0;width:16.8%}
+.tracker-steps[data-progress="2"]::after{content:'';position:absolute;top:23px;left:8%;height:2px;background:var(--green);z-index:0;width:33.6%}
+.tracker-steps[data-progress="3"]::after{content:'';position:absolute;top:23px;left:8%;height:2px;background:var(--green);z-index:0;width:50.4%}
+.tracker-steps[data-progress="4"]::after{content:'';position:absolute;top:23px;left:8%;height:2px;background:var(--green);z-index:0;width:67.2%}
+.tracker-steps[data-progress="5"]::after{content:'';position:absolute;top:23px;left:8%;height:2px;background:var(--green);z-index:0;width:84%}
+
+.tracker-now{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--text);padding:10px 14px;background:#f0fdf4;border:0.5px solid var(--green-border);border-radius:9px;margin-bottom:12px}
+.tracker-now .nw-dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 3px rgba(22,163,74,0.2);flex-shrink:0;animation:pulse-ring 2s ease-in-out infinite}
+@keyframes pulse-ring{0%,100%{box-shadow:0 0 0 3px rgba(22,163,74,0.2)}50%{box-shadow:0 0 0 6px rgba(22,163,74,0.05)}}
+.tracker-now .nw-text{flex:1}
+.tracker-now .nw-text strong{font-weight:700;color:var(--green-dark)}
+.tracker-now .nw-text .nw-date{color:var(--muted);font-size:12px;margin-left:4px}
+
+.tracker-eta{padding:14px 16px;background:linear-gradient(135deg,#dcfce7 0%,#f0fdf4 100%);border:0.5px solid var(--green-border);border-radius:10px;display:flex;align-items:center;gap:14px}
+.tracker-eta .eta-icon{width:38px;height:38px;border-radius:50%;background:#fff;border:1.5px solid var(--green-border);display:flex;align-items:center;justify-content:center;color:var(--green-dark);flex-shrink:0}
+.tracker-eta .eta-icon svg{width:18px;height:18px;stroke-width:2}
+.tracker-eta .eta-body{flex:1;min-width:0}
+.tracker-eta .eta-label{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--green-dark);margin-bottom:2px}
+.tracker-eta .eta-range{font-size:15px;font-weight:800;color:var(--text);letter-spacing:-0.015em}
+.tracker-eta .eta-note{font-size:11px;color:var(--muted);margin-top:4px;line-height:1.4}
+
+@media(max-width:560px){
+  .tracker-steps{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;gap:8px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .tracker-step{min-width:78px}
+  .tracker-step .icon-circ{width:40px;height:40px}
+  .tracker-step .icon-circ svg{width:18px;height:18px}
+  .tracker-steps::before,.tracker-steps::after{display:none}
+  .tracker-eta{flex-direction:column;align-items:flex-start;text-align:left}
+  .tracker-eta .eta-range{font-size:14px}
+}
+
+/* Auth screen */
+.auth-wrap{max-width:420px;margin:30px auto;padding:0 16px}
+.auth-card{background:var(--bg);border:0.5px solid var(--border2);border-radius:18px;padding:32px 28px;box-shadow:0 12px 40px -8px rgba(0,0,0,0.08)}
+.auth-card h2{font-size:22px;font-weight:800;letter-spacing:-0.02em;margin-bottom:6px}
+.auth-card p.sub{font-size:13px;color:var(--muted);margin-bottom:22px}
+.auth-card .field{margin-bottom:14px}
+.auth-card label{display:block;font-size:12px;font-weight:600;margin-bottom:6px}
+.auth-card .err{background:var(--red-bg);color:#991b1b;border:0.5px solid var(--red-border);border-radius:8px;padding:8px 12px;font-size:12px;margin-bottom:14px}
+.auth-card .ok{background:var(--green-bg);color:var(--green-dark);border:0.5px solid var(--green-border);border-radius:8px;padding:8px 12px;font-size:12px;margin-bottom:14px}
+.auth-card .back-link{display:inline-block;margin-top:12px;font-size:12px;color:var(--muted);background:none;border:none;cursor:pointer;text-decoration:underline;font-family:inherit;padding:0}
+.auth-card .back-link:hover{color:var(--text)}
+.code-input{font-family:ui-monospace,'SF Mono',monospace;font-size:24px;letter-spacing:.4em;text-align:center;font-weight:700}
+
+/* Modal */
+.modal-bg{position:fixed;inset:0;background:rgba(15,15,12,0.5);backdrop-filter:blur(4px);display:none;align-items:flex-start;justify-content:center;padding:40px 16px;z-index:50;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+.modal-bg.open{display:flex}
+.modal{background:var(--bg);border-radius:18px;width:100%;max-width:520px;box-shadow:0 30px 80px -20px rgba(0,0,0,0.3);overflow:hidden}
+.modal-head{padding:22px 26px 16px;border-bottom:0.5px solid var(--border);display:flex;justify-content:space-between;align-items:center}
+.modal-head h2{font-size:18px;font-weight:800;letter-spacing:-0.02em}
+.modal-body{padding:22px 26px}
+.modal-foot{padding:14px 22px;border-top:0.5px solid var(--border);background:var(--bg2);display:flex;justify-content:flex-end;gap:8px}
+
+.field{margin-bottom:14px}
+.field label{display:block;font-size:12px;font-weight:600;color:var(--text);margin-bottom:6px}
+.field label .req{color:var(--red);margin-left:3px}
+.field .hint{font-size:11px;color:var(--muted);margin-top:5px}
+.input,.textarea,.select{width:100%;padding:10px 12px;font-family:inherit;font-size:14px;color:var(--text);background:var(--bg);border:1px solid var(--border2);border-radius:9px;outline:none;transition:border-color .15s,box-shadow .15s;-webkit-appearance:none;appearance:none}
+.input:focus,.textarea:focus,.select:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(37,99,235,0.12)}
+.textarea{min-height:78px;resize:vertical;line-height:1.5}
+
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--text);color:#fff;padding:10px 18px;border-radius:100px;font-size:13px;font-weight:600;opacity:0;transition:all .25s;pointer-events:none;z-index:100;box-shadow:0 8px 30px rgba(0,0,0,0.2)}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.toast.err{background:var(--red)}
+
+.spinner{width:14px;height:14px;border:2px solid rgba(255,255,255,0.3);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* intl-tel-input overrides */
+.iti{width:100%;display:block}
+.iti__country-list{font-family:inherit;font-size:14px;z-index:70}
+.iti--allow-dropdown .input{padding-left:90px !important}
+
+/* Address autocomplete */
+.addr-input-wrap{position:relative}
+.addr-input-wrap .spin-mini{position:absolute;right:14px;top:50%;transform:translateY(-50%);width:14px;height:14px;border:2px solid var(--border2);border-top-color:var(--blue);border-radius:50%;animation:spin .7s linear infinite;opacity:0;transition:opacity .15s;pointer-events:none}
+.addr-input-wrap .spin-mini.show{opacity:1}
+.suggestions{position:absolute;top:100%;left:0;right:0;background:var(--bg);border:0.5px solid var(--border2);border-radius:9px;margin-top:4px;max-height:280px;overflow-y:auto;z-index:60;box-shadow:0 8px 24px rgba(0,0,0,0.08);display:none}
+.suggestions.show{display:block}
+.sugg{padding:10px 12px;cursor:pointer;border-bottom:0.5px solid var(--border);font-size:13px;line-height:1.4;display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.sugg:last-child{border-bottom:none}
+.sugg:hover,.sugg.active{background:var(--bg2)}
+.sugg .body{flex:1;min-width:0}
+.sugg .main{font-weight:600;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sugg .sub{font-size:11px;color:var(--muted);margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sugg .no-zip{color:#9a3412;background:var(--orange-bg);font-size:9px;font-weight:700;text-transform:uppercase;padding:2px 6px;border-radius:4px;flex-shrink:0;letter-spacing:.04em}
+.sugg-empty{padding:14px 12px;color:var(--muted);font-size:12px;text-align:center}
+
+.addr-card{background:var(--green-bg);border:1px solid var(--green-border);border-radius:9px;padding:10px 12px;display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.addr-card .body{flex:1;font-size:13px;line-height:1.4;color:var(--green-dark)}
+.addr-card .body .head{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--green-dark);margin-bottom:3px;display:flex;align-items:center;gap:5px}
+.addr-card .body strong{display:block;font-size:13px;color:var(--text);font-weight:700;margin-bottom:2px}
+.addr-card .body .meta{font-size:11.5px;color:var(--muted);font-weight:500}
+.addr-card .change{background:transparent;border:none;color:var(--muted);cursor:pointer;font-size:11px;padding:2px 6px;font-family:inherit;text-decoration:underline;flex-shrink:0}
+.addr-card .change:hover{color:var(--red)}
+
+.addr-toggle{margin-top:8px;display:flex;justify-content:flex-end;gap:8px}
+.addr-toggle button{background:none;border:none;color:var(--muted);cursor:pointer;font-size:11px;text-decoration:underline;padding:0;font-family:inherit}
+.addr-toggle button:hover{color:var(--text)}
+
+.manual-fields .row3{display:grid;grid-template-columns:1fr 2fr;gap:10px;margin-bottom:10px}
+@media(max-width:480px){.manual-fields .row3{grid-template-columns:1fr}}
+
+.prefill-pill{display:inline-flex;align-items:center;gap:5px;background:var(--blue-bg);color:#1e40af;border:0.5px solid var(--blue-border);border-radius:100px;padding:4px 10px;font-size:11px;font-weight:600;margin-bottom:10px}
+.prefill-pill button{background:none;border:none;color:inherit;cursor:pointer;font-family:inherit;font-size:11px;text-decoration:underline;padding:0 0 0 4px;border-left:0.5px solid var(--blue-border);margin-left:4px}
+
+@media(max-width:600px){
+  .card{padding:20px 18px;border-radius:14px}
+  h1{font-size:22px}
+  .stats{gap:8px}
+  .stat{padding:12px 14px}
+  .stat .val{font-size:20px}
+}
+
+/* Admin tabs */
+.admin-tabs{display:flex;gap:4px;margin-bottom:18px;border-bottom:0.5px solid var(--border);padding-bottom:0}
+.admin-tab{background:none;border:none;padding:9px 14px;font-size:13px;font-weight:600;color:var(--muted);cursor:pointer;font-family:inherit;border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .15s}
+.admin-tab:hover{color:var(--text)}
+.admin-tab.on{color:var(--purple);border-bottom-color:var(--purple)}
+
+/* Admin list rows */
+.admin-row{padding:14px 16px;border:0.5px solid var(--border);border-radius:11px;background:var(--bg);margin-bottom:8px;transition:border-color .15s;cursor:pointer}
+.admin-row:hover{border-color:var(--border2)}
+.admin-row.open{border-color:var(--purple);background:var(--bg2)}
+.admin-row-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.admin-row-meta{display:flex;flex-direction:column;gap:3px;flex:1;min-width:0}
+.admin-row-email{font-size:12px;color:var(--muted);font-weight:500}
+.admin-row-name{font-size:14px;font-weight:600;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.admin-row-badges{display:inline-flex;align-items:center;gap:6px;flex-wrap:wrap}
+.admin-badge{display:inline-flex;align-items:center;padding:3px 9px;font-size:11px;font-weight:700;border-radius:100px;letter-spacing:.04em}
+.admin-badge.b-pending{background:#fff7ed;color:var(--orange)}
+.admin-badge.b-priced{background:#f0fdf4;color:var(--green-dark)}
+.admin-badge.b-approved{background:#eff6ff;color:var(--blue)}
+.admin-badge.b-cancelled{background:#fef2f2;color:var(--red)}
+.admin-badge.b-paid{background:#f0fdf4;color:var(--green-dark);border:0.5px solid var(--green-border)}
+.admin-badge.b-unpaid{background:var(--bg2);color:var(--muted)}
+.admin-badge.b-track{background:#f5f3ff;color:var(--purple)}
+.admin-edit{margin-top:14px;padding-top:14px;border-top:0.5px dashed var(--border);display:none;flex-direction:column;gap:12px}
+.admin-row.open .admin-edit{display:flex}
+.admin-edit-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:560px){.admin-edit-row{grid-template-columns:1fr}}
+.admin-edit-field{display:flex;flex-direction:column;gap:4px}
+.admin-edit-label{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.admin-edit input,.admin-edit select,.admin-edit textarea{padding:8px 11px;border:0.5px solid var(--border2);border-radius:8px;background:var(--bg);font-size:13px;font-family:inherit;color:var(--text);width:100%}
+.admin-edit textarea{resize:vertical;min-height:60px}
+.admin-customer-info{font-size:12px;color:var(--muted);background:var(--bg2);border:0.5px solid var(--border);border-radius:9px;padding:10px 12px;line-height:1.5}
+.admin-customer-info strong{color:var(--text);font-weight:600}
+.admin-customer-info a{color:var(--blue);text-decoration:none;word-break:break-all}
+.admin-customer-info a:hover{text-decoration:underline}
+.admin-edit-foot{display:flex;justify-content:flex-end;gap:8px;margin-top:4px}
+.admin-search{padding:9px 13px;border:0.5px solid var(--border2);border-radius:9px;background:var(--bg);font-size:13px;font-family:inherit;color:var(--text);width:100%;max-width:340px}
+.admin-empty{padding:32px 16px;text-align:center;color:var(--muted);font-size:13px}
+
+/* Admin tab — mobile */
+@media(max-width:600px){
+  /* Tabs: tighten + slight horizontal padding so tap targets stay generous */
+  .admin-tabs{margin-bottom:14px}
+  .admin-tab{padding:9px 12px;font-size:13px}
+  /* Admin search row in iframe: stack search above refresh button */
+  #adminView .actions{flex-direction:column;align-items:stretch;gap:8px}
+  .admin-search{max-width:none}
+  #adminView .actions .btn{align-self:flex-start}
+  /* Filter row: allow horizontal scroll for narrow widths */
+  #adminFilters{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;padding-bottom:4px}
+  #adminFilters .filter{flex-shrink:0}
+  /* Bigger inputs to avoid iOS zoom-on-focus + easier touch */
+  .admin-edit input,.admin-edit select,.admin-edit textarea{padding:10px 12px;font-size:16px}
+  .admin-edit-foot{justify-content:stretch}
+  .admin-edit-foot .btn{flex:1;justify-content:center}
+  .admin-row{padding:12px 14px}
+}
+@media(max-width:380px){
+  .admin-row-badges .admin-badge{font-size:10px;padding:2px 7px}
+}
+</style>
+</head>
+<body>
+
+<!-- Auth screen -->
+<div id="authView" style="display:none">
+  <div class="auth-wrap">
+    <div class="auth-card">
+      <div id="authStepEmail">
+        <h2>Talep Paneli</h2>
+        <p class="sub">E-posta adresine 6 haneli kod göndereceğiz.</p>
+        <div id="authErr1" class="err" style="display:none"></div>
+        <form id="formEmail">
+          <div class="field">
+            <label>E-posta</label>
+            <input class="input" type="email" id="authEmail" required autocomplete="email" placeholder="ornek@mail.com">
+          </div>
+          <button class="btn btn-primary btn-block" type="submit" id="btnSendCode">Kod Gönder</button>
+        </form>
+      </div>
+      <div id="authStepCode" style="display:none">
+        <h2>Kodu Gir</h2>
+        <p class="sub"><strong id="codeEmail"></strong> adresine gönderilen 6 haneli kodu gir.</p>
+        <div id="authErr2" class="err" style="display:none"></div>
+        <div id="authOk2" class="ok" style="display:none">Kod gönderildi. Gelen kutunu kontrol et.</div>
+        <form id="formCode">
+          <div class="field">
+            <label>Kod</label>
+            <input class="input code-input" type="text" id="authCode" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" autocomplete="one-time-code" required placeholder="••••••">
+          </div>
+          <button class="btn btn-primary btn-block" type="submit" id="btnVerify">Doğrula ve Giriş Yap</button>
+          <button type="button" class="back-link" id="btnResend">Kodu yeniden gönder / e-postayı değiştir</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Main app -->
+<div class="app" id="appView" style="display:none">
+  <div class="card">
+
+    <div class="head">
+      <div class="title-wrap">
+        <div class="bar"></div>
+        <div>
+          <h1>Ürün Talebi</h1>
+          <div class="subtitle">Video + ürün linki + adres ekle, fiyat ve teslimat süresini al</div>
+        </div>
+      </div>
+      <div class="user-pill">
+        <span id="userEmailLabel">—</span>
+        <button id="btnLogout" title="Çıkış">çıkış</button>
+      </div>
+    </div>
+
+    <div class="admin-tabs" id="adminTabs" style="display:none">
+      <button class="admin-tab on" data-tab="user" type="button">Taleplerim</button>
+      <button class="admin-tab" data-tab="admin" type="button">Admin</button>
+    </div>
+
+    <div id="userView">
+
+    <div class="actions">
+      <button class="btn btn-success" id="btnNew">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        Yeni Talep
+      </button>
+      <button class="btn" id="btnRefresh">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+        Yenile
+      </button>
+    </div>
+
+    <div class="stats">
+      <div class="stat s1"><div class="label">Toplam</div><div class="val" id="stTotal">0</div></div>
+      <div class="stat s2"><div class="label">Bekleyen</div><div class="val" id="stPending">0</div></div>
+      <div class="stat s3"><div class="label">Fiyatlandı</div><div class="val" id="stPriced">0</div></div>
+      <div class="stat s4"><div class="label">Onaylandı</div><div class="val" id="stApproved">0</div></div>
+    </div>
+
+    <div class="filters" id="filters">
+      <button class="filter on" data-filter="all">Tümü</button>
+      <button class="filter f-pending" data-filter="pending"><span class="dot"></span>Bekliyor</button>
+      <button class="filter f-priced" data-filter="priced"><span class="dot"></span>Fiyatlandı</button>
+      <button class="filter f-approved" data-filter="approved"><span class="dot"></span>Onaylandı</button>
+      <button class="filter f-cancelled" data-filter="cancelled"><span class="dot"></span>İptal</button>
+    </div>
+
+    <div class="section-head pending">
+      <span class="pin"></span>Bekleyen Talepler
+      <span class="count" id="cntPending">0</span>
+    </div>
+    <div id="pendingWrap"></div>
+
+    <div class="section-head priced">
+      <span class="pin"></span>Yanıtlanmış Talepler
+      <span class="count" id="cntDone">0</span>
+    </div>
+    <div id="doneWrap"></div>
+
+    </div><!-- /#userView -->
+
+    <div id="adminView" style="display:none">
+      <div class="actions" style="justify-content:space-between;align-items:center">
+        <input class="admin-search" id="adminSearch" type="text" placeholder="E-posta veya ürün ara…">
+        <button class="btn" id="btnAdminRefresh" type="button">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+          Yenile
+        </button>
+      </div>
+
+      <div class="filters" id="adminFilters">
+        <button class="filter on" data-admin-filter="all" type="button">Tümü</button>
+        <button class="filter f-pending" data-admin-filter="pending" type="button"><span class="dot"></span>Bekliyor</button>
+        <button class="filter f-priced" data-admin-filter="priced" type="button"><span class="dot"></span>Fiyatlandı</button>
+        <button class="filter f-approved" data-admin-filter="approved" type="button"><span class="dot"></span>Onaylandı</button>
+        <button class="filter f-cancelled" data-admin-filter="cancelled" type="button"><span class="dot"></span>İptal</button>
+      </div>
+
+      <div id="adminListWrap"><div class="admin-empty">Yükleniyor…</div></div>
+    </div><!-- /#adminView -->
+
+  </div>
+</div>
+
+<!-- New / Edit Request Modal -->
+<div class="modal-bg" id="modalNew">
+  <div class="modal">
+    <div class="modal-head">
+      <h2 id="modalNewTitle">Yeni Talep</h2>
+      <button class="icon-btn" data-close="modalNew"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>
+    <form id="formNew">
+      <div class="modal-body">
+        <input type="hidden" id="fId">
+        <div id="fErr" class="err" style="display:none;background:var(--red-bg);color:#991b1b;border:0.5px solid var(--red-border);border-radius:8px;padding:8px 12px;font-size:12px;margin-bottom:14px"></div>
+        <div class="field">
+          <label>Ürün Adı / Kısa Açıklama <span class="req">*</span></label>
+          <input class="input" id="fName" required maxlength="200" placeholder="Örn: Mini el blender">
+        </div>
+        <div class="field">
+          <label>Video Linki <span class="req">*</span></label>
+          <input class="input" id="fVideo" type="url" required placeholder="https://tiktok.com/... veya https://youtube.com/...">
+          <div class="hint">İncelenecek ürünün videosu</div>
+        </div>
+        <div class="field">
+          <label>Ürün Linki (AliExpress / 1688) <span class="req">*</span></label>
+          <input class="input" id="fProduct" type="url" required placeholder="https://www.aliexpress.com/item/...">
+        </div>
+        <div id="prefillBanner" class="prefill-pill" style="display:none">
+          ✓ Önceki talebinden alıcı bilgileri ve adres dolduruldu
+          <button type="button" id="btnClearPrefill">temizle</button>
+        </div>
+
+        <div class="field">
+          <label>Alıcı Ad Soyad <span class="req">*</span></label>
+          <input class="input" id="fRecipientName" required maxlength="200" placeholder="Ahmet Yılmaz">
+        </div>
+
+        <div class="field">
+          <label>Telefon <span class="req">*</span></label>
+          <input class="input" id="fRecipientPhone" type="tel" required placeholder="555 123 45 67">
+        </div>
+
+        <div class="field">
+          <label>Teslimat Adresi <span class="req">*</span></label>
+
+          <!-- Search mode -->
+          <div id="addrSearchMode">
+            <div class="addr-input-wrap">
+              <input class="input" id="addrQuery" placeholder="Adres ara… örn: Bağdat Caddesi 100, Kadıköy" autocomplete="off">
+              <div class="spin-mini" id="addrSpinner"></div>
+            </div>
+            <div class="suggestions" id="addrSuggestions"></div>
+            <div class="hint" style="margin-top:6px">Yazmaya başla, doğrulanmış adreslerden seç</div>
+            <div class="addr-toggle">
+              <button type="button" id="btnManualMode">Adres bulunamadı? Manuel gir</button>
+            </div>
+          </div>
+
+          <!-- Selected mode -->
+          <div id="addrSelectedMode" class="addr-card" style="display:none">
+            <div class="body">
+              <div class="head">✓ <span id="addrSelHead">Doğrulanmış Adres</span></div>
+              <strong id="addrSelStreet"></strong>
+              <div id="addrSelMeta" class="meta"></div>
+            </div>
+            <button type="button" class="change" id="btnChangeAddress">✕ Değiştir</button>
+          </div>
+
+          <!-- Manual mode -->
+          <div id="addrManualMode" class="manual-fields" style="display:none">
+            <div class="field" style="margin-bottom:8px;margin-top:0">
+              <input class="input" id="mAddrStreet" placeholder="Sokak / Cadde / Mahalle ve numara" maxlength="400">
+            </div>
+            <div class="row3">
+              <input class="input" id="mAddrPostal" placeholder="Posta Kodu *" maxlength="20">
+              <input class="input" id="mAddrCity" placeholder="Şehir *" maxlength="100">
+            </div>
+            <div class="field" style="margin-bottom:0;margin-top:0">
+              <select class="select" id="mAddrCountry">
+                <option value="Turkey">Türkiye</option>
+                <option value="Czech Republic">Çekya</option>
+                <option value="Germany">Almanya</option>
+                <option value="United Kingdom">Birleşik Krallık</option>
+                <option value="United States">ABD</option>
+                <option value="France">Fransa</option>
+                <option value="Netherlands">Hollanda</option>
+                <option value="Belgium">Belçika</option>
+                <option value="Austria">Avusturya</option>
+                <option value="Switzerland">İsviçre</option>
+                <option value="Other">Diğer / Başka</option>
+              </select>
+            </div>
+            <div class="addr-toggle">
+              <button type="button" id="btnSearchMode">← Adres aramaya dön</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label>Daire / Kat / Bina No (opsiyonel)</label>
+          <input class="input" id="fAddressExtra" maxlength="200" placeholder="Örn: D:5, Kat:3, Bina No:12">
+        </div>
+        <div class="field">
+          <label>Notlar</label>
+          <textarea class="textarea" id="fNote" placeholder="Adet, varyasyon, özel istek..."></textarea>
+        </div>
+      </div>
+      <div class="modal-foot">
+        <button type="button" class="btn" data-close="modalNew">İptal</button>
+        <button type="submit" class="btn btn-primary" id="btnSubmit">Gönder</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@24.6.0/build/js/intlTelInputWithUtils.min.js"></script>
+<script>
+const STORAGE_TOKEN = 'talep_token_v1';
+const STORAGE_EMAIL = 'talep_email_v1';
+const STORAGE_AUTH_KIND = 'talep_auth_kind_v1'; // 'hmac' | 'code'
+const STORAGE_IS_ADMIN = 'talep_is_admin_v1';
+const STATUS_LABELS = { pending:'Bekliyor', priced:'Fiyatlandı', approved:'Onaylandı', cancelled:'İptal' };
+const TRACK_ICONS = {
+  box: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>',
+  send: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>',
+  globe: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>',
+  pin: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>',
+  truck: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>',
+  check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>',
+  clock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>',
+};
+const TRACKING_STAGES = [
+  { key:'ordered', label:'Sipariş Verildi', short:'Sipariş', icon:'box' },
+  { key:'with_courier', label:'Kuryeye Teslim', short:'Kuryede', icon:'send' },
+  { key:'to_turkey', label:"Türkiye'ye Yolda", short:"TR'de Yolda", icon:'globe' },
+  { key:'in_istanbul', label:"İstanbul'a Vardı", short:'İstanbul', icon:'pin' },
+  { key:'out_for_delivery', label:'Dağıtımda', short:'Dağıtım', icon:'truck' },
+  { key:'delivered', label:'Teslim Edildi', short:'Teslim', icon:'check' },
+];
+function trackingIndex(s){ return TRACKING_STAGES.findIndex(x => x.key === s); }
+function fmtDateRange(iso, daysBefore, daysAfter){
+  if(!iso) return '';
+  const d = new Date(iso);
+  if(isNaN(d)) return '';
+  const before = new Date(d); before.setDate(before.getDate() - daysBefore);
+  const after = new Date(d); after.setDate(after.getDate() + daysAfter);
+  const sameMonth = before.getMonth() === after.getMonth() && before.getFullYear() === after.getFullYear();
+  const tr = (date) => date.toLocaleDateString('tr-TR', { day:'2-digit', month:'long', year:'numeric' });
+  const trShort = (date) => date.toLocaleDateString('tr-TR', { day:'2-digit' });
+  if(before.getTime() === after.getTime()) return tr(before);
+  if(sameMonth){
+    return `${trShort(before)} – ${tr(after)}`;
+  }
+  return `${tr(before)} – ${tr(after)}`;
+}
+function renderTracker(status, updatedAt, estimatedDelivery){
+  const idx = trackingIndex(status);
+  if(idx < 0) return '<div class="track-empty">Kargo süreci henüz başlamadı</div>';
+  const isDelivered = status === 'delivered';
+  const stageObj = TRACKING_STAGES[idx];
+
+  const steps = TRACKING_STAGES.map((s, i) => {
+    let cls = '';
+    if(isDelivered || i < idx) cls = 'done';
+    else if(i === idx) cls = 'now';
+    return `<div class="tracker-step ${cls}"><div class="icon-circ">${TRACK_ICONS[s.icon]}</div><div class="lbl">${escHtml(s.short)}</div></div>`;
+  }).join('');
+
+  const progress = isDelivered ? 5 : idx;
+  const nowDate = updatedAt ? `<span class="nw-date">· ${escHtml(fmtDate(updatedAt))}</span>` : '';
+  const nowBlock = isDelivered
+    ? `<div class="tracker-now"><span class="nw-dot"></span><div class="nw-text"><strong>✓ Teslim edildi</strong>${nowDate}</div></div>`
+    : `<div class="tracker-now"><span class="nw-dot"></span><div class="nw-text">Şu an: <strong>${escHtml(stageObj.label)}</strong>${nowDate}</div></div>`;
+
+  let etaBlock = '';
+  if(!isDelivered && estimatedDelivery){
+    const range = fmtDateRange(estimatedDelivery, 1, 1);
+    etaBlock = `
+      <div class="tracker-eta">
+        <div class="eta-icon">${TRACK_ICONS.clock}</div>
+        <div class="eta-body">
+          <div class="eta-label">Tahmini Teslimat</div>
+          <div class="eta-range">${escHtml(range)}</div>
+          <div class="eta-note">Tarihler tahminidir, gümrük ve kargo yoğunluğuna göre değişebilir</div>
+        </div>
+      </div>`;
+  } else if(isDelivered){
+    etaBlock = `
+      <div class="tracker-eta">
+        <div class="eta-icon">${TRACK_ICONS.check}</div>
+        <div class="eta-body">
+          <div class="eta-label">Teslim Edildi</div>
+          <div class="eta-range">${escHtml(updatedAt ? fmtDate(updatedAt) : 'Tamamlandı')}</div>
+        </div>
+      </div>`;
+  }
+
+  return `
+    <div class="tracker">
+      <div class="tracker-steps" data-progress="${progress}">${steps}</div>
+      ${nowBlock}
+      ${etaBlock}
+    </div>`;
+}
+
+let state = {
+  token: null,
+  email: null,
+  authKind: null,
+  isAdmin: false,
+  items: [],
+  filter: 'all',
+  loading: false,
+  adminItems: [],
+  adminFilter: 'all',
+  adminSearch: '',
+  adminLoading: false,
+  adminOpenId: null,
+  activeTab: 'user',
+};
+
+// ---------- helpers ----------
+function $(s,r){ return (r||document).querySelector(s); }
+function $$(s,r){ return Array.from((r||document).querySelectorAll(s)); }
+function escHtml(v){ return String(v??'').replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function fmtDate(iso){
+  if(!iso) return '';
+  const d = new Date(iso);
+  if(isNaN(d)) return iso;
+  return d.toLocaleDateString('tr-TR',{day:'2-digit',month:'short',year:'numeric'});
+}
+function shortLink(url){
+  if(!url) return '';
+  try{ const u = new URL(url); return u.hostname.replace(/^www\./,''); }catch{ return url.slice(0,28); }
+}
+function toast(msg, isErr){
+  const t = $('#toast'); t.textContent = msg;
+  t.classList.toggle('err', !!isErr);
+  t.classList.add('show');
+  clearTimeout(window.__tt); window.__tt = setTimeout(()=>t.classList.remove('show'), 2000);
+}
+function curSym(c){
+  return c==='USD'?'$':c==='EUR'?'€':c==='GBP'?'£':c==='TRY'?'₺':c==='CNY'?'¥':c==='CZK'?'Kč':c||'';
+}
+
+// ---------- API ----------
+async function api(method, body){
+  const headers = {'Content-Type':'application/json'};
+  if(state.token) headers['Authorization'] = 'Bearer ' + state.token;
+  const opts = { method, headers };
+  if(body) opts.body = JSON.stringify(body);
+  const res = await fetch('/api/talep', opts);
+  let data = {};
+  try{ data = await res.json(); }catch{}
+  if(!res.ok){
+    const err = new Error(data.error || `HTTP ${res.status}`);
+    err.status = res.status;
+    throw err;
+  }
+  return data;
+}
+
+// ---------- auth ----------
+function showAuth(){
+  $('#authView').style.display = 'block';
+  $('#appView').style.display = 'none';
+}
+function showApp(){
+  $('#authView').style.display = 'none';
+  $('#appView').style.display = 'block';
+  $('#userEmailLabel').textContent = state.email || '';
+  // HMAC sessions can't manually log out — re-auth requires the Circle script,
+  // which only runs on iframe load with fresh member_id+sig params.
+  $('#btnLogout').style.display = state.authKind === 'hmac' ? 'none' : '';
+  // Admin tabs visible only when isAdmin
+  $('#adminTabs').style.display = state.isAdmin ? 'flex' : 'none';
+  switchTab(state.activeTab || 'user');
+}
+
+function switchTab(tab){
+  state.activeTab = tab;
+  $$('.admin-tab').forEach(b => b.classList.toggle('on', b.dataset.tab === tab));
+  $('#userView').style.display = tab === 'user' ? '' : 'none';
+  $('#adminView').style.display = tab === 'admin' ? '' : 'none';
+  if(tab === 'admin' && state.isAdmin && !state.adminItems.length && !state.adminLoading){
+    loadAdminItems();
+  }
+}
+function logout(){
+  localStorage.removeItem(STORAGE_TOKEN);
+  localStorage.removeItem(STORAGE_EMAIL);
+  localStorage.removeItem(STORAGE_AUTH_KIND);
+  localStorage.removeItem(STORAGE_IS_ADMIN);
+  state.token = null; state.email = null; state.authKind = null; state.isAdmin = false;
+  state.items = []; state.adminItems = []; state.activeTab = 'user';
+  resetAuthForm();
+  showAuth();
+}
+function resetAuthForm(){
+  $('#authStepEmail').style.display = 'block';
+  $('#authStepCode').style.display = 'none';
+  $('#authErr1').style.display = 'none';
+  $('#authErr2').style.display = 'none';
+  $('#authOk2').style.display = 'none';
+  $('#formEmail').reset();
+  $('#formCode').reset();
+}
+
+$('#formEmail').addEventListener('submit', async e => {
+  e.preventDefault();
+  const email = $('#authEmail').value.trim().toLowerCase();
+  const btn = $('#btnSendCode');
+  $('#authErr1').style.display = 'none';
+  btn.disabled = true; btn.textContent = 'Gönderiliyor…';
+  try{
+    await api('POST', { action:'request-code', email });
+    state.email = email;
+    $('#codeEmail').textContent = email;
+    $('#authStepEmail').style.display = 'none';
+    $('#authStepCode').style.display = 'block';
+    $('#authOk2').style.display = 'block';
+    setTimeout(()=> $('#authCode').focus(), 100);
+  }catch(err){
+    $('#authErr1').textContent = err.message;
+    $('#authErr1').style.display = 'block';
+  }finally{
+    btn.disabled = false; btn.textContent = 'Kod Gönder';
+  }
+});
+
+$('#formCode').addEventListener('submit', async e => {
+  e.preventDefault();
+  const code = $('#authCode').value.trim();
+  const btn = $('#btnVerify');
+  $('#authErr2').style.display = 'none';
+  $('#authOk2').style.display = 'none';
+  btn.disabled = true; btn.textContent = 'Doğrulanıyor…';
+  try{
+    const res = await api('POST', { action:'verify-code', email: state.email, code });
+    state.token = res.token;
+    state.email = res.email;
+    state.authKind = 'code';
+    state.isAdmin = !!res.isAdmin;
+    localStorage.setItem(STORAGE_TOKEN, state.token);
+    localStorage.setItem(STORAGE_EMAIL, state.email);
+    localStorage.setItem(STORAGE_AUTH_KIND, state.authKind);
+    localStorage.setItem(STORAGE_IS_ADMIN, state.isAdmin ? '1' : '0');
+    showApp();
+    await loadItems();
+  }catch(err){
+    $('#authErr2').textContent = err.message;
+    $('#authErr2').style.display = 'block';
+  }finally{
+    btn.disabled = false; btn.textContent = 'Doğrula ve Giriş Yap';
+  }
+});
+
+$('#btnResend').addEventListener('click', () => resetAuthForm());
+$('#btnLogout').addEventListener('click', () => { if(confirm('Çıkış yapmak istiyor musun?')) logout(); });
+
+// ---------- load items ----------
+async function loadItems(){
+  state.loading = true;
+  try{
+    const res = await api('GET');
+    state.items = res.items || [];
+    state.email = res.email || state.email;
+    $('#userEmailLabel').textContent = state.email || '';
+    render();
+  }catch(err){
+    if(err.status === 401){
+      toast('Oturum sona erdi', true);
+      logout();
+    } else {
+      toast('Yükleme hatası: ' + err.message, true);
+    }
+  }finally{
+    state.loading = false;
+  }
+}
+
+$('#btnRefresh').addEventListener('click', loadItems);
+
+// Auto-refresh when user returns to this tab (e.g. after paying in another tab)
+let lastFocusReload = 0;
+window.addEventListener('focus', () => {
+  if(!state.token) return;
+  const now = Date.now();
+  if(now - lastFocusReload < 4000) return; // throttle
+  lastFocusReload = now;
+  loadItems();
+});
+document.addEventListener('visibilitychange', () => {
+  if(document.visibilityState === 'visible' && state.token){
+    const now = Date.now();
+    if(now - lastFocusReload < 4000) return;
+    lastFocusReload = now;
+    loadItems();
+  }
+});
+
+// ---------- render ----------
+function render(){
+  const items = state.items.slice();
+  const filtered = state.filter==='all' ? items : items.filter(i => (i.status||'pending')===state.filter);
+
+  const total = items.length;
+  const pending = items.filter(i => i.status==='pending').length;
+  const priced = items.filter(i => i.status==='priced').length;
+  const approved = items.filter(i => i.status==='approved').length;
+
+  $('#stTotal').textContent = total;
+  $('#stPending').textContent = pending;
+  $('#stPriced').textContent = priced;
+  $('#stApproved').textContent = approved;
+
+  const pendingItems = filtered.filter(i => i.status==='pending');
+  const doneItems = filtered.filter(i => i.status!=='pending');
+  $('#cntPending').textContent = pendingItems.length;
+  $('#cntDone').textContent = doneItems.length;
+
+  $('#pendingWrap').innerHTML = pendingItems.length ? renderCards(pendingItems) : `<div class="empty">Bekleyen talep yok</div>`;
+  $('#doneWrap').innerHTML = doneItems.length ? renderCards(doneItems) : `<div class="empty">Henüz yanıtlanmış talep yok</div>`;
+
+  bindRowEvents();
+}
+
+function renderCards(items){
+  return `<div class="cards">${items.map(renderCard).join('')}</div>`;
+}
+
+function fmtAddressFull(it){
+  const parts = [];
+  if(it.addressStreet) parts.push(it.addressStreet);
+  const cityLine = [it.addressPostal, it.addressCity].filter(Boolean).join(' ').trim();
+  if(cityLine) parts.push(cityLine);
+  if(it.addressCountry) parts.push(it.addressCountry);
+  if(it.addressExtra) parts.push(it.addressExtra);
+  return parts.length ? parts.join(', ') : (it.address || '—');
+}
+
+function renderCard(it){
+  const st = it.status || 'pending';
+  const hasPrice = !!it.finalPrice;
+  const priceStr = hasPrice
+    ? `${curSym(it.currency||'USD')}${parseFloat(it.finalPrice).toFixed(2)}`
+    : 'Fiyat bekleniyor';
+  const deliveryStr = it.estimatedDelivery
+    ? `Teslimat: ${fmtDate(it.estimatedDelivery)}`
+    : (st === 'pending' ? 'Yanıt bekleniyor' : 'Teslimat tarihi belirlenmedi');
+  const isPaid = it.paymentStatus === 'paid';
+  const canPay = st === 'priced' && !isPaid;
+  const canEdit = st === 'pending';
+  const tracker = it.trackingStatus ? renderTracker(it.trackingStatus, it.trackingUpdatedAt, it.estimatedDelivery) : '';
+  const fullAddr = fmtAddressFull(it);
+
+  const summaryRight = isPaid
+    ? `<span class="summary-paid">✓ Ödendi</span>`
+    : `<span class="summary-price ${hasPrice?'':'muted-p'}">${escHtml(priceStr)}</span>`;
+
+  const linkRow = (label, url) => url
+    ? `<div class="detail-row"><span class="label">${label}</span><span class="value"><a href="${escHtml(url)}" target="_blank" rel="noopener">${escHtml(shortLink(url))} ↗</a></span></div>`
+    : `<div class="detail-row"><span class="label">${label}</span><span class="value muted">—</span></div>`;
+
+  return `
+    <details class="talep-card status-${st}" data-id="${it.id}">
+      <summary>
+        <div class="card-summary">
+          <span class="summary-status"><span class="d"></span>${STATUS_LABELS[st]}</span>
+          <div class="summary-main">
+            <div class="summary-name">${escHtml(it.name||'—')}</div>
+            <div class="summary-meta">${escHtml(deliveryStr)}</div>
+          </div>
+          ${summaryRight}
+          <span class="summary-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+        </div>
+      </summary>
+      <div class="card-body">
+
+        <div class="section-title">Ürün Bilgileri</div>
+        <div class="detail-row"><span class="label">Ürün</span><span class="value"><strong>${escHtml(it.name||'—')}</strong></span></div>
+        ${linkRow('Video', it.videoLink)}
+        ${linkRow('Ürün Linki', it.productLink)}
+        ${hasPrice ? `<div class="detail-row"><span class="label">Final Fiyat</span><span class="value" style="font-weight:700;color:var(--green-dark)">${escHtml(priceStr)}</span></div>` : ''}
+        ${it.estimatedDelivery ? `<div class="detail-row"><span class="label">Teslimat</span><span class="value">${escHtml(fmtDate(it.estimatedDelivery))}</span></div>` : ''}
+
+        <div class="section-title">Teslimat Bilgileri</div>
+        <div class="address-block">
+          <div class="a-name">${escHtml(it.recipientName || '—')}${it.addressVerified ? '<span class="a-verified" title="Doğrulanmış adres">✓</span>' : ''}</div>
+          ${it.recipientPhone ? `<a class="a-phone" href="tel:${escHtml(it.recipientPhone)}">${escHtml(it.recipientPhone)}</a>` : ''}
+          <div class="a-text">${escHtml(fullAddr)}</div>
+        </div>
+
+        ${tracker ? `<div class="section-title">Kargo Takibi</div><div class="tracking-block">${tracker}</div>` : ''}
+
+        ${(it.customerNote || it.adminNote) ? `<div class="section-title">Notlar</div>` : ''}
+        ${it.adminNote ? `<div class="detail-row"><span class="label">Admin notu</span><span class="value note">${escHtml(it.adminNote)}</span></div>` : ''}
+        ${it.customerNote ? `<div class="detail-row"><span class="label">Senin notun</span><span class="value note">${escHtml(it.customerNote)}</span></div>` : ''}
+
+        <div class="card-actions">
+          ${isPaid ? `
+            <div class="payment-paid">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Ödeme alındı
+            </div>` : canPay ? `
+            <button class="btn-pay" data-act="pay" data-id="${it.id}">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="13" rx="2"/><line x1="2" y1="11" x2="22" y2="11"/></svg>
+              Şimdi Öde — ${escHtml(priceStr)}
+            </button>` : ''}
+          ${canEdit ? `<button class="btn-card-action" data-act="edit" data-id="${it.id}">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+            Düzenle</button>` : ''}
+          <button class="btn-card-action danger" data-act="del" data-id="${it.id}">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></svg>
+            Sil</button>
+        </div>
+      </div>
+    </details>
+  `;
+}
+
+function renderTable(items){
+  const linkSvg = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>`;
+  let html = `<div class="tbl-wrap"><table>
+    <thead><tr>
+      <th>#</th>
+      <th>Durum</th>
+      <th class="note-h">Admin Notu</th>
+      <th>Ürün</th>
+      <th>Video</th>
+      <th>Ürün Linki</th>
+      <th>Adres</th>
+      <th>Fiyat</th>
+      <th>Teslimat</th>
+      <th>Kargo Takibi</th>
+      <th></th>
+    </tr></thead><tbody>`;
+  items.forEach((it, idx) => {
+    const st = it.status || 'pending';
+    const price = it.finalPrice ? `${curSym(it.currency||'USD')}${parseFloat(it.finalPrice).toFixed(2)}` : '<span class="muted">—</span>';
+    const delivery = it.estimatedDelivery ? fmtDate(it.estimatedDelivery) : '<span class="muted">—</span>';
+    const noteVal = it.adminNote || '';
+    const canEdit = st === 'pending';
+    html += `<tr class="st-${st}" data-id="${it.id}">
+      <td class="idx">${idx+1}</td>
+      <td><span class="pill p-${st}"><span class="d"></span>${STATUS_LABELS[st]}</span></td>
+      <td>${noteVal ? `<div class="note-cell">${escHtml(noteVal)}</div>` : '<div class="note-cell empty-n">—</div>'}</td>
+      <td><strong>${escHtml(it.name||'—')}</strong></td>
+      <td>${it.videoLink ? `<a class="lnk" href="${escHtml(it.videoLink)}" target="_blank" rel="noopener">${escHtml(shortLink(it.videoLink))}${linkSvg}</a>` : '<span class="no-link">—</span>'}</td>
+      <td>${it.productLink ? `<a class="lnk" href="${escHtml(it.productLink)}" target="_blank" rel="noopener">${escHtml(shortLink(it.productLink))}${linkSvg}</a>` : '<span class="no-link">—</span>'}</td>
+      <td title="${escHtml(it.address||'')}" style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escHtml(it.address||'—')}</td>
+      <td class="${it.finalPrice?'price-cell':''}">${price}</td>
+      <td class="date-cell">${delivery}</td>
+      <td>${renderTracker(it.trackingStatus, it.trackingUpdatedAt)}</td>
+      <td>
+        <div class="row-actions">
+          <button class="icon-btn" data-act="edit" data-id="${it.id}" title="${canEdit?'Düzenle':'Yalnızca bekleyen talepler düzenlenebilir'}" ${canEdit?'':'disabled'}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></button>
+          <button class="icon-btn danger" data-act="del" data-id="${it.id}" title="Sil"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/></svg></button>
+        </div>
+      </td>
+    </tr>`;
+  });
+  html += `</tbody></table></div>`;
+  return html;
+}
+
+function bindRowEvents(){
+  $$('[data-act]').forEach(b => {
+    b.addEventListener('click', async e => {
+      // Don't toggle the <details> when clicking action buttons
+      e.stopPropagation();
+      e.preventDefault();
+      const act = b.dataset.act, id = b.dataset.id;
+      if(act==='del'){
+        if(!confirm('Bu talebi silmek istediğinden emin misin?')) return;
+        try{
+          await api('POST', { action:'delete', id });
+          state.items = state.items.filter(i => String(i.id) !== String(id));
+          render();
+          toast('Silindi');
+        }catch(err){ toast('Silme hatası: ' + err.message, true); }
+      } else if(act==='edit'){
+        openNewModal(id);
+      } else if(act==='pay'){
+        await onPay(id, b);
+      }
+    });
+  });
+}
+
+async function onPay(id, btn){
+  const item = state.items.find(i => String(i.id) === String(id));
+  if(!item) return;
+  const original = btn.innerHTML;
+  btn.disabled = true;
+  btn.innerHTML = '<div class="spinner"></div> Ödeme sayfası açılıyor…';
+  try{
+    const res = await api('POST', { action:'create-checkout', id });
+    if(res.url){
+      window.open(res.url, '_blank', 'noopener');
+      btn.innerHTML = '↗ Ödeme sekmesinde açıldı';
+      setTimeout(()=> { btn.innerHTML = original; btn.disabled = false; }, 4000);
+    } else {
+      throw new Error('Ödeme bağlantısı alınamadı');
+    }
+  }catch(err){
+    if(err.status === 503 || /not configured|stripe/i.test(err.message)){
+      toast('Ödeme henüz aktif değil — admin\'le iletişime geç', true);
+    } else {
+      toast('Hata: ' + err.message, true);
+    }
+    btn.innerHTML = original;
+    btn.disabled = false;
+  }
+}
+
+// ---------- modal ----------
+// ---------- phone (intl-tel-input) ----------
+let iti = null;
+function initPhone(){
+  if(iti) return;
+  const input = document.getElementById('fRecipientPhone');
+  if(!input || !window.intlTelInput) return;
+  iti = window.intlTelInput(input, {
+    initialCountry: 'tr',
+    preferredCountries: ['tr','cz','de','gb','us','nl','fr'],
+    separateDialCode: true,
+    utilsScript: 'https://cdn.jsdelivr.net/npm/intl-tel-input@24.6.0/build/js/utils.min.js',
+  });
+}
+
+// ---------- address state ----------
+const addr = {
+  mode: 'search', // 'search' | 'selected' | 'manual'
+  selected: null, // { street, postcode, city, country, verified:true }
+  query: '',
+  abortCtrl: null,
+};
+
+function addrSetMode(mode){
+  addr.mode = mode;
+  $('#addrSearchMode').style.display = mode === 'search' ? '' : 'none';
+  $('#addrSelectedMode').style.display = mode === 'selected' ? 'flex' : 'none';
+  $('#addrManualMode').style.display = mode === 'manual' ? '' : 'none';
+}
+
+function addrReset(){
+  addr.selected = null;
+  $('#addrQuery').value = '';
+  $('#addrSuggestions').classList.remove('show');
+  $('#addrSuggestions').innerHTML = '';
+  $('#mAddrStreet').value = '';
+  $('#mAddrPostal').value = '';
+  $('#mAddrCity').value = '';
+  $('#mAddrCountry').value = 'Turkey';
+  $('#fAddressExtra').value = '';
+  addrSetMode('search');
+}
+
+function addrShowSelected(sel){
+  addr.selected = sel;
+  $('#addrSelStreet').textContent = sel.street || '—';
+  const meta = [
+    [sel.postcode, sel.city].filter(Boolean).join(' '),
+    sel.country
+  ].filter(Boolean).join(' · ');
+  $('#addrSelMeta').textContent = meta;
+  $('#addrSelHead').textContent = sel.verified ? 'Doğrulanmış Adres' : 'Manuel Girilmiş Adres';
+  $('#addrSelectedMode').className = 'addr-card' + (sel.verified ? '' : ' unverified');
+  addrSetMode('selected');
+}
+
+let suggDebounce = null;
+async function fetchSuggestions(q){
+  if(addr.abortCtrl) addr.abortCtrl.abort();
+  addr.abortCtrl = new AbortController();
+  $('#addrSpinner').classList.add('show');
+  try{
+    const url = `https://photon.komoot.io/api/?q=${encodeURIComponent(q)}&limit=8`;
+    const res = await fetch(url, { signal: addr.abortCtrl.signal });
+    const data = await res.json();
+    return (data.features || []).map(f => {
+      const p = f.properties || {};
+      const street = [p.street || p.name, p.housenumber].filter(Boolean).join(' ').trim();
+      return {
+        street: street || p.name || '',
+        postcode: p.postcode || '',
+        city: p.city || p.county || p.state || '',
+        country: p.country || '',
+        verified: !!p.postcode,
+      };
+    }).filter(s => s.street);
+  } catch(e){
+    if(e.name === 'AbortError') return null;
+    return [];
+  } finally {
+    $('#addrSpinner').classList.remove('show');
+  }
+}
+
+function renderSuggestions(items){
+  const box = $('#addrSuggestions');
+  if(!items || !items.length){
+    box.innerHTML = `<div class="sugg-empty">Sonuç yok. Manuel gir seçeneğini dene.</div>`;
+    box.classList.add('show');
+    return;
+  }
+  box.innerHTML = items.map((s, i) => {
+    const sub = [s.postcode, s.city, s.country].filter(Boolean).join(' · ');
+    const noZip = !s.postcode ? '<span class="no-zip">ZIP yok</span>' : '';
+    return `<div class="sugg" data-idx="${i}"><div class="body"><div class="main">${escHtml(s.street)}</div><div class="sub">${escHtml(sub) || '—'}</div></div>${noZip}</div>`;
+  }).join('');
+  box.classList.add('show');
+  // Wire click
+  Array.from(box.querySelectorAll('.sugg')).forEach((el, i) => {
+    el.addEventListener('click', () => {
+      const sel = items[i];
+      if(!sel.postcode){
+        // Switch to manual mode pre-filled
+        $('#mAddrStreet').value = sel.street;
+        $('#mAddrPostal').value = '';
+        $('#mAddrCity').value = sel.city;
+        $('#mAddrCountry').value = matchCountryOption(sel.country) || 'Turkey';
+        addrSetMode('manual');
+        setTimeout(()=> $('#mAddrPostal').focus(), 50);
+        toast('Bu öneride posta kodu yok — manuel ekle', true);
+        return;
+      }
+      addrShowSelected(sel);
+    });
+  });
+}
+
+function matchCountryOption(name){
+  const opts = Array.from($('#mAddrCountry').options).map(o => o.value);
+  return opts.find(o => o.toLowerCase() === (name||'').toLowerCase()) || null;
+}
+
+$('#addrQuery').addEventListener('input', e => {
+  const q = e.target.value.trim();
+  clearTimeout(suggDebounce);
+  if(q.length < 3){
+    $('#addrSuggestions').classList.remove('show');
+    return;
+  }
+  suggDebounce = setTimeout(async () => {
+    const items = await fetchSuggestions(q);
+    if(items === null) return; // aborted
+    renderSuggestions(items);
+  }, 280);
+});
+
+$('#addrQuery').addEventListener('focus', e => {
+  if(e.target.value.trim().length >= 3 && $('#addrSuggestions').innerHTML){
+    $('#addrSuggestions').classList.add('show');
+  }
+});
+$('#addrQuery').addEventListener('blur', () => {
+  setTimeout(() => $('#addrSuggestions').classList.remove('show'), 200);
+});
+
+$('#btnManualMode').addEventListener('click', () => {
+  $('#mAddrCountry').value = 'Turkey';
+  addrSetMode('manual');
+  setTimeout(()=> $('#mAddrStreet').focus(), 50);
+});
+$('#btnSearchMode').addEventListener('click', () => {
+  addrSetMode('search');
+  setTimeout(()=> $('#addrQuery').focus(), 50);
+});
+$('#btnChangeAddress').addEventListener('click', () => {
+  addr.selected = null;
+  $('#addrQuery').value = '';
+  $('#addrSuggestions').innerHTML = '';
+  addrSetMode('search');
+  setTimeout(()=> $('#addrQuery').focus(), 50);
+});
+
+function getAddressData(){
+  if(addr.mode === 'selected' && addr.selected){
+    return {
+      addressStreet: addr.selected.street,
+      addressPostal: addr.selected.postcode,
+      addressCity: addr.selected.city,
+      addressCountry: addr.selected.country,
+      addressVerified: !!addr.selected.verified,
+    };
+  }
+  if(addr.mode === 'manual'){
+    return {
+      addressStreet: $('#mAddrStreet').value.trim(),
+      addressPostal: $('#mAddrPostal').value.trim(),
+      addressCity: $('#mAddrCity').value.trim(),
+      addressCountry: $('#mAddrCountry').value.trim(),
+      addressVerified: false,
+    };
+  }
+  return { addressStreet:'', addressPostal:'', addressCity:'', addressCountry:'', addressVerified:false };
+}
+
+function setAddressFromItem(it){
+  if(it.addressPostal && it.addressStreet){
+    addrShowSelected({
+      street: it.addressStreet,
+      postcode: it.addressPostal,
+      city: it.addressCity,
+      country: it.addressCountry,
+      verified: !!it.addressVerified,
+    });
+    return true;
+  }
+  if(it.address){
+    // Legacy row — fall back to manual mode pre-filled with whatever we have
+    $('#mAddrStreet').value = it.addressStreet || it.address || '';
+    $('#mAddrPostal').value = it.addressPostal || '';
+    $('#mAddrCity').value = it.addressCity || '';
+    $('#mAddrCountry').value = matchCountryOption(it.addressCountry) || 'Turkey';
+    addrSetMode('manual');
+    return true;
+  }
+  return false;
+}
+
+function openNewModal(id){
+  initPhone();
+  $('#fId').value = id || '';
+  $('#fErr').style.display = 'none';
+  $('#prefillBanner').style.display = 'none';
+  $('#modalNewTitle').textContent = id ? 'Talebi Düzenle' : 'Yeni Talep';
+  addrReset();
+
+  if(id){
+    const it = state.items.find(i => String(i.id) === String(id));
+    if(!it) return;
+    $('#fName').value = it.name||'';
+    $('#fVideo').value = it.videoLink||'';
+    $('#fProduct').value = it.productLink||'';
+    $('#fNote').value = it.customerNote||'';
+    $('#fRecipientName').value = it.recipientName||'';
+    $('#fAddressExtra').value = it.addressExtra||'';
+    if(it.recipientPhone && iti){ try{ iti.setNumber(it.recipientPhone); }catch{} }
+    setAddressFromItem(it);
+  } else {
+    $('#formNew').reset();
+    $('#fId').value = '';
+    if(iti){ try{ iti.setNumber(''); }catch{} }
+    // Pre-fill from most recent talep
+    const last = state.items.find(i => i.recipientName || i.recipientPhone || i.addressStreet);
+    if(last){
+      $('#fRecipientName').value = last.recipientName || '';
+      $('#fAddressExtra').value = last.addressExtra || '';
+      if(last.recipientPhone && iti){ try{ iti.setNumber(last.recipientPhone); }catch{} }
+      const filled = setAddressFromItem(last);
+      if(last.recipientName || last.recipientPhone || filled){
+        $('#prefillBanner').style.display = 'inline-flex';
+      }
+    }
+  }
+  openModalEl('modalNew');
+  setTimeout(()=> $('#fName').focus(), 50);
+}
+
+$('#btnClearPrefill').addEventListener('click', () => {
+  $('#fRecipientName').value = '';
+  $('#fAddressExtra').value = '';
+  if(iti){ try{ iti.setNumber(''); }catch{} }
+  addrReset();
+  $('#prefillBanner').style.display = 'none';
+});
+
+$('#formNew').addEventListener('submit', async e => {
+  e.preventDefault();
+  const id = $('#fId').value;
+  const phoneE164 = (iti && iti.isValidNumber && iti.isValidNumber()) ? iti.getNumber() : ($('#fRecipientPhone').value || '').trim();
+  const addrData = getAddressData();
+  const data = {
+    name: $('#fName').value.trim(),
+    videoLink: $('#fVideo').value.trim(),
+    productLink: $('#fProduct').value.trim(),
+    customerNote: $('#fNote').value.trim(),
+    recipientName: $('#fRecipientName').value.trim(),
+    recipientPhone: phoneE164,
+    addressExtra: $('#fAddressExtra').value.trim(),
+    ...addrData,
+  };
+  const btn = $('#btnSubmit');
+  $('#fErr').style.display = 'none';
+
+  // Client-side validation for friendlier errors
+  if(!data.recipientName){ $('#fErr').textContent = 'Alıcı adı gerekli'; $('#fErr').style.display = 'block'; return; }
+  if(iti && !iti.isValidNumber()){ $('#fErr').textContent = 'Geçerli bir telefon numarası gir (ülke kodu seç)'; $('#fErr').style.display = 'block'; return; }
+  if(!data.addressStreet || !data.addressPostal || !data.addressCity || !data.addressCountry){
+    $('#fErr').textContent = 'Eksik adres alanı (sokak, posta kodu, şehir, ülke gerekli)';
+    $('#fErr').style.display = 'block';
+    return;
+  }
+
+  btn.disabled = true; btn.textContent = 'Kaydediliyor…';
+  try{
+    if(id){
+      const res = await api('POST', { action:'update', id, ...data });
+      const idx = state.items.findIndex(i => String(i.id) === String(id));
+      if(idx >= 0) state.items[idx] = res.item;
+    } else {
+      const res = await api('POST', { action:'create', ...data });
+      state.items.unshift(res.item);
+    }
+    closeModalEl('modalNew');
+    render();
+    toast(id ? 'Güncellendi' : 'Talep gönderildi');
+  }catch(err){
+    $('#fErr').textContent = err.message;
+    $('#fErr').style.display = 'block';
+  }finally{
+    btn.disabled = false; btn.textContent = id ? 'Kaydet' : 'Gönder';
+  }
+});
+
+$('#btnNew').addEventListener('click', () => openNewModal());
+
+// ---------- modal scroll lock ----------
+function lockBodyScroll(){
+  if(document.body.classList.contains('modal-open')) return;
+  const y = window.scrollY || window.pageYOffset || 0;
+  document.body.style.setProperty('--scroll-top', `-${y}px`);
+  document.body.dataset.scrollY = String(y);
+  document.body.classList.add('modal-open');
+}
+function unlockBodyScroll(){
+  if(!document.body.classList.contains('modal-open')) return;
+  const y = parseInt(document.body.dataset.scrollY || '0', 10);
+  document.body.classList.remove('modal-open');
+  document.body.style.removeProperty('--scroll-top');
+  delete document.body.dataset.scrollY;
+  window.scrollTo(0, y);
+}
+function openModalEl(id){
+  const el = document.getElementById(id);
+  if(!el) return;
+  el.classList.add('open');
+  lockBodyScroll();
+}
+function closeModalEl(id){
+  const el = typeof id === 'string' ? document.getElementById(id) : id;
+  if(!el) return;
+  el.classList.remove('open');
+  if(!document.querySelector('.modal-bg.open')) unlockBodyScroll();
+}
+
+// ---------- close modals ----------
+$$('[data-close]').forEach(b => b.addEventListener('click', () => closeModalEl(b.dataset.close)));
+$$('.modal-bg').forEach(bg => bg.addEventListener('click', e => { if(e.target===bg) closeModalEl(bg); }));
+document.addEventListener('keydown', e => { if(e.key==='Escape') $$('.modal-bg.open').forEach(m => closeModalEl(m)); });
+
+// ---------- filters ----------
+$('#filters').addEventListener('click', e => {
+  const b = e.target.closest('button[data-filter]'); if(!b) return;
+  state.filter = b.dataset.filter;
+  $$('#filters .filter').forEach(x => x.classList.toggle('on', x.dataset.filter === state.filter));
+  render();
+});
+
+// ---------- admin ----------
+const ADMIN_STATUS_LABELS = { pending:'Bekliyor', priced:'Fiyatlandı', approved:'Onaylandı', cancelled:'İptal' };
+const ADMIN_TRACKING_LABELS = {
+  '': '— Yok —',
+  ordered: 'Çinden Sipariş Verildi',
+  with_courier: 'Kuryeye Teslim Edildi',
+  to_turkey: 'Türkiye\'ye Yolda',
+  in_istanbul: 'İstanbul\'a Vardı',
+  out_for_delivery: 'Dağıtımda',
+  delivered: 'Teslim Edildi',
+};
+
+async function loadAdminItems(){
+  if(!state.isAdmin) return;
+  state.adminLoading = true;
+  $('#adminListWrap').innerHTML = '<div class="admin-empty">Yükleniyor…</div>';
+  try{
+    const res = await api('POST', { action:'admin-list', filter: state.adminFilter, q: state.adminSearch });
+    state.adminItems = res.items || [];
+    renderAdmin();
+  }catch(err){
+    $('#adminListWrap').innerHTML = `<div class="admin-empty" style="color:var(--red)">Hata: ${escHtml(err.message)}</div>`;
+  }finally{
+    state.adminLoading = false;
+  }
+}
+
+function adminBadge(text, kind){
+  return `<span class="admin-badge b-${kind}">${escHtml(text)}</span>`;
+}
+
+function renderAdmin(){
+  const items = state.adminItems;
+  if(!items.length){
+    $('#adminListWrap').innerHTML = '<div class="admin-empty">Talep yok</div>';
+    return;
+  }
+  $('#adminListWrap').innerHTML = items.map(t => {
+    const isOpen = state.adminOpenId === t.id;
+    const status = t.status || 'pending';
+    const paid = t.payment_status === 'paid';
+    const trackText = ADMIN_TRACKING_LABELS[t.tracking_status || ''] || t.tracking_status || '';
+    const trackBadge = t.tracking_status ? adminBadge(trackText, 'track') : '';
+    const created = t.created_at ? new Date(t.created_at).toLocaleDateString('tr-TR', {day:'2-digit',month:'short',year:'numeric'}) : '';
+    const productLink = t.product_link
+      ? `<div><strong>Ürün linki:</strong> <a href="${escHtml(t.product_link)}" target="_blank" rel="noopener">${escHtml(t.product_link)}</a></div>` : '';
+    const videoLink = t.video_link
+      ? `<div><strong>Video:</strong> <a href="${escHtml(t.video_link)}" target="_blank" rel="noopener">${escHtml(t.video_link)}</a></div>` : '';
+    const address = t.address ? `<div><strong>Adres:</strong> ${escHtml(t.address)}</div>` : '';
+    const phone = t.recipient_phone ? `<div><strong>Telefon:</strong> ${escHtml(t.recipient_phone)} (${escHtml(t.recipient_name || '')})</div>` : '';
+    const customerNote = t.customer_note ? `<div><strong>Müşteri notu:</strong> ${escHtml(t.customer_note)}</div>` : '';
+    return `
+      <div class="admin-row ${isOpen ? 'open':''}" data-id="${t.id}">
+        <div class="admin-row-top">
+          <div class="admin-row-meta">
+            <div class="admin-row-email">${escHtml(t.user_email || '—')} · ${escHtml(created)}</div>
+            <div class="admin-row-name">${escHtml(t.name || '— ürün adı yok —')}</div>
+          </div>
+          <div class="admin-row-badges">
+            ${adminBadge(ADMIN_STATUS_LABELS[status] || status, status)}
+            ${adminBadge(paid ? 'Ödendi' : 'Ödenmedi', paid ? 'paid' : 'unpaid')}
+            ${trackBadge}
+          </div>
+        </div>
+        <div class="admin-edit">
+          <div class="admin-customer-info">
+            ${productLink}${videoLink}${address}${phone}${customerNote}
+          </div>
+          <div class="admin-edit-row">
+            <div class="admin-edit-field">
+              <label class="admin-edit-label">Durum</label>
+              <select data-field="status">
+                ${Object.entries(ADMIN_STATUS_LABELS).map(([v,l]) => `<option value="${v}" ${status===v?'selected':''}>${escHtml(l)}</option>`).join('')}
+              </select>
+            </div>
+            <div class="admin-edit-field">
+              <label class="admin-edit-label">Kargo durumu</label>
+              <select data-field="tracking_status">
+                ${Object.entries(ADMIN_TRACKING_LABELS).map(([v,l]) => `<option value="${v}" ${(t.tracking_status||'')===v?'selected':''}>${escHtml(l)}</option>`).join('')}
+              </select>
+            </div>
+          </div>
+          <div class="admin-edit-row">
+            <div class="admin-edit-field">
+              <label class="admin-edit-label">Maliyet (cost)</label>
+              <input type="number" step="0.01" min="0" data-field="cost_price" value="${t.cost_price ?? ''}">
+            </div>
+            <div class="admin-edit-field">
+              <label class="admin-edit-label">Para birimi</label>
+              <select data-field="currency">
+                ${['','USD','EUR','TRY','GBP','CNY','CZK'].map(c => `<option value="${c}" ${(t.currency||'')===c?'selected':''}>${c||'—'}</option>`).join('')}
+              </select>
+            </div>
+          </div>
+          <div class="admin-edit-row">
+            <div class="admin-edit-field">
+              <label class="admin-edit-label">Final fiyat (override)</label>
+              <input type="number" step="0.01" min="0" data-field="final_price" value="${t.final_price ?? ''}" placeholder="otomatik hesaplanır">
+            </div>
+            <div class="admin-edit-field">
+              <label class="admin-edit-label">Tahmini teslimat (YYYY-MM-DD)</label>
+              <input type="date" data-field="estimated_delivery" value="${t.estimated_delivery ? String(t.estimated_delivery).slice(0,10) : ''}">
+            </div>
+          </div>
+          <div class="admin-edit-field">
+            <label class="admin-edit-label">Admin notu</label>
+            <textarea data-field="admin_note" rows="3">${escHtml(t.admin_note || '')}</textarea>
+          </div>
+          <div class="admin-edit-foot">
+            <button class="btn" type="button" data-admin-cancel>Vazgeç</button>
+            <button class="btn btn-primary" type="button" data-admin-save>Kaydet</button>
+          </div>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+async function adminSave(id, row){
+  const data = { action:'admin-update', id };
+  $$('[data-field]', row).forEach(el => {
+    const f = el.dataset.field;
+    let v = el.value;
+    if(el.type === 'number'){
+      v = v === '' ? '' : v;
+    }
+    data[f] = v;
+  });
+  const btn = $('[data-admin-save]', row);
+  if(btn){ btn.disabled = true; btn.textContent = 'Kaydediliyor…'; }
+  try{
+    const res = await api('POST', data);
+    // patch local state
+    const idx = state.adminItems.findIndex(x => x.id === id);
+    if(idx >= 0) state.adminItems[idx] = res.row;
+    state.adminOpenId = null;
+    renderAdmin();
+    toast('✓ Kaydedildi');
+  }catch(err){
+    toast('Hata: ' + err.message, true);
+    if(btn){ btn.disabled = false; btn.textContent = 'Kaydet'; }
+  }
+}
+
+$('.admin-tabs').addEventListener('click', e => {
+  const b = e.target.closest('button[data-tab]'); if(!b) return;
+  switchTab(b.dataset.tab);
+});
+
+$('#adminFilters').addEventListener('click', e => {
+  const b = e.target.closest('button[data-admin-filter]'); if(!b) return;
+  state.adminFilter = b.dataset.adminFilter;
+  $$('#adminFilters .filter').forEach(x => x.classList.toggle('on', x.dataset.adminFilter === state.adminFilter));
+  loadAdminItems();
+});
+
+$('#adminSearch').addEventListener('input', e => {
+  state.adminSearch = e.target.value;
+  clearTimeout(window.__adminSearchTo);
+  window.__adminSearchTo = setTimeout(() => loadAdminItems(), 300);
+});
+
+$('#btnAdminRefresh').addEventListener('click', () => loadAdminItems());
+
+$('#adminListWrap').addEventListener('click', async e => {
+  const cancelBtn = e.target.closest('[data-admin-cancel]');
+  if(cancelBtn){
+    e.stopPropagation();
+    state.adminOpenId = null;
+    renderAdmin();
+    return;
+  }
+  const saveBtn = e.target.closest('[data-admin-save]');
+  if(saveBtn){
+    e.stopPropagation();
+    const row = saveBtn.closest('.admin-row');
+    const id = parseInt(row.dataset.id, 10);
+    await adminSave(id, row);
+    return;
+  }
+  // Don't toggle when clicking inside the edit form (inputs, links, etc)
+  if(e.target.closest('.admin-edit')) return;
+  const row = e.target.closest('.admin-row'); if(!row) return;
+  const id = parseInt(row.dataset.id, 10);
+  state.adminOpenId = state.adminOpenId === id ? null : id;
+  renderAdmin();
+});
+
+// ---------- init ----------
+(async function init(){
+  state.token = localStorage.getItem(STORAGE_TOKEN);
+  state.email = localStorage.getItem(STORAGE_EMAIL);
+  state.authKind = localStorage.getItem(STORAGE_AUTH_KIND);
+  state.isAdmin = localStorage.getItem(STORAGE_IS_ADMIN) === '1';
+
+  const params = new URLSearchParams(location.search);
+  const paid = params.get('paid');
+  const canceled = params.get('canceled');
+  const memberId = params.get('member_id');
+  const sig = params.get('sig');
+
+  if(paid || canceled){
+    if(paid) setTimeout(()=> toast('✓ Ödeme alındı, talep onaylandı'), 600);
+    else setTimeout(()=> toast('Ödeme iptal edildi', true), 600);
+  }
+
+  // HMAC auto-auth: if Circle injected member_id+sig, exchange for a session
+  // (skip if we already have a valid session for this email)
+  if(memberId && sig && (!state.token || state.email !== memberId.toLowerCase())){
+    try{
+      const res = await api('POST', { action: 'auth-hmac', memberId, sig });
+      state.token = res.token;
+      state.email = res.email;
+      state.authKind = 'hmac';
+      state.isAdmin = !!res.isAdmin;
+      localStorage.setItem(STORAGE_TOKEN, state.token);
+      localStorage.setItem(STORAGE_EMAIL, state.email);
+      localStorage.setItem(STORAGE_AUTH_KIND, state.authKind);
+      localStorage.setItem(STORAGE_IS_ADMIN, state.isAdmin ? '1' : '0');
+    }catch(e){
+      console.warn('HMAC auth failed:', e.message);
+    }
+  }
+
+  // Strip sensitive/transient params from URL
+  if(paid || canceled || memberId || sig){
+    const url = new URL(location.href);
+    ['paid','canceled','member_id','sig','member_name'].forEach(k => url.searchParams.delete(k));
+    const qs = url.searchParams.toString();
+    history.replaceState({}, '', url.pathname + (qs ? '?'+qs : ''));
+  }
+
+  if(state.token){
+    showApp();
+    loadItems();
+  } else {
+    showAuth();
+  }
+})();
+</script>
+
+</body>
+</html>

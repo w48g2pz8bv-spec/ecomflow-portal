@@ -1,0 +1,164 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:06,500"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 6500
+			},
+			"text": " Selamlar ben Akam. Öncelikle şu anda bu videoyu izliyorsanız hayatınızda önemli bir yola adım attığınız demektir."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,500",
+				"to": "00:00:09,640"
+			},
+			"offsets": {
+				"from": 6500,
+				"to": 9640
+			},
+			"text": " Peki ben kimim ve bu yolum tam olarak neresinde olacağım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,640",
+				"to": "00:00:17,440"
+			},
+			"offsets": {
+				"from": 9640,
+				"to": 17440
+			},
+			"text": " Ben içerik üretme 2020 yılında restoran ve işletmeleri sosyal medyolar için video edipler ekirektem kreatifleri oluşturarak başlayalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,440",
+				"to": "00:00:25,160"
+			},
+			"offsets": {
+				"from": 17440,
+				"to": 25160
+			},
+			"text": " Şu anda ise yaklaşık 10 adet 6-7 figür ile Etecer Markası için altında oluşan kreatör ve editör ekibiyle birlikte içerik üretimi yapıyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:25,160",
+				"to": "00:00:30,680"
+			},
+			"offsets": {
+				"from": 25160,
+				"to": 30680
+			},
+			"text": " Bu içerikten arasında rektem kreatifleri var, organik videolar var, sosyal medya yönetimi var."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,680",
+				"to": "00:00:33,600"
+			},
+			"offsets": {
+				"from": 30680,
+				"to": 33600
+			},
+			"text": " Yani kısa cesde içerik ve videolarla ben ilgileniyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:33,600",
+				"to": "00:00:37,640"
+			},
+			"offsets": {
+				"from": 33600,
+				"to": 37640
+			},
+			"text": " Yerlerim verdiği linkten benimle hafızalık bir evi görüşme alabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:37,640",
+				"to": "00:00:43,500"
+			},
+			"offsets": {
+				"from": 37640,
+				"to": 43500
+			},
+			"text": " Bu görüşmelerde de zaman kaybetmemek için sorularınızı önceden hazırlarsanız ikimizle çıksınan da iyi olur."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:43,500",
+				"to": "00:00:47,600"
+			},
+			"offsets": {
+				"from": 43500,
+				"to": 47600
+			},
+			"text": " Eğer kısa ve basit sorularınız varsa bunları vasaptan izip beni etik ettiği bilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:47,600",
+				"to": "00:00:55,120"
+			},
+			"offsets": {
+				"from": 47600,
+				"to": 55120
+			},
+			"text": " Ama eğer daha detaylı, daha geniş bir analiz isteyen bir sorunuz varsa bunları bir evi de sormanızı tavsiye ederim."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:55,120",
+				"to": "00:00:58,440"
+			},
+			"offsets": {
+				"from": 55120,
+				"to": 58440
+			},
+			"text": " Çünkü bahsede üzerinden detaylı bir analiz yapamıyor olacağım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:58,440",
+				"to": "00:01:01,120"
+			},
+			"offsets": {
+				"from": 58440,
+				"to": 61120
+			},
+			"text": " Onun dışında ben Türk'te görüşmek üzere."
+		}
+	]
+}

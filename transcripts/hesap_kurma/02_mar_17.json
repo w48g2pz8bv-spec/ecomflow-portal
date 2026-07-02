@@ -1,0 +1,846 @@
+{
+  "systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+  "model": {
+    "type": "base",
+    "multilingual": true,
+    "vocab": 51865,
+    "audio": {
+      "ctx": 1500,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "text": {
+      "ctx": 448,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "mels": 80,
+    "ftype": 1
+  },
+  "params": {
+    "model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+    "language": "tr",
+    "translate": false
+  },
+  "result": {
+    "language": "tr"
+  },
+  "transcription": [
+    {
+      "timestamps": {
+        "from": "00:00:00,000",
+        "to": "00:00:06,000"
+      },
+      "offsets": {
+        "from": 0,
+        "to": 6000
+      },
+      "text": " VPN kısmı herkesin merak ettiği en problematik olan belki de en çok soru gelen kısmı."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:06,000",
+        "to": "00:00:12,800"
+      },
+      "offsets": {
+        "from": 6000,
+        "to": 12800
+      },
+      "text": " Şimdi burada iki adet ayrı VPN'ı öneriyoruz ya sör şarkıya da nord VPN kullanmanız en mantıklısı."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:12,800",
+        "to": "00:00:16,500"
+      },
+      "offsets": {
+        "from": 12800,
+        "to": 16500
+      },
+      "text": " Burada arkadaşlar soruyorlar acaba ücretsizlere gidebilir miyim?"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:16,500",
+        "to": "00:00:19,000"
+      },
+      "offsets": {
+        "from": 16500,
+        "to": 19000
+      },
+      "text": " Ben ücretsiz olarak kullanmanızı önermiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:19,000",
+        "to": "00:00:28,000"
+      },
+      "offsets": {
+        "from": 19000,
+        "to": 28000
+      },
+      "text": " Dedim gibi anamantıkta biz burada iş kuruyoruz ve ne kadar ayağımızı ya da ne kadar kendimize sağlam kazığa bağlar sakin, o kadar güvenliyiz."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:28,000",
+        "to": "00:00:32,400"
+      },
+      "offsets": {
+        "from": 28000,
+        "to": 32400
+      },
+      "text": " Çünkü bakarsanız işler tahmin ettiğinizden de iyi gider. Olabilir, neden olmasın."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:32,400",
+        "to": "00:00:36,500"
+      },
+      "offsets": {
+        "from": 32400,
+        "to": 36500
+      },
+      "text": " Bir bakarsanız çok güzel paralar kazanmaya başlarsınız. Umarım ki de böyle olur."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:36,500",
+        "to": "00:00:41,600"
+      },
+      "offsets": {
+        "from": 36500,
+        "to": 41600
+      },
+      "text": " Ama hesabınıza yaşanabilecek bir problem bütün her şeyi sıfırdan başlamanıza yola çevir."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:41,600",
+        "to": "00:00:45,300"
+      },
+      "offsets": {
+        "from": 41600,
+        "to": 45300
+      },
+      "text": " Bu da sizi üzere arkadaşlar. O yüzden işinizi sağlamalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:45,300",
+        "to": "00:00:49,600"
+      },
+      "offsets": {
+        "from": 45300,
+        "to": 49600
+      },
+      "text": " Sör şarkı kullanıyoruz. Genel olarak VPN her zaman açık kalması lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:49,600",
+        "to": "00:00:52,000"
+      },
+      "offsets": {
+        "from": 49600,
+        "to": 52000
+      },
+      "text": " VPN'i hiçbiri zaman kapatmamanız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:52,000",
+        "to": "00:00:56,900"
+      },
+      "offsets": {
+        "from": 52000,
+        "to": 56900
+      },
+      "text": " Mesela kendi telefonumda VPN kursam oradan hesap açsam devam etsem muhabbeti burada patlıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:56,900",
+        "to": "00:01:00,900"
+      },
+      "offsets": {
+        "from": 56900,
+        "to": 60900
+      },
+      "text": " Çünkü sen artık kendi değil de farklı bir hesabı geçmek istiyorsun."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:00,900",
+        "to": "00:01:05,400"
+      },
+      "offsets": {
+        "from": 60900,
+        "to": 65400
+      },
+      "text": " Yani kendi kullandığın Instagram hesabını geçeceksin. Bu sefer ya VPN'i kapatman lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:05,400",
+        "to": "00:01:08,600"
+      },
+      "offsets": {
+        "from": 65400,
+        "to": 68600
+      },
+      "text": " Devam ads library bile VPN full açık kalsa bile."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:08,600",
+        "to": "00:01:14,200"
+      },
+      "offsets": {
+        "from": 68600,
+        "to": 74200
+      },
+      "text": " Günün sonunda sende telefonu sıfırdan kurmadığın için bir yerden sonra algoritman yavaştan Türkiye'yi de edefliyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:14,200",
+        "to": "00:01:20,200"
+      },
+      "offsets": {
+        "from": 74200,
+        "to": 80200
+      },
+      "text": " Burada en son olarak Static IP kısmı var. Static IP'yi extra satın alabilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:20,200",
+        "to": "00:01:25,500"
+      },
+      "offsets": {
+        "from": 80200,
+        "to": 85500
+      },
+      "text": " Ama benim kendi deneyimlerime göre Static IP almakla almamak arasında çok bir fark yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:25,500",
+        "to": "00:01:29,700"
+      },
+      "offsets": {
+        "from": 85500,
+        "to": 89700
+      },
+      "text": " Yani biz de Amerika Static IP'i var. Fransa İtalya Static IP'leri var."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:29,700",
+        "to": "00:01:33,700"
+      },
+      "offsets": {
+        "from": 89700,
+        "to": 93700
+      },
+      "text": " Ama günün sonunda çok ekstra bir fark görmedim açıkcası."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:33,700",
+        "to": "00:01:35,500"
+      },
+      "offsets": {
+        "from": 93700,
+        "to": 95500
+      },
+      "text": " Çok büyük arada bir fark yok sanırım."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:35,500",
+        "to": "00:01:38,500"
+      },
+      "offsets": {
+        "from": 95500,
+        "to": 98500
+      },
+      "text": " Aylık bir yorumu, bir buçuk yorumu ne extra ödüyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:38,500",
+        "to": "00:01:42,300"
+      },
+      "offsets": {
+        "from": 98500,
+        "to": 102300
+      },
+      "text": " Eğer böyle kendinizi çok güvende issetmek istiyorsanız alabilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:42,300",
+        "to": "00:01:44,900"
+      },
+      "offsets": {
+        "from": 102300,
+        "to": 104900
+      },
+      "text": " Ama dediğim gibi ben çok büyük bir farkını görmedim."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:44,900",
+        "to": "00:01:46,900"
+      },
+      "offsets": {
+        "from": 104900,
+        "to": 106900
+      },
+      "text": " O yüzden ben almıyorum kendi adımı."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:46,900",
+        "to": "00:01:50,600"
+      },
+      "offsets": {
+        "from": 106900,
+        "to": 110600
+      },
+      "text": " Şöyle bir olay var. Telefonunuz bazen kapanıp açılabiliyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:50,600",
+        "to": "00:01:53,800"
+      },
+      "offsets": {
+        "from": 110600,
+        "to": 113800
+      },
+      "text": " Telefonun şarısı bitiyor ya da telefon eski olduğu için"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:53,800",
+        "to": "00:01:56,700"
+      },
+      "offsets": {
+        "from": 113800,
+        "to": 116700
+      },
+      "text": " bir yerden sonra şarısı dayanmıyor gün içerisinde kapanıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:56,700",
+        "to": "00:02:00,900"
+      },
+      "offsets": {
+        "from": 116700,
+        "to": 120900
+      },
+      "text": " Burada telefonun açı kapanab açılması çok ekstra büyük bir problem değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:00,900",
+        "to": "00:02:04,000"
+      },
+      "offsets": {
+        "from": 120900,
+        "to": 124000
+      },
+      "text": " Ama sürekli sürekli olmaması da sinir için faydalı."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:04,000",
+        "to": "00:02:07,600"
+      },
+      "offsets": {
+        "from": 124000,
+        "to": 127600
+      },
+      "text": " Yani olabildiğince telefonu az kapanıp açılmasına dikkat edin."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:07,600",
+        "to": "00:02:10,400"
+      },
+      "offsets": {
+        "from": 127600,
+        "to": 130400
+      },
+      "text": " Çünkü kapanab açıldığı zaman tekrardan VPN sıfırlanıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:10,400",
+        "to": "00:02:12,700"
+      },
+      "offsets": {
+        "from": 130400,
+        "to": 132700
+      },
+      "text": " İnterneti tekrardan bağlanıyor. Falan filan."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:12,700",
+        "to": "00:02:16,100"
+      },
+      "offsets": {
+        "from": 132700,
+        "to": 136100
+      },
+      "text": " O muhabbetine kadar azaltırsanız sizin için o kadar iyi."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:16,100",
+        "to": "00:02:19,900"
+      },
+      "offsets": {
+        "from": 136100,
+        "to": 139900
+      },
+      "text": " Şöyle bir olay var. Sörüf şarkı da sizin kil silişlerinden bir olay var."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:19,900",
+        "to": "00:02:22,900"
+      },
+      "offsets": {
+        "from": 139900,
+        "to": 142900
+      },
+      "text": " Yani VPN koptuğu zaman sizin internete bağlanantınızı kesiyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:22,900",
+        "to": "00:02:26,500"
+      },
+      "offsets": {
+        "from": 142900,
+        "to": 146500
+      },
+      "text": " Bakın bu güzel bu olay. Bu sayede bine bizi güvende oluyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:26,500",
+        "to": "00:02:29,400"
+      },
+      "offsets": {
+        "from": 146500,
+        "to": 149400
+      },
+      "text": " Ama burada dikkat edilmesi gereken şöyle noktola var."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:29,400",
+        "to": "00:02:32,700"
+      },
+      "offsets": {
+        "from": 149400,
+        "to": 152700
+      },
+      "text": " Her zaman bizim Bluetooth'umuz kapalı olması lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:32,700",
+        "to": "00:02:36,600"
+      },
+      "offsets": {
+        "from": 152700,
+        "to": 156600
+      },
+      "text": " Bu Bluetooth'a kapatmak için iPhone'larda nasıl kapatmanız gerektiğini biliyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:36,600",
+        "to": "00:02:38,100"
+      },
+      "offsets": {
+        "from": 156600,
+        "to": 158100
+      },
+      "text": " Ama tekrardan size göstereyim."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:38,100",
+        "to": "00:02:41,600"
+      },
+      "offsets": {
+        "from": 158100,
+        "to": 161600
+      },
+      "text": " Eğer telefonunuzu buradan girip buradan Bluetooth'u kapatırsanız"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:41,600",
+        "to": "00:02:44,200"
+      },
+      "offsets": {
+        "from": 161600,
+        "to": 164200
+      },
+      "text": " burada Bluetooth 24 saatliğine kapanıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:44,200",
+        "to": "00:02:47,600"
+      },
+      "offsets": {
+        "from": 164200,
+        "to": 167600
+      },
+      "text": " Sizin yapmanız gereken buradan Bluetooth ayarlarına gidip"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:47,600",
+        "to": "00:02:52,200"
+      },
+      "offsets": {
+        "from": 167600,
+        "to": 172200
+      },
+      "text": " buradan ayarların içerisinden kapatmak ki tekrar açana kadar bir daha açılmasın."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:52,200",
+        "to": "00:02:55,100"
+      },
+      "offsets": {
+        "from": 172200,
+        "to": 175100
+      },
+      "text": " Bu kısım önemli çünkü eğer yukarıdan kaydırıp"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:55,100",
+        "to": "00:02:59,600"
+      },
+      "offsets": {
+        "from": 175100,
+        "to": 179600
+      },
+      "text": " Bluetooth'u kapatırsanız devamında 24 saat içerisinde tekrardan açılıyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:59,600",
+        "to": "00:03:03,300"
+      },
+      "offsets": {
+        "from": 179600,
+        "to": 183300
+      },
+      "text": " İkinci olarak burada ben yine olarak uçak modunda kullanıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:03,300",
+        "to": "00:03:07,600"
+      },
+      "offsets": {
+        "from": 183300,
+        "to": 187600
+      },
+      "text": " Bu size kalmış. İçinde hatı yok ama olsun gene uçak modunda olması güzeldir."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:07,600",
+        "to": "00:03:11,800"
+      },
+      "offsets": {
+        "from": 187600,
+        "to": 191800
+      },
+      "text": " En önemli kısım. Arka plan da uygulama yenilemeyi kapatmamız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:11,800",
+        "to": "00:03:13,800"
+      },
+      "offsets": {
+        "from": 191800,
+        "to": 193800
+      },
+      "text": " Ne demek? Arka plan da uygulama yenileme."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:13,800",
+        "to": "00:03:17,600"
+      },
+      "offsets": {
+        "from": 193800,
+        "to": 197600
+      },
+      "text": " Mesela siz Instagram'ı girmediğiniz zaman telefon da takılıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:17,600",
+        "to": "00:03:19,800"
+      },
+      "offsets": {
+        "from": 197600,
+        "to": 199800
+      },
+      "text": " Instagram size yukarıdan bildirim atıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:19,800",
+        "to": "00:03:24,200"
+      },
+      "offsets": {
+        "from": 199800,
+        "to": 204200
+      },
+      "text": " Bu bildirim atmasının nedeni Instagram arka plan da hala internete erişime var."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:24,200",
+        "to": "00:03:27,700"
+      },
+      "offsets": {
+        "from": 204200,
+        "to": 207700
+      },
+      "text": " Orada olan güncellemeleri size tekrardan bildirebiliyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:27,700",
+        "to": "00:03:31,500"
+      },
+      "offsets": {
+        "from": 207700,
+        "to": 211500
+      },
+      "text": " Eğer bunu kapatırsanız yani arka plan da uygulama yenilemeyi kapatırsanız"
+    },
+    {
+      "timestamps": {
+        "from": "00:03:31,500",
+        "to": "00:03:36,500"
+      },
+      "offsets": {
+        "from": 211500,
+        "to": 216500
+      },
+      "text": " bu tarz uygulamalar, Instagram TikTok ve YouTube internete erişime olmayacağı için"
+    },
+    {
+      "timestamps": {
+        "from": "00:03:36,500",
+        "to": "00:03:40,500"
+      },
+      "offsets": {
+        "from": 216500,
+        "to": 220500
+      },
+      "text": " siz platformun içinde değilken internete bağlanamıyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:40,500",
+        "to": "00:03:45,100"
+      },
+      "offsets": {
+        "from": 220500,
+        "to": 225100
+      },
+      "text": " Bu sayede olur ki siz telefonu kullanmazsa kullanmazken VPN kesildi."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:45,100",
+        "to": "00:03:46,700"
+      },
+      "offsets": {
+        "from": 225100,
+        "to": 226700
+      },
+      "text": " Olur ki herhangi bir problem oldu."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:46,700",
+        "to": "00:03:49,100"
+      },
+      "offsets": {
+        "from": 226700,
+        "to": 229100
+      },
+      "text": " Bu uygulamalar internete bağlanmadığı için"
+    },
+    {
+      "timestamps": {
+        "from": "00:03:49,100",
+        "to": "00:03:54,100"
+      },
+      "offsets": {
+        "from": 229100,
+        "to": 234100
+      },
+      "text": " gene hayatta o kalacağız gene problem siz bir şekilde kullanmaya devam edebileceğiz."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:54,100",
+        "to": "00:03:58,700"
+      },
+      "offsets": {
+        "from": 234100,
+        "to": 238700
+      },
+      "text": " Bir de burada son olarak telefonun modeline göre galeri konuma erişmemesi lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:58,700",
+        "to": "00:04:02,600"
+      },
+      "offsets": {
+        "from": 238700,
+        "to": 242600
+      },
+      "text": " Sanırım iPhone 7-8 ve iPhone 2'te bu muhappet var."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:02,600",
+        "to": "00:04:05,300"
+      },
+      "offsets": {
+        "from": 242600,
+        "to": 245300
+      },
+      "text": " iPhone 11'den itibaren bunu kaldırdılar diye biliyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:05,300",
+        "to": "00:04:06,400"
+      },
+      "offsets": {
+        "from": 245300,
+        "to": 246400
+      },
+      "text": " Yanlış bilmiyorsam."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:06,400",
+        "to": "00:04:09,400"
+      },
+      "offsets": {
+        "from": 246400,
+        "to": 249400
+      },
+      "text": " Yani şu anda iPhone 1-1-1-1-1-5 de bu muhappet yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:09,400",
+        "to": "00:04:14,500"
+      },
+      "offsets": {
+        "from": 249400,
+        "to": 254500
+      },
+      "text": " Ama eskiden uygulamalar kısmından galeri gittiğiniz zaman galeri konuma erişebiliyordu."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:14,500",
+        "to": "00:04:17,400"
+      },
+      "offsets": {
+        "from": 254500,
+        "to": 257400
+      },
+      "text": " Neden? Çünkü konuma girdiğiniz fotoğrafı kaydırdığınız zaman"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:17,400",
+        "to": "00:04:20,200"
+      },
+      "offsets": {
+        "from": 257400,
+        "to": 260200
+      },
+      "text": " size fotoğrafın hangi konumda çekildiğini gösterebiliyordu."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:20,200",
+        "to": "00:04:22,200"
+      },
+      "offsets": {
+        "from": 260200,
+        "to": 262200
+      },
+      "text": " Şimdi bunu hayla gösteriyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:22,200",
+        "to": "00:04:25,100"
+      },
+      "offsets": {
+        "from": 262200,
+        "to": 265100
+      },
+      "text": " Ama bunu kapatabiliyorsunuz nereden kapatıyorsunuz?"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:25,100",
+        "to": "00:04:27,100"
+      },
+      "offsets": {
+        "from": 265100,
+        "to": 267100
+      },
+      "text": " Gene uygulamalar galeriye giriyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:27,100",
+        "to": "00:04:31,900"
+      },
+      "offsets": {
+        "from": 267100,
+        "to": 271900
+      },
+      "text": " Ve eğer orada sizin konum kısmı açıksa bunu da kapatmanız önemli değilim."
+    }
+  ]
+}

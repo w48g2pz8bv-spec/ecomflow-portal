@@ -1,0 +1,967 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:08,560"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 8560
+			},
+			"text": " Oke şimdi güzel ve kötü yapay zeka videolarına neliz eden ve aradaki parklara biraz bakalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,560",
+				"to": "00:00:13,520"
+			},
+			"offsets": {
+				"from": 8560,
+				"to": 13520
+			},
+			"text": " Başka birbirine herkes görmüştür."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,520",
+				"to": "00:00:19,200"
+			},
+			"offsets": {
+				"from": 13520,
+				"to": 19200
+			},
+			"text": " Dikkat çeken bir vakit yapay zeka ile yapılmış."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,200",
+				"to": "00:00:24,560"
+			},
+			"offsets": {
+				"from": 19200,
+				"to": 24560
+			},
+			"text": " Gayet güzel temiz bir görüntüsü var."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,560",
+				"to": "00:00:26,400"
+			},
+			"offsets": {
+				"from": 24560,
+				"to": 26400
+			},
+			"text": " Gayet akıcı."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:26,400",
+				"to": "00:00:31,840"
+			},
+			"offsets": {
+				"from": 26400,
+				"to": 31840
+			},
+			"text": " Gayet güzel bir kok gayet de izlemesi var."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:31,840",
+				"to": "00:00:34,560"
+			},
+			"offsets": {
+				"from": 31840,
+				"to": 34560
+			},
+			"text": " Böyle bir videomuz var."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:34,560",
+				"to": "00:00:43,040"
+			},
+			"offsets": {
+				"from": 34560,
+				"to": 43040
+			},
+			"text": " Şöyle sesini da açalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:43,040",
+				"to": "00:00:49,040"
+			},
+			"offsets": {
+				"from": 43040,
+				"to": 49040
+			},
+			"text": " Gördüğünüz gibi ilk başta o çirlilik diye."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:49,040",
+				"to": "00:00:50,960"
+			},
+			"offsets": {
+				"from": 49040,
+				"to": 50960
+			},
+			"text": " Ondan sonra kendilerini gösterir."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:50,960",
+				"to": "00:00:54,080"
+			},
+			"offsets": {
+				"from": 50960,
+				"to": 54080
+			},
+			"text": " Gayet güzel bir ilgi çekici bebek."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:54,080",
+				"to": "00:00:58,960"
+			},
+			"offsets": {
+				"from": 54080,
+				"to": 58960
+			},
+			"text": " Bunun hesabına bakarsak yanlış hatırlamıyorsam bunun başka aynen."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:58,960",
+				"to": "00:01:04,640"
+			},
+			"offsets": {
+				"from": 58960,
+				"to": 64640
+			},
+			"text": " Mesela gördüğünüz gibi üç gibi konseptini yapmış alan bir tane videosunu çekmiş."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:04,640",
+				"to": "00:01:08,880"
+			},
+			"offsets": {
+				"from": 64640,
+				"to": 68880
+			},
+			"text": " Sonra bunun eğer ile üstümdeki ülkeleri değiştirmiş."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:08,880",
+				"to": "00:01:12,880"
+			},
+			"offsets": {
+				"from": 68880,
+				"to": 72880
+			},
+			"text": " Dikkatli bakarsanız ikisinde açısı aynı sadece şey değişiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:12,880",
+				"to": "00:01:17,280"
+			},
+			"offsets": {
+				"from": 72880,
+				"to": 77280
+			},
+			"text": " İki bayrak ve formalar değişiyor ve bunda eğerle yapmış."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:17,280",
+				"to": "00:01:18,240"
+			},
+			"offsets": {
+				"from": 77280,
+				"to": 78240
+			},
+			"text": " Gayet belli."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:18,240",
+				"to": "00:01:25,680"
+			},
+			"offsets": {
+				"from": 78240,
+				"to": 85680
+			},
+			"text": " Zaten hepsinin dikkatli bakarsanız şu kısmı havluğunun o şeyin kesme tahtısını içimden geçiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:25,680",
+				"to": "00:01:27,120"
+			},
+			"offsets": {
+				"from": 85680,
+				"to": 87120
+			},
+			"text": " Bir tane çekmiş adam."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:27,120",
+				"to": "00:01:30,000"
+			},
+			"offsets": {
+				"from": 87120,
+				"to": 90000
+			},
+			"text": " Sonra eğer atıp işe bunun alka planı böyle yap."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:30,000",
+				"to": "00:01:33,520"
+			},
+			"offsets": {
+				"from": 90000,
+				"to": 93520
+			},
+			"text": " Bunu bu ülkeye göre ayarla üstüme bu formayı giydir."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:33,520",
+				"to": "00:01:37,760"
+			},
+			"offsets": {
+				"from": 93520,
+				"to": 97760
+			},
+			"text": " Tarzı bir şey demiş ve bu tarz farklı huuk var ya sonları yapmış."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:37,760",
+				"to": "00:01:43,040"
+			},
+			"offsets": {
+				"from": 97760,
+				"to": 103040
+			},
+			"text": " Bir de az önce izlediğimiz bu tarz huukları videoları var."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:43,040",
+				"to": "00:01:50,640"
+			},
+			"offsets": {
+				"from": 103040,
+				"to": 110640
+			},
+			"text": " Çin'e Rolex koyup eritiyor sonra kendi saatini yapıyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:50,640",
+				"to": "00:01:55,360"
+			},
+			"offsets": {
+				"from": 110640,
+				"to": 115360
+			},
+			"text": " Gayet güzel bir başarılı bir videomuş."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:55,360",
+				"to": "00:01:59,360"
+			},
+			"offsets": {
+				"from": 115360,
+				"to": 119360
+			},
+			"text": " Şimdi de gerçekçi videolara bakalım biraz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:59,360",
+				"to": "00:02:16,400"
+			},
+			"offsets": {
+				"from": 119360,
+				"to": 136400
+			},
+			"text": " Benimle mi hissedeyim zaman ilk başta E'ye olduğunu anlamamışlar."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:16,400",
+				"to": "00:02:19,680"
+			},
+			"offsets": {
+				"from": 136400,
+				"to": 139680
+			},
+			"text": " Yani gerçekten çok güzel, gerçekten çok gerçekçi."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:19,680",
+				"to": "00:02:23,200"
+			},
+			"offsets": {
+				"from": 139680,
+				"to": 143200
+			},
+			"text": " Hani arka planlaki detaylar olsun, arkadaki konuşmalar olsun."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:23,200",
+				"to": "00:02:25,680"
+			},
+			"offsets": {
+				"from": 143200,
+				"to": 145680
+			},
+			"text": " Bilmiyorum size ne kadar gelirse, tamam mı?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:25,680",
+				"to": "00:02:42,080"
+			},
+			"offsets": {
+				"from": 145680,
+				"to": 162080
+			},
+			"text": " Aşırı gerçekçi ve o numara ekzikyu tedemiş yani o numara aksiyona geçili bir yapılmış bir eğer videosu."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:42,080",
+				"to": "00:02:47,120"
+			},
+			"offsets": {
+				"from": 162080,
+				"to": 167120
+			},
+			"text": " Bu tarz bir ürünümüz var."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:47,120",
+				"to": "00:02:59,200"
+			},
+			"offsets": {
+				"from": 167120,
+				"to": 179200
+			},
+			"text": " Araba ala arma gibi başta altı elli dokuzda başlıyor, yedi olunca araba açılıp, motorlarla et çıkartıyor ve ses çıkartıyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:59,200",
+				"to": "00:03:05,040"
+			},
+			"offsets": {
+				"from": 179200,
+				"to": 185040
+			},
+			"text": " Bu tarz bir ala."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:05,040",
+				"to": "00:03:08,400"
+			},
+			"offsets": {
+				"from": 185040,
+				"to": 188400
+			},
+			"text": " Bu kısımlar daha güzel olabilir, hani sonunda konuşma kısım falan."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:08,400",
+				"to": "00:03:15,680"
+			},
+			"offsets": {
+				"from": 188400,
+				"to": 195680
+			},
+			"text": " Ama anlamam, gayet güzel ve ürünme gayet güzel bir videomuş eğer."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:15,680",
+				"to": "00:03:16,880"
+			},
+			"offsets": {
+				"from": 195680,
+				"to": 196880
+			},
+			"text": " Bu tarz videomuz var."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:16,880",
+				"to": "00:03:23,120"
+			},
+			"offsets": {
+				"from": 196880,
+				"to": 203120
+			},
+			"text": " Bir dakika, ben sadece bir kitap yapıyorum, çok doğrayım yok."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:23,120",
+				"to": "00:03:27,760"
+			},
+			"offsets": {
+				"from": 203120,
+				"to": 207760
+			},
+			"text": " İstersen geçebilirsin, tarz bir şey diye."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:27,760",
+				"to": "00:03:38,640"
+			},
+			"offsets": {
+				"from": 207760,
+				"to": 218640
+			},
+			"text": " Ve sanki el yapımla, kitap kılıfı yapıyor olmuş gibi, kitap çektimde çantaya yapıyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:38,640",
+				"to": "00:03:50,880"
+			},
+			"offsets": {
+				"from": 218640,
+				"to": 230880
+			},
+			"text": " Gayet güzel bu, gayet bir çekece ve gördüğünüz gibi gayetleri aldığım insanlarda nereden alabilirim, nereden alabilirim."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:50,880",
+				"to": "00:04:07,200"
+			},
+			"offsets": {
+				"from": 230880,
+				"to": 247200
+			},
+			"text": " Şöyle popülerde seklik bakalım, kaçı zamış, 5-7-7-7-9-7, gayet güzel bir hesap."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:07,200",
+				"to": "00:04:12,640"
+			},
+			"offsets": {
+				"from": 247200,
+				"to": 252640
+			},
+			"text": " Bu tarz bir ürününüz var."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:12,640",
+				"to": "00:04:17,680"
+			},
+			"offsets": {
+				"from": 252640,
+				"to": 257680
+			},
+			"text": " Yine üç iki bir yapıyor ama eğer bir karakterimiz yapıyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:17,680",
+				"to": "00:04:23,280"
+			},
+			"offsets": {
+				"from": 257680,
+				"to": 263280
+			},
+			"text": " Kimse senin ileren çantalarını almak istemiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:23,280",
+				"to": "00:04:29,760"
+			},
+			"offsets": {
+				"from": 263280,
+				"to": 269760
+			},
+			"text": " Ondan sonra el yapıma dikiyormuş gibi."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:29,760",
+				"to": "00:04:36,320"
+			},
+			"offsets": {
+				"from": 269760,
+				"to": 276320
+			},
+			"text": " En sonunda türürsüz bir tane alır mıydım diyor ve ürünü gösteriyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:36,320",
+				"to": "00:04:42,400"
+			},
+			"offsets": {
+				"from": 276320,
+				"to": 282400
+			},
+			"text": " Ve gördüğünüz gibi herkese destek vermiş bu yapay zekâ alabımıza."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:42,400",
+				"to": "00:04:48,080"
+			},
+			"offsets": {
+				"from": 282400,
+				"to": 288080
+			},
+			"text": " Şimdi bunun, şimdi biraz da kötü videolara bakalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:48,080",
+				"to": "00:04:51,040"
+			},
+			"offsets": {
+				"from": 288080,
+				"to": 291040
+			},
+			"text": " Kötü videoların şöyle bir sorunu var, kötü videolar."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:51,040",
+				"to": "00:04:56,880"
+			},
+			"offsets": {
+				"from": 291040,
+				"to": 296880
+			},
+			"text": " Viral olmadığı için çok fazla bulamadım ama anamantıkta bir kaç video gösterebilirim."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:56,880",
+				"to": "00:05:09,200"
+			},
+			"offsets": {
+				"from": 296880,
+				"to": 309200
+			},
+			"text": " Aynen videomuz burada başlıyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:09,200",
+				"to": "00:05:11,200"
+			},
+			"offsets": {
+				"from": 309200,
+				"to": 311200
+			},
+			"text": " Çok fazla yürüme gerek yok hani."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:11,200",
+				"to": "00:05:13,680"
+			},
+			"offsets": {
+				"from": 311200,
+				"to": 313680
+			},
+			"text": " Ne olduğunu ben bile anlamadım."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:13,680",
+				"to": "00:05:16,560"
+			},
+			"offsets": {
+				"from": 313680,
+				"to": 316560
+			},
+			"text": " Bir şeyimiz satıyorlar burada, bebek bezi mi satıyor?"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:16,560",
+				"to": "00:05:20,640"
+			},
+			"offsets": {
+				"from": 316560,
+				"to": 320640
+			},
+			"text": " Adamın sekik yolu da ıvak ağabeyimizden."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:20,640",
+				"to": "00:05:26,800"
+			},
+			"offsets": {
+				"from": 320640,
+				"to": 326800
+			},
+			"text": " Yani garip bir videomuş denenmiş diyelim."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:26,800",
+				"to": "00:05:31,760"
+			},
+			"offsets": {
+				"from": 326800,
+				"to": 331760
+			},
+			"text": " Bir de bu tarz aşırı eğlü belli olan videotürlerimiz var."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:31,760",
+				"to": "00:05:33,680"
+			},
+			"offsets": {
+				"from": 331760,
+				"to": 333680
+			},
+			"text": " Hani bunlardan da kaçınmamız lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:33,680",
+				"to": "00:05:37,040"
+			},
+			"offsets": {
+				"from": 333680,
+				"to": 337040
+			},
+			"text": " Yani aşırı eay olduğunu belirtmemememiz lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:37,040",
+				"to": "00:05:41,760"
+			},
+			"offsets": {
+				"from": 337040,
+				"to": 341760
+			},
+			"text": " Taboç'sin ürününüze ve satmaya çalışınız gittiğe göre değişebilirim."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:41,760",
+				"to": "00:05:45,360"
+			},
+			"offsets": {
+				"from": 341760,
+				"to": 345360
+			},
+			"text": " Mesela Amerikan ve yaşlı insanları hedefliyorsanız."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:45,360",
+				"to": "00:05:48,720"
+			},
+			"offsets": {
+				"from": 345360,
+				"to": 348720
+			},
+			"text": " Hani eğlü, bitik belli olsa o kadar da bir sorunu olmuyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:48,720",
+				"to": "00:05:52,960"
+			},
+			"offsets": {
+				"from": 348720,
+				"to": 352960
+			},
+			"text": " Çünkü bu insanlar gerçekten gördüğe her şey inanan tarz insanlar."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:52,960",
+				"to": "00:05:54,560"
+			},
+			"offsets": {
+				"from": 352960,
+				"to": 354560
+			},
+			"text": " Hemen onun örneklerine bakalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:54,560",
+				"to": "00:05:56,720"
+			},
+			"offsets": {
+				"from": 354560,
+				"to": 356720
+			},
+			"text": " Mesela burada çok güzel bir hesabımız var."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:56,720",
+				"to": "00:06:01,680"
+			},
+			"offsets": {
+				"from": 356720,
+				"to": 361680
+			},
+			"text": " Adam, kaç akış sayı, 2.2 milyon paykışımız var bu hesapla."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:01,680",
+				"to": "00:06:08,160"
+			},
+			"offsets": {
+				"from": 361680,
+				"to": 368160
+			},
+			"text": " Adamla atmış aklınıza gelebilecek her türlü İranç değişik oku denemiş."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:08,160",
+				"to": "00:06:12,400"
+			},
+			"offsets": {
+				"from": 368160,
+				"to": 372400
+			},
+			"text": " Eğe yolduğu bazılarının çok belli ama hiç fark etmez."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:12,400",
+				"to": "00:06:13,360"
+			},
+			"offsets": {
+				"from": 372400,
+				"to": 373360
+			},
+			"text": " Neden?"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:13,360",
+				"to": "00:06:17,120"
+			},
+			"offsets": {
+				"from": 373360,
+				"to": 377120
+			},
+			"text": " Çünkü kitesi eğer buna uygunsa yapabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:17,120",
+				"to": "00:06:19,360"
+			},
+			"offsets": {
+				"from": 377120,
+				"to": 379360
+			},
+			"text": " Mesela burada fiyat soranlar var."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:19,360",
+				"to": "00:06:21,360"
+			},
+			"offsets": {
+				"from": 379360,
+				"to": 381360
+			},
+			"text": " Ayrıca burnunun neredesine alabilirim."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:21,360",
+				"to": "00:06:22,240"
+			},
+			"offsets": {
+				"from": 381360,
+				"to": 382240
+			},
+			"text": " Türk herhalde."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:22,240",
+				"to": "00:06:32,480"
+			},
+			"offsets": {
+				"from": 382240,
+				"to": 392480
+			},
+			"text": " Gördüğünüz gibi aşıları yolduğu bile ama ikitesine uyumlu tarzı videolar olmuş."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:32,480",
+				"to": "00:06:35,360"
+			},
+			"offsets": {
+				"from": 392480,
+				"to": 395360
+			},
+			"text": " Burada sağlık ürünleri satıyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:35,360",
+				"to": "00:06:36,160"
+			},
+			"offsets": {
+				"from": 395360,
+				"to": 396160
+			},
+			"text": " Bin bir türlü."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:36,160",
+				"to": "00:06:41,040"
+			},
+			"offsets": {
+				"from": 396160,
+				"to": 401040
+			},
+			"text": " Çok güzel yaratıcı kukları var."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:41,040",
+				"to": "00:06:42,240"
+			},
+			"offsets": {
+				"from": 401040,
+				"to": 402240
+			},
+			"text": " Genel var."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:42,240",
+				"to": "00:06:48,720"
+			},
+			"offsets": {
+				"from": 402240,
+				"to": 408720
+			},
+			"text": " Böyle ilgi çeken hani scroll stopper tarzı dediğimiz kuklar kullanmış."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:52,240",
+				"to": "00:07:07,360"
+			},
+			"offsets": {
+				"from": 412240,
+				"to": 427360
+			},
+			"text": " Yani kilo verdiren şeyle o hukma her lakı diye soracak olursanız hiçbir alakası yok ama amaçlı sanırım durdurmak ve gördüğünüz gibi 400 bin izlenmiş."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:07,360",
+				"to": "00:07:12,320"
+			},
+			"offsets": {
+				"from": 427360,
+				"to": 432320
+			},
+			"text": " Ve gerçekten bir istek var yani bu özüne de."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:12,320",
+				"to": "00:07:21,840"
+			},
+			"offsets": {
+				"from": 432320,
+				"to": 441840
+			},
+			"text": " Burada da yine farklı farklı değişik değişik İranç kuklar denemiş amaç burada insanları durdurmak dediğimiz gibi burada da 700 bin izlenmesi var."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:21,840",
+				"to": "00:07:24,240"
+			},
+			"offsets": {
+				"from": 441840,
+				"to": 444240
+			},
+			"text": " 2.2 milyon takipisi var."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:24,240",
+				"to": "00:07:27,120"
+			},
+			"offsets": {
+				"from": 444240,
+				"to": 447120
+			},
+			"text": " Çok çaki icri olay yapıyordur bu arkadaşımızla."
+		}
+	]
+}

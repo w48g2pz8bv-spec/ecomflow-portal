@@ -1,0 +1,758 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:12,920"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 12920
+			},
+			"text": " Evet, diyelim ki bir banda karşılaştık, burada sonraki adımlarda nasıl dametmemiz gerektiğini ve adım adım neler yapmanız gerektiğini ve yine sap açarken neleri dikkat etmeniz gerektiğini konuşacağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,920",
+				"to": "00:00:22,880"
+			},
+			"offsets": {
+				"from": 12920,
+				"to": 22880
+			},
+			"text": " Burada ilk yapmanız gereken şey, eğer ki bir banda karşılaşırsanız, burada hesabın gittiğine varsa yerseniz direkt psikolojikmen çok daha rahatlarsınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,880",
+				"to": "00:00:31,560"
+			},
+			"offsets": {
+				"from": 22880,
+				"to": 31560
+			},
+			"text": " Yani hesap geri gelirse ok, bu bir bonus hani tekrardan sevinebiliriz ama bir band gördüğümüz zaman bizim hesabın artık gittiğine varsaymamız lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:31,560",
+				"to": "00:00:34,600"
+			},
+			"offsets": {
+				"from": 31560,
+				"to": 34600
+			},
+			"text": " Yani ona çok fazla müdbalamamız doğru değil burada."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:34,600",
+				"to": "00:00:42,840"
+			},
+			"offsets": {
+				"from": 34600,
+				"to": 42840
+			},
+			"text": " Öncelikle bir band geldiği zaman ilk başta bunun ekran görüntüsünü alıp bana nedeniyle birlikte, bana gruplan atmanız gerekiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:42,840",
+				"to": "00:00:54,400"
+			},
+			"offsets": {
+				"from": 42840,
+				"to": 54400
+			},
+			"text": " Burada bir de sizin kendinizi acaba ben burada neyi yanlış yapmış olabilirim. Bu bana neyin sebep olduğunu kendiniz düşünüp bir tanı koymanız gerekiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:54,400",
+				"to": "00:00:59,920"
+			},
+			"offsets": {
+				"from": 54400,
+				"to": 59920
+			},
+			"text": " Yani burada meniçler çok fazla mesaj gönderdi. Ya da işte linki çok harken mi koydunuz?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:59,920",
+				"to": "00:01:06,560"
+			},
+			"offsets": {
+				"from": 59920,
+				"to": 66560
+			},
+			"text": " İşte profil fotoğrafınızda AIB profil mi vardı? Bunu kendinizin bir tanısını koymanız gerekiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:06,560",
+				"to": "00:01:17,880"
+			},
+			"offsets": {
+				"from": 66560,
+				"to": 77880
+			},
+			"text": " Zaten biz gene vaszaptan iletişimde kalıyor olacağız. Burada gene gruplan gelen yanıta göre direkt bana itiraz edebilirsiniz ya daşta benim talimatlarımla farklı yollara girebiliriz burada."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:17,880",
+				"to": "00:01:24,680"
+			},
+			"offsets": {
+				"from": 77880,
+				"to": 84680
+			},
+			"text": " Burada tabii dediğim gibi önciki modelde de bahsettiğim gibi eskiden ısındırdığınız bir tane hesabın olması lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:24,680",
+				"to": "00:01:31,960"
+			},
+			"offsets": {
+				"from": 84680,
+				"to": 91960
+			},
+			"text": " Yani sizin sürekli eskiden ısındırdığınız bir hesap olması lazım ki, diyelim ki bir bandurumu yaşandı ya da yeni bir ürüne geceksiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:31,960",
+				"to": "00:01:36,120"
+			},
+			"offsets": {
+				"from": 91960,
+				"to": 96120
+			},
+			"text": " Direk vakit kaybetmeden o ısınmış olduğunuzu hesaba direkt başlayabilirim."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:36,120",
+				"to": "00:01:44,960"
+			},
+			"offsets": {
+				"from": 96120,
+				"to": 104960
+			},
+			"text": " Yoksa yeni hesab açıyor olacağız. Burada da önciki modellerde bahsettiğim bu varmap yani ısındırma prosedöründen devam ediyor olacağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:44,960",
+				"to": "00:01:50,200"
+			},
+			"offsets": {
+				"from": 104960,
+				"to": 110200
+			},
+			"text": " Gene elli bir takip bir şey ulaşımızda da elli biriniz zamve ulaşımızda da linki koyuyor olacağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:50,200",
+				"to": "00:01:56,560"
+			},
+			"offsets": {
+				"from": 110200,
+				"to": 116560
+			},
+			"text": " Şimdi ilk bandiyediğiniz zaman dediğim gibi hesabı lokummadan ekran görüntüsünü alıp grubatıyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:56,560",
+				"to": "00:02:01,400"
+			},
+			"offsets": {
+				"from": 116560,
+				"to": 121400
+			},
+			"text": " Burada meyilde gelebiliyor. Bandiyediğiniz zaman gelalde onun da ekran görüntüsünü alıp."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:01,400",
+				"to": "00:02:09,760"
+			},
+			"offsets": {
+				"from": 121400,
+				"to": 129760
+			},
+			"text": " Burada soğuk kanlı olup sakin olmanızda çok önemli. Neden? Çünkü burada panik yapmanın yedeşte çok üzülmeyen çok duygusal bağ kurumanın hiçbir şeye paylası yok."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:09,760",
+				"to": "00:02:16,680"
+			},
+			"offsets": {
+				"from": 129760,
+				"to": 136680
+			},
+			"text": " Bu bu işin bir parışa sahiline geldi artık. Yani burada yapacak bir şey yok. Önümüzde bakmamız gerekiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:16,680",
+				"to": "00:02:21,480"
+			},
+			"offsets": {
+				"from": 136680,
+				"to": 141480
+			},
+			"text": " Bunu biz en azlararla kapatmak için önceden tabi kendi tedbirlerimizi almamız gerekiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:21,480",
+				"to": "00:02:27,200"
+			},
+			"offsets": {
+				"from": 141480,
+				"to": 147200
+			},
+			"text": " Bu şekilde devam edeceğiz. Yani panik yapmanın veya korkmanın hiçbir şeye paylası yok bu durumda."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:27,200",
+				"to": "00:02:35,840"
+			},
+			"offsets": {
+				"from": 147200,
+				"to": 155840
+			},
+			"text": " Şimdi yeni hesap açarken burası çok çok önemli bir nokta. Yeni bir hesap açarken biz önceki de aynı telefonu kullanmayacağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:35,840",
+				"to": "00:02:44,360"
+			},
+			"offsets": {
+				"from": 155840,
+				"to": 164360
+			},
+			"text": " Şimdi bu ne demek herban yedinizde telefonu satıp yeni bir telefon mu alacaksınız? Hayır. Burada telefonu resetteyip tekrardan kullanmaya devam edebiliriz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:44,360",
+				"to": "00:02:52,040"
+			},
+			"offsets": {
+				"from": 164360,
+				"to": 172040
+			},
+			"text": " Burada yeni bir fiziksalesin kart, yeni bir numaraya ihtiyacınız olacak. Yeni cimeyil, yeni şifre. Yeni şifre yeni Instagram şifresini."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:52,040",
+				"to": "00:02:56,680"
+			},
+			"offsets": {
+				"from": 172040,
+				"to": 176680
+			},
+			"text": " Yani eski hesapta kullandığınız şifre, yeni hesapta kullanmamamız lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:56,680",
+				"to": "00:03:02,840"
+			},
+			"offsets": {
+				"from": 176680,
+				"to": 182840
+			},
+			"text": " Burada yine yeni IP, zaten burada faktisim ve mobilleri kullandığınız zaman yeni bir IP olay olacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:02,840",
+				"to": "00:03:07,160"
+			},
+			"offsets": {
+				"from": 182840,
+				"to": 187160
+			},
+			"text": " Yeni telefon numarası ve yeni marka kimliği var yasyona."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:07,160",
+				"to": "00:03:10,000"
+			},
+			"offsets": {
+				"from": 187160,
+				"to": 190000
+			},
+			"text": " Bu ne demek? Burada bahsediyor muyum? Aynen."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:10,000",
+				"to": "00:03:15,440"
+			},
+			"offsets": {
+				"from": 190000,
+				"to": 195440
+			},
+			"text": " Şimdi markalarımız önliğin pop kanı. Bizim bunu hafiften değişimemiz lazım. Mesela pop kan gibi."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:15,440",
+				"to": "00:03:23,960"
+			},
+			"offsets": {
+				"from": 195440,
+				"to": 203960
+			},
+			"text": " Bunun olayını Instagram sizin vannandağınız zaman sizin yeni bir hesap açmadığınızı düşünmesi lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:23,960",
+				"to": "00:03:30,640"
+			},
+			"offsets": {
+				"from": 203960,
+				"to": 210640
+			},
+			"text": " Yani yeni bir hesap açığınızı Instagram fark ederse Instagram bu hesabı da birkaç hafta içerisinde büyük olasık da banlayacaktır."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:30,640",
+				"to": "00:03:35,600"
+			},
+			"offsets": {
+				"from": 210640,
+				"to": 215600
+			},
+			"text": " Burada yine bir öyüleştiriyoruz, farklı fotoğraf kullanıyoruz, farklı domain kullanıyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:35,600",
+				"to": "00:03:40,920"
+			},
+			"offsets": {
+				"from": 215600,
+				"to": 220920
+			},
+			"text": " Yani burada sistemizin domainini değişirebilirsiniz ya da işte redirek yapabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:40,920",
+				"to": "00:03:46,760"
+			},
+			"offsets": {
+				"from": 220920,
+				"to": 226760
+			},
+			"text": " Bu da ne demek? Yeni bir domain alıp o domain insanlar girince otomatikman eski domaini yönlendirme yöneteme."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:46,760",
+				"to": "00:03:57,000"
+			},
+			"offsets": {
+				"from": 226760,
+				"to": 237000
+			},
+			"text": " Bu tarz bir şey yapabilirsiniz. Farktık hepsiniz size. Yani burada videolarınızın açıklamalarına vesaire değişirebilirsiniz videonun içerisindeki alt yazıları vesaire."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:57,000",
+				"to": "00:04:01,920"
+			},
+			"offsets": {
+				"from": 237000,
+				"to": 241920
+			},
+			"text": " Farklı videolar kullanmamız lazım. Burada anamantıklı temayı çok öfiden değişirseniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:01,920",
+				"to": "00:04:10,520"
+			},
+			"offsets": {
+				"from": 241920,
+				"to": 250520
+			},
+			"text": " Eğer ürününüzü buna müsa etse çok çekiyor olur. Buradaki amacımız Instagram videoları baktığı zaman bizim yeniden bir hesa başlamızı anlamazsın."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:10,520",
+				"to": "00:04:13,280"
+			},
+			"offsets": {
+				"from": 250520,
+				"to": 253280
+			},
+			"text": " Yani bizi tamamen farklı bir mark olarak görürsün."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:13,280",
+				"to": "00:04:19,720"
+			},
+			"offsets": {
+				"from": 253280,
+				"to": 259720
+			},
+			"text": " Şimdi burada yapmamız gereken şeyler. Birebir aynı bir yüklülamıyoruz. Aynı linki koymuyoruz bir yaya."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:19,720",
+				"to": "00:04:28,680"
+			},
+			"offsets": {
+				"from": 259720,
+				"to": 268680
+			},
+			"text": " Eski hesabın videolarını koymuyoruz. Bu da çok önemli bir durum çünkü bazen arkadaşlar işle banyediğiniz zaman eski hesaplaki videolar tekrar yükliyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:28,680",
+				"to": "00:04:33,480"
+			},
+			"offsets": {
+				"from": 268680,
+				"to": 273480
+			},
+			"text": " Bu çok doğru bir yaklaşım değil. Aşırı benzer videolardan kaçmaya çalışıyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:33,480",
+				"to": "00:04:39,280"
+			},
+			"offsets": {
+				"from": 273480,
+				"to": 279280
+			},
+			"text": " Olabilirince temayı ve istihli değişirmemiz lazım burada. Eski hesabada referans vermiyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:39,280",
+				"to": "00:04:47,240"
+			},
+			"offsets": {
+				"from": 279280,
+				"to": 287240
+			},
+			"text": " Bu da ne demek? İşte eskiden hesabım şu videu banyedim. Artık bu hesaplayayım. Tarzı bir hikaye vesaire atmamanız gerekiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:47,240",
+				"to": "00:04:53,920"
+			},
+			"offsets": {
+				"from": 287240,
+				"to": 293920
+			},
+			"text": " Şimdi bizim meta insaydırlarımız vardı. Aslında hala varlar. Bu meta insaydırı ne demek?"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:53,920",
+				"to": "00:04:58,560"
+			},
+			"offsets": {
+				"from": 293920,
+				"to": 298560
+			},
+			"text": " Metada çalışan ve para karşılığında sizin hesaplarınıza açan insanlar."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:58,560",
+				"to": "00:05:04,560"
+			},
+			"offsets": {
+				"from": 298560,
+				"to": 304560
+			},
+			"text": " Ama bunların hem fiyatları çok arttı. Ve şu anda bulması gerçekten çok çok daha zor."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:04,560",
+				"to": "00:05:13,000"
+			},
+			"offsets": {
+				"from": 304560,
+				"to": 313000
+			},
+			"text": " Neden? Çünkü Instagram artık insan gücünü olabilirince azı indirir. Eskiden Metada çalışan arkadaşlar vardı."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:13,000",
+				"to": "00:05:16,560"
+			},
+			"offsets": {
+				"from": 313000,
+				"to": 316560
+			},
+			"text": " Onlara belli ücretler karşılığında direkt hesapları açtirebiliyorduk."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:16,560",
+				"to": "00:05:21,960"
+			},
+			"offsets": {
+				"from": 316560,
+				"to": 321960
+			},
+			"text": " Şu anda bu insanlar olabilirince azı aldı. Çünkü çoğunluğu artık işten çıkartıldı."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:21,960",
+				"to": "00:05:27,600"
+			},
+			"offsets": {
+				"from": 321960,
+				"to": 327600
+			},
+			"text": " Instagram yine eğer işlemine geçiştikten sonra fiyatlar çok çok artmaya başladı."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:27,600",
+				"to": "00:05:36,560"
+			},
+			"offsets": {
+				"from": 327600,
+				"to": 336560
+			},
+			"text": " Şu anda ki mevcut fiyatlar yaklaşık hesap açmak için 2000 ile 34 bin dolar arasında değişiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:36,560",
+				"to": "00:05:41,440"
+			},
+			"offsets": {
+				"from": 336560,
+				"to": 341440
+			},
+			"text": " Bunlar her gün değişen fiyatlar. Bu ana stratej olmamız lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:41,440",
+				"to": "00:05:47,440"
+			},
+			"offsets": {
+				"from": 341440,
+				"to": 347440
+			},
+			"text": " Bu ne demek? Yani eğer banyarsan ben parasını verir açtırırım düşüncesinde olmamamız lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:47,440",
+				"to": "00:05:51,600"
+			},
+			"offsets": {
+				"from": 347440,
+				"to": 351600
+			},
+			"text": " Burada biz bana olabildiğince ev öyletmemiz lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:51,600",
+				"to": "00:05:55,440"
+			},
+			"offsets": {
+				"from": 351600,
+				"to": 355440
+			},
+			"text": " Yani bandan olabildiğince kaçırmak için elimizden gelen her şeyi yapmamız lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:55,440",
+				"to": "00:06:01,280"
+			},
+			"offsets": {
+				"from": 355440,
+				"to": 361280
+			},
+			"text": " Anledikten sonra yeneğe sap kurduğumuz senaryoda neler yapmamamız gerektiğin tekrar ediyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:01,280",
+				"to": "00:06:06,080"
+			},
+			"offsets": {
+				"from": 361280,
+				"to": 366080
+			},
+			"text": " Aynı telefondan aynısın kartından yeni bir hesaba açmıyoruz. Burada aynı vay fiyatı kullanmıyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:06,080",
+				"to": "00:06:12,880"
+			},
+			"offsets": {
+				"from": 366080,
+				"to": 372880
+			},
+			"text": " Saman mobil veririzlerinden. Eski hesabın meyini ve numarasını yeneğe sabah koymıyoruz ve şipre de aynı şekilde."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:12,880",
+				"to": "00:06:17,280"
+			},
+			"offsets": {
+				"from": 372880,
+				"to": 377280
+			},
+			"text": " Aynı büyüye aynı link aynı capşantı şabbolunu yeneğe sapta kullanmıyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:17,280",
+				"to": "00:06:20,560"
+			},
+			"offsets": {
+				"from": 377280,
+				"to": 380560
+			},
+			"text": " Yani olabildiğince sitili biraz daha değişirmemiz lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:20,560",
+				"to": "00:06:26,000"
+			},
+			"offsets": {
+				"from": 380560,
+				"to": 386000
+			},
+			"text": " Bizi burada bandan sonra itiraz ettiğimiz ama bu itiraz süresi belki bir gün sürecek, belki bir hafta sürecek."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:26,000",
+				"to": "00:06:32,160"
+			},
+			"offsets": {
+				"from": 386000,
+				"to": 392160
+			},
+			"text": " Bizim bunu beklememize gerek yok. Bizi varsa eski nasıl sınlırdığımız hesap direk ondan devam edebiliriz."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:32,160",
+				"to": "00:06:37,520"
+			},
+			"offsets": {
+				"from": 392160,
+				"to": 397520
+			},
+			"text": " Yoksa direkt yeneğe sap kurmaya başlayabilirsiniz. Bu itirazı beklememize gerek yok."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:37,520",
+				"to": "00:06:42,080"
+			},
+			"offsets": {
+				"from": 397520,
+				"to": 402080
+			},
+			"text": " Ve yeni bir hesaba açacağımız senaryoda ise burada takfimi atlamamız gerekiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:42,080",
+				"to": "00:06:47,120"
+			},
+			"offsets": {
+				"from": 402080,
+				"to": 407120
+			},
+			"text": " Yani bunu ne demek? Sizin yine ısındırma, proşedüğünü adım adım uygulamanız lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:47,120",
+				"to": "00:06:53,360"
+			},
+			"offsets": {
+				"from": 407120,
+				"to": 413360
+			},
+			"text": " Yandirek bir gün hesabaştım. Sonra gün direk linki koyup direk eski videoları paylaşmaya başlamamamız lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:53,360",
+				"to": "00:06:58,560"
+			},
+			"offsets": {
+				"from": 413360,
+				"to": 418560
+			},
+			"text": " Burada tekrardan sıfırdan bir hesap ısındırma göntemine uygulamanız lazım."
+		}
+	]
+}

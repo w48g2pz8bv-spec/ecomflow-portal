@@ -1,0 +1,648 @@
+{
+  "systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+  "model": {
+    "type": "base",
+    "multilingual": true,
+    "vocab": 51865,
+    "audio": {
+      "ctx": 1500,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "text": {
+      "ctx": 448,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "mels": 80,
+    "ftype": 1
+  },
+  "params": {
+    "model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+    "language": "tr",
+    "translate": false
+  },
+  "result": {
+    "language": "tr"
+  },
+  "transcription": [
+    {
+      "timestamps": {
+        "from": "00:00:00,000",
+        "to": "00:00:03,600"
+      },
+      "offsets": {
+        "from": 0,
+        "to": 3600
+      },
+      "text": " Şimdi satış modelinde de kendimize nasıl satıcı olarak konumlandırabiliriz"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:03,600",
+        "to": "00:00:08,360"
+      },
+      "offsets": {
+        "from": 3600,
+        "to": 8360
+      },
+      "text": " ve insanlar videolarımızı gördüğümüz zaman nasıl satın almak isterler, bunu üzerine biraz konuşacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:08,360",
+        "to": "00:00:12,000"
+      },
+      "offsets": {
+        "from": 8360,
+        "to": 12000
+      },
+      "text": " Şimdi buradaki en önemli kısım bizim videolarımızı izleyen kişiler"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:12,000",
+        "to": "00:00:14,600"
+      },
+      "offsets": {
+        "from": 12000,
+        "to": 14600
+      },
+      "text": " ürünü bizim sattığımızı anlamalara gerek."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:14,600",
+        "to": "00:00:16,960"
+      },
+      "offsets": {
+        "from": 14600,
+        "to": 16960
+      },
+      "text": " Eğer ürünü bizim sattığımızı anlamazlarsa"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:16,960",
+        "to": "00:00:21,560"
+      },
+      "offsets": {
+        "from": 16960,
+        "to": 21560
+      },
+      "text": " sen burada ne kadar çok viral olursan ol, insanları kendi internesini çekemi olacaksın"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:21,560",
+        "to": "00:00:23,800"
+      },
+      "offsets": {
+        "from": 21560,
+        "to": 23800
+      },
+      "text": " çünkü ürünü onlar senin sattığını değil,"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:23,800",
+        "to": "00:00:26,840"
+      },
+      "offsets": {
+        "from": 23800,
+        "to": 26840
+      },
+      "text": " senin sadece ürünle havada içerikler çektiğini düşünecekler."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:26,840",
+        "to": "00:00:32,440"
+      },
+      "offsets": {
+        "from": 26840,
+        "to": 32440
+      },
+      "text": " Aslında bakarsan çok mantıklı değil ama sosyal medyada insanları çok specifik bir şekilde yönlendirmen gerek."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:32,440",
+        "to": "00:00:36,480"
+      },
+      "offsets": {
+        "from": 32440,
+        "to": 36480
+      },
+      "text": " O yüzden videolar oluştururken yapmamız gereken insanlar bu videoları gördüğümüz zaman"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:36,480",
+        "to": "00:00:40,200"
+      },
+      "offsets": {
+        "from": 36480,
+        "to": 40200
+      },
+      "text": " bizim bir satıcı olduğumuzu, bir mark olduğumuzu anlamalarını sağlamak."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:40,200",
+        "to": "00:00:43,480"
+      },
+      "offsets": {
+        "from": 40200,
+        "to": 43480
+      },
+      "text": " Bunu da nasıl yapıyorlar, videolarda kullandığımız hukları"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:43,480",
+        "to": "00:00:46,960"
+      },
+      "offsets": {
+        "from": 43480,
+        "to": 46960
+      },
+      "text": " videonun genel akışını bir satıcıymış gibi çekiyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:46,960",
+        "to": "00:00:52,320"
+      },
+      "offsets": {
+        "from": 46960,
+        "to": 52320
+      },
+      "text": " Şimdi bulduğum bir önün farklı videolarına nasıl bir satıcıymış gibi konumlandırdığını beraber analiz ederim."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:52,320",
+        "to": "00:00:54,440"
+      },
+      "offsets": {
+        "from": 52320,
+        "to": 54440
+      },
+      "text": " Şimdi genelini Spiderman maskesine bakacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:54,440",
+        "to": "00:01:01,080"
+      },
+      "offsets": {
+        "from": 54440,
+        "to": 61080
+      },
+      "text": " Şimdi huka baktığınız zaman POV, you bought the best Spiderman maske yani sen en iyi Spiderman maskesini satın aldın."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:01,080",
+        "to": "00:01:05,000"
+      },
+      "offsets": {
+        "from": 61080,
+        "to": 65000
+      },
+      "text": " Ondan sonra adam devamında kendi videosunu nasıl kurguladıysa devam ediyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:05,000",
+        "to": "00:01:10,840"
+      },
+      "offsets": {
+        "from": 65000,
+        "to": 70840
+      },
+      "text": " Ama siz videoyu baktığınız zaman bu ürünün satın alınabileceğini çok açık bir şekilde anlıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:12,040",
+        "to": "00:01:14,200"
+      },
+      "offsets": {
+        "from": 72040,
+        "to": 74200
+      },
+      "text": " Şimdi aynı ürünün ikinci videosuna bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:14,200",
+        "to": "00:01:17,200"
+      },
+      "offsets": {
+        "from": 74200,
+        "to": 77200
+      },
+      "text": " İnsanlar bizim hangi Spiderman maskesi sattığınızı sanıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:17,200",
+        "to": "00:01:19,560"
+      },
+      "offsets": {
+        "from": 77200,
+        "to": 79560
+      },
+      "text": " Bu birazcık Before After videosu olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:19,560",
+        "to": "00:01:22,160"
+      },
+      "offsets": {
+        "from": 79560,
+        "to": 82160
+      },
+      "text": " İlk başta ürünün kötü versiyonunu gösteriyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:22,160",
+        "to": "00:01:24,680"
+      },
+      "offsets": {
+        "from": 82160,
+        "to": 84680
+      },
+      "text": " Versiz The Mask We Actually Sell."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:24,680",
+        "to": "00:01:26,440"
+      },
+      "offsets": {
+        "from": 84680,
+        "to": 86440
+      },
+      "text": " Bizim aslında sattığımız maske."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:26,440",
+        "to": "00:01:31,600"
+      },
+      "offsets": {
+        "from": 86440,
+        "to": 91600
+      },
+      "text": " Burada da ürünün daha iyi versiyonunu gösteriyor ve direkt olarak siz gene satıcı olduğunu anlıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:31,600",
+        "to": "00:01:36,120"
+      },
+      "offsets": {
+        "from": 91600,
+        "to": 96120
+      },
+      "text": " Şimdi bu videoya baktığınız zaman da Babe What Would You Like to have for our anniversary?"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:36,120",
+        "to": "00:01:38,360"
+      },
+      "offsets": {
+        "from": 96120,
+        "to": 98360
+      },
+      "text": " Yani bizim yıl dönümüze ne istiyorsun?"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:38,360",
+        "to": "00:01:41,680"
+      },
+      "offsets": {
+        "from": 98360,
+        "to": 101680
+      },
+      "text": " Onun sonra devamında gene maskeyi gösteriyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:41,680",
+        "to": "00:01:46,480"
+      },
+      "offsets": {
+        "from": 101680,
+        "to": 106480
+      },
+      "text": " Bu şekilde gene maskele satın alınabilir bir şey olduğunu da insanlara göstermiş olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:46,480",
+        "to": "00:01:50,320"
+      },
+      "offsets": {
+        "from": 106480,
+        "to": 110320
+      },
+      "text": " Yani ürünün aslında devam videosu, devam kısmı sadece Showcase."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:50,320",
+        "to": "00:01:51,920"
+      },
+      "offsets": {
+        "from": 110320,
+        "to": 111920
+      },
+      "text": " Yani ürünün kududan çıkartıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:51,920",
+        "to": "00:01:54,440"
+      },
+      "offsets": {
+        "from": 111920,
+        "to": 114440
+      },
+      "text": " Ürünün özelliklerini gösteriyor. Gördüğünüz üzere."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:54,440",
+        "to": "00:01:57,680"
+      },
+      "offsets": {
+        "from": 114440,
+        "to": 117680
+      },
+      "text": " Şimdi de Hello'un yani cadılar bayramı kısmına gelmiş."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:57,680",
+        "to": "00:01:59,400"
+      },
+      "offsets": {
+        "from": 117680,
+        "to": 119400
+      },
+      "text": " The Hello'un Mask People Thing Vessel."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:59,400",
+        "to": "00:02:02,760"
+      },
+      "offsets": {
+        "from": 119400,
+        "to": 122760
+      },
+      "text": " İnsanlar bizim hangi cadılar bayramı maskei sattığımızı sanıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:02,760",
+        "to": "00:02:06,720"
+      },
+      "offsets": {
+        "from": 122760,
+        "to": 126720
+      },
+      "text": " Yeni aynı konsepti bu sefer cadılar bayramı zamanında bu şekilde paylaşmış."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:06,720",
+        "to": "00:02:08,440"
+      },
+      "offsets": {
+        "from": 126720,
+        "to": 128440
+      },
+      "text": " Direkt olarak Before After olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:08,440",
+        "to": "00:02:11,480"
+      },
+      "offsets": {
+        "from": 128440,
+        "to": 131480
+      },
+      "text": " Orada takşılığı Vessel ondan sonra sattığı ürünleri gösteriyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:11,480",
+        "to": "00:02:16,000"
+      },
+      "offsets": {
+        "from": 131480,
+        "to": 136000
+      },
+      "text": " Mesela bakın aynı viral konsept The prototype Versus The Product yapmış."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:16,000",
+        "to": "00:02:20,400"
+      },
+      "offsets": {
+        "from": 136000,
+        "to": 140400
+      },
+      "text": " Bu tarz zaten konseptler direkt olarak siz ürünün son ürünün gösterdiğiniz için."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:20,400",
+        "to": "00:02:23,360"
+      },
+      "offsets": {
+        "from": 140400,
+        "to": 143360
+      },
+      "text": " İnsanlar direkt bu ürünün sattıldığını anlıyor olacaklar."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:23,360",
+        "to": "00:02:26,880"
+      },
+      "offsets": {
+        "from": 143360,
+        "to": 146880
+      },
+      "text": " Bakın burada da insanların meranı kullanabilecek bir hook kullanmış."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:26,880",
+        "to": "00:02:31,920"
+      },
+      "offsets": {
+        "from": 146880,
+        "to": 151920
+      },
+      "text": " 15 dolarlık maske, 80 dolarlık maske ve sonunda fiyatı bilinmeyen maske."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:31,920",
+        "to": "00:02:37,680"
+      },
+      "offsets": {
+        "from": 151920,
+        "to": 157680
+      },
+      "text": " Şimdi ürünlerin fiyatlarında açıkçı gösterdiği için insanlar bu ürünün sattın alınabildiğini direkt olarak anlıyor olacaklar."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:37,680",
+        "to": "00:02:41,320"
+      },
+      "offsets": {
+        "from": 157680,
+        "to": 161320
+      },
+      "text": " Ve sonra arakta P.O.V. U.H. The Best Birthday Present Ever."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:41,320",
+        "to": "00:02:43,920"
+      },
+      "offsets": {
+        "from": 161320,
+        "to": 163920
+      },
+      "text": " Sen en iyi doğum günü hediyesine sahipsin."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:43,920",
+        "to": "00:02:48,480"
+      },
+      "offsets": {
+        "from": 163920,
+        "to": 168480
+      },
+      "text": " Şimdi anam antikte burada da insanlar baktığı zaman bu ürünün sattın alınabilir bir şey olduğu."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:48,480",
+        "to": "00:02:51,960"
+      },
+      "offsets": {
+        "from": 168480,
+        "to": 171960
+      },
+      "text": " Ve doğum günleri için güzel bir hediye olduğunu anlayabilecekler."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:51,960",
+        "to": "00:02:56,320"
+      },
+      "offsets": {
+        "from": 171960,
+        "to": 176320
+      },
+      "text": " Direkt anam antikte gene video konsepta aynı kutuya çıkıp bize ürünün gösteriyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:56,320",
+        "to": "00:02:59,120"
+      },
+      "offsets": {
+        "from": 176320,
+        "to": 179120
+      },
+      "text": " Umanım gösterdiğim içerikler yeterince açıklayı olmuştur."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:59,120",
+        "to": "00:03:03,520"
+      },
+      "offsets": {
+        "from": 179120,
+        "to": 183520
+      },
+      "text": " Bu şekilde ürettiğim videolarda kullandığın hooklar ve videoyun nasıl konumlandırdın."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:03,520",
+        "to": "00:03:07,680"
+      },
+      "offsets": {
+        "from": 183520,
+        "to": 187680
+      },
+      "text": " İnsanların gözünde senin bu ürünün sattığını rahat bir şekilde gösteriyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:07,680",
+        "to": "00:03:11,280"
+      },
+      "offsets": {
+        "from": 187680,
+        "to": 191280
+      },
+      "text": " O yüzden ilk başta bizim hedefimiz daha çok virali içerikler üretmek olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:11,280",
+        "to": "00:03:14,760"
+      },
+      "offsets": {
+        "from": 191280,
+        "to": 194760
+      },
+      "text": " Ama devamında artık biz ürünün sattmaya geçeceğimiz için"
+    },
+    {
+      "timestamps": {
+        "from": "00:03:14,760",
+        "to": "00:03:18,880"
+      },
+      "offsets": {
+        "from": 194760,
+        "to": 198880
+      },
+      "text": " daha satış odaklı bizim satıcı olduğumuzu belli eden videolar kullanmanı öneriyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:18,880",
+        "to": "00:03:23,400"
+      },
+      "offsets": {
+        "from": 198880,
+        "to": 203400
+      },
+      "text": " Tamam, eğer kendimizi konumlandırma kısmından alındıysak bir sonraki modülle görüşmek üzere."
+    }
+  ]
+}

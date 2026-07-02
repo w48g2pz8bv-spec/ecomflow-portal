@@ -1,0 +1,35 @@
+name: Daily EcomFlow Product Hunt
+
+on:
+  schedule:
+    # Her gün Türkiye saatiyle sabah 06:00'da (03:00 UTC) otomatik çalışır
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+    # GitHub arayüzünden manuel olarak tetikleme imkanı sağlar
+
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # Repoya geri yazma yetkisi
+
+    steps:
+    - name: Repoyu Klonla
+      uses: actions/checkout@v3
+
+    - name: Python Kurulumu
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Otomatik Tarayıcıyı Çalıştır
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      run: python product_crawler_cron.py
+
+    - name: Değişiklikleri Kaydet ve Poshla
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "Günün taze viral ürünleri eklendi [Bulut Tarama]"
+        file_pattern: "precrawled_products.json"

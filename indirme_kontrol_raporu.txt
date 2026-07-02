@@ -1,0 +1,139 @@
+==================================================
+        VİDEO İNDİRME VE KONTROL RAPORU           
+==================================================
+Toplam Beklenen Video/Doküman: 126
+Başarıyla İndirilen (Eksiksiz): 124
+İndirmesi Devam Eden (Yarım): 0
+Henüz İndirilmemiş (Eksik): 2
+Google Drive Linkleri (Doküman/İzleme): 5
+--------------------------------------------------
+
+=== HENÜZ İNDİRİLMEMİŞ OLANLAR (BEKLEYENLER) ===
+- [AI Dropshipping] SynthID Nedir (Google Drive Doküman Linki - video_list.txt dosyasında mevcut) -> (Dosya: 09_synthid_nedir_2.mp4)
+- [Başlangıç Ürünleri] Mar 16 (Google Drive Doküman Linki - video_list.txt dosyasında mevcut) -> (Dosya: 01_mar_16.mp4)
+
+=== BAŞARIYLA TAMAMLANAN VİDEOLAR ===
+- [🎬2025 Organik Kod] Introduction  02:31
+- [🎬2025 Organik Kod] Oyun Planı  13:52
+- [🎬2025 Organik Kod] Kafa Yapısı  04:52
+- [🎬2025 Organik Kod] Üretkenlik  02:53
+- [🎬2025 Organik Kod] Google Calendar Part-1  06:52
+- [🎬2025 Organik Kod] Google Calendar Part-2  06:21
+- [🎬2025 Organik Kod] Başlangıç Ürünleri  01:58
+- [🎬2025 Organik Kod] Başlangıç Ürünleri Konseptler  04:39
+- [🎬2025 Organik Kod] Ürünleri Beklerken  02:07
+- [🎬2025 Organik Kod] Edit Post  02:09
+- [🎬2025 Organik Kod] Ürün Araştırmasının Önemi  01:55
+- [🎬2025 Organik Kod] Kriterler  02:56
+- [🎬2025 Organik Kod] Metodlar  00:47
+- [🎬2025 Organik Kod] Burner Kurulum  04:49
+- [🎬2025 Organik Kod] Regular Vs Showcase Ürünler  02:18
+- [🎬2025 Organik Kod] 1 Numaralı Ürün Araştırma Sorusu  01:11
+- [🎬2025 Organik Kod] Telefon Kurulumu  04:08
+- [🎬2025 Organik Kod] VPN  01:20
+- [🎬2025 Organik Kod] Hesap Kurulumu  01:34
+- [🎬2025 Organik Kod] Isındırma  01:01
+- [🎬2025 Organik Kod] İçerikler  03:05
+- [🎬2025 Organik Kod] Gerçek Hayat Vs Dropshipper  02:56
+- [🎬2025 Organik Kod] İçerik Kopyalama  01:22
+- [🎬2025 Organik Kod] İçerik Kopyalama Ornek  01:41
+- [🎬2025 Organik Kod] Video Konseptleri  01:24
+- [🎬2025 Organik Kod] Viral Konseptler Detaylı  08:14
+- [🎬2025 Organik Kod] 1e1 Kopyalama Örnek  03:20
+- [🎬2025 Organik Kod] İyi Ve Kötü İçerikler Örnek  04:51
+- [🎬2025 Organik Kod] Hooklar  02:40
+- [🎬2025 Organik Kod] Ban Riski Olan İçerikler  03:20
+- [🎬2025 Organik Kod] Controversy  04:23
+- [🎬2025 Organik Kod] Contraversy Detaylı Part-1  05:39
+- [🎬2025 Organik Kod] Contraversy Detaylı Part-2  03:59
+- [🎬2025 Organik Kod] Senaryo Yazma  03:14
+- [🎬2025 Organik Kod] Kontrol Listesi  01:08
+- [🎬2025 Organik Kod] Gerekli Malzemeler  02:15
+- [🎬2025 Organik Kod] Ürün Çekimi Canlı  03:41
+- [🎬2025 Organik Kod] Editleme  05:14
+- [🎬2025 Organik Kod] Paylaşım  03:56
+- [🎬2025 Organik Kod] Ürün  04:32
+- [🎬2025 Organik Kod] CTA  02:57
+- [🎬2025 Organik Kod] CTA Detaylı Part-1  04:06
+- [🎬2025 Organik Kod] CTA Detaylı Part-2  02:16
+- [🎬2025 Organik Kod] Satıcı Gibi Konumlandırma  00:58
+- [🎬2025 Organik Kod] Satıcı Gibi Konumlanma Örnek  02:21
+- [🎬2025 Organik Kod] Satıcı Gibi Konumlanma Detaylı  03:23
+- [🎬2025 Organik Kod] Güven  02:02
+- [🎬2025 Organik Kod] Website  02:13
+- [🎬2025 Organik Kod] Website  07:52
+- [🎬2025 Organik Kod] BONUS - Ajans Live  04:44
+- [🎬2025 Organik Kod] BONUS - Burner Live  42:08
+- [🎬2025 Organik Kod] BONUS - Testing on Niches Live  17:48
+- [🎬2025 Organik Kod] BONUS - TR Product Examples  40:04
+- [🎬2025 Organik Kod] BONUS - Winner Analyse Live  53:33
+- [AI Dropshipping] Neden AI
+- [AI Dropshipping] Farklı AI Platformları
+- [AI Dropshipping] AI İyi Ve Kötü Video Örnekler
+- [AI Dropshipping] Higgsfield Detaylı Anlatım
+- [AI Dropshipping] Karakter Oluşturma
+- [AI Dropshipping] Değişim Videoları Nasıl Yapılır?
+- [AI Dropshipping] El Yapımı Çanta Videosu
+- [AI Dropshipping] Masa Ürünü Çekimi
+- [AI Dropshipping] SynthID Nedir
+- [AI Dropshipping] UGC Tarzı Video Yapımı
+- [AI Dropshipping] Supplement AI Videolar - Konuşmalı içerikler
+- [Grup Aramaları - Kayıtlar] 14.06.26 Ahmet Grup Araması
+- [Grup Aramaları - Kayıtlar] 07.06.26 Ahmet Grup Araması
+- [Grup Aramaları - Kayıtlar] 30.05.26 Ahmet Grup Araması
+- [Grup Aramaları - Kayıtlar] 29.05.26 Ahmet Grup Araması
+- [Grup Aramaları - Kayıtlar] 16.05.26 Ahmet Grup Araması
+- [Grup Aramaları - Kayıtlar] 09.05.26 Ahmet Grup Araması
+- [Grup Aramaları - Kayıtlar] 26.04.26 Ahmet Grup Araması
+- [Grup Aramaları - Kayıtlar] 18.04.26 Ahmet Grup Araması
+- [Grup Aramaları - Kayıtlar] 12.04.26 Ahmet Grup Araması
+- [Grup Aramaları - Kayıtlar] 03.04.26 Ahmet Grup Araması
+- [Grup Aramaları - Kayıtlar] 28.03.26 Ahmet Grup Araması
+- [Grup Aramaları - Kayıtlar] 16.10.25 Ahmet Grup Araması
+- [Grup Aramaları - Kayıtlar] 23.10.25 Ahmet Grup Araması
+- [Grup Aramaları - Kayıtlar] 09.10.25 Ahmet Grup Araması
+- [Grup Aramaları - Kayıtlar] 27.11.25 Ahmet Grup Araması
+- [Başlangıç Ürünleri] Mar 17
+- [Başlangıç Ürünleri] Mar 17
+- [Başlangıç Ürünleri] Başlangıç Ürünü Galaxy Ball Edit
+- [Hesap Kurma] Mar 17
+- [Hesap Kurma] Mar 17
+- [Hesap Kurma] Mar 17
+- [Hesap Kurma] Mar 17
+- [Hesap Kurma] Mar 17
+- [Hesap Kurma] Instagram Yaş Sınırlandırması
+- [Ürün Arama] Mar 17
+- [Ürün Arama] Mar 17
+- [Ürün Arama] Mar 17
+- [Ürün Arama] Mar 17
+- [Ürün Arama] Mar 17
+- [Ürün Arama] Advance Ürün Ararken Bakılması Gerekenler
+- [Banlar - Hesap Kurulumu] Hesaplar neden ban yiyor?
+- [Banlar - Hesap Kurulumu] Güvenli hesap kurulumu ve ısındırma nasıl yapılır?
+- [Banlar - Hesap Kurulumu] Ban sonrası neler yapılması lazım?
+- [Videolar Giriş] Hooklar
+- [Videolar Giriş] Viral Konseptler
+- [Videolar Giriş] Arka Plan
+- [Videolar Giriş] 1 Viral Videodan 5 Ayrı İçerik Çıkarma
+- [Videolar Giriş] ALGORİTMA DETAYLI
+- [Video Çekim & Edit] Pocokonsol Çekim & Edit
+- [Video Çekim & Edit] İlahi Tablo Çekim & Edit
+- [Video Çekim & Edit] Luva Çanta Çekim & Edit
+- [Video Çekim & Edit] Brokoli Sarma Çekim & Edit
+- [Video Çekim & Edit] Popgun Çekim & Edit
+- [Satış & Otomasyonlar] Viralliği Siteye Çekme
+- [Satış & Otomasyonlar] Satıcı Gibi Konumlanma
+- [Satış & Otomasyonlar] CTA nedir?
+- [Satış & Otomasyonlar] Upseller
+- [Satış & Otomasyonlar] Satış ve Retargeting
+- [Satış & Otomasyonlar] Manychat
+- [Satış & Otomasyonlar] Yarım Bırakılan Ödemeleri Kurtarma
+- [Satış & Otomasyonlar] YURT DIŞI PAZARI
+- [Satış & Otomasyonlar] Facebook'da Organik Yapmak
+- [Şirket Kurma] Türkiye Şirket Kurma
+- [Şirket Kurma] İngiltere Şirket Kurma
+- [Şirket Kurma] Amerikada Şirket Kurma
+- [Reklamlar] Reklamlar
+- [Reklamlar] Reklamlar İnceleme
+- [Reklamlar] Alperen +4M TL Yapan Ürün Reklamlar
+- [Reklamlar] Scaling ve Kapan Sistemi

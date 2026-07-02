@@ -1,0 +1,164 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:03,840"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 3840
+			},
+			"text": " Şimdi mentali katıldığınız zaman sizi vatsap grubuna çekeceğiz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,840",
+				"to": "00:00:08,560"
+			},
+			"offsets": {
+				"from": 3840,
+				"to": 8560
+			},
+			"text": " Bu vatsap grubunda direkt olarak mentaliyle 1-1 olarak görüşme şansınız var."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,560",
+				"to": "00:00:12,160"
+			},
+			"offsets": {
+				"from": 8560,
+				"to": 12160
+			},
+			"text": " Herhangi bir sorunuz olduğu zaman direkt olarak buradan sorabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,160",
+				"to": "00:00:15,760"
+			},
+			"offsets": {
+				"from": 12160,
+				"to": 15760
+			},
+			"text": " Video bazı sorular genel olarak 1-1 üzerinden görüntülencek."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,760",
+				"to": "00:00:20,720"
+			},
+			"offsets": {
+				"from": 15760,
+				"to": 20720
+			},
+			"text": " Yani herhangi bir videomuz hakkında yorum almak istiyorsanız 1-1 görüşmelerde sormanız daha mantık."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,720",
+				"to": "00:00:25,160"
+			},
+			"offsets": {
+				"from": 20720,
+				"to": 25160
+			},
+			"text": " Burada direkt grub da herhangi bir soru sormadığınız zaman genel olarak yerini sizi cevaplayı olacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:25,160",
+				"to": "00:00:29,840"
+			},
+			"offsets": {
+				"from": 25160,
+				"to": 29840
+			},
+			"text": " Eğer kişi bazı specific bir soru sormak isterseniz de o kişi etiketlemeyi unutmayın."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:29,840",
+				"to": "00:00:32,480"
+			},
+			"offsets": {
+				"from": 29840,
+				"to": 32480
+			},
+			"text": " İlk başladığınız zaman grubunuzda 3 mentor olacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,480",
+				"to": "00:00:35,840"
+			},
+			"offsets": {
+				"from": 32480,
+				"to": 35840
+			},
+			"text": " Bunlardan yer nur ve halkan sizin sorularınızı cevaplamaya hazır."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:35,840",
+				"to": "00:00:40,560"
+			},
+			"offsets": {
+				"from": 35840,
+				"to": 40560
+			},
+			"text": " Devamında siz tecrübe kazandıkça satışlarınız arttıkça grubunuzda farklı koşlar da geliyor olacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:40,560",
+				"to": "00:00:44,960"
+			},
+			"offsets": {
+				"from": 40560,
+				"to": 44960
+			},
+			"text": " Burada siyah tavsiye'm farklı mentalilerin de bakış açılarını sorup onlar da feedback almanız."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:44,960",
+				"to": "00:00:49,600"
+			},
+			"offsets": {
+				"from": 44960,
+				"to": 49600
+			},
+			"text": " Ne kadar çok kişi aslında fikirinin paylaşırsa o kadar çok sinir için benimle olacağını düşünüyorum."
+		}
+	]
+}

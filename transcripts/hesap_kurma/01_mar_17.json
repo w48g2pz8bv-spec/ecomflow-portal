@@ -1,0 +1,1847 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,220"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2220
+			},
+			"text": " Bugünün konusuna giriş yapalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,220",
+				"to": "00:00:07,620"
+			},
+			"offsets": {
+				"from": 2220,
+				"to": 7620
+			},
+			"text": " Evet, bildiğiniz gibi bugün biz hesap kurulumlarını inceliyor olacağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,620",
+				"to": "00:00:11,300"
+			},
+			"offsets": {
+				"from": 7620,
+				"to": 11300
+			},
+			"text": " Şimdi, bildiğiniz gibi iki aile hesap kurulumdan bahsedeceğiz bugün."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:11,300",
+				"to": "00:00:14,340"
+			},
+			"offsets": {
+				"from": 11300,
+				"to": 14340
+			},
+			"text": " İlk hesap kurulumuz Türkiye marketinden nasıl olacağın?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,340",
+				"to": "00:00:17,960"
+			},
+			"offsets": {
+				"from": 14340,
+				"to": 17960
+			},
+			"text": " İkinci olarak da yurt dışı marketinde nasıl hesap kurmanız gerektiğim."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,960",
+				"to": "00:00:22,400"
+			},
+			"offsets": {
+				"from": 17960,
+				"to": 22400
+			},
+			"text": " Şimdi halezizde eğer Türkiye'de yaşıyorsanız ve yaşadığınız ülkeyi hedefleyorsanız"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,400",
+				"to": "00:00:23,700"
+			},
+			"offsets": {
+				"from": 22400,
+				"to": 23700
+			},
+			"text": " burada hayat size çok kolay."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,700",
+				"to": "00:00:27,500"
+			},
+			"offsets": {
+				"from": 23700,
+				"to": 27500
+			},
+			"text": " Nasıl hani yurt dışında yaşayıp yurt dışı hesaplarını hedeflemek gibi."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,500",
+				"to": "00:00:32,400"
+			},
+			"offsets": {
+				"from": 27500,
+				"to": 32400
+			},
+			"text": " Eski bir meyleniz varsa yani daha öncesinden kullandığınız bir meyli varsa"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,400",
+				"to": "00:00:35,360"
+			},
+			"offsets": {
+				"from": 32400,
+				"to": 35360
+			},
+			"text": " bunun üzerinde hesap açmak en en en sağlıklı yöntem."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:35,360",
+				"to": "00:00:41,760"
+			},
+			"offsets": {
+				"from": 35360,
+				"to": 41760
+			},
+			"text": " Çünkü Instagram, özellikle Instagram, sizin hesaplarını ne kadar eski olduğuna o kadar değer veriyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:41,760",
+				"to": "00:00:47,200"
+			},
+			"offsets": {
+				"from": 41760,
+				"to": 47200
+			},
+			"text": " Yani Instagram'da sizin ne kadar eski bir hesabınız varsa ya da ne kadar eski bir imeyla açılmış hesabınız varsa"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:47,200",
+				"to": "00:00:50,000"
+			},
+			"offsets": {
+				"from": 47200,
+				"to": 50000
+			},
+			"text": " siz o kadar iyi sonuç alıyor olacaksınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:50,000",
+				"to": "00:00:54,400"
+			},
+			"offsets": {
+				"from": 50000,
+				"to": 54400
+			},
+			"text": " O yüzden burada uzun süreli kullanılan imeyler daha da çok güvenli duruyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:54,400",
+				"to": "00:01:00,400"
+			},
+			"offsets": {
+				"from": 54400,
+				"to": 60400
+			},
+			"text": " Eğer buradan numara kullanmanız gerekirse bizim kullandığımız yöntem online sim ayoya gidiyorsunuz"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:00,400",
+				"to": "00:01:06,000"
+			},
+			"offsets": {
+				"from": 60400,
+				"to": 66000
+			},
+			"text": " bugün de bunu dönemeli göstermel olarak deneyeceğiz online sim ayo'dan bir tane numara satın alıyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:06,000",
+				"to": "00:01:09,500"
+			},
+			"offsets": {
+				"from": 66000,
+				"to": 69500
+			},
+			"text": " Burada bazen numaran aktifleşmesi birazcık vakit alabiliyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:09,500",
+				"to": "00:01:12,600"
+			},
+			"offsets": {
+				"from": 69500,
+				"to": 72600
+			},
+			"text": " Yani böyle bir üç dakika belki de beş dakika bekletebiliyor sizi."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:12,600",
+				"to": "00:01:13,800"
+			},
+			"offsets": {
+				"from": 72600,
+				"to": 73800
+			},
+			"text": " Bunda yapacak bir şey yok."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:13,800",
+				"to": "00:01:15,100"
+			},
+			"offsets": {
+				"from": 73800,
+				"to": 75100
+			},
+			"text": " Bazen hiç gelmiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:15,100",
+				"to": "00:01:16,900"
+			},
+			"offsets": {
+				"from": 75100,
+				"to": 76900
+			},
+			"text": " O numaraya gene yapacak bir şey yok."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:16,900",
+				"to": "00:01:19,400"
+			},
+			"offsets": {
+				"from": 76900,
+				"to": 79400
+			},
+			"text": " Yapmamız gereken o numarayı iptal ediyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,400",
+				"to": "00:01:23,400"
+			},
+			"offsets": {
+				"from": 79400,
+				"to": 83400
+			},
+			"text": " 12 dakikayı yani 3 dakikayı geçtiği zaman ücretsiz bir şekilde iptal edebiliyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:23,400",
+				"to": "00:01:25,600"
+			},
+			"offsets": {
+				"from": 83400,
+				"to": 85600
+			},
+			"text": " Devamında da yeni numarayı alıyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:25,600",
+				"to": "00:01:28,700"
+			},
+			"offsets": {
+				"from": 85600,
+				"to": 88700
+			},
+			"text": " Böylece birden fazla numara deneyerek test edebiliyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:28,700",
+				"to": "00:01:33,800"
+			},
+			"offsets": {
+				"from": 88700,
+				"to": 93800
+			},
+			"text": " Burada önemli olan kısım aynı numara tek bir hesapta kullanılması gerekti."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:33,800",
+				"to": "00:01:38,400"
+			},
+			"offsets": {
+				"from": 93800,
+				"to": 98400
+			},
+			"text": " Yani burada iki ayrı hesap açırsanız 8 hesap yönteminden ayrı konuşuyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:38,400",
+				"to": "00:01:44,300"
+			},
+			"offsets": {
+				"from": 98400,
+				"to": 104300
+			},
+			"text": " 2 ayrı marka için 2 hesap açırsanız 2 farklı numaraya sahip olmanız lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:44,300",
+				"to": "00:01:46,900"
+			},
+			"offsets": {
+				"from": 104300,
+				"to": 106900
+			},
+			"text": " Şimdi bir de hesap kurulumu yurt dışı."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:46,900",
+				"to": "00:01:52,900"
+			},
+			"offsets": {
+				"from": 106900,
+				"to": 112900
+			},
+			"text": " Şimdi yurt dışında hesap kurur kurarken bizim kesinlikle ayrı bir telefonumuz olması şart."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:52,900",
+				"to": "00:01:56,700"
+			},
+			"offsets": {
+				"from": 112900,
+				"to": 116700
+			},
+			"text": " Şimdi bazıları diyorlar ki mesela ben kendi telefonumdan VPN'le hesab açıyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:56,700",
+				"to": "00:01:58,200"
+			},
+			"offsets": {
+				"from": 116700,
+				"to": 118200
+			},
+			"text": " Burada bir problem yaşamıyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:58,200",
+				"to": "00:01:59,500"
+			},
+			"offsets": {
+				"from": 118200,
+				"to": 119500
+			},
+			"text": " Belki bir gün yaşamazsın."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:59,500",
+				"to": "00:02:03,100"
+			},
+			"offsets": {
+				"from": 119500,
+				"to": 123100
+			},
+			"text": " Belki 2 gün yaşamazsın ama günün sonunda sen bir iş kuruyorsun."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:03,100",
+				"to": "00:02:05,100"
+			},
+			"offsets": {
+				"from": 123100,
+				"to": 125100
+			},
+			"text": " Ve bu işten para kazanmaya deflıyorsun."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:05,100",
+				"to": "00:02:08,100"
+			},
+			"offsets": {
+				"from": 125100,
+				"to": 128100
+			},
+			"text": " Belki günün sonunda senin o işten getirin."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:08,100",
+				"to": "00:02:09,400"
+			},
+			"offsets": {
+				"from": 128100,
+				"to": 129400
+			},
+			"text": " Senin ana gelirin olacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:09,400",
+				"to": "00:02:13,100"
+			},
+			"offsets": {
+				"from": 129400,
+				"to": 133100
+			},
+			"text": " Şu anda belki askeri ücretler ya da aylık 50 bin raya çalışıyorsun."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:13,100",
+				"to": "00:02:19,100"
+			},
+			"offsets": {
+				"from": 133100,
+				"to": 139100
+			},
+			"text": " Belki o hesaptan 2 günde 3 günde bir 50 bin raya yapmaya başladığın zaman o hesap senin için çok önemli olacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:19,100",
+				"to": "00:02:22,500"
+			},
+			"offsets": {
+				"from": 139100,
+				"to": 142500
+			},
+			"text": " O yüzden bu hesabın gerçekten çok iyi kurulması."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:22,500",
+				"to": "00:02:25,300"
+			},
+			"offsets": {
+				"from": 142500,
+				"to": 145300
+			},
+			"text": " Ve devamlı olması senin için çok önemli."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:25,300",
+				"to": "00:02:29,500"
+			},
+			"offsets": {
+				"from": 145300,
+				"to": 149500
+			},
+			"text": " Bu yüzden de yapmamız gereken şey ayrı bir adet telefon almamız."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:29,500",
+				"to": "00:02:33,700"
+			},
+			"offsets": {
+				"from": 149500,
+				"to": 153700
+			},
+			"text": " Devamında ayrı aldığımız telefonada VPN kurulumu yapıyor olacağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:33,700",
+				"to": "00:02:36,300"
+			},
+			"offsets": {
+				"from": 153700,
+				"to": 156300
+			},
+			"text": " Burada da biz online sim nokta ayı kullanıyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:36,300",
+				"to": "00:02:37,900"
+			},
+			"offsets": {
+				"from": 156300,
+				"to": 157900
+			},
+			"text": " Devamında haşet var."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:37,900",
+				"to": "00:02:42,400"
+			},
+			"offsets": {
+				"from": 157900,
+				"to": 162400
+			},
+			"text": " Haşet sadece İngiltere ve Amerika'ya numara kiralayabiliriz bir platform."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:42,400",
+				"to": "00:02:45,700"
+			},
+			"offsets": {
+				"from": 162400,
+				"to": 165700
+			},
+			"text": " Ama burada kiraladığınız numaraları 7 gün ya da 1 ay kadar."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:45,700",
+				"to": "00:02:48,400"
+			},
+			"offsets": {
+				"from": 165700,
+				"to": 168400
+			},
+			"text": " Hatta isterseniz çok uzun sürede kullanabiliyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:48,400",
+				"to": "00:02:52,400"
+			},
+			"offsets": {
+				"from": 168400,
+				"to": 172400
+			},
+			"text": " Devamında buradan kiraladığınız telefonlarla SMS gönderebiliyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:52,400",
+				"to": "00:02:55,200"
+			},
+			"offsets": {
+				"from": 172400,
+				"to": 175200
+			},
+			"text": " Almak dışında artı bir de arama falan yapabiliyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:55,200",
+				"to": "00:02:59,400"
+			},
+			"offsets": {
+				"from": 175200,
+				"to": 179400
+			},
+			"text": " Bilmiyorum bu işin seyir alma ama genel olarak haşetle yurt dışı için"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:59,400",
+				"to": "00:03:02,500"
+			},
+			"offsets": {
+				"from": 179400,
+				"to": 182500
+			},
+			"text": " bir nevize daha güvenli çünkü uzun sürede tutabildiğiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:02,500",
+				"to": "00:03:05,300"
+			},
+			"offsets": {
+				"from": 182500,
+				"to": 185300
+			},
+			"text": " Burada bakın çok çok önemli bir kısmı arkadaşlar."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:05,300",
+				"to": "00:03:08,300"
+			},
+			"offsets": {
+				"from": 185300,
+				"to": 188300
+			},
+			"text": " Online simden bir hesap açtığınız zaman."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:08,300",
+				"to": "00:03:12,500"
+			},
+			"offsets": {
+				"from": 188300,
+				"to": 192500
+			},
+			"text": " Bu hesaba acil bir şekilde e-mail bağlamanız lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:12,500",
+				"to": "00:03:13,500"
+			},
+			"offsets": {
+				"from": 192500,
+				"to": 193500
+			},
+			"text": " Neden?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:13,500",
+				"to": "00:03:18,300"
+			},
+			"offsets": {
+				"from": 193500,
+				"to": 198300
+			},
+			"text": " Siz eğer e-mail bağlamazsanız yarın bir gün hesabınızda bir problem olur."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:18,300",
+				"to": "00:03:22,500"
+			},
+			"offsets": {
+				"from": 198300,
+				"to": 202500
+			},
+			"text": " Hesabınızı kapatırsanız ya da farklı bir telefonla girmek istersiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:22,500",
+				"to": "00:03:24,500"
+			},
+			"offsets": {
+				"from": 202500,
+				"to": 204500
+			},
+			"text": " Ya da hesabın şifresini unutursunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:24,500",
+				"to": "00:03:26,000"
+			},
+			"offsets": {
+				"from": 204500,
+				"to": 206000
+			},
+			"text": " Hesabı geri alamazsanız."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:26,000",
+				"to": "00:03:27,000"
+			},
+			"offsets": {
+				"from": 206000,
+				"to": 207000
+			},
+			"text": " Neden?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:27,000",
+				"to": "00:03:31,500"
+			},
+			"offsets": {
+				"from": 207000,
+				"to": 211500
+			},
+			"text": " Çünkü online simden kiraladığımız telefonlar maksimum 15 dakika orada duruyor"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:31,500",
+				"to": "00:03:33,500"
+			},
+			"offsets": {
+				"from": 211500,
+				"to": 213500
+			},
+			"text": " ve bir daha ona erişim almıyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:33,500",
+				"to": "00:03:37,300"
+			},
+			"offsets": {
+				"from": 213500,
+				"to": 217300
+			},
+			"text": " O yüzden numarayı kiralıyorsunuz hesabı açıyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:37,300",
+				"to": "00:03:40,300"
+			},
+			"offsets": {
+				"from": 217300,
+				"to": 220300
+			},
+			"text": " Hemen arkasına bir tane e-mail bağlamanız lazım ki"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:40,300",
+				"to": "00:03:43,500"
+			},
+			"offsets": {
+				"from": 220300,
+				"to": 223500
+			},
+			"text": " ileride bir problem olduğu zaman hesabınızı kurtarabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:43,500",
+				"to": "00:03:44,500"
+			},
+			"offsets": {
+				"from": 223500,
+				"to": 224500
+			},
+			"text": " Okuyamayın."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:44,500",
+				"to": "00:03:47,500"
+			},
+			"offsets": {
+				"from": 224500,
+				"to": 227500
+			},
+			"text": " Şimdi TikTok ve Instagram'da burada yurt dışında"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:47,500",
+				"to": "00:03:50,300"
+			},
+			"offsets": {
+				"from": 227500,
+				"to": 230300
+			},
+			"text": " numara ve gmail kullanabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:50,300",
+				"to": "00:03:53,300"
+			},
+			"offsets": {
+				"from": 230300,
+				"to": 233300
+			},
+			"text": " Ama YouTube'da her şartı gmail açmanız lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:53,300",
+				"to": "00:03:58,300"
+			},
+			"offsets": {
+				"from": 233300,
+				"to": 238300
+			},
+			"text": " Burada ama dediğim gibi bir numara her zaman tek bir hesaba bağlı olmalı."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:58,300",
+				"to": "00:04:03,000"
+			},
+			"offsets": {
+				"from": 238300,
+				"to": 243000
+			},
+			"text": " Platformlara göre TikTok açtığınız zaman eğer yurt içi açıyorsanız"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:03,000",
+				"to": "00:04:05,100"
+			},
+			"offsets": {
+				"from": 243000,
+				"to": 245100
+			},
+			"text": " numara veya e-mail fark etmi olacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:05,100",
+				"to": "00:04:08,300"
+			},
+			"offsets": {
+				"from": 245100,
+				"to": 248300
+			},
+			"text": " İsterseniz telefon numara silahçının isterseniz e-mail ile açın."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:08,300",
+				"to": "00:04:09,300"
+			},
+			"offsets": {
+				"from": 248300,
+				"to": 249300
+			},
+			"text": " Bir problem olmaz."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:09,300",
+				"to": "00:04:11,500"
+			},
+			"offsets": {
+				"from": 249300,
+				"to": 251500
+			},
+			"text": " Ama yurt dışında hesaba açtığınız zaman."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:11,500",
+				"to": "00:04:14,800"
+			},
+			"offsets": {
+				"from": 251500,
+				"to": 254800
+			},
+			"text": " Siz e-mail'in de yeni bir hesab yüzlerinden açacağınız için"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:14,800",
+				"to": "00:04:18,200"
+			},
+			"offsets": {
+				"from": 254800,
+				"to": 258200
+			},
+			"text": " burada direkt olarak telefonla doğrulamak çok çok daha mantıklı."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:18,200",
+				"to": "00:04:21,700"
+			},
+			"offsets": {
+				"from": 258200,
+				"to": 261700
+			},
+			"text": " Aynı şekilde Instagram için de eğer siz Türkiye'ye açıyorsanız"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:21,700",
+				"to": "00:04:26,000"
+			},
+			"offsets": {
+				"from": 261700,
+				"to": 266000
+			},
+			"text": " gmail üzerinden açabilirsiniz ya da telefon numara süzlenen açabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:26,000",
+				"to": "00:04:29,900"
+			},
+			"offsets": {
+				"from": 266000,
+				"to": 269900
+			},
+			"text": " Ama eğer yurt dışına açacaksanız her şartta bu numara."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:29,900",
+				"to": "00:04:33,000"
+			},
+			"offsets": {
+				"from": 269900,
+				"to": 273000
+			},
+			"text": " Telefon numara süzlenen açmanız daha önemli."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:33,000",
+				"to": "00:04:37,200"
+			},
+			"offsets": {
+				"from": 273000,
+				"to": 277200
+			},
+			"text": " Aynı zamanda Instagram açtığınız zaman yanına bir de Facebook sayfasında bağlarsanız"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:37,200",
+				"to": "00:04:38,600"
+			},
+			"offsets": {
+				"from": 277200,
+				"to": 278600
+			},
+			"text": " bile bize daha garantiye alır."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:38,600",
+				"to": "00:04:41,000"
+			},
+			"offsets": {
+				"from": 278600,
+				"to": 281000
+			},
+			"text": " Çünkü genel olarak Facebook sayfalar birazcık daha eskidir."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:41,000",
+				"to": "00:04:44,000"
+			},
+			"offsets": {
+				"from": 281000,
+				"to": 284000
+			},
+			"text": " Bildiğiniz üzere yani şöyle kendi profiliniz eskidir."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:44,000",
+				"to": "00:04:46,600"
+			},
+			"offsets": {
+				"from": 284000,
+				"to": 286600
+			},
+			"text": " Kendi profiliniz verinizinden Facebook sayfası açtığınız zaman"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:46,600",
+				"to": "00:04:48,900"
+			},
+			"offsets": {
+				"from": 286600,
+				"to": 288900
+			},
+			"text": " o sayfa da güvenli olur çünkü profilinize bağlıdır."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:48,900",
+				"to": "00:04:51,600"
+			},
+			"offsets": {
+				"from": 288900,
+				"to": 291600
+			},
+			"text": " Burada eğer siz Instagramınızı profile bağlarsanız"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:51,600",
+				"to": "00:04:55,200"
+			},
+			"offsets": {
+				"from": 291600,
+				"to": 295200
+			},
+			"text": " devamında bir sorun yaşamazsınız daha da güvenli olur."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:55,200",
+				"to": "00:04:58,600"
+			},
+			"offsets": {
+				"from": 295200,
+				"to": 298600
+			},
+			"text": " YouTube kısmında da her şartta cime ile açmak zorundasınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:58,600",
+				"to": "00:05:01,000"
+			},
+			"offsets": {
+				"from": 298600,
+				"to": 301000
+			},
+			"text": " Yeni bir tane cime ile çözünüz bununla beraber."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:01,000",
+				"to": "00:05:03,000"
+			},
+			"offsets": {
+				"from": 301000,
+				"to": 303000
+			},
+			"text": " YouTube'a bağlığa nıyorsunuz?"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:03,000",
+				"to": "00:05:06,300"
+			},
+			"offsets": {
+				"from": 303000,
+				"to": 306300
+			},
+			"text": " Dikkat edilmesi gerekenler yurt dışında hesaba çarken"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:06,300",
+				"to": "00:05:09,300"
+			},
+			"offsets": {
+				"from": 306300,
+				"to": 309300
+			},
+			"text": " numara üzerinden açmak dediğim gibi çok daha garantin."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:09,300",
+				"to": "00:05:12,600"
+			},
+			"offsets": {
+				"from": 309300,
+				"to": 312600
+			},
+			"text": " Burada yurt dışında sekiz hesab testi yerine"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:12,600",
+				"to": "00:05:15,100"
+			},
+			"offsets": {
+				"from": 312600,
+				"to": 315100
+			},
+			"text": " tek hesabdan düzgünü sındırma olarak ilerliyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:15,100",
+				"to": "00:05:15,600"
+			},
+			"offsets": {
+				"from": 315100,
+				"to": 315600
+			},
+			"text": " Neden?"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:15,600",
+				"to": "00:05:18,900"
+			},
+			"offsets": {
+				"from": 315600,
+				"to": 318900
+			},
+			"text": " Sekiz hesab açmak birazcık daha meşakkatli ve özellikle"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:18,900",
+				"to": "00:05:22,400"
+			},
+			"offsets": {
+				"from": 318900,
+				"to": 322400
+			},
+			"text": " siz lokal pazarda yürütmüyorsanız birazcık sıkıntı"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:22,400",
+				"to": "00:05:24,900"
+			},
+			"offsets": {
+				"from": 322400,
+				"to": 324900
+			},
+			"text": " çekibiliyorsunuz özellikle algoritma kısmında."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:24,900",
+				"to": "00:05:28,600"
+			},
+			"offsets": {
+				"from": 324900,
+				"to": 328600
+			},
+			"text": " O yüzden bizim yurt dışında yaptığımız olay tek bir tane hesab aç."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:28,600",
+				"to": "00:05:30,400"
+			},
+			"offsets": {
+				"from": 328600,
+				"to": 330400
+			},
+			"text": " Bunu düzgün bir şekilde sındır."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:30,400",
+				"to": "00:05:32,600"
+			},
+			"offsets": {
+				"from": 330400,
+				"to": 332600
+			},
+			"text": " Devamında o hesabdan yürümeye başladı."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:32,600",
+				"to": "00:05:35,600"
+			},
+			"offsets": {
+				"from": 332600,
+				"to": 335600
+			},
+			"text": " Baktın o hesabı eğer iyi gitmiyor yeni bir tane hesab aç."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:35,600",
+				"to": "00:05:37,400"
+			},
+			"offsets": {
+				"from": 335600,
+				"to": 337400
+			},
+			"text": " Burada şöyle bir strateji yapabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:37,400",
+				"to": "00:05:39,900"
+			},
+			"offsets": {
+				"from": 337400,
+				"to": 339900
+			},
+			"text": " Mesela ilk TikTok da paylaşmaya başladınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:39,900",
+				"to": "00:05:42,300"
+			},
+			"offsets": {
+				"from": 339900,
+				"to": 342300
+			},
+			"text": " İlk üç videonuz böyle yüz iki yüz izlendi."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:42,300",
+				"to": "00:05:44,000"
+			},
+			"offsets": {
+				"from": 342300,
+				"to": 344000
+			},
+			"text": " Tamam, bu biraz soru işareti."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:44,000",
+				"to": "00:05:45,900"
+			},
+			"offsets": {
+				"from": 344000,
+				"to": 345900
+			},
+			"text": " Bu çok iyi bir geri dönüş değil."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:45,900",
+				"to": "00:05:49,200"
+			},
+			"offsets": {
+				"from": 345900,
+				"to": 349200
+			},
+			"text": " OK, burada iki üç gün daha devam edersiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:49,200",
+				"to": "00:05:52,600"
+			},
+			"offsets": {
+				"from": 349200,
+				"to": 352600
+			},
+			"text": " Toplam böyle bir altı yedi postan sonra bakarsanız"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:52,600",
+				"to": "00:05:54,600"
+			},
+			"offsets": {
+				"from": 352600,
+				"to": 354600
+			},
+			"text": " hala siz yüz iki yüz bandındaysanız."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:54,600",
+				"to": "00:05:56,800"
+			},
+			"offsets": {
+				"from": 354600,
+				"to": 356800
+			},
+			"text": " Hemen yeni bir tane daha TikTok açarsınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:56,800",
+				"to": "00:05:58,300"
+			},
+			"offsets": {
+				"from": 356800,
+				"to": 358300
+			},
+			"text": " Burada TikTok açsınız zaman."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:58,300",
+				"to": "00:06:00,600"
+			},
+			"offsets": {
+				"from": 358300,
+				"to": 360600
+			},
+			"text": " Önce ki hesabı boş bırakmanızı önermen."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:00,600",
+				"to": "00:06:03,900"
+			},
+			"offsets": {
+				"from": 360600,
+				"to": 363900
+			},
+			"text": " Çünkü TikTok açsınız zaman bir üç gün ısındırma süresi olacak her şartta."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:03,900",
+				"to": "00:06:06,700"
+			},
+			"offsets": {
+				"from": 363900,
+				"to": 366700
+			},
+			"text": " İlk hesabdan siz yine videosmayı devam edersiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:06,700",
+				"to": "00:06:08,500"
+			},
+			"offsets": {
+				"from": 366700,
+				"to": 368500
+			},
+			"text": " Acaba bir gelişme olur mu?"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:08,500",
+				"to": "00:06:10,000"
+			},
+			"offsets": {
+				"from": 368500,
+				"to": 370000
+			},
+			"text": " Hani son bir şans verme kadına."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:10,000",
+				"to": "00:06:12,100"
+			},
+			"offsets": {
+				"from": 370000,
+				"to": 372100
+			},
+			"text": " Baktığınız eğer üçüncü günün sonunda"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:12,100",
+				"to": "00:06:14,800"
+			},
+			"offsets": {
+				"from": 372100,
+				"to": 374800
+			},
+			"text": " o hesap hala size yüz iki yüz izlenme veriyorsa"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:14,800",
+				"to": "00:06:19,200"
+			},
+			"offsets": {
+				"from": 374800,
+				"to": 379200
+			},
+			"text": " direkt yeni ısındırdığını sesabı geçip oradan devam edebilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:19,200",
+				"to": "00:06:21,500"
+			},
+			"offsets": {
+				"from": 379200,
+				"to": 381500
+			},
+			"text": " Instagram'da da birazcık daha beklemek lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:21,500",
+				"to": "00:06:24,200"
+			},
+			"offsets": {
+				"from": 381500,
+				"to": 384200
+			},
+			"text": " Çünkü Instagram gene olarak dün bahsettiğimiz gibi"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:24,200",
+				"to": "00:06:26,500"
+			},
+			"offsets": {
+				"from": 384200,
+				"to": 386500
+			},
+			"text": " on beş yirmi postan sonra açılıyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:26,500",
+				"to": "00:06:30,500"
+			},
+			"offsets": {
+				"from": 386500,
+				"to": 390500
+			},
+			"text": " O yüzden Instagram'ı çok fazla yeni hesabı açıp test etmenizi gerek yok."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:30,500",
+				"to": "00:06:34,000"
+			},
+			"offsets": {
+				"from": 390500,
+				"to": 394000
+			},
+			"text": " Çünkü yirmi posta kadar çok böyle bir şey belli olmuyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:34,000",
+				"to": "00:06:36,000"
+			},
+			"offsets": {
+				"from": 394000,
+				"to": 396000
+			},
+			"text": " Burada her şartta istisnağılar oluyor tabii."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:36,000",
+				"to": "00:06:37,500"
+			},
+			"offsets": {
+				"from": 396000,
+				"to": 397500
+			},
+			"text": " Kimisini görüyorsunuz?"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:37,500",
+				"to": "00:06:39,500"
+			},
+			"offsets": {
+				"from": 397500,
+				"to": 399500
+			},
+			"text": " Bir adam, adam bir tane video paylaşmış."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:39,500",
+				"to": "00:06:40,800"
+			},
+			"offsets": {
+				"from": 399500,
+				"to": 400800
+			},
+			"text": " Bir milyon izlenmiş abi."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:40,800",
+				"to": "00:06:41,600"
+			},
+			"offsets": {
+				"from": 400800,
+				"to": 401600
+			},
+			"text": " Olabilir."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:41,600",
+				"to": "00:06:44,300"
+			},
+			"offsets": {
+				"from": 401600,
+				"to": 404300
+			},
+			"text": " Bu onun iyi hesabı sahibi olduğunu gösterir."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:44,300",
+				"to": "00:06:47,300"
+			},
+			"offsets": {
+				"from": 404300,
+				"to": 407300
+			},
+			"text": " Ama eğer sinirliğinize iyi hesap yoksa yapabilecek bir şey yok."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:47,300",
+				"to": "00:06:49,600"
+			},
+			"offsets": {
+				"from": 407300,
+				"to": 409600
+			},
+			"text": " Burada yapmanız gereken dediğim gibi"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:49,600",
+				"to": "00:06:52,900"
+			},
+			"offsets": {
+				"from": 409600,
+				"to": 412900
+			},
+			"text": " olabildiğince birazcık götürmek, test etmek baktığınız sıkıntı"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:52,900",
+				"to": "00:06:54,300"
+			},
+			"offsets": {
+				"from": 412900,
+				"to": 414300
+			},
+			"text": " hemen iyi hesabı geçmek."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:54,300",
+				"to": "00:06:57,000"
+			},
+			"offsets": {
+				"from": 414300,
+				"to": 417000
+			},
+			"text": " Eğer telefonu açtınız, VPN'izi kurdunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:57,000",
+				"to": "00:06:59,600"
+			},
+			"offsets": {
+				"from": 417000,
+				"to": 419600
+			},
+			"text": " Hayat on numara her şeyi çok yolunda gözüküyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:59,600",
+				"to": "00:07:01,500"
+			},
+			"offsets": {
+				"from": 419600,
+				"to": 421500
+			},
+			"text": " Instagram'ı kurmaya çalışıyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:01,500",
+				"to": "00:07:02,700"
+			},
+			"offsets": {
+				"from": 421500,
+				"to": 422700
+			},
+			"text": " Şu tarz bir error aldınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:02,700",
+				"to": "00:07:03,900"
+			},
+			"offsets": {
+				"from": 422700,
+				"to": 423900
+			},
+			"text": " Girmeye çalışıyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:03,900",
+				"to": "00:07:07,200"
+			},
+			"offsets": {
+				"from": 423900,
+				"to": 427200
+			},
+			"text": " Diyorsunuz ki error sor giderizle problem with your request."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:07,200",
+				"to": "00:07:08,900"
+			},
+			"offsets": {
+				"from": 427200,
+				"to": 428900
+			},
+			"text": " Sizin girişinize bir problem var."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:08,900",
+				"to": "00:07:10,000"
+			},
+			"offsets": {
+				"from": 428900,
+				"to": 430000
+			},
+			"text": " Burada yapacağınız bir şey yok."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:10,000",
+				"to": "00:07:12,600"
+			},
+			"offsets": {
+				"from": 430000,
+				"to": 432600
+			},
+			"text": " Bu tamamıyla nedeni ne olduğunu bilmedi."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:12,600",
+				"to": "00:07:13,600"
+			},
+			"offsets": {
+				"from": 432600,
+				"to": 433600
+			},
+			"text": " Matalardan kaynaklanma."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:13,600",
+				"to": "00:07:14,600"
+			},
+			"offsets": {
+				"from": 433600,
+				"to": 434600
+			},
+			"text": " Bunu alıyor olacaksınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:14,600",
+				"to": "00:07:15,600"
+			},
+			"offsets": {
+				"from": 434600,
+				"to": 435600
+			},
+			"text": " Büyük ihtimalle."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:15,600",
+				"to": "00:07:18,900"
+			},
+			"offsets": {
+				"from": 435600,
+				"to": 438900
+			},
+			"text": " Bu hatayı alırsanız eğer yapmanız gereken şey"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:18,900",
+				"to": "00:07:20,400"
+			},
+			"offsets": {
+				"from": 438900,
+				"to": 440400
+			},
+			"text": " birisi yerden kurmak."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:20,400",
+				"to": "00:07:22,400"
+			},
+			"offsets": {
+				"from": 440400,
+				"to": 442400
+			},
+			"text": " Hemen bir tane bilgisayarı giriyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:22,400",
+				"to": "00:07:26,000"
+			},
+			"offsets": {
+				"from": 442400,
+				"to": 446000
+			},
+			"text": " Aldınız, surf şarkla beraber bilgisayarın VPN'i bağlanıyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:26,000",
+				"to": "00:07:27,600"
+			},
+			"offsets": {
+				"from": 446000,
+				"to": 447600
+			},
+			"text": " Hedeflediğiniz ülkeye giriyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:27,600",
+				"to": "00:07:28,700"
+			},
+			"offsets": {
+				"from": 447600,
+				"to": 448700
+			},
+			"text": " Atıyorum Amerika."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:28,700",
+				"to": "00:07:31,700"
+			},
+			"offsets": {
+				"from": 448700,
+				"to": 451700
+			},
+			"text": " Ondan sonra bu Amerika üzerinden hesabı açıyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:31,700",
+				"to": "00:07:36,500"
+			},
+			"offsets": {
+				"from": 451700,
+				"to": 456500
+			},
+			"text": " Ve o şekilde bu açtınız hesabı telefonu alıp telefonu da devam ediyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:36,500",
+				"to": "00:07:38,200"
+			},
+			"offsets": {
+				"from": 456500,
+				"to": 458200
+			},
+			"text": " Bu şekilde bir problem yaşamıyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:38,200",
+				"to": "00:07:39,600"
+			},
+			"offsets": {
+				"from": 458200,
+				"to": 459600
+			},
+			"text": " Bir de şöyle bir hesap var."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:39,600",
+				"to": "00:07:43,200"
+			},
+			"offsets": {
+				"from": 459600,
+				"to": 463200
+			},
+			"text": " Sizin eğer tek bir Instagram paranın tek bir YouTube hesabınız varsa"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:43,200",
+				"to": "00:07:47,200"
+			},
+			"offsets": {
+				"from": 463200,
+				"to": 467200
+			},
+			"text": " bu YouTube hesabına biriden fazla hesap bağlayabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:47,200",
+				"to": "00:07:49,700"
+			},
+			"offsets": {
+				"from": 467200,
+				"to": 469700
+			},
+			"text": " Gördüğünüz gibi benim bir tane an hesabım var."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:49,700",
+				"to": "00:07:52,200"
+			},
+			"offsets": {
+				"from": 469700,
+				"to": 472200
+			},
+			"text": " Bon hesabının altında dört tane ayrı marka var ki"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:52,200",
+				"to": "00:07:56,200"
+			},
+			"offsets": {
+				"from": 472200,
+				"to": 476200
+			},
+			"text": " ki benim şahsiyi YouTube hesabımda bu hesaba bağlı."
+		}
+	]
+}

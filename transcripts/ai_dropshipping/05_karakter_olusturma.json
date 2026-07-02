@@ -1,0 +1,967 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:05,040"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 5040
+			},
+			"text": " Evet şimdi karakterimizi nasıl oluşuracağımıza gelelim."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,040",
+				"to": "00:00:12,960"
+			},
+			"offsets": {
+				"from": 5040,
+				"to": 12960
+			},
+			"text": " Öncelikle ben karakterin tamamen yapay zekalmasına karşıymadan siz şimdi gidip nana bana yapıraya."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,960",
+				"to": "00:00:23,280"
+			},
+			"offsets": {
+				"from": 12960,
+				"to": 23280
+			},
+			"text": " Bana şöyle bir karakter oluşur dediğiniz zaman. Oşsa çok eğer yani çok gerçekçi olmayan bir karakter oluşuracak bir insan oluşurur."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,280",
+				"to": "00:00:29,960"
+			},
+			"offsets": {
+				"from": 23280,
+				"to": 29960
+			},
+			"text": " Burada en iyi yöntem gerçekte var olan birisini kullanmak, yani bizim sıfırdan eğer birisini yaptırmak."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:29,960",
+				"to": "00:00:33,400"
+			},
+			"offsets": {
+				"from": 29960,
+				"to": 33400
+			},
+			"text": " Yani hayla hazırda var olan insanların yüzünü kullanmamız lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:33,400",
+				"to": "00:00:36,920"
+			},
+			"offsets": {
+				"from": 33400,
+				"to": 36920
+			},
+			"text": " Olabildiğince gerçekçi bir sonuç elde edebilmek için."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:36,920",
+				"to": "00:00:42,920"
+			},
+			"offsets": {
+				"from": 36920,
+				"to": 42920
+			},
+			"text": " Tabii burada şöyle bir sorum var siz gidip razı gelebilirsin yüzünü, kapanıza göre kullanamazsınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:42,920",
+				"to": "00:00:48,040"
+			},
+			"offsets": {
+				"from": 42920,
+				"to": 48040
+			},
+			"text": " Yani gillerde çok büyük sorumlar, yaşayabilirsiniz. Eğer ki olur da o kişi parkelerse."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:48,040",
+				"to": "00:00:51,880"
+			},
+			"offsets": {
+				"from": 48040,
+				"to": 51880
+			},
+			"text": " O yüzden bunun önüne çok basit bir şekilde geçebiliriz. Buna nasıl geçiyoruz?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:51,880",
+				"to": "00:00:58,440"
+			},
+			"offsets": {
+				"from": 51880,
+				"to": 58440
+			},
+			"text": " İki tane gerçek insan yüzü bulup bu ilisini birleştiriyoruz aslında bir yerde."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:58,440",
+				"to": "00:01:01,240"
+			},
+			"offsets": {
+				"from": 58440,
+				"to": 61240
+			},
+			"text": " Şimdi hemen nasıl yapacağımıza gelelim."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:01,240",
+				"to": "00:01:04,600"
+			},
+			"offsets": {
+				"from": 61240,
+				"to": 64600
+			},
+			"text": " Öncelikle nasıl bir karakteri istediğimize belirtmemiz lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:04,600",
+				"to": "00:01:11,240"
+			},
+			"offsets": {
+				"from": 64600,
+				"to": 71240
+			},
+			"text": " Yani mesela burada eskiden daha aratmışmış da yaşlı bir Türk kadın doktor mu olacak?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:11,240",
+				"to": "00:01:15,000"
+			},
+			"offsets": {
+				"from": 71240,
+				"to": 75000
+			},
+			"text": " Bizim karakterimiz yoksa genç bir öğrenci mi olacak ya da?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:15,000",
+				"to": "00:01:19,560"
+			},
+			"offsets": {
+				"from": 75000,
+				"to": 79560
+			},
+			"text": " Tabii bu ürünün önüne de değiştirir. Mesela kilo var mı ürünlerinde önce kiloğlu bir karakter."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,560",
+				"to": "00:01:23,960"
+			},
+			"offsets": {
+				"from": 79560,
+				"to": 83960
+			},
+			"text": " Ondan sonra onun zayıfı halini yapmamız gerekiyor. Ve sayre ve sayre."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:23,960",
+				"to": "00:01:31,000"
+			},
+			"offsets": {
+				"from": 83960,
+				"to": 91000
+			},
+			"text": " Şimdi ben yine o örnekten gideyim. Ben böyle sarı saşı bir kadın istiyorum ama biraz kiloğlu."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:31,000",
+				"to": "00:01:36,040"
+			},
+			"offsets": {
+				"from": 91000,
+				"to": 96040
+			},
+			"text": " Ondan sonra bizi bunu kilo verdik. Biz zamanı gelince daha fit bir vücuda kavuşur."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:36,040",
+				"to": "00:01:40,840"
+			},
+			"offsets": {
+				"from": 96040,
+				"to": 100840
+			},
+			"text": " O yüzden gidip ben sarışın iki tane kadın fotoğrafı bulmam lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:40,840",
+				"to": "00:01:50,440"
+			},
+			"offsets": {
+				"from": 100840,
+				"to": 110440
+			},
+			"text": " O yüzden gidip hemen ben Sweet Dish göğal yazıyorum. Neden burada gördüğünüz gibi sarı saşı bir sürü kadın fotoğrafı bulmuş olacağım."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:50,440",
+				"to": "00:01:58,520"
+			},
+			"offsets": {
+				"from": 110440,
+				"to": 118520
+			},
+			"text": " Öncelikle yani aşırı model gibi duran yüzlerden uzak durup hani biraz daha gerçekçi fotoğraflar bulmam lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:58,520",
+				"to": "00:02:00,920"
+			},
+			"offsets": {
+				"from": 118520,
+				"to": 120920
+			},
+			"text": " Dağının imiş diyoruz. Buna kaydettik."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:00,920",
+				"to": "00:02:09,240"
+			},
+			"offsets": {
+				"from": 120920,
+				"to": 129240
+			},
+			"text": " Şimdi başka bir tane daha fotoğraf bulmam lazım ama ben bu fotoğrafı seçerken biraz daha zıd bir karaktere sahip birini seçmek istiyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:09,240",
+				"to": "00:02:14,520"
+			},
+			"offsets": {
+				"from": 129240,
+				"to": 134520
+			},
+			"text": " Yani biraz daha oluşacağımız kişi hani böyle daha gerçekçi olsun."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:14,520",
+				"to": "00:02:23,320"
+			},
+			"offsets": {
+				"from": 134520,
+				"to": 143320
+			},
+			"text": " Şimdi burada sarışın aşırı beyaz sani birisi seç. Ondan sonra gidip başka bir tane nasıl sarışın aşırı beyaz sani birini seçersek hani karışımcı çok fazla bir değişiklik olmaz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:23,320",
+				"to": "00:02:29,640"
+			},
+			"offsets": {
+				"from": 143320,
+				"to": 149640
+			},
+			"text": " Ben biraz daha zıd birisi istiyorum ki. Miktisediği zaman daha güzel bir görüntüye kavuşalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:29,640",
+				"to": "00:02:35,800"
+			},
+			"offsets": {
+				"from": 149640,
+				"to": 155800
+			},
+			"text": " Mesela böyle birisi var. Hadi bunu deneyelim. Dağının imiş diyelim. Tamamdır."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:35,800",
+				"to": "00:02:44,520"
+			},
+			"offsets": {
+				"from": 155800,
+				"to": 164520
+			},
+			"text": " Şimdi ben buradan Hixfield'a gidiyorum. Buradan süper komputer'a geliyorum. Buraya ben o iki fotoğrafıma yükliyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:44,520",
+				"to": "00:02:54,600"
+			},
+			"offsets": {
+				"from": 164520,
+				"to": 174600
+			},
+			"text": " Ok şimdi indirdim. Fotoğrafları buraya yükledim. Ondan sonra diyorum ki buraya mix this two images and generate me a unique person."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:54,600",
+				"to": "00:03:08,920"
+			},
+			"offsets": {
+				"from": 174600,
+				"to": 188920
+			},
+			"text": " Yüz nano bana ana pro generate me for different images. Or different demeyelim. For images diyelim sadece. Or images."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:08,920",
+				"to": "00:03:18,760"
+			},
+			"offsets": {
+				"from": 188920,
+				"to": 198760
+			},
+			"text": " Ondan sonra diyelim ki all pictures should be a simple face shot. Ok böyle yollayalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:18,760",
+				"to": "00:03:28,760"
+			},
+			"offsets": {
+				"from": 198760,
+				"to": 208760
+			},
+			"text": " Şimdi dedik ki bu iki fotoğrafı karıştır bana yeni unique person oluştur. Nano bana ana pro kullan. Bana dört tane fotoğraf oluştur."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:28,760",
+				"to": "00:03:39,800"
+			},
+			"offsets": {
+				"from": 208760,
+				"to": 219800
+			},
+			"text": " Dört farklı var yaşamını ve bütün fotoğraflar hani basit yüz fotoğraf olsun hani gidip de kafede kafede içerken fotoğrafını yapması bize sadece düğümüzü bir yüz fotoğraf lazım dedik."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:39,800",
+				"to": "00:03:47,800"
+			},
+			"offsets": {
+				"from": 219800,
+				"to": 227800
+			},
+			"text": " Gördüğünüz gibi promptlarını yazıyor fotoğrafları koyuyor ve dört tane oluşturuyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:47,800",
+				"to": "00:03:56,440"
+			},
+			"offsets": {
+				"from": 227800,
+				"to": 236440
+			},
+			"text": " İlk çıktılar gelmeye başladı. Gördüğünüz gibi. Bu bizim ilk fotoğrafımızı çok benziyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:56,440",
+				"to": "00:04:02,120"
+			},
+			"offsets": {
+				"from": 236440,
+				"to": 242120
+			},
+			"text": " Buna kullanmayacağım ama biraz daha koyu saçlı olsa daha güzel mesela şu tarz bir şey."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:02,120",
+				"to": "00:04:09,800"
+			},
+			"offsets": {
+				"from": 242120,
+				"to": 249800
+			},
+			"text": " Aynen dört tane oluşturmanın yanı istediğiniz seçebilirsiniz. Hepsi gayet güzel ben bunu kullanıyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:09,800",
+				"to": "00:04:18,920"
+			},
+			"offsets": {
+				"from": 249800,
+				"to": 258920
+			},
+			"text": " O yüzden bunu indiriyorum şimdi. Şu anda fotoğraf çok fazla eğer gibi duruyor ama hiç önemli. Bizim için önemli olan tek şey hani yüzün yapısı."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:18,920",
+				"to": "00:04:26,920"
+			},
+			"offsets": {
+				"from": 258920,
+				"to": 266920
+			},
+			"text": " Biz bunu sonra gidip isterimiz fotoğrafla hissedim şekilde kullanabiliriz. Şimdi ben bir de bu arkadaşımızın biraz kiloğulu olmasını istiyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:26,920",
+				"to": "00:04:37,320"
+			},
+			"offsets": {
+				"from": 266920,
+				"to": 277320
+			},
+			"text": " O yüzden tekrardan pinterese gelip diyorum ki plus size model biraz kibar bir şekilde yazalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:37,320",
+				"to": "00:04:47,400"
+			},
+			"offsets": {
+				"from": 277320,
+				"to": 287400
+			},
+			"text": " Buradan hafif kiloğulu bir model bulup onu vücut referans olarak kullanmak istiyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:47,400",
+				"to": "00:04:55,640"
+			},
+			"offsets": {
+				"from": 287400,
+				"to": 295640
+			},
+			"text": " Çok fazla açık bir şey kullanmamamız lazım. Eğer bir kini falan kullanırsanız nano bana para bunu kullanmamızı izin vermeyecektir."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:55,640",
+				"to": "00:05:05,880"
+			},
+			"offsets": {
+				"from": 295640,
+				"to": 305880
+			},
+			"text": " Ben biraz daha kapıları ve biraz daha normalim size bir vücut tipi arıyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:05,880",
+				"to": "00:05:12,520"
+			},
+			"offsets": {
+				"from": 305880,
+				"to": 312520
+			},
+			"text": " Aradım kriterlerde bir fotoğraf buldum. Bu da eğer bir arada. Şimdi o bulduğumuz vücudu buraya yükliyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:12,520",
+				"to": "00:05:16,520"
+			},
+			"offsets": {
+				"from": 312520,
+				"to": 316520
+			},
+			"text": " Bir de yüz fotoğrafımızı yüz lira finansımızı buraya yükliyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:16,520",
+				"to": "00:05:26,360"
+			},
+			"offsets": {
+				"from": 316520,
+				"to": 326360
+			},
+			"text": " Ama diyorum ki kıret mi exactly same image as image number one? Yüzinde person in the image number two. Arzul şerefsik."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:26,360",
+				"to": "00:05:37,560"
+			},
+			"offsets": {
+				"from": 326360,
+				"to": 337560
+			},
+			"text": " Craven as image number one. Burada şöyle bir şey yapabiliyorsunuz. Burada et deyip direkt buradan hissediğimiz fotoğrafı seçebiliyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:37,560",
+				"to": "00:05:42,920"
+			},
+			"offsets": {
+				"from": 337560,
+				"to": 342920
+			},
+			"text": " Yani imajvan imaj two demektan daha mantıklı geliyor. Çünkü yapazdaki daha iyi anlıyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:42,920",
+				"to": "00:05:47,560"
+			},
+			"offsets": {
+				"from": 342920,
+				"to": 347560
+			},
+			"text": " Tam olarak neyin kullanılmasını istediğimize. Böyle bir gönderelim."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:47,560",
+				"to": "00:05:55,320"
+			},
+			"offsets": {
+				"from": 347560,
+				"to": 355320
+			},
+			"text": " Şu anda yaptığım bir şey bu vücut ile bu bizim karakterimizi birleştiriyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:55,320",
+				"to": "00:05:58,520"
+			},
+			"offsets": {
+				"from": 355320,
+				"to": 358520
+			},
+			"text": " Sonra biz bu karakteri alıp istedim. Sari arada kullanabiliriz."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:58,520",
+				"to": "00:06:08,280"
+			},
+			"offsets": {
+				"from": 358520,
+				"to": 368280
+			},
+			"text": " Şu anda ilk çıktığı verdi. Gerçekten o fotoğrafa bizim karakterimiz koydu ama bizim karakterimizin zayıf olduğunu varsayarak buraya koydu."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:08,280",
+				"to": "00:06:16,200"
+			},
+			"offsets": {
+				"from": 368280,
+				"to": 376200
+			},
+			"text": " Yani bizim karakterimizi o kilolu gücüada koymada aslında. Bizim bunu ayrıca belirtmemiz lazım burada."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:16,200",
+				"to": "00:06:34,520"
+			},
+			"offsets": {
+				"from": 376200,
+				"to": 394520
+			},
+			"text": " Diyorum ki prez, zar ve exact same body type as image taburaya tekrar ekliyor sekiz olur."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:38,280",
+				"to": "00:06:57,320"
+			},
+			"offsets": {
+				"from": 398280,
+				"to": 417320
+			},
+			"text": " Yiyelim dedim ki bu fotoğrafdaki vücudu koru tamamen ve bana dört farklı daha örnek yap."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:57,320",
+				"to": "00:07:05,720"
+			},
+			"offsets": {
+				"from": 417320,
+				"to": 425720
+			},
+			"text": " Evet az önceki fotoğrafasını gayet güzeldi ama bize vücut şekli çok önemli olduğu için, hani biraz kilolu olmasını istediğimiz için."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:05,720",
+				"to": "00:07:15,480"
+			},
+			"offsets": {
+				"from": 425720,
+				"to": 435480
+			},
+			"text": " Özellikle buraya yeniden promp yazın ve dedim ki kit, same body type hani o vücud şeklini birinci fotoğrafdaki vücud şeklini tamamen aynı dedim."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:15,480",
+				"to": "00:07:27,320"
+			},
+			"offsets": {
+				"from": 435480,
+				"to": 447320
+			},
+			"text": " Nalabanlar prokulan bana dört tane resim oluşturduğum. Şimdi neden dört tane resim oluşturduğumu soracak olursanız burada gördüğünüz gibi arada saçmalaya biliyor ama böyle güzel şeylerde çıkartıyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:27,320",
+				"to": "00:07:34,920"
+			},
+			"offsets": {
+				"from": 447320,
+				"to": 454920
+			},
+			"text": " O yüzden hani üç beş tane oluşturup aralarından en güzelini seçmek en sağlıklısı. Hani bir tane oluşursak sadece böyle bir şey çıkarsan."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:34,920",
+				"to": "00:07:46,120"
+			},
+			"offsets": {
+				"from": 454920,
+				"to": 466120
+			},
+			"text": " Hani kullanılacak bir şey değil. Aşırı eğer yolduğu belli hani çok garip duruyor zaten. O yüzden dört tane oluşturuyorum ve yani bu tarzı güzel bir şey bulduğumuz zaman buna ben kaydediyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:46,120",
+				"to": "00:07:56,360"
+			},
+			"offsets": {
+				"from": 466120,
+				"to": 476360
+			},
+			"text": " Bu benim artık referans fotoğrafım. Tabii daha güzel bir fotoğraf seçilebilirden daha normal ışıkta ama bu da gayet işimizi görecektir ilk baştan ince yaşamasında."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:56,360",
+				"to": "00:08:09,160"
+			},
+			"offsets": {
+				"from": 476360,
+				"to": 489160
+			},
+			"text": " Şimdi farklı bir tanlar karakter oluşuralım. Bu seferde ben böyle Türk bir doktor istiyorum. Doktor değil. Yani böyle hafif yaşlı böyle bilge birisi olsun istiyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:09,160",
+				"to": "00:08:32,760"
+			},
+			"offsets": {
+				"from": 489160,
+				"to": 512760
+			},
+			"text": " Gene pinteresi sayıldım. Buraya diyorum ki. Turkish old man diyelim mesela. Böyle deyince çok yaşlı insanlar çıkabilir. Hani bana biraz daha böyle okumuş gibi hani elit bir insan profili lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:32,760",
+				"to": "00:08:48,760"
+			},
+			"offsets": {
+				"from": 512760,
+				"to": 528760
+			},
+			"text": " Tabii şu tarz eğer şeylerde çıkabiliyor ki. Gerçi bu eğerime profesyonel fotoğrafını tamamlayamadım ama mesela şu tarz bir profil işimizi görebilir. Bunu bir kaydedelim var mı daha başka."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:48,760",
+				"to": "00:09:09,760"
+			},
+			"offsets": {
+				"from": 528760,
+				"to": 549760
+			},
+			"text": " Yaşlı hafif elit gibi. Bir de böyle hiç değil. Bakalımla daha çıkacak. Aynen bir gün aç. Bunu da kaydedirim. İki fotoğrafı birleştirince de inşallah çok belli olmayan bir fotoğraf ortaya çıkar. Yani halik bir günler oldu."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:09,760",
+				"to": "00:09:24,760"
+			},
+			"offsets": {
+				"from": 549760,
+				"to": 564760
+			},
+			"text": " Yanın şekilde tekrar süper komputer'a geldim. O iki fotoğrafı mükeliyorum. Diyoyorum ki. Mix me this too image and generate me a unique person."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:24,760",
+				"to": "00:09:45,760"
+			},
+			"offsets": {
+				"from": 564760,
+				"to": 585760
+			},
+			"text": " Pro batch for years. Yazmış bunu. Use diyelim. Straight face shots. Böyle bize nano bana para kullanarak batch for dedim."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:45,760",
+				"to": "00:10:03,760"
+			},
+			"offsets": {
+				"from": 585760,
+				"to": 603760
+			},
+			"text": " Dörtlük fotoğraf oluşursun. Dediğim ki bu iki yüzü karıştı ve bana bir kişi oluştur. Düz yüz fotoğraflar isterim. Hani böyle dediğim gibi kahvede oturduk falan fotoğraflar çıkarmazsın. Yollayalım bakalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:03,760",
+				"to": "00:10:14,760"
+			},
+			"offsets": {
+				"from": 603760,
+				"to": 614760
+			},
+			"text": " Gördüğünüz gibi fotoğraflar geldi ve gayet güzeller. Dediğim gibi hani iki fotoğraf karışınca gerçekten çok benzemiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:14,760",
+				"to": "00:10:22,760"
+			},
+			"offsets": {
+				"from": 614760,
+				"to": 622760
+			},
+			"text": " Çok benzemiyor artık. Reference fotoğrafları ve gene de gayet gerçekçi gayet doğal fotoğraflar oluşuruyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:22,760",
+				"to": "00:10:29,760"
+			},
+			"offsets": {
+				"from": 622760,
+				"to": 629760
+			},
+			"text": " Tabii şanki fotoğraflar çok eğer gibi oldu çok belli ama önemli bir şekilde yüzün detayları onlara bakalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:29,760",
+				"to": "00:10:41,760"
+			},
+			"offsets": {
+				"from": 629760,
+				"to": 641760
+			},
+			"text": " Ya fotoğrafın işe yıldır kalitesidir. Bunları biz kullanmıyor olacağız zaten. Bunda indiriyorum. Tekrardan kahvede güzel fotoğraf. Şimdi bu karakterimize de bir vücut lazım, bir ofis lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:41,760",
+				"to": "00:10:56,760"
+			},
+			"offsets": {
+				"from": 641760,
+				"to": 656760
+			},
+			"text": " Bunun için de gelelim buraya. Doktor ofis yazalım. Doktor ofis. Tabii gene eğer genel itti şeyler çıkıyor. Bize olabilirince gerçek fotoğraflar lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:56,760",
+				"to": "00:11:18,760"
+			},
+			"offsets": {
+				"from": 656760,
+				"to": 678760
+			},
+			"text": " Şimdi fotoğrafı deneyebiliriz aslında. Gerçi buraya tıkladık. Güzel reference fotoğraflar çıkıyor aslında burada. Tam doktor olmasını istemiyorum. Tamam. Doktor yapmak sıkıntıda. O yüzden ben biraz daha ofisimsi bir şeyler de arıyorum aslında."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:18,760",
+				"to": "00:11:28,760"
+			},
+			"offsets": {
+				"from": 678760,
+				"to": 688760
+			},
+			"text": " Mesela bu tarz bir şey iyi gibi. Bakalım buna tıklayınca bu abimizin ne kadar farklı ortamda fotoğraflar varmış."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:36,760",
+				"to": "00:11:51,760"
+			},
+			"offsets": {
+				"from": 696760,
+				"to": 711760
+			},
+			"text": " Aynen aslında şu tarz bir şey gayet güzel olur. Yani çok doktorum sıda değil ama gene böyle bir fizio terapiz ofisinde gibi. O yüzden ben bunu da kopyalıyorum. Biraz kalitesi düşük ama fotoğrafını hissörünek."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:51,760",
+				"to": "00:12:10,760"
+			},
+			"offsets": {
+				"from": 711760,
+				"to": 730760
+			},
+			"text": " Ondan sonra persiper komputura geliyorum. Bu fotoğrafı mülk diyorum. O fisi fotoğrafı. Ondan sonra yüz fotoğrafını da yükliyorum. Ondan sonra dedim ki ben bu iki fotoğrafı mülk dedim. Bu birinci fotoğrafı ikinci fotoğrafdaki kişiyi kullanarak tekrardan oluştur."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:10,760",
+				"to": "00:12:25,760"
+			},
+			"offsets": {
+				"from": 730760,
+				"to": 745760
+			},
+			"text": " Nolabana procullan 5 fordedim. Yani 4 doluştur. Replaysperson with image toy yani burada kişiye ikinci fotoğrafdaki kişiyeler replayset değiştirdim. Anamamıp da bakalım nasıl çıkaracağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:25,760",
+				"to": "00:12:38,760"
+			},
+			"offsets": {
+				"from": 745760,
+				"to": 758760
+			},
+			"text": " Gördüğünüz gibi çıktılar gelmeye başladı. Burada tam bizim abim bize benzemiyor. Bu biraz benziyor. Gerçek gözü yok mesela."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:41,760",
+				"to": "00:12:49,760"
+			},
+			"offsets": {
+				"from": 761760,
+				"to": 769760
+			},
+			"text": " Orijinal fotoğrafdaki gözlüğü çıkarmamış. Tabii bir durum daha ekliği gözlüğü çıkardığında bilir ama bu tarz da gayet güzel bence."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:49,760",
+				"to": "00:12:57,760"
+			},
+			"offsets": {
+				"from": 769760,
+				"to": 777760
+			},
+			"text": " Ben bunu saklayacağım artık karakterimiz gözlüklü diyelim. Gayet güzel oldu. Bununla istediğimiz şekilde istediğimiz videolarda kullanabiliriz."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:57,760",
+				"to": "00:13:03,760"
+			},
+			"offsets": {
+				"from": 777760,
+				"to": 783760
+			},
+			"text": " Yani atıyorum. Gidip de bir tane sırt masajı aleti sattırabiliriz. Artık karakterimiz belli. Ofis belli."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:03,760",
+				"to": "00:13:12,760"
+			},
+			"offsets": {
+				"from": 783760,
+				"to": 792760
+			},
+			"text": " Belki ilarda burayı bir tane karakter yatırız. Eee bu doktorumuzda bizim. Onur sırtına bizim makinemizde masaj yapar artık ürünümüzde nasıl bir şeyyse."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:12,760",
+				"to": "00:13:18,760"
+			},
+			"offsets": {
+				"from": 792760,
+				"to": 798760
+			},
+			"text": " Evet şimdi karakter yapımla öğrendik. Orta mı öğrendik nasıl orta mı yapabileceğimize vücut değişilme öğrendik."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:18,760",
+				"to": "00:13:26,760"
+			},
+			"offsets": {
+				"from": 798760,
+				"to": 806760
+			},
+			"text": " Bundan sonraki modilde de biz bu karakterimizde ürünün nasıl kombinleriz nasıl videolar yapabiliriz. Bunları konuşuyoruz."
+		}
+	]
+}

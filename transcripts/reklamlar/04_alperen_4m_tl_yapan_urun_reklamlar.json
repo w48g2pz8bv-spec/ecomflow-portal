@@ -1,0 +1,5389 @@
+{
+  "systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+  "model": {
+    "type": "base",
+    "multilingual": true,
+    "vocab": 51865,
+    "audio": {
+      "ctx": 1500,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "text": {
+      "ctx": 448,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "mels": 80,
+    "ftype": 1
+  },
+  "params": {
+    "model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+    "language": "tr",
+    "translate": false
+  },
+  "result": {
+    "language": "tr"
+  },
+  "transcription": [
+    {
+      "timestamps": {
+        "from": "00:00:00,000",
+        "to": "00:00:08,000"
+      },
+      "offsets": {
+        "from": 0,
+        "to": 8000
+      },
+      "text": " Şimdi arkadaşlar bakın Alpenen toplamda november'ın bilmem kaçında başlamıştı sanki."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:08,000",
+        "to": "00:00:12,000"
+      },
+      "offsets": {
+        "from": 8000,
+        "to": 12000
+      },
+      "text": " Şu alara bakayım. Bak burada Oktober var ama bunlar Biberon'a."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:12,000",
+        "to": "00:00:17,000"
+      },
+      "offsets": {
+        "from": 12000,
+        "to": 17000
+      },
+      "text": " Bunlar farklı bir ürünler. Şu da mesela november dörde bakalım november dörtleneler var."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:17,000",
+        "to": "00:00:22,000"
+      },
+      "offsets": {
+        "from": 17000,
+        "to": 22000
+      },
+      "text": " Biberon hayla devam ediyor. november 12 diyelim."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:22,000",
+        "to": "00:00:27,000"
+      },
+      "offsets": {
+        "from": 22000,
+        "to": 27000
+      },
+      "text": " Hayla Biberon november 15. Biberon Alpenen'in bir önce gününü bu arada."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:27,000",
+        "to": "00:00:32,000"
+      },
+      "offsets": {
+        "from": 27000,
+        "to": 32000
+      },
+      "text": " Onu ben tölük öğrencileriye baktık. Bak burada mesela şeyler var. Projeçtiyon falan kısımı geliyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:32,000",
+        "to": "00:00:36,000"
+      },
+      "offsets": {
+        "from": 32000,
+        "to": 36000
+      },
+      "text": " Şu Sibio neyin Sibiosu bu da mı Biberon? Aynen bunlar da Biberon."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:36,000",
+        "to": "00:00:39,000"
+      },
+      "offsets": {
+        "from": 36000,
+        "to": 39000
+      },
+      "text": " Ok şuradan bir on dördü geçelim bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:39,000",
+        "to": "00:00:44,000"
+      },
+      "offsets": {
+        "from": 39000,
+        "to": 44000
+      },
+      "text": " On dördünler reklamın var Alpenen. On işine geçiyorum. On iş november."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:44,000",
+        "to": "00:00:48,000"
+      },
+      "offsets": {
+        "from": 44000,
+        "to": 48000
+      },
+      "text": " Aynen bakın on iş novemerde reklam yok. Şu kısma bakmayın."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:48,000",
+        "to": "00:00:52,000"
+      },
+      "offsets": {
+        "from": 48000,
+        "to": 52000
+      },
+      "text": " Bunlar çünkü Alpenen'in görüttü ilk organik ürünler. O yüzden bu kısımlar önemli değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:52,000",
+        "to": "00:00:56,000"
+      },
+      "offsets": {
+        "from": 52000,
+        "to": 56000
+      },
+      "text": " Şimdi on dördünde şuraya giriyorum. On dördünde bak burada."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:56,000",
+        "to": "00:01:00,000"
+      },
+      "offsets": {
+        "from": 56000,
+        "to": 60000
+      },
+      "text": " Burada 520 bildir Alpenen. Şu da Eman Spenti çekileyim."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:00,000",
+        "to": "00:01:04,000"
+      },
+      "offsets": {
+        "from": 60000,
+        "to": 64000
+      },
+      "text": " Bak iki tane reklam set açmış. Set bir set ikiliğe."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:04,000",
+        "to": "00:01:08,000"
+      },
+      "offsets": {
+        "from": 64000,
+        "to": 68000
+      },
+      "text": " En viralleri buraya koymuş. Toplam ikisini 250 lira arcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:08,000",
+        "to": "00:01:12,000"
+      },
+      "offsets": {
+        "from": 68000,
+        "to": 72000
+      },
+      "text": " CTR'lar dört iki arası çalışmış. Bir tanesinden checkout dini şeye tut gelmiş."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:12,000",
+        "to": "00:01:16,000"
+      },
+      "offsets": {
+        "from": 72000,
+        "to": 76000
+      },
+      "text": " Sipariş gelmemiş. Devamında da ikinci güne geliyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:16,000",
+        "to": "00:01:19,000"
+      },
+      "offsets": {
+        "from": 76000,
+        "to": 79000
+      },
+      "text": " İkinci günde bakın. İkinci günde iki sipariş almış."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:19,000",
+        "to": "00:01:24,000"
+      },
+      "offsets": {
+        "from": 79000,
+        "to": 84000
+      },
+      "text": " Şunu direkt tek güne seçelim. İkinci güne geldiğimiz zaman gene birisi 238 lira arcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:24,000",
+        "to": "00:01:28,000"
+      },
+      "offsets": {
+        "from": 84000,
+        "to": 88000
+      },
+      "text": " Bir checkout dini şeye tutmuş. Öbürüksi 314 lira arcamaya."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:28,000",
+        "to": "00:01:30,000"
+      },
+      "offsets": {
+        "from": 88000,
+        "to": 90000
+      },
+      "text": " Toplanda 18 lira asla iki sipariş almış."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:30,000",
+        "to": "00:01:32,000"
+      },
+      "offsets": {
+        "from": 90000,
+        "to": 92000
+      },
+      "text": " Bunlar ABO arkadaşlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:32,000",
+        "to": "00:01:36,000"
+      },
+      "offsets": {
+        "from": 92000,
+        "to": 96000
+      },
+      "text": " Bakın. Mentörlük de denediğimiz strateji size önerdiğim strateji de şu."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:36,000",
+        "to": "00:01:39,000"
+      },
+      "offsets": {
+        "from": 96000,
+        "to": 99000
+      },
+      "text": " Eğer bütçede çok ekisinin probleminiz yoksa"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:39,000",
+        "to": "00:01:43,000"
+      },
+      "offsets": {
+        "from": 99000,
+        "to": 103000
+      },
+      "text": " ABO'a için ABO'da birazcık teslediğin şeyleri reklam setlerini"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:43,000",
+        "to": "00:01:46,000"
+      },
+      "offsets": {
+        "from": 103000,
+        "to": 106000
+      },
+      "text": " ondan sonra SIBO'ya atabilirsiniz. Ya da."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:46,000",
+        "to": "00:01:50,000"
+      },
+      "offsets": {
+        "from": 106000,
+        "to": 110000
+      },
+      "text": " Tamam. Anam antıkta şöyle. Genel olarak şu iki strateji yöneliyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:50,000",
+        "to": "00:01:54,000"
+      },
+      "offsets": {
+        "from": 110000,
+        "to": 114000
+      },
+      "text": " Eğer sizin elinizde atıyorum 10 tane viner reklam viner şeyler var ya."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:54,000",
+        "to": "00:01:56,000"
+      },
+      "offsets": {
+        "from": 114000,
+        "to": 116000
+      },
+      "text": " Organik videolarınız var ya."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:56,000",
+        "to": "00:01:59,000"
+      },
+      "offsets": {
+        "from": 116000,
+        "to": 119000
+      },
+      "text": " Eğer bütçe çok fazla şey yapmak istemiyorsanız"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:59,000",
+        "to": "00:02:02,000"
+      },
+      "offsets": {
+        "from": 119000,
+        "to": 122000
+      },
+      "text": " tane SIBO kampanya saçın içerisinde 10 tane video koyun."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:02,000",
+        "to": "00:02:04,000"
+      },
+      "offsets": {
+        "from": 122000,
+        "to": 124000
+      },
+      "text": " Buna 1500 lira fiyat verin."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:04,000",
+        "to": "00:02:07,000"
+      },
+      "offsets": {
+        "from": 124000,
+        "to": 127000
+      },
+      "text": " Bunu iki gün falan görürtün. 3 bin lira falan reklamı harcayın."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:07,000",
+        "to": "00:02:09,000"
+      },
+      "offsets": {
+        "from": 127000,
+        "to": 129000
+      },
+      "text": " Ondan sonra geri dönüşüne bakın."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:09,000",
+        "to": "00:02:13,000"
+      },
+      "offsets": {
+        "from": 129000,
+        "to": 133000
+      },
+      "text": " Acaba siz karnamasınız, satış alıyor musunuz reklamlarınız nasıl ilerliyor?"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:13,000",
+        "to": "00:02:16,000"
+      },
+      "offsets": {
+        "from": 133000,
+        "to": 136000
+      },
+      "text": " Ondan sonra devamına göre baktınız siz baya karlı gidiyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:16,000",
+        "to": "00:02:20,000"
+      },
+      "offsets": {
+        "from": 136000,
+        "to": 140000
+      },
+      "text": " El hastanız yüksek, kosperak özelliğiniz, CPA'iniz yüksek."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:20,000",
+        "to": "00:02:23,000"
+      },
+      "offsets": {
+        "from": 140000,
+        "to": 143000
+      },
+      "text": " Ondan sonra SIBO'nun fiyatını iki katına çıkartın."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:23,000",
+        "to": "00:02:25,000"
+      },
+      "offsets": {
+        "from": 143000,
+        "to": 145000
+      },
+      "text": " Bir buçuk üç yapın. Böyle bir iki üç gün görürtün."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:25,000",
+        "to": "00:02:30,000"
+      },
+      "offsets": {
+        "from": 145000,
+        "to": 150000
+      },
+      "text": " Anam antık olay olabildiğince reklam setinin fiyatını ikiye katliyarak gitmek."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:30,000",
+        "to": "00:02:31,000"
+      },
+      "offsets": {
+        "from": 150000,
+        "to": 151000
+      },
+      "text": " SIBO kısmında."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:31,000",
+        "to": "00:02:34,000"
+      },
+      "offsets": {
+        "from": 151000,
+        "to": 154000
+      },
+      "text": " Bizim burada mentörlükte önerdiğimiz kısmı şöyle oluyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:34,000",
+        "to": "00:02:37,000"
+      },
+      "offsets": {
+        "from": 154000,
+        "to": 157000
+      },
+      "text": " SIBO devam ederken yanda ABO'a aç."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:37,000",
+        "to": "00:02:41,000"
+      },
+      "offsets": {
+        "from": 157000,
+        "to": 161000
+      },
+      "text": " Yani bir tane ABO testi aç. Bu şekilde hepsine bir tane video ver."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:41,000",
+        "to": "00:02:44,000"
+      },
+      "offsets": {
+        "from": 161000,
+        "to": 164000
+      },
+      "text": " Şu şekilde. Ondan sonra bunları reklamlı abi bu videolar."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:44,000",
+        "to": "00:02:47,000"
+      },
+      "offsets": {
+        "from": 164000,
+        "to": 167000
+      },
+      "text": " Gerçi biri üç markmış. Alper'nin şöyle yapmış."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:47,000",
+        "to": "00:02:51,000"
+      },
+      "offsets": {
+        "from": 167000,
+        "to": 171000
+      },
+      "text": " Bir tane reklam setinin içerisine videoları test etmek için üç tane video koymuş."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:51,000",
+        "to": "00:02:54,000"
+      },
+      "offsets": {
+        "from": 171000,
+        "to": 174000
+      },
+      "text": " Bunlardan hangisi iyi dönüş veriyor. Buna bakmış."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:54,000",
+        "to": "00:02:58,000"
+      },
+      "offsets": {
+        "from": 174000,
+        "to": 178000
+      },
+      "text": " Ondan sonra burada kazananları, ABO'da kazananları ne yapıyorlar?"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:58,000",
+        "to": "00:03:01,000"
+      },
+      "offsets": {
+        "from": 178000,
+        "to": 181000
+      },
+      "text": " SIBO'ya çekiyorsun. SIBO'da skeyle diyorsun."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:01,000",
+        "to": "00:03:06,000"
+      },
+      "offsets": {
+        "from": 181000,
+        "to": 186000
+      },
+      "text": " Bakın sistem şirkide çalışıyor. Şimdi ABO'ya SIBO'nun farkını anlamak lazım önce."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:06,000",
+        "to": "00:03:09,000"
+      },
+      "offsets": {
+        "from": 186000,
+        "to": 189000
+      },
+      "text": " ABO dediğiniz olay siz bir tane kampanya açıyorsunuz ya."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:09,000",
+        "to": "00:03:13,000"
+      },
+      "offsets": {
+        "from": 189000,
+        "to": 193000
+      },
+      "text": " Kamponya'nın içerisine reklam seti koyuyorsunuz bir tane."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:13,000",
+        "to": "00:03:18,000"
+      },
+      "offsets": {
+        "from": 193000,
+        "to": 198000
+      },
+      "text": " Bu reklam setinin içerisine diyorsun ki ben reklam setini ayrı fiyat vereceğim."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:18,000",
+        "to": "00:03:20,000"
+      },
+      "offsets": {
+        "from": 198000,
+        "to": 200000
+      },
+      "text": " Bakın şuradan size daha da göstererek anlatayım o zaman."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:20,000",
+        "to": "00:03:22,000"
+      },
+      "offsets": {
+        "from": 200000,
+        "to": 202000
+      },
+      "text": " Çok hızlı bunu yı hızlıca anlatayım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:22,000",
+        "to": "00:03:24,000"
+      },
+      "offsets": {
+        "from": 202000,
+        "to": 204000
+      },
+      "text": " Bilmeyen arkadaşlar çok hızlıca görsün."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:24,000",
+        "to": "00:03:26,000"
+      },
+      "offsets": {
+        "from": 204000,
+        "to": 206000
+      },
+      "text": " Şuradan reklam açıyorsunuz ya."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:26,000",
+        "to": "00:03:29,000"
+      },
+      "offsets": {
+        "from": 206000,
+        "to": 209000
+      },
+      "text": " Bakın burada bir kampayın bacıt var. Bir tane de et set bacıt var."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:29,000",
+        "to": "00:03:33,000"
+      },
+      "offsets": {
+        "from": 209000,
+        "to": 213000
+      },
+      "text": " Şimdi kampayın bacıt dediğin şey benim elimde 1500 lira var."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:33,000",
+        "to": "00:03:36,000"
+      },
+      "offsets": {
+        "from": 213000,
+        "to": 216000
+      },
+      "text": " Bunun altında da atıyorum. 3 tane reklam seti var."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:36,000",
+        "to": "00:03:39,000"
+      },
+      "offsets": {
+        "from": 216000,
+        "to": 219000
+      },
+      "text": " Şimdi ben buraya 1500 lira verdiğim zaman."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:39,000",
+        "to": "00:03:44,000"
+      },
+      "offsets": {
+        "from": 219000,
+        "to": 224000
+      },
+      "text": " Ve buna kampayın bacıt diye seçtim zaman. Ne oluyor? Bu 1500 lira alıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:44,000",
+        "to": "00:03:46,000"
+      },
+      "offsets": {
+        "from": 224000,
+        "to": 226000
+      },
+      "text": " Buradaki 3 reklam setine kafasına göre harcıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:46,000",
+        "to": "00:03:50,000"
+      },
+      "offsets": {
+        "from": 226000,
+        "to": 230000
+      },
+      "text": " Yani anamantıkta en iyi sonuç verenikendi algoritma seçiyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:50,000",
+        "to": "00:03:52,000"
+      },
+      "offsets": {
+        "from": 230000,
+        "to": 232000
+      },
+      "text": " Ve mesela bir tanesine 1000 lira harcıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:52,000",
+        "to": "00:03:55,000"
+      },
+      "offsets": {
+        "from": 232000,
+        "to": 235000
+      },
+      "text": " İkincisi de 500 lira harcıyor. Üçüncüsüne hiç para harcamıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:55,000",
+        "to": "00:03:57,000"
+      },
+      "offsets": {
+        "from": 235000,
+        "to": 237000
+      },
+      "text": " Bunun mantığı SIBO."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:57,000",
+        "to": "00:04:01,000"
+      },
+      "offsets": {
+        "from": 237000,
+        "to": 241000
+      },
+      "text": " ABO dediğin zaman da ABO dediğinde bak reklam setini parasını buraya yazamıyorsun."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:01,000",
+        "to": "00:04:03,000"
+      },
+      "offsets": {
+        "from": 241000,
+        "to": 243000
+      },
+      "text": " Ne oluyor? İçerisine giriyorsun reklam setinin."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:03,000",
+        "to": "00:04:06,000"
+      },
+      "offsets": {
+        "from": 243000,
+        "to": 246000
+      },
+      "text": " Bu sefer reklam setine para vermen lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:06,000",
+        "to": "00:04:08,000"
+      },
+      "offsets": {
+        "from": 246000,
+        "to": 248000
+      },
+      "text": " Diyorsun ki bu reklam seti 1000 lira harcısın."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:08,000",
+        "to": "00:04:10,000"
+      },
+      "offsets": {
+        "from": 248000,
+        "to": 250000
+      },
+      "text": " Ya da bu reklam seti 10.000 lira harcısın."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:10,000",
+        "to": "00:04:12,000"
+      },
+      "offsets": {
+        "from": 250000,
+        "to": 252000
+      },
+      "text": " Ne oluyor? Bu reklam seti gidiyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:12,000",
+        "to": "00:04:14,000"
+      },
+      "offsets": {
+        "from": 252000,
+        "to": 254000
+      },
+      "text": " 10.000 lira bu sefer harcamaya başlıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:14,000",
+        "to": "00:04:17,000"
+      },
+      "offsets": {
+        "from": 254000,
+        "to": 257000
+      },
+      "text": " Yani 10.000 lira bir gün içerisinde bu reklam seti."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:17,000",
+        "to": "00:04:19,000"
+      },
+      "offsets": {
+        "from": 257000,
+        "to": 259000
+      },
+      "text": " Bur reklam için 10.000 lira harcıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:19,000",
+        "to": "00:04:21,000"
+      },
+      "offsets": {
+        "from": 259000,
+        "to": 261000
+      },
+      "text": " Buna da ABO deniyor. Okuyo. Okuyabilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:21,000",
+        "to": "00:04:22,000"
+      },
+      "offsets": {
+        "from": 261000,
+        "to": 262000
+      },
+      "text": " Bu kısmı umarım anladınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:22,000",
+        "to": "00:04:25,000"
+      },
+      "offsets": {
+        "from": 262000,
+        "to": 265000
+      },
+      "text": " Bir tane ABO'nun içerisinde 3 tane reklam seti koymuş."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:25,000",
+        "to": "00:04:27,000"
+      },
+      "offsets": {
+        "from": 265000,
+        "to": 267000
+      },
+      "text": " Burada en iyi sonuç vereni."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:27,000",
+        "to": "00:04:29,000"
+      },
+      "offsets": {
+        "from": 267000,
+        "to": 269000
+      },
+      "text": " Tuzarak devam etmiş. ana mantık böyle."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:29,000",
+        "to": "00:04:33,000"
+      },
+      "offsets": {
+        "from": 269000,
+        "to": 273000
+      },
+      "text": " Devamında bunu SIBO da açıp ABO'nun kazananlara ne?"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:33,000",
+        "to": "00:04:35,000"
+      },
+      "offsets": {
+        "from": 273000,
+        "to": 275000
+      },
+      "text": " Yani ABO'da iyi sonuç getrenleri."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:35,000",
+        "to": "00:04:38,000"
+      },
+      "offsets": {
+        "from": 275000,
+        "to": 278000
+      },
+      "text": " SIBO yatıp SIBO'yu besliyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:38,000",
+        "to": "00:04:40,000"
+      },
+      "offsets": {
+        "from": 278000,
+        "to": 280000
+      },
+      "text": " Olabilir deyince. Okuyabilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:40,000",
+        "to": "00:04:41,000"
+      },
+      "offsets": {
+        "from": 280000,
+        "to": 281000
+      },
+      "text": " Şimdi 15'ne baktık."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:41,000",
+        "to": "00:04:44,000"
+      },
+      "offsets": {
+        "from": 281000,
+        "to": 284000
+      },
+      "text": " Toplamda burada 1 reklam setinden 2 sipariş almış."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:44,000",
+        "to": "00:04:45,000"
+      },
+      "offsets": {
+        "from": 284000,
+        "to": 285000
+      },
+      "text": " 16'ına bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:45,000",
+        "to": "00:04:49,000"
+      },
+      "offsets": {
+        "from": 285000,
+        "to": 289000
+      },
+      "text": " 16'ın da artık burada 3 reklam seti açıksanlarım."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:49,000",
+        "to": "00:04:51,000"
+      },
+      "offsets": {
+        "from": 289000,
+        "to": 291000
+      },
+      "text": " Aynen. Tutan reklam setini kopyalamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:51,000",
+        "to": "00:04:53,000"
+      },
+      "offsets": {
+        "from": 291000,
+        "to": 293000
+      },
+      "text": " Buradan bu şekilde devam etmiş."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:53,000",
+        "to": "00:04:54,000"
+      },
+      "offsets": {
+        "from": 293000,
+        "to": 294000
+      },
+      "text": " Bakalım bir dönüş nasıl?"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:54,000",
+        "to": "00:04:56,000"
+      },
+      "offsets": {
+        "from": 294000,
+        "to": 296000
+      },
+      "text": " Toplamda link click."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:56,000",
+        "to": "00:04:58,000"
+      },
+      "offsets": {
+        "from": 296000,
+        "to": 298000
+      },
+      "text": " Buradan 1 tane siparişi var."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:58,000",
+        "to": "00:05:00,000"
+      },
+      "offsets": {
+        "from": 298000,
+        "to": 300000
+      },
+      "text": " Diğer 2'sinden çok bir dönüş alamamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:00,000",
+        "to": "00:05:02,000"
+      },
+      "offsets": {
+        "from": 300000,
+        "to": 302000
+      },
+      "text": " Toplamda 288 eroası var."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:02,000",
+        "to": "00:05:03,000"
+      },
+      "offsets": {
+        "from": 302000,
+        "to": 303000
+      },
+      "text": " 16'ın da."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:03,000",
+        "to": "00:05:05,000"
+      },
+      "offsets": {
+        "from": 303000,
+        "to": 305000
+      },
+      "text": " 17'sine giriyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:05,000",
+        "to": "00:05:07,000"
+      },
+      "offsets": {
+        "from": 305000,
+        "to": 307000
+      },
+      "text": " Şu an gün gün gidiyorum ilk günler olduğu için."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:07,000",
+        "to": "00:05:09,000"
+      },
+      "offsets": {
+        "from": 307000,
+        "to": 309000
+      },
+      "text": " Ondan sonra hafta hafta inceliyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:09,000",
+        "to": "00:05:11,000"
+      },
+      "offsets": {
+        "from": 309000,
+        "to": 311000
+      },
+      "text": " Birazcık daha detaylı bakmak için."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:11,000",
+        "to": "00:05:13,000"
+      },
+      "offsets": {
+        "from": 311000,
+        "to": 313000
+      },
+      "text": " Bakın şu anda dördüncü gündeyim."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:13,000",
+        "to": "00:05:15,000"
+      },
+      "offsets": {
+        "from": 313000,
+        "to": 315000
+      },
+      "text": " 1 siparişi var."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:15,000",
+        "to": "00:05:16,000"
+      },
+      "offsets": {
+        "from": 315000,
+        "to": 316000
+      },
+      "text": " 240 altı."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:16,000",
+        "to": "00:05:18,000"
+      },
+      "offsets": {
+        "from": 316000,
+        "to": 318000
+      },
+      "text": " Reklamlar mükemmel gitmiyor arkadaşlar şu anda."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:18,000",
+        "to": "00:05:20,000"
+      },
+      "offsets": {
+        "from": 318000,
+        "to": 320000
+      },
+      "text": " Ama hiç problem değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:20,000",
+        "to": "00:05:21,000"
+      },
+      "offsets": {
+        "from": 320000,
+        "to": 321000
+      },
+      "text": " 18'ine geliyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:21,000",
+        "to": "00:05:22,000"
+      },
+      "offsets": {
+        "from": 321000,
+        "to": 322000
+      },
+      "text": " Bakın 5'üncü gündeyiz."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:22,000",
+        "to": "00:05:23,000"
+      },
+      "offsets": {
+        "from": 322000,
+        "to": 323000
+      },
+      "text": " 18'inde."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:23,000",
+        "to": "00:05:26,000"
+      },
+      "offsets": {
+        "from": 323000,
+        "to": 326000
+      },
+      "text": " Toplamda ilk set 500 lira diğerleri 250 lira harcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:26,000",
+        "to": "00:05:27,000"
+      },
+      "offsets": {
+        "from": 326000,
+        "to": 327000
+      },
+      "text": " Görüyor musunuz?"
+    },
+    {
+      "timestamps": {
+        "from": "00:05:27,000",
+        "to": "00:05:28,000"
+      },
+      "offsets": {
+        "from": 327000,
+        "to": 328000
+      },
+      "text": " Toplamda 5 siparişi var."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:28,000",
+        "to": "00:05:29,000"
+      },
+      "offsets": {
+        "from": 328000,
+        "to": 329000
+      },
+      "text": " On içeri asla kapatmış."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:29,000",
+        "to": "00:05:30,000"
+      },
+      "offsets": {
+        "from": 329000,
+        "to": 330000
+      },
+      "text": " Bugünün."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:30,000",
+        "to": "00:05:31,000"
+      },
+      "offsets": {
+        "from": 330000,
+        "to": 331000
+      },
+      "text": " 18'inden konuşuyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:31,000",
+        "to": "00:05:33,000"
+      },
+      "offsets": {
+        "from": 331000,
+        "to": 333000
+      },
+      "text": " Bu kuzunda reklamları görüyor musunuz arkadaşlar?"
+    },
+    {
+      "timestamps": {
+        "from": "00:05:33,000",
+        "to": "00:05:35,000"
+      },
+      "offsets": {
+        "from": 333000,
+        "to": 335000
+      },
+      "text": " Toplamda 6 siparişle kapatmış."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:35,000",
+        "to": "00:05:37,000"
+      },
+      "offsets": {
+        "from": 335000,
+        "to": 337000
+      },
+      "text": " 16'a eroğasta kapat dayı gün."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:37,000",
+        "to": "00:05:39,000"
+      },
+      "offsets": {
+        "from": 337000,
+        "to": 339000
+      },
+      "text": " Toplamda reklam harcaması 100 lira."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:39,000",
+        "to": "00:05:41,000"
+      },
+      "offsets": {
+        "from": 339000,
+        "to": 341000
+      },
+      "text": " 1600 bin lira yapmış mesela."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:41,000",
+        "to": "00:05:43,000"
+      },
+      "offsets": {
+        "from": 341000,
+        "to": 343000
+      },
+      "text": " Bugün de reklam kısmında."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:43,000",
+        "to": "00:05:45,000"
+      },
+      "offsets": {
+        "from": 343000,
+        "to": 345000
+      },
+      "text": " 19.20'ine geliyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:45,000",
+        "to": "00:05:46,000"
+      },
+      "offsets": {
+        "from": 345000,
+        "to": 346000
+      },
+      "text": " 17'e eroğaz."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:46,000",
+        "to": "00:05:47,000"
+      },
+      "offsets": {
+        "from": 346000,
+        "to": 347000
+      },
+      "text": " Bakın reklamlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:47,000",
+        "to": "00:05:49,000"
+      },
+      "offsets": {
+        "from": 347000,
+        "to": 349000
+      },
+      "text": " Paso on 15.17 eroğası arası gidiyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:49,000",
+        "to": "00:05:51,000"
+      },
+      "offsets": {
+        "from": 349000,
+        "to": 351000
+      },
+      "text": " Toplamda 6 siparişi var."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:51,000",
+        "to": "00:05:52,000"
+      },
+      "offsets": {
+        "from": 351000,
+        "to": 352000
+      },
+      "text": " 1000 lira harcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:52,000",
+        "to": "00:05:54,000"
+      },
+      "offsets": {
+        "from": 352000,
+        "to": 354000
+      },
+      "text": " 17.000 lira kazanmış."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:54,000",
+        "to": "00:05:55,000"
+      },
+      "offsets": {
+        "from": 354000,
+        "to": 355000
+      },
+      "text": " Gireklamın geri dönüşü."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:55,000",
+        "to": "00:05:56,000"
+      },
+      "offsets": {
+        "from": 355000,
+        "to": 356000
+      },
+      "text": " Bam 21'e giriyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:56,000",
+        "to": "00:05:58,000"
+      },
+      "offsets": {
+        "from": 356000,
+        "to": 358000
+      },
+      "text": " 7'e eroğasa inmiş."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:58,000",
+        "to": "00:05:59,000"
+      },
+      "offsets": {
+        "from": 358000,
+        "to": 359000
+      },
+      "text": " Toplamda bak."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:59,000",
+        "to": "00:06:01,000"
+      },
+      "offsets": {
+        "from": 359000,
+        "to": 361000
+      },
+      "text": " Amaç iyi giden reklam setlerini"
+    },
+    {
+      "timestamps": {
+        "from": "00:06:01,000",
+        "to": "00:06:03,000"
+      },
+      "offsets": {
+        "from": 361000,
+        "to": 363000
+      },
+      "text": " 2 tane kopya yalak devam ediyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:03,000",
+        "to": "00:06:04,000"
+      },
+      "offsets": {
+        "from": 363000,
+        "to": 364000
+      },
+      "text": " Buradan."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:04,000",
+        "to": "00:06:05,000"
+      },
+      "offsets": {
+        "from": 364000,
+        "to": 365000
+      },
+      "text": " Sistem bu şekilde ilerliyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:05,000",
+        "to": "00:06:07,000"
+      },
+      "offsets": {
+        "from": 365000,
+        "to": 367000
+      },
+      "text": " Ben orada öyle yapmıyorum oradayım."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:07,000",
+        "to": "00:06:08,000"
+      },
+      "offsets": {
+        "from": 367000,
+        "to": 368000
+      },
+      "text": " Anlar bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:08,000",
+        "to": "00:06:09,000"
+      },
+      "offsets": {
+        "from": 368000,
+        "to": 369000
+      },
+      "text": " Olursun."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:09,000",
+        "to": "00:06:12,000"
+      },
+      "offsets": {
+        "from": 369000,
+        "to": 372000
+      },
+      "text": " Ben burada şeyden sonra şu şekilde ilerliyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:12,000",
+        "to": "00:06:16,000"
+      },
+      "offsets": {
+        "from": 372000,
+        "to": 376000
+      },
+      "text": " Her attığım içerikleri bir daha reklamada koyuyorum aynı zamanda."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:16,000",
+        "to": "00:06:19,000"
+      },
+      "offsets": {
+        "from": 376000,
+        "to": 379000
+      },
+      "text": " İki gün de bir totelde 4-4 içerik atmış oluyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:19,000",
+        "to": "00:06:20,000"
+      },
+      "offsets": {
+        "from": 379000,
+        "to": 380000
+      },
+      "text": " 2-2 günlük."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:20,000",
+        "to": "00:06:21,000"
+      },
+      "offsets": {
+        "from": 380000,
+        "to": 381000
+      },
+      "text": " Bordan 3 tanesini alıp."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:21,000",
+        "to": "00:06:24,000"
+      },
+      "offsets": {
+        "from": 381000,
+        "to": 384000
+      },
+      "text": " Yeni setin içini, yeni kreisler sokuyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:24,000",
+        "to": "00:06:25,000"
+      },
+      "offsets": {
+        "from": 384000,
+        "to": 385000
+      },
+      "text": " Buradan."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:25,000",
+        "to": "00:06:26,000"
+      },
+      "offsets": {
+        "from": 385000,
+        "to": 386000
+      },
+      "text": " OK."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:26,000",
+        "to": "00:06:27,000"
+      },
+      "offsets": {
+        "from": 386000,
+        "to": 387000
+      },
+      "text": " Ben kopyalamı hiç yapmıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:27,000",
+        "to": "00:06:29,000"
+      },
+      "offsets": {
+        "from": 387000,
+        "to": 389000
+      },
+      "text": " OK. Burada direkt olarak şey yapıyorsun."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:29,000",
+        "to": "00:06:31,000"
+      },
+      "offsets": {
+        "from": 389000,
+        "to": 391000
+      },
+      "text": " Yeni attığım videoları da"
+    },
+    {
+      "timestamps": {
+        "from": "00:06:31,000",
+        "to": "00:06:33,000"
+      },
+      "offsets": {
+        "from": 391000,
+        "to": 393000
+      },
+      "text": " bir aibiyonun içerisinde test ediyorsun o zaman."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:33,000",
+        "to": "00:06:34,000"
+      },
+      "offsets": {
+        "from": 393000,
+        "to": 394000
+      },
+      "text": " Test ediyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:34,000",
+        "to": "00:06:35,000"
+      },
+      "offsets": {
+        "from": 394000,
+        "to": 395000
+      },
+      "text": " İyi gidenleride"
+    },
+    {
+      "timestamps": {
+        "from": "00:06:35,000",
+        "to": "00:06:37,000"
+      },
+      "offsets": {
+        "from": 395000,
+        "to": 397000
+      },
+      "text": " siyibiyo çekiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:37,000",
+        "to": "00:06:39,000"
+      },
+      "offsets": {
+        "from": 397000,
+        "to": 399000
+      },
+      "text": " Bu tarifte siyibiyo açtığımla emin değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:39,000",
+        "to": "00:06:40,000"
+      },
+      "offsets": {
+        "from": 399000,
+        "to": 400000
+      },
+      "text": " Onu da bakmak lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:40,000",
+        "to": "00:06:41,000"
+      },
+      "offsets": {
+        "from": 400000,
+        "to": 401000
+      },
+      "text": " Ona bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:41,000",
+        "to": "00:06:42,000"
+      },
+      "offsets": {
+        "from": 401000,
+        "to": 402000
+      },
+      "text": " 21'in de siyibiyonu açıkmıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:42,000",
+        "to": "00:06:43,000"
+      },
+      "offsets": {
+        "from": 402000,
+        "to": 403000
+      },
+      "text": " 20'le siyibiyo şu mu?"
+    },
+    {
+      "timestamps": {
+        "from": "00:06:43,000",
+        "to": "00:06:45,000"
+      },
+      "offsets": {
+        "from": 403000,
+        "to": 405000
+      },
+      "text": " Siyibiyo açıklama başarıyorlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:45,000",
+        "to": "00:06:46,000"
+      },
+      "offsets": {
+        "from": 405000,
+        "to": 406000
+      },
+      "text": " Evet."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:46,000",
+        "to": "00:06:47,000"
+      },
+      "offsets": {
+        "from": 406000,
+        "to": 407000
+      },
+      "text": " Aynen."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:47,000",
+        "to": "00:06:48,000"
+      },
+      "offsets": {
+        "from": 407000,
+        "to": 408000
+      },
+      "text": " Bak burada siyibiyon da açık."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:48,000",
+        "to": "00:06:49,000"
+      },
+      "offsets": {
+        "from": 408000,
+        "to": 409000
+      },
+      "text": " Şöyle yapalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:49,000",
+        "to": "00:06:50,000"
+      },
+      "offsets": {
+        "from": 409000,
+        "to": 410000
+      },
+      "text": " Bir 20'ine gidelim bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:50,000",
+        "to": "00:06:51,000"
+      },
+      "offsets": {
+        "from": 410000,
+        "to": 411000
+      },
+      "text": " Nasıl dönüyor?"
+    },
+    {
+      "timestamps": {
+        "from": "00:06:51,000",
+        "to": "00:06:52,000"
+      },
+      "offsets": {
+        "from": 411000,
+        "to": 412000
+      },
+      "text": " 20'in de yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:52,000",
+        "to": "00:06:53,000"
+      },
+      "offsets": {
+        "from": 412000,
+        "to": 413000
+      },
+      "text": " 21'in da açmışın."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:53,000",
+        "to": "00:06:54,000"
+      },
+      "offsets": {
+        "from": 413000,
+        "to": 414000
+      },
+      "text": " Aynen."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:54,000",
+        "to": "00:06:56,000"
+      },
+      "offsets": {
+        "from": 414000,
+        "to": 416000
+      },
+      "text": " Şimdi alpeleni yaptığı strateji şu."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:56,000",
+        "to": "00:06:59,000"
+      },
+      "offsets": {
+        "from": 416000,
+        "to": 419000
+      },
+      "text": " Doğru anladıysem, alpeleni yanlış anlayısem güzel beni."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:59,000",
+        "to": "00:07:01,000"
+      },
+      "offsets": {
+        "from": 419000,
+        "to": 421000
+      },
+      "text": " Bir tane reklam setin içerisinde"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:01,000",
+        "to": "00:07:03,000"
+      },
+      "offsets": {
+        "from": 421000,
+        "to": 423000
+      },
+      "text": " o gün paylaştığı iyi giden reklamları"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:03,000",
+        "to": "00:07:05,000"
+      },
+      "offsets": {
+        "from": 423000,
+        "to": 425000
+      },
+      "text": " ya kendi paylaştığı reklamları koyuyor ki"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:05,000",
+        "to": "00:07:07,000"
+      },
+      "offsets": {
+        "from": 425000,
+        "to": 427000
+      },
+      "text": " hangisinin iyi gittiğini anlamaya çalışıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:07,000",
+        "to": "00:07:10,000"
+      },
+      "offsets": {
+        "from": 427000,
+        "to": 430000
+      },
+      "text": " Anamantıkta buradan iyi gidenleri de alıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:10,000",
+        "to": "00:07:12,000"
+      },
+      "offsets": {
+        "from": 430000,
+        "to": 432000
+      },
+      "text": " Devamında siyibiyoya atıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:12,000",
+        "to": "00:07:14,000"
+      },
+      "offsets": {
+        "from": 432000,
+        "to": 434000
+      },
+      "text": " Siyibiyonun strateji daha basit"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:14,000",
+        "to": "00:07:16,000"
+      },
+      "offsets": {
+        "from": 434000,
+        "to": 436000
+      },
+      "text": " siyibiyoda tek bir tane reklam seti koyup"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:16,000",
+        "to": "00:07:18,000"
+      },
+      "offsets": {
+        "from": 436000,
+        "to": 438000
+      },
+      "text": " içerisine bütün reklamları koyuyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:18,000",
+        "to": "00:07:20,000"
+      },
+      "offsets": {
+        "from": 438000,
+        "to": 440000
+      },
+      "text": " Ondan sonra algoritma buna karar veriyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:20,000",
+        "to": "00:07:21,000"
+      },
+      "offsets": {
+        "from": 440000,
+        "to": 441000
+      },
+      "text": " Olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:21,000",
+        "to": "00:07:24,000"
+      },
+      "offsets": {
+        "from": 441000,
+        "to": 444000
+      },
+      "text": " Mesela bugün toplamda 9'e rahatsız kapatmış."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:24,000",
+        "to": "00:07:25,000"
+      },
+      "offsets": {
+        "from": 444000,
+        "to": 445000
+      },
+      "text": " Görüyor musunuz?"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:25,000",
+        "to": "00:07:26,000"
+      },
+      "offsets": {
+        "from": 445000,
+        "to": 446000
+      },
+      "text": " Ne kadar harcamaya uf."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:26,000",
+        "to": "00:07:28,000"
+      },
+      "offsets": {
+        "from": 446000,
+        "to": 448000
+      },
+      "text": " Toplam buradaki harcama"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:28,000",
+        "to": "00:07:31,000"
+      },
+      "offsets": {
+        "from": 448000,
+        "to": 451000
+      },
+      "text": " üç bin iki yüz lira falan"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:31,000",
+        "to": "00:07:32,000"
+      },
+      "offsets": {
+        "from": 451000,
+        "to": 452000
+      },
+      "text": " şunu çıktığın zaman"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:32,000",
+        "to": "00:07:34,000"
+      },
+      "offsets": {
+        "from": 452000,
+        "to": 454000
+      },
+      "text": " üç bin iki yüz lira reklam harcamasına"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:34,000",
+        "to": "00:07:36,000"
+      },
+      "offsets": {
+        "from": 454000,
+        "to": 456000
+      },
+      "text": " toplandı sekizre rahatsızı almış."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:36,000",
+        "to": "00:07:37,000"
+      },
+      "offsets": {
+        "from": 456000,
+        "to": 457000
+      },
+      "text": " Dokuz yedi."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:37,000",
+        "to": "00:07:38,000"
+      },
+      "offsets": {
+        "from": 457000,
+        "to": 458000
+      },
+      "text": " Görüyor musunuz?"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:38,000",
+        "to": "00:07:39,000"
+      },
+      "offsets": {
+        "from": 458000,
+        "to": 459000
+      },
+      "text": " Toplandı dokuz sipariş."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:39,000",
+        "to": "00:07:40,000"
+      },
+      "offsets": {
+        "from": 459000,
+        "to": 460000
+      },
+      "text": " Okey."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:40,000",
+        "to": "00:07:41,000"
+      },
+      "offsets": {
+        "from": 460000,
+        "to": 461000
+      },
+      "text": " Devam ediyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:41,000",
+        "to": "00:07:43,000"
+      },
+      "offsets": {
+        "from": 461000,
+        "to": 463000
+      },
+      "text": " Bunların hepsini tek bir reklamda görsek"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:43,000",
+        "to": "00:07:45,000"
+      },
+      "offsets": {
+        "from": 463000,
+        "to": 465000
+      },
+      "text": " daha iyi bakabilirdik belki de sıkıntı yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:45,000",
+        "to": "00:07:47,000"
+      },
+      "offsets": {
+        "from": 465000,
+        "to": 467000
+      },
+      "text": " Siyibiyoya hala açık."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:47,000",
+        "to": "00:07:49,000"
+      },
+      "offsets": {
+        "from": 467000,
+        "to": 469000
+      },
+      "text": " Bakın, siyibiyoda şu anda toplamda"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:49,000",
+        "to": "00:07:51,000"
+      },
+      "offsets": {
+        "from": 469000,
+        "to": 471000
+      },
+      "text": " on birre rahatsızlık ediyor reklamlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:51,000",
+        "to": "00:07:55,000"
+      },
+      "offsets": {
+        "from": 471000,
+        "to": 475000
+      },
+      "text": " Bir a aibiyo kampanyasından on bir almış, siyibiyoda da"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:55,000",
+        "to": "00:07:56,000"
+      },
+      "offsets": {
+        "from": 475000,
+        "to": 476000
+      },
+      "text": " dokuz almış."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:56,000",
+        "to": "00:07:57,000"
+      },
+      "offsets": {
+        "from": 476000,
+        "to": 477000
+      },
+      "text": " Görüyor musunuz?"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:57,000",
+        "to": "00:07:58,000"
+      },
+      "offsets": {
+        "from": 477000,
+        "to": 478000
+      },
+      "text": " Anam antık bu şekilde."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:58,000",
+        "to": "00:08:00,000"
+      },
+      "offsets": {
+        "from": 478000,
+        "to": 480000
+      },
+      "text": " Burada siyibiyo iyi gittiği sürece"
+    },
+    {
+      "timestamps": {
+        "from": "00:08:00,000",
+        "to": "00:08:02,000"
+      },
+      "offsets": {
+        "from": 480000,
+        "to": 482000
+      },
+      "text": " siz fiyatını yani bütçesine artırıyor olmanız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:02,000",
+        "to": "00:08:04,000"
+      },
+      "offsets": {
+        "from": 482000,
+        "to": 484000
+      },
+      "text": " Bakın, bütçesi dün bin radyi"
+    },
+    {
+      "timestamps": {
+        "from": "00:08:04,000",
+        "to": "00:08:06,000"
+      },
+      "offsets": {
+        "from": 484000,
+        "to": 486000
+      },
+      "text": " şu anda iki bin lira yet çıkmış."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:06,000",
+        "to": "00:08:08,000"
+      },
+      "offsets": {
+        "from": 486000,
+        "to": 488000
+      },
+      "text": " Trafik ve binlillik reklamı ne alperen?"
+    },
+    {
+      "timestamps": {
+        "from": "00:08:08,000",
+        "to": "00:08:11,000"
+      },
+      "offsets": {
+        "from": 488000,
+        "to": 491000
+      },
+      "text": " Büyüm o sırra markalaşmak, daha iyi markalaşmak için"
+    },
+    {
+      "timestamps": {
+        "from": "00:08:11,000",
+        "to": "00:08:13,000"
+      },
+      "offsets": {
+        "from": 491000,
+        "to": 493000
+      },
+      "text": " takip çıkasıyım."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:13,000",
+        "to": "00:08:15,000"
+      },
+      "offsets": {
+        "from": 493000,
+        "to": 495000
+      },
+      "text": " Çok iyi bir şey açmıştım."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:15,000",
+        "to": "00:08:17,000"
+      },
+      "offsets": {
+        "from": 495000,
+        "to": 497000
+      },
+      "text": " Bündeki güzellik ele arcuyordu."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:17,000",
+        "to": "00:08:18,000"
+      },
+      "offsets": {
+        "from": 497000,
+        "to": 498000
+      },
+      "text": " Tamam."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:18,000",
+        "to": "00:08:21,000"
+      },
+      "offsets": {
+        "from": 498000,
+        "to": 501000
+      },
+      "text": " Denemelik olmuş. Oradan takipçin geliyor muydu acaba?"
+    },
+    {
+      "timestamps": {
+        "from": "00:08:21,000",
+        "to": "00:08:23,000"
+      },
+      "offsets": {
+        "from": 501000,
+        "to": 503000
+      },
+      "text": " Tör firmman sen klik neyse."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:23,000",
+        "to": "00:08:24,000"
+      },
+      "offsets": {
+        "from": 503000,
+        "to": 504000
+      },
+      "text": " Ona bakmayan."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:24,000",
+        "to": "00:08:25,000"
+      },
+      "offsets": {
+        "from": 504000,
+        "to": 505000
+      },
+      "text": " OK, 23'le giriyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:25,000",
+        "to": "00:08:27,000"
+      },
+      "offsets": {
+        "from": 505000,
+        "to": 507000
+      },
+      "text": " Bakın, şimdi 5 bin lira gördüğünüz mü?"
+    },
+    {
+      "timestamps": {
+        "from": "00:08:27,000",
+        "to": "00:08:28,000"
+      },
+      "offsets": {
+        "from": 507000,
+        "to": 508000
+      },
+      "text": " Bütçe ikiye katlamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:28,000",
+        "to": "00:08:31,000"
+      },
+      "offsets": {
+        "from": 508000,
+        "to": 511000
+      },
+      "text": " Öbür kisi zaten buraya sürekli ekleme yapıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:31,000",
+        "to": "00:08:33,000"
+      },
+      "offsets": {
+        "from": 511000,
+        "to": 513000
+      },
+      "text": " Aibiyoyu sürekli besliyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:33,000",
+        "to": "00:08:35,000"
+      },
+      "offsets": {
+        "from": 513000,
+        "to": 515000
+      },
+      "text": " Aibiyonun iyi gittiği kısımdan"
+    },
+    {
+      "timestamps": {
+        "from": "00:08:35,000",
+        "to": "00:08:36,000"
+      },
+      "offsets": {
+        "from": 515000,
+        "to": 516000
+      },
+      "text": " gidenleri alıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:36,000",
+        "to": "00:08:37,000"
+      },
+      "offsets": {
+        "from": 516000,
+        "to": 517000
+      },
+      "text": " Siyibiyoya atıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:37,000",
+        "to": "00:08:40,000"
+      },
+      "offsets": {
+        "from": 517000,
+        "to": 520000
+      },
+      "text": " Bütün aslında skel stratejisi bu şekilde çalışıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:40,000",
+        "to": "00:08:42,000"
+      },
+      "offsets": {
+        "from": 520000,
+        "to": 522000
+      },
+      "text": " Bakalım, toplanda bak."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:42,000",
+        "to": "00:08:43,000"
+      },
+      "offsets": {
+        "from": 522000,
+        "to": 523000
+      },
+      "text": " Siyibiyonun geri dönüşü 12."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:43,000",
+        "to": "00:08:44,000"
+      },
+      "offsets": {
+        "from": 523000,
+        "to": 524000
+      },
+      "text": " Görüyor musunuz?"
+    },
+    {
+      "timestamps": {
+        "from": "00:08:44,000",
+        "to": "00:08:45,000"
+      },
+      "offsets": {
+        "from": 524000,
+        "to": 525000
+      },
+      "text": " Altı yara asla."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:45,000",
+        "to": "00:08:48,000"
+      },
+      "offsets": {
+        "from": 525000,
+        "to": 528000
+      },
+      "text": " Yani 5 bin dine çıkardık, iki katına çıkardık."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:48,000",
+        "to": "00:08:50,000"
+      },
+      "offsets": {
+        "from": 528000,
+        "to": 530000
+      },
+      "text": " Eroaz hayla altı da gidiyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:50,000",
+        "to": "00:08:51,000"
+      },
+      "offsets": {
+        "from": 530000,
+        "to": 531000
+      },
+      "text": " Toplamda 19 sipari."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:51,000",
+        "to": "00:08:52,000"
+      },
+      "offsets": {
+        "from": 531000,
+        "to": 532000
+      },
+      "text": " 17 siparişimiz var."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:52,000",
+        "to": "00:08:53,000"
+      },
+      "offsets": {
+        "from": 532000,
+        "to": 533000
+      },
+      "text": " Bir bari onu çıkardığımız zaman."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:53,000",
+        "to": "00:08:55,000"
+      },
+      "offsets": {
+        "from": 533000,
+        "to": 535000
+      },
+      "text": " Toplamda 24'ine alalım bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:55,000",
+        "to": "00:08:57,000"
+      },
+      "offsets": {
+        "from": 535000,
+        "to": 537000
+      },
+      "text": " 24'inde 12 sipariş var."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:57,000",
+        "to": "00:08:59,000"
+      },
+      "offsets": {
+        "from": 537000,
+        "to": 539000
+      },
+      "text": " Siyibiyoya 7 buçuk yara asla çalışıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:59,000",
+        "to": "00:09:00,000"
+      },
+      "offsets": {
+        "from": 539000,
+        "to": 540000
+      },
+      "text": " Hayla şu anda."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:00,000",
+        "to": "00:09:01,000"
+      },
+      "offsets": {
+        "from": 540000,
+        "to": 541000
+      },
+      "text": " Aibiyoda 3 sipariş var."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:01,000",
+        "to": "00:09:03,000"
+      },
+      "offsets": {
+        "from": 541000,
+        "to": 543000
+      },
+      "text": " 4 yara asla çalışıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:03,000",
+        "to": "00:09:04,000"
+      },
+      "offsets": {
+        "from": 543000,
+        "to": 544000
+      },
+      "text": " Görüyor musunuz?"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:04,000",
+        "to": "00:09:05,000"
+      },
+      "offsets": {
+        "from": 544000,
+        "to": 545000
+      },
+      "text": " Bakın, zektamlar şu anda"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:05,000",
+        "to": "00:09:06,000"
+      },
+      "offsets": {
+        "from": 545000,
+        "to": 546000
+      },
+      "text": " bambam bambam uçuştan neden?"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:06,000",
+        "to": "00:09:09,000"
+      },
+      "offsets": {
+        "from": 546000,
+        "to": 549000
+      },
+      "text": " Çünkü elimizdeki videolar çok güzel."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:09,000",
+        "to": "00:09:11,000"
+      },
+      "offsets": {
+        "from": 549000,
+        "to": 551000
+      },
+      "text": " Çünkü organikte zaten viralleri zektamlıyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:11,000",
+        "to": "00:09:13,000"
+      },
+      "offsets": {
+        "from": 551000,
+        "to": 553000
+      },
+      "text": " Her şart da iyi sonuç getireceğini bekliyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:13,000",
+        "to": "00:09:15,000"
+      },
+      "offsets": {
+        "from": 553000,
+        "to": 555000
+      },
+      "text": " 25'ine bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:15,000",
+        "to": "00:09:16,000"
+      },
+      "offsets": {
+        "from": 555000,
+        "to": 556000
+      },
+      "text": " 25'inde 7 var."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:16,000",
+        "to": "00:09:18,000"
+      },
+      "offsets": {
+        "from": 556000,
+        "to": 558000
+      },
+      "text": " Siyibiyoda 5 var."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:18,000",
+        "to": "00:09:19,000"
+      },
+      "offsets": {
+        "from": 558000,
+        "to": 559000
+      },
+      "text": " E şöyle."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:19,000",
+        "to": "00:09:21,000"
+      },
+      "offsets": {
+        "from": 559000,
+        "to": 561000
+      },
+      "text": " Meta kısmı asla bakarsanız"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:21,000",
+        "to": "00:09:23,000"
+      },
+      "offsets": {
+        "from": 561000,
+        "to": 563000
+      },
+      "text": " birazcık dalgalıyla ilerliyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:23,000",
+        "to": "00:09:25,000"
+      },
+      "offsets": {
+        "from": 563000,
+        "to": 565000
+      },
+      "text": " Çünkü bazı günler iyi gidiyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:25,000",
+        "to": "00:09:27,000"
+      },
+      "offsets": {
+        "from": 565000,
+        "to": 567000
+      },
+      "text": " Bazı günler kötü gidiyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:27,000",
+        "to": "00:09:29,000"
+      },
+      "offsets": {
+        "from": 567000,
+        "to": 569000
+      },
+      "text": " Bu sizin elinizde olan bir şey değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:29,000",
+        "to": "00:09:31,000"
+      },
+      "offsets": {
+        "from": 569000,
+        "to": 571000
+      },
+      "text": " Bu tamamıyla meta algoritmasının karar verdiği kısım."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:31,000",
+        "to": "00:09:34,000"
+      },
+      "offsets": {
+        "from": 571000,
+        "to": 574000
+      },
+      "text": " O yüzden burada kötü gittiğiniz günlerde"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:34,000",
+        "to": "00:09:36,000"
+      },
+      "offsets": {
+        "from": 574000,
+        "to": 576000
+      },
+      "text": " çok psikolojiniz bozulmasın."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:36,000",
+        "to": "00:09:38,000"
+      },
+      "offsets": {
+        "from": 576000,
+        "to": 578000
+      },
+      "text": " Alperenin yaşada en büyük sıkıntı şuydu."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:38,000",
+        "to": "00:09:40,000"
+      },
+      "offsets": {
+        "from": 578000,
+        "to": 580000
+      },
+      "text": " Ya da en büyük endişesi şuydu."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:40,000",
+        "to": "00:09:43,000"
+      },
+      "offsets": {
+        "from": 580000,
+        "to": 583000
+      },
+      "text": " Bugüne kadar şu hep ölçek dediğim mazalar"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:43,000",
+        "to": "00:09:44,000"
+      },
+      "offsets": {
+        "from": 583000,
+        "to": 584000
+      },
+      "text": " bir yerden sonra ölüyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:44,000",
+        "to": "00:09:46,000"
+      },
+      "offsets": {
+        "from": 584000,
+        "to": 586000
+      },
+      "text": " Neden çünkü elinde çok fazla reklam kreatif yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:46,000",
+        "to": "00:09:48,000"
+      },
+      "offsets": {
+        "from": 586000,
+        "to": 588000
+      },
+      "text": " Reklamlar kötü gitmeye başladığı zaman"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:48,000",
+        "to": "00:09:49,000"
+      },
+      "offsets": {
+        "from": 588000,
+        "to": 589000
+      },
+      "text": " ne yapması gerektiğini bilmiyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:49,000",
+        "to": "00:09:51,000"
+      },
+      "offsets": {
+        "from": 589000,
+        "to": 591000
+      },
+      "text": " Burada aslında yapmanız gereken şey"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:51,000",
+        "to": "00:09:54,000"
+      },
+      "offsets": {
+        "from": 591000,
+        "to": 594000
+      },
+      "text": " olabildiğince farklı kreatifleri basmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:54,000",
+        "to": "00:09:56,000"
+      },
+      "offsets": {
+        "from": 594000,
+        "to": 596000
+      },
+      "text": " Olabildiğince farklı kreatif sokmak aslında platforma."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:56,000",
+        "to": "00:09:58,000"
+      },
+      "offsets": {
+        "from": 596000,
+        "to": 598000
+      },
+      "text": " Ya yanlış hatırlamıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:58,000",
+        "to": "00:09:59,000"
+      },
+      "offsets": {
+        "from": 598000,
+        "to": 599000
+      },
+      "text": " Ne mi Alperenin?"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:59,000",
+        "to": "00:10:01,000"
+      },
+      "offsets": {
+        "from": 599000,
+        "to": 601000
+      },
+      "text": " Evet evet, o yüzden ben her iki günde"
+    },
+    {
+      "timestamps": {
+        "from": "00:10:01,000",
+        "to": "00:10:03,000"
+      },
+      "offsets": {
+        "from": 601000,
+        "to": 603000
+      },
+      "text": " bir üç tane kreatif sokuldum, kreatif testen."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:03,000",
+        "to": "00:10:06,000"
+      },
+      "offsets": {
+        "from": 603000,
+        "to": 606000
+      },
+      "text": " Burada da bu kadar kreatif soka bilmenizin nedeni de"
+    },
+    {
+      "timestamps": {
+        "from": "00:10:06,000",
+        "to": "00:10:09,000"
+      },
+      "offsets": {
+        "from": 606000,
+        "to": 609000
+      },
+      "text": " kreatifleri aktif olarak sizin kendiniz çekebiliyor olmanız."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:09,000",
+        "to": "00:10:11,000"
+      },
+      "offsets": {
+        "from": 609000,
+        "to": 611000
+      },
+      "text": " Yani başka eğer ücünün videolarını"
+    },
+    {
+      "timestamps": {
+        "from": "00:10:11,000",
+        "to": "00:10:13,000"
+      },
+      "offsets": {
+        "from": 611000,
+        "to": 613000
+      },
+      "text": " başka bir yerden çalıyor olsanız"
+    },
+    {
+      "timestamps": {
+        "from": "00:10:13,000",
+        "to": "00:10:15,000"
+      },
+      "offsets": {
+        "from": 613000,
+        "to": 615000
+      },
+      "text": " sinirlisi dokuz tane reklam kreatif olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:15,000",
+        "to": "00:10:17,000"
+      },
+      "offsets": {
+        "from": 615000,
+        "to": 617000
+      },
+      "text": " Belki on beş tane olacak. Hadi."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:17,000",
+        "to": "00:10:19,000"
+      },
+      "offsets": {
+        "from": 617000,
+        "to": 619000
+      },
+      "text": " Bak mesela on altı reklam altı eraz."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:19,000",
+        "to": "00:10:21,000"
+      },
+      "offsets": {
+        "from": 619000,
+        "to": 621000
+      },
+      "text": " O parla on altı satış altı eraz."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:21,000",
+        "to": "00:10:22,000"
+      },
+      "offsets": {
+        "from": 621000,
+        "to": 622000
+      },
+      "text": " On satış sekiz eraz."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:22,000",
+        "to": "00:10:23,000"
+      },
+      "offsets": {
+        "from": 622000,
+        "to": 623000
+      },
+      "text": " Görüyor musunuz?"
+    },
+    {
+      "timestamps": {
+        "from": "00:10:23,000",
+        "to": "00:10:26,000"
+      },
+      "offsets": {
+        "from": 623000,
+        "to": 626000
+      },
+      "text": " 26 sipariş mesela altı nokta 74 de eraz."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:26,000",
+        "to": "00:10:27,000"
+      },
+      "offsets": {
+        "from": 626000,
+        "to": 627000
+      },
+      "text": " 27 sene bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:27,000",
+        "to": "00:10:29,000"
+      },
+      "offsets": {
+        "from": 627000,
+        "to": 629000
+      },
+      "text": " 24 sipariş altı 72 eraz."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:29,000",
+        "to": "00:10:31,000"
+      },
+      "offsets": {
+        "from": 629000,
+        "to": 631000
+      },
+      "text": " 28 sene bakıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:31,000",
+        "to": "00:10:33,000"
+      },
+      "offsets": {
+        "from": 631000,
+        "to": 633000
+      },
+      "text": " Burada tabi günlük harcamaları"
+    },
+    {
+      "timestamps": {
+        "from": "00:10:33,000",
+        "to": "00:10:34,000"
+      },
+      "offsets": {
+        "from": 633000,
+        "to": 634000
+      },
+      "text": " 27 beş yoraz."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:34,000",
+        "to": "00:10:36,000"
+      },
+      "offsets": {
+        "from": 634000,
+        "to": 636000
+      },
+      "text": " Mesela günlük harcamalarına kadar sibeyonun."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:36,000",
+        "to": "00:10:39,000"
+      },
+      "offsets": {
+        "from": 636000,
+        "to": 639000
+      },
+      "text": " Sibiyo artık günde on iki lira."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:39,000",
+        "to": "00:10:41,000"
+      },
+      "offsets": {
+        "from": 639000,
+        "to": 641000
+      },
+      "text": " Çünkü sürekli ikiye ikiye katlayarak gidiyoruz ya."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:41,000",
+        "to": "00:10:43,000"
+      },
+      "offsets": {
+        "from": 641000,
+        "to": 643000
+      },
+      "text": " Günde on iki bin lira harcıyor artık."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:43,000",
+        "to": "00:10:45,000"
+      },
+      "offsets": {
+        "from": 643000,
+        "to": 645000
+      },
+      "text": " Sibiyomuz ve bunun karşısında altı eraz alıyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:45,000",
+        "to": "00:10:46,000"
+      },
+      "offsets": {
+        "from": 645000,
+        "to": 646000
+      },
+      "text": " Yani on ikiye,"
+    },
+    {
+      "timestamps": {
+        "from": "00:10:46,000",
+        "to": "00:10:50,000"
+      },
+      "offsets": {
+        "from": 646000,
+        "to": 650000
+      },
+      "text": " on ikiye karşı siz 96-9600 bin lira falan alıyorsunuz neredeyse."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:50,000",
+        "to": "00:10:51,000"
+      },
+      "offsets": {
+        "from": 650000,
+        "to": 651000
+      },
+      "text": " Altı 72 pardon."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:51,000",
+        "to": "00:10:54,000"
+      },
+      "offsets": {
+        "from": 651000,
+        "to": 654000
+      },
+      "text": " 75 bin lira falan sipariş alıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:54,000",
+        "to": "00:10:56,000"
+      },
+      "offsets": {
+        "from": 654000,
+        "to": 656000
+      },
+      "text": " Sadece tek reklam setinden."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:56,000",
+        "to": "00:10:58,000"
+      },
+      "offsets": {
+        "from": 656000,
+        "to": 658000
+      },
+      "text": " 29'una bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:58,000",
+        "to": "00:11:01,000"
+      },
+      "offsets": {
+        "from": 658000,
+        "to": 661000
+      },
+      "text": " Bakın 7.39 sipariş almış."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:01,000",
+        "to": "00:11:02,000"
+      },
+      "offsets": {
+        "from": 661000,
+        "to": 662000
+      },
+      "text": " Ayy ayy."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:02,000",
+        "to": "00:11:03,000"
+      },
+      "offsets": {
+        "from": 662000,
+        "to": 663000
+      },
+      "text": " 17 bin lira bak."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:03,000",
+        "to": "00:11:06,000"
+      },
+      "offsets": {
+        "from": 663000,
+        "to": 666000
+      },
+      "text": " Bütçeği on iki den on yediye çekmiş."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:06,000",
+        "to": "00:11:08,000"
+      },
+      "offsets": {
+        "from": 666000,
+        "to": 668000
+      },
+      "text": " Bunun karşılığında 39 sipariş almış."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:08,000",
+        "to": "00:11:09,000"
+      },
+      "offsets": {
+        "from": 668000,
+        "to": 669000
+      },
+      "text": " 7 erazla."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:09,000",
+        "to": "00:11:11,000"
+      },
+      "offsets": {
+        "from": 669000,
+        "to": 671000
+      },
+      "text": " Toplam 48 siparişi var."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:11,000",
+        "to": "00:11:13,000"
+      },
+      "offsets": {
+        "from": 671000,
+        "to": 673000
+      },
+      "text": " 7 erazla ne kadar lektem harcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:13,000",
+        "to": "00:11:15,000"
+      },
+      "offsets": {
+        "from": 673000,
+        "to": 675000
+      },
+      "text": " 20.40 bin."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:15,000",
+        "to": "00:11:16,000"
+      },
+      "offsets": {
+        "from": 675000,
+        "to": 676000
+      },
+      "text": " 20 bin lira harcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:16,000",
+        "to": "00:11:17,000"
+      },
+      "offsets": {
+        "from": 676000,
+        "to": 677000
+      },
+      "text": " 140 bin lira geri dönüş almış."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:17,000",
+        "to": "00:11:18,000"
+      },
+      "offsets": {
+        "from": 677000,
+        "to": 678000
+      },
+      "text": " Tamam."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:18,000",
+        "to": "00:11:20,000"
+      },
+      "offsets": {
+        "from": 678000,
+        "to": 680000
+      },
+      "text": " Birazcık daha artık uzun süreli bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:20,000",
+        "to": "00:11:22,000"
+      },
+      "offsets": {
+        "from": 680000,
+        "to": 682000
+      },
+      "text": " Şurada bir hafta süresinden yapmış."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:22,000",
+        "to": "00:11:23,000"
+      },
+      "offsets": {
+        "from": 682000,
+        "to": 683000
+      },
+      "text": " Aralığın ilkayı."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:23,000",
+        "to": "00:11:25,000"
+      },
+      "offsets": {
+        "from": 683000,
+        "to": 685000
+      },
+      "text": " 100 bin lira sibeoya harcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:25,000",
+        "to": "00:11:26,000"
+      },
+      "offsets": {
+        "from": 685000,
+        "to": 686000
+      },
+      "text": " Aralığın ilkayı."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:26,000",
+        "to": "00:11:28,000"
+      },
+      "offsets": {
+        "from": 686000,
+        "to": 688000
+      },
+      "text": " 21 bin lira da elbiyoya harcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:28,000",
+        "to": "00:11:29,000"
+      },
+      "offsets": {
+        "from": 688000,
+        "to": 689000
+      },
+      "text": " Toplamda 120 bin lira."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:29,000",
+        "to": "00:11:32,000"
+      },
+      "offsets": {
+        "from": 689000,
+        "to": 692000
+      },
+      "text": " Bunun karşılığında 98 sipariş almış."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:32,000",
+        "to": "00:11:34,000"
+      },
+      "offsets": {
+        "from": 692000,
+        "to": 694000
+      },
+      "text": " 25'le buradan almış."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:34,000",
+        "to": "00:11:35,000"
+      },
+      "offsets": {
+        "from": 694000,
+        "to": 695000
+      },
+      "text": " Erazlar 3."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:35,000",
+        "to": "00:11:36,000"
+      },
+      "offsets": {
+        "from": 695000,
+        "to": 696000
+      },
+      "text": " Şöyle bir olay var arkadaşlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:36,000",
+        "to": "00:11:39,000"
+      },
+      "offsets": {
+        "from": 696000,
+        "to": 699000
+      },
+      "text": " Siz düşük bütçe de yüksek eraz alacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:39,000",
+        "to": "00:11:41,000"
+      },
+      "offsets": {
+        "from": 699000,
+        "to": 701000
+      },
+      "text": " Ama bütçeleri altırdığınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:41,000",
+        "to": "00:11:43,000"
+      },
+      "offsets": {
+        "from": 701000,
+        "to": 703000
+      },
+      "text": " Ama isteriz hemen sizin erazlarınız düşüyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:43,000",
+        "to": "00:11:44,000"
+      },
+      "offsets": {
+        "from": 703000,
+        "to": 704000
+      },
+      "text": " Bu çok normal."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:44,000",
+        "to": "00:11:46,000"
+      },
+      "offsets": {
+        "from": 704000,
+        "to": 706000
+      },
+      "text": " Bu çok beklenebildik bir durum."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:46,000",
+        "to": "00:11:48,000"
+      },
+      "offsets": {
+        "from": 706000,
+        "to": 708000
+      },
+      "text": " Ama burada siz volume'ten kazanıyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:48,000",
+        "to": "00:11:51,000"
+      },
+      "offsets": {
+        "from": 708000,
+        "to": 711000
+      },
+      "text": " Çünkü toplamda 100 bin lira dektem harcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:51,000",
+        "to": "00:11:53,000"
+      },
+      "offsets": {
+        "from": 711000,
+        "to": 713000
+      },
+      "text": " 120 bin lira dektem harcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:53,000",
+        "to": "00:11:55,000"
+      },
+      "offsets": {
+        "from": 713000,
+        "to": 715000
+      },
+      "text": " 380 bin lira geri dönüş almış."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:55,000",
+        "to": "00:11:56,000"
+      },
+      "offsets": {
+        "from": 715000,
+        "to": 716000
+      },
+      "text": " Görüyor musunuz?"
+    },
+    {
+      "timestamps": {
+        "from": "00:11:56,000",
+        "to": "00:11:57,000"
+      },
+      "offsets": {
+        "from": 716000,
+        "to": 717000
+      },
+      "text": " Çünkü 3 erazla çalışıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:57,000",
+        "to": "00:11:59,000"
+      },
+      "offsets": {
+        "from": 717000,
+        "to": 719000
+      },
+      "text": " Yani sizin aslında volume'ünüz artıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:59,000",
+        "to": "00:12:02,000"
+      },
+      "offsets": {
+        "from": 719000,
+        "to": 722000
+      },
+      "text": " Eğer olsanız düşüyor ama cebinizle giren para daha da artıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:02,000",
+        "to": "00:12:05,000"
+      },
+      "offsets": {
+        "from": 722000,
+        "to": 725000
+      },
+      "text": " Neden? Çünkü daha fazla artık sipariş çıkıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:05,000",
+        "to": "00:12:06,000"
+      },
+      "offsets": {
+        "from": 725000,
+        "to": 726000
+      },
+      "text": " Okuyabilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:06,000",
+        "to": "00:12:07,000"
+      },
+      "offsets": {
+        "from": 726000,
+        "to": 727000
+      },
+      "text": " Aralığın ilk haftası böyleydi."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:07,000",
+        "to": "00:12:09,000"
+      },
+      "offsets": {
+        "from": 727000,
+        "to": 729000
+      },
+      "text": " Aralığın ikinci haftasına bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:09,000",
+        "to": "00:12:11,000"
+      },
+      "offsets": {
+        "from": 729000,
+        "to": 731000
+      },
+      "text": " Aralığın ikinci haftasında yine 3 erazla gidiyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:11,000",
+        "to": "00:12:12,000"
+      },
+      "offsets": {
+        "from": 731000,
+        "to": 732000
+      },
+      "text": " Yüzüren siparişi var."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:12,000",
+        "to": "00:12:15,000"
+      },
+      "offsets": {
+        "from": 732000,
+        "to": 735000
+      },
+      "text": " Buradan da yine 170 lira harcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:15,000",
+        "to": "00:12:16,000"
+      },
+      "offsets": {
+        "from": 735000,
+        "to": 736000
+      },
+      "text": " OK."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:16,000",
+        "to": "00:12:17,000"
+      },
+      "offsets": {
+        "from": 736000,
+        "to": 737000
+      },
+      "text": " 170 lira."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:17,000",
+        "to": "00:12:21,000"
+      },
+      "offsets": {
+        "from": 737000,
+        "to": 741000
+      },
+      "text": " Yani her hafta 350 bin lira sadece reklamdan çekiyor şu anda."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:21,000",
+        "to": "00:12:22,000"
+      },
+      "offsets": {
+        "from": 741000,
+        "to": 742000
+      },
+      "text": " Satış olarak."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:22,000",
+        "to": "00:12:24,000"
+      },
+      "offsets": {
+        "from": 742000,
+        "to": 744000
+      },
+      "text": " Aralığın son haftasına bak."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:24,000",
+        "to": "00:12:25,000"
+      },
+      "offsets": {
+        "from": 744000,
+        "to": 745000
+      },
+      "text": " 3."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:25,000",
+        "to": "00:12:26,000"
+      },
+      "offsets": {
+        "from": 745000,
+        "to": 746000
+      },
+      "text": " Üçüncü haftasına bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:26,000",
+        "to": "00:12:31,000"
+      },
+      "offsets": {
+        "from": 746000,
+        "to": 751000
+      },
+      "text": " Burada 377 150 siparişi var burada da toplamda 120 bin lira harcamat."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:31,000",
+        "to": "00:12:32,000"
+      },
+      "offsets": {
+        "from": 751000,
+        "to": 752000
+      },
+      "text": " Aynen."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:32,000",
+        "to": "00:12:35,000"
+      },
+      "offsets": {
+        "from": 752000,
+        "to": 755000
+      },
+      "text": " 3-4 heraz bandında şu anda sabit gidiyor haftalık olarak."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:35,000",
+        "to": "00:12:37,000"
+      },
+      "offsets": {
+        "from": 755000,
+        "to": 757000
+      },
+      "text": " Sürekli sürekli yaptı olaysa."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:37,000",
+        "to": "00:12:40,000"
+      },
+      "offsets": {
+        "from": 757000,
+        "to": 760000
+      },
+      "text": " Ebiyonun içerisinde iyi gidenleri tutuyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:40,000",
+        "to": "00:12:42,000"
+      },
+      "offsets": {
+        "from": 760000,
+        "to": 762000
+      },
+      "text": " Ebiyonun içerisinde iyi gidenlerin bütçisini artıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:42,000",
+        "to": "00:12:43,000"
+      },
+      "offsets": {
+        "from": 762000,
+        "to": 763000
+      },
+      "text": " Bakın mesela."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:43,000",
+        "to": "00:12:46,000"
+      },
+      "offsets": {
+        "from": 763000,
+        "to": 766000
+      },
+      "text": " Şu anda bütçeler 201500 lira harcıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:46,000",
+        "to": "00:12:47,000"
+      },
+      "offsets": {
+        "from": 766000,
+        "to": 767000
+      },
+      "text": " İyi gidenler."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:47,000",
+        "to": "00:12:48,000"
+      },
+      "offsets": {
+        "from": 767000,
+        "to": 768000
+      },
+      "text": " Aynı zamanda bakın."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:48,000",
+        "to": "00:12:49,000"
+      },
+      "offsets": {
+        "from": 768000,
+        "to": 769000
+      },
+      "text": " Şurada yeni bir tane rektem hakim."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:49,000",
+        "to": "00:12:50,000"
+      },
+      "offsets": {
+        "from": 769000,
+        "to": 770000
+      },
+      "text": " Görüyor musunuz?"
+    },
+    {
+      "timestamps": {
+        "from": "00:12:50,000",
+        "to": "00:12:51,000"
+      },
+      "offsets": {
+        "from": 770000,
+        "to": 771000
+      },
+      "text": " 15 lira harcamış sadece."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:51,000",
+        "to": "00:12:53,000"
+      },
+      "offsets": {
+        "from": 771000,
+        "to": 773000
+      },
+      "text": " Mesela bir sonraki haftaya bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:53,000",
+        "to": "00:12:56,000"
+      },
+      "offsets": {
+        "from": 773000,
+        "to": 776000
+      },
+      "text": " Bakın şurada yeni aştığı bir tane rektem."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:56,000",
+        "to": "00:12:57,000"
+      },
+      "offsets": {
+        "from": 776000,
+        "to": 777000
+      },
+      "text": " 288 harcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:57,000",
+        "to": "00:12:59,000"
+      },
+      "offsets": {
+        "from": 777000,
+        "to": 779000
+      },
+      "text": " Bazıları 1000 küsür harcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:59,000",
+        "to": "00:13:00,000"
+      },
+      "offsets": {
+        "from": 779000,
+        "to": 780000
+      },
+      "text": " Bazıları 2000 lira harcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:00,000",
+        "to": "00:13:02,000"
+      },
+      "offsets": {
+        "from": 780000,
+        "to": 782000
+      },
+      "text": " Toplam bir hafta 7 gün sürede."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:02,000",
+        "to": "00:13:05,000"
+      },
+      "offsets": {
+        "from": 782000,
+        "to": 785000
+      },
+      "text": " Bunların karşılığında da eroası yaklaşık 4 herhâs."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:05,000",
+        "to": "00:13:07,000"
+      },
+      "offsets": {
+        "from": 785000,
+        "to": 787000
+      },
+      "text": " Buradan viner kreatifi alıyorsun."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:07,000",
+        "to": "00:13:09,000"
+      },
+      "offsets": {
+        "from": 787000,
+        "to": 789000
+      },
+      "text": " Buradan Sibiyoyu besliyorsun ki."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:09,000",
+        "to": "00:13:11,000"
+      },
+      "offsets": {
+        "from": 789000,
+        "to": 791000
+      },
+      "text": " Sibiyo sürekli aktiv kalsın."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:11,000",
+        "to": "00:13:14,000"
+      },
+      "offsets": {
+        "from": 791000,
+        "to": 794000
+      },
+      "text": " Sibiyoda da iyi gitmeyenleri kapatarak ilerliyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:14,000",
+        "to": "00:13:16,000"
+      },
+      "offsets": {
+        "from": 794000,
+        "to": 796000
+      },
+      "text": " Bakın şimdi onu göstereceğim."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:16,000",
+        "to": "00:13:17,000"
+      },
+      "offsets": {
+        "from": 796000,
+        "to": 797000
+      },
+      "text": " Broada giriyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:17,000",
+        "to": "00:13:20,000"
+      },
+      "offsets": {
+        "from": 797000,
+        "to": 800000
+      },
+      "text": " Bakın şuradan şeyi yapmamız lazım ki."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:20,000",
+        "to": "00:13:21,000"
+      },
+      "offsets": {
+        "from": 800000,
+        "to": 801000
+      },
+      "text": " Onu görelim."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:21,000",
+        "to": "00:13:23,000"
+      },
+      "offsets": {
+        "from": 801000,
+        "to": 803000
+      },
+      "text": " Emanuz spendi tıklayalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:23,000",
+        "to": "00:13:24,000"
+      },
+      "offsets": {
+        "from": 803000,
+        "to": 804000
+      },
+      "text": " Bak mesela."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:24,000",
+        "to": "00:13:26,000"
+      },
+      "offsets": {
+        "from": 804000,
+        "to": 806000
+      },
+      "text": " Bir tane rektem kreatifine 52.000 lira harcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:26,000",
+        "to": "00:13:29,000"
+      },
+      "offsets": {
+        "from": 806000,
+        "to": 809000
+      },
+      "text": " Bunun karşılığında 200 lirası almış 41 sipariş."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:29,000",
+        "to": "00:13:30,000"
+      },
+      "offsets": {
+        "from": 809000,
+        "to": 810000
+      },
+      "text": " Bakın görüyor musunuz?"
+    },
+    {
+      "timestamps": {
+        "from": "00:13:30,000",
+        "to": "00:13:32,000"
+      },
+      "offsets": {
+        "from": 810000,
+        "to": 812000
+      },
+      "text": " Sibiyon içerisine bir sürü kapalı kitle de var."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:32,000",
+        "to": "00:13:34,000"
+      },
+      "offsets": {
+        "from": 812000,
+        "to": 814000
+      },
+      "text": " Kapalı rektem seti de var."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:34,000",
+        "to": "00:13:35,000"
+      },
+      "offsets": {
+        "from": 814000,
+        "to": 815000
+      },
+      "text": " Hiç para harcamayan."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:35,000",
+        "to": "00:13:36,000"
+      },
+      "offsets": {
+        "from": 815000,
+        "to": 816000
+      },
+      "text": " Bunların nedeni ne?"
+    },
+    {
+      "timestamps": {
+        "from": "00:13:36,000",
+        "to": "00:13:38,000"
+      },
+      "offsets": {
+        "from": 816000,
+        "to": 818000
+      },
+      "text": " Bunlar iyi sonuç vermediği için."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:38,000",
+        "to": "00:13:39,000"
+      },
+      "offsets": {
+        "from": 818000,
+        "to": 819000
+      },
+      "text": " Bunları kapatıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:39,000",
+        "to": "00:13:42,000"
+      },
+      "offsets": {
+        "from": 819000,
+        "to": 822000
+      },
+      "text": " Olabildiğince devamına içerisine yeni çektiğiniz"
+    },
+    {
+      "timestamps": {
+        "from": "00:13:42,000",
+        "to": "00:13:44,000"
+      },
+      "offsets": {
+        "from": 822000,
+        "to": 824000
+      },
+      "text": " Eibiyon'un vinerilerini atıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:44,000",
+        "to": "00:13:46,000"
+      },
+      "offsets": {
+        "from": 824000,
+        "to": 826000
+      },
+      "text": " Yani adamantık şöyle işliyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:46,000",
+        "to": "00:13:48,000"
+      },
+      "offsets": {
+        "from": 826000,
+        "to": 828000
+      },
+      "text": " Eibiyada ürün testet."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:48,000",
+        "to": "00:13:49,000"
+      },
+      "offsets": {
+        "from": 828000,
+        "to": 829000
+      },
+      "text": " Bunları al."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:49,000",
+        "to": "00:13:52,000"
+      },
+      "offsets": {
+        "from": 829000,
+        "to": 832000
+      },
+      "text": " Sibiyoya çek, Sibiyoyu besle devamında da satış al."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:52,000",
+        "to": "00:13:56,000"
+      },
+      "offsets": {
+        "from": 832000,
+        "to": 836000
+      },
+      "text": " Kospere kuzli işinımızda satış basırına ücretimizi toplamda"
+    },
+    {
+      "timestamps": {
+        "from": "00:13:56,000",
+        "to": "00:13:58,000"
+      },
+      "offsets": {
+        "from": 836000,
+        "to": 838000
+      },
+      "text": " per per çeyiz bin lira."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:58,000",
+        "to": "00:13:59,000"
+      },
+      "offsets": {
+        "from": 838000,
+        "to": 839000
+      },
+      "text": " Aynen burada bak."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:59,000",
+        "to": "00:14:02,000"
+      },
+      "offsets": {
+        "from": 839000,
+        "to": 842000
+      },
+      "text": " Şu an her bin lira harcamaya bir sipariş alıyor gibi."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:02,000",
+        "to": "00:14:03,000"
+      },
+      "offsets": {
+        "from": 842000,
+        "to": 843000
+      },
+      "text": " Sibiyon kısmında."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:03,000",
+        "to": "00:14:06,000"
+      },
+      "offsets": {
+        "from": 843000,
+        "to": 846000
+      },
+      "text": " Eibiyon kısmında da 750 liraya bir sipariş alıyor gibi."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:06,000",
+        "to": "00:14:11,000"
+      },
+      "offsets": {
+        "from": 846000,
+        "to": 851000
+      },
+      "text": " Burada önemli olan şey şu ürünün karmarcalığını iyi olması lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:11,000",
+        "to": "00:14:15,000"
+      },
+      "offsets": {
+        "from": 851000,
+        "to": 855000
+      },
+      "text": " Yani o yüzden diyorum ki mesela plastik ürünleri falan test ettiğiniz zaman ne olacak?"
+    },
+    {
+      "timestamps": {
+        "from": "00:14:15,000",
+        "to": "00:14:16,000"
+      },
+      "offsets": {
+        "from": 855000,
+        "to": 856000
+      },
+      "text": " Çok fazla butarız."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:16,000",
+        "to": "00:14:19,000"
+      },
+      "offsets": {
+        "from": 856000,
+        "to": 859000
+      },
+      "text": " Deneme için size karmarcalı bırakmıyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:19,000",
+        "to": "00:14:23,000"
+      },
+      "offsets": {
+        "from": 859000,
+        "to": 863000
+      },
+      "text": " O yüzden birazcık daha pahalı ürünleri satmaya çalışın ki."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:23,000",
+        "to": "00:14:25,000"
+      },
+      "offsets": {
+        "from": 863000,
+        "to": 865000
+      },
+      "text": " Yani elinizde ekstra böyle karkalabilsin."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:25,000",
+        "to": "00:14:28,000"
+      },
+      "offsets": {
+        "from": 865000,
+        "to": 868000
+      },
+      "text": " Devamında şuradan ilk haftasına bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:28,000",
+        "to": "00:14:32,000"
+      },
+      "offsets": {
+        "from": 868000,
+        "to": 872000
+      },
+      "text": " Ocak sonra yılbaşı burada birazcık sanki bütçeler düşüyor muydu?"
+    },
+    {
+      "timestamps": {
+        "from": "00:14:32,000",
+        "to": "00:14:33,000"
+      },
+      "offsets": {
+        "from": 872000,
+        "to": 873000
+      },
+      "text": " Öyle hatırlıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:33,000",
+        "to": "00:14:34,000"
+      },
+      "offsets": {
+        "from": 873000,
+        "to": 874000
+      },
+      "text": " Aynen."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:34,000",
+        "to": "00:14:36,000"
+      },
+      "offsets": {
+        "from": 874000,
+        "to": 876000
+      },
+      "text": " Yavaştan tekdamların şeylerin düşürüyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:36,000",
+        "to": "00:14:38,000"
+      },
+      "offsets": {
+        "from": 876000,
+        "to": 878000
+      },
+      "text": " Gerçi gene 100 bin lira harcamış her şartta."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:38,000",
+        "to": "00:14:41,000"
+      },
+      "offsets": {
+        "from": 878000,
+        "to": 881000
+      },
+      "text": " Gene 3 herhası 70 kere hasarası gidiyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:41,000",
+        "to": "00:14:47,000"
+      },
+      "offsets": {
+        "from": 881000,
+        "to": 887000
+      },
+      "text": " Yani her 800 lira harcama da bir sipariş alıyor durumunda."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:47,000",
+        "to": "00:14:49,000"
+      },
+      "offsets": {
+        "from": 887000,
+        "to": 889000
+      },
+      "text": " Genel bir de sürece bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:49,000",
+        "to": "00:14:53,000"
+      },
+      "offsets": {
+        "from": 889000,
+        "to": 893000
+      },
+      "text": " Diysenbrı'dan diysenbrın on ikisinden başlamış sanki öyle bir şeyde."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:53,000",
+        "to": "00:14:55,000"
+      },
+      "offsets": {
+        "from": 893000,
+        "to": 895000
+      },
+      "text": " Yok diysenbran on ikisi değilmiş."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:55,000",
+        "to": "00:14:56,000"
+      },
+      "offsets": {
+        "from": 895000,
+        "to": 896000
+      },
+      "text": " Bir diysenbrı bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:56,000",
+        "to": "00:14:59,000"
+      },
+      "offsets": {
+        "from": 896000,
+        "to": 899000
+      },
+      "text": " Toplamda 898 bin lira."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:59,000",
+        "to": "00:15:00,000"
+      },
+      "offsets": {
+        "from": 899000,
+        "to": 900000
+      },
+      "text": " Şuradan 16 bin lira düş."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:00,000",
+        "to": "00:15:04,000"
+      },
+      "offsets": {
+        "from": 900000,
+        "to": 904000
+      },
+      "text": " İşte 870 bin lira, 880 bin lira toplamda bizim harcamamız var."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:04,000",
+        "to": "00:15:07,000"
+      },
+      "offsets": {
+        "from": 904000,
+        "to": 907000
+      },
+      "text": " Eibiyoya toplam 235 bin lira harcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:07,000",
+        "to": "00:15:10,000"
+      },
+      "offsets": {
+        "from": 907000,
+        "to": 910000
+      },
+      "text": " Cibiyoya toplamda da 645 bin lira harcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:10,000",
+        "to": "00:15:14,000"
+      },
+      "offsets": {
+        "from": 910000,
+        "to": 914000
+      },
+      "text": " Bunun karşılığında Cibiyodan 772 sipariş almış."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:14,000",
+        "to": "00:15:16,000"
+      },
+      "offsets": {
+        "from": 914000,
+        "to": 916000
+      },
+      "text": " 346 erhasıda devam etmiş."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:16,000",
+        "to": "00:15:19,000"
+      },
+      "offsets": {
+        "from": 916000,
+        "to": 919000
+      },
+      "text": " Bütün Cibiyodan da 342 sipariş almış."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:19,000",
+        "to": "00:15:25,000"
+      },
+      "offsets": {
+        "from": 919000,
+        "to": 925000
+      },
+      "text": " Bunlar da 432 erhası, 4.30'i erhasıda perform etmiş."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:25,000",
+        "to": "00:15:27,000"
+      },
+      "offsets": {
+        "from": 925000,
+        "to": 927000
+      },
+      "text": " Şimdi şöyle bir şey yapalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:27,000",
+        "to": "00:15:29,000"
+      },
+      "offsets": {
+        "from": 927000,
+        "to": 929000
+      },
+      "text": " İşleri daha da analiz edebilmek için."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:29,000",
+        "to": "00:15:30,000"
+      },
+      "offsets": {
+        "from": 929000,
+        "to": 930000
+      },
+      "text": " Şuradan çekelim."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:30,000",
+        "to": "00:15:32,000"
+      },
+      "offsets": {
+        "from": 930000,
+        "to": 932000
+      },
+      "text": " En çok sipariş aldığına bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:32,000",
+        "to": "00:15:36,000"
+      },
+      "offsets": {
+        "from": 932000,
+        "to": 936000
+      },
+      "text": " 772 gerçeği direkt Cibiyoya gösterecek mantıkyan doğru."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:36,000",
+        "to": "00:15:39,000"
+      },
+      "offsets": {
+        "from": 936000,
+        "to": 939000
+      },
+      "text": " Cibiyona içerisinden en çok sipariş alana bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:39,000",
+        "to": "00:15:42,000"
+      },
+      "offsets": {
+        "from": 939000,
+        "to": 942000
+      },
+      "text": " Birazcık reklam kreatiflerinde solmuş ona bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:42,000",
+        "to": "00:15:45,000"
+      },
+      "offsets": {
+        "from": 942000,
+        "to": 945000
+      },
+      "text": " 275 sipariş almış toplamda 39'la."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:45,000",
+        "to": "00:15:47,000"
+      },
+      "offsets": {
+        "from": 945000,
+        "to": 947000
+      },
+      "text": " Şu da 544 dalmış."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:47,000",
+        "to": "00:15:49,000"
+      },
+      "offsets": {
+        "from": 947000,
+        "to": 949000
+      },
+      "text": " Bakalım reklamları nasıl izmiş."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:49,000",
+        "to": "00:15:50,000"
+      },
+      "offsets": {
+        "from": 949000,
+        "to": 950000
+      },
+      "text": " Geliyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:50,000",
+        "to": "00:15:52,000"
+      },
+      "offsets": {
+        "from": 950000,
+        "to": 952000
+      },
+      "text": " Facebook'la Instagram'ı bağlıyorsunuz zaten."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:52,000",
+        "to": "00:15:54,000"
+      },
+      "offsets": {
+        "from": 952000,
+        "to": 954000
+      },
+      "text": " Videoyu manuel yükliyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:54,000",
+        "to": "00:15:55,000"
+      },
+      "offsets": {
+        "from": 954000,
+        "to": 955000
+      },
+      "text": " Web sesini girmiş."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:55,000",
+        "to": "00:15:56,000"
+      },
+      "offsets": {
+        "from": 955000,
+        "to": 956000
+      },
+      "text": " Roomive."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:56,000",
+        "to": "00:15:58,000"
+      },
+      "offsets": {
+        "from": 956000,
+        "to": 958000
+      },
+      "text": " Devamına manuel upload okey."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:58,000",
+        "to": "00:15:59,000"
+      },
+      "offsets": {
+        "from": 958000,
+        "to": 959000
+      },
+      "text": " Bakın."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:59,000",
+        "to": "00:16:01,000"
+      },
+      "offsets": {
+        "from": 959000,
+        "to": 961000
+      },
+      "text": " Gecenin en güzel hali kendi atmosferin."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:01,000",
+        "to": "00:16:04,000"
+      },
+      "offsets": {
+        "from": 961000,
+        "to": 964000
+      },
+      "text": " Roomive olarak odana artık sadece görmüyorsun yaşıyorsun."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:04,000",
+        "to": "00:16:06,000"
+      },
+      "offsets": {
+        "from": 964000,
+        "to": 966000
+      },
+      "text": " Her deteyi senin için düşündük."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:06,000",
+        "to": "00:16:09,000"
+      },
+      "offsets": {
+        "from": 966000,
+        "to": 969000
+      },
+      "text": " Sınıcın sarka plan seçimeyi sessiz rahatladık."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:09,000",
+        "to": "00:16:11,000"
+      },
+      "offsets": {
+        "from": 969000,
+        "to": 971000
+      },
+      "text": " Işık tonları saniyeler içinde huzurlu atmosfer."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:11,000",
+        "to": "00:16:13,000"
+      },
+      "offsets": {
+        "from": 971000,
+        "to": 973000
+      },
+      "text": " Çünkü güzel anlar ışıkla ve hissederek yaşanır."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:13,000",
+        "to": "00:16:15,000"
+      },
+      "offsets": {
+        "from": 973000,
+        "to": 975000
+      },
+      "text": " Sen de kendinin Roomive'i ağlığını yarat."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:15,000",
+        "to": "00:16:16,000"
+      },
+      "offsets": {
+        "from": 975000,
+        "to": 976000
+      },
+      "text": " Okey midir?"
+    },
+    {
+      "timestamps": {
+        "from": "00:16:16,000",
+        "to": "00:16:18,000"
+      },
+      "offsets": {
+        "from": 976000,
+        "to": 978000
+      },
+      "text": " Devamında aşağıya indiğiniz zaman bakın."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:18,000",
+        "to": "00:16:20,000"
+      },
+      "offsets": {
+        "from": 978000,
+        "to": 980000
+      },
+      "text": " Bugün özel 145 indirim artı ücretsiz cargo var."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:20,000",
+        "to": "00:16:22,000"
+      },
+      "offsets": {
+        "from": 980000,
+        "to": 982000
+      },
+      "text": " En sonunda da Roomive'yı."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:22,000",
+        "to": "00:16:23,000"
+      },
+      "offsets": {
+        "from": 982000,
+        "to": 983000
+      },
+      "text": " Bakın."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:23,000",
+        "to": "00:16:25,000"
+      },
+      "offsets": {
+        "from": 983000,
+        "to": 985000
+      },
+      "text": " Şuradaki yutyan parametre kısmı önemli."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:25,000",
+        "to": "00:16:28,000"
+      },
+      "offsets": {
+        "from": 985000,
+        "to": 988000
+      },
+      "text": " Bunu çok fazla yerde paylaşmıyor olacaklar."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:28,000",
+        "to": "00:16:32,000"
+      },
+      "offsets": {
+        "from": 988000,
+        "to": 992000
+      },
+      "text": " Bunu hatta devamında ben size ekstra olarak gönderi olacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:32,000",
+        "to": "00:16:33,000"
+      },
+      "offsets": {
+        "from": 992000,
+        "to": 993000
+      },
+      "text": " Bunun mantığı ney."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:33,000",
+        "to": "00:16:35,000"
+      },
+      "offsets": {
+        "from": 993000,
+        "to": 995000
+      },
+      "text": " Bunu şuraya alayım da tutalım ondan sonra bunu."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:35,000",
+        "to": "00:16:36,000"
+      },
+      "offsets": {
+        "from": 995000,
+        "to": 996000
+      },
+      "text": " Bunun mantığı ney."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:36,000",
+        "to": "00:16:37,000"
+      },
+      "offsets": {
+        "from": 996000,
+        "to": 997000
+      },
+      "text": " Bakın."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:37,000",
+        "to": "00:16:40,000"
+      },
+      "offsets": {
+        "from": 997000,
+        "to": 1000000
+      },
+      "text": " Siz burada reklamın bunu koyduğunuz zaman."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:40,000",
+        "to": "00:16:43,000"
+      },
+      "offsets": {
+        "from": 1000000,
+        "to": 1003000
+      },
+      "text": " Bazen reklam piksel kaçırabiliyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:43,000",
+        "to": "00:16:44,000"
+      },
+      "offsets": {
+        "from": 1003000,
+        "to": 1004000
+      },
+      "text": " Yani datak kaçırabiliyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:44,000",
+        "to": "00:16:47,000"
+      },
+      "offsets": {
+        "from": 1004000,
+        "to": 1007000
+      },
+      "text": " Burada gelip baktığınız zaman."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:47,000",
+        "to": "00:16:49,000"
+      },
+      "offsets": {
+        "from": 1007000,
+        "to": 1009000
+      },
+      "text": " Siparişte de girdiğiniz zaman."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:49,000",
+        "to": "00:16:51,000"
+      },
+      "offsets": {
+        "from": 1009000,
+        "to": 1011000
+      },
+      "text": " İçerisine girdiğinizde."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:51,000",
+        "to": "00:16:54,000"
+      },
+      "offsets": {
+        "from": 1011000,
+        "to": 1014000
+      },
+      "text": " Bakın gülük olarak aklif olarak ailen maza açık bu arada."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:54,000",
+        "to": "00:16:55,000"
+      },
+      "offsets": {
+        "from": 1014000,
+        "to": 1015000
+      },
+      "text": " Sipariş oluyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:55,000",
+        "to": "00:16:57,000"
+      },
+      "offsets": {
+        "from": 1015000,
+        "to": 1017000
+      },
+      "text": " Buradan konvercinin detiyesi bastığınız zaman."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:57,000",
+        "to": "00:16:59,000"
+      },
+      "offsets": {
+        "from": 1017000,
+        "to": 1019000
+      },
+      "text": " Bakın via yutyan diyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:59,000",
+        "to": "00:17:00,000"
+      },
+      "offsets": {
+        "from": 1019000,
+        "to": 1020000
+      },
+      "text": " Yutiyem içine girdiğiniz zaman."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:00,000",
+        "to": "00:17:04,000"
+      },
+      "offsets": {
+        "from": 1020000,
+        "to": 1024000
+      },
+      "text": " Hangi reklam setinden nereden sipariş aldığınızın net bir şekilde gönderi."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:04,000",
+        "to": "00:17:07,000"
+      },
+      "offsets": {
+        "from": 1024000,
+        "to": 1027000
+      },
+      "text": " Anamantıklı olay burada bunları da kaçırmıyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:07,000",
+        "to": "00:17:10,000"
+      },
+      "offsets": {
+        "from": 1027000,
+        "to": 1030000
+      },
+      "text": " Çünkü bazen mesela sipariş alacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:10,000",
+        "to": "00:17:13,000"
+      },
+      "offsets": {
+        "from": 1030000,
+        "to": 1033000
+      },
+      "text": " İlk özellikle reklamı yeni test etmeye başladığınız zaman."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:13,000",
+        "to": "00:17:15,000"
+      },
+      "offsets": {
+        "from": 1033000,
+        "to": 1035000
+      },
+      "text": " Sipariş almaya başlayacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:15,000",
+        "to": "00:17:18,000"
+      },
+      "offsets": {
+        "from": 1035000,
+        "to": 1038000
+      },
+      "text": " Ama bu sizin reklam panelinize yansımıyor olabilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:18,000",
+        "to": "00:17:19,000"
+      },
+      "offsets": {
+        "from": 1038000,
+        "to": 1039000
+      },
+      "text": " Burada yapmanız gereken gidip."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:19,000",
+        "to": "00:17:25,000"
+      },
+      "offsets": {
+        "from": 1039000,
+        "to": 1045000
+      },
+      "text": " Buradan nereden hangi kampanyadan hangi reklam setinden aldığınızı görebiliyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:25,000",
+        "to": "00:17:26,000"
+      },
+      "offsets": {
+        "from": 1045000,
+        "to": 1046000
+      },
+      "text": " Olmanız."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:26,000",
+        "to": "00:17:27,000"
+      },
+      "offsets": {
+        "from": 1046000,
+        "to": 1047000
+      },
+      "text": " Okuyabilir canım."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:27,000",
+        "to": "00:17:30,000"
+      },
+      "offsets": {
+        "from": 1047000,
+        "to": 1050000
+      },
+      "text": " Anamantıklı reklam kısmı böyle."
+    }
+  ]
+}

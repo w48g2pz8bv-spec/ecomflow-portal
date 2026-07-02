@@ -1,0 +1,362 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:06,140"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 6140
+			},
+			"text": " Evet şimdi sin taydi nedir? Instagram bizim E'ye içeriklerimiz nasıl anlıyor?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,140",
+				"to": "00:00:11,940"
+			},
+			"offsets": {
+				"from": 6140,
+				"to": 11940
+			},
+			"text": " Instagram bizim E'ye içerikleri anlamamız sıkıntı mı? Bu tarz konularla masledim."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:11,940",
+				"to": "00:00:21,760"
+			},
+			"offsets": {
+				"from": 11940,
+				"to": 21760
+			},
+			"text": " Öncelikle sin taydi dediğimiz olay eğer Google'un sin modelleriyle sizi bir içeri üretiyorsanız yani bu nano banan oluyor çoğunlukla."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:21,760",
+				"to": "00:00:28,580"
+			},
+			"offsets": {
+				"from": 21760,
+				"to": 28580
+			},
+			"text": " Google bunun içerisine kendi imzasını koyuyor. Yani PxL'in içine, küçük bir şekilde adını yazıyor, yürü düşünebilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:28,580",
+				"to": "00:00:38,960"
+			},
+			"offsets": {
+				"from": 28580,
+				"to": 38960
+			},
+			"text": " Burada onu esi salmanız ya da Metadatası'nı silmeniz işe yaramaz. Çünkü baktığı şey Google'un görüntü yani PxL'lerin içine bakıyorduk. Metadataya falan değil."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:38,960",
+				"to": "00:00:47,860"
+			},
+			"offsets": {
+				"from": 38960,
+				"to": 47860
+			},
+			"text": " Burada bu ne işe yarıyor? Siz bunu Profil Photofesaire koyarsanız Instagram bunun E'ye olduğunu anlamakta anlıyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:47,860",
+				"to": "00:01:01,440"
+			},
+			"offsets": {
+				"from": 47860,
+				"to": 61440
+			},
+			"text": " Hemen küçük bir test edelim. İsterseniz buraya gemine geliyorum. Nostekliğinde burada gördüğünüz gibi bir süre bizim nano bananayla üretilmiş fotoğrafımız var."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:01,440",
+				"to": "00:01:25,220"
+			},
+			"offsets": {
+				"from": 61440,
+				"to": 85220
+			},
+			"text": " Hemen mesela şunu koyuyorum, diyorum ki bunun içerisinde sin taydiye var mı, bir kontrol et diyorum. Ananız ediyor. Gördüğünüz gibi bu resmini ya çoğunun ya da büyük bir kısmı Google eğerleriyle oluşurumuşturduyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:25,220",
+				"to": "00:01:44,180"
+			},
+			"offsets": {
+				"from": 85220,
+				"to": 104180
+			},
+			"text": " Tabii biz bunu Metadatası'nı silmemiz de işe yaramaz mesela bunu ben direkt eses alayım. Eses aldığımız zaman dosya tamamen değişiyor. Fakti bir fotoğraf yükliyormuş gibi olacağım. Eses aldığım fotoğrafı buraya yükliyorum. Genayını soruyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:51,920",
+				"to": "00:01:59,000"
+			},
+			"offsets": {
+				"from": 111920,
+				"to": 119000
+			},
+			"text": " Gördüğünüz gibi bunda da yine Google eğer ile üretilmişleride de şimdi bununla silabiliriz. Hemen onu göstereyim."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:59,000",
+				"to": "00:02:11,200"
+			},
+			"offsets": {
+				"from": 119000,
+				"to": 131200
+			},
+			"text": " Öncelikle gitmemiz gereken yani Mordi nokta eğer. Bunun olayını tamamen ücretsiz ve kendi eğer modellerimizi bunun içerisinde çalıştırabiliyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:11,200",
+				"to": "00:02:25,920"
+			},
+			"offsets": {
+				"from": 131200,
+				"to": 145920
+			},
+			"text": " Buradaki konfü yaykısına geliyorum. Evet ilk kaç yıllığı zaman böyle bir ekran çıkıyor önümüzde hazır bir model geliyor. Yapmamız gereken şey yukarıdan artıya basıp yeni boş bir sayfa açıyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:25,920",
+				"to": "00:02:35,040"
+			},
+			"offsets": {
+				"from": 145920,
+				"to": 155040
+			},
+			"text": " Bir bu boş sayfa benim yüklenmiş oldum dosya'yı direkt kaydırıp koyuyoruz. Hemen buradan bunu kapatalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:35,040",
+				"to": "00:02:44,300"
+			},
+			"offsets": {
+				"from": 155040,
+				"to": 164300
+			},
+			"text": " Buradan bu dosya alıp, direkt bunu süre bırakıyorum ve bütün sistem buraya hazır bir şekilde gelmiş oluyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:44,300",
+				"to": "00:02:54,640"
+			},
+			"offsets": {
+				"from": 164300,
+				"to": 174640
+			},
+			"text": " Ondan sonra buradaki load image kısmına çöz fayal diyorum. Altı ikisi de çenek. Gerçi bir tanesine ayırsak güzel olur. Çünkü tesini yapabilirim."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:54,640",
+				"to": "00:02:57,120"
+			},
+			"offsets": {
+				"from": 174640,
+				"to": 177120
+			},
+			"text": " Mesela şuraya."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:57,120",
+				"to": "00:03:14,280"
+			},
+			"offsets": {
+				"from": 177120,
+				"to": 194280
+			},
+			"text": " Evet ayrıcığım o ücumu diyelim adına. Ondan sonra buraya tekrarla simptiyorum. Evet fotoğrafımız yüklendi buraya."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:14,280",
+				"to": "00:03:25,760"
+			},
+			"offsets": {
+				"from": 194280,
+				"to": 205760
+			},
+			"text": " Hemen buradan sağ üstte randıyorum ve sırayı giriyor. Tabii biz ücretsiz kullandığımız için ama ben hiç bu sırayanın çok uzun söylüğünü görmedim."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:25,760",
+				"to": "00:03:40,720"
+			},
+			"offsets": {
+				"from": 205760,
+				"to": 220720
+			},
+			"text": " Burada hep şey diyor ama işlemciler meşgul hani proplanalı daha rızı olması için ama yine böyle bir otuz sayı ne yapan süre genelde aynen gördüğünüz gibi neredeyse bitti bile."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:40,720",
+				"to": "00:03:44,240"
+			},
+			"offsets": {
+				"from": 220720,
+				"to": 224240
+			},
+			"text": " Tamamız, oluşum tamamlandı burada gördüğünüz gibi."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:44,240",
+				"to": "00:03:56,320"
+			},
+			"offsets": {
+				"from": 224240,
+				"to": 236320
+			},
+			"text": " Buna şimdi saat diyorum buradan save image diyorum ve buraya indiriyor. Şimdi ben bunu tekrardan Cemine yatıp soracağım içerisinde var mı? Tekrardan bir baksın."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:11,760",
+				"to": "00:04:20,600"
+			},
+			"offsets": {
+				"from": 251760,
+				"to": 260600
+			},
+			"text": " Evet gördüğünüz gibi bu resim Google ayı ile yapılmamıştır. Başka beyayı varsa orasının ben bilemem diyor ama benim eyleyeyim değil diyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:20,600",
+				"to": "00:04:23,560"
+			},
+			"offsets": {
+				"from": 260600,
+				"to": 263560
+			},
+			"text": " Ve gördüğünüz gibi tamamen aynı fotoğraf."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:23,560",
+				"to": "00:04:36,160"
+			},
+			"offsets": {
+				"from": 263560,
+				"to": 276160
+			},
+			"text": " Şimdi bu aslında sadece fotoğraflar için geçerli bir şey. Siz videoyu yaptığınız zaman zaten piksaller hareket edecek için bu ay imzası da ortadan kalkacaktır."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:36,160",
+				"to": "00:04:43,760"
+			},
+			"offsets": {
+				"from": 276160,
+				"to": 283760
+			},
+			"text": " O yüzden videolar için ve sahre bunu yapmanızı gerek yok. Sadece kullanacağınız profil fotoğraflar için bunu yapmanız yeterlidir."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:43,760",
+				"to": "00:04:50,960"
+			},
+			"offsets": {
+				"from": 283760,
+				"to": 290960
+			},
+			"text": " Burada şöyle de bu olay var. Profil fotoğrafı için direkt bu fotoğrafı kullanmanızı tavsiye etmiyorum. Neden?"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:50,960",
+				"to": "00:05:03,200"
+			},
+			"offsets": {
+				"from": 290960,
+				"to": 303200
+			},
+			"text": " Çünkü bu tarz fotoğrafların içerisinde metadatalar var. Metadada dediğimiz şey ise herhangi bir hiksivetten oluşturulmuş bir fotoğrafın bilgilerine baktığım zaman."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:03,200",
+				"to": "00:05:14,520"
+			},
+			"offsets": {
+				"from": 303200,
+				"to": 314520
+			},
+			"text": " Burada diyor ki bu fotoğrafı hiksivetten üretilmiştir. Yani siz bunu Instagram'a yükleyip fotoğraf olarak paylaşırsanız otomatik olarak orada yukarıda eeysin birisi çıkacaktır."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:14,520",
+				"to": "00:05:21,520"
+			},
+			"offsets": {
+				"from": 314520,
+				"to": 321520
+			},
+			"text": " Ben bunu nasıl yapıyorum? Ben bunu önce kanla yatıyorum. Kanla'ya yükliyorum. Oradan kanmadan export alıp öyle paylaşıyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:21,520",
+				"to": "00:05:31,600"
+			},
+			"offsets": {
+				"from": 321520,
+				"to": 331600
+			},
+			"text": " Yani bu sayede hiksif yıldın kendi imzası kalmış oluyor ve kanma nemzası oluyor orada ve kanma nemzası olması sorun teşkil etmiyorum."
+		}
+	]
+}

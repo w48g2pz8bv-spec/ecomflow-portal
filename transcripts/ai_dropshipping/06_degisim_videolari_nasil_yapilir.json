@@ -1,0 +1,9239 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:04,200"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 4200
+			},
+			"text": " Tamamdır. Şimdi ürünümüz bu arkadaşlar. Şimdi bu ne işe veriyor?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,200",
+				"to": "00:00:10,940"
+			},
+			"offsets": {
+				"from": 4200,
+				"to": 10940
+			},
+			"text": " Bunu taktığımız zaman ısıverip, sizi böyle tarlattiğine ve kilo verdediğini iddia."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,940",
+				"to": "00:00:13,680"
+			},
+			"offsets": {
+				"from": 10940,
+				"to": 13680
+			},
+			"text": " Düğüne kadar çalışıyordur emin değilim."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,680",
+				"to": "00:00:19,820"
+			},
+			"offsets": {
+				"from": 13680,
+				"to": 19820
+			},
+			"text": " Ama anamante de ürünümüz bozaten bu tarz ürünler için hafif kilo bir karakter oluşurmuştuk."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,820",
+				"to": "00:00:27,020"
+			},
+			"offsets": {
+				"from": 19820,
+				"to": 27020
+			},
+			"text": " Şimdi bu çok uygun bir ürün bizim modelimize de öncelikle ben bunun fotoğrafına indiriyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,860",
+				"to": "00:00:31,320"
+			},
+			"offsets": {
+				"from": 27860,
+				"to": 31320
+			},
+			"text": " Ondan sonra, Hixif yıldaçı bir resim kısımına geliyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:31,320",
+				"to": "00:00:36,880"
+			},
+			"offsets": {
+				"from": 31320,
+				"to": 36880
+			},
+			"text": " Buradan kendi fotoğrafımı seçiyorum tekrardan, kendi ürün fotoğrafımı."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:36,880",
+				"to": "00:00:38,500"
+			},
+			"offsets": {
+				"from": 36880,
+				"to": 38500
+			},
+			"text": " Ondan sonra diyorum ki,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:38,500",
+				"to": "00:00:45,620"
+			},
+			"offsets": {
+				"from": 38500,
+				"to": 45620
+			},
+			"text": " \"Generet mi, animich of this product on playing white background?\" diyelim. İkiden oluşursun."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:45,620",
+				"to": "00:00:49,980"
+			},
+			"offsets": {
+				"from": 45620,
+				"to": 49980
+			},
+			"text": " Şimdi bu fotoğraf gördüğünüz gibi hani yazılar var, şey eller tutuyor falan."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:49,980",
+				"to": "00:00:52,980"
+			},
+			"offsets": {
+				"from": 49980,
+				"to": 52980
+			},
+			"text": " Dedim ki, düz beyaz bir ürün fotoğrafı istiyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:52,980",
+				"to": "00:00:56,120"
+			},
+			"offsets": {
+				"from": 52980,
+				"to": 56120
+			},
+			"text": " Hani bu ürün fotoğrafın referans olarak kullanılmıyorlar da."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:56,120",
+				"to": "00:01:01,720"
+			},
+			"offsets": {
+				"from": 56120,
+				"to": 61720
+			},
+			"text": " Eğer aldığımız ve hepsi de o tarz bir fotoğraf varsa direk onu kullanabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:01,720",
+				"to": "00:01:06,760"
+			},
+			"offsets": {
+				"from": 61720,
+				"to": 66760
+			},
+			"text": " Ben temiz bir fotoğraf olmadığı için bir tane boş temiz bir fotoğraf olsun diye."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:06,760",
+				"to": "00:01:09,300"
+			},
+			"offsets": {
+				"from": 66760,
+				"to": 69300
+			},
+			"text": " Bu tarz bir fotoğraf oluşururum şu anda."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:09,300",
+				"to": "00:01:11,160"
+			},
+			"offsets": {
+				"from": 69300,
+				"to": 71160
+			},
+			"text": " Fotoğrafları oluşuyordu."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:11,160",
+				"to": "00:01:15,940"
+			},
+			"offsets": {
+				"from": 71160,
+				"to": 75940
+			},
+			"text": " Ben bunu kullanacağım. Neden? Çünkü bu çok kalıp gibi duruyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:15,940",
+				"to": "00:01:20,320"
+			},
+			"offsets": {
+				"from": 75940,
+				"to": 80320
+			},
+			"text": " Hani ben bunu demek istiyorum ki şey eline alsın esnetsin vesaire."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:20,320",
+				"to": "00:01:24,740"
+			},
+			"offsets": {
+				"from": 80320,
+				"to": 84740
+			},
+			"text": " Hani bu tarz bir fotoğraf koyarsam tam olarak ürün yapısını anlamayabilir."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:24,740",
+				"to": "00:01:29,600"
+			},
+			"offsets": {
+				"from": 84740,
+				"to": 89600
+			},
+			"text": " İlk başta o yüzden ilk direk felans fotoğrafı olarak bunu kullanay olacağım."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:29,600",
+				"to": "00:01:34,160"
+			},
+			"offsets": {
+				"from": 89600,
+				"to": 94160
+			},
+			"text": " Zaten bizim karakterimiz hazırdı. Bunun fotoğrafında tekrardan indirelim."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:34,160",
+				"to": "00:01:37,220"
+			},
+			"offsets": {
+				"from": 94160,
+				"to": 97220
+			},
+			"text": " Ondan sonra şimdi süper kompütüre geçiyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:37,220",
+				"to": "00:01:44,180"
+			},
+			"offsets": {
+				"from": 97220,
+				"to": 104180
+			},
+			"text": " Ve bu indirmiş olduğum fotoğrafları buna tekrardan büyüklüyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:44,180",
+				"to": "00:01:48,280"
+			},
+			"offsets": {
+				"from": 104180,
+				"to": 108280
+			},
+			"text": " Şimdi fotoğrafımızda ne var? Bir tane bizim karakterimiz, bir tane ürünümüz var."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:48,280",
+				"to": "00:01:53,520"
+			},
+			"offsets": {
+				"from": 108280,
+				"to": 113520
+			},
+			"text": " Bir de bize bir tane ortam lazım. Şimdi bu plajda olsa olmaz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:53,520",
+				"to": "00:01:58,600"
+			},
+			"offsets": {
+				"from": 113520,
+				"to": 118600
+			},
+			"text": " Tabi buraya şeyde yazabilirsiniz. İşte bir normal bir ev yatak odasında bunu gösteriyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:58,600",
+				"to": "00:02:00,180"
+			},
+			"offsets": {
+				"from": 118600,
+				"to": 120180
+			},
+			"text": " Tarz bir şey de diyebilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:00,180",
+				"to": "00:02:04,160"
+			},
+			"offsets": {
+				"from": 120180,
+				"to": 124160
+			},
+			"text": " Ama ben bu karakter oluşurumlu olayında da bahsettiğim gibi."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:04,160",
+				"to": "00:02:07,560"
+			},
+			"offsets": {
+				"from": 124160,
+				"to": 127560
+			},
+			"text": " Bu tarz evin oluşurduğu şeyleri ben çok fazla beğenmiyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:07,560",
+				"to": "00:02:11,080"
+			},
+			"offsets": {
+				"from": 127560,
+				"to": 131080
+			},
+			"text": " Ben her zaman gerçek bir efehanes fotoğrafı kullanma taraflarıyım."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:11,080",
+				"to": "00:02:15,120"
+			},
+			"offsets": {
+				"from": 131080,
+				"to": 135120
+			},
+			"text": " Onun için tekrardan bizim eski dostunuz. Pinteresi açıyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:15,120",
+				"to": "00:02:18,680"
+			},
+			"offsets": {
+				"from": 135120,
+				"to": 138680
+			},
+			"text": " Ve diyoruz ki, bir kız odası nasıl bulabilirim?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:18,680",
+				"to": "00:02:23,320"
+			},
+			"offsets": {
+				"from": 138680,
+				"to": 143320
+			},
+			"text": " Fit çek diyelim. Neden? Çünkü insanlar fit çekleri."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:23,320",
+				"to": "00:02:26,600"
+			},
+			"offsets": {
+				"from": 143320,
+				"to": 146600
+			},
+			"text": " Gerçekten böyle evlerimde yaparlar. Gördüğünüz gibi."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:26,600",
+				"to": "00:02:31,280"
+			},
+			"offsets": {
+				"from": 146600,
+				"to": 151280
+			},
+			"text": " Gerçek ev fotoğraflarını gördük. Mesela bu fotoğraf gayet güzel."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:31,280",
+				"to": "00:02:34,280"
+			},
+			"offsets": {
+				"from": 151280,
+				"to": 154280
+			},
+			"text": " Biraz daha araştırıp şu tarz fotoğraflar olabilir."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:34,280",
+				"to": "00:02:39,280"
+			},
+			"offsets": {
+				"from": 154280,
+				"to": 159280
+			},
+			"text": " Anamam. Tıkla arka pilamdeki evre bakıyorum. Mesela bak şu da çok güzelmiş."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:39,280",
+				"to": "00:02:41,420"
+			},
+			"offsets": {
+				"from": 159280,
+				"to": 161420
+			},
+			"text": " Aynen bunu alalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:41,420",
+				"to": "00:02:46,080"
+			},
+			"offsets": {
+				"from": 161420,
+				"to": 166080
+			},
+			"text": " Bunu ben kaydediyorum. Tekrardan..."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:46,080",
+				"to": "00:02:49,640"
+			},
+			"offsets": {
+				"from": 166080,
+				"to": 169640
+			},
+			"text": " Bunu daha çok beğendim. Bunu kaydedeyim."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:49,640",
+				"to": "00:02:56,680"
+			},
+			"offsets": {
+				"from": 169640,
+				"to": 176680
+			},
+			"text": " Ne kadar bakarsak, o kadar güzel seçenikler göreceğiz. O yüzden çok fazla bakmadan bir tanesinde kararıklıyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:56,680",
+				"to": "00:03:03,960"
+			},
+			"offsets": {
+				"from": 176680,
+				"to": 183960
+			},
+			"text": " Ondan sonra ben bunu tekrardan resim yerine götürüyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:03,960",
+				"to": "00:03:06,960"
+			},
+			"offsets": {
+				"from": 183960,
+				"to": 186960
+			},
+			"text": " Bu iletim yüklediğimiz..."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:06,960",
+				"to": "00:03:08,720"
+			},
+			"offsets": {
+				"from": 186960,
+				"to": 188720
+			},
+			"text": " Seşimiz fotoğrafı. Aynen."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:08,720",
+				"to": "00:03:13,100"
+			},
+			"offsets": {
+				"from": 188720,
+				"to": 193100
+			},
+			"text": " Görüm ki, Limu vs."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:13,100",
+				"to": "00:03:17,680"
+			},
+			"offsets": {
+				"from": 193100,
+				"to": 197680
+			},
+			"text": " Bunu da bir silsin. Bana sadece boş bir arka pilam varız."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:17,680",
+				"to": "00:03:25,720"
+			},
+			"offsets": {
+				"from": 197680,
+				"to": 205720
+			},
+			"text": " Gerçek yazı da varmış yazıyı da silmesini söyleseydeki iyi olurdu ama bakalım belki yazıyı da silah."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:25,720",
+				"to": "00:03:30,440"
+			},
+			"offsets": {
+				"from": 205720,
+				"to": 210440
+			},
+			"text": " Gördüğünüz gibi fotoğrafların bir tanesinde yazıyı sildi, bir tanesinde silmedi."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:30,440",
+				"to": "00:03:34,640"
+			},
+			"offsets": {
+				"from": 210440,
+				"to": 214640
+			},
+			"text": " Bu yüzden ben çoklu üretmeyi her seferinde tavsiye ediyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:34,640",
+				"to": "00:03:36,480"
+			},
+			"offsets": {
+				"from": 214640,
+				"to": 216480
+			},
+			"text": " Yani bir tanı üretmek yerine."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:36,480",
+				"to": "00:03:43,120"
+			},
+			"offsets": {
+				"from": 216480,
+				"to": 223120
+			},
+			"text": " Birkaç tanı üretirsiniz. Gerçekten aralarından en iyisini seçebilirsiniz mesela burada da yaşadıkansın bu kadar yaşıyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:43,120",
+				"to": "00:03:49,200"
+			},
+			"offsets": {
+				"from": 223120,
+				"to": 229200
+			},
+			"text": " O yüzden ben şimdi bu oda fotoğrafını da indiriyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:49,200",
+				"to": "00:03:53,080"
+			},
+			"offsets": {
+				"from": 229200,
+				"to": 233080
+			},
+			"text": " Gelelim bizim süper komputura odamızı da atalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:53,080",
+				"to": "00:03:55,000"
+			},
+			"offsets": {
+				"from": 233080,
+				"to": 235000
+			},
+			"text": " Nasıl bir prompt yazalım?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:55,000",
+				"to": "00:03:59,240"
+			},
+			"offsets": {
+				"from": 235000,
+				"to": 239240
+			},
+			"text": " Diyelim ki, ikinci fotoğrafdaki karakteri, üçüncü fotoğrafdaki odaya koy."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:59,240",
+				"to": "00:04:05,920"
+			},
+			"offsets": {
+				"from": 239240,
+				"to": 245920
+			},
+			"text": " Ve ikinci karakterdeki fotoğraf birinci fotoğrafdaki ürünü tutacağım."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:05,920",
+				"to": "00:04:10,020"
+			},
+			"offsets": {
+				"from": 245920,
+				"to": 250020
+			},
+			"text": " \"Put the character\" demirin."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:10,020",
+				"to": "00:04:14,720"
+			},
+			"offsets": {
+				"from": 250020,
+				"to": 254720
+			},
+			"text": " \"Put the person in the image number 2\""
+		},
+		{
+			"timestamps": {
+				"from": "00:04:14,720",
+				"to": "00:04:17,920"
+			},
+			"offsets": {
+				"from": 254720,
+				"to": 257920
+			},
+			"text": " \"In the room in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:04:17,920",
+				"to": "00:04:22,920"
+			},
+			"offsets": {
+				"from": 257920,
+				"to": 262920
+			},
+			"text": " \"And make her hold the product in the image number 1\""
+		},
+		{
+			"timestamps": {
+				"from": "00:04:22,920",
+				"to": "00:04:25,220"
+			},
+			"offsets": {
+				"from": 262920,
+				"to": 265220
+			},
+			"text": " Alıp bir şeyle sakın karışık mı olur?"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:25,220",
+				"to": "00:04:28,220"
+			},
+			"offsets": {
+				"from": 265220,
+				"to": 268220
+			},
+			"text": " \"Put the person in the image number 2\""
+		},
+		{
+			"timestamps": {
+				"from": "00:04:28,220",
+				"to": "00:04:31,220"
+			},
+			"offsets": {
+				"from": 268220,
+				"to": 271220
+			},
+			"text": " Tabii bu reis şöyle yapabiliriz dedim gibi."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:31,220",
+				"to": "00:04:33,720"
+			},
+			"offsets": {
+				"from": 271220,
+				"to": 273720
+			},
+			"text": " Daha iyi anlaması için."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:33,720",
+				"to": "00:04:35,720"
+			},
+			"offsets": {
+				"from": 273720,
+				"to": 275720
+			},
+			"text": " Tamam."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:36,920",
+				"to": "00:04:41,920"
+			},
+			"offsets": {
+				"from": 276920,
+				"to": 281920
+			},
+			"text": " \"Put the room in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:04:41,920",
+				"to": "00:04:43,920"
+			},
+			"offsets": {
+				"from": 281920,
+				"to": 283920
+			},
+			"text": " \"Put the room in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:04:43,920",
+				"to": "00:04:45,920"
+			},
+			"offsets": {
+				"from": 283920,
+				"to": 285920
+			},
+			"text": " Böyle etik ettiyelim."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:45,920",
+				"to": "00:04:50,920"
+			},
+			"offsets": {
+				"from": 285920,
+				"to": 290920
+			},
+			"text": " \"And make her hold the product in the image number 1\""
+		},
+		{
+			"timestamps": {
+				"from": "00:04:51,920",
+				"to": "00:04:53,920"
+			},
+			"offsets": {
+				"from": 291920,
+				"to": 293920
+			},
+			"text": " \"Put the product in the image number 1\""
+		},
+		{
+			"timestamps": {
+				"from": "00:04:53,920",
+				"to": "00:04:55,920"
+			},
+			"offsets": {
+				"from": 293920,
+				"to": 295920
+			},
+			"text": " Şöyle product da etik ettiyelim."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:55,920",
+				"to": "00:04:59,920"
+			},
+			"offsets": {
+				"from": 295920,
+				"to": 299920
+			},
+			"text": " Dedim ki bu kişiyi \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:04:59,920",
+				"to": "00:05:05,920"
+			},
+			"offsets": {
+				"from": 299920,
+				"to": 305920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:05,920",
+				"to": "00:05:09,920"
+			},
+			"offsets": {
+				"from": 305920,
+				"to": 309920
+			},
+			"text": " \"Put the person in the image number 1\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:09,920",
+				"to": "00:05:13,920"
+			},
+			"offsets": {
+				"from": 309920,
+				"to": 313920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:13,920",
+				"to": "00:05:17,920"
+			},
+			"offsets": {
+				"from": 313920,
+				"to": 317920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:17,920",
+				"to": "00:05:21,920"
+			},
+			"offsets": {
+				"from": 317920,
+				"to": 321920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:21,920",
+				"to": "00:05:25,920"
+			},
+			"offsets": {
+				"from": 321920,
+				"to": 325920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:25,920",
+				"to": "00:05:28,920"
+			},
+			"offsets": {
+				"from": 325920,
+				"to": 328920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:28,920",
+				"to": "00:05:30,920"
+			},
+			"offsets": {
+				"from": 328920,
+				"to": 330920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:30,920",
+				"to": "00:05:32,920"
+			},
+			"offsets": {
+				"from": 330920,
+				"to": 332920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:32,920",
+				"to": "00:05:34,920"
+			},
+			"offsets": {
+				"from": 332920,
+				"to": 334920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:34,920",
+				"to": "00:05:36,920"
+			},
+			"offsets": {
+				"from": 334920,
+				"to": 336920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:36,920",
+				"to": "00:05:38,920"
+			},
+			"offsets": {
+				"from": 336920,
+				"to": 338920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:38,920",
+				"to": "00:05:40,920"
+			},
+			"offsets": {
+				"from": 338920,
+				"to": 340920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:40,920",
+				"to": "00:05:42,920"
+			},
+			"offsets": {
+				"from": 340920,
+				"to": 342920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:42,920",
+				"to": "00:05:44,920"
+			},
+			"offsets": {
+				"from": 342920,
+				"to": 344920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:44,920",
+				"to": "00:05:46,920"
+			},
+			"offsets": {
+				"from": 344920,
+				"to": 346920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:46,920",
+				"to": "00:05:48,920"
+			},
+			"offsets": {
+				"from": 346920,
+				"to": 348920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:48,920",
+				"to": "00:05:50,920"
+			},
+			"offsets": {
+				"from": 348920,
+				"to": 350920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:50,920",
+				"to": "00:05:52,920"
+			},
+			"offsets": {
+				"from": 350920,
+				"to": 352920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:52,920",
+				"to": "00:05:54,920"
+			},
+			"offsets": {
+				"from": 352920,
+				"to": 354920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:54,920",
+				"to": "00:05:56,920"
+			},
+			"offsets": {
+				"from": 354920,
+				"to": 356920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:56,920",
+				"to": "00:05:57,920"
+			},
+			"offsets": {
+				"from": 356920,
+				"to": 357920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:57,920",
+				"to": "00:05:59,920"
+			},
+			"offsets": {
+				"from": 357920,
+				"to": 359920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:05:59,920",
+				"to": "00:06:01,920"
+			},
+			"offsets": {
+				"from": 359920,
+				"to": 361920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:01,920",
+				"to": "00:06:03,920"
+			},
+			"offsets": {
+				"from": 361920,
+				"to": 363920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:03,920",
+				"to": "00:06:05,920"
+			},
+			"offsets": {
+				"from": 363920,
+				"to": 365920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:05,920",
+				"to": "00:06:07,920"
+			},
+			"offsets": {
+				"from": 365920,
+				"to": 367920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:07,920",
+				"to": "00:06:09,920"
+			},
+			"offsets": {
+				"from": 367920,
+				"to": 369920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:09,920",
+				"to": "00:06:11,920"
+			},
+			"offsets": {
+				"from": 369920,
+				"to": 371920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:11,920",
+				"to": "00:06:13,920"
+			},
+			"offsets": {
+				"from": 371920,
+				"to": 373920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:13,920",
+				"to": "00:06:15,920"
+			},
+			"offsets": {
+				"from": 373920,
+				"to": 375920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:15,920",
+				"to": "00:06:17,920"
+			},
+			"offsets": {
+				"from": 375920,
+				"to": 377920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:17,920",
+				"to": "00:06:19,920"
+			},
+			"offsets": {
+				"from": 377920,
+				"to": 379920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:19,920",
+				"to": "00:06:21,920"
+			},
+			"offsets": {
+				"from": 379920,
+				"to": 381920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:21,920",
+				"to": "00:06:23,920"
+			},
+			"offsets": {
+				"from": 381920,
+				"to": 383920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:23,920",
+				"to": "00:06:25,920"
+			},
+			"offsets": {
+				"from": 383920,
+				"to": 385920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:25,920",
+				"to": "00:06:27,920"
+			},
+			"offsets": {
+				"from": 385920,
+				"to": 387920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:27,920",
+				"to": "00:06:29,920"
+			},
+			"offsets": {
+				"from": 387920,
+				"to": 389920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:29,920",
+				"to": "00:06:31,920"
+			},
+			"offsets": {
+				"from": 389920,
+				"to": 391920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:31,920",
+				"to": "00:06:33,920"
+			},
+			"offsets": {
+				"from": 391920,
+				"to": 393920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:33,920",
+				"to": "00:06:35,920"
+			},
+			"offsets": {
+				"from": 393920,
+				"to": 395920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:35,920",
+				"to": "00:06:37,920"
+			},
+			"offsets": {
+				"from": 395920,
+				"to": 397920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:37,920",
+				"to": "00:06:39,920"
+			},
+			"offsets": {
+				"from": 397920,
+				"to": 399920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:39,920",
+				"to": "00:06:41,920"
+			},
+			"offsets": {
+				"from": 399920,
+				"to": 401920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:41,920",
+				"to": "00:06:43,920"
+			},
+			"offsets": {
+				"from": 401920,
+				"to": 403920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:43,920",
+				"to": "00:06:45,920"
+			},
+			"offsets": {
+				"from": 403920,
+				"to": 405920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:45,920",
+				"to": "00:06:47,920"
+			},
+			"offsets": {
+				"from": 405920,
+				"to": 407920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:47,920",
+				"to": "00:06:49,920"
+			},
+			"offsets": {
+				"from": 407920,
+				"to": 409920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:49,920",
+				"to": "00:06:51,920"
+			},
+			"offsets": {
+				"from": 409920,
+				"to": 411920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:51,920",
+				"to": "00:06:53,920"
+			},
+			"offsets": {
+				"from": 411920,
+				"to": 413920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:53,920",
+				"to": "00:06:55,920"
+			},
+			"offsets": {
+				"from": 413920,
+				"to": 415920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:55,920",
+				"to": "00:06:57,920"
+			},
+			"offsets": {
+				"from": 415920,
+				"to": 417920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:57,920",
+				"to": "00:06:59,920"
+			},
+			"offsets": {
+				"from": 417920,
+				"to": 419920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:06:59,920",
+				"to": "00:07:01,920"
+			},
+			"offsets": {
+				"from": 419920,
+				"to": 421920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:01,920",
+				"to": "00:07:03,920"
+			},
+			"offsets": {
+				"from": 421920,
+				"to": 423920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:03,920",
+				"to": "00:07:05,920"
+			},
+			"offsets": {
+				"from": 423920,
+				"to": 425920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:05,920",
+				"to": "00:07:07,920"
+			},
+			"offsets": {
+				"from": 425920,
+				"to": 427920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:07,920",
+				"to": "00:07:09,920"
+			},
+			"offsets": {
+				"from": 427920,
+				"to": 429920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:09,920",
+				"to": "00:07:11,920"
+			},
+			"offsets": {
+				"from": 429920,
+				"to": 431920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:11,920",
+				"to": "00:07:13,920"
+			},
+			"offsets": {
+				"from": 431920,
+				"to": 433920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:13,920",
+				"to": "00:07:15,920"
+			},
+			"offsets": {
+				"from": 433920,
+				"to": 435920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:15,920",
+				"to": "00:07:17,920"
+			},
+			"offsets": {
+				"from": 435920,
+				"to": 437920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:17,920",
+				"to": "00:07:19,920"
+			},
+			"offsets": {
+				"from": 437920,
+				"to": 439920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:19,920",
+				"to": "00:07:21,920"
+			},
+			"offsets": {
+				"from": 439920,
+				"to": 441920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:21,920",
+				"to": "00:07:23,920"
+			},
+			"offsets": {
+				"from": 441920,
+				"to": 443920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:23,920",
+				"to": "00:07:25,920"
+			},
+			"offsets": {
+				"from": 443920,
+				"to": 445920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:25,920",
+				"to": "00:07:27,920"
+			},
+			"offsets": {
+				"from": 445920,
+				"to": 447920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:27,920",
+				"to": "00:07:29,920"
+			},
+			"offsets": {
+				"from": 447920,
+				"to": 449920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:29,920",
+				"to": "00:07:31,920"
+			},
+			"offsets": {
+				"from": 449920,
+				"to": 451920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:31,920",
+				"to": "00:07:33,920"
+			},
+			"offsets": {
+				"from": 451920,
+				"to": 453920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:33,920",
+				"to": "00:07:35,920"
+			},
+			"offsets": {
+				"from": 453920,
+				"to": 455920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:35,920",
+				"to": "00:07:37,920"
+			},
+			"offsets": {
+				"from": 455920,
+				"to": 457920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:37,920",
+				"to": "00:07:39,920"
+			},
+			"offsets": {
+				"from": 457920,
+				"to": 459920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:39,920",
+				"to": "00:07:41,920"
+			},
+			"offsets": {
+				"from": 459920,
+				"to": 461920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:41,920",
+				"to": "00:07:43,920"
+			},
+			"offsets": {
+				"from": 461920,
+				"to": 463920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:43,920",
+				"to": "00:07:45,920"
+			},
+			"offsets": {
+				"from": 463920,
+				"to": 465920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:45,920",
+				"to": "00:07:47,920"
+			},
+			"offsets": {
+				"from": 465920,
+				"to": 467920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:47,920",
+				"to": "00:07:49,920"
+			},
+			"offsets": {
+				"from": 467920,
+				"to": 469920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:49,920",
+				"to": "00:07:51,920"
+			},
+			"offsets": {
+				"from": 469920,
+				"to": 471920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:51,920",
+				"to": "00:07:53,920"
+			},
+			"offsets": {
+				"from": 471920,
+				"to": 473920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:53,920",
+				"to": "00:07:55,920"
+			},
+			"offsets": {
+				"from": 473920,
+				"to": 475920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:55,920",
+				"to": "00:07:57,920"
+			},
+			"offsets": {
+				"from": 475920,
+				"to": 477920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:57,920",
+				"to": "00:07:59,920"
+			},
+			"offsets": {
+				"from": 477920,
+				"to": 479920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:07:59,920",
+				"to": "00:08:01,920"
+			},
+			"offsets": {
+				"from": 479920,
+				"to": 481920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:01,920",
+				"to": "00:08:03,920"
+			},
+			"offsets": {
+				"from": 481920,
+				"to": 483920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:03,920",
+				"to": "00:08:05,920"
+			},
+			"offsets": {
+				"from": 483920,
+				"to": 485920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:05,920",
+				"to": "00:08:07,920"
+			},
+			"offsets": {
+				"from": 485920,
+				"to": 487920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:07,920",
+				"to": "00:08:09,920"
+			},
+			"offsets": {
+				"from": 487920,
+				"to": 489920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:09,920",
+				"to": "00:08:11,920"
+			},
+			"offsets": {
+				"from": 489920,
+				"to": 491920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:11,920",
+				"to": "00:08:13,920"
+			},
+			"offsets": {
+				"from": 491920,
+				"to": 493920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:13,920",
+				"to": "00:08:15,920"
+			},
+			"offsets": {
+				"from": 493920,
+				"to": 495920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:15,920",
+				"to": "00:08:17,920"
+			},
+			"offsets": {
+				"from": 495920,
+				"to": 497920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:17,920",
+				"to": "00:08:19,920"
+			},
+			"offsets": {
+				"from": 497920,
+				"to": 499920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:19,920",
+				"to": "00:08:21,920"
+			},
+			"offsets": {
+				"from": 499920,
+				"to": 501920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:21,920",
+				"to": "00:08:23,920"
+			},
+			"offsets": {
+				"from": 501920,
+				"to": 503920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:23,920",
+				"to": "00:08:25,920"
+			},
+			"offsets": {
+				"from": 503920,
+				"to": 505920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:25,920",
+				"to": "00:08:27,920"
+			},
+			"offsets": {
+				"from": 505920,
+				"to": 507920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:27,920",
+				"to": "00:08:29,920"
+			},
+			"offsets": {
+				"from": 507920,
+				"to": 509920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:29,920",
+				"to": "00:08:31,920"
+			},
+			"offsets": {
+				"from": 509920,
+				"to": 511920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:31,920",
+				"to": "00:08:33,920"
+			},
+			"offsets": {
+				"from": 511920,
+				"to": 513920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:33,920",
+				"to": "00:08:35,920"
+			},
+			"offsets": {
+				"from": 513920,
+				"to": 515920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:35,920",
+				"to": "00:08:37,920"
+			},
+			"offsets": {
+				"from": 515920,
+				"to": 517920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:37,920",
+				"to": "00:08:39,920"
+			},
+			"offsets": {
+				"from": 517920,
+				"to": 519920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:39,920",
+				"to": "00:08:41,920"
+			},
+			"offsets": {
+				"from": 519920,
+				"to": 521920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:41,920",
+				"to": "00:08:43,920"
+			},
+			"offsets": {
+				"from": 521920,
+				"to": 523920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:43,920",
+				"to": "00:08:45,920"
+			},
+			"offsets": {
+				"from": 523920,
+				"to": 525920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:45,920",
+				"to": "00:08:47,920"
+			},
+			"offsets": {
+				"from": 525920,
+				"to": 527920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:47,920",
+				"to": "00:08:49,920"
+			},
+			"offsets": {
+				"from": 527920,
+				"to": 529920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:49,920",
+				"to": "00:08:51,920"
+			},
+			"offsets": {
+				"from": 529920,
+				"to": 531920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:51,920",
+				"to": "00:08:53,920"
+			},
+			"offsets": {
+				"from": 531920,
+				"to": 533920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:53,920",
+				"to": "00:08:55,920"
+			},
+			"offsets": {
+				"from": 533920,
+				"to": 535920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:55,920",
+				"to": "00:08:57,920"
+			},
+			"offsets": {
+				"from": 535920,
+				"to": 537920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:57,920",
+				"to": "00:08:59,920"
+			},
+			"offsets": {
+				"from": 537920,
+				"to": 539920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:08:59,920",
+				"to": "00:09:01,920"
+			},
+			"offsets": {
+				"from": 539920,
+				"to": 541920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:01,920",
+				"to": "00:09:03,920"
+			},
+			"offsets": {
+				"from": 541920,
+				"to": 543920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:03,920",
+				"to": "00:09:05,920"
+			},
+			"offsets": {
+				"from": 543920,
+				"to": 545920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:05,920",
+				"to": "00:09:07,920"
+			},
+			"offsets": {
+				"from": 545920,
+				"to": 547920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:07,920",
+				"to": "00:09:09,920"
+			},
+			"offsets": {
+				"from": 547920,
+				"to": 549920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:09,920",
+				"to": "00:09:11,920"
+			},
+			"offsets": {
+				"from": 549920,
+				"to": 551920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:11,920",
+				"to": "00:09:15,920"
+			},
+			"offsets": {
+				"from": 551920,
+				"to": 555920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:15,920",
+				"to": "00:09:17,920"
+			},
+			"offsets": {
+				"from": 555920,
+				"to": 557920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:17,920",
+				"to": "00:09:19,920"
+			},
+			"offsets": {
+				"from": 557920,
+				"to": 559920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:19,920",
+				"to": "00:09:21,920"
+			},
+			"offsets": {
+				"from": 559920,
+				"to": 561920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:21,920",
+				"to": "00:09:23,920"
+			},
+			"offsets": {
+				"from": 561920,
+				"to": 563920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:23,920",
+				"to": "00:09:25,920"
+			},
+			"offsets": {
+				"from": 563920,
+				"to": 565920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:25,920",
+				"to": "00:09:27,920"
+			},
+			"offsets": {
+				"from": 565920,
+				"to": 567920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:27,920",
+				"to": "00:09:29,920"
+			},
+			"offsets": {
+				"from": 567920,
+				"to": 569920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:29,920",
+				"to": "00:09:31,920"
+			},
+			"offsets": {
+				"from": 569920,
+				"to": 571920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:31,920",
+				"to": "00:09:33,920"
+			},
+			"offsets": {
+				"from": 571920,
+				"to": 573920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:33,920",
+				"to": "00:09:35,920"
+			},
+			"offsets": {
+				"from": 573920,
+				"to": 575920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:35,920",
+				"to": "00:09:37,920"
+			},
+			"offsets": {
+				"from": 575920,
+				"to": 577920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:37,920",
+				"to": "00:09:39,920"
+			},
+			"offsets": {
+				"from": 577920,
+				"to": 579920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:39,920",
+				"to": "00:09:41,920"
+			},
+			"offsets": {
+				"from": 579920,
+				"to": 581920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:41,920",
+				"to": "00:09:43,920"
+			},
+			"offsets": {
+				"from": 581920,
+				"to": 583920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:43,920",
+				"to": "00:09:45,920"
+			},
+			"offsets": {
+				"from": 583920,
+				"to": 585920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:45,920",
+				"to": "00:09:47,920"
+			},
+			"offsets": {
+				"from": 585920,
+				"to": 587920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:47,920",
+				"to": "00:09:49,920"
+			},
+			"offsets": {
+				"from": 587920,
+				"to": 589920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:49,920",
+				"to": "00:09:51,920"
+			},
+			"offsets": {
+				"from": 589920,
+				"to": 591920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:51,920",
+				"to": "00:09:53,920"
+			},
+			"offsets": {
+				"from": 591920,
+				"to": 593920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:53,920",
+				"to": "00:09:55,920"
+			},
+			"offsets": {
+				"from": 593920,
+				"to": 595920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:55,920",
+				"to": "00:09:57,920"
+			},
+			"offsets": {
+				"from": 595920,
+				"to": 597920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:57,920",
+				"to": "00:09:59,920"
+			},
+			"offsets": {
+				"from": 597920,
+				"to": 599920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:09:59,920",
+				"to": "00:10:01,920"
+			},
+			"offsets": {
+				"from": 599920,
+				"to": 601920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:01,920",
+				"to": "00:10:03,920"
+			},
+			"offsets": {
+				"from": 601920,
+				"to": 603920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:03,920",
+				"to": "00:10:05,920"
+			},
+			"offsets": {
+				"from": 603920,
+				"to": 605920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:05,920",
+				"to": "00:10:07,920"
+			},
+			"offsets": {
+				"from": 605920,
+				"to": 607920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:07,920",
+				"to": "00:10:08,920"
+			},
+			"offsets": {
+				"from": 607920,
+				"to": 608920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:08,920",
+				"to": "00:10:10,920"
+			},
+			"offsets": {
+				"from": 608920,
+				"to": 610920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:10,920",
+				"to": "00:10:12,920"
+			},
+			"offsets": {
+				"from": 610920,
+				"to": 612920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:12,920",
+				"to": "00:10:14,920"
+			},
+			"offsets": {
+				"from": 612920,
+				"to": 614920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:14,920",
+				"to": "00:10:16,920"
+			},
+			"offsets": {
+				"from": 614920,
+				"to": 616920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:16,920",
+				"to": "00:10:18,920"
+			},
+			"offsets": {
+				"from": 616920,
+				"to": 618920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:18,920",
+				"to": "00:10:20,920"
+			},
+			"offsets": {
+				"from": 618920,
+				"to": 620920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:20,920",
+				"to": "00:10:22,920"
+			},
+			"offsets": {
+				"from": 620920,
+				"to": 622920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:22,920",
+				"to": "00:10:24,920"
+			},
+			"offsets": {
+				"from": 622920,
+				"to": 624920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:24,920",
+				"to": "00:10:26,920"
+			},
+			"offsets": {
+				"from": 624920,
+				"to": 626920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:26,920",
+				"to": "00:10:28,920"
+			},
+			"offsets": {
+				"from": 626920,
+				"to": 628920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:28,920",
+				"to": "00:10:30,920"
+			},
+			"offsets": {
+				"from": 628920,
+				"to": 630920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:30,920",
+				"to": "00:10:32,920"
+			},
+			"offsets": {
+				"from": 630920,
+				"to": 632920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:32,920",
+				"to": "00:10:34,920"
+			},
+			"offsets": {
+				"from": 632920,
+				"to": 634920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:34,920",
+				"to": "00:10:36,920"
+			},
+			"offsets": {
+				"from": 634920,
+				"to": 636920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:36,920",
+				"to": "00:10:38,920"
+			},
+			"offsets": {
+				"from": 636920,
+				"to": 638920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:38,920",
+				"to": "00:10:40,920"
+			},
+			"offsets": {
+				"from": 638920,
+				"to": 640920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:40,920",
+				"to": "00:10:42,920"
+			},
+			"offsets": {
+				"from": 640920,
+				"to": 642920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:42,920",
+				"to": "00:10:44,920"
+			},
+			"offsets": {
+				"from": 642920,
+				"to": 644920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:44,920",
+				"to": "00:10:46,920"
+			},
+			"offsets": {
+				"from": 644920,
+				"to": 646920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:46,920",
+				"to": "00:10:48,920"
+			},
+			"offsets": {
+				"from": 646920,
+				"to": 648920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:48,920",
+				"to": "00:10:50,920"
+			},
+			"offsets": {
+				"from": 648920,
+				"to": 650920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:50,920",
+				"to": "00:10:52,920"
+			},
+			"offsets": {
+				"from": 650920,
+				"to": 652920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:52,920",
+				"to": "00:10:54,920"
+			},
+			"offsets": {
+				"from": 652920,
+				"to": 654920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:54,920",
+				"to": "00:10:56,920"
+			},
+			"offsets": {
+				"from": 654920,
+				"to": 656920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:56,920",
+				"to": "00:10:58,920"
+			},
+			"offsets": {
+				"from": 656920,
+				"to": 658920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:10:58,920",
+				"to": "00:11:00,920"
+			},
+			"offsets": {
+				"from": 658920,
+				"to": 660920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:00,920",
+				"to": "00:11:02,920"
+			},
+			"offsets": {
+				"from": 660920,
+				"to": 662920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:02,920",
+				"to": "00:11:04,920"
+			},
+			"offsets": {
+				"from": 662920,
+				"to": 664920
+			},
+			"text": " \"Put the person in the image number 3\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:04,920",
+				"to": "00:11:06,920"
+			},
+			"offsets": {
+				"from": 664920,
+				"to": 666920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:06,920",
+				"to": "00:11:08,920"
+			},
+			"offsets": {
+				"from": 666920,
+				"to": 668920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:08,920",
+				"to": "00:11:10,920"
+			},
+			"offsets": {
+				"from": 668920,
+				"to": 670920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:10,920",
+				"to": "00:11:12,920"
+			},
+			"offsets": {
+				"from": 670920,
+				"to": 672920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:12,920",
+				"to": "00:11:14,920"
+			},
+			"offsets": {
+				"from": 672920,
+				"to": 674920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:14,920",
+				"to": "00:11:16,920"
+			},
+			"offsets": {
+				"from": 674920,
+				"to": 676920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:16,920",
+				"to": "00:11:18,920"
+			},
+			"offsets": {
+				"from": 676920,
+				"to": 678920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:18,920",
+				"to": "00:11:20,920"
+			},
+			"offsets": {
+				"from": 678920,
+				"to": 680920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:20,920",
+				"to": "00:11:22,920"
+			},
+			"offsets": {
+				"from": 680920,
+				"to": 682920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:22,920",
+				"to": "00:11:24,920"
+			},
+			"offsets": {
+				"from": 682920,
+				"to": 684920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:24,920",
+				"to": "00:11:26,920"
+			},
+			"offsets": {
+				"from": 684920,
+				"to": 686920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:26,920",
+				"to": "00:11:28,920"
+			},
+			"offsets": {
+				"from": 686920,
+				"to": 688920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:28,920",
+				"to": "00:11:30,920"
+			},
+			"offsets": {
+				"from": 688920,
+				"to": 690920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:30,920",
+				"to": "00:11:32,920"
+			},
+			"offsets": {
+				"from": 690920,
+				"to": 692920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:32,920",
+				"to": "00:11:34,920"
+			},
+			"offsets": {
+				"from": 692920,
+				"to": 694920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:34,920",
+				"to": "00:11:36,920"
+			},
+			"offsets": {
+				"from": 694920,
+				"to": 696920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:36,920",
+				"to": "00:11:38,920"
+			},
+			"offsets": {
+				"from": 696920,
+				"to": 698920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:38,920",
+				"to": "00:11:40,920"
+			},
+			"offsets": {
+				"from": 698920,
+				"to": 700920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:40,920",
+				"to": "00:11:42,920"
+			},
+			"offsets": {
+				"from": 700920,
+				"to": 702920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:42,920",
+				"to": "00:11:44,920"
+			},
+			"offsets": {
+				"from": 702920,
+				"to": 704920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:44,920",
+				"to": "00:11:46,920"
+			},
+			"offsets": {
+				"from": 704920,
+				"to": 706920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:46,920",
+				"to": "00:11:48,920"
+			},
+			"offsets": {
+				"from": 706920,
+				"to": 708920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:48,920",
+				"to": "00:11:50,920"
+			},
+			"offsets": {
+				"from": 708920,
+				"to": 710920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:50,920",
+				"to": "00:11:52,920"
+			},
+			"offsets": {
+				"from": 710920,
+				"to": 712920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:52,920",
+				"to": "00:11:54,920"
+			},
+			"offsets": {
+				"from": 712920,
+				"to": 714920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:54,920",
+				"to": "00:11:56,920"
+			},
+			"offsets": {
+				"from": 714920,
+				"to": 716920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:56,920",
+				"to": "00:11:58,920"
+			},
+			"offsets": {
+				"from": 716920,
+				"to": 718920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:11:58,920",
+				"to": "00:12:00,920"
+			},
+			"offsets": {
+				"from": 718920,
+				"to": 720920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:00,920",
+				"to": "00:12:02,920"
+			},
+			"offsets": {
+				"from": 720920,
+				"to": 722920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:02,920",
+				"to": "00:12:04,920"
+			},
+			"offsets": {
+				"from": 722920,
+				"to": 724920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:04,920",
+				"to": "00:12:06,920"
+			},
+			"offsets": {
+				"from": 724920,
+				"to": 726920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:06,920",
+				"to": "00:12:08,920"
+			},
+			"offsets": {
+				"from": 726920,
+				"to": 728920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:08,920",
+				"to": "00:12:10,920"
+			},
+			"offsets": {
+				"from": 728920,
+				"to": 730920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:10,920",
+				"to": "00:12:12,920"
+			},
+			"offsets": {
+				"from": 730920,
+				"to": 732920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:12,920",
+				"to": "00:12:14,920"
+			},
+			"offsets": {
+				"from": 732920,
+				"to": 734920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:14,920",
+				"to": "00:12:16,920"
+			},
+			"offsets": {
+				"from": 734920,
+				"to": 736920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:16,920",
+				"to": "00:12:18,920"
+			},
+			"offsets": {
+				"from": 736920,
+				"to": 738920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:18,920",
+				"to": "00:12:20,920"
+			},
+			"offsets": {
+				"from": 738920,
+				"to": 740920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:20,920",
+				"to": "00:12:22,920"
+			},
+			"offsets": {
+				"from": 740920,
+				"to": 742920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:22,920",
+				"to": "00:12:24,920"
+			},
+			"offsets": {
+				"from": 742920,
+				"to": 744920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:24,920",
+				"to": "00:12:26,920"
+			},
+			"offsets": {
+				"from": 744920,
+				"to": 746920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:26,920",
+				"to": "00:12:28,920"
+			},
+			"offsets": {
+				"from": 746920,
+				"to": 748920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:28,920",
+				"to": "00:12:30,920"
+			},
+			"offsets": {
+				"from": 748920,
+				"to": 750920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:30,920",
+				"to": "00:12:32,920"
+			},
+			"offsets": {
+				"from": 750920,
+				"to": 752920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:32,920",
+				"to": "00:12:34,920"
+			},
+			"offsets": {
+				"from": 752920,
+				"to": 754920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:34,920",
+				"to": "00:12:36,920"
+			},
+			"offsets": {
+				"from": 754920,
+				"to": 756920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:36,920",
+				"to": "00:12:38,920"
+			},
+			"offsets": {
+				"from": 756920,
+				"to": 758920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:38,920",
+				"to": "00:12:40,920"
+			},
+			"offsets": {
+				"from": 758920,
+				"to": 760920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:40,920",
+				"to": "00:12:42,920"
+			},
+			"offsets": {
+				"from": 760920,
+				"to": 762920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:42,920",
+				"to": "00:12:44,920"
+			},
+			"offsets": {
+				"from": 762920,
+				"to": 764920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:44,920",
+				"to": "00:12:46,920"
+			},
+			"offsets": {
+				"from": 764920,
+				"to": 766920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:46,920",
+				"to": "00:12:48,920"
+			},
+			"offsets": {
+				"from": 766920,
+				"to": 768920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:48,920",
+				"to": "00:12:50,920"
+			},
+			"offsets": {
+				"from": 768920,
+				"to": 770920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:50,920",
+				"to": "00:12:52,920"
+			},
+			"offsets": {
+				"from": 770920,
+				"to": 772920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:52,920",
+				"to": "00:12:54,920"
+			},
+			"offsets": {
+				"from": 772920,
+				"to": 774920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:54,920",
+				"to": "00:12:58,920"
+			},
+			"offsets": {
+				"from": 774920,
+				"to": 778920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:12:58,920",
+				"to": "00:13:00,920"
+			},
+			"offsets": {
+				"from": 778920,
+				"to": 780920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:00,920",
+				"to": "00:13:02,920"
+			},
+			"offsets": {
+				"from": 780920,
+				"to": 782920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:02,920",
+				"to": "00:13:04,920"
+			},
+			"offsets": {
+				"from": 782920,
+				"to": 784920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:04,920",
+				"to": "00:13:06,920"
+			},
+			"offsets": {
+				"from": 784920,
+				"to": 786920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:06,920",
+				"to": "00:13:08,920"
+			},
+			"offsets": {
+				"from": 786920,
+				"to": 788920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:08,920",
+				"to": "00:13:10,920"
+			},
+			"offsets": {
+				"from": 788920,
+				"to": 790920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:10,920",
+				"to": "00:13:12,920"
+			},
+			"offsets": {
+				"from": 790920,
+				"to": 792920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:12,920",
+				"to": "00:13:14,920"
+			},
+			"offsets": {
+				"from": 792920,
+				"to": 794920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:14,920",
+				"to": "00:13:16,920"
+			},
+			"offsets": {
+				"from": 794920,
+				"to": 796920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:16,920",
+				"to": "00:13:18,920"
+			},
+			"offsets": {
+				"from": 796920,
+				"to": 798920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:18,920",
+				"to": "00:13:20,920"
+			},
+			"offsets": {
+				"from": 798920,
+				"to": 800920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:20,920",
+				"to": "00:13:22,920"
+			},
+			"offsets": {
+				"from": 800920,
+				"to": 802920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:22,920",
+				"to": "00:13:24,920"
+			},
+			"offsets": {
+				"from": 802920,
+				"to": 804920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:24,920",
+				"to": "00:13:26,920"
+			},
+			"offsets": {
+				"from": 804920,
+				"to": 806920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:26,920",
+				"to": "00:13:28,920"
+			},
+			"offsets": {
+				"from": 806920,
+				"to": 808920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:28,920",
+				"to": "00:13:30,920"
+			},
+			"offsets": {
+				"from": 808920,
+				"to": 810920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:30,920",
+				"to": "00:13:32,920"
+			},
+			"offsets": {
+				"from": 810920,
+				"to": 812920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:32,920",
+				"to": "00:13:34,920"
+			},
+			"offsets": {
+				"from": 812920,
+				"to": 814920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:34,920",
+				"to": "00:13:36,920"
+			},
+			"offsets": {
+				"from": 814920,
+				"to": 816920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:36,920",
+				"to": "00:13:38,920"
+			},
+			"offsets": {
+				"from": 816920,
+				"to": 818920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:38,920",
+				"to": "00:13:40,920"
+			},
+			"offsets": {
+				"from": 818920,
+				"to": 820920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:40,920",
+				"to": "00:13:42,920"
+			},
+			"offsets": {
+				"from": 820920,
+				"to": 822920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:42,920",
+				"to": "00:13:44,920"
+			},
+			"offsets": {
+				"from": 822920,
+				"to": 824920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:44,920",
+				"to": "00:13:46,920"
+			},
+			"offsets": {
+				"from": 824920,
+				"to": 826920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:46,920",
+				"to": "00:13:48,920"
+			},
+			"offsets": {
+				"from": 826920,
+				"to": 828920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:48,920",
+				"to": "00:13:50,920"
+			},
+			"offsets": {
+				"from": 828920,
+				"to": 830920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:50,920",
+				"to": "00:13:52,920"
+			},
+			"offsets": {
+				"from": 830920,
+				"to": 832920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:52,920",
+				"to": "00:13:54,920"
+			},
+			"offsets": {
+				"from": 832920,
+				"to": 834920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:54,920",
+				"to": "00:13:56,920"
+			},
+			"offsets": {
+				"from": 834920,
+				"to": 836920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:56,920",
+				"to": "00:13:58,920"
+			},
+			"offsets": {
+				"from": 836920,
+				"to": 838920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:13:58,920",
+				"to": "00:14:00,920"
+			},
+			"offsets": {
+				"from": 838920,
+				"to": 840920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:00,920",
+				"to": "00:14:02,920"
+			},
+			"offsets": {
+				"from": 840920,
+				"to": 842920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:02,920",
+				"to": "00:14:04,920"
+			},
+			"offsets": {
+				"from": 842920,
+				"to": 844920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:04,920",
+				"to": "00:14:06,920"
+			},
+			"offsets": {
+				"from": 844920,
+				"to": 846920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:06,920",
+				"to": "00:14:08,920"
+			},
+			"offsets": {
+				"from": 846920,
+				"to": 848920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:08,920",
+				"to": "00:14:10,920"
+			},
+			"offsets": {
+				"from": 848920,
+				"to": 850920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:10,920",
+				"to": "00:14:12,920"
+			},
+			"offsets": {
+				"from": 850920,
+				"to": 852920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:12,920",
+				"to": "00:14:14,920"
+			},
+			"offsets": {
+				"from": 852920,
+				"to": 854920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:14,920",
+				"to": "00:14:16,920"
+			},
+			"offsets": {
+				"from": 854920,
+				"to": 856920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:16,920",
+				"to": "00:14:18,920"
+			},
+			"offsets": {
+				"from": 856920,
+				"to": 858920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:18,920",
+				"to": "00:14:20,920"
+			},
+			"offsets": {
+				"from": 858920,
+				"to": 860920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:20,920",
+				"to": "00:14:22,920"
+			},
+			"offsets": {
+				"from": 860920,
+				"to": 862920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:22,920",
+				"to": "00:14:24,920"
+			},
+			"offsets": {
+				"from": 862920,
+				"to": 864920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:24,920",
+				"to": "00:14:26,920"
+			},
+			"offsets": {
+				"from": 864920,
+				"to": 866920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:26,920",
+				"to": "00:14:28,920"
+			},
+			"offsets": {
+				"from": 866920,
+				"to": 868920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:28,920",
+				"to": "00:14:30,920"
+			},
+			"offsets": {
+				"from": 868920,
+				"to": 870920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:30,920",
+				"to": "00:14:32,920"
+			},
+			"offsets": {
+				"from": 870920,
+				"to": 872920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:32,920",
+				"to": "00:14:34,920"
+			},
+			"offsets": {
+				"from": 872920,
+				"to": 874920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:34,920",
+				"to": "00:14:36,920"
+			},
+			"offsets": {
+				"from": 874920,
+				"to": 876920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:36,920",
+				"to": "00:14:38,920"
+			},
+			"offsets": {
+				"from": 876920,
+				"to": 878920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:38,920",
+				"to": "00:14:40,920"
+			},
+			"offsets": {
+				"from": 878920,
+				"to": 880920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:40,920",
+				"to": "00:14:42,920"
+			},
+			"offsets": {
+				"from": 880920,
+				"to": 882920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:42,920",
+				"to": "00:14:44,920"
+			},
+			"offsets": {
+				"from": 882920,
+				"to": 884920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:44,920",
+				"to": "00:14:46,920"
+			},
+			"offsets": {
+				"from": 884920,
+				"to": 886920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:46,920",
+				"to": "00:14:48,920"
+			},
+			"offsets": {
+				"from": 886920,
+				"to": 888920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:48,920",
+				"to": "00:14:50,920"
+			},
+			"offsets": {
+				"from": 888920,
+				"to": 890920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:50,920",
+				"to": "00:14:52,920"
+			},
+			"offsets": {
+				"from": 890920,
+				"to": 892920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:52,920",
+				"to": "00:14:54,920"
+			},
+			"offsets": {
+				"from": 892920,
+				"to": 894920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:54,920",
+				"to": "00:14:56,920"
+			},
+			"offsets": {
+				"from": 894920,
+				"to": 896920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:56,920",
+				"to": "00:14:58,920"
+			},
+			"offsets": {
+				"from": 896920,
+				"to": 898920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:14:58,920",
+				"to": "00:15:00,920"
+			},
+			"offsets": {
+				"from": 898920,
+				"to": 900920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:00,920",
+				"to": "00:15:02,920"
+			},
+			"offsets": {
+				"from": 900920,
+				"to": 902920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:02,920",
+				"to": "00:15:04,920"
+			},
+			"offsets": {
+				"from": 902920,
+				"to": 904920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:04,920",
+				"to": "00:15:06,920"
+			},
+			"offsets": {
+				"from": 904920,
+				"to": 906920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:06,920",
+				"to": "00:15:08,920"
+			},
+			"offsets": {
+				"from": 906920,
+				"to": 908920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:08,920",
+				"to": "00:15:10,920"
+			},
+			"offsets": {
+				"from": 908920,
+				"to": 910920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:10,920",
+				"to": "00:15:12,920"
+			},
+			"offsets": {
+				"from": 910920,
+				"to": 912920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:12,920",
+				"to": "00:15:14,920"
+			},
+			"offsets": {
+				"from": 912920,
+				"to": 914920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:14,920",
+				"to": "00:15:16,920"
+			},
+			"offsets": {
+				"from": 914920,
+				"to": 916920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:16,920",
+				"to": "00:15:18,920"
+			},
+			"offsets": {
+				"from": 916920,
+				"to": 918920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:18,920",
+				"to": "00:15:20,920"
+			},
+			"offsets": {
+				"from": 918920,
+				"to": 920920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:20,920",
+				"to": "00:15:22,920"
+			},
+			"offsets": {
+				"from": 920920,
+				"to": 922920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:22,920",
+				"to": "00:15:24,920"
+			},
+			"offsets": {
+				"from": 922920,
+				"to": 924920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:24,920",
+				"to": "00:15:26,920"
+			},
+			"offsets": {
+				"from": 924920,
+				"to": 926920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:26,920",
+				"to": "00:15:28,920"
+			},
+			"offsets": {
+				"from": 926920,
+				"to": 928920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:28,920",
+				"to": "00:15:30,920"
+			},
+			"offsets": {
+				"from": 928920,
+				"to": 930920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:30,920",
+				"to": "00:15:32,920"
+			},
+			"offsets": {
+				"from": 930920,
+				"to": 932920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:32,920",
+				"to": "00:15:34,920"
+			},
+			"offsets": {
+				"from": 932920,
+				"to": 934920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:34,920",
+				"to": "00:15:36,920"
+			},
+			"offsets": {
+				"from": 934920,
+				"to": 936920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:36,920",
+				"to": "00:15:38,920"
+			},
+			"offsets": {
+				"from": 936920,
+				"to": 938920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:38,920",
+				"to": "00:15:40,920"
+			},
+			"offsets": {
+				"from": 938920,
+				"to": 940920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:40,920",
+				"to": "00:15:42,920"
+			},
+			"offsets": {
+				"from": 940920,
+				"to": 942920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:42,920",
+				"to": "00:15:44,920"
+			},
+			"offsets": {
+				"from": 942920,
+				"to": 944920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:44,920",
+				"to": "00:15:46,920"
+			},
+			"offsets": {
+				"from": 944920,
+				"to": 946920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:46,920",
+				"to": "00:15:48,920"
+			},
+			"offsets": {
+				"from": 946920,
+				"to": 948920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:48,920",
+				"to": "00:15:50,920"
+			},
+			"offsets": {
+				"from": 948920,
+				"to": 950920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:50,920",
+				"to": "00:15:52,920"
+			},
+			"offsets": {
+				"from": 950920,
+				"to": 952920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:52,920",
+				"to": "00:15:54,920"
+			},
+			"offsets": {
+				"from": 952920,
+				"to": 954920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:54,920",
+				"to": "00:15:56,920"
+			},
+			"offsets": {
+				"from": 954920,
+				"to": 956920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:56,920",
+				"to": "00:15:58,920"
+			},
+			"offsets": {
+				"from": 956920,
+				"to": 958920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:15:58,920",
+				"to": "00:16:00,920"
+			},
+			"offsets": {
+				"from": 958920,
+				"to": 960920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:00,920",
+				"to": "00:16:02,920"
+			},
+			"offsets": {
+				"from": 960920,
+				"to": 962920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:02,920",
+				"to": "00:16:04,920"
+			},
+			"offsets": {
+				"from": 962920,
+				"to": 964920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:04,920",
+				"to": "00:16:06,920"
+			},
+			"offsets": {
+				"from": 964920,
+				"to": 966920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:06,920",
+				"to": "00:16:08,920"
+			},
+			"offsets": {
+				"from": 966920,
+				"to": 968920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:08,920",
+				"to": "00:16:10,920"
+			},
+			"offsets": {
+				"from": 968920,
+				"to": 970920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:10,920",
+				"to": "00:16:12,920"
+			},
+			"offsets": {
+				"from": 970920,
+				"to": 972920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:12,920",
+				"to": "00:16:14,920"
+			},
+			"offsets": {
+				"from": 972920,
+				"to": 974920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:14,920",
+				"to": "00:16:16,920"
+			},
+			"offsets": {
+				"from": 974920,
+				"to": 976920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:16,920",
+				"to": "00:16:18,920"
+			},
+			"offsets": {
+				"from": 976920,
+				"to": 978920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:18,920",
+				"to": "00:16:20,920"
+			},
+			"offsets": {
+				"from": 978920,
+				"to": 980920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:20,920",
+				"to": "00:16:22,920"
+			},
+			"offsets": {
+				"from": 980920,
+				"to": 982920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:22,920",
+				"to": "00:16:24,920"
+			},
+			"offsets": {
+				"from": 982920,
+				"to": 984920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:24,920",
+				"to": "00:16:26,920"
+			},
+			"offsets": {
+				"from": 984920,
+				"to": 986920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:26,920",
+				"to": "00:16:28,920"
+			},
+			"offsets": {
+				"from": 986920,
+				"to": 988920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:28,920",
+				"to": "00:16:30,920"
+			},
+			"offsets": {
+				"from": 988920,
+				"to": 990920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:30,920",
+				"to": "00:16:32,920"
+			},
+			"offsets": {
+				"from": 990920,
+				"to": 992920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:32,920",
+				"to": "00:16:34,920"
+			},
+			"offsets": {
+				"from": 992920,
+				"to": 994920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:34,920",
+				"to": "00:16:36,920"
+			},
+			"offsets": {
+				"from": 994920,
+				"to": 996920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:36,920",
+				"to": "00:16:38,920"
+			},
+			"offsets": {
+				"from": 996920,
+				"to": 998920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:38,920",
+				"to": "00:16:40,920"
+			},
+			"offsets": {
+				"from": 998920,
+				"to": 1000920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:16:40,920",
+				"to": "00:17:08,920"
+			},
+			"offsets": {
+				"from": 1000920,
+				"to": 1028920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:08,920",
+				"to": "00:17:10,920"
+			},
+			"offsets": {
+				"from": 1028920,
+				"to": 1030920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:10,920",
+				"to": "00:17:12,920"
+			},
+			"offsets": {
+				"from": 1030920,
+				"to": 1032920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:12,920",
+				"to": "00:17:14,920"
+			},
+			"offsets": {
+				"from": 1032920,
+				"to": 1034920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:14,920",
+				"to": "00:17:16,920"
+			},
+			"offsets": {
+				"from": 1034920,
+				"to": 1036920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:16,920",
+				"to": "00:17:18,920"
+			},
+			"offsets": {
+				"from": 1036920,
+				"to": 1038920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:18,920",
+				"to": "00:17:20,920"
+			},
+			"offsets": {
+				"from": 1038920,
+				"to": 1040920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:20,920",
+				"to": "00:17:22,920"
+			},
+			"offsets": {
+				"from": 1040920,
+				"to": 1042920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:22,920",
+				"to": "00:17:24,920"
+			},
+			"offsets": {
+				"from": 1042920,
+				"to": 1044920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:24,920",
+				"to": "00:17:26,920"
+			},
+			"offsets": {
+				"from": 1044920,
+				"to": 1046920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:26,920",
+				"to": "00:17:28,920"
+			},
+			"offsets": {
+				"from": 1046920,
+				"to": 1048920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:28,920",
+				"to": "00:17:30,920"
+			},
+			"offsets": {
+				"from": 1048920,
+				"to": 1050920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:30,920",
+				"to": "00:17:32,920"
+			},
+			"offsets": {
+				"from": 1050920,
+				"to": 1052920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:32,920",
+				"to": "00:17:34,920"
+			},
+			"offsets": {
+				"from": 1052920,
+				"to": 1054920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:34,920",
+				"to": "00:17:36,920"
+			},
+			"offsets": {
+				"from": 1054920,
+				"to": 1056920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:36,920",
+				"to": "00:17:38,920"
+			},
+			"offsets": {
+				"from": 1056920,
+				"to": 1058920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:38,920",
+				"to": "00:17:40,920"
+			},
+			"offsets": {
+				"from": 1058920,
+				"to": 1060920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:40,920",
+				"to": "00:17:42,920"
+			},
+			"offsets": {
+				"from": 1060920,
+				"to": 1062920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:42,920",
+				"to": "00:17:44,920"
+			},
+			"offsets": {
+				"from": 1062920,
+				"to": 1064920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:44,920",
+				"to": "00:17:46,920"
+			},
+			"offsets": {
+				"from": 1064920,
+				"to": 1066920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:46,920",
+				"to": "00:17:48,920"
+			},
+			"offsets": {
+				"from": 1066920,
+				"to": 1068920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:48,920",
+				"to": "00:17:50,920"
+			},
+			"offsets": {
+				"from": 1068920,
+				"to": 1070920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:50,920",
+				"to": "00:17:52,920"
+			},
+			"offsets": {
+				"from": 1070920,
+				"to": 1072920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:52,920",
+				"to": "00:17:54,920"
+			},
+			"offsets": {
+				"from": 1072920,
+				"to": 1074920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:54,920",
+				"to": "00:17:56,920"
+			},
+			"offsets": {
+				"from": 1074920,
+				"to": 1076920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:56,920",
+				"to": "00:17:58,920"
+			},
+			"offsets": {
+				"from": 1076920,
+				"to": 1078920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:17:58,920",
+				"to": "00:18:00,920"
+			},
+			"offsets": {
+				"from": 1078920,
+				"to": 1080920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:00,920",
+				"to": "00:18:02,920"
+			},
+			"offsets": {
+				"from": 1080920,
+				"to": 1082920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:02,920",
+				"to": "00:18:04,920"
+			},
+			"offsets": {
+				"from": 1082920,
+				"to": 1084920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:04,920",
+				"to": "00:18:06,920"
+			},
+			"offsets": {
+				"from": 1084920,
+				"to": 1086920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:06,920",
+				"to": "00:18:08,920"
+			},
+			"offsets": {
+				"from": 1086920,
+				"to": 1088920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:08,920",
+				"to": "00:18:10,920"
+			},
+			"offsets": {
+				"from": 1088920,
+				"to": 1090920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:10,920",
+				"to": "00:18:12,920"
+			},
+			"offsets": {
+				"from": 1090920,
+				"to": 1092920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:12,920",
+				"to": "00:18:14,920"
+			},
+			"offsets": {
+				"from": 1092920,
+				"to": 1094920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:14,920",
+				"to": "00:18:16,920"
+			},
+			"offsets": {
+				"from": 1094920,
+				"to": 1096920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:16,920",
+				"to": "00:18:18,920"
+			},
+			"offsets": {
+				"from": 1096920,
+				"to": 1098920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:18,920",
+				"to": "00:18:20,920"
+			},
+			"offsets": {
+				"from": 1098920,
+				"to": 1100920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:20,920",
+				"to": "00:18:22,920"
+			},
+			"offsets": {
+				"from": 1100920,
+				"to": 1102920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:22,920",
+				"to": "00:18:24,920"
+			},
+			"offsets": {
+				"from": 1102920,
+				"to": 1104920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:24,920",
+				"to": "00:18:26,920"
+			},
+			"offsets": {
+				"from": 1104920,
+				"to": 1106920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:26,920",
+				"to": "00:18:28,920"
+			},
+			"offsets": {
+				"from": 1106920,
+				"to": 1108920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:28,920",
+				"to": "00:18:30,920"
+			},
+			"offsets": {
+				"from": 1108920,
+				"to": 1110920
+			},
+			"text": " \"Put the person in the image number 4\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:30,920",
+				"to": "00:18:34,920"
+			},
+			"offsets": {
+				"from": 1110920,
+				"to": 1114920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:34,920",
+				"to": "00:18:36,920"
+			},
+			"offsets": {
+				"from": 1114920,
+				"to": 1116920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:36,920",
+				"to": "00:18:38,920"
+			},
+			"offsets": {
+				"from": 1116920,
+				"to": 1118920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:38,920",
+				"to": "00:18:40,920"
+			},
+			"offsets": {
+				"from": 1118920,
+				"to": 1120920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:40,920",
+				"to": "00:18:42,920"
+			},
+			"offsets": {
+				"from": 1120920,
+				"to": 1122920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:42,920",
+				"to": "00:18:44,920"
+			},
+			"offsets": {
+				"from": 1122920,
+				"to": 1124920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:44,920",
+				"to": "00:18:46,920"
+			},
+			"offsets": {
+				"from": 1124920,
+				"to": 1126920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:46,920",
+				"to": "00:18:48,920"
+			},
+			"offsets": {
+				"from": 1126920,
+				"to": 1128920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:48,920",
+				"to": "00:18:50,920"
+			},
+			"offsets": {
+				"from": 1128920,
+				"to": 1130920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:50,920",
+				"to": "00:18:52,920"
+			},
+			"offsets": {
+				"from": 1130920,
+				"to": 1132920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:52,920",
+				"to": "00:18:54,920"
+			},
+			"offsets": {
+				"from": 1132920,
+				"to": 1134920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:54,920",
+				"to": "00:18:56,920"
+			},
+			"offsets": {
+				"from": 1134920,
+				"to": 1136920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:56,920",
+				"to": "00:18:58,920"
+			},
+			"offsets": {
+				"from": 1136920,
+				"to": 1138920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:18:58,920",
+				"to": "00:19:00,920"
+			},
+			"offsets": {
+				"from": 1138920,
+				"to": 1140920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:00,920",
+				"to": "00:19:02,920"
+			},
+			"offsets": {
+				"from": 1140920,
+				"to": 1142920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:02,920",
+				"to": "00:19:04,920"
+			},
+			"offsets": {
+				"from": 1142920,
+				"to": 1144920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:04,920",
+				"to": "00:19:06,920"
+			},
+			"offsets": {
+				"from": 1144920,
+				"to": 1146920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:06,920",
+				"to": "00:19:08,920"
+			},
+			"offsets": {
+				"from": 1146920,
+				"to": 1148920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:08,920",
+				"to": "00:19:10,920"
+			},
+			"offsets": {
+				"from": 1148920,
+				"to": 1150920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:10,920",
+				"to": "00:19:12,920"
+			},
+			"offsets": {
+				"from": 1150920,
+				"to": 1152920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:12,920",
+				"to": "00:19:14,920"
+			},
+			"offsets": {
+				"from": 1152920,
+				"to": 1154920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:14,920",
+				"to": "00:19:16,920"
+			},
+			"offsets": {
+				"from": 1154920,
+				"to": 1156920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:16,920",
+				"to": "00:19:18,920"
+			},
+			"offsets": {
+				"from": 1156920,
+				"to": 1158920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:18,920",
+				"to": "00:19:20,920"
+			},
+			"offsets": {
+				"from": 1158920,
+				"to": 1160920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:20,920",
+				"to": "00:19:22,920"
+			},
+			"offsets": {
+				"from": 1160920,
+				"to": 1162920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:22,920",
+				"to": "00:19:24,920"
+			},
+			"offsets": {
+				"from": 1162920,
+				"to": 1164920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:24,920",
+				"to": "00:19:26,920"
+			},
+			"offsets": {
+				"from": 1164920,
+				"to": 1166920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:26,920",
+				"to": "00:19:28,920"
+			},
+			"offsets": {
+				"from": 1166920,
+				"to": 1168920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:28,920",
+				"to": "00:19:30,920"
+			},
+			"offsets": {
+				"from": 1168920,
+				"to": 1170920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:30,920",
+				"to": "00:19:32,920"
+			},
+			"offsets": {
+				"from": 1170920,
+				"to": 1172920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:32,920",
+				"to": "00:19:34,920"
+			},
+			"offsets": {
+				"from": 1172920,
+				"to": 1174920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:34,920",
+				"to": "00:19:36,920"
+			},
+			"offsets": {
+				"from": 1174920,
+				"to": 1176920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:36,920",
+				"to": "00:19:38,920"
+			},
+			"offsets": {
+				"from": 1176920,
+				"to": 1178920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:38,920",
+				"to": "00:19:40,920"
+			},
+			"offsets": {
+				"from": 1178920,
+				"to": 1180920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:40,920",
+				"to": "00:19:42,920"
+			},
+			"offsets": {
+				"from": 1180920,
+				"to": 1182920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:42,920",
+				"to": "00:19:44,920"
+			},
+			"offsets": {
+				"from": 1182920,
+				"to": 1184920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:44,920",
+				"to": "00:19:46,920"
+			},
+			"offsets": {
+				"from": 1184920,
+				"to": 1186920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:46,920",
+				"to": "00:19:48,920"
+			},
+			"offsets": {
+				"from": 1186920,
+				"to": 1188920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:48,920",
+				"to": "00:19:50,920"
+			},
+			"offsets": {
+				"from": 1188920,
+				"to": 1190920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:50,920",
+				"to": "00:19:52,920"
+			},
+			"offsets": {
+				"from": 1190920,
+				"to": 1192920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:52,920",
+				"to": "00:19:54,920"
+			},
+			"offsets": {
+				"from": 1192920,
+				"to": 1194920
+			},
+			"text": " \"Put the person in the image number 7\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:54,920",
+				"to": "00:19:56,920"
+			},
+			"offsets": {
+				"from": 1194920,
+				"to": 1196920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:56,920",
+				"to": "00:19:58,920"
+			},
+			"offsets": {
+				"from": 1196920,
+				"to": 1198920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:19:58,920",
+				"to": "00:20:00,920"
+			},
+			"offsets": {
+				"from": 1198920,
+				"to": 1200920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:00,920",
+				"to": "00:20:02,920"
+			},
+			"offsets": {
+				"from": 1200920,
+				"to": 1202920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:02,920",
+				"to": "00:20:04,920"
+			},
+			"offsets": {
+				"from": 1202920,
+				"to": 1204920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:04,920",
+				"to": "00:20:06,920"
+			},
+			"offsets": {
+				"from": 1204920,
+				"to": 1206920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:06,920",
+				"to": "00:20:08,920"
+			},
+			"offsets": {
+				"from": 1206920,
+				"to": 1208920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:08,920",
+				"to": "00:20:10,920"
+			},
+			"offsets": {
+				"from": 1208920,
+				"to": 1210920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:10,920",
+				"to": "00:20:12,920"
+			},
+			"offsets": {
+				"from": 1210920,
+				"to": 1212920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:12,920",
+				"to": "00:20:14,920"
+			},
+			"offsets": {
+				"from": 1212920,
+				"to": 1214920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:14,920",
+				"to": "00:20:16,920"
+			},
+			"offsets": {
+				"from": 1214920,
+				"to": 1216920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:16,920",
+				"to": "00:20:18,920"
+			},
+			"offsets": {
+				"from": 1216920,
+				"to": 1218920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:18,920",
+				"to": "00:20:20,920"
+			},
+			"offsets": {
+				"from": 1218920,
+				"to": 1220920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:20,920",
+				"to": "00:20:22,920"
+			},
+			"offsets": {
+				"from": 1220920,
+				"to": 1222920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:22,920",
+				"to": "00:20:24,920"
+			},
+			"offsets": {
+				"from": 1222920,
+				"to": 1224920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:24,920",
+				"to": "00:20:26,920"
+			},
+			"offsets": {
+				"from": 1224920,
+				"to": 1226920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:26,920",
+				"to": "00:20:28,920"
+			},
+			"offsets": {
+				"from": 1226920,
+				"to": 1228920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:28,920",
+				"to": "00:20:30,920"
+			},
+			"offsets": {
+				"from": 1228920,
+				"to": 1230920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:30,920",
+				"to": "00:20:32,920"
+			},
+			"offsets": {
+				"from": 1230920,
+				"to": 1232920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:32,920",
+				"to": "00:20:34,920"
+			},
+			"offsets": {
+				"from": 1232920,
+				"to": 1234920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:34,920",
+				"to": "00:20:36,920"
+			},
+			"offsets": {
+				"from": 1234920,
+				"to": 1236920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:36,920",
+				"to": "00:20:38,920"
+			},
+			"offsets": {
+				"from": 1236920,
+				"to": 1238920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:38,920",
+				"to": "00:20:40,920"
+			},
+			"offsets": {
+				"from": 1238920,
+				"to": 1240920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:40,920",
+				"to": "00:20:42,920"
+			},
+			"offsets": {
+				"from": 1240920,
+				"to": 1242920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:42,920",
+				"to": "00:20:44,920"
+			},
+			"offsets": {
+				"from": 1242920,
+				"to": 1244920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:44,920",
+				"to": "00:20:46,920"
+			},
+			"offsets": {
+				"from": 1244920,
+				"to": 1246920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:46,920",
+				"to": "00:20:48,920"
+			},
+			"offsets": {
+				"from": 1246920,
+				"to": 1248920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:48,920",
+				"to": "00:20:50,920"
+			},
+			"offsets": {
+				"from": 1248920,
+				"to": 1250920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:50,920",
+				"to": "00:20:52,920"
+			},
+			"offsets": {
+				"from": 1250920,
+				"to": 1252920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:52,920",
+				"to": "00:20:54,920"
+			},
+			"offsets": {
+				"from": 1252920,
+				"to": 1254920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:54,920",
+				"to": "00:20:56,920"
+			},
+			"offsets": {
+				"from": 1254920,
+				"to": 1256920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:56,920",
+				"to": "00:20:58,920"
+			},
+			"offsets": {
+				"from": 1256920,
+				"to": 1258920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:20:58,920",
+				"to": "00:21:00,920"
+			},
+			"offsets": {
+				"from": 1258920,
+				"to": 1260920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:00,920",
+				"to": "00:21:02,920"
+			},
+			"offsets": {
+				"from": 1260920,
+				"to": 1262920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:02,920",
+				"to": "00:21:04,920"
+			},
+			"offsets": {
+				"from": 1262920,
+				"to": 1264920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:04,920",
+				"to": "00:21:06,920"
+			},
+			"offsets": {
+				"from": 1264920,
+				"to": 1266920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:06,920",
+				"to": "00:21:08,920"
+			},
+			"offsets": {
+				"from": 1266920,
+				"to": 1268920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:08,920",
+				"to": "00:21:10,920"
+			},
+			"offsets": {
+				"from": 1268920,
+				"to": 1270920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:10,920",
+				"to": "00:21:12,920"
+			},
+			"offsets": {
+				"from": 1270920,
+				"to": 1272920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:12,920",
+				"to": "00:21:14,920"
+			},
+			"offsets": {
+				"from": 1272920,
+				"to": 1274920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:14,920",
+				"to": "00:21:16,920"
+			},
+			"offsets": {
+				"from": 1274920,
+				"to": 1276920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:16,920",
+				"to": "00:21:18,920"
+			},
+			"offsets": {
+				"from": 1276920,
+				"to": 1278920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:18,920",
+				"to": "00:21:20,920"
+			},
+			"offsets": {
+				"from": 1278920,
+				"to": 1280920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:20,920",
+				"to": "00:21:22,920"
+			},
+			"offsets": {
+				"from": 1280920,
+				"to": 1282920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:22,920",
+				"to": "00:21:24,920"
+			},
+			"offsets": {
+				"from": 1282920,
+				"to": 1284920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:24,920",
+				"to": "00:21:26,920"
+			},
+			"offsets": {
+				"from": 1284920,
+				"to": 1286920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:26,920",
+				"to": "00:21:28,920"
+			},
+			"offsets": {
+				"from": 1286920,
+				"to": 1288920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:28,920",
+				"to": "00:21:30,920"
+			},
+			"offsets": {
+				"from": 1288920,
+				"to": 1290920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:30,920",
+				"to": "00:21:32,920"
+			},
+			"offsets": {
+				"from": 1290920,
+				"to": 1292920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:32,920",
+				"to": "00:21:34,920"
+			},
+			"offsets": {
+				"from": 1292920,
+				"to": 1294920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:34,920",
+				"to": "00:21:36,920"
+			},
+			"offsets": {
+				"from": 1294920,
+				"to": 1296920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:36,920",
+				"to": "00:21:38,920"
+			},
+			"offsets": {
+				"from": 1296920,
+				"to": 1298920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:38,920",
+				"to": "00:21:40,920"
+			},
+			"offsets": {
+				"from": 1298920,
+				"to": 1300920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:40,920",
+				"to": "00:21:42,920"
+			},
+			"offsets": {
+				"from": 1300920,
+				"to": 1302920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:42,920",
+				"to": "00:21:44,920"
+			},
+			"offsets": {
+				"from": 1302920,
+				"to": 1304920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:44,920",
+				"to": "00:21:46,920"
+			},
+			"offsets": {
+				"from": 1304920,
+				"to": 1306920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:46,920",
+				"to": "00:21:48,920"
+			},
+			"offsets": {
+				"from": 1306920,
+				"to": 1308920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:48,920",
+				"to": "00:21:50,920"
+			},
+			"offsets": {
+				"from": 1308920,
+				"to": 1310920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:50,920",
+				"to": "00:21:52,920"
+			},
+			"offsets": {
+				"from": 1310920,
+				"to": 1312920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:52,920",
+				"to": "00:21:54,920"
+			},
+			"offsets": {
+				"from": 1312920,
+				"to": 1314920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:54,920",
+				"to": "00:21:56,920"
+			},
+			"offsets": {
+				"from": 1314920,
+				"to": 1316920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:56,920",
+				"to": "00:21:58,920"
+			},
+			"offsets": {
+				"from": 1316920,
+				"to": 1318920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:21:58,920",
+				"to": "00:22:00,920"
+			},
+			"offsets": {
+				"from": 1318920,
+				"to": 1320920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:00,920",
+				"to": "00:22:02,920"
+			},
+			"offsets": {
+				"from": 1320920,
+				"to": 1322920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:02,920",
+				"to": "00:22:04,920"
+			},
+			"offsets": {
+				"from": 1322920,
+				"to": 1324920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:04,920",
+				"to": "00:22:06,920"
+			},
+			"offsets": {
+				"from": 1324920,
+				"to": 1326920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:06,920",
+				"to": "00:22:08,920"
+			},
+			"offsets": {
+				"from": 1326920,
+				"to": 1328920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:08,920",
+				"to": "00:22:10,920"
+			},
+			"offsets": {
+				"from": 1328920,
+				"to": 1330920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:10,920",
+				"to": "00:22:12,920"
+			},
+			"offsets": {
+				"from": 1330920,
+				"to": 1332920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:12,920",
+				"to": "00:22:14,920"
+			},
+			"offsets": {
+				"from": 1332920,
+				"to": 1334920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:14,920",
+				"to": "00:22:16,920"
+			},
+			"offsets": {
+				"from": 1334920,
+				"to": 1336920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:16,920",
+				"to": "00:22:18,920"
+			},
+			"offsets": {
+				"from": 1336920,
+				"to": 1338920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:18,920",
+				"to": "00:22:20,920"
+			},
+			"offsets": {
+				"from": 1338920,
+				"to": 1340920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:20,920",
+				"to": "00:22:22,920"
+			},
+			"offsets": {
+				"from": 1340920,
+				"to": 1342920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:22,920",
+				"to": "00:22:24,920"
+			},
+			"offsets": {
+				"from": 1342920,
+				"to": 1344920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:24,920",
+				"to": "00:22:26,920"
+			},
+			"offsets": {
+				"from": 1344920,
+				"to": 1346920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:26,920",
+				"to": "00:22:28,920"
+			},
+			"offsets": {
+				"from": 1346920,
+				"to": 1348920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:28,920",
+				"to": "00:22:30,920"
+			},
+			"offsets": {
+				"from": 1348920,
+				"to": 1350920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:30,920",
+				"to": "00:22:32,920"
+			},
+			"offsets": {
+				"from": 1350920,
+				"to": 1352920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:32,920",
+				"to": "00:22:34,920"
+			},
+			"offsets": {
+				"from": 1352920,
+				"to": 1354920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:34,920",
+				"to": "00:22:36,920"
+			},
+			"offsets": {
+				"from": 1354920,
+				"to": 1356920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:36,920",
+				"to": "00:22:38,920"
+			},
+			"offsets": {
+				"from": 1356920,
+				"to": 1358920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:38,920",
+				"to": "00:22:40,920"
+			},
+			"offsets": {
+				"from": 1358920,
+				"to": 1360920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:40,920",
+				"to": "00:22:42,920"
+			},
+			"offsets": {
+				"from": 1360920,
+				"to": 1362920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:42,920",
+				"to": "00:22:44,920"
+			},
+			"offsets": {
+				"from": 1362920,
+				"to": 1364920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:44,920",
+				"to": "00:22:46,920"
+			},
+			"offsets": {
+				"from": 1364920,
+				"to": 1366920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:46,920",
+				"to": "00:22:48,920"
+			},
+			"offsets": {
+				"from": 1366920,
+				"to": 1368920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:48,920",
+				"to": "00:22:50,920"
+			},
+			"offsets": {
+				"from": 1368920,
+				"to": 1370920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:50,920",
+				"to": "00:22:52,920"
+			},
+			"offsets": {
+				"from": 1370920,
+				"to": 1372920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:52,920",
+				"to": "00:22:54,920"
+			},
+			"offsets": {
+				"from": 1372920,
+				"to": 1374920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:54,920",
+				"to": "00:22:56,920"
+			},
+			"offsets": {
+				"from": 1374920,
+				"to": 1376920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:56,920",
+				"to": "00:22:58,920"
+			},
+			"offsets": {
+				"from": 1376920,
+				"to": 1378920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:22:58,920",
+				"to": "00:23:00,920"
+			},
+			"offsets": {
+				"from": 1378920,
+				"to": 1380920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:00,920",
+				"to": "00:23:02,920"
+			},
+			"offsets": {
+				"from": 1380920,
+				"to": 1382920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:02,920",
+				"to": "00:23:04,920"
+			},
+			"offsets": {
+				"from": 1382920,
+				"to": 1384920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:04,920",
+				"to": "00:23:06,920"
+			},
+			"offsets": {
+				"from": 1384920,
+				"to": 1386920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:06,920",
+				"to": "00:23:08,920"
+			},
+			"offsets": {
+				"from": 1386920,
+				"to": 1388920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:08,920",
+				"to": "00:23:10,920"
+			},
+			"offsets": {
+				"from": 1388920,
+				"to": 1390920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:10,920",
+				"to": "00:23:12,920"
+			},
+			"offsets": {
+				"from": 1390920,
+				"to": 1392920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:12,920",
+				"to": "00:23:14,920"
+			},
+			"offsets": {
+				"from": 1392920,
+				"to": 1394920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:14,920",
+				"to": "00:23:16,920"
+			},
+			"offsets": {
+				"from": 1394920,
+				"to": 1396920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:16,920",
+				"to": "00:23:18,920"
+			},
+			"offsets": {
+				"from": 1396920,
+				"to": 1398920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:18,920",
+				"to": "00:23:20,920"
+			},
+			"offsets": {
+				"from": 1398920,
+				"to": 1400920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:20,920",
+				"to": "00:23:22,920"
+			},
+			"offsets": {
+				"from": 1400920,
+				"to": 1402920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:22,920",
+				"to": "00:23:24,920"
+			},
+			"offsets": {
+				"from": 1402920,
+				"to": 1404920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:24,920",
+				"to": "00:23:26,920"
+			},
+			"offsets": {
+				"from": 1404920,
+				"to": 1406920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:26,920",
+				"to": "00:23:28,920"
+			},
+			"offsets": {
+				"from": 1406920,
+				"to": 1408920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:28,920",
+				"to": "00:23:30,920"
+			},
+			"offsets": {
+				"from": 1408920,
+				"to": 1410920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:30,920",
+				"to": "00:23:32,920"
+			},
+			"offsets": {
+				"from": 1410920,
+				"to": 1412920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:32,920",
+				"to": "00:23:34,920"
+			},
+			"offsets": {
+				"from": 1412920,
+				"to": 1414920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:34,920",
+				"to": "00:23:36,920"
+			},
+			"offsets": {
+				"from": 1414920,
+				"to": 1416920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:36,920",
+				"to": "00:23:38,920"
+			},
+			"offsets": {
+				"from": 1416920,
+				"to": 1418920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:38,920",
+				"to": "00:23:40,920"
+			},
+			"offsets": {
+				"from": 1418920,
+				"to": 1420920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:40,920",
+				"to": "00:23:42,920"
+			},
+			"offsets": {
+				"from": 1420920,
+				"to": 1422920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:42,920",
+				"to": "00:23:44,920"
+			},
+			"offsets": {
+				"from": 1422920,
+				"to": 1424920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:44,920",
+				"to": "00:23:46,920"
+			},
+			"offsets": {
+				"from": 1424920,
+				"to": 1426920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:46,920",
+				"to": "00:23:48,920"
+			},
+			"offsets": {
+				"from": 1426920,
+				"to": 1428920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:48,920",
+				"to": "00:23:50,920"
+			},
+			"offsets": {
+				"from": 1428920,
+				"to": 1430920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:50,920",
+				"to": "00:23:52,920"
+			},
+			"offsets": {
+				"from": 1430920,
+				"to": 1432920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:52,920",
+				"to": "00:23:54,920"
+			},
+			"offsets": {
+				"from": 1432920,
+				"to": 1434920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:54,920",
+				"to": "00:23:56,920"
+			},
+			"offsets": {
+				"from": 1434920,
+				"to": 1436920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:56,920",
+				"to": "00:23:58,920"
+			},
+			"offsets": {
+				"from": 1436920,
+				"to": 1438920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:23:58,920",
+				"to": "00:24:00,920"
+			},
+			"offsets": {
+				"from": 1438920,
+				"to": 1440920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:00,920",
+				"to": "00:24:02,920"
+			},
+			"offsets": {
+				"from": 1440920,
+				"to": 1442920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:02,920",
+				"to": "00:24:04,920"
+			},
+			"offsets": {
+				"from": 1442920,
+				"to": 1444920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:04,920",
+				"to": "00:24:06,920"
+			},
+			"offsets": {
+				"from": 1444920,
+				"to": 1446920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:06,920",
+				"to": "00:24:08,920"
+			},
+			"offsets": {
+				"from": 1446920,
+				"to": 1448920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:08,920",
+				"to": "00:24:10,920"
+			},
+			"offsets": {
+				"from": 1448920,
+				"to": 1450920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:10,920",
+				"to": "00:24:12,920"
+			},
+			"offsets": {
+				"from": 1450920,
+				"to": 1452920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:12,920",
+				"to": "00:24:14,920"
+			},
+			"offsets": {
+				"from": 1452920,
+				"to": 1454920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:14,920",
+				"to": "00:24:16,920"
+			},
+			"offsets": {
+				"from": 1454920,
+				"to": 1456920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:16,920",
+				"to": "00:24:18,920"
+			},
+			"offsets": {
+				"from": 1456920,
+				"to": 1458920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:18,920",
+				"to": "00:24:20,920"
+			},
+			"offsets": {
+				"from": 1458920,
+				"to": 1460920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:20,920",
+				"to": "00:24:22,920"
+			},
+			"offsets": {
+				"from": 1460920,
+				"to": 1462920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:22,920",
+				"to": "00:24:24,920"
+			},
+			"offsets": {
+				"from": 1462920,
+				"to": 1464920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:24,920",
+				"to": "00:24:26,920"
+			},
+			"offsets": {
+				"from": 1464920,
+				"to": 1466920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:26,920",
+				"to": "00:24:28,920"
+			},
+			"offsets": {
+				"from": 1466920,
+				"to": 1468920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:28,920",
+				"to": "00:24:30,920"
+			},
+			"offsets": {
+				"from": 1468920,
+				"to": 1470920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:30,920",
+				"to": "00:24:32,920"
+			},
+			"offsets": {
+				"from": 1470920,
+				"to": 1472920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:32,920",
+				"to": "00:24:34,920"
+			},
+			"offsets": {
+				"from": 1472920,
+				"to": 1474920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:34,920",
+				"to": "00:24:36,920"
+			},
+			"offsets": {
+				"from": 1474920,
+				"to": 1476920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:36,920",
+				"to": "00:24:38,920"
+			},
+			"offsets": {
+				"from": 1476920,
+				"to": 1478920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:38,920",
+				"to": "00:24:40,920"
+			},
+			"offsets": {
+				"from": 1478920,
+				"to": 1480920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:40,920",
+				"to": "00:24:42,920"
+			},
+			"offsets": {
+				"from": 1480920,
+				"to": 1482920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:42,920",
+				"to": "00:24:44,920"
+			},
+			"offsets": {
+				"from": 1482920,
+				"to": 1484920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:44,920",
+				"to": "00:24:46,920"
+			},
+			"offsets": {
+				"from": 1484920,
+				"to": 1486920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:46,920",
+				"to": "00:24:48,920"
+			},
+			"offsets": {
+				"from": 1486920,
+				"to": 1488920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:48,920",
+				"to": "00:24:50,920"
+			},
+			"offsets": {
+				"from": 1488920,
+				"to": 1490920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:50,920",
+				"to": "00:24:52,920"
+			},
+			"offsets": {
+				"from": 1490920,
+				"to": 1492920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:52,920",
+				"to": "00:24:54,920"
+			},
+			"offsets": {
+				"from": 1492920,
+				"to": 1494920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:54,920",
+				"to": "00:24:56,920"
+			},
+			"offsets": {
+				"from": 1494920,
+				"to": 1496920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:56,920",
+				"to": "00:24:58,920"
+			},
+			"offsets": {
+				"from": 1496920,
+				"to": 1498920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:24:58,920",
+				"to": "00:25:00,920"
+			},
+			"offsets": {
+				"from": 1498920,
+				"to": 1500920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:00,920",
+				"to": "00:25:02,920"
+			},
+			"offsets": {
+				"from": 1500920,
+				"to": 1502920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:02,920",
+				"to": "00:25:04,920"
+			},
+			"offsets": {
+				"from": 1502920,
+				"to": 1504920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:04,920",
+				"to": "00:25:06,920"
+			},
+			"offsets": {
+				"from": 1504920,
+				"to": 1506920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:06,920",
+				"to": "00:25:08,920"
+			},
+			"offsets": {
+				"from": 1506920,
+				"to": 1508920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:08,920",
+				"to": "00:25:10,920"
+			},
+			"offsets": {
+				"from": 1508920,
+				"to": 1510920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:10,920",
+				"to": "00:25:12,920"
+			},
+			"offsets": {
+				"from": 1510920,
+				"to": 1512920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:12,920",
+				"to": "00:25:14,920"
+			},
+			"offsets": {
+				"from": 1512920,
+				"to": 1514920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:14,920",
+				"to": "00:25:16,920"
+			},
+			"offsets": {
+				"from": 1514920,
+				"to": 1516920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:16,920",
+				"to": "00:25:18,920"
+			},
+			"offsets": {
+				"from": 1516920,
+				"to": 1518920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:18,920",
+				"to": "00:25:20,920"
+			},
+			"offsets": {
+				"from": 1518920,
+				"to": 1520920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:20,920",
+				"to": "00:25:22,920"
+			},
+			"offsets": {
+				"from": 1520920,
+				"to": 1522920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:22,920",
+				"to": "00:25:24,920"
+			},
+			"offsets": {
+				"from": 1522920,
+				"to": 1524920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:24,920",
+				"to": "00:25:26,920"
+			},
+			"offsets": {
+				"from": 1524920,
+				"to": 1526920
+			},
+			"text": " \"Put the person in the image number 7\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:26,920",
+				"to": "00:25:28,920"
+			},
+			"offsets": {
+				"from": 1526920,
+				"to": 1528920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:28,920",
+				"to": "00:25:30,920"
+			},
+			"offsets": {
+				"from": 1528920,
+				"to": 1530920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:30,920",
+				"to": "00:25:32,920"
+			},
+			"offsets": {
+				"from": 1530920,
+				"to": 1532920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:32,920",
+				"to": "00:25:34,920"
+			},
+			"offsets": {
+				"from": 1532920,
+				"to": 1534920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:34,920",
+				"to": "00:25:36,920"
+			},
+			"offsets": {
+				"from": 1534920,
+				"to": 1536920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:36,920",
+				"to": "00:25:38,920"
+			},
+			"offsets": {
+				"from": 1536920,
+				"to": 1538920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:38,920",
+				"to": "00:25:40,920"
+			},
+			"offsets": {
+				"from": 1538920,
+				"to": 1540920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:40,920",
+				"to": "00:25:42,920"
+			},
+			"offsets": {
+				"from": 1540920,
+				"to": 1542920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:42,920",
+				"to": "00:25:44,920"
+			},
+			"offsets": {
+				"from": 1542920,
+				"to": 1544920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:44,920",
+				"to": "00:25:46,920"
+			},
+			"offsets": {
+				"from": 1544920,
+				"to": 1546920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:46,920",
+				"to": "00:25:48,920"
+			},
+			"offsets": {
+				"from": 1546920,
+				"to": 1548920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:48,920",
+				"to": "00:25:50,920"
+			},
+			"offsets": {
+				"from": 1548920,
+				"to": 1550920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:50,920",
+				"to": "00:25:52,920"
+			},
+			"offsets": {
+				"from": 1550920,
+				"to": 1552920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:52,920",
+				"to": "00:25:54,920"
+			},
+			"offsets": {
+				"from": 1552920,
+				"to": 1554920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:54,920",
+				"to": "00:25:56,920"
+			},
+			"offsets": {
+				"from": 1554920,
+				"to": 1556920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:56,920",
+				"to": "00:25:58,920"
+			},
+			"offsets": {
+				"from": 1556920,
+				"to": 1558920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:25:58,920",
+				"to": "00:26:00,920"
+			},
+			"offsets": {
+				"from": 1558920,
+				"to": 1560920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:00,920",
+				"to": "00:26:02,920"
+			},
+			"offsets": {
+				"from": 1560920,
+				"to": 1562920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:02,920",
+				"to": "00:26:04,920"
+			},
+			"offsets": {
+				"from": 1562920,
+				"to": 1564920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:04,920",
+				"to": "00:26:06,920"
+			},
+			"offsets": {
+				"from": 1564920,
+				"to": 1566920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:06,920",
+				"to": "00:26:08,920"
+			},
+			"offsets": {
+				"from": 1566920,
+				"to": 1568920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:08,920",
+				"to": "00:26:10,920"
+			},
+			"offsets": {
+				"from": 1568920,
+				"to": 1570920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:10,920",
+				"to": "00:26:12,920"
+			},
+			"offsets": {
+				"from": 1570920,
+				"to": 1572920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:12,920",
+				"to": "00:26:14,920"
+			},
+			"offsets": {
+				"from": 1572920,
+				"to": 1574920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:14,920",
+				"to": "00:26:16,920"
+			},
+			"offsets": {
+				"from": 1574920,
+				"to": 1576920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:16,920",
+				"to": "00:26:18,920"
+			},
+			"offsets": {
+				"from": 1576920,
+				"to": 1578920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:18,920",
+				"to": "00:26:20,920"
+			},
+			"offsets": {
+				"from": 1578920,
+				"to": 1580920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:20,920",
+				"to": "00:26:22,920"
+			},
+			"offsets": {
+				"from": 1580920,
+				"to": 1582920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:22,920",
+				"to": "00:26:24,920"
+			},
+			"offsets": {
+				"from": 1582920,
+				"to": 1584920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:24,920",
+				"to": "00:26:26,920"
+			},
+			"offsets": {
+				"from": 1584920,
+				"to": 1586920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:26,920",
+				"to": "00:26:28,920"
+			},
+			"offsets": {
+				"from": 1586920,
+				"to": 1588920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:28,920",
+				"to": "00:26:30,920"
+			},
+			"offsets": {
+				"from": 1588920,
+				"to": 1590920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:30,920",
+				"to": "00:26:32,920"
+			},
+			"offsets": {
+				"from": 1590920,
+				"to": 1592920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:32,920",
+				"to": "00:26:34,920"
+			},
+			"offsets": {
+				"from": 1592920,
+				"to": 1594920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:34,920",
+				"to": "00:26:36,920"
+			},
+			"offsets": {
+				"from": 1594920,
+				"to": 1596920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:36,920",
+				"to": "00:26:38,920"
+			},
+			"offsets": {
+				"from": 1596920,
+				"to": 1598920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:38,920",
+				"to": "00:26:40,920"
+			},
+			"offsets": {
+				"from": 1598920,
+				"to": 1600920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:40,920",
+				"to": "00:26:42,920"
+			},
+			"offsets": {
+				"from": 1600920,
+				"to": 1602920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:42,920",
+				"to": "00:26:44,920"
+			},
+			"offsets": {
+				"from": 1602920,
+				"to": 1604920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:44,920",
+				"to": "00:26:46,920"
+			},
+			"offsets": {
+				"from": 1604920,
+				"to": 1606920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:46,920",
+				"to": "00:26:48,920"
+			},
+			"offsets": {
+				"from": 1606920,
+				"to": 1608920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:48,920",
+				"to": "00:26:50,920"
+			},
+			"offsets": {
+				"from": 1608920,
+				"to": 1610920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:50,920",
+				"to": "00:26:52,920"
+			},
+			"offsets": {
+				"from": 1610920,
+				"to": 1612920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:52,920",
+				"to": "00:26:54,920"
+			},
+			"offsets": {
+				"from": 1612920,
+				"to": 1614920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:54,920",
+				"to": "00:26:56,920"
+			},
+			"offsets": {
+				"from": 1614920,
+				"to": 1616920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:56,920",
+				"to": "00:26:58,920"
+			},
+			"offsets": {
+				"from": 1616920,
+				"to": 1618920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:26:58,920",
+				"to": "00:27:00,920"
+			},
+			"offsets": {
+				"from": 1618920,
+				"to": 1620920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:00,920",
+				"to": "00:27:02,920"
+			},
+			"offsets": {
+				"from": 1620920,
+				"to": 1622920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:02,920",
+				"to": "00:27:04,920"
+			},
+			"offsets": {
+				"from": 1622920,
+				"to": 1624920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:04,920",
+				"to": "00:27:06,920"
+			},
+			"offsets": {
+				"from": 1624920,
+				"to": 1626920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:06,920",
+				"to": "00:27:08,920"
+			},
+			"offsets": {
+				"from": 1626920,
+				"to": 1628920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:08,920",
+				"to": "00:27:10,920"
+			},
+			"offsets": {
+				"from": 1628920,
+				"to": 1630920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:10,920",
+				"to": "00:27:12,920"
+			},
+			"offsets": {
+				"from": 1630920,
+				"to": 1632920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:12,920",
+				"to": "00:27:14,920"
+			},
+			"offsets": {
+				"from": 1632920,
+				"to": 1634920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:14,920",
+				"to": "00:27:16,920"
+			},
+			"offsets": {
+				"from": 1634920,
+				"to": 1636920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:16,920",
+				"to": "00:27:18,920"
+			},
+			"offsets": {
+				"from": 1636920,
+				"to": 1638920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:18,920",
+				"to": "00:27:20,920"
+			},
+			"offsets": {
+				"from": 1638920,
+				"to": 1640920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:20,920",
+				"to": "00:27:22,920"
+			},
+			"offsets": {
+				"from": 1640920,
+				"to": 1642920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:22,920",
+				"to": "00:27:24,920"
+			},
+			"offsets": {
+				"from": 1642920,
+				"to": 1644920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:24,920",
+				"to": "00:27:26,920"
+			},
+			"offsets": {
+				"from": 1644920,
+				"to": 1646920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:26,920",
+				"to": "00:27:28,920"
+			},
+			"offsets": {
+				"from": 1646920,
+				"to": 1648920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:28,920",
+				"to": "00:27:30,920"
+			},
+			"offsets": {
+				"from": 1648920,
+				"to": 1650920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:30,920",
+				"to": "00:27:32,920"
+			},
+			"offsets": {
+				"from": 1650920,
+				"to": 1652920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:32,920",
+				"to": "00:27:34,920"
+			},
+			"offsets": {
+				"from": 1652920,
+				"to": 1654920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:34,920",
+				"to": "00:27:36,920"
+			},
+			"offsets": {
+				"from": 1654920,
+				"to": 1656920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:36,920",
+				"to": "00:27:38,920"
+			},
+			"offsets": {
+				"from": 1656920,
+				"to": 1658920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:38,920",
+				"to": "00:27:40,920"
+			},
+			"offsets": {
+				"from": 1658920,
+				"to": 1660920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:40,920",
+				"to": "00:27:42,920"
+			},
+			"offsets": {
+				"from": 1660920,
+				"to": 1662920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:42,920",
+				"to": "00:27:44,920"
+			},
+			"offsets": {
+				"from": 1662920,
+				"to": 1664920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:44,920",
+				"to": "00:27:46,920"
+			},
+			"offsets": {
+				"from": 1664920,
+				"to": 1666920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:46,920",
+				"to": "00:27:48,920"
+			},
+			"offsets": {
+				"from": 1666920,
+				"to": 1668920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:48,920",
+				"to": "00:27:50,920"
+			},
+			"offsets": {
+				"from": 1668920,
+				"to": 1670920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:50,920",
+				"to": "00:27:52,920"
+			},
+			"offsets": {
+				"from": 1670920,
+				"to": 1672920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:52,920",
+				"to": "00:27:54,920"
+			},
+			"offsets": {
+				"from": 1672920,
+				"to": 1674920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:54,920",
+				"to": "00:27:56,920"
+			},
+			"offsets": {
+				"from": 1674920,
+				"to": 1676920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:56,920",
+				"to": "00:27:58,920"
+			},
+			"offsets": {
+				"from": 1676920,
+				"to": 1678920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:27:58,920",
+				"to": "00:28:00,920"
+			},
+			"offsets": {
+				"from": 1678920,
+				"to": 1680920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:00,920",
+				"to": "00:28:02,920"
+			},
+			"offsets": {
+				"from": 1680920,
+				"to": 1682920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:02,920",
+				"to": "00:28:04,920"
+			},
+			"offsets": {
+				"from": 1682920,
+				"to": 1684920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:04,920",
+				"to": "00:28:06,920"
+			},
+			"offsets": {
+				"from": 1684920,
+				"to": 1686920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:06,920",
+				"to": "00:28:08,920"
+			},
+			"offsets": {
+				"from": 1686920,
+				"to": 1688920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:08,920",
+				"to": "00:28:12,920"
+			},
+			"offsets": {
+				"from": 1688920,
+				"to": 1692920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:12,920",
+				"to": "00:28:14,920"
+			},
+			"offsets": {
+				"from": 1692920,
+				"to": 1694920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:14,920",
+				"to": "00:28:16,920"
+			},
+			"offsets": {
+				"from": 1694920,
+				"to": 1696920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:16,920",
+				"to": "00:28:18,920"
+			},
+			"offsets": {
+				"from": 1696920,
+				"to": 1698920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:18,920",
+				"to": "00:28:20,920"
+			},
+			"offsets": {
+				"from": 1698920,
+				"to": 1700920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:20,920",
+				"to": "00:28:22,920"
+			},
+			"offsets": {
+				"from": 1700920,
+				"to": 1702920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:22,920",
+				"to": "00:28:24,920"
+			},
+			"offsets": {
+				"from": 1702920,
+				"to": 1704920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:24,920",
+				"to": "00:28:26,920"
+			},
+			"offsets": {
+				"from": 1704920,
+				"to": 1706920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:26,920",
+				"to": "00:28:28,920"
+			},
+			"offsets": {
+				"from": 1706920,
+				"to": 1708920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:28,920",
+				"to": "00:28:30,920"
+			},
+			"offsets": {
+				"from": 1708920,
+				"to": 1710920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:30,920",
+				"to": "00:28:32,920"
+			},
+			"offsets": {
+				"from": 1710920,
+				"to": 1712920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:32,920",
+				"to": "00:28:34,920"
+			},
+			"offsets": {
+				"from": 1712920,
+				"to": 1714920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:34,920",
+				"to": "00:28:36,920"
+			},
+			"offsets": {
+				"from": 1714920,
+				"to": 1716920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:36,920",
+				"to": "00:28:38,920"
+			},
+			"offsets": {
+				"from": 1716920,
+				"to": 1718920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:38,920",
+				"to": "00:28:40,920"
+			},
+			"offsets": {
+				"from": 1718920,
+				"to": 1720920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:40,920",
+				"to": "00:28:42,920"
+			},
+			"offsets": {
+				"from": 1720920,
+				"to": 1722920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:42,920",
+				"to": "00:28:44,920"
+			},
+			"offsets": {
+				"from": 1722920,
+				"to": 1724920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:44,920",
+				"to": "00:28:46,920"
+			},
+			"offsets": {
+				"from": 1724920,
+				"to": 1726920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:46,920",
+				"to": "00:28:48,920"
+			},
+			"offsets": {
+				"from": 1726920,
+				"to": 1728920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:48,920",
+				"to": "00:28:50,920"
+			},
+			"offsets": {
+				"from": 1728920,
+				"to": 1730920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:50,920",
+				"to": "00:28:52,920"
+			},
+			"offsets": {
+				"from": 1730920,
+				"to": 1732920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:52,920",
+				"to": "00:28:54,920"
+			},
+			"offsets": {
+				"from": 1732920,
+				"to": 1734920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:54,920",
+				"to": "00:28:56,920"
+			},
+			"offsets": {
+				"from": 1734920,
+				"to": 1736920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:56,920",
+				"to": "00:28:58,920"
+			},
+			"offsets": {
+				"from": 1736920,
+				"to": 1738920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:28:58,920",
+				"to": "00:29:00,920"
+			},
+			"offsets": {
+				"from": 1738920,
+				"to": 1740920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:00,920",
+				"to": "00:29:02,920"
+			},
+			"offsets": {
+				"from": 1740920,
+				"to": 1742920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:02,920",
+				"to": "00:29:04,920"
+			},
+			"offsets": {
+				"from": 1742920,
+				"to": 1744920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:04,920",
+				"to": "00:29:06,920"
+			},
+			"offsets": {
+				"from": 1744920,
+				"to": 1746920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:06,920",
+				"to": "00:29:08,920"
+			},
+			"offsets": {
+				"from": 1746920,
+				"to": 1748920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:08,920",
+				"to": "00:29:10,920"
+			},
+			"offsets": {
+				"from": 1748920,
+				"to": 1750920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:10,920",
+				"to": "00:29:12,920"
+			},
+			"offsets": {
+				"from": 1750920,
+				"to": 1752920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:12,920",
+				"to": "00:29:14,920"
+			},
+			"offsets": {
+				"from": 1752920,
+				"to": 1754920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:14,920",
+				"to": "00:29:16,920"
+			},
+			"offsets": {
+				"from": 1754920,
+				"to": 1756920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:16,920",
+				"to": "00:29:18,920"
+			},
+			"offsets": {
+				"from": 1756920,
+				"to": 1758920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:18,920",
+				"to": "00:29:20,920"
+			},
+			"offsets": {
+				"from": 1758920,
+				"to": 1760920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:20,920",
+				"to": "00:29:22,920"
+			},
+			"offsets": {
+				"from": 1760920,
+				"to": 1762920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:22,920",
+				"to": "00:29:24,920"
+			},
+			"offsets": {
+				"from": 1762920,
+				"to": 1764920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:24,920",
+				"to": "00:29:26,920"
+			},
+			"offsets": {
+				"from": 1764920,
+				"to": 1766920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:26,920",
+				"to": "00:29:28,920"
+			},
+			"offsets": {
+				"from": 1766920,
+				"to": 1768920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:28,920",
+				"to": "00:29:30,920"
+			},
+			"offsets": {
+				"from": 1768920,
+				"to": 1770920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:30,920",
+				"to": "00:29:32,920"
+			},
+			"offsets": {
+				"from": 1770920,
+				"to": 1772920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:32,920",
+				"to": "00:29:34,920"
+			},
+			"offsets": {
+				"from": 1772920,
+				"to": 1774920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:34,920",
+				"to": "00:29:36,920"
+			},
+			"offsets": {
+				"from": 1774920,
+				"to": 1776920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:36,920",
+				"to": "00:29:38,920"
+			},
+			"offsets": {
+				"from": 1776920,
+				"to": 1778920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:38,920",
+				"to": "00:29:40,920"
+			},
+			"offsets": {
+				"from": 1778920,
+				"to": 1780920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:40,920",
+				"to": "00:29:42,920"
+			},
+			"offsets": {
+				"from": 1780920,
+				"to": 1782920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:42,920",
+				"to": "00:29:44,920"
+			},
+			"offsets": {
+				"from": 1782920,
+				"to": 1784920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:44,920",
+				"to": "00:29:46,920"
+			},
+			"offsets": {
+				"from": 1784920,
+				"to": 1786920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:46,920",
+				"to": "00:29:48,920"
+			},
+			"offsets": {
+				"from": 1786920,
+				"to": 1788920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:48,920",
+				"to": "00:29:50,920"
+			},
+			"offsets": {
+				"from": 1788920,
+				"to": 1790920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:50,920",
+				"to": "00:29:52,920"
+			},
+			"offsets": {
+				"from": 1790920,
+				"to": 1792920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:52,920",
+				"to": "00:29:54,920"
+			},
+			"offsets": {
+				"from": 1792920,
+				"to": 1794920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:54,920",
+				"to": "00:29:56,920"
+			},
+			"offsets": {
+				"from": 1794920,
+				"to": 1796920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:56,920",
+				"to": "00:29:58,920"
+			},
+			"offsets": {
+				"from": 1796920,
+				"to": 1798920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:29:58,920",
+				"to": "00:30:00,920"
+			},
+			"offsets": {
+				"from": 1798920,
+				"to": 1800920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:00,920",
+				"to": "00:30:02,920"
+			},
+			"offsets": {
+				"from": 1800920,
+				"to": 1802920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:02,920",
+				"to": "00:30:04,920"
+			},
+			"offsets": {
+				"from": 1802920,
+				"to": 1804920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:04,920",
+				"to": "00:30:06,920"
+			},
+			"offsets": {
+				"from": 1804920,
+				"to": 1806920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:06,920",
+				"to": "00:30:08,920"
+			},
+			"offsets": {
+				"from": 1806920,
+				"to": 1808920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:08,920",
+				"to": "00:30:10,920"
+			},
+			"offsets": {
+				"from": 1808920,
+				"to": 1810920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:10,920",
+				"to": "00:30:12,920"
+			},
+			"offsets": {
+				"from": 1810920,
+				"to": 1812920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:12,920",
+				"to": "00:30:14,920"
+			},
+			"offsets": {
+				"from": 1812920,
+				"to": 1814920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:14,920",
+				"to": "00:30:16,920"
+			},
+			"offsets": {
+				"from": 1814920,
+				"to": 1816920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:16,920",
+				"to": "00:30:18,920"
+			},
+			"offsets": {
+				"from": 1816920,
+				"to": 1818920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:18,920",
+				"to": "00:30:20,920"
+			},
+			"offsets": {
+				"from": 1818920,
+				"to": 1820920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:20,920",
+				"to": "00:30:22,920"
+			},
+			"offsets": {
+				"from": 1820920,
+				"to": 1822920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:22,920",
+				"to": "00:30:24,920"
+			},
+			"offsets": {
+				"from": 1822920,
+				"to": 1824920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:24,920",
+				"to": "00:30:26,920"
+			},
+			"offsets": {
+				"from": 1824920,
+				"to": 1826920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:26,920",
+				"to": "00:30:28,920"
+			},
+			"offsets": {
+				"from": 1826920,
+				"to": 1828920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:28,920",
+				"to": "00:30:30,920"
+			},
+			"offsets": {
+				"from": 1828920,
+				"to": 1830920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:30,920",
+				"to": "00:30:32,920"
+			},
+			"offsets": {
+				"from": 1830920,
+				"to": 1832920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:32,920",
+				"to": "00:30:34,920"
+			},
+			"offsets": {
+				"from": 1832920,
+				"to": 1834920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:34,920",
+				"to": "00:30:36,920"
+			},
+			"offsets": {
+				"from": 1834920,
+				"to": 1836920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:36,920",
+				"to": "00:30:38,920"
+			},
+			"offsets": {
+				"from": 1836920,
+				"to": 1838920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:38,920",
+				"to": "00:30:40,920"
+			},
+			"offsets": {
+				"from": 1838920,
+				"to": 1840920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:40,920",
+				"to": "00:30:42,920"
+			},
+			"offsets": {
+				"from": 1840920,
+				"to": 1842920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:42,920",
+				"to": "00:30:44,920"
+			},
+			"offsets": {
+				"from": 1842920,
+				"to": 1844920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:44,920",
+				"to": "00:30:46,920"
+			},
+			"offsets": {
+				"from": 1844920,
+				"to": 1846920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:46,920",
+				"to": "00:30:48,920"
+			},
+			"offsets": {
+				"from": 1846920,
+				"to": 1848920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:48,920",
+				"to": "00:30:50,920"
+			},
+			"offsets": {
+				"from": 1848920,
+				"to": 1850920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:50,920",
+				"to": "00:30:52,920"
+			},
+			"offsets": {
+				"from": 1850920,
+				"to": 1852920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:52,920",
+				"to": "00:30:54,920"
+			},
+			"offsets": {
+				"from": 1852920,
+				"to": 1854920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:54,920",
+				"to": "00:30:56,920"
+			},
+			"offsets": {
+				"from": 1854920,
+				"to": 1856920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:56,920",
+				"to": "00:30:58,920"
+			},
+			"offsets": {
+				"from": 1856920,
+				"to": 1858920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:30:58,920",
+				"to": "00:31:00,920"
+			},
+			"offsets": {
+				"from": 1858920,
+				"to": 1860920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:31:00,920",
+				"to": "00:31:02,920"
+			},
+			"offsets": {
+				"from": 1860920,
+				"to": 1862920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:31:02,920",
+				"to": "00:31:04,920"
+			},
+			"offsets": {
+				"from": 1862920,
+				"to": 1864920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:31:04,920",
+				"to": "00:31:06,920"
+			},
+			"offsets": {
+				"from": 1864920,
+				"to": 1866920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:31:06,920",
+				"to": "00:31:08,920"
+			},
+			"offsets": {
+				"from": 1866920,
+				"to": 1868920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:31:08,920",
+				"to": "00:31:10,920"
+			},
+			"offsets": {
+				"from": 1868920,
+				"to": 1870920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:31:10,920",
+				"to": "00:31:12,920"
+			},
+			"offsets": {
+				"from": 1870920,
+				"to": 1872920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:31:12,920",
+				"to": "00:31:14,920"
+			},
+			"offsets": {
+				"from": 1872920,
+				"to": 1874920
+			},
+			"text": " \"Put the person in the image number 6\""
+		},
+		{
+			"timestamps": {
+				"from": "00:31:14,920",
+				"to": "00:31:16,920"
+			},
+			"offsets": {
+				"from": 1874920,
+				"to": 1876920
+			},
+			"text": " \"Put the person in the image number 6\""
+		}
+	]
+}

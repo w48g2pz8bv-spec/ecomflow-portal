@@ -1,0 +1,868 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:04,160"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 4160
+			},
+			"text": " \"Dönüşüm getiren Instagram sayfası ben bunu ben tölük öğrencilerine de veriyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,160",
+				"to": "00:00:07,480"
+			},
+			"offsets": {
+				"from": 4160,
+				"to": 7480
+			},
+			"text": " Poco console gerçekten burada örnek bir sayfa."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,480",
+				"to": "00:00:10,800"
+			},
+			"offsets": {
+				"from": 7480,
+				"to": 10800
+			},
+			"text": " Kendini yaptığım için değil, genel olarak bence çok güzel gözükliği için"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,800",
+				"to": "00:00:14,280"
+			},
+			"offsets": {
+				"from": 10800,
+				"to": 14280
+			},
+			"text": " gerçekten satış ve dönüş bakımından problem yaşamadığı için"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,280",
+				"to": "00:00:15,680"
+			},
+			"offsets": {
+				"from": 14280,
+				"to": 15680
+			},
+			"text": " şimdi birazcık bunları inceleyelim."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,680",
+				"to": "00:00:18,400"
+			},
+			"offsets": {
+				"from": 15680,
+				"to": 18400
+			},
+			"text": " Bir Instagram sayfasından ne beklememiz lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,400",
+				"to": "00:00:22,040"
+			},
+			"offsets": {
+				"from": 18400,
+				"to": 22040
+			},
+			"text": " Bir insanın gram sayfasına geldiğimiz zaman ne görmemiz lazım, bunları konuşalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,040",
+				"to": "00:00:26,640"
+			},
+			"offsets": {
+				"from": 22040,
+				"to": 26640
+			},
+			"text": " İlk başta dediğin gibi sizin her şartta aktif storyiniz olması lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:26,640",
+				"to": "00:00:32,040"
+			},
+			"offsets": {
+				"from": 26640,
+				"to": 32040
+			},
+			"text": " Bunun ikine deni var. Birincisi adamlar sizin videonuzu normal platformdan kaydırırken gördükleri zaman"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,040",
+				"to": "00:00:35,920"
+			},
+			"offsets": {
+				"from": 32040,
+				"to": 35920
+			},
+			"text": " orada sizin yuvarlak bir şekilde storyiniz olduğunu da görüyor olacaklar."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:35,920",
+				"to": "00:00:39,320"
+			},
+			"offsets": {
+				"from": 35920,
+				"to": 39320
+			},
+			"text": " Burada sizin storyinizde ekstra bir dikkat çekiyor olacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:39,320",
+				"to": "00:00:42,840"
+			},
+			"offsets": {
+				"from": 39320,
+				"to": 42840
+			},
+			"text": " Bu ilk kısım. İkinci kısımda Instagram'ınıza gelen insanlar."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:42,840",
+				"to": "00:00:45,520"
+			},
+			"offsets": {
+				"from": 42840,
+				"to": 45520
+			},
+			"text": " Sizin sayfanıza gelen insanlar refleks olarak."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:45,520",
+				"to": "00:00:48,320"
+			},
+			"offsets": {
+				"from": 45520,
+				"to": 48320
+			},
+			"text": " Refleksen direkt ilk başta storyinizle bakıyor olacaklar."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:48,320",
+				"to": "00:00:51,800"
+			},
+			"offsets": {
+				"from": 48320,
+				"to": 51800
+			},
+			"text": " O yüzden burada düzenli olarak sizin link paylaşmanız,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:51,800",
+				"to": "00:00:54,960"
+			},
+			"offsets": {
+				"from": 51800,
+				"to": 54960
+			},
+			"text": " koltayak için atmanız çok çok çok önemli."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:54,960",
+				"to": "00:00:58,560"
+			},
+			"offsets": {
+				"from": 54960,
+				"to": 58560
+			},
+			"text": " Okuyabilir. İkinci olarak sizin güzel bir bayonuz olmasın."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:58,560",
+				"to": "00:01:01,640"
+			},
+			"offsets": {
+				"from": 58560,
+				"to": 61640
+			},
+			"text": " Gördüğünüz gibi ev sene yılbaş indirme yarı fiyatına."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:01,640",
+				"to": "00:01:04,760"
+			},
+			"offsets": {
+				"from": 61640,
+				"to": 64760
+			},
+			"text": " Bir tane hediye bakın emojiler gayet dikkat çekici."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:04,760",
+				"to": "00:01:09,920"
+			},
+			"offsets": {
+				"from": 64760,
+				"to": 69920
+			},
+			"text": " Ekstra on bin retro oyun siparişini buradan veya poko konsol teyrenoktakom."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:09,920",
+				"to": "00:01:12,480"
+			},
+			"offsets": {
+				"from": 69920,
+				"to": 72480
+			},
+			"text": " Ondan sonra burada linki atmışız."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:12,480",
+				"to": "00:01:18,760"
+			},
+			"offsets": {
+				"from": 72480,
+				"to": 78760
+			},
+			"text": " Görüyor musunuz? Bu tarz en başa sizin en büyük kampanyanız ikincisi bedava verdiğiniz bir ürün"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:18,760",
+				"to": "00:01:23,000"
+			},
+			"offsets": {
+				"from": 78760,
+				"to": 83000
+			},
+			"text": " ya da ürünün sağladı en iyi yani fayda, ürünün sağladı en iyi fayda."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:23,000",
+				"to": "00:01:25,680"
+			},
+			"offsets": {
+				"from": 83000,
+				"to": 85680
+			},
+			"text": " Üçüncü olarak da direkt olarak koltuğu action."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:25,680",
+				"to": "00:01:28,480"
+			},
+			"offsets": {
+				"from": 85680,
+				"to": 88480
+			},
+			"text": " Devamında da buraya linkiniz zaten koyuyor olacaksınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:28,480",
+				"to": "00:01:31,800"
+			},
+			"offsets": {
+				"from": 88480,
+				"to": 91800
+			},
+			"text": " Üçüncü en önemli kısım sizin hayla et kısmınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:31,800",
+				"to": "00:01:37,040"
+			},
+			"offsets": {
+				"from": 91800,
+				"to": 97040
+			},
+			"text": " Instagram'ın bu kadar çok konverit etmesini nedeni sizin buralara hayla et koyup"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:37,040",
+				"to": "00:01:40,640"
+			},
+			"offsets": {
+				"from": 97040,
+				"to": 100640
+			},
+			"text": " insanlara birazcık daha sosyal kanıt gösterebiliyor olmanız."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:40,640",
+				"to": "00:01:47,960"
+			},
+			"offsets": {
+				"from": 100640,
+				"to": 107960
+			},
+			"text": " Burada gördüğünüz gibi sizden gelenler kısmı yani yorumlar sorucu şeyleri yorumları devamında soru cevap."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:47,960",
+				"to": "00:01:50,440"
+			},
+			"offsets": {
+				"from": 107960,
+				"to": 110440
+			},
+			"text": " Bu sorucu yaparken önemli olan kısmı şu."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:50,440",
+				"to": "00:01:52,880"
+			},
+			"offsets": {
+				"from": 110440,
+				"to": 112880
+			},
+			"text": " İnsanların bu ürünün gördüğü zaman."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:52,880",
+				"to": "00:01:57,040"
+			},
+			"offsets": {
+				"from": 112880,
+				"to": 117040
+			},
+			"text": " En çok sorabileceği soruları sizin burada soru cevabı ekleyemeniz lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:57,040",
+				"to": "00:01:58,360"
+			},
+			"offsets": {
+				"from": 117040,
+				"to": 118360
+			},
+			"text": " Anam artık da şöyle düşünün."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:58,360",
+				"to": "00:02:06,040"
+			},
+			"offsets": {
+				"from": 118360,
+				"to": 126040
+			},
+			"text": " Anı sizin sayfanıza gelen bir insanın aklındaki bütün soruları siz adam ürün sayfasını gitmeden önce pat pat pat elemeniz lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:06,040",
+				"to": "00:02:10,800"
+			},
+			"offsets": {
+				"from": 126040,
+				"to": 130800
+			},
+			"text": " O yüzden burada gidip mesela Amazon'da bu ürünün satan sayfalarının yorumlarına bakabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:10,800",
+				"to": "00:02:15,400"
+			},
+			"offsets": {
+				"from": 130800,
+				"to": 135400
+			},
+			"text": " Ya da insanlar burunu gördüğünüz zaman ne gibi sorular akıllarına gelebilir bunları düşünün."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:15,400",
+				"to": "00:02:17,680"
+			},
+			"offsets": {
+				"from": 135400,
+				"to": 137680
+			},
+			"text": " Bu tarz soru cevap yazabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:17,680",
+				"to": "00:02:24,240"
+			},
+			"offsets": {
+				"from": 137680,
+				"to": 144240
+			},
+			"text": " Devamında burada fırsat kısmı, koltayışın artı büyük indirim direk olarak geçiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:24,240",
+				"to": "00:02:28,960"
+			},
+			"offsets": {
+				"from": 144240,
+				"to": 148960
+			},
+			"text": " Devamında iletişim kısmı, buraya iletişimi kendi imaninizi koyabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:28,960",
+				"to": "00:02:33,120"
+			},
+			"offsets": {
+				"from": 148960,
+				"to": 153120
+			},
+			"text": " Eğer numara üzerinden, vatsa üzerinden geri dönüş müşteri de size sağlıyorsanız."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:33,120",
+				"to": "00:02:38,040"
+			},
+			"offsets": {
+				"from": 153120,
+				"to": 158040
+			},
+			"text": " Vatsabınızı yazarsanız teslim at kısmında da işte şöyle gönderiyoruz, bu kadar hızlı geliyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:38,040",
+				"to": "00:02:40,920"
+			},
+			"offsets": {
+				"from": 158040,
+				"to": 160920
+			},
+			"text": " Şöyle yapın böyle din, işte on güne geliyor, beş güne geliyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:40,920",
+				"to": "00:02:44,360"
+			},
+			"offsets": {
+				"from": 160920,
+				"to": 164360
+			},
+			"text": " İnsanların birazcık daha ne beklemeleri gerektiğini söylemeniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:44,360",
+				"to": "00:02:50,440"
+			},
+			"offsets": {
+				"from": 164360,
+				"to": 170440
+			},
+			"text": " Burada önemli olan kısım, dördüncü önemli olan kısımsa sabitlenmiş içerikler."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:50,440",
+				"to": "00:02:52,960"
+			},
+			"offsets": {
+				"from": 170440,
+				"to": 172960
+			},
+			"text": " Sabitlenmiş içeriklerde üç ayrı strateji var."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:52,960",
+				"to": "00:02:55,240"
+			},
+			"offsets": {
+				"from": 172960,
+				"to": 175240
+			},
+			"text": " Birincisi direkt olarak koltayışın videosu."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:55,240",
+				"to": "00:02:59,880"
+			},
+			"offsets": {
+				"from": 175240,
+				"to": 179880
+			},
+			"text": " İnsanlar tıkladığı zaman ürünün nereden alabileceğini gösteren o video."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:59,880",
+				"to": "00:03:01,480"
+			},
+			"offsets": {
+				"from": 179880,
+				"to": 181480
+			},
+			"text": " Kaç lira nereden alabilirim?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:01,480",
+				"to": "00:03:05,280"
+			},
+			"offsets": {
+				"from": 181480,
+				"to": 185280
+			},
+			"text": " PlayStation 5'den davayı yiyen o konsol, ürünün hızlı bir şekilde göster."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:05,280",
+				"to": "00:03:07,640"
+			},
+			"offsets": {
+				"from": 185280,
+				"to": 187640
+			},
+			"text": " En sonunda da koltayışın at yarın milyon izlen."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:07,640",
+				"to": "00:03:08,280"
+			},
+			"offsets": {
+				"from": 187640,
+				"to": 188280
+			},
+			"text": " Bu ilgik kısım."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:08,280",
+				"to": "00:03:11,560"
+			},
+			"offsets": {
+				"from": 188280,
+				"to": 191560
+			},
+			"text": " İkinci olarak sizin enbira videonuzu sabitleyebilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:11,560",
+				"to": "00:03:15,160"
+			},
+			"offsets": {
+				"from": 191560,
+				"to": 195160
+			},
+			"text": " Kardeşim bu çabuğunu gizlice sokmuş, iki nokta üç milyon uçak değil."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:15,160",
+				"to": "00:03:18,160"
+			},
+			"offsets": {
+				"from": 195160,
+				"to": 198160
+			},
+			"text": " Otobüs insanlar bakıyor bu şekilde kontroversi."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:18,160",
+				"to": "00:03:20,720"
+			},
+			"offsets": {
+				"from": 198160,
+				"to": 200720
+			},
+			"text": " Üçüncü olarak, pokokonsollarda bu mevcut değil."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:20,720",
+				"to": "00:03:23,400"
+			},
+			"offsets": {
+				"from": 200720,
+				"to": 203400
+			},
+			"text": " Ama şuan ki bilgim olsaydı bunu yapardım."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:23,400",
+				"to": "00:03:25,120"
+			},
+			"offsets": {
+				"from": 203400,
+				"to": 205120
+			},
+			"text": " Ürün nasıl kullanılır videosu?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:25,120",
+				"to": "00:03:30,960"
+			},
+			"offsets": {
+				"from": 205120,
+				"to": 210960
+			},
+			"text": " Yani kutu açılımı yaparsanız, kutuyu getirirsiniz, açarsınız, ürünü basıp açarsınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:30,960",
+				"to": "00:03:31,920"
+			},
+			"offsets": {
+				"from": 210960,
+				"to": 211920
+			},
+			"text": " Ondan sonra atıyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:31,920",
+				"to": "00:03:37,160"
+			},
+			"offsets": {
+				"from": 211920,
+				"to": 217160
+			},
+			"text": " Çarşı kablosunu takarsanız, müşterinin ürün aldığı zaman neler yapması gerektiğini gösterdiniz kısım."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:37,160",
+				"to": "00:03:40,360"
+			},
+			"offsets": {
+				"from": 217160,
+				"to": 220360
+			},
+			"text": " Bakın bunlar etkileşim, kasmanız gereken videolar değil."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:40,360",
+				"to": "00:03:43,760"
+			},
+			"offsets": {
+				"from": 220360,
+				"to": 223760
+			},
+			"text": " Bu tarz videoların mesela, kutu açılışı videonun virar olmasına gerek yok."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:43,760",
+				"to": "00:03:51,480"
+			},
+			"offsets": {
+				"from": 223760,
+				"to": 231480
+			},
+			"text": " Ondanacı profiline gelen adamın, gerçekten buraya gidip merak ettiğinden dolayı ürünün nasıl kullanıldığını görebiliyor olması."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:51,480",
+				"to": "00:03:54,800"
+			},
+			"offsets": {
+				"from": 231480,
+				"to": 234800
+			},
+			"text": " Buradaki ama sadece artık adama satış yapabilmek için."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:54,800",
+				"to": "00:03:59,160"
+			},
+			"offsets": {
+				"from": 234800,
+				"to": 239160
+			},
+			"text": " O yüzden burada biz herhangi bir etkileşim, herhangi çok fazla izlenme beklemiyor olacağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:59,160",
+				"to": "00:04:03,840"
+			},
+			"offsets": {
+				"from": 239160,
+				"to": 243840
+			},
+			"text": " O yüzden videoyu paylaşacaksınız, buraya sabitleyeceksiniz, bunlar burada devam edecek."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:03,840",
+				"to": "00:04:10,400"
+			},
+			"offsets": {
+				"from": 243840,
+				"to": 250400
+			},
+			"text": " Dediği için şöyle de bir kısmı var, sosyal medya platformunuza trafik çekmeye devam ettikçe buradaki videolanın izlenmeleri dartacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:10,400",
+				"to": "00:04:12,640"
+			},
+			"offsets": {
+				"from": 250400,
+				"to": 252640
+			},
+			"text": " Bakın şimdi size çok çılgınca bir video göstereyim."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:12,640",
+				"to": "00:04:18,080"
+			},
+			"offsets": {
+				"from": 252640,
+				"to": 258080
+			},
+			"text": " Bak koltekşinin izlenmesine bak, 1.2 milyon koltekşinin izlenmesi var."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:18,080",
+				"to": "00:04:19,240"
+			},
+			"offsets": {
+				"from": 258080,
+				"to": 259240
+			},
+			"text": " İlk videoya bakın."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:19,240",
+				"to": "00:04:21,880"
+			},
+			"offsets": {
+				"from": 259240,
+				"to": 261880
+			},
+			"text": " Hangisi şu ilk videoya bakın, 1.2 milyon."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:21,880",
+				"to": "00:04:25,160"
+			},
+			"offsets": {
+				"from": 261880,
+				"to": 265160
+			},
+			"text": " Buradaki 1.2 milyon sabitlediğim zaman benim yüz bin de bu arada."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:25,160",
+				"to": "00:04:29,800"
+			},
+			"offsets": {
+				"from": 265160,
+				"to": 269800
+			},
+			"text": " Yani ekstra sından 1.1 milyon ben oraya trafik çekmişim, sadece o videoya."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:29,800",
+				"to": "00:04:33,640"
+			},
+			"offsets": {
+				"from": 269800,
+				"to": 273640
+			},
+			"text": " O videoya geliyor, koltekşin, yorumlara geliyor, yorumlarda sabitli koltekşin."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:33,640",
+				"to": "00:04:36,280"
+			},
+			"offsets": {
+				"from": 273640,
+				"to": 276280
+			},
+			"text": " Bugün özel 150'indirim, gitişte bizim profilden al."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:36,280",
+				"to": "00:04:40,880"
+			},
+			"offsets": {
+				"from": 276280,
+				"to": 280880
+			},
+			"text": " Sonra oradan trafi alıp, internetsizleri çekip satışları yapı yiyoruz."
+		}
+	]
+}

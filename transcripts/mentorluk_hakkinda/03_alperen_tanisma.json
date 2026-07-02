@@ -1,0 +1,142 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:06,600"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 6600
+			},
+			"text": " selamlar ben Alperen önceki de bu videoyu izliyorsanız siz de benim gibi kendi işiniz iyi kurmuyor olna adım attınız demektir tebrikler."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,600",
+				"to": "00:00:09,580"
+			},
+			"offsets": {
+				"from": 6600,
+				"to": 9580
+			},
+			"text": " Ben kimim ve bu süreçte size nasıl yardımcı olacağım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,580",
+				"to": "00:00:15,620"
+			},
+			"offsets": {
+				"from": 9580,
+				"to": 15620
+			},
+			"text": " Ben Dropshipping 2020'in birini de başladım ve onlarca marka kurarak hepsini batırdım evet."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,620",
+				"to": "00:00:20,300"
+			},
+			"offsets": {
+				"from": 15620,
+				"to": 20300
+			},
+			"text": " Sonrasında sorunun düzenli kretim üretmemek olduğunu anladım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,300",
+				"to": "00:00:22,340"
+			},
+			"offsets": {
+				"from": 20300,
+				"to": 22340
+			},
+			"text": " Ve ben de sizler gibi bu mentörlüğe katıldım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,340",
+				"to": "00:00:27,800"
+			},
+			"offsets": {
+				"from": 22340,
+				"to": 27800
+			},
+			"text": " Ardından ilk ayda test ettim ikinci öründe şu anda 20 milyon TL ciroye ulaştım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,800",
+				"to": "00:00:34,280"
+			},
+			"offsets": {
+				"from": 27800,
+				"to": 34280
+			},
+			"text": " Sonrasında test ettim üçüncü öründe ise bana aylık 2.3 milyon TL ciroye yaptıran o marka'yı kurdum."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:34,280",
+				"to": "00:00:37,280"
+			},
+			"offsets": {
+				"from": 34280,
+				"to": 37280
+			},
+			"text": " Yerinin yettiğilikten benimle bile bile alabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:37,280",
+				"to": "00:00:45,520"
+			},
+			"offsets": {
+				"from": 37280,
+				"to": 45520
+			},
+			"text": " Bu görüşmelerde bu zorluklarını nasıl aşabileceğimizi, isiplemiz nasıl koruyabileceğimizi ve bu işi nasıl daha sağlıklı şekilde büyütebileceğimizi konuşacağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:45,520",
+				"to": "00:00:49,480"
+			},
+			"offsets": {
+				"from": 45520,
+				"to": 49480
+			},
+			"text": " Sadece bu süreci birlikte daha sağlam ve tesliminin şekilde ilerleyeceğiz."
+		}
+	]
+}

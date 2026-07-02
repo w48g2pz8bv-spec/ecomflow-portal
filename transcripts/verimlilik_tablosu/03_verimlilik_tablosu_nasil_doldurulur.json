@@ -1,0 +1,406 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:03,020"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 3020
+			},
+			"text": " Artık verimlik tablusu da yeni platforma dahil"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,020",
+				"to": "00:00:07,580"
+			},
+			"offsets": {
+				"from": 3020,
+				"to": 7580
+			},
+			"text": " yani sizin yürütlüğünüz ürünlerinin linklerini direk tuhalak buradan erişebiliyor olacağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,580",
+				"to": "00:00:14,500"
+			},
+			"offsets": {
+				"from": 7580,
+				"to": 14500
+			},
+			"text": " Örneğin siz Türkiye Marketinde iPhone 13 Pro Telefonunuzu da farklı ürünler yürütlüğünüzü düşünün."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,500",
+				"to": "00:00:19,400"
+			},
+			"offsets": {
+				"from": 14500,
+				"to": 19400
+			},
+			"text": " Burada girip kendi TikTok linklerinizi, Instagram linklerinizi, YouTube linklerinizi,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,400",
+				"to": "00:00:26,200"
+			},
+			"offsets": {
+				"from": 19400,
+				"to": 26200
+			},
+			"text": " maza linklerinizi ve kendi notlarınızda buraya ekleyebiliyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:26,200",
+				"to": "00:00:31,200"
+			},
+			"offsets": {
+				"from": 26200,
+				"to": 31200
+			},
+			"text": " Devamını buraya kendi ürünün adını yazıyorum, galaksi bol yazalım mesela."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:31,200",
+				"to": "00:00:34,200"
+			},
+			"offsets": {
+				"from": 31200,
+				"to": 34200
+			},
+			"text": " Burada devamını da hesaplarınız ayrı tegler de ekleyebiliyor olacaksınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:34,200",
+				"to": "00:00:41,200"
+			},
+			"offsets": {
+				"from": 34200,
+				"to": 41200
+			},
+			"text": " Örneğin hesaplığınız viral gidiyorsa buradan viral işaretliyip bize bildirebileceksiniz ki biz de ona göre durumlarınızı kontrol edelim."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:41,200",
+				"to": "00:00:45,200"
+			},
+			"offsets": {
+				"from": 41200,
+				"to": 45200
+			},
+			"text": " Ya da eğer çok düşük gidiyorsa bir problem varsa bunu da etkiyetleyebilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:45,200",
+				"to": "00:00:49,200"
+			},
+			"offsets": {
+				"from": 45200,
+				"to": 49200
+			},
+			"text": " Ve biz daha öncesinden buna eleşim alıp inceleyebiliyor olacağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:49,200",
+				"to": "00:00:51,200"
+			},
+			"offsets": {
+				"from": 49200,
+				"to": 51200
+			},
+			"text": " Burada eğer birden fazla ürün yürütüyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:51,200",
+				"to": "00:00:55,700"
+			},
+			"offsets": {
+				"from": 51200,
+				"to": 55700
+			},
+			"text": " Mesela bir tane de Amerika pazarında iPhone 16 ile yürütüyor olalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:55,700",
+				"to": "00:00:58,200"
+			},
+			"offsets": {
+				"from": 55700,
+				"to": 58200
+			},
+			"text": " Burada ikinci ürününize bu şekilde ekleyebilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:58,200",
+				"to": "00:01:04,200"
+			},
+			"offsets": {
+				"from": 58200,
+				"to": 64200
+			},
+			"text": " Olabildiğince mitinglere gelmeden önce bunları doldurursanız mitingle mentörlerle konuşurken vakit kaybetmezsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:04,200",
+				"to": "00:01:10,200"
+			},
+			"offsets": {
+				"from": 64200,
+				"to": 70200
+			},
+			"text": " Çünkü onları tekrardan link yapmak yerine direkt olarak mentörler sizin girip verimlik tabloğunuza bakabiliyor olacaklar."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:10,200",
+				"to": "00:01:15,200"
+			},
+			"offsets": {
+				"from": 70200,
+				"to": 75200
+			},
+			"text": " Devamına verimlik tablusuna aşağı kaydırdığınız zaman bu seferde hesap analizi kısmını görüyor olacaksınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:15,200",
+				"to": "00:01:21,200"
+			},
+			"offsets": {
+				"from": 75200,
+				"to": 81200
+			},
+			"text": " Biliyorsunuz ki burnur yaparken bazen viral videoları bulmak ya da hesabın nasıl gittiğini takip etmek için zor olabiliyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:21,200",
+				"to": "00:01:27,200"
+			},
+			"offsets": {
+				"from": 81200,
+				"to": 87200
+			},
+			"text": " O yüzden buradan tiktok veya instagram için ayrı kısımları gelip meslevanlık olarak kendi hesabını yazayım."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:27,200",
+				"to": "00:01:28,200"
+			},
+			"offsets": {
+				"from": 87200,
+				"to": 88200
+			},
+			"text": " Organik çelik yazalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:28,200",
+				"to": "00:01:32,200"
+			},
+			"offsets": {
+				"from": 88200,
+				"to": 92200
+			},
+			"text": " Tam bu dropshipping görünü değil o yüzden binebize daha farklı analiz edecek."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:32,200",
+				"to": "00:01:36,200"
+			},
+			"offsets": {
+				"from": 92200,
+				"to": 96200
+			},
+			"text": " Bakalım benim hesabımı nasıl analiz ediyor? Olacak AI."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:36,200",
+				"to": "00:01:40,200"
+			},
+			"offsets": {
+				"from": 96200,
+				"to": 100200
+			},
+			"text": " Bakın gördüğünüz gibi direkt olarak benim hesabını detaylarını severiyor olacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:40,200",
+				"to": "00:01:44,200"
+			},
+			"offsets": {
+				"from": 100200,
+				"to": 104200
+			},
+			"text": " On üç bin altı yüz takip için var 80-80 kişi takip ediyorum ne zaman hesabı akmışım."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:44,200",
+				"to": "00:01:48,200"
+			},
+			"offsets": {
+				"from": 104200,
+				"to": 108200
+			},
+			"text": " Devamında AI analiz kısmı sineye çok işinize yarayan bir kısm olacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:48,200",
+				"to": "00:01:54,200"
+			},
+			"offsets": {
+				"from": 108200,
+				"to": 114200
+			},
+			"text": " Hesap sonra 10 videoda ortalama görüntülenmesi 40 bin ile eski 10 videoda ortalama hesap görüntülenmesi kıyası."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:54,200",
+				"to": "00:01:57,200"
+			},
+			"offsets": {
+				"from": 114200,
+				"to": 117200
+			},
+			"text": " Belirgin bir artış göstermesi nedeniyle büyümet trenlerinde."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:57,200",
+				"to": "00:02:00,200"
+			},
+			"offsets": {
+				"from": 117200,
+				"to": 120200
+			},
+			"text": " Bu açıdan viral sayılabilir. Etkileşim olalım yüzde."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:00,200",
+				"to": "00:02:04,200"
+			},
+			"offsets": {
+				"from": 120200,
+				"to": 124200
+			},
+			"text": " Üçmüş takipçiler içeriyle ilgi gösteriyormuş soracağı betkinliklere önüne biliyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:04,200",
+				"to": "00:02:11,200"
+			},
+			"offsets": {
+				"from": 124200,
+				"to": 131200
+			},
+			"text": " Ben de devamında içerik çeşitliğini artılmak ve takipçilerle daha fazla etkileşim kurmak için düzenle anketler soracağı yapılabilir diyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:11,200",
+				"to": "00:02:16,200"
+			},
+			"offsets": {
+				"from": 131200,
+				"to": 136200
+			},
+			"text": " Kaç videopaylaştığım kaç görüntülenme aldığım beynilerim, yorumlarım etkileşimlerim nasıl burası?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:16,200",
+				"to": "00:02:22,200"
+			},
+			"offsets": {
+				"from": 136200,
+				"to": 142200
+			},
+			"text": " Bakıyoruz. Devamında görefikler kısmına baktığınız zaman ise benim düzelliği olarak aldığım etkileşimleri gösteriyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:22,200",
+				"to": "00:02:28,200"
+			},
+			"offsets": {
+				"from": 142200,
+				"to": 148200
+			},
+			"text": " En iyi videolar kısmı önemli çünkü bu sayede siz hangi içeriklerin daha çok çalıştığını direkt olarak görebiliyor olacaksınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:28,200",
+				"to": "00:02:34,200"
+			},
+			"offsets": {
+				"from": 148200,
+				"to": 154200
+			},
+			"text": " Özellikle Instagram'da siz poplar olarak sıralıyamadığınız için viral videoları aşağı kaydırarak aramanız lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:34,200",
+				"to": "00:02:41,200"
+			},
+			"offsets": {
+				"from": 154200,
+				"to": 161200
+			},
+			"text": " Burada en iyi videolar kısmına gelip araştırdığınız Europe shipping görünün en çok veren olan konseplerinde görebiliyor olacaksınız."
+		}
+	]
+}

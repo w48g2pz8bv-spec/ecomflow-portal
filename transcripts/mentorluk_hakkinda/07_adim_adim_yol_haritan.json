@@ -1,0 +1,1165 @@
+{
+  "systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+  "model": {
+    "type": "base",
+    "multilingual": true,
+    "vocab": 51865,
+    "audio": {
+      "ctx": 1500,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "text": {
+      "ctx": 448,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "mels": 80,
+    "ftype": 1
+  },
+  "params": {
+    "model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+    "language": "tr",
+    "translate": false
+  },
+  "result": {
+    "language": "tr"
+  },
+  "transcription": [
+    {
+      "timestamps": {
+        "from": "00:00:00,000",
+        "to": "00:00:03,860"
+      },
+      "offsets": {
+        "from": 0,
+        "to": 3860
+      },
+      "text": " İlk ve en öncelikli olarak bizim organik yol haritamız nasıl olmalı?"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:03,860",
+        "to": "00:00:07,440"
+      },
+      "offsets": {
+        "from": 3860,
+        "to": 7440
+      },
+      "text": " Bu altı ay süre boyunca bir isbu mentörlükten neler beklemeliyiz"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:07,440",
+        "to": "00:00:12,220"
+      },
+      "offsets": {
+        "from": 7440,
+        "to": 12220
+      },
+      "text": " ve bu mentörlükte geride kalmamak adına neler yapmamız gerektiğinde adımadım şu anda anlatıyor olacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:12,220",
+        "to": "00:00:18,420"
+      },
+      "offsets": {
+        "from": 12220,
+        "to": 18420
+      },
+      "text": " Şimdi mentörlüğü yeni katıldığınız ilk haftanızdasıınız, motivasyonlar, tavan, hızlıca hareketi geçmek istiyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:18,420",
+        "to": "00:00:22,720"
+      },
+      "offsets": {
+        "from": 18420,
+        "to": 22720
+      },
+      "text": " Kesinlikle ilk yapmanız gereken şeyler mentörlük modüllerini izlemek."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:22,720",
+        "to": "00:00:27,760"
+      },
+      "offsets": {
+        "from": 22720,
+        "to": 27760
+      },
+      "text": " Bu mentörlüğün nasıl çalıştığını en detaylı olarak bu mentörlük modüllerinde görüyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:27,760",
+        "to": "00:00:35,120"
+      },
+      "offsets": {
+        "from": 27760,
+        "to": 35120
+      },
+      "text": " Anamantıkta bütün mentörlük, sizin kendinizi geliştirmeniz ve haftalık düzenli olarak buradaki mentörlerle miting almanız üzerine kurulu."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:35,120",
+        "to": "00:00:43,500"
+      },
+      "offsets": {
+        "from": 35120,
+        "to": 43500
+      },
+      "text": " Yani siz videolarınızı çekeceksiniz, ürünlerinizi bulacaksınız, sitenizi yapacaksınız, sonra haftalık düzenli olarak oturacağız, size feedback vereceğiz."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:43,500",
+        "to": "00:00:48,140"
+      },
+      "offsets": {
+        "from": 43500,
+        "to": 48140
+      },
+      "text": " Buradaki ana mantık size direkt olarak balık vermekten size balık tutmayı öğretebiliyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:48,140",
+        "to": "00:00:54,900"
+      },
+      "offsets": {
+        "from": 48140,
+        "to": 54900
+      },
+      "text": " O yüzden siz ne kadar efor koyup, sonra bizden feedback alırsanız, kendinizi de bu kadar hızlıca geliştiriyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:54,900",
+        "to": "00:00:58,500"
+      },
+      "offsets": {
+        "from": 54900,
+        "to": 58500
+      },
+      "text": " İkinci olarak da direkt olarak organik komiserisine başlıyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:58,500",
+        "to": "00:01:05,780"
+      },
+      "offsets": {
+        "from": 58500,
+        "to": 65780
+      },
+      "text": " Orada bütün detaylara videolar nasıl çekilir, edit nasıl yapılır, hooklar nasıl yazılır, her şeyi detaylı bir şekilde görüyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:05,780",
+        "to": "00:01:10,380"
+      },
+      "offsets": {
+        "from": 65780,
+        "to": 70380
+      },
+      "text": " Organik komiserisini izlerken oradaki ilk modülle sizin başlangıç ürünleriniz olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:10,380",
+        "to": "00:01:15,180"
+      },
+      "offsets": {
+        "from": 70380,
+        "to": 75180
+      },
+      "text": " Bu başlangıç ürünleri kolay viral olabilen ama bizim satış beklemediğimiz ürünler."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:15,180",
+        "to": "00:01:20,740"
+      },
+      "offsets": {
+        "from": 75180,
+        "to": 80740
+      },
+      "text": " Anamantıkta siz viral olmayı, viral videoları bile bir kopyalayarak öğreneceksiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:20,740",
+        "to": "00:01:26,780"
+      },
+      "offsets": {
+        "from": 80740,
+        "to": 86780
+      },
+      "text": " Bunları kopyalarken içerik nasıl çekilir, edit nasıl yapılır, hooklar nasıl yazılır, ışıklar nasıl konumandırır."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:26,780",
+        "to": "00:01:30,060"
+      },
+      "offsets": {
+        "from": 86780,
+        "to": 90060
+      },
+      "text": " Aslında bunları pratik ederek devam ediyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:30,060",
+        "to": "00:01:35,180"
+      },
+      "offsets": {
+        "from": 90060,
+        "to": 95180
+      },
+      "text": " Hedefimiz buradaki başlangıç ürünleriyle tek videoda 1 milyon ve yüzleri görünü plenme alıyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:35,180",
+        "to": "00:01:41,180"
+      },
+      "offsets": {
+        "from": 95180,
+        "to": 101180
+      },
+      "text": " Buradaki başlangıç ürünleriyle kimisi belki ilk videosuyle viral olacak, kimisi iki hafta sonra viral olacak, hiç önemli değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:41,180",
+        "to": "00:01:43,700"
+      },
+      "offsets": {
+        "from": 101180,
+        "to": 103700
+      },
+      "text": " Burada önemli olan sizin pratik yapıyor olmanız."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:43,700",
+        "to": "00:01:47,140"
+      },
+      "offsets": {
+        "from": 103700,
+        "to": 107140
+      },
+      "text": " O yüzden çok fazla endiş etmeyin, geride kaldığınızı düşünmeyin."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:47,140",
+        "to": "00:01:51,940"
+      },
+      "offsets": {
+        "from": 107140,
+        "to": 111940
+      },
+      "text": " Sadece her gün önceki yaptığınız günden bir tek daha iyi video yapmaya çalışın."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:51,940",
+        "to": "00:01:56,780"
+      },
+      "offsets": {
+        "from": 111940,
+        "to": 116780
+      },
+      "text": " İlk ve en öncelikle defimiz sizin burada güzel videolarda çekebiliyor olmayı öğrenmeniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:56,780",
+        "to": "00:02:03,580"
+      },
+      "offsets": {
+        "from": 116780,
+        "to": 123580
+      },
+      "text": " İkinci olarak, bölünle hesapları kurmamız gerek, bu bölünle hesapları biz günde minimum bir saat olacak şekilde kayduruyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:03,580",
+        "to": "00:02:07,620"
+      },
+      "offsets": {
+        "from": 123580,
+        "to": 127620
+      },
+      "text": " Buradaki amaçta bir siz ürünleri bölünlerden buluyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:07,620",
+        "to": "00:02:11,380"
+      },
+      "offsets": {
+        "from": 127620,
+        "to": 131380
+      },
+      "text": " İkinci olarak da farklı viral konseptleri de burada görüyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:11,380",
+        "to": "00:02:21,980"
+      },
+      "offsets": {
+        "from": 131380,
+        "to": 141980
+      },
+      "text": " Anam antıklı siz ileride bir ürün bulduğunuz zaman, bölünle kaydırırken farklı tarzda işelikler görüp ben, ben bunu kendi ürünime uyarlayıp, bununla ilgili video çekebilirim de diyebiliyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:21,980",
+        "to": "00:02:28,220"
+      },
+      "offsets": {
+        "from": 141980,
+        "to": 148220
+      },
+      "text": " Buradaki bölünle hesapları çok önemli, o yüzden günde minimum bir saat ayırdığınızı ve kaydırdığınızı emin olun lütfen."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:28,220",
+        "to": "00:02:35,820"
+      },
+      "offsets": {
+        "from": 148220,
+        "to": 155820
+      },
+      "text": " Bu arada bölünle hesaplar olarak kullandığınız TikTok ve Instagram hesaplarında kaydırırken bir yerden sonra sürekli sürekli aynı ürünleri görmeye başlayacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:35,820",
+        "to": "00:02:42,260"
+      },
+      "offsets": {
+        "from": 155820,
+        "to": 162260
+      },
+      "text": " Burada en nişe edilecek hiçbir şey yok, yapmanız gereken kaydırıp güzel olan içerikleri etkileşim vermeye devam etmek."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:42,260",
+        "to": "00:02:47,580"
+      },
+      "offsets": {
+        "from": 162260,
+        "to": 167580
+      },
+      "text": " Biliyorum aynı ürünleri görmeye başladığınız zaman can sıkıcı olacak, belki bir yerlerde hata yaptığınızı düşüneceksiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:47,580",
+        "to": "00:02:52,620"
+      },
+      "offsets": {
+        "from": 167580,
+        "to": 172620
+      },
+      "text": " Ama hayır iş modeli direkt olarak böyle ürün bulmak işin en zor kısmı arkadaşlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:52,620",
+        "to": "00:02:59,100"
+      },
+      "offsets": {
+        "from": 172620,
+        "to": 179100
+      },
+      "text": " Buradaki zor olan kısmı ne video çekmek de bunlarla virar olmak, bunu zaten birinci ayınızın sonunda direkt olarak anlıyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:59,100",
+        "to": "00:03:07,060"
+      },
+      "offsets": {
+        "from": 179100,
+        "to": 187060
+      },
+      "text": " O yüzden en çok vakti ürün ararken harcayacaksınız, çünkü en çok parayı da devamında bulduğumuz güzel ürünlerden kazanıyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:07,060",
+        "to": "00:03:10,140"
+      },
+      "offsets": {
+        "from": 187060,
+        "to": 190140
+      },
+      "text": " Son olarak da sizden sosyal medya hesaplarınızı açmanızı isteyeceğiz."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:10,140",
+        "to": "00:03:15,260"
+      },
+      "offsets": {
+        "from": 190140,
+        "to": 195260
+      },
+      "text": " Burada bir TikTok, bir Instagram bir YouTube'a saaba açacağız, bunları ısındırmaya başlayacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:15,260",
+        "to": "00:03:21,860"
+      },
+      "offsets": {
+        "from": 195260,
+        "to": 201860
+      },
+      "text": " Bu sayede başlangıç ürünlerini teslim alır almaz, direkt olarak bu ürünleri görürsmeye başlayabilir ve vakit kaybetmeyeceğiz."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:21,860",
+        "to": "00:03:28,820"
+      },
+      "offsets": {
+        "from": 201860,
+        "to": 208820
+      },
+      "text": " O yüzden gene olarak yeni bir ürün söylediğiniz zaman bu başlangıç ürün olabilir, sizin gerçekten para kazanma kısmındaki söylediğiniz ürün."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:28,820",
+        "to": "00:03:35,940"
+      },
+      "offsets": {
+        "from": 208820,
+        "to": 215940
+      },
+      "text": " Örün olabilir, ürünü beklerken hesaplar açıp ısındırırsanız, ürün teslim aldığınız zaman direkt olarak yürütmeye başlıyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:35,940",
+        "to": "00:03:39,700"
+      },
+      "offsets": {
+        "from": 215940,
+        "to": 219700
+      },
+      "text": " Tamamdır, şimdi ilk ayımızda yapmamız gereken kısındayız."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:39,700",
+        "to": "00:03:44,020"
+      },
+      "offsets": {
+        "from": 219700,
+        "to": 224020
+      },
+      "text": " Bulduğumuz her ürünle biz günde aktif olarak iki post atmamız gerekecek."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:44,020",
+        "to": "00:03:47,740"
+      },
+      "offsets": {
+        "from": 224020,
+        "to": 227740
+      },
+      "text": " Buradaki en önemli kısım, işte bu disiplin kısmı."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:47,740",
+        "to": "00:03:55,340"
+      },
+      "offsets": {
+        "from": 227740,
+        "to": 235340
+      },
+      "text": " Sizin günlük ürün başına yapmanız gereken ilk ve tek ve en önemli şeyi iki şer post atıyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:55,340",
+        "to": "00:04:01,300"
+      },
+      "offsets": {
+        "from": 235340,
+        "to": 241300
+      },
+      "text": " Biliyorum başlangıç da zor olacak, başlangıç da o momentumi yakalanıya kadar birazcık sıkılacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:01,300",
+        "to": "00:04:05,540"
+      },
+      "offsets": {
+        "from": 241300,
+        "to": 245540
+      },
+      "text": " Nasıl yapacağınızı bilmiyor olacaksınız ya da yapmak istemeyeceksiniz belki de."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:05,540",
+        "to": "00:04:10,540"
+      },
+      "offsets": {
+        "from": 245540,
+        "to": 250540
+      },
+      "text": " Ama ana mantık da bu ilk aşamayı geçtiğimiz zaman işin en zor kısmı bitmiş olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:10,540",
+        "to": "00:04:18,140"
+      },
+      "offsets": {
+        "from": 250540,
+        "to": 258140
+      },
+      "text": " Hedefimiz dediğim gibi başlangıç ürünleriyle bir milyon izlemme alabiliyor olmak devamında siz bulduğunuz ürünleri ürün tablusunu dolduruyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:18,140",
+        "to": "00:04:22,860"
+      },
+      "offsets": {
+        "from": 258140,
+        "to": 262860
+      },
+      "text": " Aynı zamanda sizlere özel açtığımız vatsap grubunda ürün sapmit linkleri olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:22,860",
+        "to": "00:04:34,860"
+      },
+      "offsets": {
+        "from": 262860,
+        "to": 274860
+      },
+      "text": " Ne demek? Siz orunuz sapmit linkine girip kendi ürün tabla linkinizi koyup hangi üründen itibaren kontrol etmemiz gerektiğini yazarsanız devamında bir gün içerisinde sizin ürün tablonuz güncelleniyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:34,860",
+        "to": "00:04:45,260"
+      },
+      "offsets": {
+        "from": 274860,
+        "to": 285260
+      },
+      "text": " Son olarak da dediğim gibi bizim ilk ayımız aktif olarak feedback alarak kendimizi geliştirmek burada çoğu öğrenci genelde iki üç hafta içerisinde viral olup kendi ürünlerini yürütmeye başlıyorlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:45,260",
+        "to": "00:05:04,660"
+      },
+      "offsets": {
+        "from": 285260,
+        "to": 304660
+      },
+      "text": " Ama dediğim gibi herkesin hikayesi kendine o yüzden kendiniz pratik etmeye çalışın yeni şeyler deneyin ilk ay da bizim hedefimiz para kazanmak değil tamamıyla nasıl viral videolar çekilir bunu öğrenmek ki devamında bu öğrendiğimiz yeteneğin üzerine güzel rünleri de kombinliyerek artık para kazanmak kısmı geliyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:04,660",
+        "to": "00:05:12,260"
+      },
+      "offsets": {
+        "from": 304660,
+        "to": 312260
+      },
+      "text": " Tamamdır şimdi artık ikinci ayımızdayız artık birazcık da satış bekleyeceğimiz birazcık da para kazanacağımız güzel ay ikinci ayımız olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:12,260",
+        "to": "00:05:24,660"
+      },
+      "offsets": {
+        "from": 312260,
+        "to": 324660
+      },
+      "text": " Burada bizim yapmamız gereken şeyi aktif olarak ürün testi yapmak ne demek sizin bulduğunuz ürünlerden olaylananları direkt evinizi sipariş vereceksiniz burada ürünleri beklerken dediğim gibi hesaplarına açı olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:24,660",
+        "to": "00:05:31,660"
+      },
+      "offsets": {
+        "from": 324660,
+        "to": 331660
+      },
+      "text": " Devamında bu ürünleri teslim alır almaz gün de iki şer adet olacak şekilde bu ürünleri artık satış amaçlı başlıyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:31,660",
+        "to": "00:05:42,660"
+      },
+      "offsets": {
+        "from": 331660,
+        "to": 342660
+      },
+      "text": " Buradaki ürün testi edefimiz eğer biz iki hafta içerisinde toplam 28 postunun içerisinde eğer 10 bin izlenmeden fazla alıyorsak bu ürün hala test edilebilir hala devam edilebilir demek."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:42,660",
+        "to": "00:05:48,660"
+      },
+      "offsets": {
+        "from": 342660,
+        "to": 348660
+      },
+      "text": " Biz ne zaman 50 bin izlenme alırsak burada direkt olarak bir internet siz açmamız gerekecek."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:48,660",
+        "to": "00:05:51,860"
+      },
+      "offsets": {
+        "from": 348660,
+        "to": 351860
+      },
+      "text": " Tabii burada açtığımız internet sizlere çok çok fazla özenmenize gerek yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:51,860",
+        "to": "00:06:04,860"
+      },
+      "offsets": {
+        "from": 351860,
+        "to": 364860
+      },
+      "text": " ana mantık'taki amaç insanların parayı bir şekilde bize transfer edebiliyor olması. Başlangıçta çok fazla özenmememizin nedeni ise siz yeni yeni virar olmaya başladığınız için internet sesine çok fazla bir trafik çekmiyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:04,860",
+        "to": "00:06:14,860"
+      },
+      "offsets": {
+        "from": 364860,
+        "to": 374860
+      },
+      "text": " Ne zaman biz böyle 1 milyon 2 milyon 3 milyon izleniriz artık internet sesimize giren insansa ise böyle günlük 500 olur bin olur o zaman artık internet sesine birazcık da odaklanabiliriz."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:14,860",
+        "to": "00:06:21,260"
+      },
+      "offsets": {
+        "from": 374860,
+        "to": 381260
+      },
+      "text": " Birazcık da rapseller üzerine koyup gelen trafikten gelen satışlardan daha fazla para kazanmaya çalışacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:21,260",
+        "to": "00:06:32,260"
+      },
+      "offsets": {
+        "from": 381260,
+        "to": 392260
+      },
+      "text": " Bahsettiğim gibi günlük olarak burner hesaplarıyla kaydırmayı unutmuyoruz. Burada isterseniz sizin bu işte ikinci ayınız olsun isterseniz ikinci yılınız olsun siz aktif olarak burner'da kaydırıyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:32,260",
+        "to": "00:06:40,260"
+      },
+      "offsets": {
+        "from": 392260,
+        "to": 400260
+      },
+      "text": " Hedifimiz ürün başına günde dediğim gibi iki şer videopayla şu olmak eğer sizin iki farklı ürününüz varsa bu sefer günde 4 der aile video çekiyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:40,260",
+        "to": "00:06:44,260"
+      },
+      "offsets": {
+        "from": 400260,
+        "to": 404260
+      },
+      "text": " Burada unutmamak gereken kısım her ürün için bizim aile hesaplarımız olması lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:44,260",
+        "to": "00:06:51,260"
+      },
+      "offsets": {
+        "from": 404260,
+        "to": 411260
+      },
+      "text": " Ya yersiz iki farklı ürütüyorsanız iki tane instagram iki tane tiktok iki tane de YouTube hesabı açmanız gerekti olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:51,260",
+        "to": "00:06:59,260"
+      },
+      "offsets": {
+        "from": 411260,
+        "to": 419260
+      },
+      "text": " Son olarak da bahsettiğim internet sesi kurulumu siz ne zaman tek bir videodan 50 bin izlenme alırsınız o zaman hızlıca bir internet sesi açıyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:59,260",
+        "to": "00:07:06,260"
+      },
+      "offsets": {
+        "from": 419260,
+        "to": 426260
+      },
+      "text": " Tamamız artık organik dropshipping de üçüncü ayımıza geldik. Burada kerefimiz günde minimum iki tane ürün test edebiliyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:06,260",
+        "to": "00:07:13,260"
+      },
+      "offsets": {
+        "from": 426260,
+        "to": 433260
+      },
+      "text": " Siz yeni bir ürün başladığınız zaman tek bir videonuz belki yarım saat bir saat alırken oyunu ile devamlı videolar çektikten sonra"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:13,260",
+        "to": "00:07:23,260"
+      },
+      "offsets": {
+        "from": 433260,
+        "to": 443260
+      },
+      "text": " iliniz alıştıktan sonra artık daha hız vakit almaya başlayacak. Bizim de edepimiz olabildiğince fazla ürünü test edip tutanları artık reklamlayıp tutmayanları da değiştiriyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:23,260",
+        "to": "00:07:30,260"
+      },
+      "offsets": {
+        "from": 443260,
+        "to": 450260
+      },
+      "text": " Burada ne kadar vinir ürün üst üste sektekleyebilirsek o kadar bizim aylık gelirimiz artıyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:30,260",
+        "to": "00:07:38,260"
+      },
+      "offsets": {
+        "from": 450260,
+        "to": 458260
+      },
+      "text": " Burada önemli olan sizin aktif olarak ne kadar vakit ayırabiliyor olmanız eğer günlük 3 saatiniz varsa minimum iki tane ürün üretebiliyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:38,260",
+        "to": "00:07:45,260"
+      },
+      "offsets": {
+        "from": 458260,
+        "to": 465260
+      },
+      "text": " Devamında baktık biz ürünümüzde artık siparişler alabiliyoruz. Günde böyle dörder altışar artık sipariş gelmeye başladı."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:45,260",
+        "to": "00:07:52,260"
+      },
+      "offsets": {
+        "from": 465260,
+        "to": 472260
+      },
+      "text": " Direkt olarak viral olmuş videolarımızı alıp artık reklamlayı olacağız. Burada reklamlarda iyi performans bekliyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:52,260",
+        "to": "00:08:03,260"
+      },
+      "offsets": {
+        "from": 472260,
+        "to": 483260
+      },
+      "text": " Çünkü yeni olan güncelleme andromeda güncellemesi sayesinde artık içerik tamamıyla her şeyi ve biz de direkt olarak içeri üretliğimiz için burada piyasadaki bütün markalardan üste olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:03,260",
+        "to": "00:08:10,260"
+      },
+      "offsets": {
+        "from": 483260,
+        "to": 490260
+      },
+      "text": " Devamında üçüncü adi kedefimiz artık yavaş yavaş markalaşmaya başlamak nasıl biz takımlaşabileceğimize odakları yolacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:10,260",
+        "to": "00:08:18,260"
+      },
+      "offsets": {
+        "from": 490260,
+        "to": 498260
+      },
+      "text": " Çünkü siz oturup da bütün reklamları tek başınıza yürütmeniz ya da imeyel marketing, Google marketing öğrenip bunlara odaklanmanızı gerek olmayacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:18,260",
+        "to": "00:08:25,260"
+      },
+      "offsets": {
+        "from": 498260,
+        "to": 505260
+      },
+      "text": " Burada siz aktif olarak satışlar almaya başladığınız zaman içinde bulunduğunuz duruma göre bir size farklı şekilde takımlaşmayı öneriyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:25,260",
+        "to": "00:08:33,260"
+      },
+      "offsets": {
+        "from": 505260,
+        "to": 513260
+      },
+      "text": " Duruma göre imeyel marketing, Google marketing, kreatorlar, reklamlar burada tamamen sizin ürününüzün gidiş hatana göre siz markalaştırıyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:33,260",
+        "to": "00:08:41,260"
+      },
+      "offsets": {
+        "from": 513260,
+        "to": 521260
+      },
+      "text": " Son olarak da üçüncü ayımızda hedefimiz artık sikiyle edebiliyor olmak, baktık sizin ürününüz güzel gidiyor, reklamlardan da güzel sonuçlar alıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:41,260",
+        "to": "00:08:46,260"
+      },
+      "offsets": {
+        "from": 521260,
+        "to": 526260
+      },
+      "text": " Artık yavaş yavaş bütçemize artırıp daha büyük paraları hedefleyeceğimiz ay burası olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:46,260",
+        "to": "00:08:55,260"
+      },
+      "offsets": {
+        "from": 526260,
+        "to": 535260
+      },
+      "text": " Burada hedefimiz ilk başta günde 10 mil lira satış almak, sonra bunu 50 bin lira yapacağız, sonra 100 bin lira yapacağız, sonra da artık gündek 200 bin liralara hedefliyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:55,260",
+        "to": "00:09:06,260"
+      },
+      "offsets": {
+        "from": 535260,
+        "to": 546260
+      },
+      "text": " Artık dört ve üzere aylara geldik, burada hedefimiz sizin bir tane vünür ürününüz olması, artık bir vünür ürünle düzenli olarak sizin burada aktif satışlar alıyor olmanız gerekli."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:06,260",
+        "to": "00:09:10,260"
+      },
+      "offsets": {
+        "from": 546260,
+        "to": 550260
+      },
+      "text": " Devamında da önceden bahsettiğim gibi artık takımlaşıyor olmamız gerekecek."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:10,260",
+        "to": "00:09:17,260"
+      },
+      "offsets": {
+        "from": 550260,
+        "to": 557260
+      },
+      "text": " İlk ve önemde yapmamız gereken şey bir tane kastımı sormuz bulmak ki artık siz müşteri kısmıyla hiç ilgilenmeyin."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:17,260",
+        "to": "00:09:22,260"
+      },
+      "offsets": {
+        "from": 557260,
+        "to": 562260
+      },
+      "text": " Devamında burada sizinle kadar vaktiniz olduğuna göre saktif kreatörler esin edebiliyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:22,260",
+        "to": "00:09:28,260"
+      },
+      "offsets": {
+        "from": 562260,
+        "to": 568260
+      },
+      "text": " Bunun içerisine baktık ürünler güzel gidiyor, satışlarınız güzel, Google reklamlar ekleyeceğiz, e-mail marketing ekleyeceğiz ki."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:28,260",
+        "to": "00:09:33,260"
+      },
+      "offsets": {
+        "from": 568260,
+        "to": 573260
+      },
+      "text": " Sizin gerçekten bir markanız olsun ve bu marka sizden bağımsız bir şekilde çalışabilsin."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:33,260",
+        "to": "00:09:37,260"
+      },
+      "offsets": {
+        "from": 573260,
+        "to": 577260
+      },
+      "text": " Siz ilk başta markanın elleri kolları olarak hareket ediyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:37,260",
+        "to": "00:09:42,260"
+      },
+      "offsets": {
+        "from": 577260,
+        "to": 582260
+      },
+      "text": " Bir yerden sonra baktık güzel satışlar geliyor ve marka karlı devam ediyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:42,260",
+        "to": "00:09:46,260"
+      },
+      "offsets": {
+        "from": 582260,
+        "to": 586260
+      },
+      "text": " Artık siz sadece karar verici pozisyonunda çalışabiliyor olmanız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:46,260",
+        "to": "00:09:51,260"
+      },
+      "offsets": {
+        "from": 586260,
+        "to": 591260
+      },
+      "text": " Biz de bunu kurmak adına size farklı trafik kaynakları da etkiliyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:51,260",
+        "to": "00:09:56,260"
+      },
+      "offsets": {
+        "from": 591260,
+        "to": 596260
+      },
+      "text": " Bu dört ve altı ay diyorum ama bakın görecekseniz ki vakit çok hızlı geçecek."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:56,260",
+        "to": "00:09:59,260"
+      },
+      "offsets": {
+        "from": 596260,
+        "to": 599260
+      },
+      "text": " Bir vakmısınız mentörlüğün üçüncü dördüncü ayındasınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:59,260",
+        "to": "00:10:06,260"
+      },
+      "offsets": {
+        "from": 599260,
+        "to": 606260
+      },
+      "text": " O yüzden dördüncü ay geldiğiniz zaman pişman olmamak adına günlük sadece yapmanız gereken gerekti olan taskları yerine getirmek."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:06,260",
+        "to": "00:10:12,260"
+      },
+      "offsets": {
+        "from": 606260,
+        "to": 612260
+      },
+      "text": " Burada sizden beklendiniz gerçekten efor ve emek katarak bu iş teki taskları yapıyorlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:12,260",
+        "to": "00:10:18,260"
+      },
+      "offsets": {
+        "from": 612260,
+        "to": 618260
+      },
+      "text": " Günlük iki video çekecekseniz iki video çekecekseniz burnur yapmanız gerekenize burnur yapacak bu kadar abi."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:18,260",
+        "to": "00:10:24,260"
+      },
+      "offsets": {
+        "from": 618260,
+        "to": 624260
+      },
+      "text": " Tek yapmanız gereken aktif olarak kendinizi geliştirmeyi çalışmak bizden filve kalmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:24,260",
+        "to": "00:10:28,260"
+      },
+      "offsets": {
+        "from": 624260,
+        "to": 628260
+      },
+      "text": " Ne kadar bu işin üzerine düşerseniz emin olun iş o kadar zevk de alayı gelecek."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:28,260",
+        "to": "00:10:31,260"
+      },
+      "offsets": {
+        "from": 628260,
+        "to": 631260
+      },
+      "text": " Dışarıdan baktığınız zaman belki birazcık karmaşık duruyor olabilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:31,260",
+        "to": "00:10:34,260"
+      },
+      "offsets": {
+        "from": 631260,
+        "to": 634260
+      },
+      "text": " Çok normal çünkü yeni bir iş öğreniyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:34,260",
+        "to": "00:10:38,260"
+      },
+      "offsets": {
+        "from": 634260,
+        "to": 638260
+      },
+      "text": " Kimse yeni bir iş modeline başladığı zaman çok rahat gülük gülistanlı bir şekilde başlamıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:38,260",
+        "to": "00:10:45,260"
+      },
+      "offsets": {
+        "from": 638260,
+        "to": 645260
+      },
+      "text": " O işin içine yavaştan girmeye başladığınız zaman görecekseniz ki video çekmek, bunlarla satış almak, bunlarla reklamlamak."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:45,260",
+        "to": "00:10:48,260"
+      },
+      "offsets": {
+        "from": 645260,
+        "to": 648260
+      },
+      "text": " Hem çok eğlenceni hem de gerçekten kolay bir iş modeli."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:48,260",
+        "to": "00:10:52,260"
+      },
+      "offsets": {
+        "from": 648260,
+        "to": 652260
+      },
+      "text": " Sadece yapmanız gereken taskları zaman da yerine getirmek lazım bu kadar."
+    }
+  ]
+}

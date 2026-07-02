@@ -1,0 +1,527 @@
+{
+  "systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+  "model": {
+    "type": "base",
+    "multilingual": true,
+    "vocab": 51865,
+    "audio": {
+      "ctx": 1500,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "text": {
+      "ctx": 448,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "mels": 80,
+    "ftype": 1
+  },
+  "params": {
+    "model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+    "language": "tr",
+    "translate": false
+  },
+  "result": {
+    "language": "tr"
+  },
+  "transcription": [
+    {
+      "timestamps": {
+        "from": "00:00:00,000",
+        "to": "00:00:04,720"
+      },
+      "offsets": {
+        "from": 0,
+        "to": 4720
+      },
+      "text": " Evet selamlar. Bu videoda nasıl? Yarın bırakalım demeleri kuturabiliriz."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:04,720",
+        "to": "00:00:08,920"
+      },
+      "offsets": {
+        "from": 4720,
+        "to": 8920
+      },
+      "text": " Bu yarın bırakalım şöyle demedi. Nasıl spaarişi tamamlayabiliriz."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:08,920",
+        "to": "00:00:13,520"
+      },
+      "offsets": {
+        "from": 8920,
+        "to": 13520
+      },
+      "text": " Bunları göstereceğim. Evet şimdi Shopify deyiz. Burada uygulamalar üzerinde"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:14,960",
+        "to": "00:00:18,320"
+      },
+      "offsets": {
+        "from": 14960,
+        "to": 18320
+      },
+      "text": " hep ayarları. Buradan da Shopify hepsi tura gideceğiz."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:19,400",
+        "to": "00:00:20,720"
+      },
+      "offsets": {
+        "from": 19400,
+        "to": 20720
+      },
+      "text": " Burada Shopify"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:22,360",
+        "to": "00:00:23,600"
+      },
+      "offsets": {
+        "from": 22360,
+        "to": 23600
+      },
+      "text": " Floby'ndıracağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:26,440",
+        "to": "00:00:27,240"
+      },
+      "offsets": {
+        "from": 26440,
+        "to": 27240
+      },
+      "text": " Şuna"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:30,120",
+        "to": "00:00:31,520"
+      },
+      "offsets": {
+        "from": 30120,
+        "to": 31520
+      },
+      "text": " Buradan yükliyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:32,120",
+        "to": "00:00:34,800"
+      },
+      "offsets": {
+        "from": 32120,
+        "to": 34800
+      },
+      "text": " Şimdi burada biz bir işe akış alıştıracağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:34,800",
+        "to": "00:00:36,520"
+      },
+      "offsets": {
+        "from": 34800,
+        "to": 36520
+      },
+      "text": " Bu da şablonlara göz at diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:40,440",
+        "to": "00:00:43,520"
+      },
+      "offsets": {
+        "from": 40440,
+        "to": 43520
+      },
+      "text": " Ve burada görüyorsunuz. Yarın bırakılmış ödemeleri kurtarın diyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:43,520",
+        "to": "00:00:44,520"
+      },
+      "offsets": {
+        "from": 43520,
+        "to": 44520
+      },
+      "text": " Buna basıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:46,080",
+        "to": "00:00:47,520"
+      },
+      "offsets": {
+        "from": 46080,
+        "to": 47520
+      },
+      "text": " Şimdi bunu yüklediyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:50,240",
+        "to": "00:00:52,560"
+      },
+      "offsets": {
+        "from": 50240,
+        "to": 52560
+      },
+      "text": " Evet şimdi burada gelene akışı anlatayım."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:52,960",
+        "to": "00:00:55,280"
+      },
+      "offsets": {
+        "from": 52960,
+        "to": 55280
+      },
+      "text": " Eğer müşteri ödemeyi yarın bıraktıysa"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:55,920",
+        "to": "00:01:00,640"
+      },
+      "offsets": {
+        "from": 55920,
+        "to": 60640
+      },
+      "text": " ve bu ödeme sıfır teliden kaldıysa herhangi bir ödeme."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:01,480",
+        "to": "00:01:04,000"
+      },
+      "offsets": {
+        "from": 61480,
+        "to": 64000
+      },
+      "text": " Fazlayısa ve 10 saat sonra"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:05,760",
+        "to": "00:01:06,800"
+      },
+      "offsets": {
+        "from": 65760,
+        "to": 66800
+      },
+      "text": " hala müşteri"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:08,600",
+        "to": "00:01:12,040"
+      },
+      "offsets": {
+        "from": 68600,
+        "to": 72040
+      },
+      "text": " bu ödemeyi tamamlamadıysa ya da herhangi bir şey yapmadıysa"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:13,080",
+        "to": "00:01:16,080"
+      },
+      "offsets": {
+        "from": 73080,
+        "to": 76080
+      },
+      "text": " sepette ya da ödeme de birden fazla"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:16,480",
+        "to": "00:01:17,520"
+      },
+      "offsets": {
+        "from": 76480,
+        "to": 77520
+      },
+      "text": " bir ürün varsa"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:18,160",
+        "to": "00:01:20,480"
+      },
+      "offsets": {
+        "from": 78160,
+        "to": 80480
+      },
+      "text": " biz müşteriye meyil yollayacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:20,880",
+        "to": "00:01:23,360"
+      },
+      "offsets": {
+        "from": 80880,
+        "to": 83360
+      },
+      "text": " Ve burada şöyle bir meylimiz var."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:24,400",
+        "to": "00:01:25,200"
+      },
+      "offsets": {
+        "from": 84400,
+        "to": 85200
+      },
+      "text": " Görüyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:25,200",
+        "to": "00:01:28,320"
+      },
+      "offsets": {
+        "from": 85200,
+        "to": 88320
+      },
+      "text": " İşte burada sepetiniz ödeme için hazır."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:29,120",
+        "to": "00:01:32,400"
+      },
+      "offsets": {
+        "from": 89120,
+        "to": 92400
+      },
+      "text": " Ve bu şekilde bir müşteriye meyil gibicek."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:32,840",
+        "to": "00:01:35,280"
+      },
+      "offsets": {
+        "from": 92840,
+        "to": 95280
+      },
+      "text": " Aslında genelme anlık bu şekilde."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:35,760",
+        "to": "00:01:39,240"
+      },
+      "offsets": {
+        "from": 95760,
+        "to": 99240
+      },
+      "text": " Sonra biz bir iş akışını etkinleştir diyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:40,600",
+        "to": "00:01:41,600"
+      },
+      "offsets": {
+        "from": 100600,
+        "to": 101600
+      },
+      "text": " Etkinleştir."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:42,080",
+        "to": "00:01:44,760"
+      },
+      "offsets": {
+        "from": 102080,
+        "to": 104760
+      },
+      "text": " Tamamdır. Kenal olarak işten bu şekilde."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:45,160",
+        "to": "00:01:48,760"
+      },
+      "offsets": {
+        "from": 105160,
+        "to": 108760
+      },
+      "text": " Ama isterseniz buradan postayı düzenleyebilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:49,280",
+        "to": "00:01:51,720"
+      },
+      "offsets": {
+        "from": 109280,
+        "to": 111720
+      },
+      "text": " İşte buradan renkleri ayarlayabilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:51,720",
+        "to": "00:01:55,800"
+      },
+      "offsets": {
+        "from": 111720,
+        "to": 115800
+      },
+      "text": " Bildikleri çıkarabilirsiniz. Fartlı farklı, fontla çıtırabilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:57,040",
+        "to": "00:01:59,240"
+      },
+      "offsets": {
+        "from": 117040,
+        "to": 119240
+      },
+      "text": " Yani burada isiğiniz gibi ayarlayabilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:00,160",
+        "to": "00:02:03,360"
+      },
+      "offsets": {
+        "from": 120160,
+        "to": 123360
+      },
+      "text": " İşte mesela mağazlığımız yaratın butonunu kaldırabilirsiniz buradan."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:04,320",
+        "to": "00:02:07,000"
+      },
+      "offsets": {
+        "from": 124320,
+        "to": 127000
+      },
+      "text": " İşte ödemeye devam et ya da farklı bir şekilde."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:07,400",
+        "to": "00:02:08,640"
+      },
+      "offsets": {
+        "from": 127400,
+        "to": 128640
+      },
+      "text": " Buraya farklı tekstler."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:08,920",
+        "to": "00:02:12,160"
+      },
+      "offsets": {
+        "from": 128920,
+        "to": 132160
+      },
+      "text": " Şuraya logo'nun uzu yapabilirsiniz. Mesela mağazatıyla ne şöyle loko seçip."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:13,560",
+        "to": "00:02:15,040"
+      },
+      "offsets": {
+        "from": 133560,
+        "to": 135040
+      },
+      "text": " Mesela şu logo'nun seçip."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:16,840",
+        "to": "00:02:17,800"
+      },
+      "offsets": {
+        "from": 136840,
+        "to": 137800
+      },
+      "text": " Mesela böyle oldu."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:17,960",
+        "to": "00:02:20,800"
+      },
+      "offsets": {
+        "from": 137960,
+        "to": 140800
+      },
+      "text": " İşte boyutu fazla geldi ama işte örnek ama işte diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:22,400",
+        "to": "00:02:25,560"
+      },
+      "offsets": {
+        "from": 142400,
+        "to": 145560
+      },
+      "text": " Genel olarak bu şekilde aktif olarak ayarladırsınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:26,320",
+        "to": "00:02:29,840"
+      },
+      "offsets": {
+        "from": 146320,
+        "to": 149840
+      },
+      "text": " Evet şu an görmüş olduğunuz gibi yarın bırakılmış ödemeler aktif diyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:30,440",
+        "to": "00:02:35,440"
+      },
+      "offsets": {
+        "from": 150440,
+        "to": 155440
+      },
+      "text": " Burada işte kaç kişi bu ödemeye yaptığı kaç kişi bunu gördüğü."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:36,040",
+        "to": "00:02:42,280"
+      },
+      "offsets": {
+        "from": 156040,
+        "to": 162280
+      },
+      "text": " İşte kaç kişi bu meyil sayesinde yarın bırakılmış ödemelerin tamınıza buradan da görebiliyorsunuz."
+    }
+  ]
+}

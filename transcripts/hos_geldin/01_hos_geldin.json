@@ -1,0 +1,175 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:04,600"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 4600
+			},
+			"text": " Arkadaşlar selamla Güncellen'in organik drop shipping ben türlüyle hoş geldiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,600",
+				"to": "00:00:07,480"
+			},
+			"offsets": {
+				"from": 4600,
+				"to": 7480
+			},
+			"text": " Yeni ben türlüümüzü sistemi senin için başlarıyla aldık."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,480",
+				"to": "00:00:10,720"
+			},
+			"offsets": {
+				"from": 7480,
+				"to": 10720
+			},
+			"text": " Yani bundan sonra herkes artık aynı şeyleri yapmıyor olacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,720",
+				"to": "00:00:15,320"
+			},
+			"offsets": {
+				"from": 10720,
+				"to": 15320
+			},
+			"text": " Eğer burada yeni isen piran içerik, ürün bulma ve sistem kurma yüzüne odaklanıyor olacaksın."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,320",
+				"to": "00:00:22,160"
+			},
+			"offsets": {
+				"from": 15320,
+				"to": 22160
+			},
+			"text": " Daha iyileri seviyeye çıktığın zamanda, marka kurma, skeyletime ve daha uzun madeli iş planları kurma yüzüne konuşuyor olacağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,160",
+				"to": "00:00:26,040"
+			},
+			"offsets": {
+				"from": 22160,
+				"to": 26040
+			},
+			"text": " Kısacısı artık herkes kendi seviyesiyle göre eğitim alıyor olacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:26,040",
+				"to": "00:00:28,920"
+			},
+			"offsets": {
+				"from": 26040,
+				"to": 28920
+			},
+			"text": " Aynı zamanda işin platform kısmına da uzun bir süre çalıştık."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:28,920",
+				"to": "00:00:32,600"
+			},
+			"offsets": {
+				"from": 28920,
+				"to": 32600
+			},
+			"text": " Artık mentörlük süren boyunca herhangi bir dış linki ihtiyaç duymuyor olacaksın."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,600",
+				"to": "00:00:40,120"
+			},
+			"offsets": {
+				"from": 32600,
+				"to": 40120
+			},
+			"text": " Yani ürünlerine malzınlar ehtamlarını göndelikken ayrı linkleri tıklamak yerine direkt sistemin içerisinde hazır bulunan platformları kullanacağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:40,120",
+				"to": "00:00:46,280"
+			},
+			"offsets": {
+				"from": 40120,
+				"to": 46280
+			},
+			"text": " Bu sayede artık farklı linkler aramaktansa tek bir platform olarak durup daha düzenli bir şekilde ilerleyebiliyor olacağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:46,280",
+				"to": "00:00:53,600"
+			},
+			"offsets": {
+				"from": 46280,
+				"to": 53600
+			},
+			"text": " Bu sistemi aramacı daha hızlı feedback vermek, sürecinizi daha net takip edebilmek ve seni gerçekten sonuç almaya götürmek."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:53,600",
+				"to": "00:00:57,240"
+			},
+			"offsets": {
+				"from": 53600,
+				"to": 57240
+			},
+			"text": " Çünkü bildiğin gibi mentörlük bilgi tarafı değil tamamıyla aksiyon tarafı."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:57,240",
+				"to": "00:00:58,560"
+			},
+			"offsets": {
+				"from": 57240,
+				"to": 58560
+			},
+			"text": " Hazırsan başlayalım."
+		}
+	]
+}

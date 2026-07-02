@@ -1,0 +1,846 @@
+{
+  "systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+  "model": {
+    "type": "base",
+    "multilingual": true,
+    "vocab": 51865,
+    "audio": {
+      "ctx": 1500,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "text": {
+      "ctx": 448,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "mels": 80,
+    "ftype": 1
+  },
+  "params": {
+    "model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+    "language": "tr",
+    "translate": false
+  },
+  "result": {
+    "language": "tr"
+  },
+  "transcription": [
+    {
+      "timestamps": {
+        "from": "00:00:00,000",
+        "to": "00:00:03,360"
+      },
+      "offsets": {
+        "from": 0,
+        "to": 3360
+      },
+      "text": " Şimdi geldik arka planı nasıl ayarlayabileceğimizi."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:03,360",
+        "to": "00:00:11,660"
+      },
+      "offsets": {
+        "from": 3360,
+        "to": 11660
+      },
+      "text": " Bu konu gerçekten çok önemli. Neden? Çünkü sizin viral olmayınız aslında videolarınızı ne kadar esetik durduğuyla arakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:11,660",
+        "to": "00:00:17,120"
+      },
+      "offsets": {
+        "from": 11660,
+        "to": 17120
+      },
+      "text": " Yani arka planınız aslında sizin videomuzun viral olmasına en çok etkile diyecek olay."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:17,120",
+        "to": "00:00:23,280"
+      },
+      "offsets": {
+        "from": 17120,
+        "to": 23280
+      },
+      "text": " O yüzden buradaki arka planı ne kadar güzel ayarlayabilirsek o kadar daha da viral olmayan şansımız artıyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:23,280",
+        "to": "00:00:29,680"
+      },
+      "offsets": {
+        "from": 23280,
+        "to": 29680
+      },
+      "text": " Şimdi yapmamız gereken şey insanlar bizim videolarımız gördükleri zaman onlara tanıdık gelebiliyor olması lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:29,680",
+        "to": "00:00:51,600"
+      },
+      "offsets": {
+        "from": 29680,
+        "to": 51600
+      },
+      "text": " Şimdi öncelikle mesela biz örneğin cim nişinde bir tane ürün yürütüyorsak ürünü mesela spor salonunda ya da evin kenarında köşesinde böyle bir dam balladır ağırlıktır o tarz bir yerde ya da mesela sağda solda bir şey kır varsa ya da bir satlamen varsa yani cim nişindeki insanlar bu videoyu gördüğü zaman onları tanıdık gelebilecek bir arka planı sahip olmamız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:51,600",
+        "to": "00:01:05,520"
+      },
+      "offsets": {
+        "from": 51600,
+        "to": 65520
+      },
+      "text": " Aynı şekilde siz atıyorum bir aksusar satıyorsunuz. Burada eğer masanız beyazsa böyle gün işi varsa parlak bir şekilde sün ürününüz gözüküyorsa edepimiz insanlar bu tarz videoları gördüğü zaman kendilerinden bir şey görebiliyor olmalar lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:05,520",
+        "to": "00:01:15,920"
+      },
+      "offsets": {
+        "from": 65520,
+        "to": 75920
+      },
+      "text": " Burada siz din nişinde bir ürün satıyorsunuz. Mesela atıyorum bizim ilahi tablo gibi. Burada arka planı kuran koyabilirsiniz, tesbih koyabilirsiniz, bitkiler koyabilirsiniz, mum koyabilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:15,920",
+        "to": "00:01:23,600"
+      },
+      "offsets": {
+        "from": 75920,
+        "to": 83600
+      },
+      "text": " ana mantık ve insanların burunu gördükleri zaman onlara doğal hissettirebiliyor olması lazım. Videomuz çekerken çok reklam var iyi olmaması lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:23,600",
+        "to": "00:01:32,720"
+      },
+      "offsets": {
+        "from": 83600,
+        "to": 92720
+      },
+      "text": " O yüzden insanlar bizim videomuz gördüğü zaman kendileri o videoya karşı bir şeyler hissedebiliyor. Bir yakınlık kurabiliyor, bir bağlantı yapabiliyor olmaları gerek."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:32,720",
+        "to": "00:01:39,920"
+      },
+      "offsets": {
+        "from": 92720,
+        "to": 99920
+      },
+      "text": " O yüzden de sizin yürütdüğünüz nişle alakalı arka plan görselleri ya da arka plan objeleri kullanabiliyor olmanız burada çok önemli."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:39,920",
+        "to": "00:01:55,600"
+      },
+      "offsets": {
+        "from": 99920,
+        "to": 115600
+      },
+      "text": " Ve son olarak burada unutmamamız gereken bir şey var. Sosyal medya, tamamıyla estetik oyunu. Yani anamantıkta sizin ürününüz kamera karşısında ne kadar estetik duruyorsa insanlar baktığı zaman ne kadar dikkatini çekiyorsa siz o kadar çok görüntlenme ve bunun karşısında o kadar çok satış alıyor olacaksın."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:55,600",
+        "to": "00:02:03,440"
+      },
+      "offsets": {
+        "from": 115600,
+        "to": 123440
+      },
+      "text": " Şimdi burada bir karşılarla örnek çıkardım. Bunlara beraber bakalım. Şimdi ilk ürünümüzü zaten hatırlıyorsunuz. Poco console'dan da buna benzer bir ürünü satıyorduk."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:03,440",
+        "to": "00:02:11,760"
+      },
+      "offsets": {
+        "from": 123440,
+        "to": 131760
+      },
+      "text": " Şimdi baktığınız zaman adamın arka planasında çok sağdı. Ne var burada bir tane kılavi, iki tane speaker, bir tane konsol var, bir ekran var bu kadar."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:11,760",
+        "to": "00:02:22,240"
+      },
+      "offsets": {
+        "from": 131760,
+        "to": 142240
+      },
+      "text": " Ama baktığınız zaman direkt olarak hedeflediğiniz nişin bağlantı kurabileceği bir arka plan. Yani oyun nişinde sattığı için oyun oynayanlarda genel olarak bir hissiyarda bu şekilde bir görüntüye sahipler."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:22,240",
+        "to": "00:02:26,640"
+      },
+      "offsets": {
+        "from": 142240,
+        "to": 146640
+      },
+      "text": " Baktığınız amansa bu videoyu kendi başına iki milyar izlenmiş. Halbuki çok kolay, çok bas..."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:33,440",
+        "to": "00:02:44,800"
+      },
+      "offsets": {
+        "from": 153440,
+        "to": 164800
+      },
+      "text": " Yani videolarınızın arka planlarında böyle Hollywood kalitesinde efektler ya da o kadar güzel çiçekler bözecektir. Buna gerek yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:44,800",
+        "to": "00:02:51,200"
+      },
+      "offsets": {
+        "from": 164800,
+        "to": 171200
+      },
+      "text": " ana mantık da insanlar gördüğünüz zaman. Onlara doğal hissettirebileceği bir video çekseniz gayetler. Dina anlatıyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:51,200",
+        "to": "00:02:54,720"
+      },
+      "offsets": {
+        "from": 171200,
+        "to": 174720
+      },
+      "text": " Şimdi bu videoduk arkadaşlar. Müzik haleti hakkında bir cihaz satıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:02,560",
+        "to": "00:03:09,760"
+      },
+      "offsets": {
+        "from": 182560,
+        "to": 189760
+      },
+      "text": " Şimdi bakın. Adamın arka planına baktığınız zaman aslında çok ekşirem bir şey yok. Adam burada bir tane pianosu var. 3-5 tane de çiçek koymuş."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:09,760",
+        "to": "00:03:22,000"
+      },
+      "offsets": {
+        "from": 189760,
+        "to": 202000
+      },
+      "text": " Ama baktığınız zaman arka planına o kadar böyle sade ve güzel duruyor ki. Yani baktığınız zaman bu kişinin müzik haletiyle uğraştığını direkt olarak anlayabiliyorsunuz. Yani eflediğiniz nişin aslında dikkatini çıkabileceği bir arka planına sahip."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:22,000",
+        "to": "00:03:26,560"
+      },
+      "offsets": {
+        "from": 202000,
+        "to": 206560
+      },
+      "text": " Halbuki dediğim gibi çok ekşirem demişiyor. Bir tane piano, iki üç tane de çiçeği var sadece."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:26,560",
+        "to": "00:03:34,000"
+      },
+      "offsets": {
+        "from": 206560,
+        "to": 214000
+      },
+      "text": " Şimdi de mesela her cadılar bayramı İssisnasız çıkan satılmaya çalışılan bir tane ürünü gösterelim. Çok fazla konveritenen bir ürün değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:34,000",
+        "to": "00:03:36,960"
+      },
+      "offsets": {
+        "from": 214000,
+        "to": 216960
+      },
+      "text": " Ama ana mantık da birazcık da arka planına bakmak gerek."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:40,480",
+        "to": "00:03:45,600"
+      },
+      "offsets": {
+        "from": 220480,
+        "to": 225600
+      },
+      "text": " Bakın. Şimdi adam ürün çıkartıyor. Ürün neyi bir lamba. Buna basıyorsun. Işıkları yanıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:45,600",
+        "to": "00:03:52,640"
+      },
+      "offsets": {
+        "from": 225600,
+        "to": 232640
+      },
+      "text": " Ama baktığınız zaman adamın videosunun arka planı konuyu o kadar alakalı ki. Şurada güzel böyle bir cadılar bayramıdır."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:52,640",
+        "to": "00:04:00,800"
+      },
+      "offsets": {
+        "from": 232640,
+        "to": 240800
+      },
+      "text": " Böyle bir kış zamanı olan bir görsene var. Şurada bir tane kabağı var. Burada da bir tane aslında bitkisi var. Çok çok karışık komplike değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:00,800",
+        "to": "00:04:06,480"
+      },
+      "offsets": {
+        "from": 240800,
+        "to": 246480
+      },
+      "text": " Ama baktığınız zaman o kadar sade, o kadar güzel duruyor ki. Diyorsan için tamam. On numara estetik yani."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:11,920",
+        "to": "00:04:17,360"
+      },
+      "offsets": {
+        "from": 251920,
+        "to": 257360
+      },
+      "text": " Ondan sonra direkt olarak şofke ismi oluyor. Ürünü gösteriyor. Ayaklarını sallıyor. Üzerine basıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:17,360",
+        "to": "00:04:24,560"
+      },
+      "offsets": {
+        "from": 257360,
+        "to": 264560
+      },
+      "text": " Ama baktığınız zaman video çok çok çok estetik. Zaten bu videoların bu şekilde büyük viral olabilmesinin neleri de direkt olarak bununla alak."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:24,560",
+        "to": "00:04:33,280"
+      },
+      "offsets": {
+        "from": 264560,
+        "to": 273280
+      },
+      "text": " Şimdi baktığınız zaman burada da bir tane güncel video var. Bu Stranger Things seriesin dizisinin son sezon çıktığı zaman bu tarz ürünler piyasada çok fazla yer buldu."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:33,280",
+        "to": "00:04:37,440"
+      },
+      "offsets": {
+        "from": 273280,
+        "to": 277440
+      },
+      "text": " Şimdi baktığınız zaman adamın arka planında çok ekseğim görünen bir şey yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:37,440",
+        "to": "00:04:44,240"
+      },
+      "offsets": {
+        "from": 277440,
+        "to": 284240
+      },
+      "text": " Ama buradaki posteller direkt olarak Stranger Things alakalı. Burada bir tane ışık var ve bu kadar aslında çok sade."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:44,240",
+        "to": "00:04:48,560"
+      },
+      "offsets": {
+        "from": 284240,
+        "to": 288560
+      },
+      "text": " Ve konsepti biliyorsunuz zaten 3-2-1 sallayıp çeviriyor ondan sonra ürünü gösteriyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:54,480",
+        "to": "00:05:00,560"
+      },
+      "offsets": {
+        "from": 294480,
+        "to": 300560
+      },
+      "text": " Devamına zaten şofke ism. Ürünün nasıl yapılığını anlatıyor olacak. Çok esirem bekrağını zaten burada kullananmamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:00,560",
+        "to": "00:05:11,760"
+      },
+      "offsets": {
+        "from": 300560,
+        "to": 311760
+      },
+      "text": " Ama dediğim gibi şurada baktığınız zaman birazcık da konuyla alakalı. Bu dizi izleyen insanlar ne gibi bekrandora sahip olabilir acaba diye düşünüp onunla alakalı böyle bir tane bekrandı yapmış."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:11,760",
+        "to": "00:05:16,400"
+      },
+      "offsets": {
+        "from": 311760,
+        "to": 316400
+      },
+      "text": " Tamam. Şimdi iyi örnekleri inceredik. Birazcık da kötü örnekler hakkında konuşalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:16,400",
+        "to": "00:05:21,360"
+      },
+      "offsets": {
+        "from": 316400,
+        "to": 321360
+      },
+      "text": " Şimdi ilk veren önemli kısım. Sizin ürünün üzer alakalı bir arka planı seçmeniz gerektiğini anladınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:21,360",
+        "to": "00:05:28,480"
+      },
+      "offsets": {
+        "from": 321360,
+        "to": 328480
+      },
+      "text": " Burada konuyla alakası, anlamsız sadece orada durması adına bir obci kullanmamanız gerekli."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:28,480",
+        "to": "00:05:35,040"
+      },
+      "offsets": {
+        "from": 328480,
+        "to": 335040
+      },
+      "text": " Yani eğer arka planını çok doldurmak istiyorsanız yapay çiçekler, böcekler burada en en en iyi sonuç verenler."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:35,040",
+        "to": "00:05:42,080"
+      },
+      "offsets": {
+        "from": 335040,
+        "to": 342080
+      },
+      "text": " Mesela atıyorum siz örneğin bir tane bardak videosu çekiyorsunuz. Gelip de bu bardak videosunu arkasında bir tane priz bulunmaması lazım bir sene."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:42,080",
+        "to": "00:05:47,360"
+      },
+      "offsets": {
+        "from": 342080,
+        "to": 347360
+      },
+      "text": " bardakla alakalı bir şişe olabilir. Ya da dediğim gibi en kötü senarada çiçek böcek koyabilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:47,360",
+        "to": "00:05:52,960"
+      },
+      "offsets": {
+        "from": 347360,
+        "to": 352960
+      },
+      "text": " Ama konuyla çok konuyu dağıtabilecek insanlar gördüğü zaman çok bağlaşamayacak şeyler koymamanız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:52,960",
+        "to": "00:05:57,200"
+      },
+      "offsets": {
+        "from": 352960,
+        "to": 357200
+      },
+      "text": " İkinci olarak sırf arka plan da olsun diye de çok fazla şey koymamamız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:57,200",
+        "to": "00:06:06,000"
+      },
+      "offsets": {
+        "from": 357200,
+        "to": 366000
+      },
+      "text": " Dediğim gibi sosyal medya tamamili estetik oyun. Yani sizin videonuz ne kadar estetik gözükürse karşı da o kadar güzel bir çağrışım yapacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:06,000",
+        "to": "00:06:11,440"
+      },
+      "offsets": {
+        "from": 366000,
+        "to": 371440
+      },
+      "text": " Ve sonra olarak da en önemli kısım arka planı koyduğunuz bir şey, ürünü çok bastırmaması lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:11,440",
+        "to": "00:06:15,680"
+      },
+      "offsets": {
+        "from": 371440,
+        "to": 375680
+      },
+      "text": " Yani arka planı atıyorum siz ışıklı böyle dikkat çekece bir şey koyduğunuz zaman."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:15,680",
+        "to": "00:06:19,840"
+      },
+      "offsets": {
+        "from": 375680,
+        "to": 379840
+      },
+      "text": " Ana ürünü gösterdiğinizde o arkadaki şeyin çok dikkat dağıtmaması lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:19,840",
+        "to": "00:06:23,520"
+      },
+      "offsets": {
+        "from": 379840,
+        "to": 383520
+      },
+      "text": " İnsanların o dağını sadece tek bir şeye olaklamamız gerekli."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:23,520",
+        "to": "00:06:26,000"
+      },
+      "offsets": {
+        "from": 383520,
+        "to": 386000
+      },
+      "text": " Bununla alakalı birazcık kötü örneklere bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:26,000",
+        "to": "00:06:28,320"
+      },
+      "offsets": {
+        "from": 386000,
+        "to": 388320
+      },
+      "text": " Şimdi örneğin burada kötü bir tane örnek var."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:28,320",
+        "to": "00:06:36,000"
+      },
+      "offsets": {
+        "from": 388320,
+        "to": 396000
+      },
+      "text": " Neyi bu adam şarj kablosu satıyor ama baktığınız zaman arka planı çok çok dağınık ve kendince bir konsept yapmış."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:36,000",
+        "to": "00:06:39,520"
+      },
+      "offsets": {
+        "from": 396000,
+        "to": 399520
+      },
+      "text": " Oluyor buna mikrodalgoya koyuyor mikrodalganın içerisinden çıkartıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:39,520",
+        "to": "00:06:40,320"
+      },
+      "offsets": {
+        "from": 399520,
+        "to": 400320
+      },
+      "text": " Bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:46,080",
+        "to": "00:06:52,000"
+      },
+      "offsets": {
+        "from": 406080,
+        "to": 412000
+      },
+      "text": " Yani bakar mısınız? Arka plan ne kadar dağınık, ne kadar hani konudan bağımsız direkt olarak."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:56,000",
+        "to": "00:07:07,040"
+      },
+      "offsets": {
+        "from": 416000,
+        "to": 427040
+      },
+      "text": " En sonradan işte dümenden ürünü gösteriyor, ürünü testecek."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:07,040",
+        "to": "00:07:11,520"
+      },
+      "offsets": {
+        "from": 427040,
+        "to": 431520
+      },
+      "text": " Ama burada dediğim gibi şu tarz bir arka plan gerçekten çok çok çirkin duruyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:11,520",
+        "to": "00:07:15,760"
+      },
+      "offsets": {
+        "from": 431520,
+        "to": 435760
+      },
+      "text": " Şimdi ikinci kötü örneğimizde bu, bu hopelileriz zaten daha öncesinden görmüşsünüz."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:15,760",
+        "to": "00:07:21,680"
+      },
+      "offsets": {
+        "from": 435760,
+        "to": 441680
+      },
+      "text": " Şimdi arka planı baktığınız zaman, şurada hopelilerin kutsu var, burada bir çiçek var, burada da bir çiçek var."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:21,680",
+        "to": "00:07:27,600"
+      },
+      "offsets": {
+        "from": 441680,
+        "to": 447600
+      },
+      "text": " Burada bir dünya haritası var abi, yani dünya şekli var, konudan bağımsız, arkada da büyük bir saat var."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:27,600",
+        "to": "00:07:31,760"
+      },
+      "offsets": {
+        "from": 447600,
+        "to": 451760
+      },
+      "text": " Yani arka planı baktığınız zaman o kadar çok dolu, o kadar çok detay var ki."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:31,760",
+        "to": "00:07:37,840"
+      },
+      "offsets": {
+        "from": 451760,
+        "to": 457840
+      },
+      "text": " Yani insanlar burada hangisine bakması gerektiğini ya da hani neden bu kadar dolu olduğunu anlamıyor olacaklar."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:37,840",
+        "to": "00:07:39,440"
+      },
+      "offsets": {
+        "from": 457840,
+        "to": 459440
+      },
+      "text": " Videonun devamına bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:47,040",
+        "to": "00:07:54,000"
+      },
+      "offsets": {
+        "from": 467040,
+        "to": 474000
+      },
+      "text": " Mesela bakın, burada hala arkadaki o büyük satın ya da buradaki yuvarlak şeyin çok mantığını anlamıyor oluyoruz aslında."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:54,000",
+        "to": "00:08:00,880"
+      },
+      "offsets": {
+        "from": 474000,
+        "to": 480880
+      },
+      "text": " Burada baktığınız zaman en güzel, en esedik duruş, beline daha önceki videolardan bahsettiğim gibi sizin beyaz bir tanem masanız olması."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:00,880",
+        "to": "00:08:03,520"
+      },
+      "offsets": {
+        "from": 480880,
+        "to": 483520
+      },
+      "text": " Ve bu beyaz masayı birazcık da donatabiliyor olmuyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:03,520",
+        "to": "00:08:07,680"
+      },
+      "offsets": {
+        "from": 483520,
+        "to": 487680
+      },
+      "text": " Bu şekilde baktığınız zaman etraf çok dikkat dağıtacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:07,680",
+        "to": "00:08:15,520"
+      },
+      "offsets": {
+        "from": 487680,
+        "to": 495520
+      },
+      "text": " Mesela şu arka planın şu o tekstürü bile, nokta nokta görüntülenmesi bile aslında birazcık daha insanların dikkatini kaçırabilecek bir şey."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:15,520",
+        "to": "00:08:25,520"
+      },
+      "offsets": {
+        "from": 495520,
+        "to": 505520
+      },
+      "text": " Ne kadar siz daha böyle beyaz parlak renkleri olaklanırsanız ve o etrafta o kadar az dikkat dağıtıcı şey olursa simidiolarınız daha iyi sonuç getiriyor olacaktır."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:25,520",
+        "to": "00:08:29,360"
+      },
+      "offsets": {
+        "from": 505520,
+        "to": 509360
+      },
+      "text": " Yani burada baktığınız zaman göreceksiniz ki çok fazla yaşa var."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:29,360",
+        "to": "00:08:36,640"
+      },
+      "offsets": {
+        "from": 509360,
+        "to": 516640
+      },
+      "text": " Mesela burada ortamı göstermeye ve bu işin nasıl yayıldığını göstermeye çalışmış ama gördüğünüz gibi çok çok da güzel durmuyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:36,640",
+        "to": "00:08:42,640"
+      },
+      "offsets": {
+        "from": 516640,
+        "to": 522640
+      },
+      "text": " Tamam, anamantikta arka planın ne kadar önemli olduğunu ve nasıl daha sade ve estetik gözükmesi gerektiğini anladınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:42,640",
+        "to": "00:08:47,680"
+      },
+      "offsets": {
+        "from": 522640,
+        "to": 527680
+      },
+      "text": " Şimdi bir sonraki bölümde de ışıkları nasıl konulabilirsiniz, arka planın nasıl oynayabilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:47,680",
+        "to": "00:08:49,840"
+      },
+      "offsets": {
+        "from": 527680,
+        "to": 529840
+      },
+      "text": " Birazcık da buna değiniyor olacağım."
+    }
+  ]
+}

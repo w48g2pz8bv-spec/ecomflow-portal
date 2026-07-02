@@ -1,0 +1,1242 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:14,040"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 14040
+			},
+			"text": " Arkadaşlar selamlar bu videoda artık Instagram'ın neden hesapları bu kadar sık bir şekilde bana hatta Instagram'ın neden bu kadar sık bir şekilde artık hesapları kırıkladığına anamantı ve de iniyor olacağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,040",
+				"to": "00:00:21,020"
+			},
+			"offsets": {
+				"from": 14040,
+				"to": 21020
+			},
+			"text": " Neden ne biraz da iniyor olacağız? Nasıl önlemler alabiliriz? Neler yapmamız gerekiyor? Kendimizi buna nasıl hazırlayabiliriz?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:21,020",
+				"to": "00:00:29,320"
+			},
+			"offsets": {
+				"from": 21020,
+				"to": 29320
+			},
+			"text": " Bunlar buna konuşuyor olacağız. Şimdi son zamanlarda herkes duyuyordur artık artık hesaplarım kısmı yediği işte bizim gülüyorsunuzdur belki."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:29,320",
+				"to": "00:00:38,600"
+			},
+			"offsets": {
+				"from": 29320,
+				"to": 38600
+			},
+			"text": " Modi'sin hesabı banyede şu anda. Foco konsolun hesabı aylardır. Hiçbir posta atmadığımız hiçbir şekilde geliş yapmadığımız hesap bile kapanmış şu anda."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:38,600",
+				"to": "00:00:48,600"
+			},
+			"offsets": {
+				"from": 38600,
+				"to": 48600
+			},
+			"text": " Tabii Instagram hani bizim için çok basit bir sayfa değil hani yani Youtube şart gibi bir bir platformla ilgili Instagram'ı."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:48,600",
+				"to": "00:00:58,320"
+			},
+			"offsets": {
+				"from": 48600,
+				"to": 58320
+			},
+			"text": " Instagram aslında bizim ilk markalarımızı kurduğumuz, ilk satışlarımız aldığımız ilk bizim güven kurduğumuz bir platform yani Instagram'ın gitmesi"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:58,320",
+				"to": "00:01:06,540"
+			},
+			"offsets": {
+				"from": 58320,
+				"to": 66540
+			},
+			"text": " markının sağlarına direkt olarak çok büyük bir etkisi olacak. Çünkü neredeyse işimizin yüzü doksanı bizim Instagram'la böyle."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:06,540",
+				"to": "00:01:13,400"
+			},
+			"offsets": {
+				"from": 66540,
+				"to": 73400
+			},
+			"text": " Tabii baktığımız zaman bu banlar çok rastgele gibi durabilir şimdi. Şaradan bakıldığı zaman gerçekten böyle duruyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:13,400",
+				"to": "00:01:20,120"
+			},
+			"offsets": {
+				"from": 73400,
+				"to": 80120
+			},
+			"text": " Ama bunlar arkasında bir sistem var. Bunlar arkasında bir değerlendirmek süreci var. Şimdi hemen ona de iniyor olacağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:20,120",
+				"to": "00:01:24,720"
+			},
+			"offsets": {
+				"from": 80120,
+				"to": 84720
+			},
+			"text": " Instagram arkasında gibi bu sistem aslında tras score yani bir güven score."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:24,720",
+				"to": "00:01:31,520"
+			},
+			"offsets": {
+				"from": 84720,
+				"to": 91520
+			},
+			"text": " Ama şimdi Instagram kalkıp da sana demiyor ki işte senin güven score'un şahı atıyorum 35 ya da işte eksik 24. Neden?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:31,520",
+				"to": "00:01:40,760"
+			},
+			"offsets": {
+				"from": 91520,
+				"to": 100760
+			},
+			"text": " Çünkü Instagram bir yerde sana neden güven score'unu düşürdüğünüz söylerse spam ve böyle dolandırıcı hesaplar."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:40,760",
+				"to": "00:01:50,420"
+			},
+			"offsets": {
+				"from": 100760,
+				"to": 110420
+			},
+			"text": " Hani bunun önlemini alırlar. Mesela Instagram atıyorum veseki sen 5 bin takipçilerin önceliğin koyarsan işte güven score'un yüzde 20 azı alır."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:50,420",
+				"to": "00:01:58,880"
+			},
+			"offsets": {
+				"from": 110420,
+				"to": 118880
+			},
+			"text": " Tarzlı bir şey de size bu sefer skeme saplar ne yapar. 5 bin takipçilerin sonra koyarlar hani bu sistemi baypası derler, bir şekilde."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:58,880",
+				"to": "00:02:07,080"
+			},
+			"offsets": {
+				"from": 118880,
+				"to": 127080
+			},
+			"text": " O yüzden Instagram bunu bize söylemez. Bizim olabildiğince doğal ve normal bir hesap olmamız ister ama bunun nedenine asla bize beliften."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:07,080",
+				"to": "00:02:13,120"
+			},
+			"offsets": {
+				"from": 127080,
+				"to": 133120
+			},
+			"text": " Şimdi düşük güven score'u ve yüksek güven score'un nasıl olur? Onları hemen küçük bir örneklerine bakalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:13,120",
+				"to": "00:02:27,040"
+			},
+			"offsets": {
+				"from": 133120,
+				"to": 147040
+			},
+			"text": " Şimdi baktığımız zaman yeni bir hesabı açılmış. Yeni bir hesabı açılmış. Üçüncü videoda biri olmuşuz. Direk link koymuşuz, meniçet bağlamışız bir sürüyorum geliyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:27,040",
+				"to": "00:02:38,580"
+			},
+			"offsets": {
+				"from": 147040,
+				"to": 158580
+			},
+			"text": " Ondan herkese link gönderiyoruz. Yani bu çok sağlıklı bir hesap değil. Hani Instagram'ın elinde milyonlarca insanın, 100 milyonlarca insanı atla ve milyarlarca hesabın verisi var."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:38,580",
+				"to": "00:02:45,320"
+			},
+			"offsets": {
+				"from": 158580,
+				"to": 165320
+			},
+			"text": " Instagram baktığınız zaman hangi hesabın skem, hangi hesabın gerçek bir hesap olduğunun çok rahat bir şekilde anlayabiliyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:45,320",
+				"to": "00:02:54,180"
+			},
+			"offsets": {
+				"from": 165320,
+				"to": 174180
+			},
+			"text": " Burada bizim anam antıkta olabildiğince gerçek bir insan gibi hareketmemiz lazım. Bunu şeye gibi düşünebilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:54,180",
+				"to": "00:03:03,700"
+			},
+			"offsets": {
+				"from": 174180,
+				"to": 183700
+			},
+			"text": " Atıyorum makyaj hesabı olan, makyaj ilgili vlog yapan bir kız hesabı nasıl Instagram'ı kullanırdı. Aslında bu şekilde düşündüğümüz lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:03,700",
+				"to": "00:03:14,820"
+			},
+			"offsets": {
+				"from": 183700,
+				"to": 194820
+			},
+			"text": " Bakıyoruz. Düşük tragsikorlu bir hesap. Eay ile yapılmış bir profil fotoğrafı, buna tekrardan de ineceğiz. Instagram ayağın ne olduğunu nasıl anlıyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:14,820",
+				"to": "00:03:20,860"
+			},
+			"offsets": {
+				"from": 194820,
+				"to": 200860
+			},
+			"text": " Eay profil fotoğraflarını veya eay içerikleri nasıl tepki veriyor. Bunlara tekrardan de ineceğiz."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:20,860",
+				"to": "00:03:30,340"
+			},
+			"offsets": {
+				"from": 200860,
+				"to": 210340
+			},
+			"text": " Biyo çok satış kokuyor. Instagram satışları ki istemez. Neden? Çünkü adam kullanıcıları kendi pilatorununda tutmak istiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:30,340",
+				"to": "00:03:38,660"
+			},
+			"offsets": {
+				"from": 210340,
+				"to": 218660
+			},
+			"text": " Günün sonu Instagram buradan paylaşıp para kazanıyor. Ama sen kullanıcıları zorla kendisine çekersen Instagram bunu beğenmiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:38,660",
+				"to": "00:03:46,900"
+			},
+			"offsets": {
+				"from": 218660,
+				"to": 226900
+			},
+			"text": " Yani Instagram'ın işine gelmiyor. Senin insanlar kendi linkine çekmez. Burada aynı kontak tekrar tekrar paylaşılmış."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:46,900",
+				"to": "00:03:53,460"
+			},
+			"offsets": {
+				"from": 226900,
+				"to": 233460
+			},
+			"text": " Link üçüncü gün eklamış. VPN ile giriş yapılmış. Diyemden spam yapılmış. Meni çetila."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:53,460",
+				"to": "00:04:02,260"
+			},
+			"offsets": {
+				"from": 233460,
+				"to": 242260
+			},
+			"text": " Site güven vermiyor. Net politikalar yok. Bunları da çok detaylı geleceğim. Yani sistemdeki net politikalar neden Instagram ilgilendiriyor ki diyebilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:02,260",
+				"to": "00:04:10,420"
+			},
+			"offsets": {
+				"from": 242260,
+				"to": 250420
+			},
+			"text": " Ama bunları tekrardan dinliyor olacağım. Yüksek tragsikorlu bir hesabı bakalım. Gerçek loga var, doğal bir ürün görsele var. Eay değil."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:10,420",
+				"to": "00:04:20,740"
+			},
+			"offsets": {
+				"from": 250420,
+				"to": 260740
+			},
+			"text": " Yavaş ve aşamalı bir şekilde kurupmuş. Yani gidip de işte hesabaçken iki gün sonra direkt bir yoya, şey yüzde elli indirim. Şuradan alabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:20,740",
+				"to": "00:04:32,740"
+			},
+			"offsets": {
+				"from": 260740,
+				"to": 272740
+			},
+			"text": " Yani daha link koymadan bile. Şunu özel indirim. Şunun en iyi ürünü gibi gibi. Bir yokoyduğunuz zaman çok fazla satış kokan bir bir yokoyduğunuz zaman bunlar anamantıkta hesabı zarar veriyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:32,740",
+				"to": "00:04:39,780"
+			},
+			"offsets": {
+				"from": 272740,
+				"to": 279780
+			},
+			"text": " Organik içerikler. Yani erdiği recycle deniyor bunlar. Recycle edilmemiş içerikler. Yani tamamen orijinal."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:39,780",
+				"to": "00:04:53,780"
+			},
+			"offsets": {
+				"from": 279780,
+				"to": 293780
+			},
+			"text": " Aynı konsepte iki defa bile yapsanız tekrar ve farklı bir şekilde çekininiz gerekiyor. Cihaz ve lokasyon size bildi. Buraya de tekrardan deyeneceğim. Nasıl bir cihaz ve nasıl stabil bir lokasyonu koruyabiliriz konusuna."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:53,780",
+				"to": "00:05:22,780"
+			},
+			"offsets": {
+				"from": 293780,
+				"to": 322780
+			},
+			"text": " Link geçeklenmiş. Yani burada hesabı artık tamamen oturmuş. Yani belli bir kitlesi var. Belli bir izlam ve seviyesini geçiyor artık. Belli bir günü de olurmuş hesab. O zaman link eklenmiş. Sete güvenir. Yani böyle çok aşırı uçuk kaçık vaatlar yok işte. Atıyorum şu kremal hayatın değilsin. Bu tarz bir isteği yok. Bu tarz bir açıklamalar yok orunda. Net, teslim ve iade politikalarım."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:22,780",
+				"to": "00:05:41,780"
+			},
+			"offsets": {
+				"from": 322780,
+				"to": 341780
+			},
+			"text": " Burada Instagram aslında tek bir noktaya bakmıyor. Yani bir şebiyor ya 4. gün link koydum banyede. Ya da işte bir videoda adam şunu dedi sonraki gün banyelim. Hani bir tane bir neden olmuyor yediğiniz banları. Burada bir sürü farklı etken var banyememizi de."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:41,780",
+				"to": "00:05:50,780"
+			},
+			"offsets": {
+				"from": 341780,
+				"to": 350780
+			},
+			"text": " Şimdi baktığımız zaman cihaz aynı telefonla kaç hesaplar. Banlı bir geçip şu var mı cihazın? Bu çok çok önemli bir nokta. Sürekli farklı cihazlardan mı gelişeplıyor? Bir hesaplar."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:50,780",
+				"to": "00:06:10,780"
+			},
+			"offsets": {
+				"from": 350780,
+				"to": 370780
+			},
+			"text": " IP ve locasyon. VPN kullanıyor musunuz? Çok çok önemli bir nokta. Prokisi var mı? Prokisi dediğimi şey atıyorum. Amerika'da bir tane fizik salli telefon düşünün. Siz ona internet üzerinden hani online bir şekilde bağlanıp Amerika'daki bir telefonu kontrol ettiğiniz scenarioya prokisi de hani prokisi şeklinde ona bağlanmış o yüzden."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:10,780",
+				"to": "00:06:28,780"
+			},
+			"offsets": {
+				"from": 370780,
+				"to": 388780
+			},
+			"text": " Otel Wi-Fi kullanılmış mı? Otelleri kafedir hani farklı bir Wi-Fi kullanılmış mı? Şimdi bu neden sorunluyacaksın? Yani ben bir kafey gitsen bunun Wi-Fi'nin kullanıyorum. Bunu nasıl bir sorun alabilir? Şimdi o kafede ki ya da o oteldeki Wi-Fi'da birisi daha önceden hani sıkıntılı bir hesavaşlı ise."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:28,780",
+				"to": "00:06:39,780"
+			},
+			"offsets": {
+				"from": 388780,
+				"to": 399780
+			},
+			"text": " Daha önceden şebi spam hesaplı yapılmışsa orada bir banyemiş başka bir hesaplarsa Instagram bunu algılır. Yani sen gidip Wi-Fi'den bir hesa başıyorsun."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:39,780",
+				"to": "00:06:47,780"
+			},
+			"offsets": {
+				"from": 399780,
+				"to": 407780
+			},
+			"text": " Senden bir ay önce belki başka bir adam işte online kumarsitesi açtı. O vay bile bilemiyorsun. Hani bu çok sağlıklı bir yöntem değil."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:47,780",
+				"to": "00:06:58,780"
+			},
+			"offsets": {
+				"from": 407780,
+				"to": 418780
+			},
+			"text": " Hesap davranışı, insan gibi mi davranıyorsunuz? Bot gibi mi davranıyorsunuz? Aktivit yazı burada çok önemli. Yani burada hesabın beşinci gündederek beni çet pahalı."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:58,780",
+				"to": "00:07:12,780"
+			},
+			"offsets": {
+				"from": 418780,
+				"to": 432780
+			},
+			"text": " Her yoruma linki diyenle gönderdim, günde yüzlerce binlerce insanlar link spamlıyorsunuz diyenle. Bu çok sağlıklı bir hesap görünüşü olmayacak Instagram tarafından."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:12,780",
+				"to": "00:07:30,780"
+			},
+			"offsets": {
+				"from": 432780,
+				"to": 450780
+			},
+			"text": " Nymphesi de güvenleme. Burada politikalarımız net bir şekilde bilirtilmiş mi? Şimdi diyeceksiniz yani politikalarım nelerle ki? Yani Instagram'ın neredenmeyecek benim politikamı? Artık Instagram linklerin içine giriyor. E-i-croller dediğimiz olaylarlar linklerin içine girip istenizi tarıyorlar. Ne var, ne yok? Ne satıyorsunuz?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:30,780",
+				"to": "00:07:45,780"
+			},
+			"offsets": {
+				"from": 450780,
+				"to": 465780
+			},
+			"text": " Nasıl tek sarı var, nasıl ürün açıklamalara var, nasıl politikalarınız var, bunların hepsine bakıyor. Bunların neden bakıyor? Çünkü artık Instagram'da çok fazla yetişkin ükşerik üreticileri doğdu."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:45,780",
+				"to": "00:08:04,780"
+			},
+			"offsets": {
+				"from": 465780,
+				"to": 484780
+			},
+			"text": " Ve Instagram bunları artık trak edemiyordu bir yerden sonra. Çünkü eşe farklı link uygulamaları kullanıyorlar, yerden bir yere yönlendiriyorlar. Hani günün sonunda en son o link biraz daha yetişkin içerikli bir siteye çıktığı zaman Instagram'ın bunu bilmesi lazım. Çünkü Instagram'ın artık kendi kıtdesini koruması lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:04,780",
+				"to": "00:08:16,780"
+			},
+			"offsets": {
+				"from": 484780,
+				"to": 496780
+			},
+			"text": " Buna da tekrardan deyeneceğim, neden böyle bir koruma içgür üsüne girdiğini. Ama anamantıkta Instagram'ın seninize girip içeride ne var, ne satıyorsunuz? Polikalarınızı bunları görüyor arkadaşlar."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:16,780",
+				"to": "00:08:28,780"
+			},
+			"offsets": {
+				"from": 496780,
+				"to": 508780
+			},
+			"text": " Recovery bilgileri burada sizin bir tane telefon numaranız var. Buna daha önceden banyediniz. Eğer siz bu telefon numarası diye tekrar gidip yeni bir hesap açarsanız bunun Instagram algılıyor olacağı."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:28,780",
+				"to": "00:08:39,780"
+			},
+			"offsets": {
+				"from": 508780,
+				"to": 519780
+			},
+			"text": " Aynı şekilde E.Porsa ve burada hesabınızın şifresi de çok önemli. Yani banyediniz hesap ile yeni hesabın şifresini farklı yapsanız daha sağlıklı opuş."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:39,780",
+				"to": "00:08:52,780"
+			},
+			"offsets": {
+				"from": 519780,
+				"to": 532780
+			},
+			"text": " Hem ben devam ediyoruz. Şimdi VPN konusu. Eskiden algırtma şöyle çalışıyor. Nerede hesabı açarsan ilk başa seni oraya gösteriyordu. Ondan sonra yavaş yavaş şekli alıyordu."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:52,780",
+				"to": "00:09:00,780"
+			},
+			"offsets": {
+				"from": 532780,
+				"to": 540780
+			},
+			"text": " O yüzden biz yiyoruz ki AVD'den VPN'nin hesabı açın. Ya da şu Almanya'dan nereye yetekliyorsanız ilk alttığınız postlar oradan başlasın."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:00,780",
+				"to": "00:09:09,780"
+			},
+			"offsets": {
+				"from": 540780,
+				"to": 549780
+			},
+			"text": " Hani direkt demize oradan başlatalım. Şektiğinde bir bakış açısı vardı. Esk algırtma da bu doğruyu da ama şahındaki algoritma maalesef bu şekilde çalışma."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:09,780",
+				"to": "00:09:21,780"
+			},
+			"offsets": {
+				"from": 549780,
+				"to": 561780
+			},
+			"text": " Şahındaki algırtma. Tamamen sizin kontentinin yüzünden. Yani sen gidip Türkiye'de atıyorum. Fransızca içeriki yaptığınız zamanı işe. Fransızca bir hesabadın Fransızca bir bionu varsa."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:21,780",
+				"to": "00:09:29,780"
+			},
+			"offsets": {
+				"from": 561780,
+				"to": 569780
+			},
+			"text": " Sana Türkiye'den Türkçe bilen Fransızca bilmeyen insanlara göstermeyecek. Niye yani Instagram'ın içine gelmez. Adamlar da her ki ben niye Fransızca'yı içerik görüyor?"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:29,780",
+				"to": "00:09:45,780"
+			},
+			"offsets": {
+				"from": 569780,
+				"to": 585780
+			},
+			"text": " Günün sonunda Fransızca'yı içerik yaparsan bunları Fransızca'daki insanlar görecek. Sen İngilizce'ye içerik yaparsan, Amerika kontentin Amerika müjdeyenin şahsası olan Amerika bayrağı koyarsan Amerika ile ilgili kontrol versi yaparsan şahsası o Trump şeyleri falan koyarsan."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:45,780",
+				"to": "00:09:54,780"
+			},
+			"offsets": {
+				"from": 585780,
+				"to": 594780
+			},
+			"text": " Bu tarz konuselikler daha çok Amerika tarafından izleniyor olacak. Yani burada artık VPN kullanmanızı ya da Proxy kullanmanızı çok fazla gerekiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:54,780",
+				"to": "00:10:04,780"
+			},
+			"offsets": {
+				"from": 594780,
+				"to": 604780
+			},
+			"text": " Burada telefon kurulmana tekrardan değineceğim ama şu anda bilmeniz gereken şey VPN artık sıkıntılı ve VPN'i kesinlikle tavsiye etmiyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:04,780",
+				"to": "00:10:12,780"
+			},
+			"offsets": {
+				"from": 604780,
+				"to": 612780
+			},
+			"text": " Şimdi bot davranışı ve gerçek insan davranışım nasıl ve Instagram bunu nasıl heyfede. Şimdi bizim yaptığımız olay aslında bir yerde."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:12,780",
+				"to": "00:10:20,780"
+			},
+			"offsets": {
+				"from": 612780,
+				"to": 620780
+			},
+			"text": " Gerçi bizim yaptığımızıyla Mentebük'teki çoğu arkadaşan duyduğum binkiye göre iş ediyorsunuz ki üç gün ısındıyorum. Her gün on beş dakika kaydıyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:20,780",
+				"to": "00:10:30,780"
+			},
+			"offsets": {
+				"from": 620780,
+				"to": 630780
+			},
+			"text": " Hani üç gün boyunca tam saat on iki de on beş dakika kaydırırsanız, on altınca on yedinci dakikada çıkarsanız bu çok doğal olmayan çok yapay bir hareket."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:30,780",
+				"to": "00:10:37,780"
+			},
+			"offsets": {
+				"from": 630780,
+				"to": 637780
+			},
+			"text": " Bu çok spam hesabına benziyen bir hareket türü. O yüzden biraz daha düzensiz olması lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:37,780",
+				"to": "00:10:46,780"
+			},
+			"offsets": {
+				"from": 637780,
+				"to": 646780
+			},
+			"text": " Yani o kadar bir güçlinizle olmaması lazım. Az önce dediğim gibi hani makyaj videoları paylaşan bir kızın hesabını düşünmeniz lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:46,780",
+				"to": "00:10:51,780"
+			},
+			"offsets": {
+				"from": 646780,
+				"to": 651780
+			},
+			"text": " O burada nasıl kullanır. Tamamen aslında Mentebkemizi buna çekmemiz lazım artık."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:51,780",
+				"to": "00:10:58,780"
+			},
+			"offsets": {
+				"from": 651780,
+				"to": 658780
+			},
+			"text": " Burada dediğim gibi bir şey. Beşin günden viral olduğunu zerekmenin çatbalarını zerekşeyi yorumlara diyem gönderildi spamlıyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:58,780",
+				"to": "00:11:03,780"
+			},
+			"offsets": {
+				"from": 658780,
+				"to": 663780
+			},
+			"text": " Direkt diyemden nymph spamlıyor. Bu çok bot davranışı arkadaşlar."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:03,780",
+				"to": "00:11:13,780"
+			},
+			"offsets": {
+				"from": 663780,
+				"to": 673780
+			},
+			"text": " Ya da işte aynı kepşene sürekli kullanmak. Burada genet dediğim gibi makyaj videoları paylaşan bir kızın profil ne bizim el almamız lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:13,780",
+				"to": "00:11:18,780"
+			},
+			"offsets": {
+				"from": 673780,
+				"to": 678780
+			},
+			"text": " Onun gibi davranmamız lazım. Şimdi aynı videoyu parklı marketlarla paylaşmak."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:18,780",
+				"to": "00:11:24,780"
+			},
+			"offsets": {
+				"from": 678780,
+				"to": 684780
+			},
+			"text": " Instagram sizin hangi videoyu paylaştınız? Hangi videonun hangi hesaplarda paylaşılığını."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:24,780",
+				"to": "00:11:27,780"
+			},
+			"offsets": {
+				"from": 684780,
+				"to": 687780
+			},
+			"text": " Hangi iki videonun aynı olduğunu çok rahat bir şekilde anlayabiliyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:27,780",
+				"to": "00:11:33,780"
+			},
+			"offsets": {
+				"from": 687780,
+				"to": 693780
+			},
+			"text": " Yani Instagram'ı algoritması gerçekten sanılandan çok çok daha güçlü ve çok çok daha gelişmiş bir algoritma."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:33,780",
+				"to": "00:11:42,780"
+			},
+			"offsets": {
+				"from": 693780,
+				"to": 702780
+			},
+			"text": " Burada aynı yurunu hem Türkiye'de hem Almanya'da yürüyorsanız videolarınızı farklı yerlerde, farklı şekillerde çekilmiş olması lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:42,780",
+				"to": "00:11:47,780"
+			},
+			"offsets": {
+				"from": 702780,
+				"to": 707780
+			},
+			"text": " Instagram'ın anlamaması için. Eğe görseller artık platforma için görümez değil."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:47,780",
+				"to": "00:11:53,780"
+			},
+			"offsets": {
+				"from": 707780,
+				"to": 713780
+			},
+			"text": " Bu ne demek? Artık Instagram'da neyin eğe olduğunu, TikTok'da neyin eğe olup olmadığını anlayabiliyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:53,780",
+				"to": "00:11:58,780"
+			},
+			"offsets": {
+				"from": 713780,
+				"to": 718780
+			},
+			"text": " Burada sin taydiye dediğimiz bir olay yok. Sin taydiye ne? Gogol'un kendi sistemi."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:58,780",
+				"to": "00:12:08,780"
+			},
+			"offsets": {
+				"from": 718780,
+				"to": 728780
+			},
+			"text": " Yani Gogol, eğer siz gidiple nano banağından bir fotoğraf oluşursanız bunun içine Gogol kendi imzasını atıyor. Bu şekilde özetleyebilirim."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:08,780",
+				"to": "00:12:12,780"
+			},
+			"offsets": {
+				"from": 728780,
+				"to": 732780
+			},
+			"text": " Yani her bir pixel içerisinde Gogol'un kendi görümez iyi imzası var."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:12,780",
+				"to": "00:12:16,780"
+			},
+			"offsets": {
+				"from": 732780,
+				"to": 736780
+			},
+			"text": " Şimdi bunun nereden anlayabiliriz? Geldim buraya. Hiksival'ın içerisindeyim."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:16,780",
+				"to": "00:12:23,780"
+			},
+			"offsets": {
+				"from": 736780,
+				"to": 743780
+			},
+			"text": " Nano banağından tanım ki bana bir tane doktor fotoğrafı oluştur. Yani herhangi bir örnek olsun diye."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:23,780",
+				"to": "00:12:28,780"
+			},
+			"offsets": {
+				"from": 743780,
+				"to": 748780
+			},
+			"text": " Bunu biz gidip de Gogol'a attığımız zaman ve diyoruz ki bunun içinde sin taydiye var mı? Bunun kontrol et."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:28,780",
+				"to": "00:12:37,780"
+			},
+			"offsets": {
+				"from": 748780,
+				"to": 757780
+			},
+			"text": " Gogol'la burada gördüğünüz gibi diyor ki bu fotoğrafın çoğunlu ya da tamamı Gogol'a yayıyla yay editlenmiş ya da oluşurulmuştur."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:37,780",
+				"to": "00:12:40,780"
+			},
+			"offsets": {
+				"from": 757780,
+				"to": 760780
+			},
+			"text": " Peki biz bunun önüne nasıl geçebiliriz?"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:40,780",
+				"to": "00:12:47,780"
+			},
+			"offsets": {
+				"from": 760780,
+				"to": 767780
+			},
+			"text": " Şimdi bizim burada çok daha ayrı bir sistemimiz var. Bunu yine eğer kısımda daha detaylı bir şekilde anlatıyor olacağım, nasıl yapacağınız kısımda."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:47,780",
+				"to": "00:12:54,780"
+			},
+			"offsets": {
+				"from": 767780,
+				"to": 774780
+			},
+			"text": " Ama bunun işte belli bir işlemden geçirdiğiniz zaman ve bunun tekrar attığınız zaman aynı fotoğraf, bile bir aynı fotoğraf."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:54,780",
+				"to": "00:13:02,780"
+			},
+			"offsets": {
+				"from": 774780,
+				"to": 782780
+			},
+			"text": " Tekrar soruyoruz, işe sin taydiye var mı bir kontrol et. Gogol buna bakıyor diyor ki bunun içerisinde Gogol'a yayı imzası yok."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:02,780",
+				"to": "00:13:06,780"
+			},
+			"offsets": {
+				"from": 782780,
+				"to": 786780
+			},
+			"text": " Başka yayı varsa onu bilemem diyor ama Gogol'la yapılmamış."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:06,780",
+				"to": "00:13:17,780"
+			},
+			"offsets": {
+				"from": 786780,
+				"to": 797780
+			},
+			"text": " Bunu biz eğer ki Instagram'da bir profil fotoğraf koyacaksak eğer bir şekilde ürettiğimiz bir profil fotoğrafını koyacaksak, bu şekilde sin taydiyeyi silmemizda fayda var arkadaşlar."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:17,780",
+				"to": "00:13:28,780"
+			},
+			"offsets": {
+				"from": 797780,
+				"to": 808780
+			},
+			"text": " Tabii öncelikle ben zaten hiçbir zaman bir eğer profil fotoğrafı önermiyorum ama eğer koymanız gerekiyorsa bir ürününüz ya da bir eğer avatanız varsa bu şekilde sin taydiyeyi silmeniz gerekiyor arkadaşlar."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:28,780",
+				"to": "00:13:45,780"
+			},
+			"offsets": {
+				"from": 808780,
+				"to": 825780
+			},
+			"text": " Instagram'ın biraz daha gözüne çarpmamak için değil. Hem ben devam ediyoruz. Şimdi profil fotoğrafı dediğim gibi burada eğer oluşurup işe bunu gerçek insanmış gibi davranırsak bu riside kullanıma giriyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:45,780",
+				"to": "00:13:54,780"
+			},
+			"offsets": {
+				"from": 825780,
+				"to": 834780
+			},
+			"text": " Yani Instagram sin traskonuzu burada azaltıbiliyor. Burada yapmanızı gereken şey dediğim gibi gerçek doko, şey kanmadan dönmenden bir şeyler oluşturabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:54,780",
+				"to": "00:14:03,780"
+			},
+			"offsets": {
+				"from": 834780,
+				"to": 843780
+			},
+			"text": " Bu arada bu dediğim şey yani sadece eğer kreatorlar için değil. Yani çok işte görüyorum hani profil fotoğrafının direkt siz gidip eğerdan oluşuruyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:03,780",
+				"to": "00:14:12,780"
+			},
+			"offsets": {
+				"from": 843780,
+				"to": 852780
+			},
+			"text": " Yani bunun yerini direkt kanmadan çok basit bir şekilde bir logo tasarlayabilirsiniz ya da eğer ile oluşuracaksanız da sin taydiyeyi silabilirsiniz burada."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:12,780",
+				"to": "00:14:30,780"
+			},
+			"offsets": {
+				"from": 852780,
+				"to": 870780
+			},
+			"text": " Bu arada bu banlar sadece dropshipping hesaplarının özelliği değil yani sadece bir şey satış yapan hesapları özelliği. Şu anda meta 375 milyon dolarlık bir davayı kaybetti çocuk güvenliği davasını ve 41 avede eğer etinde şu anda davaları devam ediyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:30,780",
+				"to": "00:14:44,780"
+			},
+			"offsets": {
+				"from": 870780,
+				"to": 884780
+			},
+			"text": " Instagram'ın bu skolaştırmayı yapmasının sebebi diyeyim tamamen bu davalardan kaçmak ve kendi adını temizle çıkardı. Bu arada daha güvenli bir platform oluşumaya çalışması."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:44,780",
+				"to": "00:14:55,780"
+			},
+			"offsets": {
+				"from": 884780,
+				"to": 895780
+			},
+			"text": " Bizim düşmek istemediğimiz kategörler şunlar tekrarlığın değinelim, pek hesaplar, spama hesaplar, bu tarz ve hesap gibi görücükmememiz lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:55,780",
+				"to": "00:15:06,780"
+			},
+			"offsets": {
+				"from": 895780,
+				"to": 906780
+			},
+			"text": " Yanılmayacaklı cihalet işle hayat kurtaran ilaç, hayat kurtaran krem ve sayra hani bu tarz abartı vatlardan abartı şeylerden uzak durmamız lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:06,780",
+				"to": "00:15:11,780"
+			},
+			"offsets": {
+				"from": 906780,
+				"to": 911780
+			},
+			"text": " Aggressive link traifiyim, güvensiz ve hepsi de burada benim gibi hepsi de ki politikalar çok çok önemli."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:11,780",
+				"to": "00:15:24,780"
+			},
+			"offsets": {
+				"from": 911780,
+				"to": 924780
+			},
+			"text": " Bu arada bu banların sebebi sadece e'yeğin kafasına göre kontrol etmesi değil, şikayet alan eğer çok fazla kızgın müşeğiniz varsa bunlar da sizin hesabınızı sıkıntıya sokabilir arkadaşlar."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:24,780",
+				"to": "00:15:36,780"
+			},
+			"offsets": {
+				"from": 924780,
+				"to": 936780
+			},
+			"text": " Instagram hesapları birbirine bağlayabilir. Şimdi bunlar ban yemek hakkında değil ama BS'a banyarse bütün hesapların, bütün sisteminizin riske girmesi ile alakalı."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:36,780",
+				"to": "00:15:44,780"
+			},
+			"offsets": {
+				"from": 936780,
+				"to": 944780
+			},
+			"text": " O yüzden burada aynı cihaz, aynı IP, aynı büyüyor, aynı link kullanırsanız, BS'a banyedek, yeni BS'a başlınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:44,780",
+				"to": "00:15:54,780"
+			},
+			"offsets": {
+				"from": 944780,
+				"to": 954780
+			},
+			"text": " Ondan aynı büyüğü kullanırız, aynı linki kullandığınız. Bunu Instagram anlayacak ve birkaç hafta içerisine tekrardan banlayacaksınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:54,780",
+				"to": "00:16:01,780"
+			},
+			"offsets": {
+				"from": 954780,
+				"to": 961780
+			},
+			"text": " Aynı proflik fotoğrafı aynı lannin peynir, aynı meyili kullanırsanız, gene Instagram bunu anlayacak ve diyecek ki ben bunu geçen hafta banladım."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:01,780",
+				"to": "00:16:07,780"
+			},
+			"offsets": {
+				"from": 961780,
+				"to": 967780
+			},
+			"text": " Bu adam yeni BS'a başlamış, gene aynı link var, aynı meyili kullanmış bir hafta içerisine tekrar banlayacaksınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:07,780",
+				"to": "00:16:15,780"
+			},
+			"offsets": {
+				"from": 967780,
+				"to": 975780
+			},
+			"text": " Burada BS'a banyince diğerlerinde risk koru düşer. Yani telefonu ve BS'a banyede diğer hesaplar direkt banyacak diye bir şey var mı?"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:15,780",
+				"to": "00:16:20,780"
+			},
+			"offsets": {
+				"from": 975780,
+				"to": 980780
+			},
+			"text": " Yok ama burada diğer hesaplarınızın da risk koru düşüyor, olacaktır."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:20,780",
+				"to": "00:16:29,780"
+			},
+			"offsets": {
+				"from": 980780,
+				"to": 989780
+			},
+			"text": " Özellemek gerekirse bunlar tamamen askerliyiz, baktığınız zaman askere gibi durabilir ama Instagram bunun arkasında gerçekten çok çok paralar arayacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:29,780",
+				"to": "00:16:35,780"
+			},
+			"offsets": {
+				"from": 989780,
+				"to": 995780
+			},
+			"text": " Çok çok sağlam, sistemler kurmaya çalışıyor. Burada yapmamız gereken şey dediğim gibi,"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:35,780",
+				"to": "00:16:41,780"
+			},
+			"offsets": {
+				"from": 995780,
+				"to": 1001780
+			},
+			"text": " olabildiğince kendimizi makyaj videoları paylaşan, bu lokuları paylaşan bir kızı sabih gibi göstermemiz lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:41,780",
+				"to": "00:16:46,780"
+			},
+			"offsets": {
+				"from": 1001780,
+				"to": 1006780
+			},
+			"text": " Bunu örneğine veriyorum, neden çünkü Instagram'ın en hissediği kullanıcı türü bu aslında."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:46,780",
+				"to": "00:16:49,780"
+			},
+			"offsets": {
+				"from": 1006780,
+				"to": 1009780
+			},
+			"text": " Bizim kendimizi onlar gibi konumluğundanlıkmamız lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:49,780",
+				"to": "00:16:57,780"
+			},
+			"offsets": {
+				"from": 1009780,
+				"to": 1017780
+			},
+			"text": " Diğer modülle de, şuan da teoriden bahsettim. Diğer modülle somut olarak neler yapmamız lazım, nelerden kaçmamız lazım."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:57,780",
+				"to": "00:16:59,780"
+			},
+			"offsets": {
+				"from": 1017780,
+				"to": 1019780
+			},
+			"text": " Bunları konuşuyor, olacağız."
+		}
+	]
+}

@@ -1,0 +1,1627 @@
+{
+  "systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+  "model": {
+    "type": "base",
+    "multilingual": true,
+    "vocab": 51865,
+    "audio": {
+      "ctx": 1500,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "text": {
+      "ctx": 448,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "mels": 80,
+    "ftype": 1
+  },
+  "params": {
+    "model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+    "language": "tr",
+    "translate": false
+  },
+  "result": {
+    "language": "tr"
+  },
+  "transcription": [
+    {
+      "timestamps": {
+        "from": "00:00:00,000",
+        "to": "00:00:06,620"
+      },
+      "offsets": {
+        "from": 0,
+        "to": 6620
+      },
+      "text": " Tamamdır. Şimdi de geldik. Bizim Türkiye'deki Instagram serimizde skeylediğimiz ürünün detaylarına bakmaya."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:06,620",
+        "to": "00:00:12,080"
+      },
+      "offsets": {
+        "from": 6620,
+        "to": 12080
+      },
+      "text": " Şu anda şanslıyız ki bizim hem eybiyotestimiz var hem de şu anda skecil ettiğim siybiyotesi var."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:12,080",
+        "to": "00:00:18,300"
+      },
+      "offsets": {
+        "from": 12080,
+        "to": 18300
+      },
+      "text": " Bu tam daha yayına geçmedi, yarın sabah sekizde yayına geçiyor olacak şu şekilde skecilt gözüküyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:18,300",
+        "to": "00:00:20,920"
+      },
+      "offsets": {
+        "from": 18300,
+        "to": 20920
+      },
+      "text": " O yüzden bunun da detaylarına bakıyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:20,920",
+        "to": "00:00:26,820"
+      },
+      "offsets": {
+        "from": 20920,
+        "to": 26820
+      },
+      "text": " Şimdi öncelikle gördüğünüz gibi bizim eybiyotestimize toplamda biz 37.000 lira para harcamışız."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:26,820",
+        "to": "00:00:31,980"
+      },
+      "offsets": {
+        "from": 26820,
+        "to": 31980
+      },
+      "text": " Burada yüz iki siparişimiz var ve beş nokta kırk bir eroğasta tamamıyla para basıyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:31,980",
+        "to": "00:00:37,240"
+      },
+      "offsets": {
+        "from": 31980,
+        "to": 37240
+      },
+      "text": " Peki bunu nasıl yapıyoruz? Şimdi ilk başta biz reklamlarımıza 21'nde başladık."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:37,240",
+        "to": "00:00:39,120"
+      },
+      "offsets": {
+        "from": 37240,
+        "to": 39120
+      },
+      "text": " O yüzden şuradan 20'sinden açayım."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:39,120",
+        "to": "00:00:41,820"
+      },
+      "offsets": {
+        "from": 39120,
+        "to": 41820
+      },
+      "text": " Gördüğünüz gibi 20'sinde hiçbir para harcammamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:41,820",
+        "to": "00:00:46,820"
+      },
+      "offsets": {
+        "from": 41820,
+        "to": 46820
+      },
+      "text": " 21'e geldiğim zaman burada bizim ilk kreatif testlerimizi çıktığımız gün."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:46,820",
+        "to": "00:00:52,420"
+      },
+      "offsets": {
+        "from": 46820,
+        "to": 52420
+      },
+      "text": " Görüyorsunuz ki 2.6, 8.10 tane ayrı videoyu ben burada reklama koydum."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:52,420",
+        "to": "00:00:56,460"
+      },
+      "offsets": {
+        "from": 52420,
+        "to": 56460
+      },
+      "text": " Şimdi şöyle ki önceki testlerden dolayı ben hangi videonun iyi sonuç getirdiğini biliyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:56,460",
+        "to": "00:01:00,840"
+      },
+      "offsets": {
+        "from": 56460,
+        "to": 60840
+      },
+      "text": " O yüzden burada direkt olarak hangi videoyu reklamlayacağımı biliyordum."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:00,840",
+        "to": "00:01:04,540"
+      },
+      "offsets": {
+        "from": 60840,
+        "to": 64540
+      },
+      "text": " Şimdi geçmişe gidip bakarsak burada nivsiyaz kampeyin diye bir kısım var."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:04,540",
+        "to": "00:01:10,380"
+      },
+      "offsets": {
+        "from": 64540,
+        "to": 70380
+      },
+      "text": " Ben burada şuradan hatta size daha da güzel sonuç verebilmek için bunu maksimuma çekelim."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:10,380",
+        "to": "00:01:14,900"
+      },
+      "offsets": {
+        "from": 70380,
+        "to": 74900
+      },
+      "text": " Buradan bakın maksimuma verdiğim zaman ben burada test dört kitlesinin."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:14,900",
+        "to": "00:01:17,660"
+      },
+      "offsets": {
+        "from": 74900,
+        "to": 77660
+      },
+      "text": " Yani şuradaki videonun en iyi sonuç verdiğini görebiliyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:17,660",
+        "to": "00:01:20,940"
+      },
+      "offsets": {
+        "from": 77660,
+        "to": 80940
+      },
+      "text": " Görüyorsunuz dört bin lira harcamışız toplamda 10 sipariş getirmiş."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:20,940",
+        "to": "00:01:24,460"
+      },
+      "offsets": {
+        "from": 80940,
+        "to": 84460
+      },
+      "text": " Şimdi bunun videolarını hepsine gire baktığınız zaman."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:24,460",
+        "to": "00:01:27,100"
+      },
+      "offsets": {
+        "from": 84460,
+        "to": 87100
+      },
+      "text": " Burada ben zaten çoktan videotessini yapmışım."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:27,100",
+        "to": "00:01:32,900"
+      },
+      "offsets": {
+        "from": 87100,
+        "to": 92900
+      },
+      "text": " O yüzden burada siz de ilk başta kendi videolarınızı bu şekilde test edip en iyi sonuç vereni bulabilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:32,900",
+        "to": "00:01:34,700"
+      },
+      "offsets": {
+        "from": 92900,
+        "to": 94700
+      },
+      "text": " Devamında peki burada ne yapıyoruz?"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:34,700",
+        "to": "00:01:36,500"
+      },
+      "offsets": {
+        "from": 94700,
+        "to": 96500
+      },
+      "text": " Audeens testine geliyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:36,500",
+        "to": "00:01:41,220"
+      },
+      "offsets": {
+        "from": 96500,
+        "to": 101220
+      },
+      "text": " Buradan gene bizim önceki tarihi seçelim 21 ilk başladığımız zaman."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:41,220",
+        "to": "00:01:44,980"
+      },
+      "offsets": {
+        "from": 101220,
+        "to": 104980
+      },
+      "text": " Bakın burada gördüğünüz gibi Paso test dördü kullanmışım."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:44,980",
+        "to": "00:01:47,100"
+      },
+      "offsets": {
+        "from": 104980,
+        "to": 107100
+      },
+      "text": " Alalarda testi kiyle test 3 da var."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:47,100",
+        "to": "00:01:50,220"
+      },
+      "offsets": {
+        "from": 107100,
+        "to": 110220
+      },
+      "text": " Çünkü her şartta aynı şeyleri test etmek mantıklı değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:50,220",
+        "to": "00:01:53,020"
+      },
+      "offsets": {
+        "from": 110220,
+        "to": 113020
+      },
+      "text": " Eğer bütçe varsa burada farklı videoları da test edebilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:53,020",
+        "to": "00:01:57,820"
+      },
+      "offsets": {
+        "from": 113020,
+        "to": 117820
+      },
+      "text": " Dediğim gibi o yüzden biz hem testikide denemişiz hem testüş denemişiz hem test dört denemişiz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:57,820",
+        "to": "00:02:00,940"
+      },
+      "offsets": {
+        "from": 117820,
+        "to": 120940
+      },
+      "text": " O yüzden hedef burada farklı şeyler test edebiliyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:00,940",
+        "to": "00:02:02,660"
+      },
+      "offsets": {
+        "from": 120940,
+        "to": 122660
+      },
+      "text": " Şimdi bu kısmı baktığımız zaman."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:02,660",
+        "to": "00:02:04,260"
+      },
+      "offsets": {
+        "from": 122660,
+        "to": 124260
+      },
+      "text": " Buradan amon spendi çekelim."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:04,260",
+        "to": "00:02:07,340"
+      },
+      "offsets": {
+        "from": 124260,
+        "to": 127340
+      },
+      "text": " Bakın ilk gün bizim yaptığımız harcamalar bu şekilde."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:07,340",
+        "to": "00:02:11,500"
+      },
+      "offsets": {
+        "from": 127340,
+        "to": 131500
+      },
+      "text": " Toplamda ben 250 lira bandında reklamları açtım."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:11,500",
+        "to": "00:02:13,860"
+      },
+      "offsets": {
+        "from": 131500,
+        "to": 133860
+      },
+      "text": " Ondan sonra bunların geri dönüşlerine baktım."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:13,860",
+        "to": "00:02:19,380"
+      },
+      "offsets": {
+        "from": 133860,
+        "to": 139380
+      },
+      "text": " Şimdi benim ürünüm çok viner olduğu için bu kadar fızlı bir şekilde satış alması çok normal."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:19,380",
+        "to": "00:02:22,780"
+      },
+      "offsets": {
+        "from": 139380,
+        "to": 142780
+      },
+      "text": " Burada sizin ürününüz bu kadar mükemmel sonuç getirmiyorsa."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:22,780",
+        "to": "00:02:27,580"
+      },
+      "offsets": {
+        "from": 142780,
+        "to": 147580
+      },
+      "text": " Çok endişe etmeyi gerek yok çünkü her ürün bu kadar iyi garanti sonuç verecek diye bir kayde yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:27,580",
+        "to": "00:02:31,220"
+      },
+      "offsets": {
+        "from": 147580,
+        "to": 151220
+      },
+      "text": " Burada bizim farklı günler için farklı beklentilerimiz olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:31,220",
+        "to": "00:02:34,140"
+      },
+      "offsets": {
+        "from": 151220,
+        "to": 154140
+      },
+      "text": " Burada benim genel olarak yürüttüğüm strateji şu şekilde oluyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:34,140",
+        "to": "00:02:37,380"
+      },
+      "offsets": {
+        "from": 154140,
+        "to": 157380
+      },
+      "text": " İlk başta ben 250 TL'lik reklam set açıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:37,380",
+        "to": "00:02:40,980"
+      },
+      "offsets": {
+        "from": 157380,
+        "to": 160980
+      },
+      "text": " Ve ilk gün beklentim sadece benim link klik alması."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:40,980",
+        "to": "00:02:44,940"
+      },
+      "offsets": {
+        "from": 160980,
+        "to": 164940
+      },
+      "text": " Eğer siz bağlantı tıklaması alıyorsunuz ilk gün hayatlasınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:44,940",
+        "to": "00:02:52,060"
+      },
+      "offsets": {
+        "from": 164940,
+        "to": 172060
+      },
+      "text": " Şimdi ikinci güne geçtiğimiz zaman hedefimiz en az bir tane CPT ekleme alması."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:52,060",
+        "to": "00:02:57,300"
+      },
+      "offsets": {
+        "from": 172060,
+        "to": 177300
+      },
+      "text": " Burada hedefimiz siz sipariş almasınız bile toplamda siz 500 lira harcadığınız zaman"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:57,300",
+        "to": "00:03:00,500"
+      },
+      "offsets": {
+        "from": 177300,
+        "to": 180500
+      },
+      "text": " burada en az bir adet CPT ekleme alabiliyor olmanız."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:00,500",
+        "to": "00:03:07,140"
+      },
+      "offsets": {
+        "from": 180500,
+        "to": 187140
+      },
+      "text": " Üçüncü güne geldiğimizde toplamda 750 lira harcadığımızda minimum bir sipariş olmasın."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:07,140",
+        "to": "00:03:11,100"
+      },
+      "offsets": {
+        "from": 187140,
+        "to": 191100
+      },
+      "text": " Şimdi burakamlara baktığınız zaman bunlar çok kesin garanti rakamlar değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:11,100",
+        "to": "00:03:14,540"
+      },
+      "offsets": {
+        "from": 191100,
+        "to": 194540
+      },
+      "text": " Çünkü burada hedefimiz birazcık daha sizin sıfır sıfır kapatmanız."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:14,540",
+        "to": "00:03:18,100"
+      },
+      "offsets": {
+        "from": 194540,
+        "to": 198100
+      },
+      "text": " Eğer siz ürünün 200 TL alıyorsanız örnek için söylüyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:18,100",
+        "to": "00:03:22,060"
+      },
+      "offsets": {
+        "from": 198100,
+        "to": 202060
+      },
+      "text": " Ve ürünü 500 TL satıyorsanız sizin buradan ki aranız 300 lira."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:22,060",
+        "to": "00:03:27,740"
+      },
+      "offsets": {
+        "from": 202060,
+        "to": 207740
+      },
+      "text": " Şimdi hedefimiz burada bir reklam setine 300 lira harcadıp sipariş alabiliyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:27,740",
+        "to": "00:03:35,660"
+      },
+      "offsets": {
+        "from": 207740,
+        "to": 215660
+      },
+      "text": " Çünkü sistem 300 lira harcadığınız zaman bir sipariş alırsanız burada tam sıfır sıfır olarak kapatmış oluyorsunuz ki zarar etmemiş oluyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:35,660",
+        "to": "00:03:39,540"
+      },
+      "offsets": {
+        "from": 215660,
+        "to": 219540
+      },
+      "text": " Burada bizim amacımızda birazcık daha aslında veriye yatırım yapabiliyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:39,540",
+        "to": "00:03:45,980"
+      },
+      "offsets": {
+        "from": 219540,
+        "to": 225980
+      },
+      "text": " Ama ben gene olarak ürünlerimin fiyatları aşağı yukarı 1000-2000 lira bandında olduğu için bu strateji benim işime geliyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:45,980",
+        "to": "00:03:55,740"
+      },
+      "offsets": {
+        "from": 225980,
+        "to": 235740
+      },
+      "text": " 250 liralık açıyorum, linklik almaya bekliyorum, 500 lira da bir tane sepet eklem almaya bekliyorum, 750 liralık da toplamda bir adet sipariş bekliyor oluyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:55,740",
+        "to": "00:03:58,860"
+      },
+      "offsets": {
+        "from": 235740,
+        "to": 238860
+      },
+      "text": " Burada dikkat etmeniz gereken kısım, buradaki CTR muhabbeti."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:58,860",
+        "to": "00:04:04,460"
+      },
+      "offsets": {
+        "from": 238860,
+        "to": 244460
+      },
+      "text": " Eğer sizin CTR'ınız 101'in altındaysa oraktamı direkt orak öldürün abi."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:04,460",
+        "to": "00:04:06,540"
+      },
+      "offsets": {
+        "from": 244460,
+        "to": 246540
+      },
+      "text": " Yani kapatın ona hiç para harcamayın."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:06,540",
+        "to": "00:04:11,140"
+      },
+      "offsets": {
+        "from": 246540,
+        "to": 251140
+      },
+      "text": " Yani şöyle zaten organik videoları reklamladığımız için çok iyi sonuçlar bekliyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:11,140",
+        "to": "00:04:15,380"
+      },
+      "offsets": {
+        "from": 251140,
+        "to": 255380
+      },
+      "text": " Yani siz 1 CTR'ın altında görünselme 100% almıyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:15,380",
+        "to": "00:04:25,140"
+      },
+      "offsets": {
+        "from": 255380,
+        "to": 265140
+      },
+      "text": " Ama olur da eğer 1 CTR'ın altını düşerse yani her gösterdiğini 100 kişiden 1 kişi bile tıklanmıyorsa o videoyu kullanmayın, o videoyu direkt olarak çöpe atın."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:25,140",
+        "to": "00:04:26,860"
+      },
+      "offsets": {
+        "from": 265140,
+        "to": 266860
+      },
+      "text": " Şimdi birazcık daha analiz kısımına gelelim."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:26,860",
+        "to": "00:04:32,300"
+      },
+      "offsets": {
+        "from": 266860,
+        "to": 272300
+      },
+      "text": " Dedim gibi ilk gün açtığımız zaman biz burada bakın iki şer sipariş aldıklarımız reklam setleri var."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:32,300",
+        "to": "00:04:38,340"
+      },
+      "offsets": {
+        "from": 272300,
+        "to": 278340
+      },
+      "text": " Burada biraz sipariş aldığımız var, link kliklerimiz zaten 10 numara yani 100 küsür link klik almışız şu olmakla."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:38,340",
+        "to": "00:04:49,660"
+      },
+      "offsets": {
+        "from": 278340,
+        "to": 289660
+      },
+      "text": " CTR'lar dediğim gibi hepsi 6-7 bandında Hedifim ise burada 2. günde eğer siz 1 reklam setinden 1 kampanyadan 2 sipariş alıyorsanız bunu gidip 2 kese kopyalıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:49,660",
+        "to": "00:04:53,460"
+      },
+      "offsets": {
+        "from": 289660,
+        "to": 293460
+      },
+      "text": " Buradan geliyorsunuz, daplakiye de basıyorsunuz, 2 kese kopyalıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:53,460",
+        "to": "00:05:02,060"
+      },
+      "offsets": {
+        "from": 293460,
+        "to": 302060
+      },
+      "text": " Bu da demek ki siz o reklam setinden o kitlenen 2 sipariş alıyorsunuz o zaman o kitleyi olabildiğince farklı çılardan farklı şekilde test edebiliyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:02,060",
+        "to": "00:05:06,900"
+      },
+      "offsets": {
+        "from": 302060,
+        "to": 306900
+      },
+      "text": " Çünkü bildiğiniz gibi siz 1 reklam çıktığınız zaman o kitlenin tamamına hitap etmiyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:06,900",
+        "to": "00:05:09,340"
+      },
+      "offsets": {
+        "from": 306900,
+        "to": 309340
+      },
+      "text": " Şimdi örneğin sizin şöyle bir kitleniz var."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:09,340",
+        "to": "00:05:12,380"
+      },
+      "offsets": {
+        "from": 309340,
+        "to": 312380
+      },
+      "text": " Demi bu kitleni olsun mesela yemek pişirmeyi seven kitli olsun."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:12,380",
+        "to": "00:05:18,700"
+      },
+      "offsets": {
+        "from": 312380,
+        "to": 318700
+      },
+      "text": " Siz 1 reklam çıktığınız zaman sizin reklamlarınız buradaki yemek pişirmeyi seven insanların arasından küçük bir dilime gösteriliyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:18,700",
+        "to": "00:05:21,060"
+      },
+      "offsets": {
+        "from": 318700,
+        "to": 321060
+      },
+      "text": " Niye? Çünkü sizin biteceğiniz 250 lira bandında."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:21,060",
+        "to": "00:05:25,220"
+      },
+      "offsets": {
+        "from": 321060,
+        "to": 325220
+      },
+      "text": " Burada siz farklı insanları hedefliyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:25,220",
+        "to": "00:05:27,900"
+      },
+      "offsets": {
+        "from": 325220,
+        "to": 327900
+      },
+      "text": " Şu şekilde farklı insanların önüne düşü olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:27,900",
+        "to": "00:05:34,500"
+      },
+      "offsets": {
+        "from": 327900,
+        "to": 334500
+      },
+      "text": " Eğer siz buradan 2 sipariş alırsanız, buradaki reklamı kopyalıyorsunuz, buradan bu sefer farklı bir kitleye çıkıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:34,500",
+        "to": "00:05:37,380"
+      },
+      "offsets": {
+        "from": 334500,
+        "to": 337380
+      },
+      "text": " Ya da farklı bir dilime reklamlarınız gösterilmeye başlıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:37,380",
+        "to": "00:05:45,260"
+      },
+      "offsets": {
+        "from": 337380,
+        "to": 345260
+      },
+      "text": " O yüzden hedefimiz olabildiğince bu tarz farklı kitledir, farklı dilimleri de test edip acaba buralardan sipariş alabilir miyiz bunu test etmek."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:45,260",
+        "to": "00:05:47,700"
+      },
+      "offsets": {
+        "from": 345260,
+        "to": 347700
+      },
+      "text": " Devamın da 2. güne gelelim."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:47,700",
+        "to": "00:05:56,100"
+      },
+      "offsets": {
+        "from": 347700,
+        "to": 356100
+      },
+      "text": " 2. güne geldiğiniz zaman bakın bu sefer 2.4.6.8.10.12.14.16.10.8 tane reklam kitlesi açık."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:56,100",
+        "to": "00:05:58,140"
+      },
+      "offsets": {
+        "from": 356100,
+        "to": 358140
+      },
+      "text": " Neden? Ürenimiz zaten parabasını biliyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:58,140",
+        "to": "00:05:59,900"
+      },
+      "offsets": {
+        "from": 358140,
+        "to": 359900
+      },
+      "text": " O yüzden yatırım yapmamda bir sıkıntı yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:59,900",
+        "to": "00:06:06,620"
+      },
+      "offsets": {
+        "from": 359900,
+        "to": 366620
+      },
+      "text": " Farkı derseniz ki burada bir çok hedef kitlesi açık. 2. kes sipariş getirenleri 2. kes kopyalayıp onları da reklama koymuşum."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:06,620",
+        "to": "00:06:07,220"
+      },
+      "offsets": {
+        "from": 366620,
+        "to": 367220
+      },
+      "text": " Görüyor musunuz?"
+    },
+    {
+      "timestamps": {
+        "from": "00:06:07,220",
+        "to": "00:06:10,940"
+      },
+      "offsets": {
+        "from": 367220,
+        "to": 370940
+      },
+      "text": " Test 4 LOL'da iyi sonuç getirmiş, onları da 2. kes kopyalayıp açmışım."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:10,940",
+        "to": "00:06:14,420"
+      },
+      "offsets": {
+        "from": 370940,
+        "to": 374420
+      },
+      "text": " Devamına bakalım 2. kes kopyalayıp devam ettilerimiz var mı?"
+    },
+    {
+      "timestamps": {
+        "from": "00:06:14,420",
+        "to": "00:06:16,500"
+      },
+      "offsets": {
+        "from": 374420,
+        "to": 376500
+      },
+      "text": " Bakın şurada test 4 kalaf dedi kopi var."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:16,500",
+        "to": "00:06:19,540"
+      },
+      "offsets": {
+        "from": 376500,
+        "to": 379540
+      },
+      "text": " Bunun bir tanesi burada demek ki iyi sonuç vermiş bir tanesi de altta."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:19,540",
+        "to": "00:06:25,060"
+      },
+      "offsets": {
+        "from": 379540,
+        "to": 385060
+      },
+      "text": " Yani anamantıkta hedefimiz olabildiğince yataydı scale edip farklı dilimlerden sipariş alabiliyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:25,060",
+        "to": "00:06:33,740"
+      },
+      "offsets": {
+        "from": 385060,
+        "to": 393740
+      },
+      "text": " Özellikle 22 de ince dediğimiz zaman burada görüyor olacaksanız ki bakın bazı reklamlar 150-200 lira banlığını harcayarken bazıları 3350 banlığını harcamış."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:33,740",
+        "to": "00:06:34,220"
+      },
+      "offsets": {
+        "from": 393740,
+        "to": 394220
+      },
+      "text": " Neden?"
+    },
+    {
+      "timestamps": {
+        "from": "00:06:34,220",
+        "to": "00:06:39,140"
+      },
+      "offsets": {
+        "from": 394220,
+        "to": 399140
+      },
+      "text": " Ben burada iyi sipariş getirenleri iyi sonuç getirenlerin bütçelerini yavaş yavaş artırıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:39,140",
+        "to": "00:06:44,340"
+      },
+      "offsets": {
+        "from": 399140,
+        "to": 404340
+      },
+      "text": " Yani burada 250 lira harcarken iyi sonuç alıyorsam demek ki 400 lira harcarken de iyi sonuç alabilirim."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:44,340",
+        "to": "00:06:47,420"
+      },
+      "offsets": {
+        "from": 404340,
+        "to": 407420
+      },
+      "text": " Hedef bu ki gördüğünüz gibi 32 arası çalışmış."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:47,420",
+        "to": "00:06:51,860"
+      },
+      "offsets": {
+        "from": 407420,
+        "to": 411860
+      },
+      "text": " Yani 300 lira koymuşuz bunun karşılığında 9.000 neredeyse 10.000 lira para almışız demek."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:51,860",
+        "to": "00:06:58,660"
+      },
+      "offsets": {
+        "from": 411860,
+        "to": 418660
+      },
+      "text": " Burada hedefimiz bu şekilde aslında farklı farklı hedef kitlerinin bularak bunları test ederek sonuç getirebiliyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:58,660",
+        "to": "00:07:04,980"
+      },
+      "offsets": {
+        "from": 418660,
+        "to": 424980
+      },
+      "text": " Bakın mesela burada 400 lira harcadıklarımıza 26-14 14.000 lira arcamışız burada 13.000 lira arası var."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:04,980",
+        "to": "00:07:05,780"
+      },
+      "offsets": {
+        "from": 424980,
+        "to": 425780
+      },
+      "text": " 9.000 lira arası var."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:05,780",
+        "to": "00:07:10,980"
+      },
+      "offsets": {
+        "from": 425780,
+        "to": 430980
+      },
+      "text": " Amacımız burada olabildiğince bu tarz iyi sonuç getiren cehidamları tutabiliyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:10,980",
+        "to": "00:07:17,420"
+      },
+      "offsets": {
+        "from": 430980,
+        "to": 437420
+      },
+      "text": " Ve günün sonunda bakın mesela burada 4000 lira harcamışız toplamda 13 siparişle 8.00 arası per formans getiriyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:17,420",
+        "to": "00:07:24,460"
+      },
+      "offsets": {
+        "from": 437420,
+        "to": 444460
+      },
+      "text": " Yine 4.000 var 6.00 arası. Görüyor sanız bakın testik abrağı, testik abrağı, testik abrağı, testik 4.00 ol, testik kapıyı."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:24,460",
+        "to": "00:07:28,220"
+      },
+      "offsets": {
+        "from": 444460,
+        "to": 448220
+      },
+      "text": " Bak kopyaladığım reklam setine 1800 lira harcamışım 8.00 arasıla gidiyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:28,220",
+        "to": "00:07:30,700"
+      },
+      "offsets": {
+        "from": 448220,
+        "to": 450700
+      },
+      "text": " Demek güzel bir dilime denk getirmişim."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:30,700",
+        "to": "00:07:32,060"
+      },
+      "offsets": {
+        "from": 450700,
+        "to": 452060
+      },
+      "text": " Testik üçün kopyalası da aynı."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:32,060",
+        "to": "00:07:34,620"
+      },
+      "offsets": {
+        "from": 452060,
+        "to": 454620
+      },
+      "text": " Güzel bir dilime denk gelmiş demek ki siparişle devam ediyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:34,620",
+        "to": "00:07:36,140"
+      },
+      "offsets": {
+        "from": 454620,
+        "to": 456140
+      },
+      "text": " Testik abrağı, görüyor musunuz?"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:36,140",
+        "to": "00:07:40,780"
+      },
+      "offsets": {
+        "from": 456140,
+        "to": 460780
+      },
+      "text": " İkisine de toplamda 1500 arcamışım birinden 2.3 arası birinden 3.00 arası almışım."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:40,780",
+        "to": "00:07:50,620"
+      },
+      "offsets": {
+        "from": 460780,
+        "to": 470620
+      },
+      "text": " Aramantik'de hedefim olabildiğince bu tarz kopyalaya kopyalaya skeylede gitmek aynı zamanda iyi sonuç getiren cehidam krediflerinde bütçelerini artırarak skeyledebiliyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:50,620",
+        "to": "00:07:56,460"
+      },
+      "offsets": {
+        "from": 470620,
+        "to": 476460
+      },
+      "text": " Şimdi ABO kısmını anladıysanız olayın birazcık daha CBO kısmına bakalım burada nasıl bir set yap yapmışız."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:56,460",
+        "to": "00:07:59,820"
+      },
+      "offsets": {
+        "from": 476460,
+        "to": 479820
+      },
+      "text": " Gördüğünüz gibi daha burada hiç pararcamış yok çünkü tamamıyla bugün kurdum."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:59,820",
+        "to": "00:08:02,620"
+      },
+      "offsets": {
+        "from": 479820,
+        "to": 482620
+      },
+      "text": " Bunun içine girdiğimiz zaman bakın ne olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:02,620",
+        "to": "00:08:10,460"
+      },
+      "offsets": {
+        "from": 482620,
+        "to": 490460
+      },
+      "text": " Tata burada 15 ayrı videoyu koymuşum, bütçeği bırakmışım, tamamıyla algoritmaya demişim ki bilader al benim burada 15 ayrı videon var."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:10,460",
+        "to": "00:08:12,620"
+      },
+      "offsets": {
+        "from": 490460,
+        "to": 492620
+      },
+      "text": " Sen bunları kafana göre parasına harcam."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:12,620",
+        "to": "00:08:15,820"
+      },
+      "offsets": {
+        "from": 492620,
+        "to": 495820
+      },
+      "text": " Buradan edit kısmına gelelim birazcık da içini inceleyelim."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:15,820",
+        "to": "00:08:23,660"
+      },
+      "offsets": {
+        "from": 495820,
+        "to": 503660
+      },
+      "text": " Şimdi gördüğünüz gibi hedefimiz satış, burada ürün katuluğumuz gireli, kampayın bacı setmişim günlük 1500 arayla testi başlamışım."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:23,660",
+        "to": "00:08:27,500"
+      },
+      "offsets": {
+        "from": 503660,
+        "to": 507500
+      },
+      "text": " Burada 1500 arasında koyduğunuz zaman gayetlerden anlatır."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:27,500",
+        "to": "00:08:31,740"
+      },
+      "offsets": {
+        "from": 507500,
+        "to": 511740
+      },
+      "text": " Burada baktım 1500 arayla ben iyi gidiyorum bunun fiyatını direkt 3000 lira yapacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:31,740",
+        "to": "00:08:36,540"
+      },
+      "offsets": {
+        "from": 511740,
+        "to": 516540
+      },
+      "text": " 1-2 gün 3000 lira da test edeceğim, eğer 3000 lira da iyi gidiyorsa bunu 6000 yapacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:36,540",
+        "to": "00:08:40,940"
+      },
+      "offsets": {
+        "from": 516540,
+        "to": 520940
+      },
+      "text": " Yani birazcık da agresif skele geçeceğim neden çünkü ürünün zaten iyi sattığını biliyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:40,940",
+        "to": "00:08:47,500"
+      },
+      "offsets": {
+        "from": 520940,
+        "to": 527500
+      },
+      "text": " Zaten çok kiarlı gidiyor, hedefim olabildiğince agresif bir şekilde pararcayıp, çok hızlı bir şekilde satışlar alabiliyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:47,500",
+        "to": "00:08:54,020"
+      },
+      "offsets": {
+        "from": 527500,
+        "to": 534020
+      },
+      "text": " Sibi yok kısmına da gelirsek, pardon ikinci kampanyak kısmına görüsek, gördüğünüz gibi Maximized Number of Conversion,"
+    },
+    {
+      "timestamps": {
+        "from": "00:08:54,020",
+        "to": "00:08:56,380"
+      },
+      "offsets": {
+        "from": 534020,
+        "to": 536380
+      },
+      "text": " Perchace, Standart, bunlar çok önemli değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:56,380",
+        "to": "00:09:01,420"
+      },
+      "offsets": {
+        "from": 536380,
+        "to": 541420
+      },
+      "text": " Dedim gibi 27 senin sabah 8'e kurdum, bunun altında çok görmeniz gereken bir kısm yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:01,420",
+        "to": "00:09:07,220"
+      },
+      "offsets": {
+        "from": 541420,
+        "to": 547220
+      },
+      "text": " Reklam kısımlarına gelirsek, burada gördüğünüz gibi popganı seçtim, popganın maalesef bir Instagram sayfası yok"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:07,220",
+        "to": "00:09:10,540"
+      },
+      "offsets": {
+        "from": 547220,
+        "to": 550540
+      },
+      "text": " çünkü ürünler silah şeklinde çok da mühim değil aslında, bakarsanız."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:10,540",
+        "to": "00:09:17,460"
+      },
+      "offsets": {
+        "from": 550540,
+        "to": 557460
+      },
+      "text": " Manual Destination ve Web City bakın popgan komptiereyi koymuşum, buradan tıkladığım zaman internetseme gittiğine eminim."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:17,460",
+        "to": "00:09:24,740"
+      },
+      "offsets": {
+        "from": 557460,
+        "to": 564740
+      },
+      "text": " Aşağı iniyorum, burada bakın demişim ki Türkiye'nin ilk bir tek ficit markası ile tanış popgan, burada kendi reklam mı koymuşum."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:24,740",
+        "to": "00:09:28,820"
+      },
+      "offsets": {
+        "from": 564740,
+        "to": 568820
+      },
+      "text": " Devamına headline Türkiye'nin ilk ficidi, burada son 20 adet kaçıran bekler."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:28,820",
+        "to": "00:09:35,420"
+      },
+      "offsets": {
+        "from": 568820,
+        "to": 575420
+      },
+      "text": " Shopnavı yapıştırmışız abi, Aşağı iniyorum, Web City events'te popgan gördüğünüz gibi yeşil yanıyor, demek ki çalışıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:35,420",
+        "to": "00:09:39,260"
+      },
+      "offsets": {
+        "from": 575420,
+        "to": 579260
+      },
+      "text": " Son olarak da burada URL parametirse dediğim şekilde koymuşum."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:39,260",
+        "to": "00:09:47,900"
+      },
+      "offsets": {
+        "from": 579260,
+        "to": 587900
+      },
+      "text": " Bakın burada URL'in nasıl çalıştığında göstereyim, ana mantık da burada geldiğiniz zaman, Aşağı indiğinizde bakın, burada VIA Yutiem."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:47,900",
+        "to": "00:09:55,980"
+      },
+      "offsets": {
+        "from": 587900,
+        "to": 595980
+      },
+      "text": " Bunu bastığım zaman, bakın hangi reklam setinden, hangi videodan, hangi türümden geldiğini direkt olarak net bir şekilde görüyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:55,980",
+        "to": "00:10:04,860"
+      },
+      "offsets": {
+        "from": 595980,
+        "to": 604860
+      },
+      "text": " Burada eğer sizin Facebook parametrelere kaçırıyorsa, bu şekilde hangi reklam setinden sipariş geldiğinde, detaylı bir şekilde görebiliyor, olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:04,860",
+        "to": "00:10:10,420"
+      },
+      "offsets": {
+        "from": 604860,
+        "to": 610420
+      },
+      "text": " Umarım reklam kısmı ise faydalı olmuştur, burada bizim en büyük artımız çok fazla ilimizde video var."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:10,420",
+        "to": "00:10:14,300"
+      },
+      "offsets": {
+        "from": 610420,
+        "to": 614300
+      },
+      "text": " Elimizde zaten iyi videolar olacağı için, bunların iyi sonuç getireceğini biliyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:14,300",
+        "to": "00:10:19,300"
+      },
+      "offsets": {
+        "from": 614300,
+        "to": 619300
+      },
+      "text": " Bir, ikincisi, burada bizim organik deki avantajımız şu, biz zaten viral olarak satışlar alıyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:19,300",
+        "to": "00:10:24,860"
+      },
+      "offsets": {
+        "from": 619300,
+        "to": 624860
+      },
+      "text": " Bu reklam krediflerinin, bu videoların iyi sipariş getirdiğini biliyoruz, algoritma zaten bunları doğruladı."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:24,860",
+        "to": "00:10:32,020"
+      },
+      "offsets": {
+        "from": 624860,
+        "to": 632020
+      },
+      "text": " O yüzden bunlara organik de düzenli siparişler almaya başladığınız zaman, bu şekilde, agresif bir şekilde reklama koyup psiki ile de biliyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:32,020",
+        "to": "00:10:35,460"
+      },
+      "offsets": {
+        "from": 632020,
+        "to": 635460
+      },
+      "text": " Bakın, burada ben hiç gözünün yaşına bakmadan, on beş ayrı kredif koyabiliyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:35,460",
+        "to": "00:10:41,300"
+      },
+      "offsets": {
+        "from": 635460,
+        "to": 641300
+      },
+      "text": " Şimdi ben TikTok'a gitsem, orada 30 ayrı videom var, yani benim reklam kredif kısmında herhangi bir problemim yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:41,300",
+        "to": "00:10:51,260"
+      },
+      "offsets": {
+        "from": 641300,
+        "to": 651260
+      },
+      "text": " O yüzden siz de burada viral videolarınız olduğu zaman, organiklerin iyi satışlar almaya başladığınız zaman, bu şekilde öncelikle bir ABO setup yapıp, ABO'dan bellimikler siparişler almaya deneyeceksiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:51,260",
+        "to": "00:10:57,140"
+      },
+      "offsets": {
+        "from": 651260,
+        "to": 657140
+      },
+      "text": " Yavamında ABO'dan iyi gitmeye başladığı zaman da, direkt olarak CBO koyup bunu siki ile de biliyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:57,140",
+        "to": "00:11:06,700"
+      },
+      "offsets": {
+        "from": 657140,
+        "to": 666700
+      },
+      "text": " Burada şöyle bir kısm var, eğer sizin yeterince bütçeniz yoksa, çünkü ABO'da biz 10 tane reklam koyuyoruz, bunu 250 lira bütçar görürüz, günlük 2500 lira para harcamayı defliyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:06,700",
+        "to": "00:11:15,420"
+      },
+      "offsets": {
+        "from": 666700,
+        "to": 675420
+      },
+      "text": " Eğer sim burada düşük bütçeniz varsa, yani günlük 1500 lira manlığına tesletmek istiyorsanız, direkt olarak CBO'ya koyup, CBO üzerinden de ilerleyebilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:15,420",
+        "to": "00:11:24,220"
+      },
+      "offsets": {
+        "from": 675420,
+        "to": 684220
+      },
+      "text": " Ama eğer bütçe kısmında bir probleminiz yoksa, ABO üzerinden hangi videoların iyi sonuç getirdiğini görüp, bunlarla CBO'yu besliyor olacaksınız diyeyim."
+    }
+  ]
+}

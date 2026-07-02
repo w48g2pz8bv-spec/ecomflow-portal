@@ -1,0 +1,571 @@
+{
+  "systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+  "model": {
+    "type": "base",
+    "multilingual": true,
+    "vocab": 51865,
+    "audio": {
+      "ctx": 1500,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "text": {
+      "ctx": 448,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "mels": 80,
+    "ftype": 1
+  },
+  "params": {
+    "model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+    "language": "tr",
+    "translate": false
+  },
+  "result": {
+    "language": "tr"
+  },
+  "transcription": [
+    {
+      "timestamps": {
+        "from": "00:00:00,000",
+        "to": "00:00:08,000"
+      },
+      "offsets": {
+        "from": 0,
+        "to": 8000
+      },
+      "text": " Şimdi sırada bir viral video konsepti bulduğumuz zaman bu konsept üzerinden 5 tane altı tane nasıl farklı viral konseptler çıkartılır bunu anlatacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:08,000",
+        "to": "00:00:13,240"
+      },
+      "offsets": {
+        "from": 8000,
+        "to": 13240
+      },
+      "text": " Şimdi bildiğiniz gibi ilk işte biz viral bir konsept bulduğumuz zaman bu konsept üzerinden ilerlememiz lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:13,240",
+        "to": "00:00:19,480"
+      },
+      "offsets": {
+        "from": 13240,
+        "to": 19480
+      },
+      "text": " Çünkü bu konsepti viral olduğu zaman insanlar bu konsept üzerinde bir şey beğeniyorlar ki viral alıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:19,480",
+        "to": "00:00:23,140"
+      },
+      "offsets": {
+        "from": 19480,
+        "to": 23140
+      },
+      "text": " Yani algoritma üzerinde hiçbir şeyi rastkile şekilde viral olmuyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:23,140",
+        "to": "00:00:27,740"
+      },
+      "offsets": {
+        "from": 23140,
+        "to": 27740
+      },
+      "text": " Burada insanların tam olarak neyi sevdiğini bizim farklı şekilde test edebiliyor olmamız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:27,740",
+        "to": "00:00:32,900"
+      },
+      "offsets": {
+        "from": 27740,
+        "to": 32900
+      },
+      "text": " Bir önceki modülde size anlattığım bu AB testing muhabbeti burada daha detaylı işliyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:32,900",
+        "to": "00:00:42,580"
+      },
+      "offsets": {
+        "from": 32900,
+        "to": 42580
+      },
+      "text": " Şimdi öncelikle siz bir video üzerinden bir konsept üzerinden viral olduğunu zaman yapmanız gereken şeyi o konseptin ilk başta farklı hukumu çekmek."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:42,580",
+        "to": "00:00:44,140"
+      },
+      "offsets": {
+        "from": 42580,
+        "to": 44140
+      },
+      "text": " Burada önemli olan şey şu."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:44,140",
+        "to": "00:00:49,420"
+      },
+      "offsets": {
+        "from": 44140,
+        "to": 49420
+      },
+      "text": " Yaptığımız videonun, yaptığımız edereketlerinin müzikleri her şeyi tamamıyla aynı olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:49,420",
+        "to": "00:00:53,280"
+      },
+      "offsets": {
+        "from": 49420,
+        "to": 53280
+      },
+      "text": " Ama bizim videonun içerisinde yukarıya yazdığımız teksel birbirinden farklı olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:53,280",
+        "to": "00:00:54,820"
+      },
+      "offsets": {
+        "from": 53280,
+        "to": 54820
+      },
+      "text": " Burada önemli olan şey şu."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:54,820",
+        "to": "00:01:00,980"
+      },
+      "offsets": {
+        "from": 54820,
+        "to": 60980
+      },
+      "text": " Siz AB testing yaparken birden fazla içeri değiştirirseniz hangisinin çalıştığını anlamayacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:00,980",
+        "to": "00:01:05,860"
+      },
+      "offsets": {
+        "from": 60980,
+        "to": 65860
+      },
+      "text": " O yüzden yapmamız gereken şeyi bir tanesini değiştirirken diğer her şeyi aynı tutmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:05,860",
+        "to": "00:01:10,660"
+      },
+      "offsets": {
+        "from": 65860,
+        "to": 70660
+      },
+      "text": " Bu sayede biz neyin nasıl çalıştığını neyin daha iyi tepki verdiğini görüyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:10,660",
+        "to": "00:01:15,360"
+      },
+      "offsets": {
+        "from": 70660,
+        "to": 75360
+      },
+      "text": " Burada ilk yapmamız gereken şeyi dediğim bir viral videokonceptiğini hiç değiştirmeden."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:15,360",
+        "to": "00:01:21,580"
+      },
+      "offsets": {
+        "from": 75360,
+        "to": 81580
+      },
+      "text": " Viral olmuş videonun bile bir aynısını çekerek sadece farklı hukları test ederek deniyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:21,580",
+        "to": "00:01:24,940"
+      },
+      "offsets": {
+        "from": 81580,
+        "to": 84940
+      },
+      "text": " İkinci olarak burada bakmamız gereken kısımda background."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:24,940",
+        "to": "00:01:30,460"
+      },
+      "offsets": {
+        "from": 84940,
+        "to": 90460
+      },
+      "text": " Yani siz mesela ilk videoyu evinizin doğarına doğru çektiyseniz ikinci video tamamıyla"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:30,460",
+        "to": "00:01:32,500"
+      },
+      "offsets": {
+        "from": 90460,
+        "to": 92500
+      },
+      "text": " evin farklı bir köşesinde olması gerek."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:32,500",
+        "to": "00:01:38,300"
+      },
+      "offsets": {
+        "from": 92500,
+        "to": 98300
+      },
+      "text": " Ya da siz ilk videonun atıyorum beyaz masanın üzerinde çekildiysen, ikinci videonun yine beyaz masası üzerinde olabilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:38,300",
+        "to": "00:01:44,060"
+      },
+      "offsets": {
+        "from": 98300,
+        "to": 104060
+      },
+      "text": " Ama bu sefer arkaya daha farklı oyuncaklar, daha farklı konuyu ile alakalı nişlerle alakalı şeyler koyabilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:44,060",
+        "to": "00:01:49,100"
+      },
+      "offsets": {
+        "from": 104060,
+        "to": 109100
+      },
+      "text": " Üçüncü olarak bizim değiştirmemiz ve test etmemiz gereken şey ses ve müzikler."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:49,100",
+        "to": "00:01:54,100"
+      },
+      "offsets": {
+        "from": 109100,
+        "to": 114100
+      },
+      "text": " Siz video başladığınız zaman herhangi bir ses oluyorsa, ürün herhangi bir ses çıkartıyorsay."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:54,100",
+        "to": "00:01:59,660"
+      },
+      "offsets": {
+        "from": 114100,
+        "to": 119660
+      },
+      "text": " Ya da arkaya koydunuz müzikler konuyla alakalıysa burada yine farklı müzik ve sesseri test etmemiz lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:59,660",
+        "to": "00:02:07,420"
+      },
+      "offsets": {
+        "from": 119660,
+        "to": 127420
+      },
+      "text": " Bakın ama yine baştan söylüyorum, bir şeyi değiştirirken öbür kere dokunmamamız lazım ki bunun devamında iyi çalışıp çalışmadığından emin olalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:07,420",
+        "to": "00:02:13,660"
+      },
+      "offsets": {
+        "from": 127420,
+        "to": 133660
+      },
+      "text": " Eğer siz atıyorum bir videoda hook'u ve müzik aynanda değiştirirseniz geri kalanları aynı tutarsanız bu sefer ne olacak?"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:13,660",
+        "to": "00:02:17,820"
+      },
+      "offsets": {
+        "from": 133660,
+        "to": 137820
+      },
+      "text": " Burada huktan dolayım yoksa müzikten dolayım iyi sonuç getirdiğini göremiyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:17,820",
+        "to": "00:02:23,980"
+      },
+      "offsets": {
+        "from": 137820,
+        "to": 143980
+      },
+      "text": " Dördüncü olarak el hareketlerimiz biliyorsunuz el hareketleri ne kadar temiz sev videonuz o kadar izlenebilir oluyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:23,980",
+        "to": "00:02:33,820"
+      },
+      "offsets": {
+        "from": 143980,
+        "to": 153820
+      },
+      "text": " Bunun için ayrı özel bir model olacak devamında, o kısmı da izlerseniz anamantıkta biz ürünü gösterirken ürün içerisine farklı böyle el hareketlerimizde koyabiliyor olmamız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:33,820",
+        "to": "00:02:39,660"
+      },
+      "offsets": {
+        "from": 153820,
+        "to": 159660
+      },
+      "text": " Video ne kadar, sumut ne kadar böyle akıcı olarak gözüküyorsa karşıda öyle bir hissüyandırıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:39,660",
+        "to": "00:02:43,180"
+      },
+      "offsets": {
+        "from": 159660,
+        "to": 163180
+      },
+      "text": " O yüzden bizim burada farklı el hareketleri test etmemiz çok önemli."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:43,180",
+        "to": "00:02:46,380"
+      },
+      "offsets": {
+        "from": 163180,
+        "to": 166380
+      },
+      "text": " Şimdi mesela size pokadan bunun alakalı bir örnek göstereyim."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:46,380",
+        "to": "00:02:56,300"
+      },
+      "offsets": {
+        "from": 166380,
+        "to": 176300
+      },
+      "text": " Şimdi bakın el hareketlerin anamantı ben burada ürünün nasıl gösterdiğim asla bakarsanız mesela örnek olarak ürün düşüyor, ürünün sağlı soldu gösteriyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:56,300",
+        "to": "00:03:02,540"
+      },
+      "offsets": {
+        "from": 176300,
+        "to": 182540
+      },
+      "text": " Bakın parmaklarımda böyle yapıyorum. Anamantıkta olabildiğince ürünün farklı şekilde hareketler harek aslında kamerayı gösteriyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:05,340",
+        "to": "00:03:09,180"
+      },
+      "offsets": {
+        "from": 185340,
+        "to": 189180
+      },
+      "text": " Görüyor musunuz burada tetiklerini dokunuyorum, elimle böyle ileri geri götürüyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:09,180",
+        "to": "00:03:18,060"
+      },
+      "offsets": {
+        "from": 189180,
+        "to": 198060
+      },
+      "text": " İşte buradaki bu el hareketleri sizin videomuzu daha izlenebilir, daha akışkan hale getiriyor. O yüzden burada farklı el hareketleri denemekti çok önemli."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:18,060",
+        "to": "00:03:20,940"
+      },
+      "offsets": {
+        "from": 198060,
+        "to": 200940
+      },
+      "text": " Bu seferde ürünün mesela böyle getiriyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:20,940",
+        "to": "00:03:26,780"
+      },
+      "offsets": {
+        "from": 200940,
+        "to": 206780
+      },
+      "text": " Ya bu aslında biraz hem hook testi oluyor, işin içerisinde hem de hala el hareketlerine bakın daha detaylı bir şekilde."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:32,300",
+        "to": "00:03:41,820"
+      },
+      "offsets": {
+        "from": 212300,
+        "to": 221820
+      },
+      "text": " Bu tarz siz kendi ürünün üzeri ilgili ne kadar farklı hareketler test eder, ne kadar ürünün üzerine düşebilirseniz o kadar da güzel sonuçlar alıyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:41,820",
+        "to": "00:03:46,860"
+      },
+      "offsets": {
+        "from": 221820,
+        "to": 226860
+      },
+      "text": " Son olarak da bizim yapmamız gereken variyasyon testi bu birazcık işin advance kısmı oluyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:46,860",
+        "to": "00:03:51,900"
+      },
+      "offsets": {
+        "from": 226860,
+        "to": 231900
+      },
+      "text": " Baktık bizim bir tane ürünümüz var. Bu ürünün birden fazla rengi var, örnek olarak poko konsol."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:51,900",
+        "to": "00:03:57,260"
+      },
+      "offsets": {
+        "from": 231900,
+        "to": 237260
+      },
+      "text": " Poko konsol hem beyazı var, mavi sıvar, moro var, kırmızı var, siyah var, ne kadar rengi varsa."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:57,260",
+        "to": "00:04:01,660"
+      },
+      "offsets": {
+        "from": 237260,
+        "to": 241660
+      },
+      "text": " Şimdi baktık bizim bir videomuz tutuyor ve biz bundan iyi sipariş alıyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:01,660",
+        "to": "00:04:10,620"
+      },
+      "offsets": {
+        "from": 241660,
+        "to": 250620
+      },
+      "text": " Yapmamız gereken aynı variyasyondan söyleyeyim, yaptığımız viral konseptin 1-1 aynısını bu sefer farklı rengli ürününle çekebiliyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:10,620",
+        "to": "00:04:20,460"
+      },
+      "offsets": {
+        "from": 250620,
+        "to": 260460
+      },
+      "text": " Zaten buradaki bu dört çiğin çalıştığına emin olduktan sonra yapmamız gereken içerisinde sadece variyosunu değiştirmek ama çektiğimiz videoların 1-1 aynısını gene çekiyor olmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:20,460",
+        "to": "00:04:24,220"
+      },
+      "offsets": {
+        "from": 260460,
+        "to": 264220
+      },
+      "text": " Burada dediğimiz aslında bakarsanız neyin işe yaradığını bulup buna daha çok odaklanmak."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:24,220",
+        "to": "00:04:37,740"
+      },
+      "offsets": {
+        "from": 264220,
+        "to": 277740
+      },
+      "text": " Yani siz örneğin Facebook'da reklam tecrübeniz varsa oradan biliyorsunuzdur. İlk başta videoları test edersin, ondan sonra yukardaki yazılarını test edersin o işi reklam açıklamalarını sonra hedef kitleri test edersin önceden ederdin."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:37,740",
+        "to": "00:04:42,140"
+      },
+      "offsets": {
+        "from": 277740,
+        "to": 282140
+      },
+      "text": " Yani o kadar farklı farklı testler yaparsın ki en çok işe yarayan kombinasyonu bulursun."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:42,140",
+        "to": "00:04:51,100"
+      },
+      "offsets": {
+        "from": 282140,
+        "to": 291100
+      },
+      "text": " Bizim de burada yapmamız gereken video çektikten sonra bir konsept tutuyorsa bu şekilde farklı kombinasyonları deneyerek olabilen en fazla verimi o üründen alabiliyor olmak."
+    }
+  ]
+}

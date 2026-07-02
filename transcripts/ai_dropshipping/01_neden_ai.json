@@ -1,0 +1,472 @@
+{
+  "systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+  "model": {
+    "type": "base",
+    "multilingual": true,
+    "vocab": 51865,
+    "audio": {
+      "ctx": 1500,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "text": {
+      "ctx": 448,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "mels": 80,
+    "ftype": 1
+  },
+  "params": {
+    "model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+    "language": "tr",
+    "translate": false
+  },
+  "result": {
+    "language": "tr"
+  },
+  "transcription": [
+    {
+      "timestamps": {
+        "from": "00:00:00,000",
+        "to": "00:00:06,520"
+      },
+      "offsets": {
+        "from": 0,
+        "to": 6520
+      },
+      "text": " Evet şimdi biz organik dropşiminde neden yapay zeka kullanırız? Bunu konuşuyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:06,520",
+        "to": "00:00:14,040"
+      },
+      "offsets": {
+        "from": 6520,
+        "to": 14040
+      },
+      "text": " Öncelikle yapay zeka neden bizim işimize bu kadar yarıyor, neden son zamanlarda herkes yapay zeka"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:14,040",
+        "to": "00:00:20,280"
+      },
+      "offsets": {
+        "from": 14040,
+        "to": 20280
+      },
+      "text": " ay kullanıyor. Bunu konuşalım. Şimdi özellikle Türkiye'de yaşıyorsanız ve hani ürün söylemeniz"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:20,280",
+        "to": "00:00:26,520"
+      },
+      "offsets": {
+        "from": 20280,
+        "to": 26520
+      },
+      "text": " gerekiyorsa kendi evinize yurt dışından çimden ürün söylemek, son zamanlarda bayağı sıkıntılı."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:26,520",
+        "to": "00:00:31,640"
+      },
+      "offsets": {
+        "from": 26520,
+        "to": 31640
+      },
+      "text": " Bilmiyorum belki bu videoyu beş al sonra izleyecekler için durumda farklı olabilir ama"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:31,640",
+        "to": "00:00:37,520"
+      },
+      "offsets": {
+        "from": 31640,
+        "to": 37520
+      },
+      "text": " şu anda gerçekten sıkıntılı bir dönemden geçiyoruz gümrük tarafından. Tabii bizim şanlaki yeni"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:37,520",
+        "to": "00:00:42,320"
+      },
+      "offsets": {
+        "from": 37520,
+        "to": 42320
+      },
+      "text": " sistemlerimizde birlikte bu gümrük olayını biraz daha kolaylaştırdık. Bizim mantürk de kağıt"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:42,320",
+        "to": "00:00:50,480"
+      },
+      "offsets": {
+        "from": 42320,
+        "to": 50480
+      },
+      "text": " yaşı için. Ama genel olarak anamantıkta bu yapay zeka artık ürün elimize gelmeden daha ortada"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:50,480",
+        "to": "00:00:55,380"
+      },
+      "offsets": {
+        "from": 50480,
+        "to": 55380
+      },
+      "text": " hiçbir ürün yokken biz bunun videolarını yapıp tesletmeye başlayabiliriz. Yapay zeka"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:55,380",
+        "to": "00:01:01,540"
+      },
+      "offsets": {
+        "from": 55380,
+        "to": 61540
+      },
+      "text": " bunun en en büyük özelliği burada bu. Tabii burada ne kadar hızlı bir şekilde, ne kadar"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:01,540",
+        "to": "00:01:07,200"
+      },
+      "offsets": {
+        "from": 61540,
+        "to": 67200
+      },
+      "text": " farklı ürünler test edersek biz kazanan ürünün yani vünür ürünün o kadar hızlı bir şekilde"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:07,200",
+        "to": "00:01:12,780"
+      },
+      "offsets": {
+        "from": 67200,
+        "to": 72780
+      },
+      "text": " bulabiliriz. Tabii bu yapay zekanın artıları olduğu gibi eksileri de var. Öncelikle artılarından"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:12,780",
+        "to": "00:01:17,820"
+      },
+      "offsets": {
+        "from": 72780,
+        "to": 77820
+      },
+      "text": " bahsedelim. Şu anda dediğim gibi elimize ürün olmadan biz bunu tesletmeye başlayabiliriz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:17,820",
+        "to": "00:01:23,700"
+      },
+      "offsets": {
+        "from": 77820,
+        "to": 83700
+      },
+      "text": " Ajansı beklemiyoruz. Işek harvolarla uğraşmıyoruz. Yani bu bize aslında bir iki hafta"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:23,700",
+        "to": "00:01:29,920"
+      },
+      "offsets": {
+        "from": 83700,
+        "to": 89920
+      },
+      "text": " kafadan zaman kazandırıyor. Ve eğer kendim diyelim ki ürün getirmeleri sonunuz yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:29,920",
+        "to": "00:01:35,300"
+      },
+      "offsets": {
+        "from": 89920,
+        "to": 95300
+      },
+      "text": " Burada ama mesela ortamız kötüysa, arkabıdanız kötüysa bu yapay zeka bunun da önüne"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:35,300",
+        "to": "00:01:39,840"
+      },
+      "offsets": {
+        "from": 95300,
+        "to": 99840
+      },
+      "text": " geçiyor. Yani siz gene kendi ortamınızı kullanmadan videolar oluşturabiliyorsunuz. Ve"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:39,840",
+        "to": "00:01:45,260"
+      },
+      "offsets": {
+        "from": 99840,
+        "to": 105260
+      },
+      "text": " normalde çekemeyeceğiniz tarzı hooklar çekebiliyorsunuz. Yani böyle birisinin bacar kopar"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:45,260",
+        "to": "00:01:49,860"
+      },
+      "offsets": {
+        "from": 105260,
+        "to": 109860
+      },
+      "text": " işte yukarıdan ve toruşar falan. Tabii çok abartmamak lazım ama anladınız ana mantık."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:49,860",
+        "to": "00:01:54,660"
+      },
+      "offsets": {
+        "from": 109860,
+        "to": 114660
+      },
+      "text": " Böyle çok ilgi çekeci hooklar yapabiliyoruz yapay zeka. Ve burada her nişe girebiliyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:54,660",
+        "to": "00:01:59,420"
+      },
+      "offsets": {
+        "from": 114660,
+        "to": 119420
+      },
+      "text": " Yani bunun ne demek? Eee diyelim ki sizin bir eee araba nişin de ürününüz var ama"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:59,420",
+        "to": "00:02:03,380"
+      },
+      "offsets": {
+        "from": 119420,
+        "to": 123380
+      },
+      "text": " arabanız yok. Siz gidip yapay zeka ile araba nişin de videolar yapabilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:03,380",
+        "to": "00:02:07,300"
+      },
+      "offsets": {
+        "from": 123380,
+        "to": 127300
+      },
+      "text": " Ya da işte eee burada örnek verdim gibi. Bebek nişilir, evcil ayıvanlar,"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:07,300",
+        "to": "00:02:13,380"
+      },
+      "offsets": {
+        "from": 127300,
+        "to": 133380
+      },
+      "text": " nişe kediniz yoktur. Eee havuz mesela gidip eee bir su tabancı saniye havuzla doldurulan"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:13,380",
+        "to": "00:02:18,660"
+      },
+      "offsets": {
+        "from": 133380,
+        "to": 138660
+      },
+      "text": " su tabancılar falan var. Yani o tarz ünleri yürtebilirsiniz. Kadın ürünleri eee"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:18,660",
+        "to": "00:02:25,140"
+      },
+      "offsets": {
+        "from": 138660,
+        "to": 145140
+      },
+      "text": " burada kilavarmı ürünleri işte saat çıkarmaya ürünleri değişim geçirten ürünler."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:25,140",
+        "to": "00:02:29,460"
+      },
+      "offsets": {
+        "from": 145140,
+        "to": 149460
+      },
+      "text": " Bunları da yapay zeka ile çok çok basit bir şekilde tesini yapabiliyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:29,460",
+        "to": "00:02:35,620"
+      },
+      "offsets": {
+        "from": 149460,
+        "to": 155620
+      },
+      "text": " Peki bunun dezavantajlarına eee öncelikle bu normal çekmekten daha pahalaya gelebiliyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:35,620",
+        "to": "00:02:42,060"
+      },
+      "offsets": {
+        "from": 155620,
+        "to": 162060
+      },
+      "text": " Yani sen bir tane ürün alsana atıyorum bin tela. Eee hani bunu çekmesi bedava yerden sonra senin için."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:42,060",
+        "to": "00:02:47,460"
+      },
+      "offsets": {
+        "from": 162060,
+        "to": 167460
+      },
+      "text": " Ama yapay zeka ile eee bunun bir maliyet olacak. Bir video başı bir ücürüte olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:47,460",
+        "to": "00:02:53,260"
+      },
+      "offsets": {
+        "from": 167460,
+        "to": 173260
+      },
+      "text": " Eee bir de bazen yapay zeka videoları daha fazla vakit alabilir. Yani diyelim görün çok basit."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:53,260",
+        "to": "00:02:57,300"
+      },
+      "offsets": {
+        "from": 173260,
+        "to": 177300
+      },
+      "text": " Eee hani eee sadece kamerayı gösterip çekmeniz gereken buyurun."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:57,300",
+        "to": "00:03:01,660"
+      },
+      "offsets": {
+        "from": 177300,
+        "to": 181660
+      },
+      "text": " Ama bunu yapay zeka ile yaptığınız zaman belki össün eee saattenize alacaktır."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:01,660",
+        "to": "00:03:09,060"
+      },
+      "offsets": {
+        "from": 181660,
+        "to": 189060
+      },
+      "text": " Tabur da yapay zekanın artık sistemi nokturttuktan sonra video yapma süremizde gerçekten çok hızlı bir şekilde azalıyor olacaktır."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:09,060",
+        "to": "00:03:15,860"
+      },
+      "offsets": {
+        "from": 189060,
+        "to": 195860
+      },
+      "text": " Yani sizin ilk videonun üç saat sürüyorsa belki bir ay sonraki videolarınız artık yarım saat 20 dakika sürüyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:15,860",
+        "to": "00:03:21,260"
+      },
+      "offsets": {
+        "from": 195860,
+        "to": 201260
+      },
+      "text": " Çünkü hangi fotoğrafları kullanmanız gerektiğini biliyorsunuz artık işte promplarınız hazır, sisteminiz hazır."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:21,260",
+        "to": "00:03:28,940"
+      },
+      "offsets": {
+        "from": 201260,
+        "to": 208940
+      },
+      "text": " Her şeyi sadece eee kulağigen play yapıyorsunuz. Yani direkt sisteminize kendi fotoğraflarınızı, kendi yeni fikrinizi veriyorsunuz artık."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:28,940",
+        "to": "00:03:39,060"
+      },
+      "offsets": {
+        "from": 208940,
+        "to": 219060
+      },
+      "text": " Eee çok kolay bir şekilde, çok hızlı bir şekilde videolar oluşuyor olacaksınız ama ilk başı bu sistemi kurmak hani sıfırdan bir ürüne nasıl konsepler çıkaracağınızı anlamak."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:39,060",
+        "to": "00:03:42,660"
+      },
+      "offsets": {
+        "from": 219060,
+        "to": 222660
+      },
+      "text": " Yapay zeka ile biraz vakit deniz alacaktır. İlk videolar için özellikle."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:42,660",
+        "to": "00:03:47,300"
+      },
+      "offsets": {
+        "from": 222660,
+        "to": 227300
+      },
+      "text": " Ama dediğim gibi son videolar doğru bu sisteme anladıktan sonra iyice hızlanacağız."
+    }
+  ]
+}

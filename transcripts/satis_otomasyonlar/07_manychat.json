@@ -1,0 +1,879 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:04,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 4000
+			},
+			"text": " Selamlar bu videoda meninçet nasıl kullanılır ne işe yarar?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,000",
+				"to": "00:00:07,300"
+			},
+			"offsets": {
+				"from": 4000,
+				"to": 7300
+			},
+			"text": " Nasıl otamasyon kurabiliriz?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,300",
+				"to": "00:00:10,640"
+			},
+			"offsets": {
+				"from": 7300,
+				"to": 10640
+			},
+			"text": " Genel olarak bunlarla kalbi videolacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,640",
+				"to": "00:00:12,720"
+			},
+			"offsets": {
+				"from": 10640,
+				"to": 12720
+			},
+			"text": " Evet burda şimdi meninçet ne işe yarıyor?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,720",
+				"to": "00:00:18,000"
+			},
+			"offsets": {
+				"from": 12720,
+				"to": 18000
+			},
+			"text": " Meninçet eğer sizden videonuzun altına link ya da fiyat soran müşterlere"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,000",
+				"to": "00:00:20,820"
+			},
+			"offsets": {
+				"from": 18000,
+				"to": 20820
+			},
+			"text": " diğer müzerinden otomatik cevap verebilmenizi sağlıyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,820",
+				"to": "00:00:25,100"
+			},
+			"offsets": {
+				"from": 20820,
+				"to": 25100
+			},
+			"text": " Yani müşter eğer yorma fiyat ya da link yazdığı zaman ya da herhangi bir"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:25,100",
+				"to": "00:00:27,600"
+			},
+			"offsets": {
+				"from": 25100,
+				"to": 27600
+			},
+			"text": " bellimiş olduğunuz bir kelime yazdığı zaman."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,600",
+				"to": "00:00:32,840"
+			},
+			"offsets": {
+				"from": 27600,
+				"to": 32840
+			},
+			"text": " Onu otomatik olarak diğer müzerinden cevap verebiliyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,840",
+				"to": "00:00:37,020"
+			},
+			"offsets": {
+				"from": 32840,
+				"to": 37020
+			},
+			"text": " İkinci yarar ise spam yapmadan müşterleri link gönderebiliyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:37,020",
+				"to": "00:00:42,520"
+			},
+			"offsets": {
+				"from": 37020,
+				"to": 42520
+			},
+			"text": " Yani eğer siz kendiniz müşterlere otomatik olarak hep aynı mesajı spamlarsınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:42,520",
+				"to": "00:00:44,880"
+			},
+			"offsets": {
+				"from": 42520,
+				"to": 44880
+			},
+			"text": " Bütün süreden sonra Şadovban yiyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:44,880",
+				"to": "00:00:49,020"
+			},
+			"offsets": {
+				"from": 44880,
+				"to": 49020
+			},
+			"text": " Ama meninçet de istediğiniz kadar mesaj gönderebiliyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:49,020",
+				"to": "00:00:53,120"
+			},
+			"offsets": {
+				"from": 49020,
+				"to": 53120
+			},
+			"text": " Bu sayede meninçet sizin esadınızın şadovban yemesini de engelliyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:53,120",
+				"to": "00:00:59,440"
+			},
+			"offsets": {
+				"from": 53120,
+				"to": 59440
+			},
+			"text": " Hem otomatik olarak müşterlere ve web sevinzinin linkini ya da fiyatını gönderebiliyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:59,440",
+				"to": "00:01:02,040"
+			},
+			"offsets": {
+				"from": 59440,
+				"to": 62040
+			},
+			"text": " Evet şimdi meninçetiniz burada şimdi bir hesa boğuştur."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:02,040",
+				"to": "00:01:04,040"
+			},
+			"offsets": {
+				"from": 62040,
+				"to": 64040
+			},
+			"text": " Kızıcı bir otamasyon kuracağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:04,040",
+				"to": "00:01:06,720"
+			},
+			"offsets": {
+				"from": 64040,
+				"to": 66720
+			},
+			"text": " Buradan kelis tardada basalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:06,720",
+				"to": "00:01:10,960"
+			},
+			"offsets": {
+				"from": 66720,
+				"to": 70960
+			},
+			"text": " Burada ise Seamore option'dan istekamı bağlııyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:10,960",
+				"to": "00:01:13,040"
+			},
+			"offsets": {
+				"from": 70960,
+				"to": 73040
+			},
+			"text": " Burada ise Forma'ya sağlık diyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:13,040",
+				"to": "00:01:14,720"
+			},
+			"offsets": {
+				"from": 73040,
+				"to": 74720
+			},
+			"text": " Nex diyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:14,720",
+				"to": "00:01:17,080"
+			},
+			"offsets": {
+				"from": 74720,
+				"to": 77080
+			},
+			"text": " Buradan herhangi birini seçiyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:17,080",
+				"to": "00:01:19,560"
+			},
+			"offsets": {
+				"from": 77080,
+				"to": 79560
+			},
+			"text": " Nex diyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,560",
+				"to": "00:01:23,080"
+			},
+			"offsets": {
+				"from": 79560,
+				"to": 83080
+			},
+			"text": " Nex herhangi birini seçelim."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:23,080",
+				"to": "00:01:25,080"
+			},
+			"offsets": {
+				"from": 83080,
+				"to": 85080
+			},
+			"text": " Arkadaşımdan duydum."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:25,080",
+				"to": "00:01:29,560"
+			},
+			"offsets": {
+				"from": 85080,
+				"to": 89560
+			},
+			"text": " Burada ise başlangıç olarak 12 dolarlık paket edebilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:29,560",
+				"to": "00:01:32,560"
+			},
+			"offsets": {
+				"from": 89560,
+				"to": 92560
+			},
+			"text": " 250 tane mesaj gönderebiliyorsunuz bunda."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:32,560",
+				"to": "00:01:38,560"
+			},
+			"offsets": {
+				"from": 92560,
+				"to": 98560
+			},
+			"text": " Ama ben şu anda sadece göstermek için yaptığım için ben free seçiyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:38,560",
+				"to": "00:01:41,520"
+			},
+			"offsets": {
+				"from": 98560,
+				"to": 101520
+			},
+			"text": " Evet şimdi araçlar yapacağız şimdi otomasyon kuracağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:41,520",
+				"to": "00:01:43,520"
+			},
+			"offsets": {
+				"from": 101520,
+				"to": 103520
+			},
+			"text": " Buradan otomasyonlara basıyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:43,520",
+				"to": "00:01:45,000"
+			},
+			"offsets": {
+				"from": 103520,
+				"to": 105000
+			},
+			"text": " Buraya neyi otomasyon?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:45,000",
+				"to": "00:01:49,480"
+			},
+			"offsets": {
+				"from": 105000,
+				"to": 109480
+			},
+			"text": " Burada en populur olan diyem üzerinden ilk gönderme otomasyonunu kuracağız."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:49,480",
+				"to": "00:01:55,240"
+			},
+			"offsets": {
+				"from": 109480,
+				"to": 115240
+			},
+			"text": " Evet şimdi burada isterseniz herhangi bir posta otomasyon kurabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:55,240",
+				"to": "00:02:01,120"
+			},
+			"offsets": {
+				"from": 115240,
+				"to": 121120
+			},
+			"text": " Yani sadece bu posta otomasyon çalışsın."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:01,120",
+				"to": "00:02:07,000"
+			},
+			"offsets": {
+				"from": 121120,
+				"to": 127000
+			},
+			"text": " Ya da herhangi bir posta bu otomasyon çalışsın ya da diğer paylaşacağım."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:07,000",
+				"to": "00:02:09,800"
+			},
+			"offsets": {
+				"from": 127000,
+				"to": 129800
+			},
+			"text": " Bütün postlarda bu otomasyon çalışsın."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:09,800",
+				"to": "00:02:11,160"
+			},
+			"offsets": {
+				"from": 129800,
+				"to": 131160
+			},
+			"text": " Böyle üç farklı şey var."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:11,160",
+				"to": "00:02:12,760"
+			},
+			"offsets": {
+				"from": 131160,
+				"to": 132760
+			},
+			"text": " Biz genelde şu en iyi kullanıyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:12,760",
+				"to": "00:02:15,960"
+			},
+			"offsets": {
+				"from": 132760,
+				"to": 135960
+			},
+			"text": " Yani bütün postlarda bu otomasyon çalışsın."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:15,960",
+				"to": "00:02:19,000"
+			},
+			"offsets": {
+				"from": 135960,
+				"to": 139000
+			},
+			"text": " Ama ben şu an size bir tane göstermelik yapacağım zaten."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:19,000",
+				"to": "00:02:20,000"
+			},
+			"offsets": {
+				"from": 139000,
+				"to": 140000
+			},
+			"text": " Ama ben ne istiyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:20,000",
+				"to": "00:02:25,680"
+			},
+			"offsets": {
+				"from": 140000,
+				"to": 145680
+			},
+			"text": " Burada ise yorumda hangi kelime geçerse bu otomasyon aktive olsun."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:25,680",
+				"to": "00:02:27,640"
+			},
+			"offsets": {
+				"from": 145680,
+				"to": 147640
+			},
+			"text": " Ya bu otomasyon başlasın."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:27,640",
+				"to": "00:02:39,560"
+			},
+			"offsets": {
+				"from": 147640,
+				"to": 159560
+			},
+			"text": " Eğer yorumda link ya da fiyat, işte link nereden satın alabilirim."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:39,560",
+				"to": "00:02:44,280"
+			},
+			"offsets": {
+				"from": 159560,
+				"to": 164280
+			},
+			"text": " Ezan nereden bir kelimesi olabiliyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:44,280",
+				"to": "00:02:49,560"
+			},
+			"offsets": {
+				"from": 164280,
+				"to": 169560
+			},
+			"text": " Satın her bütbilde farklı bir şey oluyor kelime koyabiliyorsun."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:49,560",
+				"to": "00:02:50,560"
+			},
+			"offsets": {
+				"from": 169560,
+				"to": 170560
+			},
+			"text": " Alabilirim."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:50,560",
+				"to": "00:02:55,240"
+			},
+			"offsets": {
+				"from": 170560,
+				"to": 175240
+			},
+			"text": " Ya bu gibi işte şu altıla bir."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:55,240",
+				"to": "00:03:02,000"
+			},
+			"offsets": {
+				"from": 175240,
+				"to": 182000
+			},
+			"text": " Yani burada bu kelimeler gençliği zaman müşteri yorumattı zaman otomasyonun devriye girerek."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:02,000",
+				"to": "00:03:05,400"
+			},
+			"offsets": {
+				"from": 182000,
+				"to": 185400
+			},
+			"text": " Sonra burada bir şu şunun aktive ediyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:05,400",
+				"to": "00:03:07,600"
+			},
+			"offsets": {
+				"from": 185400,
+				"to": 187600
+			},
+			"text": " Ve burada bizim cevabımız var."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:07,600",
+				"to": "00:03:12,560"
+			},
+			"offsets": {
+				"from": 187600,
+				"to": 192560
+			},
+			"text": " Yani müşteri burada fiyat yağdı zaman bizim burada bir cevabımız olacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:12,560",
+				"to": "00:03:14,600"
+			},
+			"offsets": {
+				"from": 192560,
+				"to": 194600
+			},
+			"text": " Bunu da ayarlayabiliyoruz."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:14,600",
+				"to": "00:03:30,040"
+			},
+			"offsets": {
+				"from": 194600,
+				"to": 210040
+			},
+			"text": " İşte mesela teşe kür ederiz hemen diğer üzerinden linkinizi gönderiyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:30,040",
+				"to": "00:03:36,120"
+			},
+			"offsets": {
+				"from": 210040,
+				"to": 216120
+			},
+			"text": " Bunun gibi üç farklı cevap verme teksti yazabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:36,120",
+				"to": "00:03:39,160"
+			},
+			"offsets": {
+				"from": 216120,
+				"to": 219160
+			},
+			"text": " Bunu da hızlıca geçiyorum ve ne istiyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:39,160",
+				"to": "00:03:42,240"
+			},
+			"offsets": {
+				"from": 219160,
+				"to": 222240
+			},
+			"text": " Ben bunu kapatıyorum ve burada ne istiyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:42,240",
+				"to": "00:03:45,080"
+			},
+			"offsets": {
+				"from": 222240,
+				"to": 225080
+			},
+			"text": " Şimdi bizim burada asıl olay."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:45,080",
+				"to": "00:03:57,960"
+			},
+			"offsets": {
+				"from": 225080,
+				"to": 237960
+			},
+			"text": " Biz burada selamlar bu muhteşem ürünü satın almak için aşağıdaki linki tıkla diyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:57,960",
+				"to": "00:04:00,680"
+			},
+			"offsets": {
+				"from": 237960,
+				"to": 240680
+			},
+			"text": " Ve şimdi buraya bir link ekliyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:00,680",
+				"to": "00:04:05,040"
+			},
+			"offsets": {
+				"from": 240680,
+				"to": 245040
+			},
+			"text": " Şimdi buradan satın al."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:05,040",
+				"to": "00:04:06,280"
+			},
+			"offsets": {
+				"from": 245040,
+				"to": 246280
+			},
+			"text": " Yazıyorum butona."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:06,280",
+				"to": "00:04:07,440"
+			},
+			"offsets": {
+				"from": 246280,
+				"to": 247440
+			},
+			"text": " Burada link ekliyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:07,440",
+				"to": "00:04:09,360"
+			},
+			"offsets": {
+				"from": 247440,
+				"to": 249360
+			},
+			"text": " Burada herhangi bir link ekliyelim."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:09,360",
+				"to": "00:04:11,240"
+			},
+			"offsets": {
+				"from": 249360,
+				"to": 251240
+			},
+			"text": " Şöyle herhangi bir link ekledim."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:11,240",
+				"to": "00:04:12,240"
+			},
+			"offsets": {
+				"from": 251240,
+				"to": 252240
+			},
+			"text": " Seyivirdim."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:12,240",
+				"to": "00:04:15,440"
+			},
+			"offsets": {
+				"from": 252240,
+				"to": 255440
+			},
+			"text": " Gördüğünüz gibi bu şekilde oluyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:15,440",
+				"to": "00:04:20,880"
+			},
+			"offsets": {
+				"from": 255440,
+				"to": 260880
+			},
+			"text": " Şimdi ben müşteri dedi şu satın al butona bastı zaman bizim ayarlamış olduğumuz linki"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:20,880",
+				"to": "00:04:22,360"
+			},
+			"offsets": {
+				"from": 260880,
+				"to": 262360
+			},
+			"text": " gidecek diğer üzerinden."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:22,360",
+				"to": "00:04:24,960"
+			},
+			"offsets": {
+				"from": 262360,
+				"to": 264960
+			},
+			"text": " Şimdi ben bunu bir go live yapalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:24,960",
+				"to": "00:04:28,800"
+			},
+			"offsets": {
+				"from": 264960,
+				"to": 268800
+			},
+			"text": " Şimdi biz bu otomasyona live ettik hemen bir tane test yapalım."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:28,800",
+				"to": "00:04:35,520"
+			},
+			"offsets": {
+				"from": 268800,
+				"to": 275520
+			},
+			"text": " Evet şimdi ben burada o belirlimiş olduğum postun altına fiyat yazdım bu şekilde cevabımı"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:35,520",
+				"to": "00:04:36,520"
+			},
+			"offsets": {
+				"from": 275520,
+				"to": 276520
+			},
+			"text": " aldım."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:36,520",
+				"to": "00:04:37,520"
+			},
+			"offsets": {
+				"from": 276520,
+				"to": 277520
+			},
+			"text": " Evet."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:37,520",
+				"to": "00:04:40,800"
+			},
+			"offsets": {
+				"from": 277520,
+				"to": 280800
+			},
+			"text": " Diğemde bu şekilde gördüğünüz gibi bizim yazdığımız şekilde satın al."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:40,800",
+				"to": "00:04:44,160"
+			},
+			"offsets": {
+				"from": 280800,
+				"to": 284160
+			},
+			"text": " Bu satın al bastığımız zaman direkt ve hepsisine yönlendirecek."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:44,160",
+				"to": "00:04:46,120"
+			},
+			"offsets": {
+				"from": 284160,
+				"to": 286120
+			},
+			"text": " Bu şekilde otomasyona kurabiliyoruz."
+		}
+	]
+}

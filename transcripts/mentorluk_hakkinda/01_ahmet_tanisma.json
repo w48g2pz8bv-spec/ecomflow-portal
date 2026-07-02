@@ -1,0 +1,571 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:03,240"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 3240
+			},
+			"text": " Arkadaşlar selamlar, öncelikle mentörlük programına hoş geldiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,240",
+				"to": "00:00:07,180"
+			},
+			"offsets": {
+				"from": 3240,
+				"to": 7180
+			},
+			"text": " Eğer şu anda bu videoyu görüyorsunuz size bir iyi bir tane kötü haberim var."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,180",
+				"to": "00:00:09,940"
+			},
+			"offsets": {
+				"from": 7180,
+				"to": 9940
+			},
+			"text": " Program boyunca sizden çok fazla beklentimiz olacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,940",
+				"to": "00:00:15,840"
+			},
+			"offsets": {
+				"from": 9940,
+				"to": 15840
+			},
+			"text": " Evet bu programı zor olacak, senir bozuca olacak, acıverici olacak, bırakmak istediğiniz bir sürü an olacak"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,840",
+				"to": "00:00:18,960"
+			},
+			"offsets": {
+				"from": 15840,
+				"to": 18960
+			},
+			"text": " ve bu iş modelinin size göre olmadığını hissedeceksiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,960",
+				"to": "00:00:24,240"
+			},
+			"offsets": {
+				"from": 18960,
+				"to": 24240
+			},
+			"text": " Ancak buna rağmen devam ederseniz size söz veriyorum çok fazla para kazanacaksınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,240",
+				"to": "00:00:30,640"
+			},
+			"offsets": {
+				"from": 24240,
+				"to": 30640
+			},
+			"text": " Eğer bu programda gördüğünüz sistemi 1-1 uygularsanız organik dropshipping sizden hayatınızı sonuna kadar değiştirecek."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,640",
+				"to": "00:00:38,940"
+			},
+			"offsets": {
+				"from": 30640,
+				"to": 38940
+			},
+			"text": " İşin nasıl yürüdüğünü çözdüğünüz anda yani viral olması kilimle öğrendiğiniz anda siz devamlı olarak aktiv bir şekilde para kazanabiliyor olacaksın."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:38,940",
+				"to": "00:00:42,480"
+			},
+			"offsets": {
+				"from": 38940,
+				"to": 42480
+			},
+			"text": " Fakat o aşama yolaşmak için sizin çok fazla video paylaşmanız gerekecek."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:42,480",
+				"to": "00:00:46,680"
+			},
+			"offsets": {
+				"from": 42480,
+				"to": 46680
+			},
+			"text": " Burada gerçek sonuçları görmeden önce 100 ile 300 videopaylaşmanız gerekecek."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:46,680",
+				"to": "00:00:51,040"
+			},
+			"offsets": {
+				"from": 46680,
+				"to": 51040
+			},
+			"text": " Şimdi buradaki bu 300 videoyu ve ne kadar zamanda ulaşacağınızda tamamıyla sizin kararınıza bağlı."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:51,040",
+				"to": "00:00:56,040"
+			},
+			"offsets": {
+				"from": 51040,
+				"to": 56040
+			},
+			"text": " Eğer günde siz birden fazla yürüyün yürütür ve atıyorum 6-9 tane video paylaşırsanız"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:56,040",
+				"to": "00:00:59,600"
+			},
+			"offsets": {
+				"from": 56040,
+				"to": 59600
+			},
+			"text": " günde 2 videopaylaşanlar çok çok daha azı bir şekilde ilerliyor olacaksınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:59,600",
+				"to": "00:01:04,440"
+			},
+			"offsets": {
+				"from": 59600,
+				"to": 64440
+			},
+			"text": " O yüzden buradaki asıl ve en önemli soruşu bu iş sizin için ne kadar önemli."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:04,440",
+				"to": "00:01:08,600"
+			},
+			"offsets": {
+				"from": 64440,
+				"to": 68600
+			},
+			"text": " Burada çoğunuz şöyle düşüncek, evet benim günde ayarabilecek buna birkaç saat boş vaktim var."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:08,600",
+				"to": "00:01:12,080"
+			},
+			"offsets": {
+				"from": 68600,
+				"to": 72080
+			},
+			"text": " Ama asıl soru gerçekten sadece birkaç saat boş vaktiniz mi var?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:12,080",
+				"to": "00:01:18,240"
+			},
+			"offsets": {
+				"from": 72080,
+				"to": 78240
+			},
+			"text": " Muhtemelen hayır, ekran sürenle baktığımız zaman eğer Instagram'ın 3 saat, Netflix'in 2 saatte senin boğulca vaktim var."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:18,240",
+				"to": "00:01:23,320"
+			},
+			"offsets": {
+				"from": 78240,
+				"to": 83320
+			},
+			"text": " Burada Organik Dropshipping'in ne kadar büyük bir iş model oldu ve bu yeteneğin viral olma yeteneğin ise"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:23,320",
+				"to": "00:01:26,480"
+			},
+			"offsets": {
+				"from": 83320,
+				"to": 86480
+			},
+			"text": " ne kadar büyük paralar kazandırabileceğini iyi anlamanızı istiyorum."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:26,480",
+				"to": "00:01:31,280"
+			},
+			"offsets": {
+				"from": 86480,
+				"to": 91280
+			},
+			"text": " Eğer burada öğrencisin on numara derslerinden boş kalan vakitleri direkt olarak buraya verebilirsin."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:31,280",
+				"to": "00:01:37,880"
+			},
+			"offsets": {
+				"from": 91280,
+				"to": 97880
+			},
+			"text": " Eğer 9-5 bir işte çalışıyorsam da işten geri kalan zamanında bu şey olaklarım buradan para kazanmaya başladığın zaman"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:37,880",
+				"to": "00:01:41,600"
+			},
+			"offsets": {
+				"from": 97880,
+				"to": 101600
+			},
+			"text": " yavaştan ilk işini bırakmaya gidebilirsin ben de aynen bu şekilde yapmıştım."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:41,600",
+				"to": "00:01:46,640"
+			},
+			"offsets": {
+				"from": 101600,
+				"to": 106640
+			},
+			"text": " Yani buradaki oyun planımız şu Organik Dropshipping'i siz anan önceliğiniz yapmanız gerek."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:46,640",
+				"to": "00:01:51,720"
+			},
+			"offsets": {
+				"from": 106640,
+				"to": 111720
+			},
+			"text": " Önümüzdeki 6 ay boyunca yapmamız gereken en önemli şey artık Organik Dropshipping."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:51,720",
+				"to": "00:01:56,800"
+			},
+			"offsets": {
+				"from": 111720,
+				"to": 116800
+			},
+			"text": " Eğer Organik Dropshipping'le neyi nasıl yapmanız gerektiğini biliyorsanız başarılı olmama ihtimaliniz yok."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:56,800",
+				"to": "00:02:02,400"
+			},
+			"offsets": {
+				"from": 116800,
+				"to": 122400
+			},
+			"text": " Şu anda bu eğitimde gördükleriniz ve bile birde alacağınız sistem benim 5 senedir kendi tecrüvederime dayanan"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:02,400",
+				"to": "00:02:05,360"
+			},
+			"offsets": {
+				"from": 122400,
+				"to": 125360
+			},
+			"text": " ve farklı mentörlerden topladığım bütün bilgileri içeriyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:05,360",
+				"to": "00:02:09,320"
+			},
+			"offsets": {
+				"from": 125360,
+				"to": 129320
+			},
+			"text": " Yani Organik Dropshipping'i adına viral olma adına buradan daha iyi bir sistem yok."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:09,320",
+				"to": "00:02:15,920"
+			},
+			"offsets": {
+				"from": 129320,
+				"to": 135920
+			},
+			"text": " Bu mentörlük de de edelim ilk başta şu anda çalıştığınız işi bıraktırabilmek devamında da full time Organik Dropshipping yaparak"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:15,920",
+				"to": "00:02:17,960"
+			},
+			"offsets": {
+				"from": 135920,
+				"to": 137960
+			},
+			"text": " daha fazla paralar kazanabiliyor olmak."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:17,960",
+				"to": "00:02:20,920"
+			},
+			"offsets": {
+				"from": 137960,
+				"to": 140920
+			},
+			"text": " Anamantıkta burada sizden istediğimiz tek şey vaktiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:20,920",
+				"to": "00:02:23,280"
+			},
+			"offsets": {
+				"from": 140920,
+				"to": 143280
+			},
+			"text": " O turup buna gerçekten odaklanmanızı istiyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:23,280",
+				"to": "00:02:27,400"
+			},
+			"offsets": {
+				"from": 143280,
+				"to": 147400
+			},
+			"text": " Buna mümkün olduğunca çok vakit ayırın çünkü bu gerçekten hayatınızı değiştirecek."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:27,400",
+				"to": "00:02:33,560"
+			},
+			"offsets": {
+				"from": 147400,
+				"to": 153560
+			},
+			"text": " Burada ise geçer olan bütün yönlendirmeleri biz yapıyolacağız ama bütün sorumluluk günün sonunda sizde olacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:33,560",
+				"to": "00:02:37,120"
+			},
+			"offsets": {
+				"from": 153560,
+				"to": 157120
+			},
+			"text": " Başlangıçta burada bir video çekmenin sizin aşağı yıkarı bir saatinizi alacak."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:37,120",
+				"to": "00:02:41,640"
+			},
+			"offsets": {
+				"from": 157120,
+				"to": 161640
+			},
+			"text": " Yani sizin eğer 6 saat boşlunuz varsa 6 video çıkarma yehdeflememiz gerek."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:41,640",
+				"to": "00:02:45,040"
+			},
+			"offsets": {
+				"from": 161640,
+				"to": 165040
+			},
+			"text": " Ancak devamında 1-2 hafta geçtikten sonra pratik ettikten sonra"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:45,040",
+				"to": "00:02:48,640"
+			},
+			"offsets": {
+				"from": 165040,
+				"to": 168640
+			},
+			"text": " artık bir video çekmeniz sizin 1 saat değil de yarım saat 45 dakika sürçe."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:48,640",
+				"to": "00:02:51,080"
+			},
+			"offsets": {
+				"from": 168640,
+				"to": 171080
+			},
+			"text": " Burada da biz sizden daha fazla video yapmanızı isteyeceğiz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:51,080",
+				"to": "00:02:53,880"
+			},
+			"offsets": {
+				"from": 171080,
+				"to": 173880
+			},
+			"text": " Çünkü günün sonunda ne kadar video çıkartabilirsiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:53,880",
+				"to": "00:02:55,880"
+			},
+			"offsets": {
+				"from": 173880,
+				"to": 175880
+			},
+			"text": " O kadar hızlı bir şekilde pratik yapıyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:55,880",
+				"to": "00:02:57,800"
+			},
+			"offsets": {
+				"from": 175880,
+				"to": 177800
+			},
+			"text": " O kadar hızlı bir şekilde öğreniyor olacaksın."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:57,800",
+				"to": "00:03:03,360"
+			},
+			"offsets": {
+				"from": 177800,
+				"to": 183360
+			},
+			"text": " O yüzden burada dürüst ve şeffaf olmak ne kadar vaktinizin olduğunu bize açık açık söylemeniz gerçekten önemli."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:03,360",
+				"to": "00:03:05,880"
+			},
+			"offsets": {
+				"from": 183360,
+				"to": 185880
+			},
+			"text": " Biliyorum kendimi tekrar ediyorum. Çok fazla söyledim."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:05,880",
+				"to": "00:03:09,280"
+			},
+			"offsets": {
+				"from": 185880,
+				"to": 189280
+			},
+			"text": " Ama eğer bunu yaparsanız gerçekten sistem çalışıyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:09,280",
+				"to": "00:03:13,600"
+			},
+			"offsets": {
+				"from": 189280,
+				"to": 193600
+			},
+			"text": " 100 ila 300 videoyu çektikten sonra zaten sonuçlarını kendiniz de görüyor olacaksınız."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:13,600",
+				"to": "00:03:17,920"
+			},
+			"offsets": {
+				"from": 193600,
+				"to": 197920
+			},
+			"text": " Buradaki tek sorumuz şu 300 videoyu ulaşmak sizin için ne kadar sürecek."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:17,920",
+				"to": "00:03:21,160"
+			},
+			"offsets": {
+				"from": 197920,
+				"to": 201160
+			},
+			"text": " Yani burada ilinizden gelenin en iyisini yapmaya çalışın."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:21,160",
+				"to": "00:03:22,680"
+			},
+			"offsets": {
+				"from": 201160,
+				"to": 202680
+			},
+			"text": " Yavamında görüşmek üzere."
+		}
+	]
+}

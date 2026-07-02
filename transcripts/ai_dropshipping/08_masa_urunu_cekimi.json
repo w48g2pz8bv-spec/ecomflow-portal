@@ -1,0 +1,2562 @@
+{
+  "systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+  "model": {
+    "type": "base",
+    "multilingual": true,
+    "vocab": 51865,
+    "audio": {
+      "ctx": 1500,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "text": {
+      "ctx": 448,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "mels": 80,
+    "ftype": 1
+  },
+  "params": {
+    "model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+    "language": "tr",
+    "translate": false
+  },
+  "result": {
+    "language": "tr"
+  },
+  "transcription": [
+    {
+      "timestamps": {
+        "from": "00:00:00,000",
+        "to": "00:00:05,220"
+      },
+      "offsets": {
+        "from": 0,
+        "to": 5220
+      },
+      "text": " Evet şimdi masa ürünlerine nasıl eğer ila videolarını yapabiliriz. Bunu konuşuyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:05,220",
+        "to": "00:00:12,440"
+      },
+      "offsets": {
+        "from": 5220,
+        "to": 12440
+      },
+      "text": " Önce ilk de ürünümüz böyle bir ürün gördüğünüz gibi anamantı açıp içine su dolduruyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:12,440",
+        "to": "00:00:18,240"
+      },
+      "offsets": {
+        "from": 12440,
+        "to": 18240
+      },
+      "text": " Ondan sonra yukarıdan böyle dumamla bu harçı kartıyor, havayı namlendiriyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:18,240",
+        "to": "00:00:21,780"
+      },
+      "offsets": {
+        "from": 18240,
+        "to": 21780
+      },
+      "text": " Hemen bir hali yüttüsüne bakalım bunun."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:31,000",
+        "to": "00:00:41,240"
+      },
+      "offsets": {
+        "from": 31000,
+        "to": 41240
+      },
+      "text": " Anamantı da önce üstündeki bezi çıkartıyor. Ondan sonra kapanı çıkartıyor, sonra içine su dolduruyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:41,240",
+        "to": "00:00:48,880"
+      },
+      "offsets": {
+        "from": 41240,
+        "to": 48880
+      },
+      "text": " Biz burada kontroversa olsun diye kola vesaire koyabiliriz ya da ayran falan da koyabiliriz, öyle şeylerde karip olabilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:48,880",
+        "to": "00:00:54,400"
+      },
+      "offsets": {
+        "from": 48880,
+        "to": 54400
+      },
+      "text": " Ondan sonra basıyor düğmesinin yukarıdan bu harçı çıkmaya başlıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:54,400",
+        "to": "00:00:59,720"
+      },
+      "offsets": {
+        "from": 54400,
+        "to": 59720
+      },
+      "text": " Şimdi diyelim ki senin bunu çekecek ortamınız yok ya, masanız yok ya daşı ürün gelmesi çok uzun süreyi."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:59,720",
+        "to": "00:01:04,880"
+      },
+      "offsets": {
+        "from": 59720,
+        "to": 64880
+      },
+      "text": " Bunu nasıl güzel bir arka planla gerçekçi bir şekilde yapabiliriz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:04,880",
+        "to": "00:01:10,040"
+      },
+      "offsets": {
+        "from": 64880,
+        "to": 70040
+      },
+      "text": " Bunu gösteriyor olacağım. Önce ilk de bize bir tane ürün fotoğrafı lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:10,040",
+        "to": "00:01:17,800"
+      },
+      "offsets": {
+        "from": 70040,
+        "to": 77800
+      },
+      "text": " Bunda ürün fotoğrafı gayetinde var. O yüzden direkt bunu kullanabilirsiniz. Bu şekilde alıp ürün fotoğrafıma kaydediyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:17,800",
+        "to": "00:01:20,620"
+      },
+      "offsets": {
+        "from": 77800,
+        "to": 80620
+      },
+      "text": " Ondan sonra bize bir tane arka planı lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:20,620",
+        "to": "00:01:27,000"
+      },
+      "offsets": {
+        "from": 80620,
+        "to": 87000
+      },
+      "text": " İsterseniz bu adamın direkt arka planını kopyalayabilirsiniz. Yani buradan esasalık ben burayı kullanacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:27,000",
+        "to": "00:01:30,600"
+      },
+      "offsets": {
+        "from": 87000,
+        "to": 90600
+      },
+      "text": " Tarzı bir şey diyebilirsiniz ama ben bunun arka planı o kadar benmedim."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:30,600",
+        "to": "00:01:35,680"
+      },
+      "offsets": {
+        "from": 90600,
+        "to": 95680
+      },
+      "text": " O yüzden gidip ben kendi çektiğimiz bir ürünün arka planını kullanacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:35,680",
+        "to": "00:01:39,680"
+      },
+      "offsets": {
+        "from": 95680,
+        "to": 99680
+      },
+      "text": " Ve onu biraz da değiştireceğiz ürünümüzün tamasına göre."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:39,680",
+        "to": "00:01:46,160"
+      },
+      "offsets": {
+        "from": 99680,
+        "to": 106160
+      },
+      "text": " Önce ilk de buradan ben İlahi tabloğunun tiktolağına gideceğim ve oradan bir arka planın görüntüsünü alacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:49,480",
+        "to": "00:01:56,360"
+      },
+      "offsets": {
+        "from": 109480,
+        "to": 116360
+      },
+      "text": " İlahi tabloğunu diyorum. Buradan güzel arka planına videolarımız olması lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:56,360",
+        "to": "00:02:00,200"
+      },
+      "offsets": {
+        "from": 116360,
+        "to": 120200
+      },
+      "text": " Mesela şu Tarzı bir şey güzel olabilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:00,200",
+        "to": "00:02:05,680"
+      },
+      "offsets": {
+        "from": 120200,
+        "to": 125680
+      },
+      "text": " Sıra arka planı olsun istemiyorum ben beyazlı bir şey kullanmak istiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:05,680",
+        "to": "00:02:11,400"
+      },
+      "offsets": {
+        "from": 125680,
+        "to": 131400
+      },
+      "text": " Mesela şu videonun arka planı beğendim ben."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:14,400",
+        "to": "00:02:23,960"
+      },
+      "offsets": {
+        "from": 134400,
+        "to": 143960
+      },
+      "text": " Ayağım tam buradan ekran görüntüsünü alıyorum ve bunu da kopyalıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:23,960",
+        "to": "00:02:26,800"
+      },
+      "offsets": {
+        "from": 143960,
+        "to": 146800
+      },
+      "text": " Sonra hemen fiksiyalımıza açıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:26,800",
+        "to": "00:02:34,000"
+      },
+      "offsets": {
+        "from": 146800,
+        "to": 154000
+      },
+      "text": " Şimdi buraya kendi arka planımı yükliyorum ekran görüntüsü aldım ve ürünümü fotoğrafımda yükliyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:34,000",
+        "to": "00:02:36,240"
+      },
+      "offsets": {
+        "from": 154000,
+        "to": 156240
+      },
+      "text": " Şimdi yapmam gereken şey."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:36,240",
+        "to": "00:02:40,840"
+      },
+      "offsets": {
+        "from": 156240,
+        "to": 160840
+      },
+      "text": " Öncelikle ben bu arka planı biraz temizlemem lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:40,840",
+        "to": "00:02:47,480"
+      },
+      "offsets": {
+        "from": 160840,
+        "to": 167480
+      },
+      "text": " Ondan sonra buraya kendi tememize göre özelleşireyim yani pembe yaprak falan ekleyebiliriz."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:47,480",
+        "to": "00:02:52,960"
+      },
+      "offsets": {
+        "from": 167480,
+        "to": 172960
+      },
+      "text": " Ondan sonra diyeceğim ki işte bir kız bu ürünü bu ortağımda tutsun Tarzı bir şey diyeceğim."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:52,960",
+        "to": "00:02:54,960"
+      },
+      "offsets": {
+        "from": 172960,
+        "to": 174960
+      },
+      "text": " Ve bizim anı tememizi oluşmuş olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:54,960",
+        "to": "00:02:59,200"
+      },
+      "offsets": {
+        "from": 174960,
+        "to": 179200
+      },
+      "text": " Ondan sonra yapmam gereken şeyse her sahtelerini istediğimize aldım abim söyleyeyim."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:59,200",
+        "to": "00:03:02,160"
+      },
+      "offsets": {
+        "from": 179200,
+        "to": 182160
+      },
+      "text": " Bunun için fotoğrafı videoları oluşturma koyacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:02,160",
+        "to": "00:03:04,000"
+      },
+      "offsets": {
+        "from": 182160,
+        "to": 184000
+      },
+      "text": " Öncelikle ben buraya diyorum ki."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:05,480",
+        "to": "00:03:12,840"
+      },
+      "offsets": {
+        "from": 185480,
+        "to": 192840
+      },
+      "text": " \"Gimu hands and the drawing and the pencils on the image one\"."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:14,240",
+        "to": "00:03:16,840"
+      },
+      "offsets": {
+        "from": 194240,
+        "to": 196840
+      },
+      "text": " \"Gimu hands, drawing and the pencils\"."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:18,520",
+        "to": "00:03:22,120"
+      },
+      "offsets": {
+        "from": 198520,
+        "to": 202120
+      },
+      "text": " Şöyle etik ettiğimim image one, şöyle indiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:22,120",
+        "to": "00:03:28,440"
+      },
+      "offsets": {
+        "from": 202120,
+        "to": 208440
+      },
+      "text": " Benimki birinci fotoğrafdaki elleri işte buradaki resmi ve kalanleri kaldır."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:28,440",
+        "to": "00:03:35,400"
+      },
+      "offsets": {
+        "from": 208440,
+        "to": 215400
+      },
+      "text": " Ona söylüyorum ki \"add a girls hands holding the product in the image two\"."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:35,400",
+        "to": "00:03:38,440"
+      },
+      "offsets": {
+        "from": 215400,
+        "to": 218440
+      },
+      "text": " \"The image two\"."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:41,080",
+        "to": "00:03:48,640"
+      },
+      "offsets": {
+        "from": 221080,
+        "to": 228640
+      },
+      "text": " \"She has pink nails. Add Japanese style pink leaves to the table\"."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:53,960",
+        "to": "00:03:57,080"
+      },
+      "offsets": {
+        "from": 233960,
+        "to": 237080
+      },
+      "text": " \"Uz nano banana pro and generate 4 images\"."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:59,440",
+        "to": "00:04:00,800"
+      },
+      "offsets": {
+        "from": 239440,
+        "to": 240800
+      },
+      "text": " Şimdi ben bunu anledim."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:00,800",
+        "to": "00:04:04,800"
+      },
+      "offsets": {
+        "from": 240800,
+        "to": 244800
+      },
+      "text": " Öncelikle elleri sil resmi sil kalanleri kaldır dedim."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:04,800",
+        "to": "00:04:12,320"
+      },
+      "offsets": {
+        "from": 244800,
+        "to": 252320
+      },
+      "text": " Birinci fotoğrafdaki ondan sonra dedim ki bir kızda ikinci fotoğrafdaki ürünü bu ortamda tussundedim."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:12,320",
+        "to": "00:04:15,440"
+      },
+      "offsets": {
+        "from": 252320,
+        "to": 255440
+      },
+      "text": " Ondan sonra dedim ki kızın pembe ternakları olsun dedim."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:15,440",
+        "to": "00:04:21,240"
+      },
+      "offsets": {
+        "from": 255440,
+        "to": 261240
+      },
+      "text": " Ve masaya Japon tarzı pembe yaprakları eklemesin."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:21,240",
+        "to": "00:04:24,000"
+      },
+      "offsets": {
+        "from": 261240,
+        "to": 264000
+      },
+      "text": " Şöyle dedim bizim ürünümüzü o iması için."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:24,000",
+        "to": "00:04:32,800"
+      },
+      "offsets": {
+        "from": 264000,
+        "to": 272800
+      },
+      "text": " Sonra dedim ki \"nana banana pro kullan ve bana 4 tane resmi oluşur ki biz en iyisini buradan seçebilirim ve gönderiyorum\"."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:35,520",
+        "to": "00:04:37,960"
+      },
+      "offsets": {
+        "from": 275520,
+        "to": 277960
+      },
+      "text": " Fotoğraflarımıza oluştu, hemen bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:40,000",
+        "to": "00:04:42,280"
+      },
+      "offsets": {
+        "from": 280000,
+        "to": 282280
+      },
+      "text": " Gayet güzel ve gerçekçi duruyor bu arada."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:42,280",
+        "to": "00:04:47,120"
+      },
+      "offsets": {
+        "from": 282280,
+        "to": 287120
+      },
+      "text": " Yani böyle fotoğrafı ben görsem büyük ihtimalle ee olduğunu ilk bakışta anlamazdım."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:49,880",
+        "to": "00:04:56,720"
+      },
+      "offsets": {
+        "from": 289880,
+        "to": 296720
+      },
+      "text": " Ben bunu beğendim neden hem açısı daha düzgünlürü hem de ürünü biraz havada tutmuş ve daha gerçekçi gibi duruyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:57,480",
+        "to": "00:05:00,960"
+      },
+      "offsets": {
+        "from": 297480,
+        "to": 300960
+      },
+      "text": " Mesela bundan yandan tutmuş ve de tutuşu falan garip."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:02,040",
+        "to": "00:05:05,560"
+      },
+      "offsets": {
+        "from": 302040,
+        "to": 305560
+      },
+      "text": " Bu da aynı şekilde ben bunu kullanacağım bunu indiriyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:05,560",
+        "to": "00:05:14,280"
+      },
+      "offsets": {
+        "from": 305560,
+        "to": 314280
+      },
+      "text": " Sonra ben ilk başta hukuku yapmak için hani bir pembe bir havlu tussundu sonra havluyu kaldırısınız istiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:14,280",
+        "to": "00:05:25,960"
+      },
+      "offsets": {
+        "from": 314280,
+        "to": 325960
+      },
+      "text": " Hukuda buna ekliyorum sonra diyorum ki \"Make her hold a pink towel on top of the product\"."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:33,000",
+        "to": "00:05:37,960"
+      },
+      "offsets": {
+        "from": 333000,
+        "to": 337960
+      },
+      "text": " Prodakta değil, ve her holda tussundu."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:02,040",
+        "to": "00:06:10,040"
+      },
+      "offsets": {
+        "from": 362040,
+        "to": 370040
+      },
+      "text": " \"She's holding the towel on top\"."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:16,040",
+        "to": "00:06:19,040"
+      },
+      "offsets": {
+        "from": 376040,
+        "to": 379040
+      },
+      "text": " \"Yüzdanabanağla Prod generate mi formacağız?\""
+    },
+    {
+      "timestamps": {
+        "from": "00:06:20,640",
+        "to": "00:06:27,680"
+      },
+      "offsets": {
+        "from": 380640,
+        "to": 387680
+      },
+      "text": " Şimdi ben bunu neden, dedim ki bir tane pembe havlu tussundu, ürünün üstünde."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:27,680",
+        "to": "00:06:33,160"
+      },
+      "offsets": {
+        "from": 387680,
+        "to": 393160
+      },
+      "text": " Ürün gözükür bir durumda değil, ürün havluğunun arkasında."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:33,160",
+        "to": "00:06:42,960"
+      },
+      "offsets": {
+        "from": 393160,
+        "to": 402960
+      },
+      "text": " Havluyu sahiliyle tutsun ve sol elilede ürünü tutsun yani mesela bunu ürün olarak düşünelim, havluğumda var burada."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:42,960",
+        "to": "00:06:50,480"
+      },
+      "offsets": {
+        "from": 402960,
+        "to": 410480
+      },
+      "text": " Sahiliyle böyle havluyu tutsun, sol elilede ürünü tutsun dedim, ondan sonra böyle üç gibi yapıp kaldıracağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:50,480",
+        "to": "00:07:03,760"
+      },
+      "offsets": {
+        "from": 410480,
+        "to": 423760
+      },
+      "text": " Şiz olun ki de tavlanın topu, dedim ki havluyu yukarıdan tutsun, nalabanağına prokullan ve bana dört tane resim oluştur dedim ve yolluyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:03,760",
+        "to": "00:07:05,760"
+      },
+      "offsets": {
+        "from": 423760,
+        "to": 425760
+      },
+      "text": " Bakalım nasıl şeyler çıkartacak bize."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:05,760",
+        "to": "00:07:13,760"
+      },
+      "offsets": {
+        "from": 425760,
+        "to": 433760
+      },
+      "text": " Fotoğraflarımız geldi ve hemen bakalım tam hissedim gibi aslında ürünün tutmamışlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:13,760",
+        "to": "00:07:18,960"
+      },
+      "offsets": {
+        "from": 433760,
+        "to": 438960
+      },
+      "text": " Yani sol elilede vansını alttan ürün tutmasını istiyordum, orası güzel olmamış ama hiç söylüyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:18,960",
+        "to": "00:07:28,400"
+      },
+      "offsets": {
+        "from": 438960,
+        "to": 448400
+      },
+      "text": " Buradan en iyisi bu gibi duruyor neden, çünkü o yukarıdan güzel bir şekilde tutmuş, bunu direkt kullanabilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:28,400",
+        "to": "00:07:37,480"
+      },
+      "offsets": {
+        "from": 448400,
+        "to": 457480
+      },
+      "text": " Şimdi ben buna ekleyeceğim buraya, ondan sonra diyeceğim ki, aslında buna bir de şunu da ekleyebiliriz."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:37,480",
+        "to": "00:07:45,920"
+      },
+      "offsets": {
+        "from": 457480,
+        "to": 465920
+      },
+      "text": " Şimdi ben buna diyeceğim ki, \"Genel etmeyi a video, using Clint 3.0.\""
+    },
+    {
+      "timestamps": {
+        "from": "00:07:49,440",
+        "to": "00:07:52,080"
+      },
+      "offsets": {
+        "from": 469440,
+        "to": 472080
+      },
+      "text": " Clint 2.0."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:53,280",
+        "to": "00:07:57,600"
+      },
+      "offsets": {
+        "from": 473280,
+        "to": 477600
+      },
+      "text": " Şiz counting from 3 to 0."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:03,920",
+        "to": "00:08:19,360"
+      },
+      "offsets": {
+        "from": 483920,
+        "to": 499360
+      },
+      "text": " Dan on each count. Şiz slightly raising and lowering the towel."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:19,360",
+        "to": "00:08:26,720"
+      },
+      "offsets": {
+        "from": 499360,
+        "to": 506720
+      },
+      "text": " Dan at 0, şiz moving the towel and revealing the product behind."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:30,000",
+        "to": "00:08:35,120"
+      },
+      "offsets": {
+        "from": 510000,
+        "to": 515120
+      },
+      "text": " Şimdi ben buna dediğim ki, bana Clint'in kullanarak bir tane video oluştur."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:35,120",
+        "to": "00:08:45,680"
+      },
+      "offsets": {
+        "from": 515120,
+        "to": 525680
+      },
+      "text": " O kız 3'dan geriye kadar, 3'dan sıfra kadar sayıyor ve her sayışta halluyu yavaşça yukarı aşağı yapıya dedim."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:45,680",
+        "to": "00:08:53,120"
+      },
+      "offsets": {
+        "from": 525680,
+        "to": 533120
+      },
+      "text": " Ve sıfra geldiğinde halluyu kaldırıyor ve arkadaki ürününü gösteriyor dedim ve bunu göndediyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:53,120",
+        "to": "00:09:01,440"
+      },
+      "offsets": {
+        "from": 533120,
+        "to": 541440
+      },
+      "text": " Bu süper komputerla Clint'in bir sorunu var şu anda, anladığım kadarıyla bazen oluşturmaya biliyor videoları, fail veriyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:01,440",
+        "to": "00:09:05,440"
+      },
+      "offsets": {
+        "from": 541440,
+        "to": 545440
+      },
+      "text": " Birkaç yıl önce bu yoktu. Ama bakalım şimdi oluşturacak mı?"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:05,440",
+        "to": "00:09:17,040"
+      },
+      "offsets": {
+        "from": 545440,
+        "to": 557040
+      },
+      "text": " Eğer hata verirse hiç sorunuyor, biz buradaki prompt'a alıp, direkt, kendi video oluşturma yerinden bunu oluşturacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:19,840",
+        "to": "00:09:23,520"
+      },
+      "offsets": {
+        "from": 559840,
+        "to": 563520
+      },
+      "text": " Evet, videomuz oluştur. Hemen bakalım nasıl bir şey çıkarmış."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:31,280",
+        "to": "00:09:38,160"
+      },
+      "offsets": {
+        "from": 571280,
+        "to": 578160
+      },
+      "text": " Öncek de sesle video tam uyumamış ve ikinci sahne de böyle bir kesik olmuş gördüğünüz gibi."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:38,160",
+        "to": "00:09:42,800"
+      },
+      "offsets": {
+        "from": 578160,
+        "to": 582800
+      },
+      "text": " Kaldırıktan sonra farklı bir sahneye atıyormuş gibi oluyor şurada."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:46,400",
+        "to": "00:09:50,720"
+      },
+      "offsets": {
+        "from": 586400,
+        "to": 590720
+      },
+      "text": " Tabii bizim için önemli olan kısım, tam bu halloyu kaldırma kısım."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:50,720",
+        "to": "00:09:57,760"
+      },
+      "offsets": {
+        "from": 590720,
+        "to": 597760
+      },
+      "text": " Buraya, olduğu sürece hemen ben bunu indiriyorum hatta, kebkatlısı, nereye nasıl kullanacağım da göstereyim hemen."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:59,280",
+        "to": "00:10:01,280"
+      },
+      "offsets": {
+        "from": 599280,
+        "to": 601280
+      },
+      "text": " Şimdi videomuzu kebkat alık."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:06,960",
+        "to": "00:10:08,960"
+      },
+      "offsets": {
+        "from": 606960,
+        "to": 608960
+      },
+      "text": " Şuradan başlatabilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:16,880",
+        "to": "00:10:19,600"
+      },
+      "offsets": {
+        "from": 616880,
+        "to": 619600
+      },
+      "text": " Tam diğer sahneye geçmeden kırpıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:23,760",
+        "to": "00:10:25,760"
+      },
+      "offsets": {
+        "from": 623760,
+        "to": 625760
+      },
+      "text": " Sizi hiç beğenmedim bu arada onu kapalayacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:26,480",
+        "to": "00:10:29,760"
+      },
+      "offsets": {
+        "from": 626480,
+        "to": 629760
+      },
+      "text": " Aynen, böyle hook olsa gayet güzel."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:29,760",
+        "to": "00:10:32,480"
+      },
+      "offsets": {
+        "from": 629760,
+        "to": 632480
+      },
+      "text": " Sadece bu ara kısımda biraz beklemesi uzun."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:32,480",
+        "to": "00:10:36,160"
+      },
+      "offsets": {
+        "from": 632480,
+        "to": 636160
+      },
+      "text": " O yüzden mi yapacağım şey bu arayı ben biraz kırpacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:36,160",
+        "to": "00:10:38,960"
+      },
+      "offsets": {
+        "from": 636160,
+        "to": 638960
+      },
+      "text": " Karar aşağı yapıyor, buradan bir kırpalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:39,440",
+        "to": "00:10:41,440"
+      },
+      "offsets": {
+        "from": 639440,
+        "to": 641440
+      },
+      "text": " Nasılsın şundan bir tane kırpalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:43,040",
+        "to": "00:10:44,000"
+      },
+      "offsets": {
+        "from": 643040,
+        "to": 644000
+      },
+      "text": " Aynen."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:46,720",
+        "to": "00:10:50,560"
+      },
+      "offsets": {
+        "from": 646720,
+        "to": 650560
+      },
+      "text": " Bu şekilde bir hukumuz olabilir, gayet güzel bir şekilde ürün açacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:50,560",
+        "to": "00:10:53,120"
+      },
+      "offsets": {
+        "from": 650560,
+        "to": 653120
+      },
+      "text": " Şimdi diğer sahneye alırdan devam edelim."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:53,120",
+        "to": "00:10:56,160"
+      },
+      "offsets": {
+        "from": 653120,
+        "to": 656160
+      },
+      "text": " Şimdi yapacağım şey bu fotoğrafı tekrar dağılıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:56,160",
+        "to": "00:10:58,880"
+      },
+      "offsets": {
+        "from": 656160,
+        "to": 658880
+      },
+      "text": " Bizim asıl referans fotoğrafına."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:58,880",
+        "to": "00:11:08,560"
+      },
+      "offsets": {
+        "from": 658880,
+        "to": 668560
+      },
+      "text": " Ve diyeceğim ki bunun üst kısımının çıkmış olduğu ve içerisinde bardak gibi boş bir alanın olduğu bir fotoğraf üretmesini istiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:08,560",
+        "to": "00:11:10,560"
+      },
+      "offsets": {
+        "from": 668560,
+        "to": 670560
+      },
+      "text": " Ondan sonra bunu videoya çevireceğiz."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:10,560",
+        "to": "00:11:15,920"
+      },
+      "offsets": {
+        "from": 670560,
+        "to": 675920
+      },
+      "text": " Pasyonu Buley diyorum ki, \"Generity Me and image using nonoban on approach."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:15,920",
+        "to": "00:11:21,840"
+      },
+      "offsets": {
+        "from": 675920,
+        "to": 681840
+      },
+      "text": " She is holding the roof of the product with her right hand.\""
+    },
+    {
+      "timestamps": {
+        "from": "00:11:29,280",
+        "to": "00:11:31,520"
+      },
+      "offsets": {
+        "from": 689280,
+        "to": 691520
+      },
+      "text": " As if she removed the top of the product."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:37,600",
+        "to": "00:11:45,760"
+      },
+      "offsets": {
+        "from": 697600,
+        "to": 705760
+      },
+      "text": " \"And inside of the product, there is an empty place to put liquids just like empty glasses.\""
+    },
+    {
+      "timestamps": {
+        "from": "00:11:53,280",
+        "to": "00:11:54,880"
+      },
+      "offsets": {
+        "from": 713280,
+        "to": 714880
+      },
+      "text": " Şimdi böyle bir deneme yapacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:54,880",
+        "to": "00:11:56,800"
+      },
+      "offsets": {
+        "from": 714880,
+        "to": 716800
+      },
+      "text": " Şimdi dedim ki, bana bir tane fotoğraf oluşurum."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:56,800",
+        "to": "00:11:58,240"
+      },
+      "offsets": {
+        "from": 716800,
+        "to": 718240
+      },
+      "text": " Nanabana bırakın lan."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:59,840",
+        "to": "00:12:07,520"
+      },
+      "offsets": {
+        "from": 719840,
+        "to": 727520
+      },
+      "text": " Ürünün üst kısımını kız eliyle sanki çıkarmış gibi, yukarıda tutsun dedim."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:07,600",
+        "to": "00:12:16,080"
+      },
+      "offsets": {
+        "from": 727600,
+        "to": 736080
+      },
+      "text": " Ondan sonra dedim ki ve ürünün içerisinde liquid sıvı koymak için boş bir alan olduğu gözüksün dedim."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:16,080",
+        "to": "00:12:18,320"
+      },
+      "offsets": {
+        "from": 736080,
+        "to": 738320
+      },
+      "text": " Aynı bir boş bir bardak gibi."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:18,320",
+        "to": "00:12:23,360"
+      },
+      "offsets": {
+        "from": 738320,
+        "to": 743360
+      },
+      "text": " Dedim, \"Generity Me for images.\""
+    },
+    {
+      "timestamps": {
+        "from": "00:12:24,160",
+        "to": "00:12:30,080"
+      },
+      "offsets": {
+        "from": 744160,
+        "to": 750080
+      },
+      "text": " Dedim ki, bana dört farklı var ya sonra patta, dört değil aldı diyelim."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:30,080",
+        "to": "00:12:33,280"
+      },
+      "offsets": {
+        "from": 750080,
+        "to": 753280
+      },
+      "text": " Çünkü zor bir şey istedik bakalım nasıl şeyler çıkacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:33,280",
+        "to": "00:12:37,040"
+      },
+      "offsets": {
+        "from": 753280,
+        "to": 757040
+      },
+      "text": " İstediğimiz gibi yapmazsa prom taftan değişirip tekrardan deneyeceğiz."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:38,560",
+        "to": "00:12:41,040"
+      },
+      "offsets": {
+        "from": 758560,
+        "to": 761040
+      },
+      "text": " Evet, resimlerimiz oluşmaya başladı."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:41,040",
+        "to": "00:12:49,920"
+      },
+      "offsets": {
+        "from": 761040,
+        "to": 769920
+      },
+      "text": " Gördüğünüz gibi hepsinde ürünün üst kısımına çıkarmış ve içerisinde boş bardak gibi bir alan gözüküyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:49,920",
+        "to": "00:12:53,120"
+      },
+      "offsets": {
+        "from": 769920,
+        "to": 773120
+      },
+      "text": " Ki ki biz buraya sıkı koymamız lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:53,120",
+        "to": "00:12:56,640"
+      },
+      "offsets": {
+        "from": 773120,
+        "to": 776640
+      },
+      "text": " Şimdi bunlardan güzel olan bir tanesini seçelim."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:57,360",
+        "to": "00:12:59,040"
+      },
+      "offsets": {
+        "from": 777360,
+        "to": 779040
+      },
+      "text": " Şunu iyi gibi duruyor arkadaşlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:59,040",
+        "to": "00:13:01,360"
+      },
+      "offsets": {
+        "from": 779040,
+        "to": 781360
+      },
+      "text": " Şunu da biraz daha fazla kalın."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:02,320",
+        "to": "00:13:04,160"
+      },
+      "offsets": {
+        "from": 782320,
+        "to": 784160
+      },
+      "text": " Bununla hoşmasını bekleyelim."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:04,160",
+        "to": "00:13:06,160"
+      },
+      "offsets": {
+        "from": 784160,
+        "to": 786160
+      },
+      "text": " Ondan sonra seçelim bir tane."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:07,040",
+        "to": "00:13:10,080"
+      },
+      "offsets": {
+        "from": 787040,
+        "to": 790080
+      },
+      "text": " Bunu zaten içi boş olarak koşturdu."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:10,080",
+        "to": "00:13:11,280"
+      },
+      "offsets": {
+        "from": 790080,
+        "to": 791280
+      },
+      "text": " Yani beyaz şeyi yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:11,840",
+        "to": "00:13:15,760"
+      },
+      "offsets": {
+        "from": 791840,
+        "to": 795760
+      },
+      "text": " O yüzden ben gidip buradan bu fotoğrafı seçeceğim."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:15,760",
+        "to": "00:13:18,800"
+      },
+      "offsets": {
+        "from": 795760,
+        "to": 798800
+      },
+      "text": " Şimdi yapacağım şeyse ilk fotoğrafı koyacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:18,800",
+        "to": "00:13:21,600"
+      },
+      "offsets": {
+        "from": 798800,
+        "to": 801600
+      },
+      "text": " Son fotoğrafı koyacağım diyeceğim ki bunu video çevir."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:21,600",
+        "to": "00:13:27,200"
+      },
+      "offsets": {
+        "from": 801600,
+        "to": 807200
+      },
+      "text": " İlk fotoğrafdan son fotoğrafa gelecek şekilde ürünün üstük şeyini çıkarsın."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:27,200",
+        "to": "00:13:30,480"
+      },
+      "offsets": {
+        "from": 807200,
+        "to": 810480
+      },
+      "text": " Aynen şimdi buraya ürünün ilk fremini yükledim."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:30,480",
+        "to": "00:13:33,520"
+      },
+      "offsets": {
+        "from": 810480,
+        "to": 813520
+      },
+      "text": " İlk fotoğrafını sonra son fotoğrafını yükleyeceğim."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:33,520",
+        "to": "00:13:36,400"
+      },
+      "offsets": {
+        "from": 813520,
+        "to": 816400
+      },
+      "text": " Sonra diyeceğim ki bunu bu halden bu halde getir."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:36,400",
+        "to": "00:13:38,240"
+      },
+      "offsets": {
+        "from": 816400,
+        "to": 818240
+      },
+      "text": " Ve videodan abone olmayacak, sahil ağzıcak."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:38,240",
+        "to": "00:13:40,720"
+      },
+      "offsets": {
+        "from": 818240,
+        "to": 820720
+      },
+      "text": " Büyük halde bir şey sonra bunu yavaşça kaldı."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:44,000",
+        "to": "00:13:49,360"
+      },
+      "offsets": {
+        "from": 824000,
+        "to": 829360
+      },
+      "text": " 100 image 1 as starting frame and image 2 as ending frame."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:52,160",
+        "to": "00:13:56,160"
+      },
+      "offsets": {
+        "from": 832160,
+        "to": 836160
+      },
+      "text": " 100 clean 3.0 and make a video"
+    },
+    {
+      "timestamps": {
+        "from": "00:13:56,160",
+        "to": "00:13:59,360"
+      },
+      "offsets": {
+        "from": 836160,
+        "to": 839360
+      },
+      "text": " of her removing the top of the product."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:02,160",
+        "to": "00:14:04,400"
+      },
+      "offsets": {
+        "from": 842160,
+        "to": 844400
+      },
+      "text": " Diyelim ki bunu şunları etkildiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:06,400",
+        "to": "00:14:20,320"
+      },
+      "offsets": {
+        "from": 846400,
+        "to": 860320
+      },
+      "text": " Resim 1 ilk sahne ve resim sonu resim 2 de son sahne olarak kullanarak ve clean kullanarak bana"
+    },
+    {
+      "timestamps": {
+        "from": "00:14:20,320",
+        "to": "00:14:26,800"
+      },
+      "offsets": {
+        "from": 860320,
+        "to": 866800
+      },
+      "text": " bu ürünün üst kısmını kaldırılığı üst kısmını çıkardı bir video yap diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:26,800",
+        "to": "00:14:40,720"
+      },
+      "offsets": {
+        "from": 866800,
+        "to": 880720
+      },
+      "text": " Denim ki ses olmasına gerek yok altı sahneye bir şey olsa yataş bakalım nasıl bir şey çıkardık."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:40,720",
+        "to": "00:14:42,960"
+      },
+      "offsets": {
+        "from": 880720,
+        "to": 882960
+      },
+      "text": " Videomuzda bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:49,200",
+        "to": "00:14:51,600"
+      },
+      "offsets": {
+        "from": 889200,
+        "to": 891600
+      },
+      "text": " Gayet güzel, tam istediğimiz gibi."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:51,600",
+        "to": "00:14:59,200"
+      },
+      "offsets": {
+        "from": 891600,
+        "to": 899200
+      },
+      "text": " Yukarıdan kaldırıyor, tabi biraz yavaş kaldırıyor, bunu edip de hızlandırabiliriz."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:59,200",
+        "to": "00:15:05,920"
+      },
+      "offsets": {
+        "from": 899200,
+        "to": 905920
+      },
+      "text": " Ondan sonra 2 sahne de ben bunun içerisine Ayran dökmesini istiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:05,920",
+        "to": "00:15:21,360"
+      },
+      "offsets": {
+        "from": 905920,
+        "to": 921360
+      },
+      "text": " Gidip bir tane Ayran fotoğrafı bulamıyorum, bir tane bir tane Ayran döküsünü istiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:21,360",
+        "to": "00:15:44,880"
+      },
+      "offsets": {
+        "from": 921360,
+        "to": 944880
+      },
+      "text": " Gidip bir tane Ayran döküsünü istiyorum, bir tane Ayran döküsünü istiyorum, bir tane Ayran dökmesini istiyorum, bir tane Ayran döküsünüyorum, bir tane Ayran dökmesini istiyorum, bir tane Ayran dökmesini istiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:51,360",
+        "to": "00:16:03,920"
+      },
+      "offsets": {
+        "from": 951360,
+        "to": 963920
+      },
+      "text": " Dedim ki bana, bana kızın birinci fotoğrafdaki çişeyi kullanarak ürünün içerisine Ayran döküldüğü bir fotoğraf oluşur dedim."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:03,920",
+        "to": "00:16:11,440"
+      },
+      "offsets": {
+        "from": 963920,
+        "to": 971440
+      },
+      "text": " Nanabana ana prokullan, bana dört tane resim oluştur ve yolladıyorum, bakalım nasıl bir şey çıkacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:11,440",
+        "to": "00:16:20,480"
+      },
+      "offsets": {
+        "from": 971440,
+        "to": 980480
+      },
+      "text": " Evet, oluşumaya başladı, sanlımdan daha da ilginç ve komik duruyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:20,480",
+        "to": "00:16:37,600"
+      },
+      "offsets": {
+        "from": 980480,
+        "to": 997600
+      },
+      "text": " Bence güzel ya kullanılır, yani amaç kontroversa olması, su da koydurabilirdiniz, hani essetik bir video olsun istiyorsanız, ben hem essetik hem de böyle kontroversa olsun istiyorum o yüzden bu tarz bir şey yapmasını söyleyeceğim, bunu indiriyorum mesela."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:37,600",
+        "to": "00:16:51,520"
+      },
+      "offsets": {
+        "from": 997600,
+        "to": 1011520
+      },
+      "text": " Hepsi gayet güzel yani, bundan hepsi aşağıya karan olacak, bize bunu kullanabiliriz. Şimdi buraya atıyorum diyorum ki, \"Yuz Kling 3.0\" to generate media video from this image."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:53,520",
+        "to": "00:16:57,440"
+      },
+      "offsets": {
+        "from": 1013520,
+        "to": 1017440
+      },
+      "text": " \"She's pouring what Ayran into the product\"."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:02,080",
+        "to": "00:17:14,400"
+      },
+      "offsets": {
+        "from": 1022080,
+        "to": 1034400
+      },
+      "text": " Benimki Kling kullanarak bana bu fotoğrafdan bir tane video yap, ürünün içerisine Ayran döküyor, sürekli ürün diyorum çünkü bunun tam olarak ne olduğunu nasıl diyeceğim bilmiyorum açıkası."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:14,400",
+        "to": "00:17:26,560"
+      },
+      "offsets": {
+        "from": 1034400,
+        "to": 1046560
+      },
+      "text": " O yüzden prolak diyorum, ürün diye derdim, derdim anlatabiliyorum, eğer ne demek istedim, anlıyor yüzden hiçbir sorun yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:28,800",
+        "to": "00:17:43,120"
+      },
+      "offsets": {
+        "from": 1048800,
+        "to": 1063120
+      },
+      "text": " Tamamdır. Feil oldu, tahminimce bu süper komputer da böyle markayı sünleri falan gözüken videolar yapmayı çalışın ve Kling ile hata veriyor çünkü bazen çalışıyor, bazen çalışmıyor kafasını göre biraz."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:43,120",
+        "to": "00:17:58,400"
+      },
+      "offsets": {
+        "from": 1063120,
+        "to": 1078400
+      },
+      "text": " O yüzden burada ki, \"Promptu Alıp Ben Kendim Direkt\" video yerinden oluşur. Şimdi buradan video kısımda geldim, aynı prompt'u yapışlıyorum buraya, sonra buraya zaten o feyli olan defans fotoğraf var, buna basip bekliyorum, start frame olarak."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:58,400",
+        "to": "00:18:09,200"
+      },
+      "offsets": {
+        "from": 1078400,
+        "to": 1089200
+      },
+      "text": " Sesine gerek yok, sesini kapatıyorum, Kling kulansın 1080p, 9 saniye çok fazla 6 saniye, yeterli olur, bir tane oluşur."
+    },
+    {
+      "timestamps": {
+        "from": "00:18:11,360",
+        "to": "00:18:36,480"
+      },
+      "offsets": {
+        "from": 1091360,
+        "to": 1116480
+      },
+      "text": " İdia'mız oluştu, gerçekten çok güzel olmuş. Şimdi doldurduğunu bence gözü saniye gerek var ama bakalım, tam şöyle kişi olabilir, hani tam buradan gözü sevdiğiniz, ama gerçekten çok gerçekçi olmuş, yani buradaki sıvaz oluyor, şimdi buraya doluyor ya, yani 9 krediye böyle gerçekçilik on numara."
+    },
+    {
+      "timestamps": {
+        "from": "00:18:36,480",
+        "to": "00:18:44,800"
+      },
+      "offsets": {
+        "from": 1116480,
+        "to": 1124800
+      },
+      "text": " Ben bu yüzden daha çok Kling'i gönderiyorum, Sidance'tense. Yani gerçekten bunu Sidance'in üretmeye çalışacak ne kadar olacaktı?"
+    },
+    {
+      "timestamps": {
+        "from": "00:18:44,800",
+        "to": "00:18:48,400"
+      },
+      "offsets": {
+        "from": 1124800,
+        "to": 1128400
+      },
+      "text": " 80 bir kredi arkadaşım ve indirimlerle bu."
+    },
+    {
+      "timestamps": {
+        "from": "00:18:48,400",
+        "to": "00:18:53,440"
+      },
+      "offsets": {
+        "from": 1128400,
+        "to": 1133440
+      },
+      "text": " 9 saniye, bu 6 saniye, 6 saniyesine bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:18:57,120",
+        "to": "00:19:07,200"
+      },
+      "offsets": {
+        "from": 1137120,
+        "to": 1147200
+      },
+      "text": " 70 kredi tutacaktı, bunu Sidance'te oluşurmak. Biz size Kling'de 9 saniye de bu kaliteler videolar üretebiliyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:19:07,200",
+        "to": "00:19:22,400"
+      },
+      "offsets": {
+        "from": 1147200,
+        "to": 1162400
+      },
+      "text": " Şimdi nerede kalmıştık, bunlar hala üretiliyor bu arada. İçerisine Ayran döktü, sonra bunu bir masanın üstüne koyuyorsun ve duman çıkmaya başlasın."
+    },
+    {
+      "timestamps": {
+        "from": "00:19:22,400",
+        "to": "00:19:29,200"
+      },
+      "offsets": {
+        "from": 1162400,
+        "to": 1169200
+      },
+      "text": " Daha masanın üstüne koymasını da gerek yok, direkt bir yerde duman çıkarken videorsa olsa gayet güzel olur."
+    },
+    {
+      "timestamps": {
+        "from": "00:19:29,200",
+        "to": "00:19:37,760"
+      },
+      "offsets": {
+        "from": 1169200,
+        "to": 1177760
+      },
+      "text": " Şimdi ben bunun ilk defans fotoğrafını tekrar üretleyeceğim, anlısıydı ya."
+    },
+    {
+      "timestamps": {
+        "from": "00:19:44,400",
+        "to": "00:19:59,600"
+      },
+      "offsets": {
+        "from": 1184400,
+        "to": 1199600
+      },
+      "text": " Yani, ondan sonra bunu diyeceğim ki, \"The product is placed on the table with no hands visible.\""
+    },
+    {
+      "timestamps": {
+        "from": "00:19:59,600",
+        "to": "00:20:08,400"
+      },
+      "offsets": {
+        "from": 1199600,
+        "to": 1208400
+      },
+      "text": " Dediğim ki ürün masaya konumuş ve eller göz gönderilen çünkü burada hem eller var hem elimde tutuyor, havada tutuyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:20:08,400",
+        "to": "00:20:16,720"
+      },
+      "offsets": {
+        "from": 1208400,
+        "to": 1216720
+      },
+      "text": " Sonra bunu diyeceğim ki, \"There's a smoke coming out on top of the product.\""
+    },
+    {
+      "timestamps": {
+        "from": "00:20:16,720",
+        "to": "00:20:31,360"
+      },
+      "offsets": {
+        "from": 1216720,
+        "to": 1231360
+      },
+      "text": " Ürünün üst kısmından duman geliyor, dedim. Kozye bir. Kozye hani böyle bu tarz saniye, biraz daha loş bir işik."
+    },
+    {
+      "timestamps": {
+        "from": "00:20:31,360",
+        "to": "00:20:39,680"
+      },
+      "offsets": {
+        "from": 1231360,
+        "to": 1239680
+      },
+      "text": " Dediğim ki ürün masaya konumuş, eller göz müya. Ürünün üstünden rızı hatlatıcı duman geliyor, dedim."
+    },
+    {
+      "timestamps": {
+        "from": "00:20:39,680",
+        "to": "00:21:04,160"
+      },
+      "offsets": {
+        "from": 1239680,
+        "to": 1264160
+      },
+      "text": " Dediğim ki ürün masaya konumuş, eller göz müya. Ürünün üstünden rızı hatlatıcı duman geliyor, dedim."
+    },
+    {
+      "timestamps": {
+        "from": "00:21:04,160",
+        "to": "00:21:09,920"
+      },
+      "offsets": {
+        "from": 1264160,
+        "to": 1269920
+      },
+      "text": " Ürünün üstünden şimdi şu aralardan çıkartmasın dumanı. Tam üstünden dumanı çıkıyor, dedim."
+    },
+    {
+      "timestamps": {
+        "from": "00:21:09,920",
+        "to": "00:21:19,280"
+      },
+      "offsets": {
+        "from": 1269920,
+        "to": 1279280
+      },
+      "text": " Biraz hani loş bir işik olsun dedim, bana 4 tane resim oluşur, dedim. Yollayalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:21:19,280",
+        "to": "00:21:31,280"
+      },
+      "offsets": {
+        "from": 1279280,
+        "to": 1291280
+      },
+      "text": " Şimdi, anlaması zor bir prompt. Olmazsa yazımız promptu, hakikaten değişirip tekrar oluşuracağız, tam istediğimiz görüntüyü alana kadar."
+    },
+    {
+      "timestamps": {
+        "from": "00:21:31,280",
+        "to": "00:21:42,960"
+      },
+      "offsets": {
+        "from": 1291280,
+        "to": 1302960
+      },
+      "text": " Fotoğraflar oluştuk, gördüğünüz gibi ürün masaya koymuş, biraz daha güzel, böyle daha loş bir işik var, duman tam istediğimiz yerden çıkıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:21:42,960",
+        "to": "00:21:55,200"
+      },
+      "offsets": {
+        "from": 1302960,
+        "to": 1315200
+      },
+      "text": " Ama duman istediğimiz yoğunlukta değil, o yüzden ben bu fotoğrafa buna tekrardan yollayacağım diyeceğim ki \"Add more smoke, 100 nalaban ana pro, generate milk tool\" imleyeceğiz."
+    },
+    {
+      "timestamps": {
+        "from": "00:21:55,200",
+        "to": "00:22:03,280"
+      },
+      "offsets": {
+        "from": 1315200,
+        "to": 1323280
+      },
+      "text": " Dediğim ki biraz daha duman ekli de nalaban ana pro kullandı ve bana 2 tane resim oluşur, dedim."
+    },
+    {
+      "timestamps": {
+        "from": "00:22:03,280",
+        "to": "00:22:05,120"
+      },
+      "offsets": {
+        "from": 1323280,
+        "to": 1325120
+      },
+      "text": " Bu sefer 2 tane oluşur ise yeterli."
+    },
+    {
+      "timestamps": {
+        "from": "00:22:05,120",
+        "to": "00:22:12,680"
+      },
+      "offsets": {
+        "from": 1325120,
+        "to": 1332680
+      },
+      "text": " Evet, videolar oluştu. Aslında tam üstünden çıksın, istiyordum çünkü hürümde sadece üstünden çıkıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:22:12,680",
+        "to": "00:22:22,320"
+      },
+      "offsets": {
+        "from": 1332680,
+        "to": 1342320
+      },
+      "text": " Şu şekilde ama bunlarda kötü durmuyor. Aslında böyle küçük bir marketing trick yaparak bu fotoğrafları da kullanabiliriz."
+    },
+    {
+      "timestamps": {
+        "from": "00:22:22,320",
+        "to": "00:22:37,040"
+      },
+      "offsets": {
+        "from": 1342320,
+        "to": 1357040
+      },
+      "text": " İsterseniz en sadece üstünden çıkmasını, yani insanları çok fazla yanıtmak istemiyorsanız, sadece üstünden çıkan bir şey de kullanabilirsiniz ama bunlarda çok güzel duruyor, bence o yüzden ben bunu kullanacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:22:37,040",
+        "to": "00:22:47,480"
+      },
+      "offsets": {
+        "from": 1357040,
+        "to": 1367480
+      },
+      "text": " Bunu indiriyorum, sonra diyorum ki \"Anima eat this video, using clean key point\" diyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:22:50,360",
+        "to": "00:23:20,360"
+      },
+      "offsets": {
+        "from": 1370360,
+        "to": 1400360
+      },
+      "text": " \"Kameraya şudur muhtemelenlerin şarkılarının morsiyem ve şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur muhtemelerin şudur mu"
+    },
+    {
+      "timestamps": {
+        "from": "00:23:20,360",
+        "to": "00:23:26,960"
+      },
+      "offsets": {
+        "from": 1400360,
+        "to": 1406960
+      },
+      "text": " Ok böyle de sekit aradayım ki bu videoyu işte klinkunar ve bu fotoğrafı klinkunar"
+    },
+    {
+      "timestamps": {
+        "from": "00:23:26,960",
+        "to": "00:23:33,480"
+      },
+      "offsets": {
+        "from": 1406960,
+        "to": 1413480
+      },
+      "text": " video dönüştür kamera böyle dairesel bir hareket yapsın dedim yürüyünün et"
+    },
+    {
+      "timestamps": {
+        "from": "00:23:33,480",
+        "to": "00:23:44,040"
+      },
+      "offsets": {
+        "from": 1413480,
+        "to": 1424040
+      },
+      "text": " saflında ve yürüne yaklaşsın dedim hafifçe dedim ki yürüne hafifçe yaklaşsın ve"
+    },
+    {
+      "timestamps": {
+        "from": "00:23:44,040",
+        "to": "00:23:49,480"
+      },
+      "offsets": {
+        "from": 1424040,
+        "to": 1429480
+      },
+      "text": " yürüyünün üstünden rahatlatıcı bir duman çıkıyor ve bu duman yükseliyor dedim bu şekilde"
+    },
+    {
+      "timestamps": {
+        "from": "00:23:49,480",
+        "to": "00:23:57,200"
+      },
+      "offsets": {
+        "from": 1429480,
+        "to": 1437200
+      },
+      "text": " gönderiyor ne hadi buradaki videoya yine feyli oldu dediğim gibi aradı çarşı çalışmıyor"
+    },
+    {
+      "timestamps": {
+        "from": "00:23:57,200",
+        "to": "00:24:03,120"
+      },
+      "offsets": {
+        "from": 1437200,
+        "to": 1443120
+      },
+      "text": " buradaki prompt kopyalıyorum aaa geliyorum buraya buraya bir de preş atalım feyli olan buraya"
+    },
+    {
+      "timestamps": {
+        "from": "00:24:03,120",
+        "to": "00:24:10,600"
+      },
+      "offsets": {
+        "from": 1443120,
+        "to": 1450600
+      },
+      "text": " de gelecek aynen öyle geldi promptü buraya yapıştırıyorum ama sonra buradan eee freyimi"
+    },
+    {
+      "timestamps": {
+        "from": "00:24:10,600",
+        "to": "00:24:18,540"
+      },
+      "offsets": {
+        "from": 1450600,
+        "to": 1458540
+      },
+      "text": " de yükliyorum bu tarafa gerçekten bir seçmemiz lazım aynen freyimi geldi buraya"
+    },
+    {
+      "timestamps": {
+        "from": "00:24:18,540",
+        "to": "00:24:25,940"
+      },
+      "offsets": {
+        "from": 1458540,
+        "to": 1465940
+      },
+      "text": " buradan şimdi istediğim gibi oluşuyorum ııı sesi kapattım ağlı yedi saniyorsun bin seksen pek"
+    },
+    {
+      "timestamps": {
+        "from": "00:24:25,940",
+        "to": "00:24:33,920"
+      },
+      "offsets": {
+        "from": 1465940,
+        "to": 1473920
+      },
+      "text": " gördüğünüz gibi on krediyle oluşuyorum videoyu şimdi videolarımız oluştu"
+    },
+    {
+      "timestamps": {
+        "from": "00:24:33,920",
+        "to": "00:24:41,260"
+      },
+      "offsets": {
+        "from": 1473920,
+        "to": 1481260
+      },
+      "text": " ben bakalım bir galetik güzel çıkıyor aslında tam yukarıdan çıkıyor istediğimiz gibi ama"
+    },
+    {
+      "timestamps": {
+        "from": "00:24:41,260",
+        "to": "00:24:44,580"
+      },
+      "offsets": {
+        "from": 1481260,
+        "to": 1484580
+      },
+      "text": " biraz az çıkmış bu videoda iki tane cennet etmiştim"
+    },
+    {
+      "timestamps": {
+        "from": "00:24:48,540",
+        "to": "00:24:58,940"
+      },
+      "offsets": {
+        "from": 1488540,
+        "to": 1498940
+      },
+      "text": " belki başkısımlarını kullanabiliriz ikisinde hani onun orasını bunun burasını aynen hani"
+    },
+    {
+      "timestamps": {
+        "from": "00:24:58,940",
+        "to": "00:25:05,100"
+      },
+      "offsets": {
+        "from": 1498940,
+        "to": 1505100
+      },
+      "text": " isterseniz bir kaşayanlar cennet edebilirsiniz en güzel olmak için ama bunlar gayetlerden anlatır seviyede"
+    },
+    {
+      "timestamps": {
+        "from": "00:25:05,100",
+        "to": "00:25:10,980"
+      },
+      "offsets": {
+        "from": 1505100,
+        "to": 1510980
+      },
+      "text": " hani belki daha daha aşırı böyle dolu dolu duman çıkartması issenine binlerdi ama şimdi"
+    },
+    {
+      "timestamps": {
+        "from": "00:25:10,980",
+        "to": "00:25:18,880"
+      },
+      "offsets": {
+        "from": 1510980,
+        "to": 1518880
+      },
+      "text": " bunları kullanacağım onunla sonra bu videoların hepsine editleme kısmına geçelim zaten"
+    },
+    {
+      "timestamps": {
+        "from": "00:25:18,880",
+        "to": "00:25:31,300"
+      },
+      "offsets": {
+        "from": 1518880,
+        "to": 1531300
+      },
+      "text": " hukumu yapmışım burada diğer videolarımı yükliyorum öncelikle ürünü açıyor sonra"
+    },
+    {
+      "timestamps": {
+        "from": "00:25:33,060",
+        "to": "00:25:41,260"
+      },
+      "offsets": {
+        "from": 1533060,
+        "to": 1541260
+      },
+      "text": " buradan üst kısmını kaldırıya şöyle yapalım"
+    },
+    {
+      "timestamps": {
+        "from": "00:25:46,460",
+        "to": "00:25:50,060"
+      },
+      "offsets": {
+        "from": 1546460,
+        "to": 1550060
+      },
+      "text": " taş şuradan başlasın diki"
+    },
+    {
+      "timestamps": {
+        "from": "00:25:55,620",
+        "to": "00:26:03,820"
+      },
+      "offsets": {
+        "from": 1555620,
+        "to": 1563820
+      },
+      "text": " bunlar bir de kızlandırabiliriz ama ürün bildiğinde çok saldığını üzüldüm sadece şu haklıden azlandacağım"
+    },
+    {
+      "timestamps": {
+        "from": "00:26:03,820",
+        "to": "00:26:06,620"
+      },
+      "offsets": {
+        "from": 1563820,
+        "to": 1566620
+      },
+      "text": " aynen bu şekilde yeterli olur"
+    },
+    {
+      "timestamps": {
+        "from": "00:26:06,620",
+        "to": "00:26:09,620"
+      },
+      "offsets": {
+        "from": 1566620,
+        "to": 1569620
+      },
+      "text": " onunla sonra içine ayran düküyor"
+    },
+    {
+      "timestamps": {
+        "from": "00:26:13,620",
+        "to": "00:26:19,620"
+      },
+      "offsets": {
+        "from": 1573620,
+        "to": 1579620
+      },
+      "text": " bu şekilde sonra duman gösterdiği kılıklar"
+    },
+    {
+      "timestamps": {
+        "from": "00:26:26,620",
+        "to": "00:26:29,620"
+      },
+      "offsets": {
+        "from": 1586620,
+        "to": 1589620
+      },
+      "text": " dağını kullanalımıza gerekecek bu nasıl"
+    },
+    {
+      "timestamps": {
+        "from": "00:26:33,620",
+        "to": "00:26:37,620"
+      },
+      "offsets": {
+        "from": 1593620,
+        "to": 1597620
+      },
+      "text": " baş şuradan itibaren alabilirsiniz farklı da açılsın"
+    },
+    {
+      "timestamps": {
+        "from": "00:26:49,620",
+        "to": "00:26:51,620"
+      },
+      "offsets": {
+        "from": 1609620,
+        "to": 1611620
+      },
+      "text": " bunu şöyle kullanacağım"
+    },
+    {
+      "timestamps": {
+        "from": "00:26:56,620",
+        "to": "00:26:59,620"
+      },
+      "offsets": {
+        "from": 1616620,
+        "to": 1619620
+      },
+      "text": " gelçi böyle yapsak daha iyi olur"
+    },
+    {
+      "timestamps": {
+        "from": "00:27:03,620",
+        "to": "00:27:12,620"
+      },
+      "offsets": {
+        "from": 1623620,
+        "to": 1632620
+      },
+      "text": " aynen bir de ilağının hapsan hemen gelip bir tanesis oluşurduğum burada ilağın çiği modelini kullanarak iyi bir ses kullandım"
+    },
+    {
+      "timestamps": {
+        "from": "00:27:18,620",
+        "to": "00:27:23,620"
+      },
+      "offsets": {
+        "from": 1638620,
+        "to": 1643620
+      },
+      "text": " bunu indiriyorum gayet güzel ve enerji bir şekilde ses sandırmış"
+    },
+    {
+      "timestamps": {
+        "from": "00:27:23,620",
+        "to": "00:27:25,620"
+      },
+      "offsets": {
+        "from": 1643620,
+        "to": 1645620
+      },
+      "text": " tabi burası çok uzun"
+    },
+    {
+      "timestamps": {
+        "from": "00:27:25,620",
+        "to": "00:27:27,620"
+      },
+      "offsets": {
+        "from": 1645620,
+        "to": 1647620
+      },
+      "text": " en an bunu kısaldıdan biraz"
+    },
+    {
+      "timestamps": {
+        "from": "00:27:36,620",
+        "to": "00:27:40,620"
+      },
+      "offsets": {
+        "from": 1656620,
+        "to": 1660620
+      },
+      "text": " üç senebiliriz direkt 2 dam başlasın çünkü okumusun"
+    },
+    {
+      "timestamps": {
+        "from": "00:27:44,620",
+        "to": "00:27:46,620"
+      },
+      "offsets": {
+        "from": 1664620,
+        "to": 1666620
+      },
+      "text": " aynen bu şekilde"
+    },
+    {
+      "timestamps": {
+        "from": "00:27:54,620",
+        "to": "00:28:01,620"
+      },
+      "offsets": {
+        "from": 1674620,
+        "to": 1681620
+      },
+      "text": " şimdi ben burada çok sahne geçişleri boşluluyor"
+    },
+    {
+      "timestamps": {
+        "from": "00:28:01,620",
+        "to": "00:28:07,620"
+      },
+      "offsets": {
+        "from": 1681620,
+        "to": 1687620
+      },
+      "text": " hepsini aynı referans fotoğrafını kullanmamız için ürün hep aynı yerde aslında videolar da fark ederseniz"
+    },
+    {
+      "timestamps": {
+        "from": "00:28:07,620",
+        "to": "00:28:16,620"
+      },
+      "offsets": {
+        "from": 1687620,
+        "to": 1696620
+      },
+      "text": " o yüzden bu aynı geçişleri biraz daha gözünden çekmek için ben aralara geçiş yapacağım"
+    },
+    {
+      "timestamps": {
+        "from": "00:28:19,620",
+        "to": "00:28:27,620"
+      },
+      "offsets": {
+        "from": 1699620,
+        "to": 1707620
+      },
+      "text": " şimdi fark ederseniz ürün de hep aynı referans fotoğrafı kullanmamız için ürün hep aynı yerde yani 1-1 aynı yerde duruyor"
+    },
+    {
+      "timestamps": {
+        "from": "00:28:27,620",
+        "to": "00:28:36,620"
+      },
+      "offsets": {
+        "from": 1707620,
+        "to": 1716620
+      },
+      "text": " biz bunun önüne geçmek için ben aralara geçiş atacağım ki insanlar bu kadar fark etmesin ürünün sürekli aynı yerde olduğunu"
+    },
+    {
+      "timestamps": {
+        "from": "00:28:36,620",
+        "to": "00:28:45,620"
+      },
+      "offsets": {
+        "from": 1716620,
+        "to": 1725620
+      },
+      "text": " o yüzden buraya en sevdiğim benim efekter burada pululm ve pulat efekleri yani en sevdiğim eyle aslında bu ürüne yakışacağını düşünüyorum"
+    },
+    {
+      "timestamps": {
+        "from": "00:28:47,620",
+        "to": "00:28:51,620"
+      },
+      "offsets": {
+        "from": 1727620,
+        "to": 1731620
+      },
+      "text": " bu şekilde biraz daha uzatabiliriz olabileceğim"
+    },
+    {
+      "timestamps": {
+        "from": "00:29:03,620",
+        "to": "00:29:19,620"
+      },
+      "offsets": {
+        "from": 1743620,
+        "to": 1759620
+      },
+      "text": " en en sonu buraya da niks efektini atacağım videomuzu tekrarlığınız için"
+    },
+    {
+      "timestamps": {
+        "from": "00:29:19,620",
+        "to": "00:29:27,620"
+      },
+      "offsets": {
+        "from": 1759620,
+        "to": 1767620
+      },
+      "text": " ilk şu başkasında biraz boş bir şekilde edit içeri gibi şuradan ben kırmayacağım"
+    },
+    {
+      "timestamps": {
+        "from": "00:29:34,620",
+        "to": "00:29:45,620"
+      },
+      "offsets": {
+        "from": 1774620,
+        "to": 1785620
+      },
+      "text": " aynen sanki elimize gerçekten ürün varmış gibi hissedimiz arka plan da ve hissedimiz arka plan ürünlerine ekleyerek ürünümüzü çektik"
+    },
+    {
+      "timestamps": {
+        "from": "00:29:45,620",
+        "to": "00:29:59,620"
+      },
+      "offsets": {
+        "from": 1785620,
+        "to": 1799620
+      },
+      "text": " ve heni kendimiz çeksek burada erkekeli gözü çöktü, biz burada kız eli kullandık ocele isterseniz kendinizde ocee sürebilirsin ama tavsiye etmiyorum gayet güzel oldu sesimiz de bence on numara"
+    },
+    {
+      "timestamps": {
+        "from": "00:30:02,620",
+        "to": "00:30:06,620"
+      },
+      "offsets": {
+        "from": 1802620,
+        "to": 1806620
+      },
+      "text": " videomuz tamamlandı arkadaşlar bu ürünün bir tane baş çıkazabilirsiniz"
+    },
+    {
+      "timestamps": {
+        "from": "00:30:06,620",
+        "to": "00:30:13,620"
+      },
+      "offsets": {
+        "from": 1806620,
+        "to": 1813620
+      },
+      "text": " onlar sonra bir tane de arkaya hafif bir müzik koyduğunuz zaman on numara video olacaktır kontroversimiz de var"
+    },
+    {
+      "timestamps": {
+        "from": "00:30:13,620",
+        "to": "00:30:16,420"
+      },
+      "offsets": {
+        "from": 1813620,
+        "to": 1816420
+      },
+      "text": " Koyuruz çefsine. Hangi ayet memnun kalbimi devam."
+    }
+  ]
+}

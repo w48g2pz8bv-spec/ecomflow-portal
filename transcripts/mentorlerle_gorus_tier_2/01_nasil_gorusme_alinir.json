@@ -1,0 +1,164 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+		"language": "tr",
+		"translate": false
+	},
+	"result": {
+		"language": "tr"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:03,940"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 3940
+			},
+			"text": " Evet servamlar bu videoda nasıl yirmi ilk görüşmesi alabilirsiniz onu anlatacağım."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,940",
+				"to": "00:00:09,340"
+			},
+			"offsets": {
+				"from": 3940,
+				"to": 9340
+			},
+			"text": " Evet şimdi siz mentörle başladığınız zaman size kalenderlikleri verecek mentörlerin."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,340",
+				"to": "00:00:13,800"
+			},
+			"offsets": {
+				"from": 9340,
+				"to": 13800
+			},
+			"text": " Yani bu linkler üzerinden kendiniz görüşme seçebileceksiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,800",
+				"to": "00:00:18,860"
+			},
+			"offsets": {
+				"from": 13800,
+				"to": 18860
+			},
+			"text": " Başlangıçta ilk önce ben de ve alperenle görüşeceksiniz ilerledikçe"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,860",
+				"to": "00:00:22,460"
+			},
+			"offsets": {
+				"from": 18860,
+				"to": 22460
+			},
+			"text": " Ahmet abi ile Ahkan abi ile görüşebileceksiniz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,460",
+				"to": "00:00:27,560"
+			},
+			"offsets": {
+				"from": 22460,
+				"to": 27560
+			},
+			"text": " Buradan hangi tarih uydumsa mentörü o tarihi seçiyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,560",
+				"to": "00:00:32,220"
+			},
+			"offsets": {
+				"from": 27560,
+				"to": 32220
+			},
+			"text": " Saatini seçiyorsunuz, buradan sonra neyse basıyorsunuz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,220",
+				"to": "00:00:38,460"
+			},
+			"offsets": {
+				"from": 32220,
+				"to": 38460
+			},
+			"text": " Burada isminizi yazıyorsunuz, meyla adresinizi."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:38,460",
+				"to": "00:00:41,660"
+			},
+			"offsets": {
+				"from": 38460,
+				"to": 41660
+			},
+			"text": " Burada ise görüşmüle sorucan soruları buraya yazabilirsin."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:41,660",
+				"to": "00:00:46,140"
+			},
+			"offsets": {
+				"from": 41660,
+				"to": 46140
+			},
+			"text": " Miting başladığı zaman ilk önce bu soruları cevaplarız sonra Miting'e devam ederiz."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:46,140",
+				"to": "00:00:51,720"
+			},
+			"offsets": {
+				"from": 46140,
+				"to": 51720
+			},
+			"text": " Ayrıayla etten de buraya telefon numaranı girersen görüşmeye yarım satkalı sana bir esim veskeliyor."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:51,720",
+				"to": "00:00:53,660"
+			},
+			"offsets": {
+				"from": 51720,
+				"to": 53660
+			},
+			"text": " Görüşmeye hatırlatmak amacıyla."
+		}
+	]
+}

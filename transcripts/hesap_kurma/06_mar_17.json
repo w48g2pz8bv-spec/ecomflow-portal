@@ -1,0 +1,3761 @@
+{
+  "systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+  "model": {
+    "type": "base",
+    "multilingual": true,
+    "vocab": 51865,
+    "audio": {
+      "ctx": 1500,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "text": {
+      "ctx": 448,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "mels": 80,
+    "ftype": 1
+  },
+  "params": {
+    "model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+    "language": "tr",
+    "translate": false
+  },
+  "result": {
+    "language": "tr"
+  },
+  "transcription": [
+    {
+      "timestamps": {
+        "from": "00:00:00,000",
+        "to": "00:00:03,440"
+      },
+      "offsets": {
+        "from": 0,
+        "to": 3440
+      },
+      "text": " Şimdi ilk yapmamız gereken kısmı EPSTOR'a girmek."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:03,440",
+        "to": "00:00:05,940"
+      },
+      "offsets": {
+        "from": 3440,
+        "to": 5940
+      },
+      "text": " Velkâm'tı EPSTOR burada şöyle bir olay var."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:06,840",
+        "to": "00:00:12,280"
+      },
+      "offsets": {
+        "from": 6840,
+        "to": 12280
+      },
+      "text": " Siz bir şey indirmeye bastığınız zaman sizden bir adres bilgisi ve telefon numarası girmenizi isteyecek."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:12,280",
+        "to": "00:00:16,800"
+      },
+      "offsets": {
+        "from": 12280,
+        "to": 16800
+      },
+      "text": " Mesela ben buraya bir sör şarkı yazayım, sör şarkı yazdım, gete bastım,"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:18,240",
+        "to": "00:00:19,640"
+      },
+      "offsets": {
+        "from": 18240,
+        "to": 19640
+      },
+      "text": " install'a basıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:25,440",
+        "to": "00:00:27,880"
+      },
+      "offsets": {
+        "from": 25440,
+        "to": 27880
+      },
+      "text": " Şimdi benden adres torulaması ve telefon isteyecek."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:27,880",
+        "to": "00:00:29,280"
+      },
+      "offsets": {
+        "from": 27880,
+        "to": 29280
+      },
+      "text": " Aynen, bak bu şekilde."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:29,280",
+        "to": "00:00:32,160"
+      },
+      "offsets": {
+        "from": 29280,
+        "to": 32160
+      },
+      "text": " Disafolakan has not yet being use i-tune store."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:32,160",
+        "to": "00:00:33,360"
+      },
+      "offsets": {
+        "from": 32160,
+        "to": 33360
+      },
+      "text": " Review diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:33,360",
+        "to": "00:00:37,360"
+      },
+      "offsets": {
+        "from": 33360,
+        "to": 37360
+      },
+      "text": " Buradan benden telefon adres bilgisi, telefon bilgisi girmem isteyecek."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:37,360",
+        "to": "00:00:39,840"
+      },
+      "offsets": {
+        "from": 37360,
+        "to": 39840
+      },
+      "text": " Ama bu kısım çok fazla ekstrem öğrenmediği değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:39,840",
+        "to": "00:00:41,600"
+      },
+      "offsets": {
+        "from": 39840,
+        "to": 41600
+      },
+      "text": " Buradan nasıl yapacağınızı göstereceğim."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:42,800",
+        "to": "00:00:45,160"
+      },
+      "offsets": {
+        "from": 42800,
+        "to": 45160
+      },
+      "text": " Terms and condition."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:45,160",
+        "to": "00:00:46,240"
+      },
+      "offsets": {
+        "from": 45160,
+        "to": 46240
+      },
+      "text": " Aynen, buradayız."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:46,240",
+        "to": "00:00:48,680"
+      },
+      "offsets": {
+        "from": 46240,
+        "to": 48680
+      },
+      "text": " Şimdi, buraday yapacağımız kısım şu olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:48,680",
+        "to": "00:00:50,800"
+      },
+      "offsets": {
+        "from": 48680,
+        "to": 50800
+      },
+      "text": " Buradan gireceğim abi, tıklıyorum buna."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:50,800",
+        "to": "00:00:53,360"
+      },
+      "offsets": {
+        "from": 50800,
+        "to": 53360
+      },
+      "text": " Fake UK adres diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:53,360",
+        "to": "00:00:55,200"
+      },
+      "offsets": {
+        "from": 53360,
+        "to": 55200
+      },
+      "text": " Random adresi çenere itire giriyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:56,400",
+        "to": "00:00:58,800"
+      },
+      "offsets": {
+        "from": 56400,
+        "to": 58800
+      },
+      "text": " Buradan indiye değil, United Kingdom."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:58,800",
+        "to": "00:01:00,560"
+      },
+      "offsets": {
+        "from": 58800,
+        "to": 60560
+      },
+      "text": " Bana bir tane versen yeter."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:00,560",
+        "to": "00:01:01,360"
+      },
+      "offsets": {
+        "from": 60560,
+        "to": 61360
+      },
+      "text": " Genere itliyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:01,360",
+        "to": "00:01:02,160"
+      },
+      "offsets": {
+        "from": 61360,
+        "to": 62160
+      },
+      "text": " OK, çıkardım."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:02,160",
+        "to": "00:01:04,160"
+      },
+      "offsets": {
+        "from": 62160,
+        "to": 64160
+      },
+      "text": " Niye bu kadar zor bir adres verdim bize?"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:05,920",
+        "to": "00:01:06,720"
+      },
+      "offsets": {
+        "from": 65920,
+        "to": 66720
+      },
+      "text": " Poskot."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:06,720",
+        "to": "00:01:07,920"
+      },
+      "offsets": {
+        "from": 66720,
+        "to": 67920
+      },
+      "text": " Poskotumuz neyi?"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:07,920",
+        "to": "00:01:14,320"
+      },
+      "offsets": {
+        "from": 67920,
+        "to": 74320
+      },
+      "text": " CW, CW, Bir V, Bir V, İki, SS."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:14,320",
+        "to": "00:01:15,120"
+      },
+      "offsets": {
+        "from": 74320,
+        "to": 75120
+      },
+      "text": " SS."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:15,120",
+        "to": "00:01:18,920"
+      },
+      "offsets": {
+        "from": 75120,
+        "to": 78920
+      },
+      "text": " OK, Street A yazalım bir tanesi, Street'imiz neymiş?"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:18,920",
+        "to": "00:01:21,000"
+      },
+      "offsets": {
+        "from": 78920,
+        "to": 81000
+      },
+      "text": " Vox Hall Bridge Road."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:21,000",
+        "to": "00:01:21,960"
+      },
+      "offsets": {
+        "from": 81000,
+        "to": 81960
+      },
+      "text": " OK."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:21,960",
+        "to": "00:01:23,160"
+      },
+      "offsets": {
+        "from": 81960,
+        "to": 83160
+      },
+      "text": " Townumuz nedir?"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:23,160",
+        "to": "00:01:25,840"
+      },
+      "offsets": {
+        "from": 83160,
+        "to": 85840
+      },
+      "text": " Country'da, Country'da, Country'da."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:25,840",
+        "to": "00:01:28,760"
+      },
+      "offsets": {
+        "from": 85840,
+        "to": 88760
+      },
+      "text": " Telefon numarasını bir önceki kullandığım numarayı kullanabilirim."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:28,760",
+        "to": "00:01:30,880"
+      },
+      "offsets": {
+        "from": 88760,
+        "to": 90880
+      },
+      "text": " Normalde buraya herhangi bir şey gelmeyecek bu arada."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:30,880",
+        "to": "00:01:32,880"
+      },
+      "offsets": {
+        "from": 90880,
+        "to": 92880
+      },
+      "text": " O yüzden çok fazla kasvanıza gerek yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:32,880",
+        "to": "00:01:34,520"
+      },
+      "offsets": {
+        "from": 92880,
+        "to": 94520
+      },
+      "text": " Yani, bunu maranız gitse bile."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:34,520",
+        "to": "00:01:36,320"
+      },
+      "offsets": {
+        "from": 94520,
+        "to": 96320
+      },
+      "text": " Sonunda bir şey değişmiyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:36,320",
+        "to": "00:01:38,720"
+      },
+      "offsets": {
+        "from": 96320,
+        "to": 98720
+      },
+      "text": " Yani, herhangi bana ilama gelmiyor dediğim gibi."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:38,720",
+        "to": "00:01:40,840"
+      },
+      "offsets": {
+        "from": 98720,
+        "to": 100840
+      },
+      "text": " 680-6832."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:40,840",
+        "to": "00:01:43,080"
+      },
+      "offsets": {
+        "from": 100840,
+        "to": 103080
+      },
+      "text": " Dan diyorum, next diyorum, direkt onu aileyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:43,080",
+        "to": "00:01:44,840"
+      },
+      "offsets": {
+        "from": 103080,
+        "to": 104840
+      },
+      "text": " Çünkü bunlar çok önemli şeyler değiller."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:44,840",
+        "to": "00:01:45,320"
+      },
+      "offsets": {
+        "from": 104840,
+        "to": 105320
+      },
+      "text": " OK, bilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:45,320",
+        "to": "00:01:46,960"
+      },
+      "offsets": {
+        "from": 105320,
+        "to": 106960
+      },
+      "text": " Apple account, complete."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:46,960",
+        "to": "00:01:48,200"
+      },
+      "offsets": {
+        "from": 106960,
+        "to": 108200
+      },
+      "text": " Dan, bitti bu kadar."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:48,200",
+        "to": "00:01:50,600"
+      },
+      "offsets": {
+        "from": 108200,
+        "to": 110600
+      },
+      "text": " Şimdi, tekrardan gete basacağım, installa basacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:50,600",
+        "to": "00:01:53,320"
+      },
+      "offsets": {
+        "from": 110600,
+        "to": 113320
+      },
+      "text": " İlk sefer özel, gene şifre girmeme isteyecek her şartta."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:53,320",
+        "to": "00:01:54,600"
+      },
+      "offsets": {
+        "from": 113320,
+        "to": 114600
+      },
+      "text": " Genet sign'in diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:54,600",
+        "to": "00:01:55,520"
+      },
+      "offsets": {
+        "from": 114600,
+        "to": 115520
+      },
+      "text": " Tamamdır."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:55,520",
+        "to": "00:01:56,680"
+      },
+      "offsets": {
+        "from": 115520,
+        "to": 116680
+      },
+      "text": " Tebrikler arkadaşlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:56,680",
+        "to": "00:01:57,720"
+      },
+      "offsets": {
+        "from": 116680,
+        "to": 117720
+      },
+      "text": " Bunu indiriyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:57,720",
+        "to": "00:01:59,040"
+      },
+      "offsets": {
+        "from": 117720,
+        "to": 119040
+      },
+      "text": " Yapacağım, bu dolayı şey olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:59,040",
+        "to": "00:02:00,680"
+      },
+      "offsets": {
+        "from": 119040,
+        "to": 120680
+      },
+      "text": " Söğür şarkı indirecek."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:00,680",
+        "to": "00:02:02,680"
+      },
+      "offsets": {
+        "from": 120680,
+        "to": 122680
+      },
+      "text": " Söğür şarkı biz bağlanıyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:02,680",
+        "to": "00:02:04,640"
+      },
+      "offsets": {
+        "from": 122680,
+        "to": 124640
+      },
+      "text": " Ben Söğür şarkı login yapacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:04,640",
+        "to": "00:02:08,720"
+      },
+      "offsets": {
+        "from": 124640,
+        "to": 128720
+      },
+      "text": " Ondan sonra hemen kendimiz yukaya bağlanıyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:08,720",
+        "to": "00:02:10,760"
+      },
+      "offsets": {
+        "from": 128720,
+        "to": 130760
+      },
+      "text": " Sonra da yukaya devam, devam, devam."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:10,760",
+        "to": "00:02:11,640"
+      },
+      "offsets": {
+        "from": 130760,
+        "to": 131640
+      },
+      "text": " Open diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:11,640",
+        "to": "00:02:15,760"
+      },
+      "offsets": {
+        "from": 131640,
+        "to": 135760
+      },
+      "text": " Ona sonra burada kendi bilgilerimi, kendi girmişeğimi girmem lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:15,760",
+        "to": "00:02:17,040"
+      },
+      "offsets": {
+        "from": 135760,
+        "to": 137040
+      },
+      "text": " Akseptiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:17,040",
+        "to": "00:02:18,240"
+      },
+      "offsets": {
+        "from": 137040,
+        "to": 138240
+      },
+      "text": " Login diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:18,240",
+        "to": "00:02:21,560"
+      },
+      "offsets": {
+        "from": 138240,
+        "to": 141560
+      },
+      "text": " Burada hemen ben kendi şeyimi gideyim."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:21,560",
+        "to": "00:02:22,240"
+      },
+      "offsets": {
+        "from": 141560,
+        "to": 142240
+      },
+      "text": " Tamamdır."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:22,240",
+        "to": "00:02:24,400"
+      },
+      "offsets": {
+        "from": 142240,
+        "to": 144400
+      },
+      "text": " Söğür şarkındayız arkadaşlar, başardık."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:24,400",
+        "to": "00:02:27,160"
+      },
+      "offsets": {
+        "from": 144400,
+        "to": 147160
+      },
+      "text": " Tebrikler, şimdi buradan yukaya geliyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:27,160",
+        "to": "00:02:28,320"
+      },
+      "offsets": {
+        "from": 147160,
+        "to": 148320
+      },
+      "text": " Uniting Kingdom."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:28,320",
+        "to": "00:02:31,280"
+      },
+      "offsets": {
+        "from": 148320,
+        "to": 151280
+      },
+      "text": " Burada, burada sefaklı şeyleri gösterecek."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:31,280",
+        "to": "00:02:33,400"
+      },
+      "offsets": {
+        "from": 151280,
+        "to": 153400
+      },
+      "text": " Burada specific şehir seçmenize gerek yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:33,400",
+        "to": "00:02:36,320"
+      },
+      "offsets": {
+        "from": 153400,
+        "to": 156320
+      },
+      "text": " Hatta bence en mantıklısı en hızlı sonuç alabileceğiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:36,320",
+        "to": "00:02:37,840"
+      },
+      "offsets": {
+        "from": 156320,
+        "to": 157840
+      },
+      "text": " O yüzden fastlıslı seçiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:37,840",
+        "to": "00:02:39,840"
+      },
+      "offsets": {
+        "from": 157840,
+        "to": 159840
+      },
+      "text": " Burada VPN olaylamamı istiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:39,840",
+        "to": "00:02:41,080"
+      },
+      "offsets": {
+        "from": 159840,
+        "to": 161080
+      },
+      "text": " Hello diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:41,080",
+        "to": "00:02:43,440"
+      },
+      "offsets": {
+        "from": 161080,
+        "to": 163440
+      },
+      "text": " Buradan VPN'i tekrardan olaylayacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:43,440",
+        "to": "00:02:45,960"
+      },
+      "offsets": {
+        "from": 163440,
+        "to": 165960
+      },
+      "text": " Aynen, şu anda bağlanmaya çalışıyor bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:45,960",
+        "to": "00:02:47,640"
+      },
+      "offsets": {
+        "from": 165960,
+        "to": 167640
+      },
+      "text": " Bluetooth kapatacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:47,640",
+        "to": "00:02:48,920"
+      },
+      "offsets": {
+        "from": 167640,
+        "to": 168920
+      },
+      "text": " İyi, iyi hatırlattım ben."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:48,920",
+        "to": "00:02:50,040"
+      },
+      "offsets": {
+        "from": 168920,
+        "to": 170040
+      },
+      "text": " Taşımdan kapatalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:50,040",
+        "to": "00:02:53,040"
+      },
+      "offsets": {
+        "from": 170040,
+        "to": 173040
+      },
+      "text": " Ondan sonra ayarlardan tekrardan kapatırız."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:53,040",
+        "to": "00:02:54,080"
+      },
+      "offsets": {
+        "from": 173040,
+        "to": 174080
+      },
+      "text": " Hatta direkt şey alalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:54,080",
+        "to": "00:02:54,920"
+      },
+      "offsets": {
+        "from": 174080,
+        "to": 174920
+      },
+      "text": " Sağ olasın."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:54,920",
+        "to": "00:02:56,360"
+      },
+      "offsets": {
+        "from": 174920,
+        "to": 176360
+      },
+      "text": " Bakın, bağlandık."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:56,360",
+        "to": "00:02:57,640"
+      },
+      "offsets": {
+        "from": 176360,
+        "to": 177640
+      },
+      "text": " Her şey yolunda gözüküyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:57,640",
+        "to": "00:02:59,280"
+      },
+      "offsets": {
+        "from": 177640,
+        "to": 179280
+      },
+      "text": " Hayat o numara çok mutlu gidiyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:59,280",
+        "to": "00:03:00,920"
+      },
+      "offsets": {
+        "from": 179280,
+        "to": 180920
+      },
+      "text": " Herhangi bir problem yaşamıyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:00,920",
+        "to": "00:03:03,400"
+      },
+      "offsets": {
+        "from": 180920,
+        "to": 183400
+      },
+      "text": " Şimdi, yapmamız gereken kısım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:03,400",
+        "to": "00:03:04,840"
+      },
+      "offsets": {
+        "from": 183400,
+        "to": 184840
+      },
+      "text": " Canlarım geleceğiz."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:04,840",
+        "to": "00:03:06,680"
+      },
+      "offsets": {
+        "from": 184840,
+        "to": 186680
+      },
+      "text": " Burada, Çeyner'de, Epsor Ailen'im."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:06,680",
+        "to": "00:03:09,360"
+      },
+      "offsets": {
+        "from": 186680,
+        "to": 189360
+      },
+      "text": " Bu sefer artık uygulamadığı indirmeye başlıyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:09,360",
+        "to": "00:03:10,200"
+      },
+      "offsets": {
+        "from": 189360,
+        "to": 190200
+      },
+      "text": " TikTok yazıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:10,200",
+        "to": "00:03:11,320"
+      },
+      "offsets": {
+        "from": 190200,
+        "to": 191320
+      },
+      "text": " Instagram indirelim."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:11,320",
+        "to": "00:03:12,520"
+      },
+      "offsets": {
+        "from": 191320,
+        "to": 192520
+      },
+      "text": " TikTok da o indirelim."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:12,520",
+        "to": "00:03:13,120"
+      },
+      "offsets": {
+        "from": 192520,
+        "to": 193120
+      },
+      "text": " Git."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:13,120",
+        "to": "00:03:14,640"
+      },
+      "offsets": {
+        "from": 193120,
+        "to": 194640
+      },
+      "text": " Bir de YouTube indireceğim."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:14,640",
+        "to": "00:03:18,200"
+      },
+      "offsets": {
+        "from": 194640,
+        "to": 198200
+      },
+      "text": " Devamında bir de YouTube'un yanında cime ilindirmen lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:18,200",
+        "to": "00:03:20,160"
+      },
+      "offsets": {
+        "from": 198200,
+        "to": 200160
+      },
+      "text": " Çünkü cimeyle kot falan gelecek esrekli."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:20,160",
+        "to": "00:03:20,800"
+      },
+      "offsets": {
+        "from": 200160,
+        "to": 200800
+      },
+      "text": " Bunu indiriyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:20,800",
+        "to": "00:03:21,640"
+      },
+      "offsets": {
+        "from": 200800,
+        "to": 201640
+      },
+      "text": " Olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:21,640",
+        "to": "00:03:22,440"
+      },
+      "offsets": {
+        "from": 201640,
+        "to": 202440
+      },
+      "text": " Install."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:22,440",
+        "to": "00:03:24,840"
+      },
+      "offsets": {
+        "from": 202440,
+        "to": 204840
+      },
+      "text": " Sonra bir de bizim neyimiz cime ilimiz var."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:24,840",
+        "to": "00:03:27,440"
+      },
+      "offsets": {
+        "from": 204840,
+        "to": 207440
+      },
+      "text": " Bir de devamına benim önerim size drive indirmeniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:27,440",
+        "to": "00:03:30,120"
+      },
+      "offsets": {
+        "from": 207440,
+        "to": 210120
+      },
+      "text": " Çünkü videoları bu üzerinden atamayacağımız için"
+    },
+    {
+      "timestamps": {
+        "from": "00:03:30,120",
+        "to": "00:03:31,880"
+      },
+      "offsets": {
+        "from": 210120,
+        "to": 211880
+      },
+      "text": " drive üzerinden atıyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:31,880",
+        "to": "00:03:34,160"
+      },
+      "offsets": {
+        "from": 211880,
+        "to": 214160
+      },
+      "text": " Burada drive se tabanı da yapmanız önemli."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:34,160",
+        "to": "00:03:35,920"
+      },
+      "offsets": {
+        "from": 214160,
+        "to": 215920
+      },
+      "text": " Şimdi, telefon da çok kurulun."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:35,920",
+        "to": "00:03:36,920"
+      },
+      "offsets": {
+        "from": 215920,
+        "to": 216920
+      },
+      "text": " Bitti bu arada."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:36,920",
+        "to": "00:03:38,320"
+      },
+      "offsets": {
+        "from": 216920,
+        "to": 218320
+      },
+      "text": " Ayağılada geliyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:38,320",
+        "to": "00:03:39,720"
+      },
+      "offsets": {
+        "from": 218320,
+        "to": 219720
+      },
+      "text": " Ayağılada geliyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:39,720",
+        "to": "00:03:41,920"
+      },
+      "offsets": {
+        "from": 219720,
+        "to": 221920
+      },
+      "text": " Buradan enerjiye iniyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:41,920",
+        "to": "00:03:42,400"
+      },
+      "offsets": {
+        "from": 221920,
+        "to": 222400
+      },
+      "text": " OK."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:42,400",
+        "to": "00:03:44,600"
+      },
+      "offsets": {
+        "from": 222400,
+        "to": 224600
+      },
+      "text": " Bakın, burada indirdeyim uygulamaları görüyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:44,600",
+        "to": "00:03:46,280"
+      },
+      "offsets": {
+        "from": 224600,
+        "to": 226280
+      },
+      "text": " YouTube'a girdim."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:46,280",
+        "to": "00:03:48,080"
+      },
+      "offsets": {
+        "from": 226280,
+        "to": 228080
+      },
+      "text": " Bekranda prefreşe kapattım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:48,080",
+        "to": "00:03:48,920"
+      },
+      "offsets": {
+        "from": 228080,
+        "to": 228920
+      },
+      "text": " Geri çıktım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:48,920",
+        "to": "00:03:50,040"
+      },
+      "offsets": {
+        "from": 228920,
+        "to": 230040
+      },
+      "text": " TikTok'a girdim."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:50,040",
+        "to": "00:03:51,360"
+      },
+      "offsets": {
+        "from": 230040,
+        "to": 231360
+      },
+      "text": " Arka planı yenilemeye çıktım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:51,360",
+        "to": "00:03:51,880"
+      },
+      "offsets": {
+        "from": 231360,
+        "to": 231880
+      },
+      "text": " Kapattım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:51,880",
+        "to": "00:03:52,960"
+      },
+      "offsets": {
+        "from": 231880,
+        "to": 232960
+      },
+      "text": " Geri çıktım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:52,960",
+        "to": "00:03:54,240"
+      },
+      "offsets": {
+        "from": 232960,
+        "to": 234240
+      },
+      "text": " Instagram'a girdim."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:54,240",
+        "to": "00:03:55,880"
+      },
+      "offsets": {
+        "from": 234240,
+        "to": 235880
+      },
+      "text": " Arka planı yenilmeyi kapattım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:55,880",
+        "to": "00:03:56,800"
+      },
+      "offsets": {
+        "from": 235880,
+        "to": 236800
+      },
+      "text": " OK midir?"
+    },
+    {
+      "timestamps": {
+        "from": "00:03:56,800",
+        "to": "00:03:57,720"
+      },
+      "offsets": {
+        "from": 236800,
+        "to": 237720
+      },
+      "text": " Hayatta miyiz?"
+    },
+    {
+      "timestamps": {
+        "from": "00:03:57,720",
+        "to": "00:04:00,040"
+      },
+      "offsets": {
+        "from": 237720,
+        "to": 240040
+      },
+      "text": " Geri size cime ili ve drive o kadar çok önemli değil."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:00,040",
+        "to": "00:04:00,840"
+      },
+      "offsets": {
+        "from": 240040,
+        "to": 240840
+      },
+      "text": " Gönül sonunda."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:00,840",
+        "to": "00:04:02,080"
+      },
+      "offsets": {
+        "from": 240840,
+        "to": 242080
+      },
+      "text": " Şimdi yapacağımız adım."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:02,080",
+        "to": "00:04:02,840"
+      },
+      "offsets": {
+        "from": 242080,
+        "to": 242840
+      },
+      "text": " Geliyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:02,840",
+        "to": "00:04:04,360"
+      },
+      "offsets": {
+        "from": 242840,
+        "to": 244360
+      },
+      "text": " TikTok'a giriyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:04,360",
+        "to": "00:04:07,960"
+      },
+      "offsets": {
+        "from": 244360,
+        "to": 247960
+      },
+      "text": " Şimdi bu TikTok'da bizim eğer UK numarası çıkarsa"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:07,960",
+        "to": "00:04:09,560"
+      },
+      "offsets": {
+        "from": 247960,
+        "to": 249560
+      },
+      "text": " biz hesabı düzgün kırmışız demek."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:09,560",
+        "to": "00:04:11,760"
+      },
+      "offsets": {
+        "from": 249560,
+        "to": 251760
+      },
+      "text": " Artık 44 bir numara görüsek."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:11,760",
+        "to": "00:04:14,000"
+      },
+      "offsets": {
+        "from": 251760,
+        "to": 254000
+      },
+      "text": " Use phone or e-mail diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:14,000",
+        "to": "00:04:15,800"
+      },
+      "offsets": {
+        "from": 254000,
+        "to": 255800
+      },
+      "text": " Bört de iyi random yapıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:15,800",
+        "to": "00:04:17,600"
+      },
+      "offsets": {
+        "from": 255800,
+        "to": 257600
+      },
+      "text": " Dört temmuz 99'luyum."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:17,600",
+        "to": "00:04:20,280"
+      },
+      "offsets": {
+        "from": 257600,
+        "to": 260280
+      },
+      "text": " Bakın, telefon numaramız artık 44'li çıktı ya."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:20,280",
+        "to": "00:04:21,120"
+      },
+      "offsets": {
+        "from": 260280,
+        "to": 261120
+      },
+      "text": " Hayat o numara."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:21,120",
+        "to": "00:04:23,080"
+      },
+      "offsets": {
+        "from": 261120,
+        "to": 263080
+      },
+      "text": " Şimdi buradan geliyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:23,080",
+        "to": "00:04:23,840"
+      },
+      "offsets": {
+        "from": 263080,
+        "to": 263840
+      },
+      "text": " TikTok'a giriyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:23,840",
+        "to": "00:04:27,280"
+      },
+      "offsets": {
+        "from": 263840,
+        "to": 267280
+      },
+      "text": " Bak sıfri 79 sentlik bir numara aldım."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:27,280",
+        "to": "00:04:28,160"
+      },
+      "offsets": {
+        "from": 267280,
+        "to": 268160
+      },
+      "text": " OK midir?"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:28,160",
+        "to": "00:04:28,640"
+      },
+      "offsets": {
+        "from": 268160,
+        "to": 268640
+      },
+      "text": " Geliyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:28,640",
+        "to": "00:04:30,320"
+      },
+      "offsets": {
+        "from": 268640,
+        "to": 270320
+      },
+      "text": " Buradan numaramızı yazıyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:30,320",
+        "to": "00:04:30,920"
+      },
+      "offsets": {
+        "from": 270320,
+        "to": 270920
+      },
+      "text": " 770."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:30,920",
+        "to": "00:04:32,280"
+      },
+      "offsets": {
+        "from": 270920,
+        "to": 272280
+      },
+      "text": " 8."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:32,280",
+        "to": "00:04:34,200"
+      },
+      "offsets": {
+        "from": 272280,
+        "to": 274200
+      },
+      "text": " 233."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:34,200",
+        "to": "00:04:35,440"
+      },
+      "offsets": {
+        "from": 274200,
+        "to": 275440
+      },
+      "text": " 31.23."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:35,440",
+        "to": "00:04:36,280"
+      },
+      "offsets": {
+        "from": 275440,
+        "to": 276280
+      },
+      "text": " OK midir?"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:36,280",
+        "to": "00:04:37,480"
+      },
+      "offsets": {
+        "from": 276280,
+        "to": 277480
+      },
+      "text": " Continu diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:37,480",
+        "to": "00:04:39,040"
+      },
+      "offsets": {
+        "from": 277480,
+        "to": 279040
+      },
+      "text": " Ente 6 digit code."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:39,040",
+        "to": "00:04:41,600"
+      },
+      "offsets": {
+        "from": 279040,
+        "to": 281600
+      },
+      "text": " Şimdi buradan altı anneni bir numara bekliyor alacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:41,600",
+        "to": "00:04:43,440"
+      },
+      "offsets": {
+        "from": 281600,
+        "to": 283440
+      },
+      "text": " Bu arada bekledik yeterince"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:43,440",
+        "to": "00:04:44,400"
+      },
+      "offsets": {
+        "from": 283440,
+        "to": 284400
+      },
+      "text": " mesajımız gelmedi."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:44,400",
+        "to": "00:04:45,480"
+      },
+      "offsets": {
+        "from": 284400,
+        "to": 285480
+      },
+      "text": " Yapacağımız olay şu."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:45,480",
+        "to": "00:04:46,880"
+      },
+      "offsets": {
+        "from": 285480,
+        "to": 286880
+      },
+      "text": " Resen code diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:46,880",
+        "to": "00:04:48,280"
+      },
+      "offsets": {
+        "from": 286880,
+        "to": 288280
+      },
+      "text": " Code tekrardan yolladım."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:48,280",
+        "to": "00:04:50,240"
+      },
+      "offsets": {
+        "from": 288280,
+        "to": 290240
+      },
+      "text": " Diyor ki maksimum number of items reach"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:50,240",
+        "to": "00:04:51,240"
+      },
+      "offsets": {
+        "from": 290240,
+        "to": 291240
+      },
+      "text": " try again later."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:51,240",
+        "to": "00:04:52,680"
+      },
+      "offsets": {
+        "from": 291240,
+        "to": 292680
+      },
+      "text": " Burada yapacak bir şey yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:52,680",
+        "to": "00:04:53,800"
+      },
+      "offsets": {
+        "from": 292680,
+        "to": 293800
+      },
+      "text": " Burada geri çıkıyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:53,800",
+        "to": "00:04:57,080"
+      },
+      "offsets": {
+        "from": 293800,
+        "to": 297080
+      },
+      "text": " Bir kere daha bir uygulamayı tekrardan kapatalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:57,080",
+        "to": "00:04:57,880"
+      },
+      "offsets": {
+        "from": 297080,
+        "to": 297880
+      },
+      "text": " Buradan kapatalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:57,880",
+        "to": "00:04:59,360"
+      },
+      "offsets": {
+        "from": 297880,
+        "to": 299360
+      },
+      "text": " Bir kere daha girip deneyelim."
+    },
+    {
+      "timestamps": {
+        "from": "00:04:59,360",
+        "to": "00:05:00,360"
+      },
+      "offsets": {
+        "from": 299360,
+        "to": 300360
+      },
+      "text": " Bakalım olacak bunun."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:00,360",
+        "to": "00:05:01,960"
+      },
+      "offsets": {
+        "from": 300360,
+        "to": 301960
+      },
+      "text": " 100 phone or email."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:01,960",
+        "to": "00:05:04,880"
+      },
+      "offsets": {
+        "from": 301960,
+        "to": 304880
+      },
+      "text": " Brandon bir tane email şey doğum tarihi giriyor olacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:04,880",
+        "to": "00:05:06,120"
+      },
+      "offsets": {
+        "from": 304880,
+        "to": 306120
+      },
+      "text": " Genel numara istedi."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:06,120",
+        "to": "00:05:07,520"
+      },
+      "offsets": {
+        "from": 306120,
+        "to": 307520
+      },
+      "text": " 278."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:07,520",
+        "to": "00:05:08,760"
+      },
+      "offsets": {
+        "from": 307520,
+        "to": 308760
+      },
+      "text": " OK."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:08,760",
+        "to": "00:05:09,840"
+      },
+      "offsets": {
+        "from": 308760,
+        "to": 309840
+      },
+      "text": " Şimdi bakın."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:09,840",
+        "to": "00:05:12,400"
+      },
+      "offsets": {
+        "from": 309840,
+        "to": 312400
+      },
+      "text": " Burada gene bu yayında olması güzel oldu."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:12,400",
+        "to": "00:05:14,600"
+      },
+      "offsets": {
+        "from": 312400,
+        "to": 314600
+      },
+      "text": " Bazen böyle sorunlar oluyor olabilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:14,600",
+        "to": "00:05:17,080"
+      },
+      "offsets": {
+        "from": 314600,
+        "to": 317080
+      },
+      "text": " Şimdi ben buradan bunu iptal ettiğim zaman"
+    },
+    {
+      "timestamps": {
+        "from": "00:05:17,080",
+        "to": "00:05:19,960"
+      },
+      "offsets": {
+        "from": 317080,
+        "to": 319960
+      },
+      "text": " bakın burada parabana geri iade ediliyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:19,960",
+        "to": "00:05:21,160"
+      },
+      "offsets": {
+        "from": 319960,
+        "to": 321160
+      },
+      "text": " Şu anda hiçbir paramız gitmedi."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:21,160",
+        "to": "00:05:21,960"
+      },
+      "offsets": {
+        "from": 321160,
+        "to": 321960
+      },
+      "text": " Hayatlayısın."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:21,960",
+        "to": "00:05:23,760"
+      },
+      "offsets": {
+        "from": 321960,
+        "to": 323760
+      },
+      "text": " Şimdi bir kere daha telefon numarası"
+    },
+    {
+      "timestamps": {
+        "from": "00:05:23,760",
+        "to": "00:05:25,200"
+      },
+      "offsets": {
+        "from": 323760,
+        "to": 325200
+      },
+      "text": " alıp deneyeceğim."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:25,200",
+        "to": "00:05:26,520"
+      },
+      "offsets": {
+        "from": 325200,
+        "to": 326520
+      },
+      "text": " Baktık olmuyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:26,520",
+        "to": "00:05:27,760"
+      },
+      "offsets": {
+        "from": 326520,
+        "to": 327760
+      },
+      "text": " Baktık yapamıyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:27,760",
+        "to": "00:05:30,920"
+      },
+      "offsets": {
+        "from": 327760,
+        "to": 330920
+      },
+      "text": " Ayrı bir şeyden buradan yeni bir tane teba açacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:30,920",
+        "to": "00:05:33,600"
+      },
+      "offsets": {
+        "from": 330920,
+        "to": 333600
+      },
+      "text": " Bilgisayarı interneti ben VPN'e bağlayacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:33,600",
+        "to": "00:05:35,600"
+      },
+      "offsets": {
+        "from": 333600,
+        "to": 335600
+      },
+      "text": " ki ben bunu kendim mobile telefonundan yapmam lazım."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:35,600",
+        "to": "00:05:36,800"
+      },
+      "offsets": {
+        "from": 335600,
+        "to": 336800
+      },
+      "text": " ki canlı yayın kesilmesin."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:36,800",
+        "to": "00:05:38,760"
+      },
+      "offsets": {
+        "from": 336800,
+        "to": 338760
+      },
+      "text": " Numarayı bu şekilde alabiliyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:38,760",
+        "to": "00:05:40,440"
+      },
+      "offsets": {
+        "from": 338760,
+        "to": 340440
+      },
+      "text": " Continu diyelim olacak mı?"
+    },
+    {
+      "timestamps": {
+        "from": "00:05:40,440",
+        "to": "00:05:41,760"
+      },
+      "offsets": {
+        "from": 340440,
+        "to": 341760
+      },
+      "text": " Bakalım tamam."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:41,760",
+        "to": "00:05:42,760"
+      },
+      "offsets": {
+        "from": 341760,
+        "to": 342760
+      },
+      "text": " Bu sefer olacak gibi."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:42,760",
+        "to": "00:05:43,760"
+      },
+      "offsets": {
+        "from": 342760,
+        "to": 343760
+      },
+      "text": " Hadi bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:43,760",
+        "to": "00:05:44,760"
+      },
+      "offsets": {
+        "from": 343760,
+        "to": 344760
+      },
+      "text": " Dualarla bekliyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:44,760",
+        "to": "00:05:45,760"
+      },
+      "offsets": {
+        "from": 344760,
+        "to": 345760
+      },
+      "text": " Bakın tekte geldi."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:45,760",
+        "to": "00:05:47,960"
+      },
+      "offsets": {
+        "from": 345760,
+        "to": 347960
+      },
+      "text": " Abi işte işte müthiş ya."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:47,960",
+        "to": "00:05:48,960"
+      },
+      "offsets": {
+        "from": 347960,
+        "to": 348960
+      },
+      "text": " Bundan bahsediyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:48,960",
+        "to": "00:05:50,160"
+      },
+      "offsets": {
+        "from": 348960,
+        "to": 350160
+      },
+      "text": " 521."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:50,160",
+        "to": "00:05:51,160"
+      },
+      "offsets": {
+        "from": 350160,
+        "to": 351160
+      },
+      "text": " 400."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:51,160",
+        "to": "00:05:52,160"
+      },
+      "offsets": {
+        "from": 351160,
+        "to": 352160
+      },
+      "text": " OK."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:52,160",
+        "to": "00:05:54,680"
+      },
+      "offsets": {
+        "from": 352160,
+        "to": 354680
+      },
+      "text": " Şu öyle birazcık altta alalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:54,680",
+        "to": "00:05:55,680"
+      },
+      "offsets": {
+        "from": 354680,
+        "to": 355680
+      },
+      "text": " Güzel görün."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:55,680",
+        "to": "00:05:57,680"
+      },
+      "offsets": {
+        "from": 355680,
+        "to": 357680
+      },
+      "text": " Enter password."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:57,680",
+        "to": "00:06:00,520"
+      },
+      "offsets": {
+        "from": 357680,
+        "to": 360520
+      },
+      "text": " Gene bizim şeyi koyalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:00,520",
+        "to": "00:06:02,200"
+      },
+      "offsets": {
+        "from": 360520,
+        "to": 362200
+      },
+      "text": " Bir de dönecek koyduğumuzu koyalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:02,200",
+        "to": "00:06:05,520"
+      },
+      "offsets": {
+        "from": 362200,
+        "to": 365520
+      },
+      "text": " Ne hesaplara bedava yuki hesap."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:05,520",
+        "to": "00:06:08,280"
+      },
+      "offsets": {
+        "from": 365520,
+        "to": 368280
+      },
+      "text": " Ahmet çilek burnur yapalım bunu."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:08,280",
+        "to": "00:06:09,280"
+      },
+      "offsets": {
+        "from": 368280,
+        "to": 369280
+      },
+      "text": " Continu."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:09,280",
+        "to": "00:06:12,960"
+      },
+      "offsets": {
+        "from": 369280,
+        "to": 372960
+      },
+      "text": " Like the send notification."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:12,960",
+        "to": "00:06:14,920"
+      },
+      "offsets": {
+        "from": 372960,
+        "to": 374920
+      },
+      "text": " Bana notification göndermene gerek yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:14,920",
+        "to": "00:06:15,920"
+      },
+      "offsets": {
+        "from": 374920,
+        "to": 375920
+      },
+      "text": " Görüyor musunuz?"
+    },
+    {
+      "timestamps": {
+        "from": "00:06:15,920",
+        "to": "00:06:18,360"
+      },
+      "offsets": {
+        "from": 375920,
+        "to": 378360
+      },
+      "text": " ana mantık da artık hesabımız hazır."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:18,360",
+        "to": "00:06:20,960"
+      },
+      "offsets": {
+        "from": 378360,
+        "to": 380960
+      },
+      "text": " Şimdi bu hesapta yapmamız gereken şeyler dediğim gibi."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:20,960",
+        "to": "00:06:22,960"
+      },
+      "offsets": {
+        "from": 380960,
+        "to": 382960
+      },
+      "text": " Normal bir burnur da kaydırıyormuş gibi."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:22,960",
+        "to": "00:06:24,960"
+      },
+      "offsets": {
+        "from": 382960,
+        "to": 384960
+      },
+      "text": " Normal hesabı sınırma yöntemi yapacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:24,960",
+        "to": "00:06:27,960"
+      },
+      "offsets": {
+        "from": 384960,
+        "to": 387960
+      },
+      "text": " Burada bazen şöyle epic şeyler olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:27,960",
+        "to": "00:06:29,960"
+      },
+      "offsets": {
+        "from": 387960,
+        "to": 389960
+      },
+      "text": " Mesela siz bir telefon kuracaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:29,960",
+        "to": "00:06:30,960"
+      },
+      "offsets": {
+        "from": 389960,
+        "to": 390960
+      },
+      "text": " Bazen bir bakacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:30,960",
+        "to": "00:06:33,960"
+      },
+      "offsets": {
+        "from": 390960,
+        "to": 393960
+      },
+      "text": " Ulan Türkçe şeyler görebiliyor olacaksınız."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:33,960",
+        "to": "00:06:36,960"
+      },
+      "offsets": {
+        "from": 393960,
+        "to": 396960
+      },
+      "text": " Ya da mesela Almanya'da hesap kurduğunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:36,960",
+        "to": "00:06:38,960"
+      },
+      "offsets": {
+        "from": 396960,
+        "to": 398960
+      },
+      "text": " Bir geleceksiniz bütün nişeriklerin İngilizce."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:38,960",
+        "to": "00:06:40,960"
+      },
+      "offsets": {
+        "from": 398960,
+        "to": 400960
+      },
+      "text": " En nişe edecek bir şey yok arkadaşlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:40,960",
+        "to": "00:06:41,960"
+      },
+      "offsets": {
+        "from": 400960,
+        "to": 401960
+      },
+      "text": " İki üç gün kaydırın."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:41,960",
+        "to": "00:06:43,960"
+      },
+      "offsets": {
+        "from": 401960,
+        "to": 403960
+      },
+      "text": " Bir yerden sonra algoritma oturuyor olacaktır."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:43,960",
+        "to": "00:06:44,960"
+      },
+      "offsets": {
+        "from": 403960,
+        "to": 404960
+      },
+      "text": " OK."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:44,960",
+        "to": "00:06:46,960"
+      },
+      "offsets": {
+        "from": 404960,
+        "to": 406960
+      },
+      "text": " Şimdi burada yapmamız gereken kibakın görüyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:46,960",
+        "to": "00:06:48,960"
+      },
+      "offsets": {
+        "from": 406960,
+        "to": 408960
+      },
+      "text": " Pavonplay'a ilgili şeyler görüyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:48,960",
+        "to": "00:06:51,960"
+      },
+      "offsets": {
+        "from": 408960,
+        "to": 411960
+      },
+      "text": " Hadi demek ki şu anda direkt olarak UK kısmındayız yani."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:51,960",
+        "to": "00:06:53,960"
+      },
+      "offsets": {
+        "from": 411960,
+        "to": 413960
+      },
+      "text": " Bakın çünkü keşfedemizde Pavon paraları var."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:53,960",
+        "to": "00:06:56,960"
+      },
+      "offsets": {
+        "from": 413960,
+        "to": 416960
+      },
+      "text": " Birazcık daha UK'yle alakalı içerikler var."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:56,960",
+        "to": "00:06:57,960"
+      },
+      "offsets": {
+        "from": 416960,
+        "to": 417960
+      },
+      "text": " Bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:57,960",
+        "to": "00:06:59,960"
+      },
+      "offsets": {
+        "from": 417960,
+        "to": 419960
+      },
+      "text": " Bak if you live in Scotland mesela."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:59,960",
+        "to": "00:07:00,960"
+      },
+      "offsets": {
+        "from": 419960,
+        "to": 420960
+      },
+      "text": " Tamam."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:00,960",
+        "to": "00:07:01,960"
+      },
+      "offsets": {
+        "from": 420960,
+        "to": 421960
+      },
+      "text": " On numar."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:01,960",
+        "to": "00:07:03,960"
+      },
+      "offsets": {
+        "from": 421960,
+        "to": 423960
+      },
+      "text": " Şu anda tiktok hesabımız bomba gibi hazır arkadaşlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:03,960",
+        "to": "00:07:07,960"
+      },
+      "offsets": {
+        "from": 423960,
+        "to": 427960
+      },
+      "text": " Şimdi sırada geldik göz bebeğimiz Instagram."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:07,960",
+        "to": "00:07:09,960"
+      },
+      "offsets": {
+        "from": 427960,
+        "to": 429960
+      },
+      "text": " GetSardat diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:09,960",
+        "to": "00:07:10,960"
+      },
+      "offsets": {
+        "from": 429960,
+        "to": 430960
+      },
+      "text": " UK number."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:10,960",
+        "to": "00:07:12,960"
+      },
+      "offsets": {
+        "from": 430960,
+        "to": 432960
+      },
+      "text": " Şimdi bir tane bize UK number soruyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:12,960",
+        "to": "00:07:13,960"
+      },
+      "offsets": {
+        "from": 432960,
+        "to": 433960
+      },
+      "text": " Buradan bir tane daha numara alacağım."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:13,960",
+        "to": "00:07:16,960"
+      },
+      "offsets": {
+        "from": 433960,
+        "to": 436960
+      },
+      "text": " Sıfır 23 sente bir tane numaramızı aldık."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:16,960",
+        "to": "00:07:19,960"
+      },
+      "offsets": {
+        "from": 436960,
+        "to": 439960
+      },
+      "text": " Buradan sıfır 7700."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:19,960",
+        "to": "00:07:20,960"
+      },
+      "offsets": {
+        "from": 439960,
+        "to": 440960
+      },
+      "text": " 6."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:20,960",
+        "to": "00:07:21,960"
+      },
+      "offsets": {
+        "from": 440960,
+        "to": 441960
+      },
+      "text": " Sıfır 9."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:21,960",
+        "to": "00:07:22,960"
+      },
+      "offsets": {
+        "from": 441960,
+        "to": 442960
+      },
+      "text": " 110."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:22,960",
+        "to": "00:07:23,960"
+      },
+      "offsets": {
+        "from": 442960,
+        "to": 443960
+      },
+      "text": " 7."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:23,960",
+        "to": "00:07:24,960"
+      },
+      "offsets": {
+        "from": 443960,
+        "to": 444960
+      },
+      "text": " Next diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:24,960",
+        "to": "00:07:25,960"
+      },
+      "offsets": {
+        "from": 444960,
+        "to": 445960
+      },
+      "text": " create'a neyi bekam."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:25,960",
+        "to": "00:07:27,960"
+      },
+      "offsets": {
+        "from": 445960,
+        "to": 447960
+      },
+      "text": " Tamam bir yerin boşluğa gittim."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:27,960",
+        "to": "00:07:29,960"
+      },
+      "offsets": {
+        "from": 447960,
+        "to": 449960
+      },
+      "text": " Şimdi buradan da bir tane kod bekliyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:29,960",
+        "to": "00:07:32,960"
+      },
+      "offsets": {
+        "from": 449960,
+        "to": 452960
+      },
+      "text": " Umarım bundan da hızlı gelir de bomba bomba matarızıca."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:32,960",
+        "to": "00:07:33,960"
+      },
+      "offsets": {
+        "from": 452960,
+        "to": 453960
+      },
+      "text": " OK."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:33,960",
+        "to": "00:07:34,960"
+      },
+      "offsets": {
+        "from": 453960,
+        "to": 454960
+      },
+      "text": " Her şey on numara."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:34,960",
+        "to": "00:07:35,960"
+      },
+      "offsets": {
+        "from": 454960,
+        "to": 455960
+      },
+      "text": " 99."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:35,960",
+        "to": "00:07:38,960"
+      },
+      "offsets": {
+        "from": 455960,
+        "to": 458960
+      },
+      "text": " Ahmet çilek yapalım gene."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:38,960",
+        "to": "00:07:40,960"
+      },
+      "offsets": {
+        "from": 458960,
+        "to": 460960
+      },
+      "text": " 100 evde imemizde aha."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:40,960",
+        "to": "00:07:41,960"
+      },
+      "offsets": {
+        "from": 460960,
+        "to": 461960
+      },
+      "text": " Çilek burnur olsun."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:41,960",
+        "to": "00:07:42,960"
+      },
+      "offsets": {
+        "from": 461960,
+        "to": 462960
+      },
+      "text": " Burner."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:42,960",
+        "to": "00:07:43,960"
+      },
+      "offsets": {
+        "from": 462960,
+        "to": 463960
+      },
+      "text": " Next diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:43,960",
+        "to": "00:07:44,960"
+      },
+      "offsets": {
+        "from": 463960,
+        "to": 464960
+      },
+      "text": " Agree diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:44,960",
+        "to": "00:07:49,960"
+      },
+      "offsets": {
+        "from": 464960,
+        "to": 469960
+      },
+      "text": " Ve Instagram'ı da sorumsuz problemiz bir şekilde kurmuş oluyoruz canlarım."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:49,960",
+        "to": "00:07:50,960"
+      },
+      "offsets": {
+        "from": 469960,
+        "to": 470960
+      },
+      "text": " Skip diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:50,960",
+        "to": "00:07:52,960"
+      },
+      "offsets": {
+        "from": 470960,
+        "to": 472960
+      },
+      "text": " Fotoğraf eklemize gerek yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:52,960",
+        "to": "00:07:53,960"
+      },
+      "offsets": {
+        "from": 472960,
+        "to": 473960
+      },
+      "text": " OK."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:53,960",
+        "to": "00:07:54,960"
+      },
+      "offsets": {
+        "from": 473960,
+        "to": 474960
+      },
+      "text": " Next diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:54,960",
+        "to": "00:07:56,960"
+      },
+      "offsets": {
+        "from": 474960,
+        "to": 476960
+      },
+      "text": " Kişlerinizi paylaşmanıza gerek yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:56,960",
+        "to": "00:07:57,960"
+      },
+      "offsets": {
+        "from": 476960,
+        "to": 477960
+      },
+      "text": " Fotoğraf koymanıza gerek yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:57,960",
+        "to": "00:07:59,960"
+      },
+      "offsets": {
+        "from": 477960,
+        "to": 479960
+      },
+      "text": " Bunda zaten ikinci üçüncü gün de koyuyor olacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:59,960",
+        "to": "00:08:01,960"
+      },
+      "offsets": {
+        "from": 479960,
+        "to": 481960
+      },
+      "text": " Buraları çok fazla takmanıza gerek yok."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:01,960",
+        "to": "00:08:02,960"
+      },
+      "offsets": {
+        "from": 481960,
+        "to": 482960
+      },
+      "text": " Turn on diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:02,960",
+        "to": "00:08:03,960"
+      },
+      "offsets": {
+        "from": 482960,
+        "to": 483960
+      },
+      "text": " Don't allow diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:03,960",
+        "to": "00:08:07,960"
+      },
+      "offsets": {
+        "from": 483960,
+        "to": 487960
+      },
+      "text": " Ve Instagram'ımızda neredeyse aktif olmak üzere."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:07,960",
+        "to": "00:08:08,960"
+      },
+      "offsets": {
+        "from": 487960,
+        "to": 488960
+      },
+      "text": " İmeylinizi bağlayayım burada."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:08,960",
+        "to": "00:08:10,960"
+      },
+      "offsets": {
+        "from": 488960,
+        "to": 490960
+      },
+      "text": " Açtınız iyi meyilli ama şu anlık skipleyeceğim."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:10,960",
+        "to": "00:08:12,960"
+      },
+      "offsets": {
+        "from": 490960,
+        "to": 492960
+      },
+      "text": " Bakın dediğim gibi unutmayın."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:12,960",
+        "to": "00:08:14,960"
+      },
+      "offsets": {
+        "from": 492960,
+        "to": 494960
+      },
+      "text": " Kesinlikle."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:14,960",
+        "to": "00:08:16,960"
+      },
+      "offsets": {
+        "from": 494960,
+        "to": 496960
+      },
+      "text": " Kesinlikle burada hesaplara çoraz."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:16,960",
+        "to": "00:08:19,960"
+      },
+      "offsets": {
+        "from": 496960,
+        "to": 499960
+      },
+      "text": " Ama ondan sonra imeminize bağlamınız lazım ki hesaplarınızı kurtarabilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:19,960",
+        "to": "00:08:20,960"
+      },
+      "offsets": {
+        "from": 499960,
+        "to": 500960
+      },
+      "text": " Bakın bu çok önemli."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:20,960",
+        "to": "00:08:22,960"
+      },
+      "offsets": {
+        "from": 500960,
+        "to": 502960
+      },
+      "text": " Bu yıldız altın."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:22,960",
+        "to": "00:08:23,960"
+      },
+      "offsets": {
+        "from": 502960,
+        "to": 503960
+      },
+      "text": " Bunu unutmayın."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:23,960",
+        "to": "00:08:26,960"
+      },
+      "offsets": {
+        "from": 503960,
+        "to": 506960
+      },
+      "text": " Giriyorum keşfede bakalım bakalım önümüze neler çıkacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:26,960",
+        "to": "00:08:28,960"
+      },
+      "offsets": {
+        "from": 506960,
+        "to": 508960
+      },
+      "text": " Mesela bakın."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:28,960",
+        "to": "00:08:32,960"
+      },
+      "offsets": {
+        "from": 508960,
+        "to": 512960
+      },
+      "text": " Bu önümüze çıkan videoların izlenmeleri 34 milyon."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:32,960",
+        "to": "00:08:33,960"
+      },
+      "offsets": {
+        "from": 512960,
+        "to": 513960
+      },
+      "text": " Görüyor musunuz?"
+    },
+    {
+      "timestamps": {
+        "from": "00:08:33,960",
+        "to": "00:08:34,960"
+      },
+      "offsets": {
+        "from": 513960,
+        "to": 514960
+      },
+      "text": " Tik Tok yapar da Instagram."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:34,960",
+        "to": "00:08:36,960"
+      },
+      "offsets": {
+        "from": 514960,
+        "to": 516960
+      },
+      "text": " Bu tarz izlenmelerin platformu."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:36,960",
+        "to": "00:08:39,960"
+      },
+      "offsets": {
+        "from": 516960,
+        "to": 519960
+      },
+      "text": " Büyük ihtimalle platformun temsil ettiğini düşünüyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:39,960",
+        "to": "00:08:41,960"
+      },
+      "offsets": {
+        "from": 519960,
+        "to": 521960
+      },
+      "text": " O yüzden bu tarz içerikler önümüze çıkartıyor bana."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:41,960",
+        "to": "00:08:47,960"
+      },
+      "offsets": {
+        "from": 521960,
+        "to": 527960
+      },
+      "text": " Şu anda bizim hangi kitliyle erişim hangi kitliği."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:47,960",
+        "to": "00:08:51,960"
+      },
+      "offsets": {
+        "from": 527960,
+        "to": 531960
+      },
+      "text": " Pardon hangi kitliği sevdiğimizi bilmediği için tamamıyla random."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:51,960",
+        "to": "00:08:53,960"
+      },
+      "offsets": {
+        "from": 531960,
+        "to": 533960
+      },
+      "text": " Olabildiğince rast kele şeyler gösteriyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:53,960",
+        "to": "00:08:57,960"
+      },
+      "offsets": {
+        "from": 533960,
+        "to": 537960
+      },
+      "text": " Bunlardan hangisini daha çok izlemeye başladığım zaman algoritma birazcık daha buna kayıyor olacak."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:57,960",
+        "to": "00:08:59,960"
+      },
+      "offsets": {
+        "from": 537960,
+        "to": 539960
+      },
+      "text": " Okuyamadır."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:59,960",
+        "to": "00:09:02,960"
+      },
+      "offsets": {
+        "from": 539960,
+        "to": 542960
+      },
+      "text": " Instagram'a da son unsuz bir şekilde açtık."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:02,960",
+        "to": "00:09:06,960"
+      },
+      "offsets": {
+        "from": 542960,
+        "to": 546960
+      },
+      "text": " Şimdi YouTube'a girdiğiniz zaman yeni hesap aç dediğiniz zaman size zaten"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:06,960",
+        "to": "00:09:12,960"
+      },
+      "offsets": {
+        "from": 546960,
+        "to": 552960
+      },
+      "text": " Sign it with Google diyor. Google a yönlendiriyor sizi."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:12,960",
+        "to": "00:09:14,960"
+      },
+      "offsets": {
+        "from": 552960,
+        "to": 554960
+      },
+      "text": " Şimdi burada şöyle bir triki kısım var."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:14,960",
+        "to": "00:09:16,960"
+      },
+      "offsets": {
+        "from": 554960,
+        "to": 556960
+      },
+      "text": " Bakalım burada başımıza gelecek mi?"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:16,960",
+        "to": "00:09:18,960"
+      },
+      "offsets": {
+        "from": 556960,
+        "to": 558960
+      },
+      "text": " 7'le çözümünde göstereceğim."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:18,960",
+        "to": "00:09:20,960"
+      },
+      "offsets": {
+        "from": 558960,
+        "to": 560960
+      },
+      "text": " Forma'yı personal keysel kullanım diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:20,960",
+        "to": "00:09:22,960"
+      },
+      "offsets": {
+        "from": 560960,
+        "to": 562960
+      },
+      "text": " Ahmet çilek diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:22,960",
+        "to": "00:09:24,960"
+      },
+      "offsets": {
+        "from": 562960,
+        "to": 564960
+      },
+      "text": " Doğum günümüzü yazalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:24,960",
+        "to": "00:09:26,960"
+      },
+      "offsets": {
+        "from": 564960,
+        "to": 566960
+      },
+      "text": " Sıfır 4, sıfır 7, 99."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:26,960",
+        "to": "00:09:28,960"
+      },
+      "offsets": {
+        "from": 566960,
+        "to": 568960
+      },
+      "text": " Tarifli sallayabilirsiniz bu arada."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:28,960",
+        "to": "00:09:30,960"
+      },
+      "offsets": {
+        "from": 568960,
+        "to": 570960
+      },
+      "text": " Ahmet Çilek Börnlü'ne diyelim."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:30,960",
+        "to": "00:09:32,960"
+      },
+      "offsets": {
+        "from": 570960,
+        "to": 572960
+      },
+      "text": " Börnlü tolulu gitti."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:32,960",
+        "to": "00:09:34,960"
+      },
+      "offsets": {
+        "from": 572960,
+        "to": 574960
+      },
+      "text": " Börnlü tartık."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:36,960",
+        "to": "00:09:38,960"
+      },
+      "offsets": {
+        "from": 576960,
+        "to": 578960
+      },
+      "text": " Naudiyelim fond number."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:38,960",
+        "to": "00:09:40,960"
+      },
+      "offsets": {
+        "from": 578960,
+        "to": 580960
+      },
+      "text": " Aynen şimdi geldik."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:40,960",
+        "to": "00:09:42,960"
+      },
+      "offsets": {
+        "from": 580960,
+        "to": 582960
+      },
+      "text": " Birazcık daha cime ilkısma birazcık daha triki olabiliyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:42,960",
+        "to": "00:09:44,960"
+      },
+      "offsets": {
+        "from": 582960,
+        "to": 584960
+      },
+      "text": " Problematik olabiliyor bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:44,960",
+        "to": "00:09:46,960"
+      },
+      "offsets": {
+        "from": 584960,
+        "to": 586960
+      },
+      "text": " Bizi uğraştıracak mı?"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:46,960",
+        "to": "00:09:49,960"
+      },
+      "offsets": {
+        "from": 586960,
+        "to": 589960
+      },
+      "text": " 746.980."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:49,960",
+        "to": "00:09:51,960"
+      },
+      "offsets": {
+        "from": 589960,
+        "to": 591960
+      },
+      "text": " 163.72."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:51,960",
+        "to": "00:09:52,960"
+      },
+      "offsets": {
+        "from": 591960,
+        "to": 592960
+      },
+      "text": " Next diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:52,960",
+        "to": "00:09:53,960"
+      },
+      "offsets": {
+        "from": 592960,
+        "to": 593960
+      },
+      "text": " Aynen."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:53,960",
+        "to": "00:09:54,960"
+      },
+      "offsets": {
+        "from": 593960,
+        "to": 594960
+      },
+      "text": " Numaranda gönderildi diyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:54,960",
+        "to": "00:09:56,960"
+      },
+      "offsets": {
+        "from": 594960,
+        "to": 596960
+      },
+      "text": " Bakalım ne zaman gelecek."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:56,960",
+        "to": "00:09:57,960"
+      },
+      "offsets": {
+        "from": 596960,
+        "to": 597960
+      },
+      "text": " Görüyor musun abi?"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:57,960",
+        "to": "00:09:58,960"
+      },
+      "offsets": {
+        "from": 597960,
+        "to": 598960
+      },
+      "text": " Tek de geliyor ya."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:58,960",
+        "to": "00:10:00,960"
+      },
+      "offsets": {
+        "from": 598960,
+        "to": 600960
+      },
+      "text": " Olan hayat hayat ya."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:00,960",
+        "to": "00:10:04,960"
+      },
+      "offsets": {
+        "from": 600960,
+        "to": 604960
+      },
+      "text": " 502.17.74."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:04,960",
+        "to": "00:10:06,960"
+      },
+      "offsets": {
+        "from": 604960,
+        "to": 606960
+      },
+      "text": " Gahit gahit güzel."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:06,960",
+        "to": "00:10:07,960"
+      },
+      "offsets": {
+        "from": 606960,
+        "to": 607960
+      },
+      "text": " Hayatlayısın."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:07,960",
+        "to": "00:10:09,960"
+      },
+      "offsets": {
+        "from": 607960,
+        "to": 609960
+      },
+      "text": " Yani sizde bu kadar hızlı olmayabilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:09,960",
+        "to": "00:10:11,960"
+      },
+      "offsets": {
+        "from": 609960,
+        "to": 611960
+      },
+      "text": " Bakın şimdi hani ben de böyle oluyor olabilir ama"
+    },
+    {
+      "timestamps": {
+        "from": "00:10:11,960",
+        "to": "00:10:13,960"
+      },
+      "offsets": {
+        "from": 611960,
+        "to": 613960
+      },
+      "text": " 1-2 kez denemek zorunda kalabilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:13,960",
+        "to": "00:10:15,960"
+      },
+      "offsets": {
+        "from": 613960,
+        "to": 615960
+      },
+      "text": " Dediğim gibi şey yapmanı."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:15,960",
+        "to": "00:10:17,960"
+      },
+      "offsets": {
+        "from": 615960,
+        "to": 617960
+      },
+      "text": " Sakın bir şeyin yanlış olduğunu düşünmeyin."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:17,960",
+        "to": "00:10:20,960"
+      },
+      "offsets": {
+        "from": 617960,
+        "to": 620960
+      },
+      "text": " Bizim yerinde yerinde olduğumuz için"
+    },
+    {
+      "timestamps": {
+        "from": "00:10:20,960",
+        "to": "00:10:22,960"
+      },
+      "offsets": {
+        "from": 620960,
+        "to": 622960
+      },
+      "text": " Ramazan'ın yüzü suyu hürmetine"
+    },
+    {
+      "timestamps": {
+        "from": "00:10:22,960",
+        "to": "00:10:24,960"
+      },
+      "offsets": {
+        "from": 622960,
+        "to": 624960
+      },
+      "text": " herhalde giriyorlarla bilmiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:24,960",
+        "to": "00:10:25,960"
+      },
+      "offsets": {
+        "from": 624960,
+        "to": 625960
+      },
+      "text": " Ama on numara."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:25,960",
+        "to": "00:10:26,960"
+      },
+      "offsets": {
+        "from": 625960,
+        "to": 626960
+      },
+      "text": " Confirim dedik."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:26,960",
+        "to": "00:10:27,960"
+      },
+      "offsets": {
+        "from": 626960,
+        "to": 627960
+      },
+      "text": " Price, turn."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:27,960",
+        "to": "00:10:28,960"
+      },
+      "offsets": {
+        "from": 627960,
+        "to": 628960
+      },
+      "text": " Agree diyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:28,960",
+        "to": "00:10:29,960"
+      },
+      "offsets": {
+        "from": 628960,
+        "to": 629960
+      },
+      "text": " Tamam."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:29,960",
+        "to": "00:10:31,960"
+      },
+      "offsets": {
+        "from": 629960,
+        "to": 631960
+      },
+      "text": " Hesabımızı aç."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:31,960",
+        "to": "00:10:32,960"
+      },
+      "offsets": {
+        "from": 631960,
+        "to": 632960
+      },
+      "text": " Dikhal arkadaşlar."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:32,960",
+        "to": "00:10:34,960"
+      },
+      "offsets": {
+        "from": 632960,
+        "to": 634960
+      },
+      "text": " 10 numara."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:34,960",
+        "to": "00:10:36,960"
+      },
+      "offsets": {
+        "from": 634960,
+        "to": 636960
+      },
+      "text": " Tebrikler artık Instagram hesabımızda."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:36,960",
+        "to": "00:10:37,960"
+      },
+      "offsets": {
+        "from": 636960,
+        "to": 637960
+      },
+      "text": " Mevcut."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:37,960",
+        "to": "00:10:38,960"
+      },
+      "offsets": {
+        "from": 637960,
+        "to": 638960
+      },
+      "text": " Okuyabilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:38,960",
+        "to": "00:10:39,960"
+      },
+      "offsets": {
+        "from": 638960,
+        "to": 639960
+      },
+      "text": " Her şey yolunda mı?"
+    },
+    {
+      "timestamps": {
+        "from": "00:10:39,960",
+        "to": "00:10:43,960"
+      },
+      "offsets": {
+        "from": 639960,
+        "to": 643960
+      },
+      "text": " Var mı aklınıza takılan düşündüğünüz kısmını anlamadığınız bir yerler."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:43,960",
+        "to": "00:10:44,960"
+      },
+      "offsets": {
+        "from": 643960,
+        "to": 644960
+      },
+      "text": " Bunu yollum."
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+=== TESPIT EDILEN TUM VIDEOLAR ===
+
+[1] [Course] 2025_organik_kod / 01_introduction_02_31
+    URL: https://cdn-media.circle.so/bcdn_token=A_RFLVBed2STjqB-Pm70Rfnm6TR2bPSmnDofAuIVw5c&token_path=%2Ffbc0606b-34f8-41bd-9188-263fa5babe21%2F&expires=1782727612/fbc0606b-34f8-41bd-9188-263fa5babe21/hls/playlist.m3u8
+
+[2] [Course] 2025_organik_kod / 02_oyun_plani_13_52
+    URL: https://cdn-media.circle.so/bcdn_token=DrzW7KNi5H-Z9hbN0W5QAibBv8_7Oex6eLWZKdDuyw4&token_path=%2F80f4fb60-c2ff-4c2b-85a5-96d538673503%2F&expires=1782727621/80f4fb60-c2ff-4c2b-85a5-96d538673503/hls/playlist.m3u8
+
+[3] [Course] 2025_organik_kod / 03_kafa_yapisi_04_52
+    URL: https://cdn-media.circle.so/bcdn_token=eHAvJFZMeuv7fVlv7ivGoyJgqWDjJYkIYOUqK1kMKdc&token_path=%2Fd9bc61db-b131-4669-8305-2ee304c07657%2F&expires=1782727631/d9bc61db-b131-4669-8305-2ee304c07657/hls/playlist.m3u8
+
+[4] [Course] 2025_organik_kod / 04_uretkenlik_02_53
+    URL: https://cdn-media.circle.so/bcdn_token=62SHfh2ABeLUufqPdO8sOglsZsPYnmik6qH4R6fHtW0&token_path=%2F54158655-1757-4b5a-ba39-f387422eaad5%2F&expires=1782727642/54158655-1757-4b5a-ba39-f387422eaad5/hls/playlist.m3u8
+
+[5] [Course] 2025_organik_kod / 05_google_calendar_part_1_06_52
+    URL: https://cdn-media.circle.so/bcdn_token=tt4aa_J-nJCmGFeGccCpLXmgnf55AnZ8St_LgD5X5ec&token_path=%2F6beb93bf-54d1-4b8f-906f-6629ffd0d150%2F&expires=1782727652/6beb93bf-54d1-4b8f-906f-6629ffd0d150/hls/playlist.m3u8
+
+[6] [Course] 2025_organik_kod / 06_google_calendar_part_2_06_21
+    URL: https://cdn-media.circle.so/bcdn_token=pDTOh8w6itzajz_4rW23jWVoD91y1J22-0fPdWTlrjc&token_path=%2Fc525dfd9-5738-4587-9a4e-a2d477942535%2F&expires=1782727663/c525dfd9-5738-4587-9a4e-a2d477942535/hls/playlist.m3u8
+
+[7] [Course] 2025_organik_kod / 07_baslangic_urunleri_01_58
+    URL: https://cdn-media.circle.so/bcdn_token=HUQWeyUkF63zjIGuRreYyDj9JrDnN-16ZNvby7hsEc4&token_path=%2Ff1ab2bab-a8d3-48d8-8979-f415864fa64d%2F&expires=1782727673/f1ab2bab-a8d3-48d8-8979-f415864fa64d/hls/playlist.m3u8
+
+[8] [Course] 2025_organik_kod / 08_baslangic_urunleri_konseptler_04_39
+    URL: https://cdn-media.circle.so/bcdn_token=3UPiPyGaOlCDKXjwcLLee53cE3EcNDdwB1pI_h3lV1s&token_path=%2F485a97af-d1ce-4f53-a9d1-03ceeee274ad%2F&expires=1782727683/485a97af-d1ce-4f53-a9d1-03ceeee274ad/hls/playlist.m3u8
+
+[9] [Course] 2025_organik_kod / 09_urunleri_beklerken_02_07
+    URL: https://cdn-media.circle.so/bcdn_token=ht-THr5QP2mdZ1MeeQe80EDAOEy2F4zdnT3MsghGlDA&token_path=%2F2b7a655a-6952-4767-9f44-e9c0bbd2c196%2F&expires=1782727694/2b7a655a-6952-4767-9f44-e9c0bbd2c196/hls/playlist.m3u8
+
+[10] [Course] 2025_organik_kod / 10_edit_post_02_09
+    URL: https://cdn-media.circle.so/bcdn_token=AYNDuhWd5SmQHCQ5NxVZiiKAr3dO0MPvmVt8MspIbBA&token_path=%2Fff9b6924-8f5c-4c1c-bf97-128fb4830835%2F&expires=1782727704/ff9b6924-8f5c-4c1c-bf97-128fb4830835/hls/playlist.m3u8
+
+[11] [Course] 2025_organik_kod / 11_urun_arastirmasinin_onemi_01_55
+    URL: https://cdn-media.circle.so/bcdn_token=N4Encmib38vSeKxZZLt3r_UntiM_Tr4N8-37m8N9hJo&token_path=%2Fdfd32465-cbd2-4b44-8e08-3dfe4e622c1a%2F&expires=1782727714/dfd32465-cbd2-4b44-8e08-3dfe4e622c1a/hls/playlist.m3u8
+
+[12] [Course] 2025_organik_kod / 12_kriterler_02_56
+    URL: https://cdn-media.circle.so/bcdn_token=t0Ba3AnT0ljQELAuPXxBk_-UG1IQ9jjn_X1NLTjIGz8&token_path=%2F69ab2207-f20a-4cfc-abfa-e5f87db559ec%2F&expires=1782727723/69ab2207-f20a-4cfc-abfa-e5f87db559ec/hls/playlist.m3u8
+
+[13] [Course] 2025_organik_kod / 13_metodlar_00_47
+    URL: https://cdn-media.circle.so/bcdn_token=G5zzkuG9T8qxa1gSnohJCI4dGYVQOOCp7JnixUiN92g&token_path=%2F6bdb9df2-993e-4b2a-8eef-f1ca09707689%2F&expires=1782727734/6bdb9df2-993e-4b2a-8eef-f1ca09707689/hls/playlist.m3u8
+
+[14] [Course] 2025_organik_kod / 14_burner_kurulum_04_49
+    URL: https://cdn-media.circle.so/bcdn_token=_QIhSJg1wwkr6vqX_mbFMhfaNScSGQ0ODWLSLB77SY8&token_path=%2F1210a42d-0c5c-4cb6-b5de-e5c1bb8ff9ae%2F&expires=1782727745/1210a42d-0c5c-4cb6-b5de-e5c1bb8ff9ae/hls/playlist.m3u8
+
+[15] [Course] 2025_organik_kod / 15_regular_vs_showcase_urunler_02_18
+    URL: https://cdn-media.circle.so/bcdn_token=1tfkIaqWH4EAj3cDxCtJPerTRWSNk615JzITDq1UINY&token_path=%2Ffcd59104-4642-400f-9d06-2f1afbc02f78%2F&expires=1782727755/fcd59104-4642-400f-9d06-2f1afbc02f78/hls/playlist.m3u8
+
+[16] [Course] 2025_organik_kod / 16_1_numarali_urun_arastirma_sorusu_01_11
+    URL: https://cdn-media.circle.so/bcdn_token=s86UHe1TvCWuXXn7SBTE33kZCgLhmqtrZLJ09izfQ8E&token_path=%2Fb68117cc-414c-422a-8b94-7a6e0b992c2d%2F&expires=1782727766/b68117cc-414c-422a-8b94-7a6e0b992c2d/hls/playlist.m3u8
+
+[17] [Course] 2025_organik_kod / 17_telefon_kurulumu_04_08
+    URL: https://cdn-media.circle.so/bcdn_token=YqzOkIMMtINH2lBc474pbOy4lADBQ-OcCJydkMT_IDg&token_path=%2F0c60b069-e826-4662-be75-9e2453fa0368%2F&expires=1782727776/0c60b069-e826-4662-be75-9e2453fa0368/hls/playlist.m3u8
+
+[18] [Course] 2025_organik_kod / 18_vpn_01_20
+    URL: https://cdn-media.circle.so/bcdn_token=RLLDD58cYrHWie0vqOxl8o_7DSHXSCHBSG5758C1XcQ&token_path=%2Fbab73ba3-60cb-4994-8d50-870e15351aa9%2F&expires=1782727787/bab73ba3-60cb-4994-8d50-870e15351aa9/hls/playlist.m3u8
+
+[19] [Course] 2025_organik_kod / 19_hesap_kurulumu_01_34
+    URL: https://cdn-media.circle.so/bcdn_token=Opl-vBepPc5VI8zLzZyhyn7cN7Cr8g70x7NPZJY5urc&token_path=%2F670c4e2c-8296-4408-aca7-e8600a065555%2F&expires=1782727797/670c4e2c-8296-4408-aca7-e8600a065555/hls/playlist.m3u8
+
+[20] [Course] 2025_organik_kod / 20_isindirma_01_01
+    URL: https://cdn-media.circle.so/bcdn_token=ef13p9gQY2zRFHrGPEhs6a0sZTLM_AFgAiersxWbX4A&token_path=%2F9c77ddb0-5208-4f52-a5e8-5a6df0df9148%2F&expires=1782727807/9c77ddb0-5208-4f52-a5e8-5a6df0df9148/hls/playlist.m3u8
+
+[21] [Course] 2025_organik_kod / 21_icerikler_03_05
+    URL: https://cdn-media.circle.so/bcdn_token=SDSeqalp4dxnTfJ9L9OAvf3PPUfB8t5ZfeiZUoGTIL4&token_path=%2F6568ef19-bf46-42cd-84de-b8cf6720b8fa%2F&expires=1782727818/6568ef19-bf46-42cd-84de-b8cf6720b8fa/hls/playlist.m3u8
+
+[22] [Course] 2025_organik_kod / 22_gercek_hayat_vs_dropshipper_02_56
+    URL: https://cdn-media.circle.so/bcdn_token=YVfOmg0aeaJbUsywXf2piuJYo3git1TnXdDwjao0eYk&token_path=%2F34e0cf76-e931-45a6-a749-360a010f915f%2F&expires=1782727828/34e0cf76-e931-45a6-a749-360a010f915f/hls/playlist.m3u8
+
+[23] [Course] 2025_organik_kod / 23_icerik_kopyalama_01_22
+    URL: https://cdn-media.circle.so/bcdn_token=v__G7wgnHC6ybHYbYDCqFob89ym5oqMStqEwBrJgLUE&token_path=%2F680dfb8a-2f63-4a06-9ef1-e3c2af8bbb2d%2F&expires=1782727838/680dfb8a-2f63-4a06-9ef1-e3c2af8bbb2d/hls/playlist.m3u8
+
+[24] [Course] 2025_organik_kod / 24_icerik_kopyalama_ornek_01_41
+    URL: https://cdn-media.circle.so/bcdn_token=cms_-N2g2neylrP3FyGwKrEBbGj1N74C8VHc9ht2j-k&token_path=%2F3af1f0a1-b207-47e7-bcb5-b14edd4348d1%2F&expires=1782727848/3af1f0a1-b207-47e7-bcb5-b14edd4348d1/hls/playlist.m3u8
+
+[25] [Course] 2025_organik_kod / 25_video_konseptleri_01_24
+    URL: https://cdn-media.circle.so/bcdn_token=rh2FLUNkSCJpH3jYjwSH5eBBlFM7GmQtBuFjhq-Ll3M&token_path=%2F46a73111-3f43-43b1-b65c-19aa1c81e654%2F&expires=1782727858/46a73111-3f43-43b1-b65c-19aa1c81e654/hls/playlist.m3u8
+
+[26] [Course] 2025_organik_kod / 26_viral_konseptler_detayli_08_14
+    URL: https://cdn-media.circle.so/bcdn_token=uW6wP0DkI9htPQBEQ4IFu-nc93g6x2BCfv7l2qMpD3k&token_path=%2F2c6c5f35-3499-46a0-8952-5e9f2201f762%2F&expires=1782727869/2c6c5f35-3499-46a0-8952-5e9f2201f762/hls/playlist.m3u8
+
+[27] [Course] 2025_organik_kod / 27_1e1_kopyalama_ornek_03_20
+    URL: https://cdn-media.circle.so/bcdn_token=-7T0vztIbOMuXFezFm5JBvBpRvqPwd49g0erQBSdNPA&token_path=%2F348be3f1-ed84-42b2-9a60-0abae5dfc3b8%2F&expires=1782727879/348be3f1-ed84-42b2-9a60-0abae5dfc3b8/hls/playlist.m3u8
+
+[28] [Course] 2025_organik_kod / 28_iyi_ve_kotu_icerikler_ornek_04_51
+    URL: https://cdn-media.circle.so/bcdn_token=yiZ0HzZ-bY0ge0tAVvaCC2cGTXg3-he0joOnShT7O20&token_path=%2F8e9c113a-c4a2-48b1-a172-9d464e9a0d80%2F&expires=1782727888/8e9c113a-c4a2-48b1-a172-9d464e9a0d80/hls/playlist.m3u8
+
+[29] [Course] 2025_organik_kod / 29_hooklar_02_40
+    URL: https://cdn-media.circle.so/bcdn_token=SB8bp4LEri9JM3r2hInYEOlm-ZVTi8gnkNpYXMnvkKM&token_path=%2F6fffb2f1-08b9-4004-b715-445e517106d7%2F&expires=1782727897/6fffb2f1-08b9-4004-b715-445e517106d7/hls/playlist.m3u8
+
+[30] [Course] 2025_organik_kod / 30_ban_riski_olan_icerikler_03_20
+    URL: https://cdn-media.circle.so/bcdn_token=chRu8KutSRWgwq_hao3cDlWW1CT-H8cydT8IPXtTkKg&token_path=%2Fa380236c-0253-4ba9-8f3a-7dd96e2e632c%2F&expires=1782727907/a380236c-0253-4ba9-8f3a-7dd96e2e632c/hls/playlist.m3u8
+
+[31] [Course] 2025_organik_kod / 31_controversy_04_23
+    URL: https://cdn-media.circle.so/bcdn_token=MCCcnfj4X3nndS0F4wjur1JVZGa3wCwI78KhDYZF2bc&token_path=%2Fb2b5e7ad-f832-41ce-a077-1e10991706cb%2F&expires=1782727918/b2b5e7ad-f832-41ce-a077-1e10991706cb/hls/playlist.m3u8
+
+[32] [Course] 2025_organik_kod / 32_contraversy_detayli_part_1_05_39
+    URL: https://cdn-media.circle.so/bcdn_token=yKnu7b8KcTD4uRuSw_ArrnC_QFe6rU6vOBImIOIeQ1w&token_path=%2Fa3b69b13-d898-4588-8a9b-f3eb3ff88453%2F&expires=1782727928/a3b69b13-d898-4588-8a9b-f3eb3ff88453/hls/playlist.m3u8
+
+[33] [Course] 2025_organik_kod / 33_contraversy_detayli_part_2_03_59
+    URL: https://cdn-media.circle.so/bcdn_token=9drUtx0HOfQXIUyQoOKM9tS5g9Hz_Na18rDDl4eU7zI&token_path=%2F6168b026-b442-4cfe-87ab-6a4540f7eea4%2F&expires=1782727939/6168b026-b442-4cfe-87ab-6a4540f7eea4/hls/playlist.m3u8
+
+[34] [Course] 2025_organik_kod / 34_senaryo_yazma_03_14
+    URL: https://cdn-media.circle.so/bcdn_token=V4MnXg1_ncJwlpvL2GFHsgGBsgoCDM6gbXMvClIf8nM&token_path=%2F059ea6ed-03d2-49d5-b9fe-5957e03870a1%2F&expires=1782727949/059ea6ed-03d2-49d5-b9fe-5957e03870a1/hls/playlist.m3u8
+
+[35] [Course] 2025_organik_kod / 35_kontrol_listesi_01_08
+    URL: https://cdn-media.circle.so/bcdn_token=JViFqIXhoZACORWATSrk09tUtJXri3_VBjkMXoeltPM&token_path=%2F05684913-15b0-4295-85b5-b6df8b43ea2b%2F&expires=1782727960/05684913-15b0-4295-85b5-b6df8b43ea2b/hls/playlist.m3u8
+
+[36] [Course] 2025_organik_kod / 36_gerekli_malzemeler_02_15
+    URL: https://cdn-media.circle.so/bcdn_token=Asn1n2D0iDa58EK0bAiKpMSWjMBaL1-iWPbfqY2LGUs&token_path=%2F1939a7b5-02cd-4b0e-875f-3e31384614b1%2F&expires=1782727970/1939a7b5-02cd-4b0e-875f-3e31384614b1/hls/playlist.m3u8
+
+[37] [Course] 2025_organik_kod / 37_urun_cekimi_canli_03_41
+    URL: https://cdn-media.circle.so/bcdn_token=cHMBhqQvxv9yDd0iSCkIGznKetAAdzG8zoSIs-Y5ZMo&token_path=%2F76863d8b-1ef2-4ac9-aaac-871d94a66831%2F&expires=1782727981/76863d8b-1ef2-4ac9-aaac-871d94a66831/hls/playlist.m3u8
+
+[38] [Course] 2025_organik_kod / 38_editleme_05_14
+    URL: https://cdn-media.circle.so/bcdn_token=xoypSFfbk_9TFyStCedSt2RJm0gSsYVv1dWwD64YykE&token_path=%2Fc0a9c8d0-344d-49a1-82e2-dd5bfd5407ea%2F&expires=1782727991/c0a9c8d0-344d-49a1-82e2-dd5bfd5407ea/hls/playlist.m3u8
+
+[39] [Course] 2025_organik_kod / 39_paylasim_03_56
+    URL: https://cdn-media.circle.so/bcdn_token=3jC2FEoooJdmwLYGWl6Sitrtyp2wMv6hYQYBhjn33nY&token_path=%2Feb35386d-ad97-4aea-bfa1-dd8491671cbf%2F&expires=1782728001/eb35386d-ad97-4aea-bfa1-dd8491671cbf/hls/playlist.m3u8
+
+[40] [Course] 2025_organik_kod / 40_urun_04_32
+    URL: https://cdn-media.circle.so/bcdn_token=95BuId6kg2tl9tOR1GC0ZfXeQdjgcYfST7c2WrDLC_0&token_path=%2Fd223cdc4-d3c1-4791-a151-87548786ffe1%2F&expires=1782728011/d223cdc4-d3c1-4791-a151-87548786ffe1/hls/playlist.m3u8
+
+[41] [Course] 2025_organik_kod / 41_cta_02_57
+    URL: https://cdn-media.circle.so/bcdn_token=q8JXp4OLHSEObPV3RhwHxBoZNbQj84QcJHd8jVEvZmg&token_path=%2Fdd6f91ba-e434-48b5-a39b-e65f0571dcbb%2F&expires=1782728022/dd6f91ba-e434-48b5-a39b-e65f0571dcbb/hls/playlist.m3u8
+
+[42] [Course] 2025_organik_kod / 42_cta_detayli_part_1_04_06
+    URL: https://cdn-media.circle.so/bcdn_token=PhHNgt-spzo4ImTGtp1hGJW_81ILIjh-OG7ebQs-xlw&token_path=%2F7d668f3f-81de-4e7e-be98-07c59bba0ff8%2F&expires=1782728032/7d668f3f-81de-4e7e-be98-07c59bba0ff8/hls/playlist.m3u8
+
+[43] [Course] 2025_organik_kod / 43_cta_detayli_part_2_02_16
+    URL: https://cdn-media.circle.so/bcdn_token=3LeUigrtM8yN_kLvDZfhmc47Pa0gxy0Yg9RXSOYTQVI&token_path=%2F007f691c-f7b1-4611-ad63-c0c9be0fb64d%2F&expires=1782728043/007f691c-f7b1-4611-ad63-c0c9be0fb64d/hls/playlist.m3u8
+
+[44] [Course] 2025_organik_kod / 44_satici_gibi_konumlandirma_00_58
+    URL: https://cdn-media.circle.so/bcdn_token=-M9dVH2WoBCTcZjn5wRsavak1A96lRcEG9llKttDSjM&token_path=%2F936a6ae5-bec3-4fa5-a46a-01cec90b299e%2F&expires=1782728052/936a6ae5-bec3-4fa5-a46a-01cec90b299e/hls/playlist.m3u8
+
+[45] [Course] 2025_organik_kod / 45_satici_gibi_konumlanma_ornek_02_21
+    URL: https://cdn-media.circle.so/bcdn_token=ntcWdAGrPYFirn5I5TNxhoDVMPgqpXjo3q88yjjZVjw&token_path=%2Fa8c9489a-40db-42ca-a2e8-24a313929a56%2F&expires=1782728062/a8c9489a-40db-42ca-a2e8-24a313929a56/hls/playlist.m3u8
+
+[46] [Course] 2025_organik_kod / 46_satici_gibi_konumlanma_detayli_03_23
+    URL: https://cdn-media.circle.so/bcdn_token=L03lfB1uGNLCivJ84MbUqxVCnZvY4x9zu1EjWKeAt5M&token_path=%2F688d44e9-3e39-4a72-8042-d4aa67a58fc3%2F&expires=1782728073/688d44e9-3e39-4a72-8042-d4aa67a58fc3/hls/playlist.m3u8
+
+[47] [Course] 2025_organik_kod / 47_guven_02_02
+    URL: https://cdn-media.circle.so/bcdn_token=hTuLSgNO1kbQ6qizirJuQ60wLk4lJTPZCTtMvi5fvmQ&token_path=%2F318c7608-eaeb-4ec3-9074-99c503168358%2F&expires=1782728083/318c7608-eaeb-4ec3-9074-99c503168358/hls/playlist.m3u8
+
+[48] [Course] 2025_organik_kod / 48_website_02_13
+    URL: https://cdn-media.circle.so/bcdn_token=Z_LEVSBrEXbknpZM9SR45Ds0geRXvIZuu-8WSnTB0GY&token_path=%2F10376bb3-85cf-4d84-be9c-2dcafdd0a07e%2F&expires=1782728093/10376bb3-85cf-4d84-be9c-2dcafdd0a07e/hls/playlist.m3u8
+
+[49] [Course] 2025_organik_kod / 49_website_07_52
+    URL: https://cdn-media.circle.so/bcdn_token=Jsw4_IG0GOe-z5Mly_pLgb4xoIaT7eFOjzzHZo8_Vug&token_path=%2Feae43647-0f75-4ad7-8f60-fbbecdd631a7%2F&expires=1782728104/eae43647-0f75-4ad7-8f60-fbbecdd631a7/hls/playlist.m3u8
+
+[50] [Course] 2025_organik_kod / 50_bonus_ajans_live_04_44
+    URL: https://cdn-media.circle.so/bcdn_token=h_aBWwa1-sqMumgvklwE9uF-RyYFtkw8u1Qi0vujMbQ&token_path=%2F4d506408-3d4a-4ebc-b8e5-4ac1344d0c1b%2F&expires=1782728113/4d506408-3d4a-4ebc-b8e5-4ac1344d0c1b/hls/playlist.m3u8
+
+[51] [Course] 2025_organik_kod / 51_bonus_burner_live_42_08
+    URL: https://cdn-media.circle.so/bcdn_token=yW26zYMSjgI2Z-vpK_Y5dFtikCBsl2Jlg2Gz_tgFdzg&token_path=%2F226ee068-bde3-48a2-bffe-9ee1c1e23352%2F&expires=1782728123/226ee068-bde3-48a2-bffe-9ee1c1e23352/hls/playlist.m3u8
+
+[52] [Course] 2025_organik_kod / 52_bonus_testing_on_niches_live_17_48
+    URL: https://cdn-media.circle.so/bcdn_token=nEDfH8PLmOVzAOTeXM-RM3DHDSdY8fhIFcx05l4KnAI&token_path=%2F50f34f0f-ed80-432a-8590-03867062ce44%2F&expires=1782728132/50f34f0f-ed80-432a-8590-03867062ce44/hls/playlist.m3u8
+
+[53] [Course] 2025_organik_kod / 53_bonus_tr_product_examples_40_04
+    URL: https://cdn-media.circle.so/bcdn_token=h5oVWp9GGRTwGtcQjBKDImCIej397TlfrES5LoGrZyk&token_path=%2F51d89adf-3370-450c-9010-bcea8eae2987%2F&expires=1782728141/51d89adf-3370-450c-9010-bcea8eae2987/hls/playlist.m3u8
+
+[54] [Course] 2025_organik_kod / 54_bonus_winner_analyse_live_53_33
+    URL: https://cdn-media.circle.so/bcdn_token=wYZRlAP3zmW4ytFBOROZLuRqocS-Cq-f40kHWjvTmD0&token_path=%2F6e3198d3-489d-4763-9482-29abf80ce241%2F&expires=1782728152/6e3198d3-489d-4763-9482-29abf80ce241/hls/playlist.m3u8
+
+[55] [Post] ai_dropshipping / 01_neden_ai
+    URL: https://cdn-media.circle.so/bcdn_token=P4AqQ9RsyKh6eMxz60rD4g99SPCCs1d8SV3QkDtqKUQ&token_path=%2Fc4e5a6f2-3a32-4b64-a1c5-1c40334c8d1a%2F&expires=1782728629/c4e5a6f2-3a32-4b64-a1c5-1c40334c8d1a/hls/playlist.m3u8
+
+[56] [Post] ai_dropshipping / 02_farkli_ai_platformlari
+    URL: https://cdn-media.circle.so/bcdn_token=9BbV2EqUTu_Ekr1v1Di4bP41vHE1MPUvqMyEtceQ-qM&token_path=%2F5f494edb-3f33-4b5b-80c5-cab681ac70cf%2F&expires=1782728638/5f494edb-3f33-4b5b-80c5-cab681ac70cf/hls/playlist.m3u8
+
+[57] [Post] ai_dropshipping / 03_ai_iyi_ve_kotu_video_ornekler
+    URL: https://cdn-media.circle.so/bcdn_token=GZNJm6unhOSzSw3pCjip7hDionPxWd3ePHbwpGcCFEU&token_path=%2Fd9909d91-67e4-40f7-aace-8dc71d70e14b%2F&expires=1782728647/d9909d91-67e4-40f7-aace-8dc71d70e14b/hls/playlist.m3u8
+
+[58] [Post] ai_dropshipping / 04_higgsfield_detayli_anlatim
+    URL: https://cdn-media.circle.so/bcdn_token=_76qzVEl9xjk4e3xK1oa2koS_KWkW4KBy1PZew9Unys&token_path=%2F5c78ba5c-e9cc-4ec0-8635-cf116e276d84%2F&expires=1782728657/5c78ba5c-e9cc-4ec0-8635-cf116e276d84/hls/playlist.m3u8
+
+[59] [Post] ai_dropshipping / 05_karakter_olusturma
+    URL: https://cdn-media.circle.so/bcdn_token=wG5DRhYD3QU6HYoJaK0Tb4plp6MLnqqFGwD5CuTNOvs&token_path=%2F49031cff-5e0b-4949-9292-c9770b9ab69e%2F&expires=1782728668/49031cff-5e0b-4949-9292-c9770b9ab69e/hls/playlist.m3u8
+
+[60] [Post] ai_dropshipping / 06_degisim_videolari_nasil_yapilir
+    URL: https://cdn-media.circle.so/bcdn_token=6hoEc7QO_6tceExL6yTtMANyszrOC17lnm6Hg6qHwJ0&token_path=%2F804a41a0-9685-4bfb-ba21-a2a44a89bdda%2F&expires=1782728678/804a41a0-9685-4bfb-ba21-a2a44a89bdda/hls/playlist.m3u8
+
+[61] [Post] ai_dropshipping / 07_el_yapimi_canta_videosu
+    URL: https://cdn-media.circle.so/bcdn_token=qf4b1rjllLMaJAdKzJLj7v3VH8wnQMLVgFB5HE5YWds&token_path=%2Fe362e5fe-6866-4422-89d6-dddd0e0882a7%2F&expires=1782728687/e362e5fe-6866-4422-89d6-dddd0e0882a7/hls/playlist.m3u8
+
+[62] [Post] ai_dropshipping / 08_masa_urunu_cekimi
+    URL: https://cdn-media.circle.so/bcdn_token=X-sx62fz3iwmaz47olRDtgIofOpBh5QUE5Z8tYxG9GA&token_path=%2Fe5a4ce12-2fbf-4dbb-895b-427386acb6a6%2F&expires=1782728696/e5a4ce12-2fbf-4dbb-895b-427386acb6a6/hls/playlist.m3u8
+
+[63] [Post] ai_dropshipping / 09_synthid_nedir_1
+    URL: https://cdn-media.circle.so/bcdn_token=ANbdHRViFiUvGeR36pRQsu_umf38jXMmnKQeleRiRrw&token_path=%2F8b291c0e-018a-42be-90c4-c7c3a1029534%2F&expires=1782728706/8b291c0e-018a-42be-90c4-c7c3a1029534/hls/playlist.m3u8
+
+[64] [Post] ai_dropshipping / 09_synthid_nedir_2
+    URL: https://drive.google.com/file/d/1KShnqmBv1oVEEao0nV7ZrCaCeY_s92sc/view?usp=sharing
+
+[65] [Post] ai_dropshipping / 10_ugc_tarzi_video_yapimi
+    URL: https://cdn-media.circle.so/bcdn_token=6W0E6A2HowUJ5Tw9vfUJ3MpJO6nPR7zuMxd7yOs2LY8&token_path=%2F1248ca58-cf1f-4972-937e-8ee10f6db4fe%2F&expires=1782728717/1248ca58-cf1f-4972-937e-8ee10f6db4fe/hls/playlist.m3u8
+
+[66] [Post] ai_dropshipping / 11_supplement_ai_videolar_konusmali_icerikler
+    URL: https://cdn-media.circle.so/bcdn_token=7apdq3I0EWqwfvXoFP3kJcErc1_vTHDA0xiqMBTSZ-s&token_path=%2F25b3f944-22e0-411f-80a5-5d18aa0a9034%2F&expires=1782728726/25b3f944-22e0-411f-80a5-5d18aa0a9034/hls/playlist.m3u8
+
+[67] [Post] grup_aramalari_kayitlar / 01_140626_ahmet_grup_aramasi
+    URL: https://cdn-media.circle.so/bcdn_token=7eyPsl49vMAjdJkIgZC8UO9ygtXV4afuzGVsTdHAaR8&token_path=%2F2b8edde6-a97e-4273-8c78-9f8338436f23%2F&expires=1782728751/2b8edde6-a97e-4273-8c78-9f8338436f23/hls/playlist.m3u8
+
+[68] [Post] grup_aramalari_kayitlar / 02_070626_ahmet_grup_aramasi
+    URL: https://cdn-media.circle.so/bcdn_token=uTUQ1205bUl14ergoOCeU1ZwhGOTrdoOIrtSugYxPfs&token_path=%2Fd343ce31-1b2c-4136-8d99-9d2afff3b260%2F&expires=1782728762/d343ce31-1b2c-4136-8d99-9d2afff3b260/hls/playlist.m3u8
+
+[69] [Post] grup_aramalari_kayitlar / 03_300526_ahmet_grup_aramasi
+    URL: https://cdn-media.circle.so/bcdn_token=QcSoGp9gi96blMahgUJ9r_wmGj3OLcYyx3ryQdH3f4s&token_path=%2F1d42d7d3-0db7-4489-ae81-06653548037d%2F&expires=1782728771/1d42d7d3-0db7-4489-ae81-06653548037d/hls/playlist.m3u8
+
+[70] [Post] grup_aramalari_kayitlar / 04_290526_ahmet_grup_aramasi
+    URL: https://cdn-media.circle.so/bcdn_token=luwJqwVGvhUcCgrLe5oBXsN0Z80y9_LA-oEz016XcUQ&token_path=%2F06d50a45-62b0-4658-ae2c-8563ddb1d52b%2F&expires=1782728780/06d50a45-62b0-4658-ae2c-8563ddb1d52b/hls/playlist.m3u8
+
+[71] [Post] grup_aramalari_kayitlar / 05_160526_ahmet_grup_aramasi
+    URL: https://cdn-media.circle.so/bcdn_token=oAwWU9JSv3Uv5O5M8syR7CtWRsV-IZ_a8F6ClPI1kY4&token_path=%2F6a172cd9-3c69-4247-b953-59dc99ab542f%2F&expires=1782728789/6a172cd9-3c69-4247-b953-59dc99ab542f/hls/playlist.m3u8
+
+[72] [Post] grup_aramalari_kayitlar / 06_090526_ahmet_grup_aramasi
+    URL: https://cdn-media.circle.so/bcdn_token=_jAhSC41j2FDEH_ZWNl5RyyOTv3CyjUWhjOYvFVzI7c&token_path=%2Fcc7de5e3-5657-4778-a4f5-8605ac6f53cc%2F&expires=1782728799/cc7de5e3-5657-4778-a4f5-8605ac6f53cc/hls/playlist.m3u8
+
+[73] [Post] grup_aramalari_kayitlar / 07_260426_ahmet_grup_aramasi
+    URL: https://cdn-media.circle.so/bcdn_token=Me-8TsGsFdycZyFB10vCX4IviFisgxv280xNlcAynsk&token_path=%2Fbba2ea63-2d94-4d50-80c9-2349960921bc%2F&expires=1782728809/bba2ea63-2d94-4d50-80c9-2349960921bc/hls/playlist.m3u8
+
+[74] [Post] grup_aramalari_kayitlar / 08_180426_ahmet_grup_aramasi
+    URL: https://cdn-media.circle.so/bcdn_token=A7AYNSo36D7QIZyFcyTIhQHB-DGAGg2kzTEtKk7ACRY&token_path=%2F0b03bd0e-2c0d-4fdb-984c-8c103241c26a%2F&expires=1782728820/0b03bd0e-2c0d-4fdb-984c-8c103241c26a/hls/playlist.m3u8
+
+[75] [Post] grup_aramalari_kayitlar / 09_120426_ahmet_grup_aramasi
+    URL: https://cdn-media.circle.so/bcdn_token=Yijt4Hd--187IYxMGDJW7fKNCc5kYedcbNzVGR3J0P8&token_path=%2F0a136d65-b9b8-429a-af59-3a9b837f0b62%2F&expires=1782728830/0a136d65-b9b8-429a-af59-3a9b837f0b62/hls/playlist.m3u8
+
+[76] [Post] grup_aramalari_kayitlar / 10_030426_ahmet_grup_aramasi
+    URL: https://cdn-media.circle.so/bcdn_token=3rJ2Tf0jRlH9EuyzuNJgb84h-Eairg4a9ihLZ9F4aC8&token_path=%2F6e609c80-2a82-4f06-a652-d8f08e4230d6%2F&expires=1782728841/6e609c80-2a82-4f06-a652-d8f08e4230d6/hls/playlist.m3u8
+
+[77] [Post] grup_aramalari_kayitlar / 11_280326_ahmet_grup_aramasi
+    URL: https://cdn-media.circle.so/bcdn_token=gvvBs0zaoMwvIRXxgSU4qQSpAV4Vs04rUmP5YWz5Sg4&token_path=%2Fc22593e5-4276-478a-a985-e8cb038c1762%2F&expires=1782728851/c22593e5-4276-478a-a985-e8cb038c1762/hls/playlist.m3u8
+
+[78] [Post] grup_aramalari_kayitlar / 12_161025_ahmet_grup_aramasi
+    URL: https://cdn-media.circle.so/bcdn_token=t9ZGHzQ7AIdmU8SkrYpSyHRACSMZrpoLOev3fZqQa94&token_path=%2Fc77e32eb-623b-452f-a02b-35f9a9463874%2F&expires=1782728861/c77e32eb-623b-452f-a02b-35f9a9463874/hls/playlist.m3u8
+
+[79] [Post] grup_aramalari_kayitlar / 13_231025_ahmet_grup_aramasi
+    URL: https://cdn-media.circle.so/bcdn_token=AnuCNogOxesf1PerMraaNe00eO-gcdJw1sEkIunhyJE&token_path=%2F8b0f1e5d-d6e8-4a6d-90b4-83eecaccf0af%2F&expires=1782728871/8b0f1e5d-d6e8-4a6d-90b4-83eecaccf0af/hls/playlist.m3u8
+
+[80] [Post] grup_aramalari_kayitlar / 14_091025_ahmet_grup_aramasi
+    URL: https://cdn-media.circle.so/bcdn_token=NOuP3I3n7Xj8fexusrd-fhnoYgOZNyC5ytFGb2tmTiA&token_path=%2Fe0232c67-7c6b-492b-aaa6-51e1db3cd406%2F&expires=1782728882/e0232c67-7c6b-492b-aaa6-51e1db3cd406/hls/playlist.m3u8
+
+[81] [Post] grup_aramalari_kayitlar / 15_271125_ahmet_grup_aramasi
+    URL: https://cdn-media.circle.so/bcdn_token=r1VFPBXVG_1aeUuK4x0_xnSIP2lr-5YAqZ9lry6wL2w&token_path=%2Fbfc3fa19-8244-49cb-980d-c9e1b71722d4%2F&expires=1782728890/bfc3fa19-8244-49cb-980d-c9e1b71722d4/hls/playlist.m3u8
+
+[82] [Post] baslangic_urunleri / 01_mar_16
+    URL: https://drive.google.com/file/d/1-uIET7tU-sz-qAslwGNg1CTfv4TRku97/preview
+
+[83] [Post] baslangic_urunleri / 02_mar_17
+    URL: https://cdn-media.circle.so/bcdn_token=shzwOdinN4qF2z_zYGCzyeN9MVxVmTbLnldixcph6aE&token_path=%2F3093dea1-1999-437c-b5d8-4cfdf187a4c2%2F&expires=1782728942/3093dea1-1999-437c-b5d8-4cfdf187a4c2/hls/playlist.m3u8
+
+[84] [Post] baslangic_urunleri / 03_mar_17
+    URL: https://drive.google.com/file/d/1fFdkQpBKid4XnnZxi50HuRbYLAprwqex/preview
+
+[85] [Post] baslangic_urunleri / 04_baslangic_urunu_galaxy_ball_edit
+    URL: https://cdn-media.circle.so/bcdn_token=8jBMJI8tPzc1J9AM5lY3eTFN3Ol-O9qm0OL16vZYtfg&token_path=%2F1c705eb9-7f59-4bb7-b6c1-a930d7ad7f94%2F&expires=1782728969/1c705eb9-7f59-4bb7-b6c1-a930d7ad7f94/hls/playlist.m3u8
+
+[86] [Post] hesap_kurma / 01_mar_17
+    URL: https://cdn-media.circle.so/bcdn_token=WPs9NtoAw1ss650A7IpqyZSZotJqsIXy9mqEXqevHmY&token_path=%2Fe335756a-2608-4173-be6a-04c1a13529f8%2F&expires=1782729010/e335756a-2608-4173-be6a-04c1a13529f8/hls/playlist.m3u8
+
+[87] [Post] hesap_kurma / 02_mar_17
+    URL: https://cdn-media.circle.so/bcdn_token=_b6-y93z-j-eGx6Gs3V81yK16esZJvFRJglpN6uU_08&token_path=%2F99d9e3e4-e5e0-42f4-9412-0cb94710e7de%2F&expires=1782729020/99d9e3e4-e5e0-42f4-9412-0cb94710e7de/hls/playlist.m3u8
+
+[88] [Post] hesap_kurma / 03_mar_17
+    URL: https://cdn-media.circle.so/bcdn_token=SCac_rDDtrTD0GyHAWeGdllwwEyfwC1VjwEueTJ9nV8&token_path=%2Fcd6d53fa-fbe2-41f1-8c0d-64199ab009cd%2F&expires=1782729031/cd6d53fa-fbe2-41f1-8c0d-64199ab009cd/hls/playlist.m3u8
+
+[89] [Post] hesap_kurma / 04_mar_17
+    URL: https://cdn-media.circle.so/bcdn_token=z5XAAewjt6DbW-Z0FILOAoqKlOtp3faWExSrSsVXhaU&token_path=%2F540dd39d-8ed8-44e5-bb7d-96fb876c7aee%2F&expires=1782729041/540dd39d-8ed8-44e5-bb7d-96fb876c7aee/hls/playlist.m3u8
+
+[90] [Post] hesap_kurma / 05_mar_17
+    URL: https://cdn-media.circle.so/bcdn_token=1wGPVaeiSp947_UjaftwdFNHrIDFMafLrvhgxMUkhss&token_path=%2Fee5fea58-abe2-4957-8076-1a0b3b986693%2F&expires=1782729052/ee5fea58-abe2-4957-8076-1a0b3b986693/hls/playlist.m3u8
+
+[91] [Post] hesap_kurma / 06_instagram_yas_sinirlandirmasi
+    URL: https://cdn-media.circle.so/bcdn_token=e1v75Cvge4VqCA7y77d2uXHHQLC_sQWPOUQxf0yKTHA&token_path=%2F29037daf-8870-4b42-b23c-9c4e16a7db4a%2F&expires=1782729071/29037daf-8870-4b42-b23c-9c4e16a7db4a/hls/playlist.m3u8
+
+[92] [Post] urun_arama / 01_mar_17
+    URL: https://drive.google.com/file/d/11I_fzpuHeSJRvQqogmemm4CQ_FwTqQ3s/preview
+
+[93] [Post] urun_arama / 02_mar_17
+    URL: https://drive.google.com/file/d/1ICukj6czxnBPNS4eyDieOYjSQvj-9j5r/preview
+
+[94] [Post] urun_arama / 03_mar_17
+    URL: https://cdn-media.circle.so/bcdn_token=uLi5ME3S1lLpdF0cCUdhDNTDWIqh657gz2qcI6Z8yCo&token_path=%2F83b7499c-0acb-46dc-ad3d-407cde133e11%2F&expires=1782729130/83b7499c-0acb-46dc-ad3d-407cde133e11/hls/playlist.m3u8
+
+[95] [Post] urun_arama / 04_mar_17
+    URL: https://cdn-media.circle.so/bcdn_token=K8f_RMd5nFztbja74xjXUblQuUfQW1C7PtnaHBKkadg&token_path=%2F2de1c274-be5d-4ea0-b033-92d069fcdfd3%2F&expires=1782729140/2de1c274-be5d-4ea0-b033-92d069fcdfd3/hls/playlist.m3u8
+
+[96] [Post] urun_arama / 05_mar_17
+    URL: https://cdn-media.circle.so/bcdn_token=sknsz3xhlv9bZ87bzPiedmwrEP7yMumeSiXMGfVsJ2I&token_path=%2F3cbc7197-29f4-4356-b2e4-7036c5bb2070%2F&expires=1782729150/3cbc7197-29f4-4356-b2e4-7036c5bb2070/hls/playlist.m3u8
+
+[97] [Post] urun_arama / 06_advance_urun_ararken_bakilmasi_gerekenler
+    URL: https://cdn-media.circle.so/bcdn_token=_T_ErNZHr7RyOoIgijqYoZAMVkDOEWgREOGopuwV4A0&token_path=%2F75ccbc58-41e8-4c64-b1e5-1c45d77a5c9c%2F&expires=1782729159/75ccbc58-41e8-4c64-b1e5-1c45d77a5c9c/hls/playlist.m3u8
+
+[98] [Post] banlar_hesap_kurulumu / 01_hesaplar_neden_ban_yiyor
+    URL: https://cdn-media.circle.so/bcdn_token=kmh--aArDMoS-oh6syG866DXPozMjr5GTkIZmjL0HEQ&token_path=%2F75f121e8-eb06-4f46-8c71-f98b4c99ca3f%2F&expires=1782729182/75f121e8-eb06-4f46-8c71-f98b4c99ca3f/hls/playlist.m3u8
+
+[99] [Post] banlar_hesap_kurulumu / 02_guvenli_hesap_kurulumu_ve_isindirma_nasil_yapilir
+    URL: https://cdn-media.circle.so/bcdn_token=5qXjQe88c4iw0yLtvi7xCtafKGtTWzO1oN5dWFWCgSI&token_path=%2Fcf677616-b748-4987-835d-0e8775b44347%2F&expires=1782729195/cf677616-b748-4987-835d-0e8775b44347/hls/playlist.m3u8
+
+[100] [Post] banlar_hesap_kurulumu / 03_ban_sonrasi_neler_yapilmasi_lazim
+    URL: https://cdn-media.circle.so/bcdn_token=lTJmusIZhShoniAJNxDDWpc9OHSnXYCWplKt7F45ftE&token_path=%2F5bc911f0-d734-4e7b-8f7f-533f8b1af9ed%2F&expires=1782729205/5bc911f0-d734-4e7b-8f7f-533f8b1af9ed/hls/playlist.m3u8
+
+[101] [Post] videolar_giris / 01_hooklar
+    URL: https://cdn-media.circle.so/bcdn_token=Cx760IM1FMTSJJm-8kA_glt_l0_ilNmGaxX0T65Bg7I&token_path=%2F797b54b8-800a-4af6-9acf-b6570351832b%2F&expires=1782729237/797b54b8-800a-4af6-9acf-b6570351832b/hls/playlist.m3u8
+
+[102] [Post] videolar_giris / 02_viral_konseptler
+    URL: https://cdn-media.circle.so/bcdn_token=HUWlvmgMcT-Zejuxkw1lFBwm8KI2rssBC49ZkVvRZh0&token_path=%2Fab7c77c6-adae-4bd6-bac6-212fe29d9a83%2F&expires=1782729246/ab7c77c6-adae-4bd6-bac6-212fe29d9a83/hls/playlist.m3u8
+
+[103] [Post] videolar_giris / 03_arka_plan
+    URL: https://cdn-media.circle.so/bcdn_token=uFby4ie-Ea1sxBVyrQA0GGgvPK8GYgNPu16KEEztHQM&token_path=%2Fb3f0e2ce-2de2-4b60-b6fe-7209d9d34df7%2F&expires=1782729255/b3f0e2ce-2de2-4b60-b6fe-7209d9d34df7/hls/playlist.m3u8
+
+[104] [Post] videolar_giris / 04_1_viral_videodan_5_ayri_icerik_cikarma
+    URL: https://cdn-media.circle.so/bcdn_token=omCfAJrW5Skgo4Twb2pCMADvaKs1FyjoVlR4p_z4rQ0&token_path=%2F75c5e7be-99e1-4db2-8e32-0c67940de9ba%2F&expires=1782729266/75c5e7be-99e1-4db2-8e32-0c67940de9ba/hls/playlist.m3u8
+
+[105] [Post] videolar_giris / 05_algoritma_detayli
+    URL: https://cdn-media.circle.so/bcdn_token=zVWdZGwZYn7TlGY6ygJP2-Se0moMMmcSzVwM9EyEdgI&token_path=%2F311be065-0e64-4095-81dc-5cec2cc0d8b8%2F&expires=1782729276/311be065-0e64-4095-81dc-5cec2cc0d8b8/hls/playlist.m3u8
+
+[106] [Post] video_cekim_edit / 01_pocokonsol_cekim_edit
+    URL: https://cdn-media.circle.so/bcdn_token=1WQ1uNA5D8QbNsQ4MSD-5MdztRLeCxZnFZd7OqaHb6o&token_path=%2F4a85d028-3dc1-48a8-809c-c0859de0abb3%2F&expires=1782729308/4a85d028-3dc1-48a8-809c-c0859de0abb3/hls/playlist.m3u8
+
+[107] [Post] video_cekim_edit / 02_ilahi_tablo_cekim_edit
+    URL: https://cdn-media.circle.so/bcdn_token=o1GedUUZ_QtQE74yDneRz9HGl-ypmdAvjf4VWb0s_Ho&token_path=%2F76e0af4c-5fdc-49ae-9ec0-85e3ed021b38%2F&expires=1782729317/76e0af4c-5fdc-49ae-9ec0-85e3ed021b38/hls/playlist.m3u8
+
+[108] [Post] video_cekim_edit / 03_luva_canta_cekim_edit
+    URL: https://cdn-media.circle.so/bcdn_token=5ij_1cCRDq8k_MD14JQJNTjxqZGEFmy9pO_y49zOsT0&token_path=%2Fa9fa417d-f6d7-4c4a-ad2f-11e58d730273%2F&expires=1782729326/a9fa417d-f6d7-4c4a-ad2f-11e58d730273/hls/playlist.m3u8
+
+[109] [Post] video_cekim_edit / 04_brokoli_sarma_cekim_edit
+    URL: https://cdn-media.circle.so/bcdn_token=efZbgXdcyOqO9ClLMTpj-6jGoeqdSlt7aXdwmFptf4c&token_path=%2F35db44fc-208e-47e4-b023-f909c65afe5c%2F&expires=1782729335/35db44fc-208e-47e4-b023-f909c65afe5c/hls/playlist.m3u8
+
+[110] [Post] video_cekim_edit / 05_popgun_cekim_edit
+    URL: https://cdn-media.circle.so/bcdn_token=bVsNzKbaqjpN8LGYmKGXsNFbaCxHkoTMweY0kBOr1OY&token_path=%2Fa23ec34f-e43d-4db1-98e7-dc367c96bfaf%2F&expires=1782729345/a23ec34f-e43d-4db1-98e7-dc367c96bfaf/hls/playlist.m3u8
+
+[111] [Post] satis_otomasyonlar / 01_viralligi_siteye_cekme
+    URL: https://cdn-media.circle.so/bcdn_token=APR2_Rv5Tw-mttLOJZThE5NDi-YaTOwCsEI97LUnVr8&token_path=%2F5276b8fa-3d4e-471e-851b-c5f9b619a6b7%2F&expires=1782729379/5276b8fa-3d4e-471e-851b-c5f9b619a6b7/hls/playlist.m3u8
+
+[112] [Post] satis_otomasyonlar / 02_satici_gibi_konumlanma
+    URL: https://cdn-media.circle.so/bcdn_token=0RAQ7tcLSwQinqUVGp26Mpm6nrGke-SCt94NF0Ln1fE&token_path=%2Fcf619966-ecf7-4cff-b0c3-dc07083ed8ad%2F&expires=1782729388/cf619966-ecf7-4cff-b0c3-dc07083ed8ad/hls/playlist.m3u8
+
+[113] [Post] satis_otomasyonlar / 03_cta_nedir
+    URL: https://cdn-media.circle.so/bcdn_token=7m6KZIKa_fvH4Nc9gJIDrqv00hkp8zsM6ubB2Rqp0E0&token_path=%2Fc1b0d327-48b7-487f-b26c-fada58fbb9e3%2F&expires=1782729397/c1b0d327-48b7-487f-b26c-fada58fbb9e3/hls/playlist.m3u8
+
+[114] [Post] satis_otomasyonlar / 04_upseller
+    URL: https://cdn-media.circle.so/bcdn_token=vY5WCKRC5zgHZu3x7C_Axwnoy7TYh1RkHasuFv5dS_I&token_path=%2F125eb5fe-a459-43c8-857f-6c5dac4c4386%2F&expires=1782729407/125eb5fe-a459-43c8-857f-6c5dac4c4386/hls/playlist.m3u8
+
+[115] [Post] satis_otomasyonlar / 05_satis_ve_retargeting
+    URL: https://cdn-media.circle.so/bcdn_token=MmS5dwDcbAOOBIKJzJ8w7_sFmPbU7XiolkfxupOLhGc&token_path=%2F311a97fb-2200-435f-baf7-0af19c6cc199%2F&expires=1782729416/311a97fb-2200-435f-baf7-0af19c6cc199/hls/playlist.m3u8
+
+[116] [Post] satis_otomasyonlar / 06_manychat
+    URL: https://cdn-media.circle.so/bcdn_token=22e7hGXz8d8BdlFStJSlNHUgF4dy2j60ODbeAzFyeiY&token_path=%2F99f4f238-2fc8-4a4c-b80b-e242dd053283%2F&expires=1782729427/99f4f238-2fc8-4a4c-b80b-e242dd053283/hls/playlist.m3u8
+
+[117] [Post] satis_otomasyonlar / 07_yarim_birakilan_odemeleri_kurtarma
+    URL: https://cdn-media.circle.so/bcdn_token=aHhS8cLw_qwL-1WUHsj9ckmbMA03eE_hn-7i48_X92w&token_path=%2Fca795931-ca16-47c7-b9a8-8dfea2d153fd%2F&expires=1782729437/ca795931-ca16-47c7-b9a8-8dfea2d153fd/hls/playlist.m3u8
+
+[118] [Post] satis_otomasyonlar / 08_yurt_disi_pazari
+    URL: https://cdn-media.circle.so/bcdn_token=yyVswp3cDm6LxkX27oz69gEepYhRDdn1cZ_d-rGSEII&token_path=%2F22848a82-293a-446d-ae4a-4c44a6c683ce%2F&expires=1782729448/22848a82-293a-446d-ae4a-4c44a6c683ce/hls/playlist.m3u8
+
+[119] [Post] satis_otomasyonlar / 09_facebookda_organik_yapmak
+    URL: https://cdn-media.circle.so/bcdn_token=rymLekj3sGnMj2rtT8p_RYf1jxUbrg75fib258A_jJ4&token_path=%2F4a19fea5-64b5-48fd-8eed-34d4c233105e%2F&expires=1782729458/4a19fea5-64b5-48fd-8eed-34d4c233105e/hls/playlist.m3u8
+
+[120] [Post] sirket_kurma / 01_turkiye_sirket_kurma
+    URL: https://cdn-media.circle.so/bcdn_token=Plk0h686lWFHUF-JRrRtguO9AVyi0Erc82GGM2gIrHg&token_path=%2Fbb778126-26cc-49bf-9024-db481bef6e78%2F&expires=1782729489/bb778126-26cc-49bf-9024-db481bef6e78/hls/playlist.m3u8
+
+[121] [Post] sirket_kurma / 02_ingiltere_sirket_kurma
+    URL: https://cdn-media.circle.so/bcdn_token=1M-F26WaapkvepmcWEldx4bc6XUtdgXk-nxvncNQz8E&token_path=%2Fc4b30b4b-b475-4a89-9031-c596e61c2fb5%2F&expires=1782729500/c4b30b4b-b475-4a89-9031-c596e61c2fb5/hls/playlist.m3u8
+
+[122] [Post] sirket_kurma / 03_amerikada_sirket_kurma
+    URL: https://cdn-media.circle.so/bcdn_token=Z0frohJrRbFvvI5a2O1lrtt20zudcV3lRz4HXWFZcEw&token_path=%2F81f5e924-2e46-45b8-a0db-e7c18d5ee15a%2F&expires=1782729510/81f5e924-2e46-45b8-a0db-e7c18d5ee15a/hls/playlist.m3u8
+
+[123] [Post] reklamlar / 01_reklamlar
+    URL: https://cdn-media.circle.so/bcdn_token=3ymYfd43_9qwEVj3Pe1A0NM2TNi78gGRj62kPNkBPDM&token_path=%2F14e70951-0d93-4273-b723-f9489162ffab%2F&expires=1782729546/14e70951-0d93-4273-b723-f9489162ffab/hls/playlist.m3u8
+
+[124] [Post] reklamlar / 02_reklamlar_inceleme
+    URL: https://cdn-media.circle.so/bcdn_token=o_68fxXvUvA5pF3aSAIW-I2szFpNLzG3eN-YXgkGKfs&token_path=%2F85f9e035-e425-4eff-b0ba-e905a36638b3%2F&expires=1782729557/85f9e035-e425-4eff-b0ba-e905a36638b3/hls/playlist.m3u8
+
+[125] [Post] reklamlar / 03_alperen_4m_tl_yapan_urun_reklamlar
+    URL: https://cdn-media.circle.so/bcdn_token=2d1c06RB5Re04TmVnom75fLS33ZI4T0ZAaSMjd1q_aU&token_path=%2F8ac03dc9-f88c-4d5f-84fe-e8cff5bd10bb%2F&expires=1782729567/8ac03dc9-f88c-4d5f-84fe-e8cff5bd10bb/hls/playlist.m3u8
+
+[126] [Post] reklamlar / 04_scaling_ve_kapan_sistemi
+    URL: https://cdn-media.circle.so/bcdn_token=WrEtfdMuMSmKYT46R0VvyDMw7i_6jI3k1NhNhuV7Vc0&token_path=%2F099d287f-8dab-4c59-9d2f-aa68ccb229b7%2F&expires=1782729578/099d287f-8dab-4c59-9d2f-aa68ccb229b7/hls/playlist.m3u8
+

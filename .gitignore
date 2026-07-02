@@ -1,0 +1,34 @@
+# Ignore Video Subfolders (Gigabytes in size)
+2025_organik_kod/
+baslangic_urunleri/
+grup_aramalari_kayitlar/
+urun_arama/
+video_cekim_edit/
+sirket_kurma/
+transcripts_backup/
+files/
+
+# Ignore Media files and partial downloads
+*.mp4
+*.part
+*.tmp
+*.avi
+*.mkv
+*.mov
+*.wav
+*.mp3
+*.zip
+*.tar.gz
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Cache & Temporary Directories
+_temp_audio/
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.idea/
+.vscode/

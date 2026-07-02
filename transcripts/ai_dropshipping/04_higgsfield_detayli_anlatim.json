@@ -1,0 +1,2177 @@
+{
+  "systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+  "model": {
+    "type": "base",
+    "multilingual": true,
+    "vocab": 51865,
+    "audio": {
+      "ctx": 1500,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "text": {
+      "ctx": 448,
+      "state": 512,
+      "head": 8,
+      "layer": 6
+    },
+    "mels": 80,
+    "ftype": 1
+  },
+  "params": {
+    "model": "/Users/melihakkali/.gemini/antigravity/scratch/models/ggml-base.bin",
+    "language": "tr",
+    "translate": false
+  },
+  "result": {
+    "language": "tr"
+  },
+  "transcription": [
+    {
+      "timestamps": {
+        "from": "00:00:00,000",
+        "to": "00:00:06,120"
+      },
+      "offsets": {
+        "from": 0,
+        "to": 6120
+      },
+      "text": " Evet şimdi Hicksfield nedir. Nasıl kullanmış. Biraz daha detaylı."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:06,120",
+        "to": "00:00:11,680"
+      },
+      "offsets": {
+        "from": 6120,
+        "to": 11680
+      },
+      "text": " Ümceli. Öncelikle ilk başa çok karışık gözü kebilir ama gerçekten çok kolay bir"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:11,680",
+        "to": "00:00:16,680"
+      },
+      "offsets": {
+        "from": 11680,
+        "to": 16680
+      },
+      "text": " platform. Bizim kullanmamız gereken zaten üç beş tane temel şey var. Diğer"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:16,680",
+        "to": "00:00:21,600"
+      },
+      "offsets": {
+        "from": 16680,
+        "to": 21600
+      },
+      "text": " kısımlara çok fazla dokunmuyor olacağız. İlk başa yukarıda imı çıkısını var."
+    },
+    {
+      "timestamps": {
+        "from": "00:00:21,600",
+        "to": "00:00:25,460"
+      },
+      "offsets": {
+        "from": 21600,
+        "to": 25460
+      },
+      "text": " Buraya tıkladığımız zaman aşağıda bir sürü seçene kaçırıyor. Hemen burada bir seçim"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:25,460",
+        "to": "00:00:31,180"
+      },
+      "offsets": {
+        "from": 25460,
+        "to": 31180
+      },
+      "text": " yapmamız gerekiyor. Buradan imı çıkısına tıkladığımız zaman tekrardan bizim önümüzü"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:31,180",
+        "to": "00:00:36,280"
+      },
+      "offsets": {
+        "from": 31180,
+        "to": 36280
+      },
+      "text": " asıl kullanacağımız mekan geliyor. Şimdi bu aşağıdaki bu tonlar ne düşü, biz burayı nasıl"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:36,280",
+        "to": "00:00:43,460"
+      },
+      "offsets": {
+        "from": 36280,
+        "to": 43460
+      },
+      "text": " kullanıyoruz. Doğruş oldaki bu tonumuz bizim hangi resim modelini kullanacağımızı belirleyen"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:43,460",
+        "to": "00:00:48,740"
+      },
+      "offsets": {
+        "from": 43460,
+        "to": 48740
+      },
+      "text": " seçenekleri gösteriyor. Buradaki gördüğünüz gibi en çok bundan abonağına proya kullanıyor"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:48,740",
+        "to": "00:00:53,740"
+      },
+      "offsets": {
+        "from": 48740,
+        "to": 53740
+      },
+      "text": " olacağız. Onun için de cipiti imıç tutu da gerçekten çok iyi bir model. Ama ben"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:53,740",
+        "to": "00:00:59,380"
+      },
+      "offsets": {
+        "from": 53740,
+        "to": 59380
+      },
+      "text": " öyle yüz detayları konusunda nana bananayı tercih ediyorum. Cipiti imıç biraz daha"
+    },
+    {
+      "timestamps": {
+        "from": "00:00:59,380",
+        "to": "00:01:07,060"
+      },
+      "offsets": {
+        "from": 59380,
+        "to": 67060
+      },
+      "text": " yazılır. Daha karışık resimlerde daha iyi performans gösterebiliyor. Nana banana iki ise en"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:07,060",
+        "to": "00:01:12,160"
+      },
+      "offsets": {
+        "from": 67060,
+        "to": 72160
+      },
+      "text": " son çıkan nana bananın modeli, ama nana banana pro kadar güzel değil. Yani ben"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:12,160",
+        "to": "00:01:17,400"
+      },
+      "offsets": {
+        "from": 72160,
+        "to": 77400
+      },
+      "text": " haber beğenmiyorum açıkçası. O yüzden bizim nana banana proya kullanacağız daha çok."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:17,400",
+        "to": "00:01:22,780"
+      },
+      "offsets": {
+        "from": 77400,
+        "to": 82780
+      },
+      "text": " Şimdi diğer bu tonlara bakalım bunlar ne yapıyor? Bu ikinci bu tonumuz ise bizim boyutum"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:22,780",
+        "to": "00:01:28,660"
+      },
+      "offsets": {
+        "from": 82780,
+        "to": 88660
+      },
+      "text": " uzak belli olacak. Biz daha çok 9-16'i kullanıyor olacağız. KikTok ve Instagram için önemli olan"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:28,660",
+        "to": "00:01:34,660"
+      },
+      "offsets": {
+        "from": 88660,
+        "to": 94660
+      },
+      "text": " boyutupu. Onun için da eğer sitenize fotoğrafı yapıyorsanız bir ev bir ya da 3-4 tarzı"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:34,660",
+        "to": "00:01:39,100"
+      },
+      "offsets": {
+        "from": 94660,
+        "to": 99100
+      },
+      "text": " boyutlar kullanabilirsiniz. Ondan sonraki bu tonumuz bizim kalitemizi belirliyor. Ben"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:39,100",
+        "to": "00:01:45,540"
+      },
+      "offsets": {
+        "from": 99100,
+        "to": 105540
+      },
+      "text": " daha çok iki kayı kullanıyorum. Çünkü 4K bana biraz gereksiz pahalı geliyor. Birkağda"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:45,540",
+        "to": "00:01:50,300"
+      },
+      "offsets": {
+        "from": 105540,
+        "to": 110300
+      },
+      "text": " birkağda güzel aslında. Ama ben iki kayı yapıyorum. Çünkü gördüğünüz gibi birkağda"
+    },
+    {
+      "timestamps": {
+        "from": "00:01:50,300",
+        "to": "00:01:55,540"
+      },
+      "offsets": {
+        "from": 110300,
+        "to": 115540
+      },
+      "text": " sekiz kredi iki kağıda sekiz kredi. O yüzden bir fark yok. İki kayı kullanabiliriz."
+    },
+    {
+      "timestamps": {
+        "from": "00:01:55,540",
+        "to": "00:02:04,560"
+      },
+      "offsets": {
+        "from": 115540,
+        "to": 124560
+      },
+      "text": " Beech size. Bu ne demek? Mesela diyoruz ki general rate mea doktor. Şimdi ben bunu"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:04,560",
+        "to": "00:02:10,720"
+      },
+      "offsets": {
+        "from": 124560,
+        "to": 130720
+      },
+      "text": " bir kere basarsam bu dört tane oluşturacak. Ama ben bunu bir yaparsam. Şu anda gördüğünüz"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:10,720",
+        "to": "00:02:17,460"
+      },
+      "offsets": {
+        "from": 130720,
+        "to": 137460
+      },
+      "text": " gibi bir tane oluşturdu. Ama ben mesela üç tane daha oluşulmasını istiyorum. Tıktadığım"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:17,460",
+        "to": "00:02:23,500"
+      },
+      "offsets": {
+        "from": 137460,
+        "to": 143500
+      },
+      "text": " zaman birden üç tane oluşturacak. Şimdi biz bunu nasıl kullanayacağız? Ben özelliklerinden"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:23,500",
+        "to": "00:02:28,140"
+      },
+      "offsets": {
+        "from": 143500,
+        "to": 148140
+      },
+      "text": " obananda da zamanının fasaraf etmek için dörtlü dörtlü oluşturuyorum. Neden?"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:28,140",
+        "to": "00:02:32,020"
+      },
+      "offsets": {
+        "from": 148140,
+        "to": 152020
+      },
+      "text": " Çünkü genelde ilk oluşturduğumuzu kadar da güzel olmuyor mesela. Bir şey oluşuluyorsun."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:32,020",
+        "to": "00:02:37,280"
+      },
+      "offsets": {
+        "from": 152020,
+        "to": 157280
+      },
+      "text": " Bir şey burada görüyorsunuz. Fakti bir tane kapak kişiyi gözüküyor. Bu olmasa daha iyi."
+    },
+    {
+      "timestamps": {
+        "from": "00:02:37,280",
+        "to": "00:02:41,480"
+      },
+      "offsets": {
+        "from": 157280,
+        "to": 161480
+      },
+      "text": " Hani bazıların işte buna bakıyorum. Arkası çok eğer gibi duruyor. Hani tekrar tekrar"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:41,480",
+        "to": "00:02:46,980"
+      },
+      "offsets": {
+        "from": 161480,
+        "to": 166980
+      },
+      "text": " oluşturabilirsiniz bu tarz şeyleri. O yüzden ben dörtlü dörtlü oluşturup aralarından"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:46,980",
+        "to": "00:02:52,500"
+      },
+      "offsets": {
+        "from": 166980,
+        "to": 172500
+      },
+      "text": " en güzelini seçmeye özen gösteriyor. Anlimit it ne işiriyor? Anlimit it ise aslında"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:52,500",
+        "to": "00:02:58,420"
+      },
+      "offsets": {
+        "from": 172500,
+        "to": 178420
+      },
+      "text": " ise ücretsiz oluşurma. İmkanısını ya bu belli planlarda var. Gördüğünüz gibi mesela"
+    },
+    {
+      "timestamps": {
+        "from": "00:02:58,420",
+        "to": "00:03:04,740"
+      },
+      "offsets": {
+        "from": 178420,
+        "to": 184740
+      },
+      "text": " bu plas planında. Nanobanana pro da anlimit yok. Ama ultra planında Nanobanana pro da"
+    },
+    {
+      "timestamps": {
+        "from": "00:03:04,740",
+        "to": "00:03:09,420"
+      },
+      "offsets": {
+        "from": 184740,
+        "to": 189420
+      },
+      "text": " anlimit it seçeneye çıkıyoruz. O yüzden biz buradan Nanobanana proyu anlimitip bir şekilde"
+    },
+    {
+      "timestamps": {
+        "from": "00:03:09,420",
+        "to": "00:03:14,260"
+      },
+      "offsets": {
+        "from": 189420,
+        "to": 194260
+      },
+      "text": " kullanabiliyoruz. Tabii anlimit it yaptığınız zaman böyle dörtlü dörtlü oluşturamıyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:14,260",
+        "to": "00:03:19,680"
+      },
+      "offsets": {
+        "from": 194260,
+        "to": 199680
+      },
+      "text": " Tek tek oluşturmanız lazım. Hani burada biraz yavaş kalıyor. Ben o yüzden zaten çok"
+    },
+    {
+      "timestamps": {
+        "from": "00:03:19,680",
+        "to": "00:03:24,780"
+      },
+      "offsets": {
+        "from": 199680,
+        "to": 204780
+      },
+      "text": " pal bir şey değil. Bir fotoğraf oluşuması iki kredi. O yüzden ben dörtlü dörtlü oluşturuyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:24,780",
+        "to": "00:03:30,580"
+      },
+      "offsets": {
+        "from": 204780,
+        "to": 210580
+      },
+      "text": " Ama kredi tasarif etmek isterseniz burada anlimitip açıp böyle tek tek de ücretsiz bir"
+    },
+    {
+      "timestamps": {
+        "from": "00:03:30,580",
+        "to": "00:03:36,980"
+      },
+      "offsets": {
+        "from": 210580,
+        "to": 216980
+      },
+      "text": " şekilde tamamen oluşturabilirsiniz. Buradaki draw kısmı ise ana mantık da burada gösteriyoruz"
+    },
+    {
+      "timestamps": {
+        "from": "00:03:36,980",
+        "to": "00:03:42,260"
+      },
+      "offsets": {
+        "from": 216980,
+        "to": 222260
+      },
+      "text": " zaten hani bir post çizip mesela adamı o posta sokabilirsiniz. Ben hiç kullanmadım."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:42,260",
+        "to": "00:03:48,060"
+      },
+      "offsets": {
+        "from": 222260,
+        "to": 228060
+      },
+      "text": " Çok da bir ihtiyacınız hocamı düşünmüyor. Ok şimdi video kısmına gelecek olursak buradan"
+    },
+    {
+      "timestamps": {
+        "from": "00:03:48,060",
+        "to": "00:03:53,920"
+      },
+      "offsets": {
+        "from": 228060,
+        "to": 233920
+      },
+      "text": " biz kendi medyalarımızı yükliyor olacağız buraya resim video ve ses koyabiliyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:03:53,920",
+        "to": "00:03:59,900"
+      },
+      "offsets": {
+        "from": 233920,
+        "to": 239900
+      },
+      "text": " Mesela bir resim koyup o videoyu canlandırabilirsiniz. İsteydiniz hareketleri yaptırtabilirsiniz ya da"
+    },
+    {
+      "timestamps": {
+        "from": "00:03:59,900",
+        "to": "00:04:06,100"
+      },
+      "offsets": {
+        "from": 239900,
+        "to": 246100
+      },
+      "text": " örnek 2 tane video koyup ondan sonra bir tane fotoğraf yükleyip dersiniz ki işte bu fotoğrafda"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:06,100",
+        "to": "00:04:12,140"
+      },
+      "offsets": {
+        "from": 246100,
+        "to": 252140
+      },
+      "text": " karakter bu hareket bu videoda kereketleri yapsın tarzı. Ses buraya yükleyip işe bu"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:12,140",
+        "to": "00:04:18,380"
+      },
+      "offsets": {
+        "from": 252140,
+        "to": 258380
+      },
+      "text": " kadın hani bu ses tonunda konusun diyebiliyorsunuz hani mesela ilan unu lapsan bir sess yaptığınız"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:18,380",
+        "to": "00:04:23,740"
+      },
+      "offsets": {
+        "from": 258380,
+        "to": 263740
+      },
+      "text": " güzel ve gerçekçip ses. Onu burayı yükleyip onu videoya uyarlayabiliyorsunuz yani o sesi"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:23,740",
+        "to": "00:04:31,420"
+      },
+      "offsets": {
+        "from": 263740,
+        "to": 271420
+      },
+      "text": " senin videonun içerisinde kullanabiliyorsunuz. Burada Sidenz NNN gerçekçi video modele"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:31,420",
+        "to": "00:04:37,140"
+      },
+      "offsets": {
+        "from": 271420,
+        "to": 277140
+      },
+      "text": " şu anda piyasadaki. Onun dışında kling var tabi Sidenz biraz pahalı burada gördüğünüz gibi"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:37,140",
+        "to": "00:04:43,420"
+      },
+      "offsets": {
+        "from": 277140,
+        "to": 283420
+      },
+      "text": " 10 saniyel bir videoya 120 kredi diyor tabi şu anda indirme modele için doksan. Buradan"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:43,420",
+        "to": "00:04:49,620"
+      },
+      "offsets": {
+        "from": 283420,
+        "to": 289620
+      },
+      "text": " biz kalitesini düşürdüğümüz zaman veya saniyesine aktırıp azalttığımız zaman fiyatlar"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:49,620",
+        "to": "00:04:55,180"
+      },
+      "offsets": {
+        "from": 289620,
+        "to": 295180
+      },
+      "text": " değişe olacaktır ama Sidenz anamantıkta uzun madede pahalı bir model. Bu Sidenz'in için"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:55,180",
+        "to": "00:04:59,980"
+      },
+      "offsets": {
+        "from": 295180,
+        "to": 299980
+      },
+      "text": " kullanabiliriz. Sidenz öncelikle gerçekçilik konusunda çok iyi sessar olsun,"
+    },
+    {
+      "timestamps": {
+        "from": "00:04:59,980",
+        "to": "00:05:05,940"
+      },
+      "offsets": {
+        "from": 299980,
+        "to": 305940
+      },
+      "text": " konuşma olsun, karmaşık hareketler olsun. Bunları Sidenz çok iyi bir şekilde yapabiliriz."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:05,940",
+        "to": "00:05:12,500"
+      },
+      "offsets": {
+        "from": 305940,
+        "to": 312500
+      },
+      "text": " Benz'in öbür özelliği ise siz bir video içerisinde birden farklı saniyeler yapabiliyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:12,500",
+        "to": "00:05:19,140"
+      },
+      "offsets": {
+        "from": 312500,
+        "to": 319140
+      },
+      "text": " Yani atıyorum. Diyosunuz ki ilk üç saniyede kadın salbi çekiyormuş gibi konuşsun tamam."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:19,140",
+        "to": "00:05:23,620"
+      },
+      "offsets": {
+        "from": 319140,
+        "to": 323620
+      },
+      "text": " Ondan sonra dersiniz ki işte 5-6 saniyede kadın ürünü böyle çeksin."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:23,620",
+        "to": "00:05:28,460"
+      },
+      "offsets": {
+        "from": 323620,
+        "to": 328460
+      },
+      "text": " Hani bundan hepsini tek bir prompt da tek bir video halinde yapabiliyorsunuz. Eğer başka bir model"
+    },
+    {
+      "timestamps": {
+        "from": "00:05:28,460",
+        "to": "00:05:33,900"
+      },
+      "offsets": {
+        "from": 328460,
+        "to": 333900
+      },
+      "text": " kullanırsanız bu videoları ayrı ayrı ayrı promptlamanız lazım. Buradan tek bir"
+    },
+    {
+      "timestamps": {
+        "from": "00:05:33,900",
+        "to": "00:05:38,920"
+      },
+      "offsets": {
+        "from": 333900,
+        "to": 338920
+      },
+      "text": " genere işimde birden fazla sahne birden fazla element kullanabiliyorsunuz. Tabii"
+    },
+    {
+      "timestamps": {
+        "from": "00:05:38,920",
+        "to": "00:05:42,780"
+      },
+      "offsets": {
+        "from": 338920,
+        "to": 342780
+      },
+      "text": " bunların hepsini detaylı bir şekilde anlatacağım. Şu anda sadece gözet bir şarkı."
+    },
+    {
+      "timestamps": {
+        "from": "00:05:42,780",
+        "to": "00:05:48,780"
+      },
+      "offsets": {
+        "from": 342780,
+        "to": 348780
+      },
+      "text": " Bir de bizim burada klingimiz var. Klingi daha çok kullanıyor olacağız. Biz ürün videolarında"
+    },
+    {
+      "timestamps": {
+        "from": "00:05:48,780",
+        "to": "00:05:54,960"
+      },
+      "offsets": {
+        "from": 348780,
+        "to": 354960
+      },
+      "text": " tabi ürünlerine değişebilir. En neden biraz daha ekonomik şuradan mesela 1080'e yaptığımızı"
+    },
+    {
+      "timestamps": {
+        "from": "00:05:54,960",
+        "to": "00:06:00,860"
+      },
+      "offsets": {
+        "from": 354960,
+        "to": 360860
+      },
+      "text": " an mesela 18 kere diye biz 10 saniye video yapabiliyoruz burada. Gayeti yeterli oluyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:00,860",
+        "to": "00:06:05,420"
+      },
+      "offsets": {
+        "from": 360860,
+        "to": 365420
+      },
+      "text": " Video kalitesi konusunda ise sidans kadar kalitilo olmasa da genel olarak gayeti"
+    },
+    {
+      "timestamps": {
+        "from": "00:06:05,420",
+        "to": "00:06:10,460"
+      },
+      "offsets": {
+        "from": 365420,
+        "to": 370460
+      },
+      "text": " derdini anlatıyor. Eğer en çok karmaşık bir şey de ise ya da konuşma yoksa mesela."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:10,460",
+        "to": "00:06:16,540"
+      },
+      "offsets": {
+        "from": 370460,
+        "to": 376540
+      },
+      "text": " Burada start frame ve end frame olayları var. Yani mesela start frame'de düzduran bir karaklar"
+    },
+    {
+      "timestamps": {
+        "from": "00:06:16,540",
+        "to": "00:06:23,420"
+      },
+      "offsets": {
+        "from": 376540,
+        "to": 383420
+      },
+      "text": " koyuyoruz. End frame'de de işte atıyorum. Elimde bir tane ürün tutan bir fotoğraf koyuyoruz"
+    },
+    {
+      "timestamps": {
+        "from": "00:06:23,420",
+        "to": "00:06:29,180"
+      },
+      "offsets": {
+        "from": 383420,
+        "to": 389180
+      },
+      "text": " aynı bir şekilde. O iki fotoğrafı iliştirinize hani elin boşken birden ürünle elini"
+    },
+    {
+      "timestamps": {
+        "from": "00:06:29,180",
+        "to": "00:06:34,620"
+      },
+      "offsets": {
+        "from": 389180,
+        "to": 394620
+      },
+      "text": " sahneye geçirelimle son frame'i birleşire gibi düşünabilirsin. Tabi burada illa end frame'le son frame"
+    },
+    {
+      "timestamps": {
+        "from": "00:06:34,620",
+        "to": "00:06:39,740"
+      },
+      "offsets": {
+        "from": 394620,
+        "to": 399740
+      },
+      "text": " kullanmak zorundamıyız. Hayır ben daha çok nasıl kullanıyorum. Ben sadece start frame koyuyorum mesela"
+    },
+    {
+      "timestamps": {
+        "from": "00:06:39,740",
+        "to": "00:06:46,940"
+      },
+      "offsets": {
+        "from": 399740,
+        "to": 406940
+      },
+      "text": " burada bakalım. Neyimiz var. Aynen şöyle fotoğrafımız var. Elin de parmağında krem tutuyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:06:46,940",
+        "to": "00:06:53,660"
+      },
+      "offsets": {
+        "from": 406940,
+        "to": 413660
+      },
+      "text": " Burada ediyorsunuz ki işte parmağında kremi yüzüne sürsün, burnular sürsün. O yüzüne burnuna"
+    },
+    {
+      "timestamps": {
+        "from": "00:06:53,660",
+        "to": "00:06:58,700"
+      },
+      "offsets": {
+        "from": 413660,
+        "to": 418700
+      },
+      "text": " sürecektir. Ya da buraya son halinin bir tane frameini yükleyebilirsiniz. Yani bu da nasıl bir şey"
+    },
+    {
+      "timestamps": {
+        "from": "00:06:58,700",
+        "to": "00:07:03,020"
+      },
+      "offsets": {
+        "from": 418700,
+        "to": 423020
+      },
+      "text": " olabilir? Işte bütün üzü kremle kaplı. Mesela öyle bir tane fotoğrafı geneliydi. Buraya"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:03,020",
+        "to": "00:07:09,260"
+      },
+      "offsets": {
+        "from": 423020,
+        "to": 429260
+      },
+      "text": " end frame olarak koyarsanız bu işe yüzü ful kremle kaplanana kadar yüzüne sürücektir. Tabi burada"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:09,260",
+        "to": "00:07:14,780"
+      },
+      "offsets": {
+        "from": 429260,
+        "to": 434780
+      },
+      "text": " yazdınız, prompt da bununla alakalı uygun olması lazım. İkinin de şöyle de bir olay var. Biz"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:14,780",
+        "to": "00:07:19,180"
+      },
+      "offsets": {
+        "from": 434780,
+        "to": 439180
+      },
+      "text": " genelde ses kullanmayacağız videolarımızla. Yani arkadaşlar bir müzik olacak ya da bir konuşmayacak"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:19,180",
+        "to": "00:07:28,020"
+      },
+      "offsets": {
+        "from": 439180,
+        "to": 448020
+      },
+      "text": " vesaire. O yüzden bu sesik kapatabiliriz. Bu çok fark edilmiyor ama gerçekten kredi de çok büyük"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:28,020",
+        "to": "00:07:33,620"
+      },
+      "offsets": {
+        "from": 448020,
+        "to": 453620
+      },
+      "text": " fark ediyor. Yani sesle bu kadar kredi harcımaya çok fazla gerek yok. Şimdi audio kısmına bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:07:33,620",
+        "to": "00:07:40,020"
+      },
+      "offsets": {
+        "from": 453620,
+        "to": 460020
+      },
+      "text": " Bu audio kısmının güzel bir yanı ise ilamın naps bu platform'u içerisinde var. Yani singedip ayrıca"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:40,020",
+        "to": "00:07:46,740"
+      },
+      "offsets": {
+        "from": 460020,
+        "to": 466740
+      },
+      "text": " bir ilamın naps aboneleyi almanıza gerek yok. Hani burada kendi kredilerinizi kullanarak ilamın napsı sahip"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:46,740",
+        "to": "00:07:52,500"
+      },
+      "offsets": {
+        "from": 466740,
+        "to": 472500
+      },
+      "text": " olabilirsiniz. Hixie olan içerisinde ve gayet uyudum. İki kredi bir videoyu işte mesela burada"
+    },
+    {
+      "timestamps": {
+        "from": "00:07:52,500",
+        "to": "00:08:00,820"
+      },
+      "offsets": {
+        "from": 472500,
+        "to": 480820
+      },
+      "text": " sesini değiştirebiliyoruz. Yadaşı transayet ettirebiliyorsun burada istediğin dile. Yadaşıda voice over için bir tane"
+    },
+    {
+      "timestamps": {
+        "from": "00:08:00,820",
+        "to": "00:08:06,820"
+      },
+      "offsets": {
+        "from": 480820,
+        "to": 486820
+      },
+      "text": " skrip yazıp burada gördüğünüz gibi ilamın napsı kullanıyor. Sesimizi seçiyoruz yadaşı kendin kastın."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:06,820",
+        "to": "00:08:13,820"
+      },
+      "offsets": {
+        "from": 486820,
+        "to": 493820
+      },
+      "text": " Ses oluşurabilirsin. Burada kendi sesimizi seçiyoruz ve bu skrip de bastığımız zaman oluşur"
+    },
+    {
+      "timestamps": {
+        "from": "00:08:13,820",
+        "to": "00:08:19,860"
+      },
+      "offsets": {
+        "from": 493820,
+        "to": 499860
+      },
+      "text": " ilamın napsı kullanarak ve gördüğünüz gibi gerçekten çok büyük. Yani bir kredi bile değil. O yüzden ekstra bir ilamın naps"
+    },
+    {
+      "timestamps": {
+        "from": "00:08:19,860",
+        "to": "00:08:26,740"
+      },
+      "offsets": {
+        "from": 499860,
+        "to": 506740
+      },
+      "text": " aboneleyi almanıza gerek yok. Şimdi gel gelelim bizim belki de en çok kullanacağımız özelliği."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:26,740",
+        "to": "00:08:33,540"
+      },
+      "offsets": {
+        "from": 506740,
+        "to": 513540
+      },
+      "text": " Gerçekten çok yeni bir özellik daha birkaç hatta öncesinde yoktu. Belki bu videoyu yehenneyeceğiz."
+    },
+    {
+      "timestamps": {
+        "from": "00:08:33,540",
+        "to": "00:08:40,900"
+      },
+      "offsets": {
+        "from": 513540,
+        "to": 520900
+      },
+      "text": " Hani bu kalacak başka bir özellik gelecek. O kadar hızlı gelişiyor platform. O yüzden şuandaki elimizdeki"
+    },
+    {
+      "timestamps": {
+        "from": "00:08:40,900",
+        "to": "00:08:47,220"
+      },
+      "offsets": {
+        "from": 520900,
+        "to": 527220
+      },
+      "text": " olan en iyi yöntem bu şu anda bunu kullanacağız. İleride farklı bir yöntem gelirse bu platform"
+    },
+    {
+      "timestamps": {
+        "from": "00:08:47,220",
+        "to": "00:08:55,900"
+      },
+      "offsets": {
+        "from": 527220,
+        "to": 535900
+      },
+      "text": " genede işirse biz gene bunun güncalemisine yapıyor. Oacağız. Şimdi bu süper komputer nedir bizim ne işimizi"
+    },
+    {
+      "timestamps": {
+        "from": "00:08:55,900",
+        "to": "00:09:03,100"
+      },
+      "offsets": {
+        "from": 535900,
+        "to": 543100
+      },
+      "text": " verecek. Herkesin eskiden biz fotoğraf video oluşurmamız gerektiği zaman ne yapıyorduk."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:03,100",
+        "to": "00:09:07,780"
+      },
+      "offsets": {
+        "from": 543100,
+        "to": 547780
+      },
+      "text": " İşte o fotoğrafı çeşitliğe atıyorduk ya da kılığa da atıyorduk. Son zamanda diyorduk."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:07,780",
+        "to": "00:09:13,380"
+      },
+      "offsets": {
+        "from": 547780,
+        "to": 553380
+      },
+      "text": " İşte böyle böyle olmasını istiyorum. Bunu buraya koy bunu böyle yap. Ondan aldığımız prompt'u gelip buraya koyuyorduk."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:13,380",
+        "to": "00:09:18,020"
+      },
+      "offsets": {
+        "from": 553380,
+        "to": 558020
+      },
+      "text": " Burada geneler itiyorduk. Hani birkaç farklı aşamadan geçiyoruz. Sen önce kıladığı diyordun."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:18,020",
+        "to": "00:09:24,180"
+      },
+      "offsets": {
+        "from": 558020,
+        "to": 564180
+      },
+      "text": " O prompt yazıyor dışarıda. Ondan sonra sen kopyalaya pişirepiyordun falan. Burada da gördüğünüz gibi"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:24,180",
+        "to": "00:09:29,540"
+      },
+      "offsets": {
+        "from": 564180,
+        "to": 569540
+      },
+      "text": " bu süper komputerin içerisinde ihtiyacımız olan bütün eğerler var. Yani burada kıladığı var,"
+    },
+    {
+      "timestamps": {
+        "from": "00:09:29,540",
+        "to": "00:09:36,100"
+      },
+      "offsets": {
+        "from": 569540,
+        "to": 576100
+      },
+      "text": " eceminay var, opuneyeyim çeşit sıvar ve grok var. Tabii burada da çok kıladığı tavsiye ediyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:36,100",
+        "to": "00:09:42,180"
+      },
+      "offsets": {
+        "from": 576100,
+        "to": 582180
+      },
+      "text": " Kıladığı da son net yeterli olacaktır gayet ucuz ama ben bazen otuz süt 4.6'da kullanıyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:42,180",
+        "to": "00:09:47,860"
+      },
+      "offsets": {
+        "from": 582180,
+        "to": 587860
+      },
+      "text": " Son net çünkü bazı durumlarda benim hani karmaşık bir şey istiyorsam bunları çok fazla yapamıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:47,860",
+        "to": "00:09:54,180"
+      },
+      "offsets": {
+        "from": 587860,
+        "to": 594180
+      },
+      "text": " O yüzden o tarzlımları o pus kullanabilirsiniz. O pus biraz daha pahalı bir model daha çok yazalım eser için."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:54,180",
+        "to": "00:09:58,980"
+      },
+      "offsets": {
+        "from": 594180,
+        "to": 598980
+      },
+      "text": " Ama burada da işimize görecektir. Şimdi burası bizim ne işimize verecek."
+    },
+    {
+      "timestamps": {
+        "from": "00:09:58,980",
+        "to": "00:10:05,460"
+      },
+      "offsets": {
+        "from": 598980,
+        "to": 605460
+      },
+      "text": " Burası aslında fotoğraf oluşturan bir kılad olarak düşünebilirsiniz. Yani kılad, dedim bu eğer y olan kılad."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:05,460",
+        "to": "00:10:12,420"
+      },
+      "offsets": {
+        "from": 605460,
+        "to": 612420
+      },
+      "text": " Ya da bir çetçikli olarak düşünebilirsiniz. Yani artıksın bir prompt yazmanıza gerek yok. Buraya diyorsunuz ki işte."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:12,420",
+        "to": "00:10:18,900"
+      },
+      "offsets": {
+        "from": 612420,
+        "to": 618900
+      },
+      "text": " Mesela hatta deneyelim hep beraber. Buraya bir tane fotoğraf koyuyorum. Bir şey elinde krem tutuyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:18,900",
+        "to": "00:10:26,500"
+      },
+      "offsets": {
+        "from": 618900,
+        "to": 626500
+      },
+      "text": " Buraya diyorum ki işte çok kabaca bir şey alacağım. Üzüne sürsün. Bu kadar hani video yap vesaire demiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:26,500",
+        "to": "00:10:28,980"
+      },
+      "offsets": {
+        "from": 626500,
+        "to": 628980
+      },
+      "text": " Yolluyorum bunu. Bakalım ne çıkaracak bize."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:28,980",
+        "to": "00:10:37,300"
+      },
+      "offsets": {
+        "from": 628980,
+        "to": 637300
+      },
+      "text": " Şimdi diyor ki bana burada ne dediğimi anlamamış. Çok genel bir şey yazdık. Bu resmen yapmak istiyorsun diye."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:37,300",
+        "to": "00:10:49,300"
+      },
+      "offsets": {
+        "from": 637300,
+        "to": 649300
+      },
+      "text": " Yücisi style video mu olsun diye. Üzüne sürdüğü bir video oluştur. Böyle biraz daha direktif versek daha güzel olur."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:49,300",
+        "to": "00:10:52,260"
+      },
+      "offsets": {
+        "from": 649300,
+        "to": 652260
+      },
+      "text": " Üzüne sürsün demiyoruz. Çok genel kaldı."
+    },
+    {
+      "timestamps": {
+        "from": "00:10:52,260",
+        "to": "00:11:00,580"
+      },
+      "offsets": {
+        "from": 652260,
+        "to": 660580
+      },
+      "text": " Şimdi diyor ki yüzüne sürmesin size tamam. Buradır ki video generation yeterliğine bakıyorum diyor. Ondan sonra resme alıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:00,580",
+        "to": "00:11:04,260"
+      },
+      "offsets": {
+        "from": 660580,
+        "to": 664260
+      },
+      "text": " Kendisi prompt yazıyor. Automatikmen gördüğünüz gibi."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:04,260",
+        "to": "00:11:10,180"
+      },
+      "offsets": {
+        "from": 664260,
+        "to": 670180
+      },
+      "text": " Buradan iyi kullanacak. Mesela burada sidans ikiyi kullanmaya karar verdi."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:10,180",
+        "to": "00:11:16,180"
+      },
+      "offsets": {
+        "from": 670180,
+        "to": 676180
+      },
+      "text": " Boyutunu nasıl yapacağını karar verdi. Hemen bunu kullanmaya başladı. Aynen."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:16,180",
+        "to": "00:11:22,820"
+      },
+      "offsets": {
+        "from": 676180,
+        "to": 682820
+      },
+      "text": " Genel etmeye başladı. Şimdi bunu bekleyelim biraz. Burada sidans ile uğşurlandı videoya bakalım. Aynen."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:22,820",
+        "to": "00:11:29,300"
+      },
+      "offsets": {
+        "from": 682820,
+        "to": 689300
+      },
+      "text": " Birebir fotoğrafı almış. Ondan sonra dediğimiz gibi yüzüne sürmüş ki gayet gerçekçi bir şekilde sürüyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:29,300",
+        "to": "00:11:38,100"
+      },
+      "offsets": {
+        "from": 689300,
+        "to": 698100
+      },
+      "text": " Size görebilirsiniz. Yani gözünü yansımasınlanmış. Bu deriye yedirmesine kadar çok gerçekçi gayet güzel bir video olmuş."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:38,100",
+        "to": "00:11:43,620"
+      },
+      "offsets": {
+        "from": 698100,
+        "to": 703620
+      },
+      "text": " Burada sadece video değil aynı zamanda siz toplu fotoğraf vesaire de üretebilirsiniz."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:43,620",
+        "to": "00:11:47,780"
+      },
+      "offsets": {
+        "from": 703620,
+        "to": 707780
+      },
+      "text": " Buraları detaylı bir şekilde anlatıyor olacağız. OK, şu anda devam ediyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:47,780",
+        "to": "00:11:52,180"
+      },
+      "offsets": {
+        "from": 707780,
+        "to": 712180
+      },
+      "text": " Super computer'a baktık yanı olarak ne işler yapabileceğine gördük."
+    },
+    {
+      "timestamps": {
+        "from": "00:11:52,180",
+        "to": "00:12:03,380"
+      },
+      "offsets": {
+        "from": 712180,
+        "to": 723380
+      },
+      "text": " Bir de bizim MCP ve bir de bizim MCP kısmımız var. Buraya da geldiğimiz zaman bu aslında sizin bilgisayarımızın içerisindeki cloud'a"
+    },
+    {
+      "timestamps": {
+        "from": "00:12:03,380",
+        "to": "00:12:07,940"
+      },
+      "offsets": {
+        "from": 723380,
+        "to": 727940
+      },
+      "text": " hix field aksise vermenize sağlıyor. Bilmiyorum anlatabilir miyim?"
+    },
+    {
+      "timestamps": {
+        "from": "00:12:07,940",
+        "to": "00:12:17,700"
+      },
+      "offsets": {
+        "from": 727940,
+        "to": 737700
+      },
+      "text": " Yani mesela masörsünle bir tane kulaşar açıyorsunuz. Diyorsun ki işte karakterler. Ondan sonra bir tane kulaşar açıyorsunuz. Diyorsun ki prodaklar."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:17,700",
+        "to": "00:12:25,140"
+      },
+      "offsets": {
+        "from": 737700,
+        "to": 745140
+      },
+      "text": " Ondan sonra siz cloud koda gidip diyorsunuz ki işte buradaki karakterleri işte masörsünle kulaşırdığı karakterleri."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:25,140",
+        "to": "00:12:32,340"
+      },
+      "offsets": {
+        "from": 745140,
+        "to": 752340
+      },
+      "text": " Ve masörsünle kulaşırdaki prodak fotoğrafları kullanarak bana videolar oluşur. Her gün beş tane oluşur falan diyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:32,340",
+        "to": "00:12:39,860"
+      },
+      "offsets": {
+        "from": 752340,
+        "to": 759860
+      },
+      "text": " Hani bu hem otomüze bir de sizin yerde artık daha da sistemleşmenize yardımcı oluyor. İlk aşamalarda ihtiyacımız var mı?"
+    },
+    {
+      "timestamps": {
+        "from": "00:12:39,860",
+        "to": "00:12:45,780"
+      },
+      "offsets": {
+        "from": 759860,
+        "to": 765780
+      },
+      "text": " İlk aşamalarda. Super computer bizim aynı işle ve hani daha vereyimli bir şekilde yapmamız sağlıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:45,780",
+        "to": "00:12:53,380"
+      },
+      "offsets": {
+        "from": 765780,
+        "to": 773380
+      },
+      "text": " Bir yerden sonra işe atıyorum. Günde elli tane reaz çıkartmanız lazım. Burada işe siz bunu otomüze etmenize yardımcı oluyor anlamandık da."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:53,380",
+        "to": "00:12:56,180"
+      },
+      "offsets": {
+        "from": 773380,
+        "to": 776180
+      },
+      "text": " Bunları detaylı bir şekilde daha sonra bakabiliriz."
+    },
+    {
+      "timestamps": {
+        "from": "00:12:56,180",
+        "to": "00:13:06,740"
+      },
+      "offsets": {
+        "from": 776180,
+        "to": 786740
+      },
+      "text": " Şimdi plug-ins kısmı Prost'la yeni gelmiş vardı. Eğer After Effects veya Premiere Pro kullanıyorsunuz, Şehit İkisi Vealı bu uygulamalığın içerisinde kullanmanızı yardımcı oluyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:06,740",
+        "to": "00:13:14,820"
+      },
+      "offsets": {
+        "from": 786740,
+        "to": 794820
+      },
+      "text": " Mesela iki tane videoyu alıp işe arasına geçiş çalışır diye biliyorsunuz ya işte burada da gösteriyor farklı farklı kullanım alanlarına."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:14,820",
+        "to": "00:13:20,740"
+      },
+      "offsets": {
+        "from": 794820,
+        "to": 800740
+      },
+      "text": " İşte arka planı size biliyorsunuz ve sayra ve sayra hani gayet kullanışı bir uygulamaya benziyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:20,740",
+        "to": "00:13:25,940"
+      },
+      "offsets": {
+        "from": 800740,
+        "to": 805940
+      },
+      "text": " Ben de buna yakınla bir göz atarım. Detaylı bir şekilde videosu da gelebilir. Eğer kullanışça bir şeyse."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:25,940",
+        "to": "00:13:33,860"
+      },
+      "offsets": {
+        "from": 805940,
+        "to": 813860
+      },
+      "text": " Burada ki kolam kısmı ise biraz daha forum gibi hani insanlar kendi yaptığı projeleri ve sayra paylaşıyorlar burada."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:33,860",
+        "to": "00:13:39,460"
+      },
+      "offsets": {
+        "from": 813860,
+        "to": 819460
+      },
+      "text": " Marketin studio ise biraz daha hazır tamplayitler canından gibi yapmaya odaklı."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:39,460",
+        "to": "00:13:43,300"
+      },
+      "offsets": {
+        "from": 819460,
+        "to": 823300
+      },
+      "text": " Hani burada siz kendinizi seçip burada farklı videotürleri var."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:43,300",
+        "to": "00:13:48,180"
+      },
+      "offsets": {
+        "from": 823300,
+        "to": 828180
+      },
+      "text": " Tişe buradan istediğiniz huukları seçebiliyorsunuz. Şu anda niye seçemiyorum?"
+    },
+    {
+      "timestamps": {
+        "from": "00:13:48,180",
+        "to": "00:13:53,780"
+      },
+      "offsets": {
+        "from": 828180,
+        "to": 833780
+      },
+      "text": " Biraz geçipleniyormuş. Burada gördüğünüz gibi farklı huuklar seçebiliyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:53,780",
+        "to": "00:13:59,620"
+      },
+      "offsets": {
+        "from": 833780,
+        "to": 839620
+      },
+      "text": " Hani bunlarla hazır tamplayitlerden yücüsü tarzı videolar oluşurabiliyorsunuz anamakta."
+    },
+    {
+      "timestamps": {
+        "from": "00:13:59,620",
+        "to": "00:14:01,220"
+      },
+      "offsets": {
+        "from": 839620,
+        "to": 841220
+      },
+      "text": " Burada ki sinema sütü diyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:01,220",
+        "to": "00:14:10,180"
+      },
+      "offsets": {
+        "from": 841220,
+        "to": 850180
+      },
+      "text": " İşte aslında bizim az önce de incelediğimiz Sidenz 2 modelinin hani biraz daha detaylı daha ayrıntılı var şu anda."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:10,180",
+        "to": "00:14:15,780"
+      },
+      "offsets": {
+        "from": 850180,
+        "to": 855780
+      },
+      "text": " Nasıl yani siz Sidenz saniye o kadar detaylı bir şekilde kontrol edemiyorsunuz aslında videoyu."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:15,780",
+        "to": "00:14:29,460"
+      },
+      "offsets": {
+        "from": 855780,
+        "to": 869460
+      },
+      "text": " Ama burada siz istediğiniz istili seçip buradan kamera ayarlarına mesela kalır palet doyuyorsunuz lighting ve oynuyorsunuz hani ortam dışı kamera nasıl hareket etsin şöyle yapalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:29,460",
+        "to": "00:14:36,340"
+      },
+      "offsets": {
+        "from": 869460,
+        "to": 876340
+      },
+      "text": " Burada farklı kamera hareketlerini görebiliyorsunuz. Hani bunları kendi videolarınızda kullanabiliyorsunuz aslında."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:36,340",
+        "to": "00:14:41,940"
+      },
+      "offsets": {
+        "from": 876340,
+        "to": 881940
+      },
+      "text": " Tabii bunlar siz prompt'a da yapabilirsiniz ama burada hani göreerek yapmak belki daha kullanışı olabilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:41,940",
+        "to": "00:14:52,420"
+      },
+      "offsets": {
+        "from": 881940,
+        "to": 892420
+      },
+      "text": " Burada ki kamera kısmındaysa gördüğünüz gibi sanki gerçekten bir profesyonel sütüyomuz gibi istediğimiz kamera istediğimiz dense istediğimiz kamera ayarlarına seçip kullanabiliyorsunuz videoda."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:52,420",
+        "to": "00:14:55,860"
+      },
+      "offsets": {
+        "from": 892420,
+        "to": 895860
+      },
+      "text": " Tabii bunlar nefsiniz siz prompt'a da yapabilirsiniz dediğim gibi."
+    },
+    {
+      "timestamps": {
+        "from": "00:14:55,860",
+        "to": "00:15:09,940"
+      },
+      "offsets": {
+        "from": 895860,
+        "to": 909940
+      },
+      "text": " Organik dropshbin için biz bunu kullanacakmıyız çok fazla kullanmayacağız yani bu biraz daha televizyon reklamı tarzı videolar yapmak istiyorsanız ama viral videolar için çok fazla bu tarz şeyleri kuracağı alamanıza gerek yok açıkası."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:09,940",
+        "to": "00:15:19,380"
+      },
+      "offsets": {
+        "from": 909940,
+        "to": 919380
+      },
+      "text": " Tabii ilgilenen varsa bakabilir. Yani burası gerçekten sidensin. Daha detaylı, daha ayrıntılı ve profesyonel dışarı yapılabilecek bir sayfak."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:19,380",
+        "to": "00:15:25,140"
+      },
+      "offsets": {
+        "from": 919380,
+        "to": 925140
+      },
+      "text": " Kimden? Eğer info'nun sır. Ben buraya kullanmayı seviyorum. Ben buraya kullanmayı sevmiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:25,140",
+        "to": "00:15:34,420"
+      },
+      "offsets": {
+        "from": 925140,
+        "to": 934420
+      },
+      "text": " Aslında işinize kolaylaştırabilir bir şey yani yaptığınız fotoğraflarla direkt şey kendi karakterinizi oradan menüden seçebiliyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:34,420",
+        "to": "00:15:41,700"
+      },
+      "offsets": {
+        "from": 934420,
+        "to": 941700
+      },
+      "text": " Bu tarz güzel kullanışı alanları var ama buradan yapılan ben karakterlerin o kadar gerçekçi olduğunu düşünmüyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:41,700",
+        "to": "00:15:47,780"
+      },
+      "offsets": {
+        "from": 941700,
+        "to": 947780
+      },
+      "text": " Bunu biz zaten sonraki karakter oluşturma modüllerinde de hani nasıl karakteri oluşturabiliriz."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:47,780",
+        "to": "00:15:57,700"
+      },
+      "offsets": {
+        "from": 947780,
+        "to": 957700
+      },
+      "text": " Bu karakterler nasıl kullanabiliriz. Bunu konuşuyor olacağız ama dediğim gibi ben bunları çok fazla gerçekçi bulmuyorum ama kullanıştı ve işleri hızlandırabilir gerçekten."
+    },
+    {
+      "timestamps": {
+        "from": "00:15:57,700",
+        "to": "00:16:02,740"
+      },
+      "offsets": {
+        "from": 957700,
+        "to": 962740
+      },
+      "text": " Buraya de bir yık görse atabilirsiniz. Şimdi bu kanvas ne işe yarıyor. Biraz da buraya bakalım."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:02,740",
+        "to": "00:16:12,540"
+      },
+      "offsets": {
+        "from": 962740,
+        "to": 972540
+      },
+      "text": " OK. Bu kanma sedimiz olay aslında biz istediğimiz şekilde istediğimiz şeylere otomüze edebiliyoruz. Nasıl yani."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:12,540",
+        "to": "00:16:18,820"
+      },
+      "offsets": {
+        "from": 972540,
+        "to": 978820
+      },
+      "text": " Ben istiyorum ki bir tane fotoğraf yükleyim. Bir tane eay buna baksın. Bunun promptunu yasın."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:18,820",
+        "to": "00:16:24,340"
+      },
+      "offsets": {
+        "from": 978820,
+        "to": 984340
+      },
+      "text": " O promptu yasın. Başka bir video eayına versin. Bu eayda bununla ilgili video oluşursun."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:24,340",
+        "to": "00:16:27,860"
+      },
+      "offsets": {
+        "from": 984340,
+        "to": 987860
+      },
+      "text": " Şimdi ben mesela diyorum ki bir tane fotoğraf oluşturmak istiyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:27,860",
+        "to": "00:16:37,220"
+      },
+      "offsets": {
+        "from": 987860,
+        "to": 997220
+      },
+      "text": " İşte bu fotoğrafın promptu. Promptu'nu bir eay yasın. Ondan sonra diyorum ki bu eayda şuna bakarak prompt yasın."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:37,220",
+        "to": "00:16:42,180"
+      },
+      "offsets": {
+        "from": 997220,
+        "to": 1002180
+      },
+      "text": " gibi mesela buraya da sistem promptu'nu giriyorum. Buraya normal promptu giriyorum."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:42,180",
+        "to": "00:16:48,420"
+      },
+      "offsets": {
+        "from": 1002180,
+        "to": 1008420
+      },
+      "text": " Hani şu anda karışık edebilir. Birazdan örnek üzerinden göstereceğim. Ondan sonra diyorum ki işte bu fotoğrafı alsın."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:48,420",
+        "to": "00:16:54,380"
+      },
+      "offsets": {
+        "from": 1008420,
+        "to": 1014380
+      },
+      "text": " Bu fotoğrafdan video oluşursun. Bu videonun promptu da buradan gelsin."
+    },
+    {
+      "timestamps": {
+        "from": "00:16:54,380",
+        "to": "00:17:02,780"
+      },
+      "offsets": {
+        "from": 1014380,
+        "to": 1022780
+      },
+      "text": " Yani böyle aslında işlere otomüze edebiliyorsunuz. Ben aslında bu süper komputer çıkman önce eğitimi daha çok buradan anlatmayı düşünüyordum."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:02,780",
+        "to": "00:17:10,860"
+      },
+      "offsets": {
+        "from": 1022780,
+        "to": 1030860
+      },
+      "text": " Ama süper komputer çıktıktan sonra burası çok fazla bir işimize yaramıyor artık. Neden? Çünkü oradan diye bir iki yazışmayla her şeyi halledebiliyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:10,860",
+        "to": "00:17:13,060"
+      },
+      "offsets": {
+        "from": 1030860,
+        "to": 1033060
+      },
+      "text": " Hemen şimdi bunu örneğine bakalım tane."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:13,060",
+        "to": "00:17:19,900"
+      },
+      "offsets": {
+        "from": 1033060,
+        "to": 1039900
+      },
+      "text": " Şimdi ben buraya basit bir tamplayı hazırladım. Görüşse aramak için. Anam antikle şimdi şöyle çalışıyor. Bu sistem."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:19,900",
+        "to": "00:17:32,220"
+      },
+      "offsets": {
+        "from": 1039900,
+        "to": 1052220
+      },
+      "text": " Öncelikle ben buraya fotoğrafımı koyuyorum. Ondan sonra bu prompt kısmına ise çok basit bir şekilde videoda ne olduğunu veya ben ne olmasını istemiyorum diyorum ki o kızı şey yüzüne krem sürüyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:32,220",
+        "to": "00:17:42,180"
+      },
+      "offsets": {
+        "from": 1052220,
+        "to": 1062180
+      },
+      "text": " Şimdi bunu oluyor. Bu yazdığım şey bu e'nin içerisine geliyor. Bir de bu e'nin belli kuralı var. Burada gördüğünüz gibi sistem promptu var."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:42,180",
+        "to": "00:17:53,060"
+      },
+      "offsets": {
+        "from": 1062180,
+        "to": 1073060
+      },
+      "text": " İşte burada diyor ki sen short form content creation work flowlar için işte resim deskriversin. Yani resimi tanıtan bir e'yesin diyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:53,060",
+        "to": "00:17:59,820"
+      },
+      "offsets": {
+        "from": 1073060,
+        "to": 1079820
+      },
+      "text": " İşte senin için bir fotoğrafa bakıp oradan ne olduğunu tanıtmak diyor. Şimdi ben buraya bunu yazıyorum. Ondan sonra sistem promptumuzda bu."
+    },
+    {
+      "timestamps": {
+        "from": "00:17:59,820",
+        "to": "00:18:10,660"
+      },
+      "offsets": {
+        "from": 1079820,
+        "to": 1090660
+      },
+      "text": " Ondan sonra ben buna fotoğrafı da bağlıyorum. Sonra bu bana fotoğrafda ne olduğunu ve benim aksiyonumla nasıl bir şey olması gerektiğine aslında kısaca açık diyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:18:10,660",
+        "to": "00:18:20,780"
+      },
+      "offsets": {
+        "from": 1090660,
+        "to": 1100780
+      },
+      "text": " Yani bakıyor diyor ki işte baş örtülü birisi. İşte yüzüne krem sürüyor yanana. Ondan sonra işte icar açık bir elinde white krem var."
+    },
+    {
+      "timestamps": {
+        "from": "00:18:20,780",
+        "to": "00:18:35,100"
+      },
+      "offsets": {
+        "from": 1100780,
+        "to": 1115100
+      },
+      "text": " gibi gibi bir de hani ortamı tanıtmış basitçe. Şimdi bu e'nin oluşurdu prompt ise biz başka bir e'ye bağlıyorsun. Neden? Çünkü bunun olayı sadece fotoğrafda ne olduğunu anlatmakta."
+    },
+    {
+      "timestamps": {
+        "from": "00:18:35,100",
+        "to": "00:18:40,580"
+      },
+      "offsets": {
+        "from": 1115100,
+        "to": 1120580
+      },
+      "text": " Bu e'nin amacı ise videonun bu fotoğrafı göre nasıl bir videolması gerektiğini anlamak."
+    },
+    {
+      "timestamps": {
+        "from": "00:18:40,580",
+        "to": "00:18:48,820"
+      },
+      "offsets": {
+        "from": 1120580,
+        "to": 1128820
+      },
+      "text": " Bunun sistem prompt ise kullanıcı sana bir tane referans fotoğrafı yükleyecek ve nasıl bir hareket olmasını istediğini söyleyecek."
+    },
+    {
+      "timestamps": {
+        "from": "00:18:48,820",
+        "to": "00:18:55,700"
+      },
+      "offsets": {
+        "from": 1128820,
+        "to": 1135700
+      },
+      "text": " Sende bunu resmi incedeceksin. Yani düzgün bir şekilde prompt yalacaksın gibi bayağı detaylı bir sistem promptumuz var."
+    },
+    {
+      "timestamps": {
+        "from": "00:18:55,700",
+        "to": "00:19:02,020"
+      },
+      "offsets": {
+        "from": 1135700,
+        "to": 1142020
+      },
+      "text": " Ondan sonra son e'nin çıksına baktığımız zaman. Yani bizim asıl videopromptuğuna baktığımız zaman."
+    },
+    {
+      "timestamps": {
+        "from": "00:19:02,020",
+        "to": "00:19:12,340"
+      },
+      "offsets": {
+        "from": 1142020,
+        "to": 1152340
+      },
+      "text": " Burada diyor ki işte genç bir kadın var işte otallere duruyor ışıklar şöyle yüzüne krem sürüyor gibi gibi. Bu da detaylı bir prompt yazıyor biz hani videocan eve işin için."
+    },
+    {
+      "timestamps": {
+        "from": "00:19:12,340",
+        "to": "00:19:22,100"
+      },
+      "offsets": {
+        "from": 1152340,
+        "to": 1162100
+      },
+      "text": " Ondan sonra bununla video oluşurduğumuz zaman. Tabi bu video basit olup için bu sistem biraz karışık gelebilir ama anamantıkta gülümçü yere yüzüne kremi sürüyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:19:22,100",
+        "to": "00:19:26,500"
+      },
+      "offsets": {
+        "from": 1162100,
+        "to": 1166500
+      },
+      "text": " Böyle bir varf ula yapmamız gereken şey. İşte fotoğrafı yükliyoruz. Ne olduğunu yazıyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:19:26,500",
+        "to": "00:19:41,140"
+      },
+      "offsets": {
+        "from": 1166500,
+        "to": 1181140
+      },
+      "text": " Bu bu eğer bize ortamı vesaire tanıtıyor. Bu eğer bize fotoğrafı anlatıyor. Bu eğer ise bunun anlatığına ve fotoğrafı bakarak nasıl bir video olması gerektiğini bizim video generation modeline söylüyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:19:41,140",
+        "to": "00:19:45,580"
+      },
+      "offsets": {
+        "from": 1181140,
+        "to": 1185580
+      },
+      "text": " Tabi bunları gerek var mı? Artık hiçbir gerek yok. Direkt süper komputer kullanacağız."
+    },
+    {
+      "timestamps": {
+        "from": "00:19:45,580",
+        "to": "00:19:51,020"
+      },
+      "offsets": {
+        "from": 1185580,
+        "to": 1191020
+      },
+      "text": " Bunun başka bir kullanışalarını size mesela şey olabilir. Ben bir tane fotoğrafı yüklerim."
+    },
+    {
+      "timestamps": {
+        "from": "00:19:51,020",
+        "to": "00:19:58,940"
+      },
+      "offsets": {
+        "from": 1191020,
+        "to": 1198940
+      },
+      "text": " Ondan sonra ürünümün fotoğrafı yüklerim, kendi karakterimin fotoğrafı yüklerim. Bu önce elimdeki ürün değiştirir de benim ürünümle."
+    },
+    {
+      "timestamps": {
+        "from": "00:19:58,940",
+        "to": "00:20:05,060"
+      },
+      "offsets": {
+        "from": 1198940,
+        "to": 1205060
+      },
+      "text": " Ondan sonra karakteri değiştirir de benim karakterimle. Sonra da onu videoya çevirdim. Hani bu tarz şeyler de yapılabilir."
+    },
+    {
+      "timestamps": {
+        "from": "00:20:05,060",
+        "to": "00:20:15,900"
+      },
+      "offsets": {
+        "from": 1205060,
+        "to": 1215900
+      },
+      "text": " Ama artık gerçekten süper kompletir. Birkaç küçük prompt ile direk bu bütün vörpülerin yaptığı işi saniyeler içerisinde yapabiliyor ve bizim dolaşmımızla gerek kalmıyor."
+    },
+    {
+      "timestamps": {
+        "from": "00:20:15,900",
+        "to": "00:20:23,540"
+      },
+      "offsets": {
+        "from": 1215900,
+        "to": 1223540
+      },
+      "text": " Bir de bu ayarlar kısmını ise gayet güzel bir dashboard yapmışlar. Hani nerede ne kullanmışız? Bunlara bakabiliyoruz."
+    },
+    {
+      "timestamps": {
+        "from": "00:20:23,540",
+        "to": "00:20:33,980"
+      },
+      "offsets": {
+        "from": 1223540,
+        "to": 1233980
+      },
+      "text": " Son 7 günde harcadığım kredilerin %23 klinmiş, %20sidence, %16'ın anabalana Pro, %14 GPT image."
+    },
+    {
+      "timestamps": {
+        "from": "00:20:33,980",
+        "to": "00:20:40,020"
+      },
+      "offsets": {
+        "from": 1233980,
+        "to": 1240020
+      },
+      "text": " Bir de hani bu kıladığım da bir ücreti var. Bunlarda kredinden bile %10'dak bu kıladığım."
+    },
+    {
+      "timestamps": {
+        "from": "00:20:40,020",
+        "to": "00:20:45,980"
+      },
+      "offsets": {
+        "from": 1240020,
+        "to": 1245980
+      },
+      "text": " Normal süper kompetirdeki e'nin ücreti imiş. Bu tarz detayları da görebiliyorsunuz gayet güzel."
+    },
+    {
+      "timestamps": {
+        "from": "00:20:45,980",
+        "to": "00:20:59,780"
+      },
+      "offsets": {
+        "from": 1245980,
+        "to": 1259780
+      },
+      "text": " Buradan oltaima bakalım bir de merak ettim. %45'in anabalana Pro kullanmışım. %13 GPT image ve otiri tabi bu eskiden kullanırken ve otiri emilde onu kullanıyorduk."
+    },
+    {
+      "timestamps": {
+        "from": "00:20:59,780",
+        "to": "00:21:10,860"
+      },
+      "offsets": {
+        "from": 1259780,
+        "to": 1270860
+      },
+      "text": " Klin'den %19 kullanmışım gibi gibi. Moş'ın kontrolümüz var burada. Adır ne bilmiyorum. Yani bütün her şeyi gayet detaylı bir şekilde görebiliyorsunuz."
+    },
+    {
+      "timestamps": {
+        "from": "00:21:10,860",
+        "to": "00:21:15,500"
+      },
+      "offsets": {
+        "from": 1270860,
+        "to": 1275500
+      },
+      "text": " Gayet mantıklı bir şekilde analiz edebiliyorsunuz. Neyin nasıl kullandığınızı görebiliyorsunuz."
+    }
+  ]
+}
