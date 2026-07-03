@@ -661,5 +661,705 @@
     "total_score": 17,
     "verdict": "Potansiyel Winner",
     "crawled_at": "2026-07-02"
+  },
+  {
+    "name": "Elektrikli Tereyağı Isıtıcı ve Fırçalı Bulaşık Fırçası (Butter Dipper)",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Showcase",
+    "description": "Tereyağını sürekli sıvı halde tutan ve entegre silikon fırçası sayesinde fırçalama işlemini kolaylaştıran bir cihazdır. Bu sayede yemek pişirirken tereyağının donma derdi ortadan kalkar ve bulaşık derdi azalır.",
+    "image_url": "https://ae01.alicdn.com/kf/S55883d65b7964dfca42502ef857b6862m/Elektrikli-Tereya-Is-t-c-S-v-Yiyecek-F-r-as-2-si-1-Arac-Barbek-.jpg_640x640.jpg",
+    "why_viral": "Haziran 2026 tarihli bir makalede 'son zamanların en hızlı satan mutfak aletlerinden biri' ve 'TikTok fenomeni' olarak bahsedilmektedir. Tereyağının donmasını ve bulaşık çıkarmasını engellemesi nedeniyle yemek pişirme sorununu çözer.",
+    "hook_ideas": [
+      "Tereyağı bazlı yemekleri hazırlarken zaman ve dağınıklık sorununa son!",
+      "Mükemmel kızarmış patateslerin sırrı: Asla donmayan tereyağı!"
+    ],
+    "est_price": "29.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-electric-butter-warmer-basting-brush.html",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 20,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Akıllı/Kablosuz Et Termometresi",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Showcase",
+    "description": "Etin iç sıcaklığını ve fırın/ızgara sıcaklığını uzaktan telefon uygulaması üzerinden takip etmenizi sağlayan kablosuz bir termometredir. Mükemmel pişmiş etler için hassas kontrol sunar.",
+    "image_url": "https://ae01.alicdn.com/kf/S4e2f9d6a782a4d4090f2303a1167448d3/Wireless-Meat-Food-Thermometer-for-Oven-Grill-BBQ-Steak-Turkey-Smoker-Kitchen-Smart-Digital-Bluetooth-Barbecue.jpg_640x640.jpg",
+    "why_viral": "Haziran 2026 tarihli bir makalede 'bu yaz ciddi bir büyüme' gösterdiği belirtilmiştir. Uzaktan ve hassas pişirme kontrolü sayesinde yemek pişirme stresini azaltır.",
+    "hook_ideas": [
+      "Etinizi bir daha asla yanlış pişirmeyin: Telefonunuzdan kontrol edin!",
+      "Misafirlerinize şef kalitesinde etler sunmanın sırrı bu gadget'ta."
+    ],
+    "est_price": "39.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-wireless-meat-thermometer.html",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Elektrikli Izgara Fırçası",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Showcase",
+    "description": "Izgara temizliğini zahmetsiz hale getiren, fırçasız veya paslanmaz çelik fırça başlığına sahip, şarj edilebilir ve elektrikli bir temizleme aracıdır. LED ışıklandırması sayesinde zorlu kirleri bile görmeyi sağlar.",
+    "image_url": "https://ae01.alicdn.com/kf/S4940567117f24029bc417c800880026eW/Electric-Grill-Brush-Rechargeable-with-LED-Light-304-Stainless-Steel-Replaceable-Heads-Cordless-BBQ-Grill-Cleaner.jpg_640x640.jpg",
+    "why_viral": "Ağustos 2025 tarihli FastMoss verilerinde 'son 14 günlük' performansında 'Viral Endeksi 100' olarak belirtilmiştir. Zorlu ızgara temizliğini kolaylaştırması ve güvenli (fırçasız) seçenekleri sunmasıyla dikkat çekiyor. [cite: 2, 6, 21 in previous step output]",
+    "hook_ideas": [
+      "Izgara temizliği hiç bu kadar kolay olmamıştı! Fırçalama derdine son.",
+      "Kusursuz ızgara keyfi için temizliğe harcanan zamandan tasarruf edin."
+    ],
+    "est_price": "49.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-electric-grill-brush.html",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Patates Kızartması Şeklinde Poşet Kapatma Klipsi",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Regular",
+    "description": "Atıştırmalık poşetlerini hava almayacak şekilde kapatmaya yarayan, patates kızartması şeklinde tasarlanmış eğlenceli ve pratik klipslerdir. Yiyeceklerin tazeliğini korur ve mutfağa eğlenceli bir dokunuş katar.",
+    "image_url": "https://ae01.alicdn.com/kf/S3228a7e3ae3042d38622c366ff407f0f3/12PCS-French-Fry-Shaped-Sealing-Clip-For-Snack-Sealing-Food-Clips-Plastic-Bag-Seasoning-Sealing-Strips.jpg_640x640.jpg",
+    "why_viral": "AliExpress'te '10.000'den fazla satıldı' ibaresi, ürünün yüksek talep gördüğünü ve görsel çekiciliği nedeniyle sosyal medyada kolayca yayılabileceğini göstermektedir. Atıştırmalıkları taze tutma sorununa eğlenceli bir çözüm sunar.",
+    "hook_ideas": [
+      "Atıştırmalıklarınız hep taze kalsın, mutfağınıza eğlence katın!",
+      "Çocukların bayılacağı bu sevimli klipslerle yiyecek israfına son."
+    ],
+    "est_price": "12.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-french-fry-shaped-sealing-clip.html",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 3,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 17,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Dolap Altı Kavanoz Açacağı",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Regular",
+    "description": "Zorlu kavanoz kapaklarını zahmetsizce açmak için dolap altına monte edilen, tek elle kullanılabilen pratik bir mutfak gerecidir. Özellikle yaşlılar veya el gücü zayıf olanlar için idealdir.",
+    "image_url": "https://ae01.alicdn.com/kf/Sc83a483a90f14896898f796013620894U/New-1pcs-Under-Cabinet-Jar-Openers-for-Weak-Hand-Easy-Grip-One-Handed-Gadgets-Bottle-Opener.jpg_640x640.jpg",
+    "why_viral": "Kullanıcı yorumlarında 'hayat kurtarıcı' olarak bahsedilen ve yaygın bir soruna (sıkışmış kavanozlar) basit ve etkili bir çözüm sunan bu ürün, sürekli bir talep görmektedir. Özellikle erişilebilirlik yönü sosyal medyada paylaşım potansiyeli taşır.",
+    "hook_ideas": [
+      "Sıkışmış kavanozlara veda edin: Bu açıcıyla her şey parmaklarınızın ucunda!",
+      "Annenize veya büyükanne/babanıza hayatını kolaylaştıracak bir hediye verin."
+    ],
+    "est_price": "7.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-under-cabinet-jar-opener.html",
+    "scores": {
+      "visual_satisfaction": 3,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 17,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Sıyırıcı Tabanlı Ayarlanabilir Ölçü Kabı",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Showcase",
+    "description": "Yapışkan malzemeleri (bal, fıstık ezmesi, şurup vb.) israf etmeden ve tamamen boşaltarak ölçmeyi sağlayan, ayarlanabilir ve sıyırıcı tabanlı yenilikçi bir ölçü kabıdır. Tek bir kapta birden fazla ölçüm yapabilme özelliği vardır.",
+    "image_url": "https://i.ebayimg.com/images/g/H0YAAOSw-SllZfM0/s-l1600.jpg",
+    "why_viral": "Yapışkan malzemelerin ölçümündeki yaygın hayal kırıklığını ortadan kaldıran bu ürün, 'sıfır atık, maksimum verimlilik' vaadiyle sosyal medyada dikkat çekmektedir. Yenilikçi tasarımı videolarda görsel olarak tatmin edicidir.",
+    "hook_ideas": [
+      "Yapışkan malzemeleri ölçmek artık kabus değil: Her damlasını kullanın!",
+      "Mutfakta israfa son veren tek ölçü kabı."
+    ],
+    "est_price": "19.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-adjustable-measuring-cup-scraper-base.html",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 19,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Manuel veya Küçük Otomatik Yumurta Soyucu",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Regular",
+    "description": "Haşlanmış yumurtaların kabuğunu hızlı ve kolay bir şekilde soymayı sağlayan, el kranklı veya küçük otomatik bir cihazdır. Yumurta soymadaki zahmeti ve dağınıklığı azaltır.",
+    "image_url": "https://ae01.alicdn.com/kf/Sbf9c2288019e49639c4a93557e034e402/1PC-Egg-Peeler-Hand-Crank-Egg-Shell-Remover-Kitchen-Gadgets-Boiled-Eggs-Eggshell-Separator-Peeler-Cooking.jpg_640x640.jpg",
+    "why_viral": "Temmuz 2026 tarihli bir makale 'viral yumurta soyma hileleri'ni tartışırken, ürünün kendisi 'zahmetsiz, dağınıklıksız soyma' vaadiyle sosyal medyada popüler hale gelmiştir. Yumurta soymanın yaygın bir sıkıntısını çözer.",
+    "hook_ideas": [
+      "Yumurta soymak artık çok kolay! Parmaklarınız kirlenmeden saniyeler içinde.",
+      "Kahvaltı hazırlığını hızlandıran sihirli yumurta soyucu."
+    ],
+    "est_price": "14.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-hand-crank-egg-peeler.html",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 17,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Çırpıcı Sıyırıcı / Whisk Wiper",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Regular",
+    "description": "Çırpıcı telindeki hamur veya krema kalıntılarını tek bir hareketle kolayca temizlemeye yarayan, israfı azaltan ve temizliği kolaylaştıran bir mutfak aletidir.",
+    "image_url": "https://whiskwiper.com/cdn/shop/files/WWPRO_White_WEB_HERO_1_e417036d-9614-4340-91a7-ff0b67272782.png?v=1678822003&width=1400",
+    "why_viral": "Bulaşık yıkama sürecini basitleştirdiği ve gıda israfını azalttığı için sosyal medyada 'neden daha önce düşünülmedi?' gibi yorumlarla viral olmuştur. Görsel olarak tatmin edici bir kullanım sunar.",
+    "hook_ideas": [
+      "Çırpıcınızdaki her damla hamuru kurtarın: Temizlik hiç bu kadar hızlı olmamıştı!",
+      "Mutfakta dağınıklığa son veren küçük ama etkili bir yardımcı."
+    ],
+    "est_price": "9.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-whisk-wiper.html",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Entegre Toplama Hazneli Kesme Tahtası",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Showcase",
+    "description": "Doğranmış yiyecekleri doğrudan kayar bir tepsi veya hazneye toplayarak mutfak tezgahını temiz tutan ve yemek hazırlığını düzenleyen bambu veya ahşap bir kesme tahtasıdır.",
+    "image_url": "https://i5.walmartimages.com/asr/396652d8-6548-433b-81e0-7e3e96683526.96cf5d7f12e84176466f363c46a6f642.jpeg?odnHeight=768&odnBg=FFFFFF",
+    "why_viral": "Mutfakta düzeni ve verimliliği artıran bu ürün, özellikle küçük mutfaklarda yer tasarrufu sağlamasıyla sosyal medya kullanıcılarının ilgisini çekmektedir. Doğrama videolarında akıcı iş akışı görsel olarak tatmin edicidir.",
+    "hook_ideas": [
+      "Mutfak tezgahınız bir daha asla dağınık olmayacak: Tek bir hareketle her şey düzenli!",
+      "Yemek hazırlığını hızlandıran ve kolaylaştıran akıllı kesme tahtası."
+    ],
+    "est_price": "39.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-cutting-board-with-storage-drawer.html",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 20,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Çok Fonksiyonlu Ev Tipi Büyük Sebze/Meyve Doğrayıcı",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Showcase",
+    "description": "Büyük miktarlarda sebze ve meyveleri hızlı ve eşit bir şekilde doğramayı, dilimlemeyi veya küp küp kesmeyi sağlayan, ev kullanımına uygun, manuel veya elektrikli bir doğrayıcıdır. Hazırlık süresini önemli ölçüde kısaltır.",
+    "image_url": "https://ae01.alicdn.com/kf/S59c9462c7e0c4b78ae676e10f81d1e4cW/Multifunctional-Vegetable-Cutter-Fruit-and-Vegetable-Slicer-Commercial-Household-Carrot-Potato-Onion-Granular-Dicer-Machine-250W.jpg_640x640.jpg",
+    "why_viral": "Yemek hazırlığını önemli ölçüde hızlandırması ve görsel olarak tatmin edici, düzenli kesimler sunmasıyla sosyal medyada ilgi görmektedir. Özellikle toplu yemek hazırlığı yapanların ilgisini çeker.",
+    "hook_ideas": [
+      "Yemek hazırlığında devrim: Saatler süren doğrama işini dakikalara indirin!",
+      "Mükemmel salatalar ve yemekler için hızlı ve pratik doğrama çözümü."
+    ],
+    "est_price": "59.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-home-use-large-fruit-dicer.html",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 19,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Taşınabilir Kaseli Seyahat Kedi/Köpek Mama ve Su Şişesi",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Regular",
+    "description": "Evcil hayvan sahiplerinin seyahat ederken veya dışarıdayken mama ve su ihtiyaçlarını pratik bir şekilde karşılamalarını sağlayan, katlanabilir kaseli 2'si 1 arada taşınabilir şişe. Hafif ve sızdırmaz tasarımıyla dikkat çekiyor.",
+    "image_url": "https://ae01.alicdn.com/kf/S50d03b0d24e5454699ae862973562d96P.jpg",
+    "why_viral": "Evcil hayvanlarıyla sıkça dışarı çıkan kişilerin karşılaştığı beslenme sorununa getirdiği pratik çözüm ve kompakt tasarımıyla TikTok ve Instagram'da seyahat ve dış mekan aktiviteleri temalı videolarda beğeni topluyor. Yorumlarda 'nereye alabilirim?', 'çok pratik!' gibi ifadeler sıkça görülüyor.",
+    "hook_ideas": [
+      "Evcil Dostunuzla Her Anı Paylaşın: Taşınabilir Mama & Su Şişesi!",
+      "Seyahatlerde Mama ve Su Derdine Son! Kolay Taşınabilir Çözüm."
+    ],
+    "est_price": "19.99",
+    "aliexpress_url": "https://www.aliexpress.com/item/1005006240092591.html",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Buharlı Masaj Etkili Kedi/Köpek Tüy Tarağı",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Showcase",
+    "description": "Evcil hayvanların tüylerini tararken aynı zamanda buharla nemlendirme ve masaj yapma özelliği sunan, tüylerin dökülmesini azaltıp parlaklık kazandıran yenilikçi tarak.",
+    "image_url": "https://img.joomcdn.net/4efc439167b5791a87e5967ee38b291d96bcf279_original.jpeg",
+    "why_viral": "Tüy dökme sorununa getirdiği etkili çözüm ve evcil hayvanların keyifli tepkileri sayesinde videoları viral oluyor. 'Tüylere veda edin!', 'kedim bayıldı!' gibi yorumlarla satın alma isteği uyandırıyor.",
+    "hook_ideas": [
+      "Tüylere Son! Buharlı Masaj Tarağı ile Evcil Hayvanınızın Keyfini Katlayın.",
+      "Hem Tımar Hem Masaj: Evcil Dostunuz İçin Kusursuz Tüy Bakımı."
+    ],
+    "est_price": "24.99",
+    "aliexpress_url": "https://www.aliexpress.com/item/1005006637311140.html",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 20,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Akıllı/Kameralı Otomatik Evcil Hayvan Mama ve Su Sebili",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Showcase",
+    "description": "Uygulama üzerinden kontrol edilebilen, kamera sayesinde evcil hayvanı uzaktan izleme ve belirli zamanlarda otomatik mama/su verme özelliği sunan akıllı cihaz.",
+    "image_url": "https://ae01.alicdn.com/kf/A36c0a0c4f82a46678229ee8733a1e2f8i.jpg",
+    "why_viral": "Evcil hayvan sahiplerinin seyahat veya yoğun günlerde içlerini rahatlatan bir çözüm sunmasıyla öne çıkıyor. 'Artık gözüm arkada kalmıyor!', 'inanılmaz kolaylık!' gibi yorumlarla büyük ilgi görüyor.",
+    "hook_ideas": [
+      "Evcil Dostunuz Hiç Aç Kalmasın! Akıllı Mama Kabıyla Gözünüz Arkada Kalmasın.",
+      "Uzaktan Takip, Akıllı Besleme: Yeni Nesil Evcil Hayvan Bakımı."
+    ],
+    "est_price": "79.99",
+    "aliexpress_url": "https://www.aliexpress.com/item/1005006877983636.html",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 4,
+      "reaction_potential": 5
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Otomatik/Elektrikli Pati Temizleyici",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Regular",
+    "description": "Evcil hayvanların dışarıdan geldikten sonra patilerini hızlı ve etkili bir şekilde temizlemek için tasarlanmış, elektrikli veya manuel seçenekleri bulunan pratik aparat.",
+    "image_url": "https://ae01.alicdn.com/kf/S51f0f295b28d4d12999e5572a3922378n.jpg",
+    "why_viral": "Özellikle yağmurlu ve çamurlu havalarda evcil hayvan sahiplerinin temizlik derdini ortadan kaldırmasıyla dikkat çekiyor. 'Evim artık tertemiz!', 'mutlaka almalıyım!' gibi yorumlarla viral oluyor.",
+    "hook_ideas": [
+      "Çamurlu Patilere Son! Otomatik Pati Temizleyici ile Eviniz Hep Temiz Kalsın.",
+      "Dışarıdan Gelince Saniyeler İçinde Temiz Patiler!"
+    ],
+    "est_price": "34.99",
+    "aliexpress_url": "https://www.aliexpress.com/item/1005006421575815.html",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Köpek Arka Koltuk Uzatıcı/Platformu",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Regular",
+    "description": "Aracın arka koltuğunu evcil hayvanlar için daha geniş ve güvenli bir alana dönüştüren, kaydırmaz tabanlı ve su geçirmez bir platform. Seyahatlerde konfor ve güvenlik sağlıyor.",
+    "image_url": "https://ae01.alicdn.com/kf/S55567a57c5a044b78c437340fc208f23J.jpg",
+    "why_viral": "Köpek sahiplerinin uzun yolculuklarda veya günlük sürüşlerde evcil hayvanlarının konforunu ve güvenliğini artırma ihtiyacına yönelik pratik bir çözüm sunuyor. 'Köpeğim çok rahat etti!', 'arabam da temiz kalıyor!' gibi yorumlarla talep görüyor.",
+    "hook_ideas": [
+      "Köpeğinizle Güvenli ve Konforlu Yolculuklar! Arka Koltuk Uzatıcı ile Tanışın.",
+      "Arabanız ve Köpeğiniz İçin Mükemmel Seyahat Alanı!"
+    ],
+    "est_price": "59.99",
+    "aliexpress_url": "https://www.aliexpress.com/item/1005006093375865.html",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Doğal/Vegan Evcil Hayvan Koku Giderici ve Leke Çıkarıcı Sprey",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Regular",
+    "description": "Evcil hayvan kaynaklı kötü kokuları maskelemek yerine kaynağında yok eden, aynı zamanda leke çıkarma özelliği olan, doğal ve vegan formüllü sprey.",
+    "image_url": "https://ae01.alicdn.com/kf/Sd98ee23b6c2d4993a936a583e07dd38eL.jpg",
+    "why_viral": "Evcil hayvanlı evlerde hijyen ve ferahlık sağlama vaadiyle öne çıkıyor. Özellikle 'kimyasal içermeyen' ve 'doğal çözüm' vurgusuyla çevreye ve hayvan sağlığına duyarlı kullanıcıların ilgisini çekiyor. Yorumlarda 'kokuyu tamamen yok etti!' gibi olumlu geri bildirimler alıyor.",
+    "hook_ideas": [
+      "Evcil Hayvan Kokularına Doğal Çözüm! Eviniz Her Zaman Ferah Kalsın.",
+      "Leke ve Kokuya Elveda! Evcil Dostunuz İçin Vegan Sprey."
+    ],
+    "est_price": "29.99",
+    "aliexpress_url": "https://www.aliexpress.com/item/1005006450537060.html",
+    "scores": {
+      "visual_satisfaction": 3,
+      "problem_solving": 5,
+      "immediate_understandability": 4,
+      "reaction_potential": 4
+    },
+    "total_score": 16,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Interaktif Ödül Dağıtıcı Köpek Oyuncağı",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Showcase",
+    "description": "Köpeklerin zekasını ve oyun yeteneğini teşvik eden, ödül maması dağıtarak onları eğlendiren, sıkılmalarını önleyen interaktif oyuncak. Bazı modeller top fırlatma özelliği de sunar.",
+    "image_url": "https://ae01.alicdn.com/kf/S5c742ae2a8464654929a59ce05740441Y.jpg",
+    "why_viral": "Köpeklerin sıkılmasını önlemesi, zihinsel uyarım sağlaması ve ödül mekanizmasıyla sürekli ilgi çekmesi sayesinde videoları popülerleşiyor. 'Köpeğim bayıldı!', 'evin en eğlenceli oyuncağı!' gibi yorumlarla satın alma isteği yaratıyor.",
+    "hook_ideas": [
+      "Köpeğiniz Hem Eğlensin Hem Ödüllensin! İnteraktif Oyuncak ile Sıkılmaya Son.",
+      "Zeka Geliştiren Eğlence: Ödül Dağıtıcı Oyuncak Köpeğiniz İçin!"
+    ],
+    "est_price": "39.99",
+    "aliexpress_url": "https://www.aliexpress.com/item/1005006880295876.html",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Kendi Kendine Tımar Eden Kedi Köşe Fırçası",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Regular",
+    "description": "Kedilerin kendilerini kaşıyıp tımar etmeleri için tasarlanmış, duvara veya mobilya köşelerine monte edilebilen yumuşak fırça. Kedi nanesini içine koyma özelliği de bulunur.",
+    "image_url": "https://ae01.alicdn.com/kf/S28c114972c444390b79377484d08154cM.jpg",
+    "why_viral": "Kedilerin bu fırçaya gösterdiği keyifli tepkiler, özellikle 'kendiliğinden' tımar etme fikri ve düşük maliyetiyle TikTok'ta sıkça paylaşılan videoların konusu oluyor. 'Kedim bağımlısı oldu!', 'mutlaka almalısınız!' gibi yorumlar alıyor.",
+    "hook_ideas": [
+      "Kedinizin Gizli Keyfi: Kendi Kendine Tımar Eden Köşe Fırçası!",
+      "Mobilyalarınız Güvende, Kediniz Mutlu: Duvara Monte Tımar Fırçası."
+    ],
+    "est_price": "9.99",
+    "aliexpress_url": "https://www.aliexpress.com/item/1005006871089600.html",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 3,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Yavaş Mama Kabı (Slow Feeder)",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Regular",
+    "description": "Hızlı yemek yiyen evcil hayvanların mama yeme hızını yavaşlatarak sindirimi kolaylaştıran, boğulma riskini azaltan ve obeziteyi önlemeye yardımcı olan özel tasarımlı mama kabı.",
+    "image_url": "https://ae01.alicdn.com/kf/S2659e93b1d3148109d936104e76d90a8N.jpg",
+    "why_viral": "Evcil hayvanların hızlı yemek yeme sorununa pratik ve sağlıklı bir çözüm sunmasıyla popülerliğini koruyor. 'Köpeğimin kusmaları azaldı!', 'artık daha yavaş yiyor!' gibi olumlu geri bildirimlerle talep görüyor.",
+    "hook_ideas": [
+      "Hızlı Yeme Derdine Son! Yavaş Mama Kabıyla Sağlıklı Sindirim.",
+      "Evcil Dostunuz Daha Yavaş Yesin, Daha Sağlıklı Olsun!"
+    ],
+    "est_price": "14.99",
+    "aliexpress_url": "https://www.aliexpress.com/item/1005006622340398.html",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 3
+    },
+    "total_score": 17,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Şarjlı Otomatik Lazer Tasma Kedi Oyuncağı",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Showcase",
+    "description": "Kedilerin boynuna takılabilen, şarj edilebilir pilli, otomatik olarak hareket eden lazer ışığı yayan, kedileri egzersiz yapmaya teşvik eden akıllı oyuncak.",
+    "image_url": "https://ae01.alicdn.com/kf/S03ae92a3449e49a4a75e2c548a39151cR.jpg",
+    "why_viral": "Kedilerin lazer takibi içgüdüsünü harekete geçirmesi ve sahiplerine 'eller serbest' oyun imkanı sunmasıyla TikTok ve Instagram'da ilgi görüyor. 'Kedim durmadan oynuyor!', 'çok pratik bir ürün!' gibi yorumlar alıyor.",
+    "hook_ideas": [
+      "Kediniz Kendi Başına Eğlensin! Otomatik Lazer Tasması ile Sıkılmaya Son.",
+      "Enerjik Kediler İçin Mükemmel Çözüm: Şarjlı Lazer Tasma!"
+    ],
+    "est_price": "29.99",
+    "aliexpress_url": "https://www.aliexpress.com/item/1005006830500732.html",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 19,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "4 Kanallı 360° Araç İçi Kamera Sistemi",
+    "category": "Teknoloji ve Oto Aksesuar",
+    "product_type": "Showcase",
+    "description": "Ön, arka ve her iki kör noktayı 4K çözünürlükte kaydeden dört ayrı kameraya sahip, aracınıza tam 360° koruma sağlayan akıllı bir araç içi kamera sistemi. Gece görüşü ve ses kontrolü gibi özelliklere sahiptir.",
+    "image_url": "https://ae01.alicdn.com/kf/S555c81f7f0234ce5a56d959556d11b2eI/360-Panoramic-Car-DVR-ADAS-Dash-Cam-4-Camera-Lens-360-Degree-Bird-View-System-Car.jpg_640x640.jpg",
+    "why_viral": "Haziran 2026'da yayınlanan videolar, arabanın etrafında tam koruma sağlaması ve kör noktaları ortadan kaldırması nedeniyle bu ürünün 'tam bir sigorta poliçesi' olduğunu belirtiyor. Kullanıcılar, kaza anında kanıt sağlama potansiyeli ve gelişmiş güvenlik özellikleriyle ilgileniyor. Yorumlarda 'nereye alabilirim?' gibi talepler olması muhtemeldir.",
+    "hook_ideas": [
+      "Aracınızın etrafındaki her şeyi kaydedin: 'Yanlışlıkla çarpma korkusuna son!'",
+      "Geceleri bile net görüntü: 'Karanlıkta bile tam güvenlik!'",
+      "Kör noktaları ortadan kaldırın: 'Artık hiçbir şeyi kaçırmayın!'"
+    ],
+    "est_price": "150.00",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-360-dash-cam-4k.html",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 20,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "3'ü 1 Arada Seramik Kaplama Spreyi",
+    "category": "Teknoloji ve Oto Aksesuar",
+    "product_type": "Regular",
+    "description": "Geleneksel yıkama, cilalama ve boya koruyucuyu tek bir kolay adımda değiştiren premium 3'ü 1 arada seramik sprey. Aracınıza ultra kaygan, cam benzeri bir kalkan bırakarak yağmur, çamur ve yol kirlerinin kayıp gitmesini sağlar.",
+    "image_url": "https://ae01.alicdn.com/kf/Se74659b81dfc457788874a6258416d610/3-in-1-High-Protection-Quick-Car-Coating-Spray-Ceramic-Car-Paint-Sealant-Gloss-Spray-Fast-Coat.jpg_640x640.jpg",
+    "why_viral": "Haziran 2026'da yayınlanan videolarda, 'profesyonel temassız araç yıkama kalitesini evde elde etmenin inanılmaz derecede kolay olduğu' vurgulanıyor. Ürünün zamandan ve emekten tasarruf ettirmesi, görselliği ve koruma özelliği yüksek talep görüyor.",
+    "hook_ideas": [
+      "Arabanızı tek spreyde yıkayın, cilalayın ve koruyun: 'Parlaklık parmaklarınızın ucunda!'",
+      "Aylarca süren lekesiz görünüm: 'Yağmur ve çamur kayıp gitsin!'",
+      "Profesyonel parlaklık evde: 'Aracınız her zaman yeni gibi!'"
+    ],
+    "est_price": "25.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-3-in-1-ceramic-car-coating-spray.html",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "RGB Ortam Aydınlatmalı Geri Çekilebilir 4'ü 1 Arada Araç Şarj Cihazı",
+    "category": "Teknoloji ve Oto Aksesuar",
+    "product_type": "Regular",
+    "description": "Lightning ve USB-C kablolarını sunan ve aynı anda dört cihaza kadar hızlı şarj edebilen bu geri çekilebilir araç şarj cihazı, kablo karmaşasını önler. Ayrıca araç aküsünü izlemek için bir voltaj ekranına ve ambiyans katan RGB ortam ışığına sahiptir.",
+    "image_url": "https://ae01.alicdn.com/kf/Sf65471d2c676451e89b275211986c750k/Car-Charger-USB-Type-C-Fast-Charging-for-iPhone-14-13-12-Pro-Max-Xiaomi-Samsung.jpg_640x640.jpg",
+    "why_viral": "Mart 2026'da yayınlanan bir video, 'bir kablo karmaşası olmadan tüm arabayı şarj etme' yeteneğini öne çıkarıyor. RGB ışığı estetik bir çekicilik katarken, dört cihazı aynı anda şarj etme yeteneği günlük bir sorunu çözdüğü için talep görüyor.",
+    "hook_ideas": [
+      "Kablo karmaşasına son: 'Aracınızda düzen ve şıklık bir arada!'",
+      "Tüm cihazlarınızı aynı anda şarj edin: 'Yolculuklar hiç bu kadar sorunsuz olmamıştı!'",
+      "RGB ışıklarla aracınıza ambiyans katın: 'Sıradan bir şarj cihazından fazlası!'"
+    ],
+    "est_price": "29.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-retractable-4-in-1-car-charger-rgb.html",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Kablosuz CarPlay ve Android Auto Adaptörü",
+    "category": "Teknoloji ve Oto Aksesuar",
+    "product_type": "Regular",
+    "description": "Kablolu araç içi eğlence sisteminizi saniyeler içinde sorunsuz bir kablosuz bağlantıya dönüştüren ultra kompakt bir veri aktarıcısı. Telefonunuzu otomatik olarak senkronize ederek navigasyon, müzik akışı ve çağrıları gecikmesiz sunar.",
+    "image_url": "https://ae01.alicdn.com/kf/Sd1f31f99a19d45efb0e6f3d9d375d8d8W/Wireless-Carplay-Adapter-Mini-USB-Plug-Play-Carplay-Dongle-for-Android-Auto-Multimedia-Player-Activator-Accessories.jpg_640x640.jpg",
+    "why_viral": "Mart ve Haziran 2026'daki videolar, 'kablolu sisteminizi saniyeler içinde kablosuz CarPlay'e dönüştürmesi' nedeniyle bu ürünü büyük bir kolaylık yükseltmesi olarak gösteriyor. Telefonu sürekli takma zahmetini ortadan kaldırdığı için kullanıcılar arasında popüler olması bekleniyor.",
+    "hook_ideas": [
+      "Kablolara veda edin: 'Aracınızda anında kablosuz eğlence!'",
+      "Her sürüşte otomatik bağlantı: 'Sadece araca binin ve keyfini çıkarın!'",
+      "Gecikmesiz navigasyon ve müzik: 'Yolculuğunuzu akıllı hale getirin!'"
+    ],
+    "est_price": "49.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-wireless-carplay-android-auto-adapter.html",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 19,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Direksiyon Üstü Laptop Masası",
+    "category": "Teknoloji ve Oto Aksesuar",
+    "product_type": "Regular",
+    "description": "Aracınızı saniyeler içinde mini bir ofise dönüştüren, direksiyon simidine takılabilen taşınabilir bir masa. Dizüstü bilgisayarınız, tabletiniz veya öğle yemeğiniz için sabit bir yüzey sağlar ve kullanılmadığında katlanarak kolayca saklanabilir.",
+    "image_url": "https://ae01.alicdn.com/kf/Sa3112c3f4e3c4e04812f862495d08596Z/Car-Dining-Table-Portable-Car-Steering-Wheel-Multi-Tray-Laptop-Desk-Auto-Accessories-For-Eating-Work-Drink.jpg_640x640.jpg",
+    "why_viral": "Mart 2026'daki bir YouTube videosu, 'hareket halindeyken çalışması gerekenler' için bu ürünü öne çıkarıyor. Özellikle uzaktan çalışanlar ve uzun yolculuk yapanlar için büyük bir problem çözücü olarak görülüyor, bu da yorumlarda yüksek bir 'nereden alabilirim' potansiyeli yaratıyor.",
+    "hook_ideas": [
+      "Aracınızda mobil ofisiniz: 'Nerede olursanız olun verimli kalın!'",
+      "Yolda rahatça çalışın veya yemek yiyin: 'Sürüş deneyiminizi yükseltin!'",
+      "Katlanabilir ve yerden tasarruf sağlayan tasarım: 'İhtiyacınız olduğunda elinizin altında!'"
+    ],
+    "est_price": "34.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-steering-wheel-laptop-desk.html",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Ön Cam HUD Hız Göstergesi",
+    "category": "Teknoloji ve Oto Aksesuar",
+    "product_type": "Showcase",
+    "description": "Hayati sürüş verilerini doğrudan ön camınıza yansıtan fütüristik bir gadget. Gözlerinizi yoldan ayırmadan hızı, navigasyon yönlerini ve hatta gelen aramaları gösterir. Gerçek zamanlı uydu güncellemeleri ve hız uyarıları sunar.",
+    "image_url": "https://ae01.alicdn.com/kf/Sf65e8869b30743b190f8902506e761b0k/Car-HUD-Head-Up-Display-GPS-Speedometer-OBD2-Smart-Gauge-Digital-Alarm-Water-Temperature-Oil-Gauge-Plug.jpg_640x640.jpg",
+    "why_viral": "Haziran 2026'daki videolar, 'dikkat dağınıklığını ortadan kaldıran ve gözleri yolda tutan' 'en üst düzey güvenlik yükseltmesi' olarak tanıtıyor. Fütüristik görünümü ve güvenlik faydaları nedeniyle yüksek ilgi çekiyor.",
+    "hook_ideas": [
+      "Gözünüzü yoldan ayırmayın: 'Tüm sürüş bilgileri ön camınızda!'",
+      "Fütüristik sürüş deneyimi: 'Aracınızı akıllı kokpite dönüştürün!'",
+      "Gerçek zamanlı uyarılarla daha güvenli sürüş: 'Her zaman bir adım önde olun!'"
+    ],
+    "est_price": "79.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-hud-speedometer-windshield.html",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 20,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Programlanabilir LED Ekran (Araç/Masaüstü için)",
+    "category": "Teknoloji ve Oto Aksesuar",
+    "product_type": "Showcase",
+    "description": "Özel metinler, animasyonlar, emojiler ve hatta GIF'ler görüntülemenizi sağlayan, telefonunuzdan kontrol edilebilen tam renkli, süper parlak bir LED ekran. Arabalarda, oyun kurulumlarında, mağazalarda ve partilerde kullanılabilir.",
+    "image_url": "https://ae01.alicdn.com/kf/Sc7c12653a9204017a412852a32c253b2X/Programmable-LED-Car-Display-Screen-Mini-RGB-Full-Color-LED-Sign-Bluetooth-App-Control-for-Car.jpg_640x640.jpg",
+    "why_viral": "Mayıs 2026'daki bir video, 'kamuoyunda dikkat çekmenin en akıllı yolu' olarak bu ürünü tanıtıyor. Yüksek görsel doygunluğu, kişiselleştirilebilirlik ve çok yönlü kullanım alanları sayesinde sosyal medyada hızla yayıldığı belirtiliyor.",
+    "hook_ideas": [
+      "Aracınıza kişiliğinizi katın: 'Duygularınızı yolda ifade edin!'",
+      "Oyun kurulumunuzu yükseltin: 'Canlı animasyonlarla fark yaratın!'",
+      "Her yerde dikkat çekin: 'Kendi dijital panonuzu taşıyın!'"
+    ],
+    "est_price": "39.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-programmable-led-car-display.html",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 3,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "Manyetik LED Çalışma Işığı",
+    "category": "Teknoloji ve Oto Aksesuar",
+    "product_type": "Regular",
+    "description": "Güçlü bir mıknatısla metal yüzeylere kolayca takılabilen, eller serbest aydınlatma sağlayan çok yönlü bir LED çalışma ışığı. Otomobil tamiri, kamp, acil durumlar ve ev kullanımı için idealdir.",
+    "image_url": "https://ae01.alicdn.com/kf/H756b50e39c4a45a6af30c14f7b4430e7U/Portable-LED-Work-Light-USB-Rechargeable-Flashlight-Torch-with-Magnetic-Base-and-Hook-for-Car-Repair.jpg_640x640.jpg",
+    "why_viral": "Haziran 2026'da tanıtılan bu ürün, özellikle 'oto tamirleri ve acil durumlar' için pratikliği nedeniyle dikkat çekiyor. Güçlü mıknatısları sayesinde araç bakımı yaparken veya yolda kaldığınızda büyük kolaylık sağlıyor.",
+    "hook_ideas": [
+      "Her tamiratta eliniz kolunuz rahat: 'Mıknatıslı ışıkla her köşeyi aydınlatın!'",
+      "Yolda asla karanlıkta kalmayın: 'Acil durumların kurtarıcısı!'",
+      "Her yere takın, elleriniz serbest kalsın: 'Pratik ve güçlü aydınlatma!'"
+    ],
+    "est_price": "19.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-magnetic-led-work-light-car.html",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "SIKAI Kılıf Katlanabilir Bluetooth Klavye",
+    "category": "Teknoloji ve Oto Aksesuar",
+    "product_type": "Regular",
+    "description": "Cüzdan boyutuna kadar katlanabilen, entegre manyetik standı ile telefonunuzu veya tabletinizi tutabilen kompakt bir Bluetooth klavye. Hareket halindeyken çalışmak veya yazmak için idealdir, 45 saate kadar pil ömrü sunar.",
+    "image_url": "https://ae01.alicdn.com/kf/Se11110c7937a4ae68f6a9ee80d383921Y/Sikai-Foldable-Bluetooth-Keyboard-Wireless-Portable-Keyboard-with-Stand-Holder-for-Phone-Tablet-Multi-Device-Rechargeable.jpg_640x640.jpg",
+    "why_viral": "Nisan 2026'da yayınlanan bir video, 'her yerden çalışma TikTok'unda çok popüler' olduğunu belirtiyor. Taşınabilirliği ve entegre standı sayesinde büyük bir 'iş-yaşam dengesi' problem çözücü olarak kabul ediliyor.",
+    "hook_ideas": [
+      "Ofisiniz cebinizde: 'Her yerden profesyonelce çalışın!'",
+      "Seyahat ederken üretken kalın: 'Katlayın, taşıyın, yazın!'",
+      "Telefonunuzu veya tabletinizi anında dizüstü bilgisayara dönüştürün: 'Sınır tanımayan üretkenlik!'"
+    ],
+    "est_price": "39.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-sikai-foldable-bluetooth-keyboard.html",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
+  },
+  {
+    "name": "CPL Filtreli Telefon Kamera Lensleri (Parlama Önleyici)",
+    "category": "Teknoloji ve Oto Aksesuar",
+    "product_type": "Regular",
+    "description": "Fotoğraflardaki ışık parlamasını ve yansımaları ortadan kaldırmak için CPL (Dairesel Polarize Edici) filtreleme teknolojisini kullanan bir telefon kamera lens kiti. Daha net, daha canlı ve profesyonel görünümlü fotoğraflar çekmenizi sağlar.",
+    "image_url": "https://ae01.alicdn.com/kf/Sf56b26601423403a98564e9a8f27807bO/CPL-Star-Filter-Mobile-Phone-Camera-Lens-Kit-for-iPhone-Samsung-Huawei-Xiaomi-Smartphone-Professional-Photography.jpg_640x640.jpg",
+    "why_viral": "Nisan 2026'daki bir TikTok videosunda '18 milyondan fazla görüntüleme' ile 'kesinlikle büyülü' olarak tanımlanıyor. Akıllı telefon fotoğrafçılığını bir üst seviyeye taşıması ve yaygın bir sorunu çözmesi nedeniyle içerik oluşturucular ve fotoğraf meraklıları arasında büyük talep görüyor.",
+    "hook_ideas": [
+      "Profesyonel fotoğraflar çekin: 'Telefonunuzla stüdyo kalitesinde kareler yakalayın!'",
+      "Parlama sorununa son: 'Güneşli günlerde bile mükemmel görüntüler!'",
+      "Akıllı telefon fotoğrafçılığınızı dönüştürün: 'Sıradan anları sanata dönüştürün!'"
+    ],
+    "est_price": "24.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-cpl-filter-phone-camera-lens.html",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 19,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-03"
   }
 ]
