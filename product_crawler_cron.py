@@ -43,7 +43,7 @@ def is_saturated(product_name, description):
 def scan_category(category):
     print(f"Scanning category: {category}...")
     prompt = f"""
-    Lütfen Google Arama grounding aracını kullanarak son 7-14 gün içinde TikTok ve Instagram'da yeni viral olmaya başlamış, doymamış ve e-ticarete/dropshippinge uygun 10 adet benzersiz "{category}" ürünü tespit et.
+    Lütfen Google Arama grounding aracını kullanarak son 7-14 gün içinde TikTok ve Instagram'da yeni viral olmaya başlamış, doymamış ve e-ticarete/dropshippinge uygun en az 20 farklı aday ürünü derinlemesine araştır. Bu adaylar arasından 4 Altın Kural puanı en yüksek olan, sosyal kanıtı (yorum talebi) en güçlü olan ve doymamış en iyi 10 ürünü seçerek detaylıca raporla. Acele etme, derinlemesine karşılaştırmalı analiz yap.
 
     Arama Yöntemleri ve Sorguları (Google Search Grounding aracını bu sorgularla tetikle):
     1. site:tiktok.com "tiktok made me buy it" "{category}"
@@ -141,9 +141,9 @@ def main():
     for p in all_products:
         p["crawled_at"] = today_str
         name = p.get("name", "")
-        # Fallback to TikTok search if no video URL is provided by Gemini
+        # Fallback to Google-TikTok search if no direct video URL is provided by Gemini
         if not p.get("video_url") or not p["video_url"].startswith("http"):
-            p["video_url"] = f"https://www.tiktok.com/search?q={urllib.parse.quote(name)}"
+            p["video_url"] = f"https://www.google.com/search?q=site:tiktok.com+{urllib.parse.quote(name)}+viral"
         
     output_path = "precrawled_products.json"
     existing_products = []
