@@ -66,6 +66,7 @@ def scan_category(category):
         "product_type": "Showcase" veya "Regular",
         "description": "Ürünün kısa açıklaması ve işlevi",
         "image_url": "Google Arama grounding aracıyla bulduğun, ürüne ait doğrudan geçerli bir görsel URL'si (Shopify CDN, AliExpress, Amazon, Pinterest vb. sitelerden hotlink edilebilir doğrudan jpg, png, webp vb. uzantılı resim adresi)",
+        "video_url": "Google Arama grounding aracıyla bulduğun, bu ürünün viral olduğu TikTok veya Instagram video linki (örn: https://www.tiktok.com/@username/video/...) veya eğer doğrudan video linki bulamadıysan, bu ürünün TikTok üzerindeki arama linki (https://www.tiktok.com/search?q=urun-adi)",
         "why_viral": "Son 7-14 gündeki viral olma durumu, video yorumlarındaki talep seviyesi ve viral gerekçesi",
         "hook_ideas": ["Kanca fikri 1", "Kanca fikri 2"],
         "est_price": "29.99",
@@ -129,9 +130,14 @@ def main():
     print(f"\nTotal products found in this scan: {len(all_products)}")
     
     # Add crawled_at field to newly scanned products
+    import urllib.parse
     today_str = datetime.today().strftime('%Y-%m-%d')
     for p in all_products:
         p["crawled_at"] = today_str
+        name = p.get("name", "")
+        # Fallback to TikTok search if no video URL is provided by Gemini
+        if not p.get("video_url") or not p["video_url"].startswith("http"):
+            p["video_url"] = f"https://www.tiktok.com/search?q={urllib.parse.quote(name)}"
         
     output_path = "precrawled_products.json"
     existing_products = []
