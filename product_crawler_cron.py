@@ -45,17 +45,23 @@ def scan_category(category):
     prompt = f"""
     Lütfen Google Arama grounding aracını kullanarak son 7-14 gün içinde TikTok ve Instagram'da yeni viral olmaya başlamış, doymamış ve e-ticarete/dropshippinge uygun 10 adet benzersiz "{category}" ürünü tespit et.
 
-    Soruşturma Taktikleri:
-    - TikTok ve Instagram aramalarında özellikle şu etiketleri ve popüler video başlıklarını araştır: "#tiktokmademebuyit", "#amazonfinds", "#problemsolving", "#viralgadgets", "#lifehacks".
-    - Ürünü bulan videoların yorum bölümlerinde insanların "nereden alabilirim?", "link?", "where to buy?", "how much?" gibi satın alma isteği belirten aktif tepkiler verip vermediğini analiz et. Sadece yorumlarda talep gören ürünlere odaklan.
+    Arama Yöntemleri ve Sorguları (Google Search Grounding aracını bu sorgularla tetikle):
+    1. site:tiktok.com "tiktok made me buy it" "{category}"
+    2. site:instagram.com "amazon finds" "{category}"
+    3. viral dropshipping products "{category}" 2026
+    4. problem solving gadgets "{category}"
+    5. life hack products "{category}"
+
+    Ürün Tespit ve Eleme Kriterleri:
+    - Tutku ve Duygusal Bağ Nişleri (Passion Niches): Evcil hayvan sevgisi, anne-bebek bağı, fanatik hobiler, pratik el aletleri gibi insanların gördüğü an duygusal bağ kurup satın alacağı alt nişlere odaklan.
+    - Sosyal Kanıt ve Yorum Analizi: Ürün videolarının veya inceleme sayfalarının yorumlarında insanların "fiyatı ne?", "nereden alabilirim?", "link?" gibi doğrudan satın alma niyeti belirten sorular sorduğunu doğrula.
+    - Satürasyon (Doygunluk) Kontrolü: Chomchom tüy toplayıcı, gün batımı lambası, galaksi projektörü, masaj tabancası, klasik sebze doğrayıcı, hava nemlendirici gibi çoktan doymuş ürünleri listeleme. Tamamen yeni trendlere odaklan.
 
     Eğitim kriterlerimiz (4 Altın Kural) şunlardır:
-    1. Görsel Tatmin (Visual Satisfaction) (1-5 Puan): Videoda izlemesi ne kadar keyifli, tatmin edici ve hipnotize edici?
+    1. Görsel Tatmin (Visual Satisfaction) (1-5 Puan): Videoda izlemesi ne kadar keyifli, satisfying ve hipnotize edici?
     2. Problem Çözme Gücü (1-5 Puan): İnsanların günlük hayattaki can sıkıcı bir sorununu ne kadar güçlü çözüyor?
     3. Anında Anlaşılabilirlik (1-5 Puan): Videonun ilk 3 saniyesinde izleyici ürünün ne işe yaradığını hemen anlıyor mu?
     4. Tepki Potansiyeli (1-5 Puan): Yorum yazma, arkadaş etiketleme, paylaşma veya "nereden bulurum" deme isteği uyandırma gücü nedir?
-
-    ÖNEMLİ: Klasikleşmiş, doymuş ürünleri kesinlikle listeleme! Tamamen yeni trendlere odaklan.
 
     Yanıtını tam olarak şu JSON şemasında döndür. Markdown sarmalayıcıları (```json vb.) kullanma, doğrudan geçerli bir JSON string döndür:
 
