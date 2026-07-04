@@ -2267,11 +2267,12 @@ ${contextText}`;
             let maxScore = 25;
             let scoreHTML = '';
             
-            if (p.scores.visual_satisfaction !== undefined) {
-                const vis = p.scores.visual_satisfaction || 0;
-                const prob = p.scores.problem_solving || 0;
-                const und = p.scores.immediate_understandability || 0;
-                const react = p.scores.reaction_potential || 0;
+            const scores = p.scores || {};
+            if (scores.visual_satisfaction !== undefined) {
+                const vis = scores.visual_satisfaction || 0;
+                const prob = scores.problem_solving || 0;
+                const und = scores.immediate_understandability || 0;
+                const react = scores.reaction_potential || 0;
                 
                 totalScore = p.total_score || (vis + prob + und + react);
                 maxScore = 20;
@@ -2285,11 +2286,11 @@ ${contextText}`;
                     </div>
                 `;
             } else {
-                const viral = p.scores.viral_potential || 0;
-                const shoot = p.scores.shooting_feasibility || 0;
-                const demand = p.scores.purchase_desire || 0;
-                const prob = p.scores.problem_solving || 0;
-                const ship = p.scores.shipping_ease || 0;
+                const viral = scores.viral_potential || 0;
+                const shoot = scores.shooting_feasibility || 0;
+                const demand = scores.purchase_desire || 0;
+                const prob = scores.problem_solving || 0;
+                const ship = scores.shipping_ease || 0;
                 
                 totalScore = p.total_score || (viral + shoot + demand + prob + ship);
                 maxScore = 25;
@@ -2517,11 +2518,12 @@ ${contextText}`;
                 
                 let totalScore = 0;
                 let maxScore = 25;
-                if (p.scores.visual_satisfaction !== undefined) {
-                    totalScore = p.total_score || (p.scores.visual_satisfaction + p.scores.problem_solving + p.scores.immediate_understandability + p.scores.reaction_potential);
+                const scores = p.scores || {};
+                if (scores.visual_satisfaction !== undefined) {
+                    totalScore = p.total_score || (scores.visual_satisfaction + scores.problem_solving + scores.immediate_understandability + scores.reaction_potential);
                     maxScore = 20;
                 } else {
-                    totalScore = p.total_score || (p.scores.viral_potential + p.scores.shooting_feasibility + p.scores.purchase_desire + p.scores.problem_solving + p.scores.shipping_ease);
+                    totalScore = p.total_score || (scores.viral_potential + scores.shooting_feasibility + scores.purchase_desire + scores.problem_solving + scores.shipping_ease);
                     maxScore = 25;
                 }
 
