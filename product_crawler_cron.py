@@ -144,9 +144,9 @@ def main():
     for p in all_products:
         p["crawled_at"] = today_str
         name = p.get("name", "")
-        # Fallback to Google-TikTok search if no direct video URL is provided by Gemini
+        # Fallback to TikTok search if no direct video URL is provided by Gemini
         if not p.get("video_url") or not p["video_url"].startswith("http"):
-            p["video_url"] = f"https://www.google.com/search?q=site:tiktok.com+{urllib.parse.quote(name)}+viral"
+            p["video_url"] = f"https://www.tiktok.com/search?q={urllib.parse.quote(name)}"
         # Fallback to Shopify competitor search if no direct competitor URL is provided by Gemini
         if not p.get("competitor_url") or not p["competitor_url"].startswith("http"):
             p["competitor_url"] = f"https://www.google.com/search?q=site:myshopify.com+{urllib.parse.quote(name)}"
