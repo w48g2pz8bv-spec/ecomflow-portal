@@ -2350,8 +2350,9 @@ ${contextText}`;
                         <div class="product-card-header" style="margin-bottom: 8px;">
                             <div>
                                 <div class="product-name" style="${isSwipe ? 'font-size:1.3rem;' : ''}">${p.name}</div>
-                                <div style="font-size:0.8rem; color:var(--text-muted); margin-top:2px; display:flex; gap:8px; align-items:center;">
+                                <div style="font-size:0.8rem; color:var(--text-muted); margin-top:2px; display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
                                     <span>Kategori: ${p.category}</span>
+                                    ${p.target_audience ? `<span style="color:var(--text-muted);">|</span> <span style="color:#f59e0b;">🎯 Hedef: ${p.target_audience}</span>` : ''}
                                     ${p.crawled_at ? `<span style="color:var(--text-muted);">|</span> <span style="color:#60a5fa; display:inline-flex; align-items:center; gap:2px;">🗓️ ${p.crawled_at}</span>` : ''}
                                 </div>
                             </div>
@@ -2369,6 +2370,13 @@ ${contextText}`;
                         </div>
 
                         ${scoreHTML}
+                        
+                        ${p.creative_style ? `
+                        <div style="margin-top:10px; background:rgba(59, 130, 246, 0.05); border:1px dashed rgba(59, 130, 246, 0.3); padding:8px 12px; border-radius:6px; font-size:0.85rem;">
+                            <strong style="color:#3b82f6;">📹 Önerilen Reklam Kurgusu:</strong> 
+                            <span style="color:#fff; margin-left:4px;">${p.creative_style}</span>
+                        </div>
+                        ` : ''}
 
                         <div class="product-details" style="margin-top:12px; font-size:0.9rem;">
                             <p style="margin-bottom:6px; line-height:1.4;"><strong style="color:#9ca3af;">Açıklama:</strong> ${p.description}</p>
@@ -2379,12 +2387,15 @@ ${contextText}`;
 
                     <div style="display:flex; justify-content:space-between; align-items:center; margin-top:15px; border-top:1px solid var(--border-color); padding-top:12px;">
                         <span style="font-weight:700; color:#10b981; font-size:1.2rem;">$${p.est_price || '29.99'}</span>
-                        <div style="display:flex; gap:10px;">
+                        <div style="display:flex; gap:10px; flex-wrap:wrap;">
                             <a href="${p.video_url || `https://www.google.com/search?q=site:tiktok.com+${encodeURIComponent(p.name)}+viral`}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:8px 14px; font-size:0.85rem; display:flex; align-items:center; gap:4px; border-color:#ff0050; color:#fff; background:rgba(255, 0, 80, 0.05);" title="TikTok'taki viral videolarını gör">
                                 🎬 TikTok'ta İncele
                             </a>
                             <a href="${p.aliexpress_url}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:8px 14px; font-size:0.85rem; display:flex; align-items:center; gap:4px;">
                                 🛒 AliExpress'te Ara
+                            </a>
+                            <a href="${p.competitor_url || `https://www.google.com/search?q=site:myshopify.com+${encodeURIComponent(p.name)}`}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:8px 14px; font-size:0.85rem; display:flex; align-items:center; gap:4px; border-color:#3b82f6; color:#fff; background:rgba(59, 130, 246, 0.05);" title="Rakip mağazaları incele">
+                                🎯 Rakipleri Gör
                             </a>
                             <button onclick="saveProductToWinner('${escapeJsString(p.name)}'); return false;" class="hunter-btn" style="padding:8px 14px; font-size:0.85rem;">
                                 🏆 Listeme Ekle
@@ -2399,13 +2410,13 @@ ${contextText}`;
                     ${imageHtml}
                     ${detailsHtml}
                 `;
-            } else {
                 card.innerHTML = `
                     <div class="product-card-header">
                         <div>
                             <div class="product-name">${p.name}</div>
-                            <div style="font-size:0.8rem; color:var(--text-muted); margin-top:2px; display:flex; gap:8px; align-items:center;">
+                            <div style="font-size:0.8rem; color:var(--text-muted); margin-top:2px; display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
                                 <span>Kategori: ${p.category}</span>
+                                ${p.target_audience ? `<span style="color:var(--text-muted);">|</span> <span style="color:#f59e0b;">🎯 Hedef: ${p.target_audience}</span>` : ''}
                                 ${p.crawled_at ? `<span style="color:var(--text-muted);">|</span> <span style="color:#60a5fa; display:inline-flex; align-items:center; gap:2px;">🗓️ ${p.crawled_at}</span>` : ''}
                             </div>
                         </div>
@@ -2426,6 +2437,13 @@ ${contextText}`;
 
                     ${scoreHTML}
 
+                    ${p.creative_style ? `
+                    <div style="margin: 10px 0; background:rgba(59, 130, 246, 0.05); border:1px dashed rgba(59, 130, 246, 0.3); padding:8px 12px; border-radius:6px; font-size:0.85rem;">
+                        <strong style="color:#3b82f6;">📹 Önerilen Reklam Kurgusu:</strong> 
+                        <span style="color:#fff; margin-left:4px;">${p.creative_style}</span>
+                    </div>
+                    ` : ''}
+
                     <div class="product-details">
                         <p style="margin-bottom:8px;"><strong>Açıklama:</strong> ${p.description}</p>
                         <p style="margin-bottom:8px;"><strong>Neden Viral?</strong> ${p.why_viral}</p>
@@ -2434,15 +2452,18 @@ ${contextText}`;
 
                     <div style="display:flex; justify-content:space-between; align-items:center; margin-top:15px; border-top:1px solid var(--border-color); padding-top:12px;">
                         <span style="font-weight:700; color:#10b981; font-size:1rem;">$${p.est_price || '29.99'}</span>
-                        <div style="display:flex; gap:10px;">
+                        <div style="display:flex; gap:10px; flex-wrap:wrap;">
                             <a href="${p.video_url || `https://www.google.com/search?q=site:tiktok.com+${encodeURIComponent(p.name)}+viral`}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:6px 12px; font-size:0.8rem; display:flex; align-items:center; gap:4px; border-color:#ff0050; color:#fff; background:rgba(255, 0, 80, 0.05);" title="TikTok'taki viral videolarını gör">
                                 🎬 TikTok
                             </a>
                             <a href="${p.aliexpress_url}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:6px 12px; font-size:0.8rem; display:flex; align-items:center; gap:4px;">
                                 🛒 AliExpress
                             </a>
+                            <a href="${p.competitor_url || `https://www.google.com/search?q=site:myshopify.com+${encodeURIComponent(p.name)}`}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:6px 12px; font-size:0.8rem; display:flex; align-items:center; gap:4px; border-color:#3b82f6; color:#fff; background:rgba(59, 130, 246, 0.05);" title="Rakip mağazaları incele">
+                                🎯 Rakipler
+                            </a>
                             <button onclick="saveProductToWinner('${escapeJsString(p.name)}'); return false;" class="hunter-btn" style="padding:6px 12px; font-size:0.8rem;">
-                                🏆 Listeme Ekle
+                                🏆 Ekle
                             </button>
                         </div>
                     </div>
@@ -2517,9 +2538,9 @@ ${contextText}`;
                     <div class="product-card-header">
                         <div>
                             <div class="product-name">${p.name}</div>
-                            <div style="font-size:0.8rem; color:var(--text-muted); margin-top:2px; display:flex; gap:8px; align-items:center;">
-                                <span>Kategori: ${p.category}</span>
-                                ${p.crawled_at ? `<span style="color:var(--text-muted);">|</span> <span style="color:#60a5fa; display:inline-flex; align-items:center; gap:2px;">🗓️ ${p.crawled_at}</span>` : ''}
+                            <div style="font-size:0.75rem; color:var(--text-muted); margin-top:2px; display:flex; gap:6px; align-items:center; flex-wrap:wrap;">
+                                <span>Kat: ${p.category}</span>
+                                ${p.target_audience ? `<span style="color:var(--text-muted);">|</span> <span style="color:#f59e0b;">🎯 Hedef: ${p.target_audience}</span>` : ''}
                             </div>
                         </div>
                         <button onclick="removeProductFromWinner('${escapeJsString(p.name)}'); return false;" style="background:transparent; border:none; color:#ef4444; cursor:pointer; font-weight:bold; font-size:1.1rem;" title="Sil">✕</button>
@@ -2530,17 +2551,27 @@ ${contextText}`;
                         <span class="product-badge ${typeClass}">${p.product_type || 'Showcase'}</span>
                         <span style="font-weight:700; color:#10b981;">Puan: ${totalScore}/${maxScore}</span>
                     </div>
+
+                    ${p.creative_style ? `
+                    <div style="margin-bottom:8px; background:rgba(59, 130, 246, 0.05); border:1px dashed rgba(59, 130, 246, 0.3); padding:4px 8px; border-radius:4px; font-size:0.75rem; color:#fff;">
+                        <strong style="color:#3b82f6;">📹 Kurgu:</strong> ${p.creative_style}
+                    </div>
+                    ` : ''}
+
                     <div style="font-size:0.85rem; color:#d1d5db; line-height:1.4; margin-bottom:10px;">
                         ${p.description}
                     </div>
                     <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(255,255,255,0.05); padding-top:10px; font-size:0.8rem;">
                         <span style="font-weight:700; color:#10b981; font-size:0.95rem;">$${p.est_price || '29.99'}</span>
-                        <div style="display:flex; gap:6px;">
-                            <a href="${p.video_url || `https://www.google.com/search?q=site:tiktok.com+${encodeURIComponent(p.name)}+viral`}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:4px 8px; font-size:0.75rem; border-color:#ff0050; color:#fff; background:rgba(255, 0, 80, 0.05);">
+                        <div style="display:flex; gap:4px; flex-wrap:wrap;">
+                            <a href="${p.video_url || `https://www.google.com/search?q=site:tiktok.com+${encodeURIComponent(p.name)}+viral`}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:4px 6px; font-size:0.7rem; border-color:#ff0050; color:#fff; background:rgba(255, 0, 80, 0.05);">
                                 🎬 TikTok
                             </a>
-                            <a href="${p.aliexpress_url}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:4px 8px; font-size:0.75rem;">
+                            <a href="${p.aliexpress_url}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:4px 6px; font-size:0.7rem;">
                                 🛒 Tedarikçi
+                            </a>
+                            <a href="${p.competitor_url || `https://www.google.com/search?q=site:myshopify.com+${encodeURIComponent(p.name)}`}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:4px 6px; font-size:0.7rem; border-color:#3b82f6; color:#fff; background:rgba(59, 130, 246, 0.05);">
+                                🎯 Rakip
                             </a>
                         </div>
                     </div>
