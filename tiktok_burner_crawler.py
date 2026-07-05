@@ -57,7 +57,67 @@ def save_seen_videos(seen_set):
     except Exception as e:
         print(f"[-] Error saving seen videos: {e}")
 
+def call_vertex_gemini(json_path, prompt, model="gemini-3.5-flash"):
+    try:
+        from google.oauth2 import service_account
+        import google.auth.transport.requests
+        
+        credentials = service_account.Credentials.from_service_account_file(
+            json_path,
+            scopes=['https://www.googleapis.com/auth/cloud-platform']
+        )
+        request = google.auth.transport.requests.Request()
+        credentials.refresh(request)
+        token = credentials.token
+        project_id = credentials.project_id
+        
+        region = "us-central1"
+        url = f"https://{region}-aiplatform.googleapis.com/v1/projects/{project_id}/locations/{region}/publishers/google/models/{model}:generateContent"
+        
+        payload = {
+            "contents": [{
+                "parts": [{"text": prompt}]
+            }]
+        }
+        
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {token}"
+            }
+        )
+        
+        import urllib.error
+        retries = 3
+        delay = 6
+        for attempt in range(retries):
+            try:
+                with urllib.request.urlopen(req, timeout=60) as response:
+                    return json.loads(response.read().decode("utf-8"))
+            except urllib.error.HTTPError as e:
+                if e.code == 429:
+                    print(f"[-] Vertex AI API Rate Limit (429) encountered. Retrying in {delay} seconds...")
+                    time.sleep(delay)
+                    delay *= 2
+                else:
+                    print(f"[-] Vertex HTTP Error {e.code}: {e.reason}")
+                    break
+            except Exception as e:
+                print(f"[-] Vertex API call failed: {e}")
+                break
+    except Exception as e:
+        print(f"[-] Vertex Auth failed: {e}")
+    return None
+
 def call_gemini(api_key, prompt, model="gemini-3.5-flash", use_grounding=False):
+    # Check if Vertex AI service account credentials exist in workspace
+    key_path = os.path.join(BASE_DIR, "ecomflow_key.json")
+    if os.path.exists(key_path):
+        print(f"[*] GCP Service Account key found. Routing request to Vertex AI ({model})...")
+        return call_vertex_gemini(key_path, prompt, model)
+
     import urllib.error
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
     payload = {
@@ -214,30 +274,28 @@ def capture_video_screenshot(page, video_id):
 
 def run_warmup_search(page):
     import random
-    keywords = [
-        "tiktok made me buy it", 
-        "amazon finds", 
-        "dropshipping product", 
-        "viral gadget", 
-        "cool product", 
-        "must have gadgets"
+    hashtags = [
+        "tiktokmademebuyit", 
+        "amazonfinds", 
+        "dropshipping", 
+        "viralproduct"
     ]
-    selected_keyword = random.choice(keywords)
-    print(f"\n[*] Algoritmayı ısıtmak için arama yapılıyor: '{selected_keyword}'...")
+    selected_hashtag = random.choice(hashtags)
+    print(f"\n[*] Algoritmayı ısıtmak için doğrudan hashtag sayfasına yönlendiriliyor: '#{selected_hashtag}'...")
     
-    search_url = f"https://www.tiktok.com/search?q={urllib.parse.quote(selected_keyword)}"
+    tag_url = f"https://www.tiktok.com/tag/{selected_hashtag}"
     try:
-        safe_goto(page, search_url)
-        time.sleep(5)
+        safe_goto(page, tag_url)
+        time.sleep(6)
         
-        # Click on the first video link in search results to open the video feed player
+        # Click on the first video link in tag grid to open theater mode player
         first_video_link = page.query_selector('a[href*="/video/"]')
         if first_video_link:
             first_video_link.click()
-            print("[*] Arama sonuçlarındaki ilk video açıldı. Isıtma etkileşimleri yapılıyor...")
-            time.sleep(3)
+            print("[*] Etiket akışındaki ilk video açıldı. Isıtma etkileşimleri yapılıyor...")
+            time.sleep(4)
             
-            # Interact with 4 videos in search results to train algorithm
+            # Interact with 4 videos in tag stream to train algorithm feed
             for v_idx in range(4):
                 watch_time = random.randint(12, 18)
                 print(f"  -> Video #{v_idx+1} izleniyor ({watch_time} sn)...")
@@ -253,11 +311,11 @@ def run_warmup_search(page):
                     pass
                     
                 time.sleep(1)
-                page.keyboard.press("ArrowDown") # Next search video
-                time.sleep(2)
-            print("[+] Aktif algoritma ısıtma aşaması tamamlandı! Organik For You akışına geçiliyor...")
+                page.keyboard.press("ArrowDown") # Next video
+                time.sleep(2.5)
+            print("[+] Aktif algoritma ısıtma aşaması başarıyla tamamlandı! Organik For You akışına geçiliyor...")
         else:
-            print("[-] Arama sonuçlarında video bulunamadı.")
+            print("[-] Etiket akışında video bulunamadı.")
     except Exception as e:
         print(f"[-] Isıtma aşamasında hata oluştu: {e}")
 

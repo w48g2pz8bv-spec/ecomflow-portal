@@ -33,6 +33,7 @@ jobs:
           # Write credentials and cookies from GitHub Secrets to ignored local files
           echo "${{ secrets.GEMINI_API_KEY }}" > gemini_api_key.txt
           echo '${{ secrets.TIKTOK_COOKIES }}' > tiktok_cookies.json
+          echo '${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}' > ecomflow_key.json
           
           # Initialize seen database if missing
           if [ ! -f seen_tiktok_videos.json ]; then
@@ -56,6 +57,7 @@ jobs:
           # Clean secrets files before git operations to prevent security leaks
           rm -f gemini_api_key.txt
           rm -f tiktok_cookies.json
+          rm -f ecomflow_key.json
           
           # Stage newly discovered products, updated seen database and screenshots
           git add precrawled_products.json
