@@ -1096,7 +1096,10 @@
                         <div style="display:flex; gap:10px; align-items:center;">
                             <!-- View Toggle Buttons -->
                             <div style="display:flex; border:1px solid var(--border-color); border-radius:4px; overflow:hidden;">
-                                <button onclick="setHunterViewMode('grid'); return false;" id="hunter-btn-grid" style="background:#10b981; border:none; color:#fff; padding:6px 12px; cursor:pointer; font-size:0.85rem; font-weight:600; display:flex; align-items:center; gap:4px;" title="Klasik Liste Görünümü">
+                                <button onclick="setHunterViewMode('table'); return false;" id="hunter-btn-table" style="background:#10b981; border:none; color:#fff; padding:6px 12px; cursor:pointer; font-size:0.85rem; font-weight:600; display:flex; align-items:center; gap:4px;" title="Toplu Tablo Görünümü">
+                                    📋 Toplu Tablo
+                                </button>
+                                <button onclick="setHunterViewMode('grid'); return false;" id="hunter-btn-grid" style="background:#1f2937; border:none; color:#fff; padding:6px 12px; cursor:pointer; font-size:0.85rem; font-weight:600; display:flex; align-items:center; gap:4px;" title="Klasik Liste Görünümü">
                                     🎛️ Liste
                                 </button>
                                 <button onclick="setHunterViewMode('swipe'); return false;" id="hunter-btn-swipe" style="background:#1f2937; border:none; color:#fff; padding:6px 12px; cursor:pointer; font-size:0.85rem; font-weight:600; display:flex; align-items:center; gap:4px;" title="TikTok Tarzı Kaydırma Modu">
@@ -2154,18 +2157,24 @@ ${contextText}`;
             return 'low';
         }
 
-        let hunterViewMode = 'grid'; // 'grid' or 'swipe'
+        let hunterViewMode = 'table'; // 'table', 'grid', or 'swipe'
         let swipeCurrentIndex = 0;
 
         function setHunterViewMode(mode) {
             hunterViewMode = mode;
+            const btnTable = document.getElementById('hunter-btn-table');
             const btnGrid = document.getElementById('hunter-btn-grid');
             const btnSwipe = document.getElementById('hunter-btn-swipe');
-            if (mode === 'grid') {
+            
+            btnTable.style.background = '#1f2937';
+            btnGrid.style.background = '#1f2937';
+            btnSwipe.style.background = '#1f2937';
+            
+            if (mode === 'table') {
+                btnTable.style.background = '#10b981';
+            } else if (mode === 'grid') {
                 btnGrid.style.background = '#10b981';
-                btnSwipe.style.background = '#1f2937';
-            } else {
-                btnGrid.style.background = '#1f2937';
+            } else if (mode === 'swipe') {
                 btnSwipe.style.background = '#10b981';
                 swipeCurrentIndex = 0;
             }
@@ -2210,7 +2219,151 @@ ${contextText}`;
                 return;
             }
 
-            if (hunterViewMode === 'grid') {
+            if (hunterViewMode === 'table') {
+                // Render bulk action controls
+                const bulkBar = document.createElement('div');
+                bulkBar.style.display = 'flex';
+                bulkBar.style.gap = '10px';
+                bulkBar.style.alignItems = 'center';
+                bulkBar.style.marginBottom = '12px';
+                bulkBar.style.padding = '8px 12px';
+                bulkBar.style.background = '#1f2937';
+                bulkBar.style.borderRadius = '6px';
+                bulkBar.style.border = '1px solid var(--border-color)';
+                bulkBar.innerHTML = `
+                    <button onclick="bulkAddSelectedProducts(); return false;" class="hunter-btn" style="padding:6px 12px; font-size:0.8rem; background:#10b981; display:flex; align-items:center; gap:4px;">
+                        🏆 Seçilenleri Listeme Ekle
+                    </button>
+                    <button onclick="bulkRemoveSelectedProducts(); return false;" class="hunter-btn-outline" style="padding:6px 12px; font-size:0.8rem; border-color:#ef4444; color:#ef4444; background:rgba(239, 68, 68, 0.05); display:flex; align-items:center; gap:4px;">
+                        🗑️ Seçilenleri Temizle
+                    </button>
+                    <span style="font-size:0.75rem; color:var(--text-muted); margin-left:auto;">
+                        Tablodan istediğiniz ürünleri seçip toplu işlem yapabilirsiniz.
+                    </span>
+                `;
+                grid.appendChild(bulkBar);
+
+                const tableContainer = document.createElement('div');
+                tableContainer.style.overflowX = 'auto';
+                tableContainer.style.border = '1px solid var(--border-color)';
+                tableContainer.style.borderRadius = '8px';
+                tableContainer.style.background = '#111827';
+                
+                let tableHtml = `
+                    <table style="width:100%; border-collapse:collapse; text-align:left; font-size:0.85rem; color:#d1d5db; min-width:600px;">
+                        <thead>
+                            <tr style="border-bottom:2px solid var(--border-color); color:#fff; font-weight:700; background:#1f2937;">
+                                <th style="padding:12px; width:40px; text-align:center;"><input type="checkbox" id="bulk-select-all" onclick="toggleSelectAllProducts(this)" style="cursor:pointer; transform:scale(1.1);"></th>
+                                <th style="padding:12px; width:60px;">Resim</th>
+                                <th style="padding:12px;">Ürün Bilgileri</th>
+                                <th style="padding:12px; width:150px;">Mentör Puanı</th>
+                                <th style="padding:12px; width:280px; text-align:right;">Aksiyonlar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                `;
+
+                filtered.forEach((p, idx) => {
+                    const vis = p.scores ? (p.scores.visual_satisfaction || 0) : 0;
+                    const prob = p.scores ? (p.scores.problem_solving || 0) : 0;
+                    const und = p.scores ? (p.scores.immediate_understandability || 0) : 0;
+                    const react = p.scores ? (p.scores.reaction_potential || 0) : 0;
+                    const totalScore = vis + prob + und + react;
+                    const maxScore = 20;
+                    const barColor = getScoreBarColor(totalScore, maxScore);
+
+                    const cleanTikTokUrl = p.video_url || `https://www.tiktok.com/search?q=${encodeURIComponent(p.name + " made me buy it")}`;
+                    const searchTiktokUrl = cleanTikTokUrl.startsWith("http") ? cleanTikTokUrl : `https://www.tiktok.com/search?q=${encodeURIComponent(p.name + " made me buy it")}`;
+
+                    tableHtml += `
+                        <tr style="border-bottom:1px solid var(--border-color); background:#111827;">
+                            <td style="padding:12px; text-align:center; vertical-align:middle;">
+                                <input type="checkbox" class="product-select-checkbox" data-product-name="${escapeJsString(p.name)}" style="cursor:pointer; transform:scale(1.1);">
+                            </td>
+                            <td style="padding:12px; vertical-align:middle;">
+                                <img src="${p.image_url}" style="width:50px; height:50px; object-fit:contain; border-radius:4px; border:1px solid var(--border-color); background:#1f2937;" onerror="this.src='https://placehold.co/50x50?text=No+Photo'">
+                            </td>
+                            <td style="padding:12px; vertical-align:middle;">
+                                <div style="font-weight:700; color:#fff; font-size:0.9rem; margin-bottom:2px;">${p.name}</div>
+                                <div style="font-size:0.75rem; color:var(--text-muted); display:flex; gap:6px; align-items:center;">
+                                    <span>${p.category}</span>
+                                    <span style="color:var(--border-color);">|</span>
+                                    <span style="color:#f59e0b;">🎯 ${p.target_audience || 'Genel Kitle'}</span>
+                                    <span style="color:var(--border-color);">|</span>
+                                    <span style="color:#10b981; font-weight:600;">${p.verdict || 'Winner Adayı'}</span>
+                                </div>
+                            </td>
+                            <td style="padding:12px; vertical-align:middle;">
+                                <div style="display:flex; align-items:center; gap:6px;">
+                                    <span style="color:${barColor}; font-weight:700; font-size:0.95rem;">${totalScore}/${maxScore}</span>
+                                    <span style="font-size:0.75rem; color:var(--text-muted);">(G:${vis} P:${prob} A:${und} T:${react})</span>
+                                </div>
+                            </td>
+                            <td style="padding:12px; text-align:right; vertical-align:middle; white-space:nowrap;">
+                                <div style="display:flex; gap:6px; justify-content:flex-end;">
+                                    <a href="${searchTiktokUrl}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:4px 8px; font-size:0.75rem; border-color:#ff0050; color:#fff; background:rgba(255, 0, 80, 0.05); display:inline-flex; align-items:center; gap:2px;" title="TikTok'ta viral videoları ara">
+                                        🎬 TikTok
+                                    </a>
+                                    <button onclick="showSourcingGuide('${escapeJsString(p.name)}'); return false;" class="hunter-btn-outline" style="padding:4px 8px; font-size:0.75rem; border-color:#f59e0b; color:#fff; background:rgba(245, 158, 11, 0.05); display:inline-flex; align-items:center; gap:2px;" title="Tedarik ve getirtme rehberini gör">
+                                        🚚 Tedarik
+                                    </button>
+                                    <a href="${p.competitor_url || `https://www.google.com/search?q=site:myshopify.com+${encodeURIComponent(p.name)}`}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:4px 8px; font-size:0.75rem; border-color:#3b82f6; color:#fff; background:rgba(59, 130, 246, 0.05); display:inline-flex; align-items:center; gap:2px;" title="Rakip Shopify mağazalarını gör">
+                                        🎯 Rakipler
+                                    </a>
+                                    <button onclick="toggleTableDetails(${idx}); return false;" class="hunter-btn-outline" style="padding:4px 8px; font-size:0.75rem; border-color:#60a5fa; color:#fff; background:rgba(96, 165, 250, 0.05); display:inline-flex; align-items:center; gap:2px;" id="btn-report-toggle-${idx}">
+                                        🔍 Rapor
+                                    </button>
+                                    <button onclick="saveProductToWinner('${escapeJsString(p.name)}'); return false;" class="hunter-btn" style="padding:4px 8px; font-size:0.75rem;">
+                                        🏆 Ekle
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- Detail Row (Hidden by default) -->
+                        <tr id="table-details-row-${idx}" style="display:none; background:#1f2937;">
+                            <td colspan="5" style="padding:15px; border-bottom:1px solid var(--border-color);">
+                                <div style="display:flex; flex-direction:column; gap:10px;">
+                                    <div style="display:flex; gap:15px; flex-wrap:wrap;">
+                                        <div style="flex:1; min-width:250px; background:rgba(16, 185, 129, 0.05); border:1px solid rgba(16, 185, 129, 0.2); padding:12px; border-radius:6px;">
+                                            <div style="font-weight:700; color:#10b981; font-size:0.85rem; margin-bottom:6px; display:flex; align-items:center; gap:4px;">
+                                                🧠 Mentör Ürün Raporu
+                                            </div>
+                                            <p style="margin-bottom:4px; font-size:0.8rem; color:#fff;"><strong>📝 Açıklama:</strong> ${p.description}</p>
+                                            <p style="margin-bottom:4px; font-size:0.8rem; color:#fff;"><strong>🎯 Hedef Kitle:</strong> ${p.target_audience || 'Genel Kitle'}</p>
+                                            <p style="margin-bottom:4px; font-size:0.8rem; color:#fff;"><strong>📹 Reklam Kurgusu:</strong> ${p.creative_style || 'Genel Konsept'}</p>
+                                            <p style="margin-bottom:4px; font-size:0.8rem; line-height:1.4; color:#fff;"><strong>💡 Neden Viral:</strong> ${p.why_viral}</p>
+                                        </div>
+                                        <div style="flex:1; min-width:250px; background:rgba(96, 165, 250, 0.05); border:1px solid rgba(96, 165, 250, 0.2); padding:12px; border-radius:6px;">
+                                            <div style="font-weight:700; color:#60a5fa; font-size:0.85rem; margin-bottom:6px; display:flex; align-items:center; gap:4px;">
+                                                🎬 Önerilen Reklam Kancaları (Hooks)
+                                            </div>
+                                            <ul style="padding-left:15px; font-size:0.8rem; color:#d1d5db; display:flex; flex-direction:column; gap:4px; margin:0;">
+                                                ${(p.hook_ideas || []).map(h => `<li>${h}</li>`).join('')}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Supply and Custom Tips -->
+                                    <div style="background:rgba(245, 158, 11, 0.05); border:1px solid rgba(245, 158, 11, 0.2); padding:10px 12px; border-radius:6px; font-size:0.8rem; display:flex; flex-direction:column; gap:4px;">
+                                        <div style="font-weight:700; color:#f59e0b; display:flex; align-items:center; gap:4px;">
+                                            📦 Tedarik ve Gümrük Analizi (Çin - Türkiye/Avrupa)
+                                        </div>
+                                        <p style="margin:0; color:#fff;"><strong>🚚 Tedarik Yolu:</strong> ${p.sourcing_tips || 'Numune için Trendyol/Amazon TR, ölçekleme için özel acenteler DDP cargo hatları.'}</p>
+                                        <p style="margin:0; color:#f43f5e;"><strong>⚠️ Gümrük Uyarısı:</strong> ${p.customs_warning || '30 Euro limit engellerini aşmak için gümrük vergileri acente tarafından ödenmelidir.'}</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    `;
+                });
+
+                tableHtml += `
+                        </tbody>
+                    </table>
+                `;
+                tableContainer.innerHTML = tableHtml;
+                grid.appendChild(tableContainer);
+            } else if (hunterViewMode === 'grid') {
                 filtered.forEach(p => {
                     const card = createProductCardElement(p, false);
                     grid.appendChild(card);
@@ -2401,9 +2554,9 @@ ${contextText}`;
                             <a href="${p.video_url || `https://www.tiktok.com/search?q=${encodeURIComponent(p.name)}`}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:8px 14px; font-size:0.85rem; display:flex; align-items:center; gap:4px; border-color:#ff0050; color:#fff; background:rgba(255, 0, 80, 0.05);" title="TikTok'taki viral videolarını gör">
                                 🎬 TikTok'ta İncele
                             </a>
-                            <a href="${p.aliexpress_url}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:8px 14px; font-size:0.85rem; display:flex; align-items:center; gap:4px;">
-                                🛒 AliExpress'te Ara
-                            </a>
+                            <button onclick="showSourcingGuide('${escapeJsString(p.name)}'); return false;" class="hunter-btn-outline" style="padding:8px 14px; font-size:0.85rem; display:flex; align-items:center; gap:4px; border-color:#f59e0b; color:#fff; background:rgba(245, 158, 11, 0.05);" title="Tedarik ve getirtme rehberini gör">
+                                🚚 Tedarik Rehberi
+                            </button>
                             <a href="${p.competitor_url || `https://www.google.com/search?q=site:myshopify.com+${encodeURIComponent(p.name)}`}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:8px 14px; font-size:0.85rem; display:flex; align-items:center; gap:4px; border-color:#3b82f6; color:#fff; background:rgba(59, 130, 246, 0.05);" title="Rakip mağazaları incele">
                                 🎯 Rakipleri Gör
                             </a>
@@ -2476,9 +2629,9 @@ ${contextText}`;
                             <a href="${p.video_url || `https://www.tiktok.com/search?q=${encodeURIComponent(p.name)}`}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:6px 12px; font-size:0.8rem; display:flex; align-items:center; gap:4px; border-color:#ff0050; color:#fff; background:rgba(255, 0, 80, 0.05);" title="TikTok'taki viral videolarını gör">
                                 🎬 TikTok
                             </a>
-                            <a href="${p.aliexpress_url}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:6px 12px; font-size:0.8rem; display:flex; align-items:center; gap:4px;">
-                                🛒 AliExpress
-                            </a>
+                            <button onclick="showSourcingGuide('${escapeJsString(p.name)}'); return false;" class="hunter-btn-outline" style="padding:6px 12px; font-size:0.8rem; display:flex; align-items:center; gap:4px; border-color:#f59e0b; color:#fff; background:rgba(245, 158, 11, 0.05);" title="Tedarik ve getirtme rehberini gör">
+                                🚚 Tedarik
+                            </button>
                             <a href="${p.competitor_url || `https://www.google.com/search?q=site:myshopify.com+${encodeURIComponent(p.name)}`}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:6px 12px; font-size:0.8rem; display:flex; align-items:center; gap:4px; border-color:#3b82f6; color:#fff; background:rgba(59, 130, 246, 0.05);" title="Rakip mağazaları incele">
                                 🎯 Rakipler
                             </a>
@@ -2496,26 +2649,141 @@ ${contextText}`;
             renderHunterProducts();
         }
 
-        function saveProductToWinner(name) {
+        function saveProductToWinner(name, silent = false) {
             const found = syncedProducts.find(p => p.name === name);
-            if (!found) return;
+            if (!found) return false;
 
             // Check if already saved
             if (savedProducts.some(p => p.name === name)) {
-                alert('Bu ürün zaten winner listenizde kayıtlı!');
-                return;
+                if (!silent) alert('Bu ürün zaten winner listenizde kayıtlı!');
+                return false;
             }
 
             savedProducts.push(found);
             localStorage.setItem('ecomflow_saved_products', JSON.stringify(savedProducts));
             renderSavedProductsUI();
-            alert('Ürün winner listenize başarıyla eklendi!');
+            if (!silent) alert('Ürün winner listenize başarıyla eklendi!');
+            return true;
         }
 
         function removeProductFromWinner(name) {
             savedProducts = savedProducts.filter(p => p.name !== name);
             localStorage.setItem('ecomflow_saved_products', JSON.stringify(savedProducts));
             renderSavedProductsUI();
+        }
+
+        function toggleSelectAllProducts(masterCheckbox) {
+            const checkboxes = document.querySelectorAll('.product-select-checkbox');
+            checkboxes.forEach(cb => {
+                cb.checked = masterCheckbox.checked;
+            });
+        }
+
+        function bulkAddSelectedProducts() {
+            const checkboxes = document.querySelectorAll('.product-select-checkbox:checked');
+            if (checkboxes.length === 0) {
+                alert('Lütfen eklenecek ürünleri seçin!');
+                return;
+            }
+
+            let addedCount = 0;
+            checkboxes.forEach(cb => {
+                const name = cb.getAttribute('data-product-name');
+                if (saveProductToWinner(name, true)) {
+                    addedCount++;
+                }
+            });
+
+            alert(`${addedCount} adet ürün winner listenize toplu olarak eklendi!`);
+            
+            // Clear selection
+            document.querySelectorAll('.product-select-checkbox').forEach(cb => cb.checked = false);
+            const master = document.getElementById('bulk-select-all');
+            if (master) master.checked = false;
+        }
+
+        function bulkRemoveSelectedProducts() {
+            const checkboxes = document.querySelectorAll('.product-select-checkbox:checked');
+            if (checkboxes.length === 0) {
+                alert('Lütfen silinecek ürünleri seçin!');
+                return;
+            }
+
+            if (!confirm('Seçilen ürünleri keşif havuzundan temizlemek istediğinize emin misiniz?')) {
+                return;
+            }
+
+            const namesToRemove = Array.from(checkboxes).map(cb => cb.getAttribute('data-product-name'));
+            syncedProducts = syncedProducts.filter(p => !namesToRemove.includes(p.name));
+            renderHunterProducts();
+
+            // Clear selection
+            const master = document.getElementById('bulk-select-all');
+            if (master) master.checked = false;
+        }
+
+        function toggleTableDetails(idx) {
+            const row = document.getElementById(`table-details-row-${idx}`);
+            const btn = document.getElementById(`btn-report-toggle-${idx}`);
+            if (!row) return;
+
+            if (row.style.display === 'none') {
+                row.style.display = 'table-row';
+                if (btn) btn.innerHTML = '✕ Kapat';
+            } else {
+                row.style.display = 'none';
+                if (btn) btn.innerHTML = '🔍 Rapor';
+            }
+        }
+
+        function showSourcingGuide(productName) {
+            const products = getFilteredProducts();
+            const p = products.find(prod => prod.name === productName);
+            if (!p) return;
+
+            const modal = document.getElementById('sourcing-guide-modal');
+            const content = document.getElementById('sourcing-guide-content');
+            if (!modal || !content) return;
+            
+            content.innerHTML = `
+                <div style="background:rgba(16, 185, 129, 0.05); border:1px solid rgba(16, 185, 129, 0.2); padding:12px; border-radius:6px; color:#10b981; font-weight:700;">
+                    📦 Ürün: ${p.name}
+                </div>
+                <div style="margin-top:10px; display:flex; flex-direction:column; gap:10px;">
+                    <div>
+                        <strong style="color:#fff; font-size:0.95rem;">1. Test Aşaması (Numune Siparişi):</strong>
+                        <p style="margin:4px 0 0 0; color:#d1d5db;">
+                            Çin'den numune gelmesini haftalarca beklemek yerine, test sürecini hızlandırmak için ürünü <strong>Trendyol, Hepsiburada veya Amazon Türkiye</strong> üzerinden hemen 1 adet sipariş edin. Ürün elinize ulaştığı gün hemen deşifre kurallarına uygun olarak video çekimlerine (günde 2 video) başlayın.
+                        </p>
+                    </div>
+                    <div>
+                        <strong style="color:#fff; font-size:0.95rem;">2. Ölçekleme Aşaması (Özel Acente / Private Agent):</strong>
+                        <p style="margin:4px 0 0 0; color:#d1d5db;">
+                            AliExpress Türkiye gümrük sınırları ve ağır vergileri (30 Euro limiti) nedeniyle ölçeklenebilir değildir. Günlük siparişleriniz başladığında, AliExpress yerine <strong>CJ Dropshipping</strong> veya Çin'deki <strong>Özel Tedarik Acenteleri (Private Sourcing Agents)</strong> ile iletişime geçin. Acentenize Wise, Mercury veya 1688 entegrasyonuyla ödeme yapabilirsiniz.
+                        </p>
+                    </div>
+                    <div>
+                        <strong style="color:#fff; font-size:0.95rem;">3. Gümrük ve Kargo Anlaşması (DDP Cargo):</strong>
+                        <p style="margin:4px 0 0 0; color:#d1d5db; line-height:1.5;">
+                            Gümrük engellerini aşmak için acentenizle mutlaka <strong>DDP (Delivered Duty Paid - Gümrük Vergileri Ödenmiş)</strong> gönderi anlaşması yapın. Bu anlaşmada gümrük vergilerini acente peşin tahsil eder ve ürünler gümrükte takılmadan doğrudan müşterinizin kapısına (TR, Amerika veya Avrupa fark etmeksizin) teslim edilir.
+                        </p>
+                    </div>
+                    <div style="background:rgba(245, 158, 11, 0.05); border:1px solid rgba(245, 158, 11, 0.2); padding:10px 12px; border-radius:6px; font-size:0.85rem; display:flex; flex-direction:column; gap:4px; margin-top:5px;">
+                        <div style="font-weight:700; color:#f59e0b; display:flex; align-items:center; gap:4px;">
+                            💡 Bu Ürüne Özel Mentör Tavsiyesi:
+                        </div>
+                        <p style="margin:0; color:#fff;"><strong>🚚 Tedarik Yolu:</strong> ${p.sourcing_tips || 'Numune tedarik edip çekime başlayın.'}</p>
+                        <p style="margin:0; color:#f43f5e;"><strong>⚠️ Gümrük Uyarısı:</strong> ${p.customs_warning || 'Gümrük sınırını aşmak için acente kargo hatlarını kullanın.'}</p>
+                    </div>
+                </div>
+            `;
+            
+            modal.style.display = 'flex';
+        }
+
+        function closeSourcingGuide() {
+            const modal = document.getElementById('sourcing-guide-modal');
+            if (modal) modal.style.display = 'none';
         }
 
         function renderSavedProductsUI() {
@@ -2819,5 +3087,20 @@ ${contextText}`;
             });
         };
     </script>
+    <!-- Sourcing / Tedarik Guide Modal -->
+    <div id="sourcing-guide-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:99999; justify-content:center; align-items:center; box-sizing:border-box;">
+        <div style="background:#1f2937; border:1px solid var(--border-color); border-radius:12px; width:90%; max-width:600px; padding:25px; box-sizing:border-box; color:#d1d5db; position:relative; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+            <button onclick="closeSourcingGuide(); return false;" style="position:absolute; top:15px; right:15px; background:none; border:none; color:var(--text-muted); font-size:1.5rem; cursor:pointer;">&times;</button>
+            <h2 style="color:#fff; font-size:1.25rem; margin-bottom:15px; display:flex; align-items:center; gap:8px;">
+                🚚 Tedarik ve Ürün Getirtme Kılavuzu
+            </h2>
+            <div id="sourcing-guide-content" style="font-size:0.88rem; line-height:1.6; display:flex; flex-direction:column; gap:15px;">
+                <!-- Filled dynamically -->
+            </div>
+            <div style="display:flex; justify-content:flex-end; margin-top:20px; border-top:1px solid var(--border-color); padding-top:15px;">
+                <button onclick="closeSourcingGuide(); return false;" class="hunter-btn" style="padding:8px 18px;">Kapat</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

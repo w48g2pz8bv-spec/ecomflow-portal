@@ -99,7 +99,8 @@ def scan_category(category):
           "Görsel Kanca: [İlk saniyede yapılacak sıra dışı görsel aksiyon/hareket]"
         ],
         "est_price": "29.99",
-        "aliexpress_url": "https://www.aliexpress.com/w/wholesale-ürün-adı.html",
+        "sourcing_tips": "Bu ürün tipi için numune tedariki ve özel acente kullanımı tavsiyeleri",
+        "customs_warning": "Türkiye/Avrupa gümrük vergileri ve limitlerini aşmak için kargo/lojistik uyarısı",
         "competitor_url": "Google Arama grounding aracıyla bulduğun, bu ürünü satan aktif bir dropshipping/Shopify mağaza linki (örn: https://storename.com/products/...) veya doğrudan bulamadıysan, bu ürünü satan Shopify mağazalarını aratacak Google arama linki (https://www.google.com/search?q=site:myshopify.com+urun-adi)",
         "creative_style": "Bu ürünü satmak için en uygun video konsepti türü (örn: 'Tersine Sarma Kurgusu', 'Kışkırtıcı Hata / Yorum Çekme', 'POV Yaşam Hilesi', 'Önce/Sonra Karşılaştırması')",
         "target_audience": "Bu ürünün duygusal bağ kuracağı spesifik hedef kitle / alt niş (örn: 'Minimalist mutfak severler', 'Kedi sahipleri')",
@@ -168,9 +169,8 @@ def main():
     for p in all_products:
         p["crawled_at"] = today_str
         name = p.get("name", "")
-        # Fallback to TikTok search if no direct video URL is provided by Gemini
-        if not p.get("video_url") or not p["video_url"].startswith("http"):
-            p["video_url"] = f"https://www.tiktok.com/search?q={urllib.parse.quote(name)}"
+        # Enforce clean TikTok search query link to prevent broken links
+        p["video_url"] = f"https://www.tiktok.com/search?q={urllib.parse.quote(name + ' made me buy it')}"
         # Fallback to Shopify competitor search if no direct competitor URL is provided by Gemini
         if not p.get("competitor_url") or not p["competitor_url"].startswith("http"):
             p["competitor_url"] = f"https://www.google.com/search?q=site:myshopify.com+{urllib.parse.quote(name)}"
@@ -179,6 +179,10 @@ def main():
             p["creative_style"] = "POV Yaşam Hilesi"
         if not p.get("target_audience"):
             p["target_audience"] = "Genel Alıcı Kitlesi"
+        if not p.get("sourcing_tips"):
+            p["sourcing_tips"] = "Numune için Trendyol/Amazon TR kullanın. Ölçekleme için Çin'den özel DDP kargo hatları sunan acenteler (sourcing agents) ile çalışın."
+        if not p.get("customs_warning"):
+            p["customs_warning"] = "30 Euro gümrük limit engellerini aşmak için özel DDP kargo anlaşmalı acenteler tercih edilmelidir."
         
     output_path = "precrawled_products.json"
     existing_products = []
