@@ -181,6 +181,55 @@ def sync_product_to_portal(product):
     except Exception as e:
         print(f"[-] Error writing to precrawled products: {e}")
 
+def run_warmup_search(page):
+    import random
+    keywords = [
+        "tiktok made me buy it", 
+        "amazon finds", 
+        "dropshipping product", 
+        "viral gadget", 
+        "cool product", 
+        "must have gadgets"
+    ]
+    selected_keyword = random.choice(keywords)
+    print(f"\n[*] Algoritmayı ısıtmak için arama yapılıyor: '{selected_keyword}'...")
+    
+    search_url = f"https://www.tiktok.com/search?q={urllib.parse.quote(selected_keyword)}"
+    try:
+        page.goto(search_url, wait_until="domcontentloaded")
+        time.sleep(5)
+        
+        # Click on the first video link in search results to open the video feed player
+        first_video_link = page.query_selector('a[href*="/video/"]')
+        if first_video_link:
+            first_video_link.click()
+            print("[*] Arama sonuçlarındaki ilk video açıldı. Isıtma etkileşimleri yapılıyor...")
+            time.sleep(3)
+            
+            # Interact with 4 videos in search results to train algorithm
+            for v_idx in range(4):
+                watch_time = random.randint(12, 18)
+                print(f"  -> Video #{v_idx+1} izleniyor ({watch_time} sn)...")
+                time.sleep(watch_time)
+                
+                # Drop a like on the warm-up video (interact to train feed)
+                try:
+                    like_btn = page.query_selector('span[data-e2e="like-icon"]') or page.query_selector('button[class*="Like"]')
+                    if like_btn:
+                        like_btn.click()
+                        print("  -> Beğenildi (Algoritma Beslendi)")
+                except Exception:
+                    pass
+                    
+                time.sleep(1)
+                page.keyboard.press("ArrowDown") # Next search video
+                time.sleep(2)
+            print("[+] Aktif algoritma ısıtma aşaması tamamlandı! Organik For You akışına geçiliyor...")
+        else:
+            print("[-] Arama sonuçlarında video bulunamadı.")
+    except Exception as e:
+        print(f"[-] Isıtma aşamasında hata oluştu: {e}")
+
 def run_burner_automation(api_key, duration_minutes=30):
     from playwright.sync_api import sync_playwright
     
@@ -238,6 +287,15 @@ def run_burner_automation(api_key, duration_minutes=30):
                 print("[-] Giriş zaman aşımına uğradı. Lütfen scripti tekrar çalıştırıp giriş yapın.")
                 browser.close()
                 return
+
+        # Active Algorithm Warming Phase (Algoritmayı Isıtma Aşaması)
+        # Search targeted keywords and like content to feed the recommendation engine
+        run_warmup_search(page)
+        
+        # Navigate to For You Page to scan organically warmed feed
+        print("\n[*] Organik Sizin İçin (For You) akışına bağlanılıyor...")
+        page.goto("https://www.tiktok.com/foryou", wait_until="domcontentloaded")
+        time.sleep(5)
 
         # Start scraping loop
         start_time = time.time()
