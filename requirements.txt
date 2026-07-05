@@ -2,3 +2,4 @@ playwright
 pyee
 greenlet
 google-auth
+requests

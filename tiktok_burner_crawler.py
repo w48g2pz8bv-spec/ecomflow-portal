@@ -407,14 +407,33 @@ def run_burner_automation(api_key, duration_minutes=30):
                 browser.close()
                 return
 
-        # Active Algorithm Warming Phase (Algoritmayı Isıtma Aşaması)
-        # Search targeted keywords and like content to feed the recommendation engine
-        run_warmup_search(page)
-        
-        # Navigate to For You Page to scan organically warmed feed
-        print("\n[*] Organik Sizin İçin (For You) akışına bağlanılıyor...")
-        safe_goto(page, "https://www.tiktok.com/foryou")
-        time.sleep(5)
+        # Read option for warming up mode (staying on hashtags instead of For You feed)
+        warmup_only_mode = os.environ.get("WARMUP_ONLY_MODE", "true") == "true"
+        hashtags = ["tiktokmademebuyit", "amazonfinds", "dropshipping", "viralproduct"]
+        current_tag_idx = 0
+
+        if warmup_only_mode:
+            selected_tag = hashtags[current_tag_idx]
+            print(f"\n[*] UYARI: Algoritma Isıtma Modu (Hashtag Taraması) Aktif!")
+            print(f"[*] Doğrudan #{selected_tag} etiket akışına bağlanılıyor...")
+            safe_goto(page, f"https://www.tiktok.com/tag/{selected_tag}")
+            time.sleep(6)
+            first_video = page.query_selector('a[href*="/video/"]')
+            if first_video:
+                first_video.click()
+                time.sleep(4)
+            else:
+                print("[-] Etiket sayfasında ilk video bulunamadı. For You akışına geçiliyor...")
+                safe_goto(page, "https://www.tiktok.com/foryou")
+                time.sleep(5)
+        else:
+            # Active Algorithm Warming Phase (Algoritmayı Isıtma Aşaması)
+            run_warmup_search(page)
+            
+            # Navigate to For You Page to scan organically warmed feed
+            print("\n[*] Organik Sizin İçin (For You) akışına bağlanılıyor...")
+            safe_goto(page, "https://www.tiktok.com/foryou")
+            time.sleep(5)
 
         # Start scraping loop
         start_time = time.time()
@@ -424,8 +443,25 @@ def run_burner_automation(api_key, duration_minutes=30):
         validated_count = 0
         consecutive_duplicates = 0
         last_seen_video_id = None
+        last_switched_count = 0
         
         while time.time() < end_time:
+            # Switch hashtag feed periodically in warmup mode to diversify products (every 12 evaluated videos)
+            if warmup_only_mode and video_count > 0 and video_count % 12 == 0 and video_count != last_switched_count:
+                last_switched_count = video_count
+                current_tag_idx = (current_tag_idx + 1) % len(hashtags)
+                selected_tag = hashtags[current_tag_idx]
+                print(f"\n[*] Algoritma Isıtması: Yeni kategoriye geçiş yapılıyor: #{selected_tag}...")
+                try:
+                    safe_goto(page, f"https://www.tiktok.com/tag/{selected_tag}")
+                    time.sleep(6)
+                    first_video = page.query_selector('a[href*="/video/"]')
+                    if first_video:
+                        first_video.click()
+                        time.sleep(4)
+                except Exception as switch_err:
+                    print(f"[-] Hashtag geçiş hatası: {switch_err}")
+
             time.sleep(3) # Wait for page load / transition
             
             # Extract video details
