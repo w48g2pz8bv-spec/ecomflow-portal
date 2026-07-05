@@ -14,29 +14,30 @@ SEEN_VIDEOS_PATH = os.path.join(BASE_DIR, "seen_tiktok_videos.json")
 PRODUCTS_PATH = os.path.join(BASE_DIR, "precrawled_products.json")
 PORTAL_PATH = os.path.join(BASE_DIR, "index.html")
 
+def safe_goto(page, url, timeout=15000):
+    try:
+        print(f"[*] Navigating to {url}...")
+        page.goto(url, wait_until="commit", timeout=timeout)
+        return True
+    except Exception as e:
+        print(f"[-] Navigation warning for {url}: {e}. Proceeding anyway...")
+        return False
+
 def get_api_key():
-    """Attempts to find the Gemini API Key from multiple sources: env, argument, or portal localStorage."""
+    """Attempts to find the Gemini API Key from multiple sources: env, local file."""
     # 1. Environment Variable
     env_key = os.environ.get("GEMINI_API_KEY")
     if env_key:
         return env_key
 
-    # 2. LocalStorage Extraction fallback
-    try:
-        from playwright.sync_api import sync_playwright
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
-            page = browser.new_page()
-            # Navigate to the portal index file locally
-            local_url = f"file://{PORTAL_PATH}"
-            page.goto(local_url)
-            api_key = page.evaluate("localStorage.getItem('gemini_api_key')")
-            browser.close()
-            if api_key:
-                print(f"[*] API Key successfully auto-retrieved from Portal LocalStorage: {api_key[:6]}...{api_key[-4:]}")
-                return api_key
-    except Exception as e:
-        pass
+    # 2. Local text file
+    secret_path = os.path.join(BASE_DIR, "gemini_api_key.txt")
+    if os.path.exists(secret_path):
+        try:
+            with open(secret_path, "r", encoding="utf-8") as f:
+                return f.read().strip()
+        except Exception:
+            pass
     
     return None
 
@@ -196,7 +197,7 @@ def run_warmup_search(page):
     
     search_url = f"https://www.tiktok.com/search?q={urllib.parse.quote(selected_keyword)}"
     try:
-        page.goto(search_url, wait_until="commit", timeout=15000)
+        safe_goto(page, search_url)
         time.sleep(5)
         
         # Click on the first video link in search results to open the video feed player
@@ -258,13 +259,13 @@ def run_burner_automation(api_key, duration_minutes=30):
             context = browser.new_context()
         
         page = context.new_page()
-        page.goto("https://www.tiktok.com/foryou", wait_until="domcontentloaded")
+        safe_goto(page, "https://www.tiktok.com/foryou")
 
         # Handle login if cookies were missing
         if not os.path.exists(COOKIES_PATH):
             print("[!] TikTok oturum çerezleri bulunamadı. Lütfen açılan tarayıcı penceresinden hesabınıza giriş yapın.")
             print("[*] QR kod okutarak veya normal girişle (gerekirse yapbozu çözerek) giriş yapabilirsiniz.")
-            page.goto("https://www.tiktok.com/login", wait_until="domcontentloaded")
+            safe_goto(page, "https://www.tiktok.com/login")
             
             # Check in a loop for login success
             login_success = False
@@ -282,7 +283,7 @@ def run_burner_automation(api_key, duration_minutes=30):
                 with open(COOKIES_PATH, "w") as f:
                     json.dump(cookies, f, indent=2)
                 print("[+] Çerezler başarıyla 'tiktok_cookies.json' dosyasına kaydedildi!")
-                page.goto("https://www.tiktok.com/foryou", wait_until="domcontentloaded")
+                safe_goto(page, "https://www.tiktok.com/foryou")
             else:
                 print("[-] Giriş zaman aşımına uğradı. Lütfen scripti tekrar çalıştırıp giriş yapın.")
                 browser.close()
@@ -294,7 +295,7 @@ def run_burner_automation(api_key, duration_minutes=30):
         
         # Navigate to For You Page to scan organically warmed feed
         print("\n[*] Organik Sizin İçin (For You) akışına bağlanılıyor...")
-        page.goto("https://www.tiktok.com/foryou", wait_until="commit", timeout=15000)
+        safe_goto(page, "https://www.tiktok.com/foryou")
         time.sleep(5)
 
         # Start scraping loop
