@@ -182,6 +182,22 @@ def sync_product_to_portal(product):
     except Exception as e:
         print(f"[-] Error writing to precrawled products: {e}")
 
+def capture_video_screenshot(page, video_id):
+    os.makedirs(os.path.join(BASE_DIR, "product_images"), exist_ok=True)
+    img_path = os.path.join(BASE_DIR, "product_images", f"{video_id}.png")
+    try:
+        # Try to locate the video element or container
+        video_el = page.query_selector('video') or page.query_selector('div[data-e2e="feed-active-video"]')
+        if video_el:
+            video_el.screenshot(path=img_path)
+        else:
+            page.screenshot(path=img_path)
+        print(f"[+] Screenshot captured: product_images/{video_id}.png")
+        return f"product_images/{video_id}.png"
+    except Exception as e:
+        print(f"[-] Could not capture video screenshot: {e}")
+        return "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=200"
+
 def run_warmup_search(page):
     import random
     keywords = [
@@ -432,6 +448,9 @@ def run_burner_automation(api_key, duration_minutes=30):
                         except Exception as e:
                             print(f"[-] Could not post comment: {e}")
                             
+                    # Capture screenshot of the video frame
+                    screenshot_img = capture_video_screenshot(page, video_id)
+
                     # Sync validated winner candidate to portal database
                     sync_product_to_portal({
                         "name": decision.get("product_name"),
@@ -444,7 +463,7 @@ def run_burner_automation(api_key, duration_minutes=30):
                         "hook_ideas": decision.get("hook_ideas"),
                         "sourcing_tips": decision.get("sourcing_tips"),
                         "customs_warning": decision.get("customs_warning"),
-                        "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=200" # Placeholder
+                        "image_url": screenshot_img
                     })
                 else:
                     # Swipe immediately
