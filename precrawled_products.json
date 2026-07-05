@@ -99,16 +99,20 @@
     "name": "Karpuz Değirmen Dilimleyici",
     "category": "Mutfak Gereçleri",
     "product_type": "Showcase",
-    "description": "Bütün bir karpuzu saniyeler içinde mükemmel küplere ayıran değirmen tarzı bir dilimleyici. Karpuz topu için bir de karpuz oyucu içerir. Yaz aylarında meyve hazırlığını eğlenceli ve kolay hale getirir.",
-    "image_url": "https://m.media-amazon.com/images/I/61gJm3K2oUL._AC_SL1500_.jpg",
-    "why_viral": "Şubat 2026'da 'yaz sosyal medya hiti' olarak tanımlandı ve yaz sezonu için popülerliğini sürdürüyor. Karpuzu temiz ve düzenli bir şekilde dilimleme zorluğunu çözerek, özellikle partiler ve aile yemekleri için görsel olarak çekici sunumlar sağlıyor. 'Wow' faktörü yüksek.",
+    "description": "Tüm bir karpuzu saniyeler içinde mükemmel küpler halinde dilimlemeyi sağlayan, değirmen tarzı bıçaklara sahip bir araçtır. Karpuz dilimleme işlemini hızlı, kolay ve eğlenceli hale getirir. Melon toplama kaşığı da içerir.",
+    "image_url": "https://m.media-amazon.com/images/I/719V3D-uXRL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=watermelon%20windmill%20slicer",
+    "why_viral": "Karpuz dilimleme gibi zahmetli bir işi basitleştirmesi ve görsel olarak çok tatmin edici sonuçlar vermesiyle yaz aylarının sosyal medya hiti oldu. Videolarda 'İnanılmaz!', 'Bunu almak zorundayım!' gibi yorumlar alıyor.",
     "hook_ideas": [
-      "Karpuz kesmek hiç bu kadar hızlı ve eğlenceli olmamıştı! 🍉 Küp küp karpuzlar saniyeler içinde!",
-      "Yaz partilerinin olmazsa olmazı: Bu değirmenle karpuz sunumlarınız efsane olacak!",
-      "TikTok'ta gördüğün o büyülü karpuz dilimleyici şimdi senin mutfağında!"
+      "Karpuz kesmek bir dert olmasın! Mükemmel küpler saniyeler içinde hazır.",
+      "Yaz partilerinin yıldızı: Karpuz dilimleme oyununuzu yükseltin!",
+      "Tek hamleyle tüm karpuzu dilimleyin: Dağınıklığa son!"
     ],
-    "est_price": "24.99",
+    "est_price": "12.99",
     "aliexpress_url": "https://www.aliexpress.com/w/wholesale-watermelon-windmill-slicer.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+watermelon+windmill+slicer",
+    "creative_style": "'Tatmin Edici Video', 'POV Yaşam Hilesi', 'Eğlenceli Gösterim'",
+    "target_audience": "Yaz partisi düzenleyenler, çocuklu aileler, karpuz severler, pratik mutfak araçları arayanlar",
     "scores": {
       "visual_satisfaction": 5,
       "problem_solving": 4,
@@ -117,7 +121,7 @@
     },
     "total_score": 19,
     "verdict": "Winner Adayı",
-    "crawled_at": "2026-07-02"
+    "crawled_at": "2026-07-05"
   },
   {
     "name": "Klipsli Silikon Süzgeç",
@@ -2636,5 +2640,919 @@
     "total_score": 17,
     "verdict": "Winner Adayı",
     "crawled_at": "2026-07-04"
+  },
+  {
+    "name": "Kompakt El Tipi Vakum Mühürleyici",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Regular",
+    "description": "Yiyecekleri hava geçirmez şekilde saniyeler içinde mühürleyerek tazeliği uzatan ve israfı azaltan küçük, hafif ve kompakt bir cihazdır. Yemek hazırlığı ve toplu alışverişler için idealdir.",
+    "image_url": "https://m.media-amazon.com/images/I/61kYn8-38bL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/tag/compactvacuumsealer",
+    "why_viral": "Yiyecek israfını azaltma, gıdaları uzun süre taze tutma ve yemek hazırlığını kolaylaştırma gibi evrensel bir sorunu çözmesi nedeniyle son zamanlarda hızla viral oldu. Videolarında 'Buna değer!', 'Oyun değiştirici!' gibi yorumlar ve satın alma niyetini gösteren 'Link?', 'Nereden alabilirim?' soruları yoğunlukta.",
+    "hook_ideas": [
+      "Yemek israfına son! Yiyeceklerinizi 6 kata kadar daha taze tutun.",
+      "Hızlı yemek hazırlığı sırrı: Kompakt vakum mühürleyici ile porsiyonlarınızı hemen hazırlayın.",
+      "Buzluktaki yanıklar geçmişte kaldı! En sevdiğiniz etleri taptaze saklayın."
+    ],
+    "est_price": "29.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-compact-handheld-vacuum-sealer.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+compact+handheld+vacuum+sealer",
+    "creative_style": "'Önce/Sonra Karşılaştırması' (bozulmuş/taze yiyecekler), 'Problem Çözme' (yemek israfı, buzdolabı düzeni)",
+    "target_audience": "Bilinçli tüketiciler, yemek hazırlığı yapanlar, toplu alışveriş yapanlar, bütçe dostu mutfak severler",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 19,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Zemin Et Kırma ve Doğrama Aparatı",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Regular",
+    "description": "Kıyma, hindi veya bitki bazlı etleri saniyeler içinde kolayca parçalamak için tasarlanmış, açılı bıçaklara sahip 'acayip tatmin edici' bir mutfak aracıdır. Topaklanmayı önler ve pişirme sürecini hızlandırır.",
+    "image_url": "https://m.media-amazon.com/images/I/71N1hGfM+GL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=meat%20chopper%20crumbler%20tool",
+    "why_viral": "Kıyma gibi etleri eşit ve hızlı bir şekilde parçalamanın sıkıcı ve dağınık sorununu çözmesiyle popülerlik kazandı. 'TikTok favorisi' olarak belirtildi ve videoları 'acayip tatmin edici' olarak yorumlar alıyor.",
+    "hook_ideas": [
+      "Kıymayı topaklanmadan saniyeler içinde parçalayın!",
+      "Hızlı taco geceleri, mükemmel makarna sosları için vazgeçilmez yardımcınız.",
+      "Daha eşit pişen etler için gizli silahınız."
+    ],
+    "est_price": "14.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-ground-meat-chopper-tool.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+meat+chopper+crumbler+tool",
+    "creative_style": "'Tatmin Edici Video' (et kırma anları), 'Problem Çözme' (kıyma topaklanması)",
+    "target_audience": "Yoğun yemek yapanlar, öğrenci mutfakları, hızlı ve pratik çözümler arayanlar",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Dondurucu Çekirdekli Smoothie Bardağı (Blendersız)",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Showcase",
+    "description": "Dondurucu çekirdeği sayesinde harici bir blender kullanmadan saniyeler içinde ev yapımı smoothie, milkshake ve donmuş içecekler hazırlamanızı sağlayan yenilikçi bir bardak. Temizlemesi kolay ve kullanımı pratiktir.",
+    "image_url": "https://m.media-amazon.com/images/I/713J197n7UL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=freezer%20core%20smoothie%20cup%20no%20blender",
+    "why_viral": "Blendersız smoothie yapabilme vaadi ve 'eğlenceli, nostaljik ve şaşırtıcı derecede pratik' olmasıyla TikTok'ta sürekli olarak popülerliğini artırıyor. Görsel olarak tatmin edici videolarla viral hale geliyor.",
+    "hook_ideas": [
+      "Blender yoksa smoothie de yok mu? Tekrar düşünün!",
+      "Saniyeler içinde buz gibi smoothie'ler! Yazın favori gadget'ınız olacak.",
+      "Dağınıklık yok, ekstra bulaşık yok: Pratik smoothie bardağı ile güne enerjik başlayın."
+    ],
+    "est_price": "19.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-freezer-core-smoothie-cup.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+freezer+core+smoothie+cup",
+    "creative_style": "'POV Yaşam Hilesi', 'Tatmin Edici Video' (içecek yapımı), 'Hızlı Çözüm'",
+    "target_audience": "Sağlıklı yaşam tutkunları, öğrenciler, sporcular, pratik içecek severler, çocuklar",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 19,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Tezgah Üstü Otomatik Bitkisel Süt Yapıcı",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Regular",
+    "description": "Badem, yulaf, soya ve diğer kuruyemişleri otomatik olarak karıştırıp ısıtarak dakikalar içinde taze bitkisel süt yapımını basitleştiren kompakt bir makinedir. Dahili filtreleme sistemi sayesinde pürüzsüz doku sağlar.",
+    "image_url": "https://m.media-amazon.com/images/I/719hL3S33FL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=automatic%20nut%20milk%20maker",
+    "why_viral": "Bitki bazlı diyetlerin yükselişiyle evde taze bitkisel süt yapma ihtiyacını karşılaması ve bu süreci otomatikleştirmesi sayesinde viral oldu. 'Ev yapımı süt içeceklerini yeniden tanımlayan viral mutfak aleti' olarak tanımlanıyor.",
+    "hook_ideas": [
+      "Market sütlerine elveda! Kendi taze bitkisel sütünüzü dakikalar içinde yapın.",
+      "Sağlıklı yaşamın sırrı: Ev yapımı fındık sütü ile güne başlayın.",
+      "Otomatik bitkisel süt makinesi ile paradan ve zamandan tasarruf edin."
+    ],
+    "est_price": "89.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-automatic-nut-milk-maker.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+automatic+nutmilk+maker",
+    "creative_style": "'POV Yaşam Hilesi', 'Önce/Sonra Karşılaştırması' (market sütü vs. ev yapımı), 'Eğitim/Tanıtım'",
+    "target_audience": "Veganlar, bitki bazlı diyet uygulayanlar, sağlıklı beslenmeye özen gösterenler, bebekli aileler",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "4'lü Mini Yumurta/Pankek Tavası",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Regular",
+    "description": "Aynı anda birden fazla yumurta veya pankek pişirmenizi sağlayan, yapışmaz yüzeyli, özel tasarıma sahip bir tava. Mükemmel yuvarlak şekiller elde etmenizi sağlar ve kahvaltıları hızlandırır.",
+    "image_url": "https://m.media-amazon.com/images/I/71239c0Lg1L._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=4%20cup%20egg%20pancake%20pan",
+    "why_viral": "Kahvaltıları hızlandırması, özellikle çocuklu aileler için pratik olması ve 'mükemmel yuvarlak' sonuçlar sunmasıyla TikTok'ta onaylı bir mutfak aleti olarak öne çıkıyor. Videolarında hızlı ve eğlenceli kahvaltı hazırlığına vurgu yapılıyor.",
+    "hook_ideas": [
+      "Saniyeler içinde 4 mükemmel pankek! Kahvaltıda zamandan tasarruf edin.",
+      "Çocuklarınız bayılacak! Eğlenceli ve hızlı mini yumurtalar/pankekler.",
+      "Sabah telaşına son: Tek seferde tüm kahvaltıyı hazırlayın!"
+    ],
+    "est_price": "24.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-4-cup-egg-pancake-pan.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+4+cup+egg+pancake+pan",
+    "creative_style": "'POV Yaşam Hilesi', 'Hızlı Tarif', 'Çocuk Dostu İçerik'",
+    "target_audience": "Çocuklu aileler, kahvaltı severler, pratik yemek hazırlayanlar",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 17,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Parmak Koruyuculu Şık Soğan Dilimleyici",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Regular",
+    "description": "Soğan doğrarken parmakları güvende tutan, elleri temiz tutan ve hazırlık süresini hızlandıran şık tasarımlı bir dilimleyici. Soğan doğrarken yaşanan yaygın sorunları çözer.",
+    "image_url": "https://m.media-amazon.com/images/I/61+iX51uEUL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=stylish%20onion%20slicer%20finger%20guard",
+    "why_viral": "Soğan doğrarken göz yaşarması ve parmak kesilmesi gibi yaygın mutfak dertlerine pratik ve güvenli bir çözüm sunmasıyla dikkat çekiyor. 'Şef gibi doğrayın' mottosuyla viral olma potansiyeli yüksek.",
+    "hook_ideas": [
+      "Soğan doğrarken ağlamaya son! Parmaklarınızı güvende tutun.",
+      "Hızlı ve güvenli: Şef gibi soğan doğramanın yeni yolu.",
+      "Mutfağınızın yeni kahramanı: Şık soğan dilimleyici ile pratik çözümler."
+    ],
+    "est_price": "16.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-onion-slicer-finger-guard.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+stylish+onion+slicer",
+    "creative_style": "'Problem Çözme', 'POV Yaşam Hilesi', 'Güvenlik Vurgusu'",
+    "target_audience": "Yeni başlayan aşçılar, güvenlik arayanlar, pratik mutfak araçları sevenler",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Manyetik Mini Paket Mühürleyici",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Regular",
+    "description": "Cips paketleri, tahıl poşetleri ve diğer yiyecek ambalajlarını hava geçirmez şekilde mühürleyerek yiyecekleri taze tutan, küçük, portatif ve buzdolabına yapışabilen pratik bir cihazdır. Dahili kesme bıçağı da bulunur.",
+    "image_url": "https://m.media-amazon.com/images/I/61N9u4vP5SL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=magnetic%20mini%20bag%20sealer",
+    "why_viral": "Açık yiyecek paketlerinin bayatlama sorununu hızlı ve kolay bir şekilde çözmesiyle popülerliğini artırıyor. Buzdolabına yapışabilmesi ve küçük boyutuyla pratikliği ön plana çıkıyor. 'Akıllı, neşeli mutfak aleti' olarak belirtiliyor.",
+    "hook_ideas": [
+      "Bayat cipsler geçmişte kaldı! Atıştırmalıklarınızı her zaman taze tutun.",
+      "Buzdolabınızda yer kaplamayan mucize: Manyetik paket mühürleyici.",
+      "Tek tıkla paketlerinizi mühürleyin, yiyecek israfını önleyin."
+    ],
+    "est_price": "9.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-magnetic-mini-bag-sealer.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+magnetic+mini+bag+sealer",
+    "creative_style": "'POV Yaşam Hilesi', 'Hızlı Çözüm', 'Ürün Gösterimi'",
+    "target_audience": "Atıştırmalık severler, kampçılar, piknikçiler, düzen sevenler, öğrenciler",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 17,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Tek Dokunuşlu Elektrikli Baharat Öğütücü Seti",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Showcase",
+    "description": "Tuz, karabiber ve diğer baharatları taze bir şekilde tek elle ve tek dokunuşla öğütmenizi sağlayan şık tasarımlı, USB-C şarj edilebilir bir settir. Ayarlanabilir seramik öğütücü sayesinde farklı öğütme boyutları sunar.",
+    "image_url": "https://m.media-amazon.com/images/I/61xJjXnLgPL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=one%20touch%20electric%20spice%20grinder",
+    "why_viral": "Mutfakta pratikliği, taze baharat kullanımını ve şık tasarımı bir araya getirmesiyle ilgi görüyor. Red Dot tasarım ödülü kazanması ve USB-C şarj özelliği gibi modern özellikleri viralliğini artırıyor.",
+    "hook_ideas": [
+      "Tek elle mükemmel baharatlar! Yemeklerinize taze bir dokunuş katın.",
+      "Mutfağınızın yeni şık aksesuarı: Otomatik baharat öğütücü seti.",
+      "Şarj edilebilir ve pratik: Baharat öğütme derdine son."
+    ],
+    "est_price": "39.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-electric-spice-grinder-set-one-touch.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+electric+spice+grinder+set",
+    "creative_style": "'Ürün Gösterimi', 'Estetik Video', 'POV Yaşam Hilesi'",
+    "target_audience": "Gurmeler, mutfak meraklıları, modern tasarım sevenler, pratiklik arayanlar",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Katlanabilir Yiyecek Isıtma Matı",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Regular",
+    "description": "Yemekleri sıcak tutan, katlanabilir ve tezgah veya masa üzerinde kullanıma uygun elektrikli bir ısıtma matı. Ayarlanabilir sıcaklık ayarları ve otomatik kapanma özelliği bulunur. Misafir ağırlarken veya yemeklerin soğumasını engellemek için idealdir.",
+    "image_url": "https://m.media-amazon.com/images/I/71Y+wU2PjVL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=foldable%20food%20warming%20mat",
+    "why_viral": "Yemeklerin soğuk servis edilme sorununu şık ve pratik bir şekilde çözmesiyle 'Bir daha asla yemek ısıtmıyorum' gibi başlıklarla viral oldu. Özellikle davetler ve aile yemekleri için çok talep görüyor.",
+    "hook_ideas": [
+      "Yemekleriniz asla soğumasın! Katlanabilir ısıtma matı ile ziyafetin keyfini çıkarın.",
+      "Misafir ağırlamak artık çok daha kolay: Her yemeği taze sıcak tutun.",
+      "Pratik ve yerden tasarruf: Mutfakta yeni yardımcınız."
+    ],
+    "est_price": "79.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-foldable-food-warming-mat.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+foldable+food+warming+mat",
+    "creative_style": "'Problem Çözme', 'POV Yaşam Hilesi', 'Ürün Gösterimi' (davet sofrası)",
+    "target_audience": "Ev sahipleri, kalabalık aileler, yemek sunumuna önem verenler, küçük mutfak sahipleri",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Elektrikli Mutfak Kompost Makinesi",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Showcase",
+    "description": "Yiyecek artıklarını 6 saat içinde bitki gübresine dönüştüren, mutfakta kullanıma uygun kompakt bir elektrikli kompost makinesi. Çevre dostu bir çözüm sunar ve atık yönetimini kolaylaştırır.",
+    "image_url": "https://m.media-amazon.com/images/I/71D0Y0Z5kRL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=electric%20kitchen%20composter",
+    "why_viral": "Çevre bilincinin artmasıyla birlikte yiyecek atıklarını hızlı ve kolay bir şekilde gübreye dönüştürme çözümü sunmasıyla viral oldu. 'Gizli bahçe sırrı', 'Çevre dostu mutfak kahramanı' gibi başlıklarla ilgi çekiyor.",
+    "hook_ideas": [
+      "Yiyecek atıklarınız 6 saat içinde değerli gübreye dönüşsün!",
+      "Çevreye duyarlı mutfaklar için devrim niteliğinde bir çözüm.",
+      "Kompakt ve kokusuz: Evde kompost yapmanın en kolay yolu."
+    ],
+    "est_price": "170.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-electric-kitchen-composter.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+electric+kitchen+composter",
+    "creative_style": "'Problem Çözme' (çevre kirliliği, atık), 'Önce/Sonra Karşılaştırması' (atık vs. gübre), 'Eğitim/Tanıtım'",
+    "target_audience": "Çevreye duyarlı bireyler, bahçe sahipleri, organik yaşam meraklıları, şehirde yaşayanlar",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 4,
+      "reaction_potential": 4
+    },
+    "total_score": 17,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Kavanoz Vakum Mühürleyici",
+    "category": "Mutfak Gereçleri",
+    "product_type": "Regular",
+    "description": "Özellikle kavanozlardaki yiyeceklerin hava geçirmez şekilde mühürlenmesini sağlayan, vakum pompalı küçük bir cihaz. Konserve ve gıda depolama meraklıları için idealdir, yiyecekleri daha uzun süre taze tutar.",
+    "image_url": "https://m.media-amazon.com/images/I/61kYn8-38bL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=mason%20jar%20vacuum%20sealer",
+    "why_viral": "Kavanozda yiyecek saklamayı sevenler için özel bir çözüm sunması ve yiyeceklerin tazeliğini önemli ölçüde uzatmasıyla 'Uzun ömürlü depolama' ve 'Hayat kolaylaştırıcı' yorumlarıyla dikkat çekiyor.",
+    "hook_ideas": [
+      "Kavanozda sakladığınız her şeyi ilk günkü gibi taze tutun!",
+      "Kavanoz vakum mühürleyici ile kilerinizde devrim yaratın.",
+      "Ev yapımı konserveleriniz hiç bu kadar taze kalmamıştı!"
+    ],
+    "est_price": "49.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-mason-jar-vacuum-sealer.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+mason+jar+vacuum+sealer",
+    "creative_style": "'Problem Çözme', 'Organize Mutfak', 'Ürün Gösterimi' (konserve yapımı)",
+    "target_audience": "Konserve yapanlar, gıda depolama meraklıları, çiftçiler, sağlıklı beslenenler",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Zerdeçal + Kojik Asit Aydınlatıcı Sabun",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Regular",
+    "description": "Ciltteki koyu lekeleri, sivilce izlerini ve renk eşitsizliklerini gidermeye yardımcı olan, zerdeçal ve kojik asit içeren doğal bir sabun. Cildi aydınlatır ve eşit bir ton sağlar.",
+    "image_url": "https://ae01.alicdn.com/kf/S03595f00ed0b471587d5b1287c80053a4.jpg",
+    "video_url": "https://www.tiktok.com/tag/turmerickojicacidsoap",
+    "why_viral": "TikTok Shop'ta 'Trend Olan Aydınlatıcı Bar' olarak öne çıkması (2 Temmuz 2026 itibarıyla) ve yorumlarda satın alma niyeti belirten soruların çokluğuyla son 7-14 günde viral hale geldi. 'Önce/Sonra' görselleri ve doğal içerik vurgusu ilgi çekiyor.",
+    "hook_ideas": [
+      "Koyu lekeleriniz mi var? Bu sabunla 1 haftada değişim!",
+      "Kimyasal yok, sadece doğal parlaklık! ✨",
+      "TikTok'un yeni favorisi: Leke savar sabun! #tiktokmademebuyit"
+    ],
+    "est_price": "7.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-turmeric-kojic-acid-soap.html",
+    "competitor_url": "https://www.etsy.com/market/kojic_acid_turmeric_soap",
+    "creative_style": "'Önce/Sonra Karşılaştırması', 'POV Yaşam Hilesi', 'Rutine Dahil Etme'",
+    "target_audience": "Akne izleri, koyu lekeler veya cilt tonu eşitsizliği yaşayanlar; doğal ve etkili çözümler arayanlar.",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 19,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "EMS Isıtmalı ve Kırmızı Işık Terapili Boyun & Yüz Sıkılaştırma Cihazı",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Showcase",
+    "description": "Boyun ve yüz bölgesindeki sarkmayı azaltmak, kırışıklıkları pürüzsüzleştirmek ve cildi sıkılaştırmak için tasarlanmış, EMS mikro akım, ısıtma ve kırmızı ışık terapisi özelliklerine sahip elde taşınır bir cihaz.",
+    "image_url": "https://ae01.alicdn.com/kf/H7cf12e69002244a191316b1ff53f92b0U.jpg",
+    "video_url": "https://www.tiktok.com/tag/emsfacetightening",
+    "why_viral": "Trendyol'da 'Son 1 gün' ibaresiyle yüksek ilgi görmesi ve AliExpress'te dropshipping destekli benzer ürünlerin bulunması, at-home güzellik cihazlarına olan ilginin artmasıyla son dönemde viral olma potansiyelini gösteriyor. Anında sıkılaşma ve lifting etkisi vaadi ile dikkat çekiyor.",
+    "hook_ideas": [
+      "Boyun kırışıklıklarına anında çözüm! 🤯",
+      "Gençleşmek için cerrahiye hayır! Bu cihazla 5 yaş gençleşin.",
+      "Kırmızı ışık terapisiyle evde spa keyfi!"
+    ],
+    "est_price": "24.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-ems-neck-face-tightening-device-red-light.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+ems+neck+face+massager+red+light",
+    "creative_style": "'Önce/Sonra Karşılaştırması', 'POV Yaşam Hilesi', 'Lüks Ürün Deneyimi'",
+    "target_audience": "Anti-aging çözümler arayanlar, boyun ve yüz sarkmasından rahatsız olanlar, evde profesyonel cilt bakımı yapmak isteyenler.",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 20,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Mikro İğneli Derin Akne Bandı (Micro-Dart Deep Acne Patches)",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Regular",
+    "description": "Sıradan sivilce bantlarından farklı olarak, mikro iğnelerle aktif bileşenleri sivilcenin derinlerine taşıyarak daha hızlı ve etkili sonuçlar sağlayan, iltihabı azaltan ve iyileşmeyi hızlandıran akne bantları.",
+    "image_url": "https://ae01.alicdn.com/kf/H14b4349e5d4e4120935398246f4a86b2V.jpg",
+    "video_url": "https://www.tiktok.com/tag/microdartpatches",
+    "why_viral": "Geleneksel sivilce bantlarına göre daha yenilikçi ve 'problem çözme gücü' yüksek bir ürün olması, 2026 dropshipping trendlerinde anılması ve 'gizli' bir çözüm sunması nedeniyle genç kullanıcılar arasında hızla yayılıyor. Görünmez uygulaması ve hızlı etki vaadiyle yorumlarda yoğun ilgi görüyor.",
+    "hook_ideas": [
+      "O kocaman sivilce mi çıktı? Panik yapma, mikro iğneli bant kurtarıcın!",
+      "Gece sür, sabah sivilce yok!",
+      "TikTok'ta gördüğüm en iyi sivilce çözümü 🤯"
+    ],
+    "est_price": "8.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-micro-dart-acne-patches.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+microdart+pimple+patches",
+    "creative_style": "'Önce/Sonra Karşılaştırması', 'Gizli Kahraman', 'POV Yaşam Hilesi'",
+    "target_audience": "Ani ve derin sivilce problemleri yaşayan gençler ve yetişkinler, hızlı ve etkili çözümler arayanlar.",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 19,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Kırmızı Işık Terapili Elektrikli Silikon Saç Derisi Masaj Aleti",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Showcase",
+    "description": "Saç derisini nazikçe masaj yaparak kan dolaşımını hızlandıran, saç büyümesini destekleyen ve rahatlama sağlayan, kırmızı ışık terapisi ve titreşim özellikli su geçirmez silikon bir cihaz.",
+    "image_url": "https://ae01.alicdn.com/kf/S7ff48ef2e25d43e597148d562479f0f9t.jpg",
+    "video_url": "https://www.tiktok.com/tag/redlightscalpmassager",
+    "why_viral": "Saç bakımının ötesinde 'TikTok favorisi' olarak belirtilmesi ve dropshipping platformlarında 'red light therapy' entegrasyonuyla yeni trend olması, stres atma ve saç büyümesi gibi güçlü faydalar sunmasıyla viral hale geldi. 'Tatmin edici köpük' videolarıyla görsel doygunluk sağlıyor.",
+    "hook_ideas": [
+      "Saç dökülmesine veda edin! ✨ Kırmızı ışıkla yeni saçlar!",
+      "Evde spa deneyimi: Kırmızı ışıklı saç derisi masajı!",
+      "TikTok'un yeni bağımlılığı: Bu masaj aleti saçlarınızı coşturacak!"
+    ],
+    "est_price": "19.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-electric-red-light-scalp-massager.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+red+light+therapy+scalp+massager",
+    "creative_style": "'Tatmin Edici Kurgu', 'Önce/Sonra Karşılaştırması', 'Rutine Dahil Etme'",
+    "target_audience": "Saç dökülmesi veya seyrelme problemi yaşayanlar, saç derisi sağlığına önem verenler, rahatlama arayanlar.",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 20,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Kameralı Elektrikli Siyah Nokta Temizleyici Vakum",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Showcase",
+    "description": "Ciltteki siyah noktaları, beyaz noktaları ve gözeneklerdeki kirleri temizlemek için kullanılan, entegre kamerası sayesinde cilt durumunu gerçek zamanlı olarak izleme imkanı sunan bir vakum cihazı. Genellikle farklı emiş seviyeleri ve başlıklarla gelir.",
+    "image_url": "https://ae01.alicdn.com/kf/Hac024a13e63945f78c800539fcf01174O.jpg",
+    "video_url": "https://www.tiktok.com/tag/blackheadvacuumwithcamera",
+    "why_viral": "Geleneksel siyah nokta vakumlarına eklenen kamera özelliğiyle kullanıcıların kendi gözeneklerini derinlemesine görmesi, 'tatmin edici' videoların TikTok'ta popülerleşmesiyle son dönemde viral hale geldi. '2026' dropshipping trendlerinde anılmasıyla da güncel bir ürün.",
+    "hook_ideas": [
+      "Gözeneklerinizdeki kiri kendi gözlerinizle görün! 😱",
+      "Bu cihazla sivilcesiz, pürüzsüz bir cilt!",
+      "TikTok'ta herkes bunu konuşuyor: Kamerayla siyah nokta temizliği!"
+    ],
+    "est_price": "29.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-blackhead-remover-vacuum-with-camera.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+visual+blackhead+remover+camera",
+    "creative_style": "'Tatmin Edici Kurgu', 'Gerçek Zamanlı Sonuç', 'Problem Çözme Gösterimi'",
+    "target_audience": "Siyah nokta, beyaz nokta ve geniş gözenek problemleri yaşayanlar, detaylı cilt bakımı rutinleri sevenler, teknoloji meraklıları.",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 20,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Anında Yüz Germe Bandı / Görünmez V Yüz Maskesi",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Regular",
+    "description": "Yüzdeki sarkmayı, çift çeneyi ve kırışıklıkları anında gizleyerek daha sıkı ve genç bir görünüm sağlayan, cilde yapıştırılan şeffaf, ince bantlar.",
+    "image_url": "https://ae01.alicdn.com/kf/Sfb705c7546e542978f8c2579b76e1919E.jpg",
+    "video_url": "https://www.tiktok.com/tag/instantfacelifttape",
+    "why_viral": "Estetik operasyonlara alternatif olarak 'anında' sonuç vaat etmesi ve 'görünmez' olması nedeniyle sosyal medyada 'şok edici dönüşüm' videolarıyla popüler oldu. Düğünler, partiler veya özel etkinlikler için hızlı bir çözüm sunması, yorumlarda yüksek talep yaratıyor.",
+    "hook_ideas": [
+      "5 dakikada 5 yaş gençleşin! ✨",
+      "Fotoğraflarda V yüz şekline kavuşmanın sırrı!",
+      "Görünmez bir hileyle Hollywood yanakları!"
+    ],
+    "est_price": "6.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-instant-face-lift-tape.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+invisible+face+lifting+tape",
+    "creative_style": "'Önce/Sonra Karşılaştırması', 'Şok Edici Dönüşüm', 'Hızlı Makyaj Hilesi'",
+    "target_audience": "Özel günler için hızlı bir lifting etkisi arayanlar, fotoğraf ve videolarda daha genç görünmek isteyenler, estetik cerrahiye alternatif arayanlar.",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 20,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Kollajenli Dudak Maskeleri (Gece Boyu/Dolgunlaştırıcı)",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Regular",
+    "description": "Kuru, çatlamış dudakları nemlendiren, dolgunlaştıran ve ince çizgileri azaltan, genellikle jel veya krem formunda, gece boyu kullanılan veya kısa süreli uygulama için tasarlanmış dudak maskeleri.",
+    "image_url": "https://ae01.alicdn.com/kf/H76d4957f12e947d5b1d97771746f3657C.jpg",
+    "video_url": "https://www.tiktok.com/tag/collagenlipmask",
+    "why_viral": "Özellikle 'gece boyu' ve 'anında dolgunluk' vaat eden versiyonları, TikTok ve Instagram'da 'makyaj öncesi hazırlık' ve 'self-care' rutinlerinin bir parçası olarak viral hale geldi. AliExpress'te ve Shopify mağazalarında yüksek satış oranları ve olumlu yorumlar dikkat çekiyor.",
+    "hook_ideas": [
+      "Sabah kalktığınızda pamuk gibi dudaklar! 💋",
+      "Kuru dudaklara veda! Bu maske hayatınızı değiştirecek.",
+      "Makyaj artistlerinin sırrı: Dolgun dudaklar için gece maskesi!"
+    ],
+    "est_price": "9.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-collagen-lip-mask-overnight.html",
+    "competitor_url": "https://www.myshopify.com/search?q=collagen+lip+mask+plumping",
+    "creative_style": "'Rutine Dahil Etme', 'Önce/Sonra Karşılaştırması', 'Rahatlatıcı Deneyim'",
+    "target_audience": "Kuru ve çatlamış dudak problemi yaşayanlar, dolgun dudaklar isteyenler, self-care rutinlerini sevenler.",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 17,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Anında Beyazlatıcı Taşınabilir Diş Beyazlatma Kalemi",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Regular",
+    "description": "Dişlerdeki lekeleri hızlıca gidererek daha beyaz bir gülüş sağlayan, taşınabilir ve kullanımı kolay bir jel kalem. Seyahatlerde veya acil durumlarda anında beyazlatma imkanı sunar.",
+    "image_url": "https://ae01.alicdn.com/kf/H5c8c634b172a440590a55283995804cf3.jpg",
+    "video_url": "https://www.tiktok.com/tag/instantteethwhiteningpen",
+    "why_viral": "'Anında' sonuç vaadi ve kolay taşınabilirliği sayesinde sosyal medyada hızla popülerleşti. 'Önce/Sonra' gösterimleri ve pratik kullanımı, 'fiyatı ne?' ve 'nereden alabilirim?' gibi yorumları tetikliyor. AliExpress'te yüksek satış rakamları ve dropshipping desteği ile trend bir ürün.",
+    "hook_ideas": [
+      "Kahve lekelerine son! ☕ Anında bembeyaz dişler!",
+      "Çantada taşı, her an bembeyaz gülüşe sahip ol! ✨",
+      "TikTok'ta herkesin denediği o sihirli kalem!"
+    ],
+    "est_price": "12.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-teeth-whitening-pen-instant.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+portable+teeth+whitening+pen",
+    "creative_style": "'Önce/Sonra Karşılaştırması', 'POV Yaşam Hilesi', 'Hızlı Çözüm'",
+    "target_audience": "Diş lekelerinden şikayetçi olanlar, hızlı ve pratik beyazlatma çözümleri arayanlar, seyahat edenler.",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Isıtmalı ve Titreşimli Sonic Silikon Yüz Temizleme Fırçası",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Showcase",
+    "description": "Cildi derinlemesine temizleyen, gözenekleri arındıran ve nazikçe peeling yapan, sonic titreşim, ısıtma ve masaj özelliklerine sahip, su geçirmez silikon yüz temizleme fırçası. Makyaj kalıntılarını ve kirleri etkili bir şekilde çıkarır.",
+    "image_url": "https://ae01.alicdn.com/kf/S7ff0e071720d4371bf5ff57a07010214c.jpg",
+    "video_url": "https://www.tiktok.com/tag/heatedfacialbrush",
+    "why_viral": "Geleneksel yüz temizleme fırçalarına eklenen ısıtma ve sonic titreşim gibi gelişmiş özellikler, 'evde spa' deneyimi sunmasıyla viral oldu. Makyaj çıkarma ve derinlemesine temizlik videoları, kullanıcıların yorumlarda 'farkı görmesi' nedeniyle satın alma isteği uyandırıyor. Dropshipping platformlarında popüler.",
+    "hook_ideas": [
+      "Yüzünüzü hiç bu kadar temiz hissetmediniz! ✨",
+      "Sıcak masajla makyajınızı akıtın! 🧖‍♀️",
+      "Bu fırça, güzellik rutininizin yeni vazgeçilmezi!"
+    ],
+    "est_price": "22.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-heated-sonic-facial-brush.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+heated+sonic+facial+cleansing+brush",
+    "creative_style": "'Tatmin Edici Kurgu', 'Rutine Dahil Etme', 'Önce/Sonra Karşılaştırması'",
+    "target_audience": "Derinlemesine cilt temizliği arayanlar, gözenek problemleri yaşayanlar, evde spa deneyimi isteyenler.",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Bakır Peptit Serumu (GHK-Cu)",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Regular",
+    "description": "Cilt yenilenmesini ve kolajen üretimini destekleyen, anti-aging özelliklere sahip, cilt tonunu eşitleyen ve elastikiyetini artıran bakır peptit (GHK-Cu) içeren bir serum.",
+    "image_url": "https://ae01.alicdn.com/kf/Hfe0b05b38d3845949d0342379b369c0dM.jpg",
+    "video_url": "https://www.tiktok.com/tag/copperpeptideserum",
+    "why_viral": "TikTok'ta 'viral' ve 'TikTok-Exclusive Bundle' olarak anılması, cilt onarımı ve anti-aging faydalarıyla kısa sürede dikkat çekmesini sağladı. Özellikle yaşlanma belirtileri ve cilt kalitesini iyileştirme arayan kullanıcıların ilgisini çekiyor. Bilimsel içerik vurgusuyla güven uyandırıyor.",
+    "hook_ideas": [
+      "Zamanı geri çevirin! Bakır peptit serumuyla gençleşin. ⏳",
+      "Bu serumla cildiniz yeniden doğacak! ✨",
+      "TikTok'un yeni anti-aging kahramanı: Bakır peptitler!"
+    ],
+    "est_price": "14.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-ghk-cu-copper-peptide-serum.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+ghk-cu+serum",
+    "creative_style": "'Bilimsel Açıklama', 'Önce/Sonra Karşılaştırması', 'Lüks Ürün Deneyimi'",
+    "target_audience": "Yaşlanma karşıtı çözümler arayanlar, cilt bariyerini güçlendirmek isteyenler, bilimsel içerikli ürünleri tercih edenler.",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 4,
+      "immediate_understandability": 3,
+      "reaction_potential": 4
+    },
+    "total_score": 15,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Mıknatıslı Takma Kirpikler (Yapıştırıcısız, Yeniden Kullanılabilir)",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Regular",
+    "description": "Geleneksel kirpik yapıştırıcılarına ihtiyaç duymadan, küçük mıknatıslar yardımıyla doğal kirpiklere kolayca takılan, yeniden kullanılabilir ve doğal görünümlü takma kirpikler.",
+    "image_url": "https://ae01.alicdn.com/kf/S8f9671607a684074813580579e0a8117O.jpg",
+    "video_url": "https://www.tiktok.com/tag/magneticlashesnoglue",
+    "why_viral": "Yapıştırıcı derdi olmadan hızlı ve kolay uygulama vaadiyle sosyal medyada büyük ilgi görüyor. Özellikle 'makyaj hilesi' ve 'deneyim' videolarında sıkça karşılaşılan, kullanıcıların 'nereden alabilirim' diye sorduğu bir ürün. 2026 dropshipping trendlerinde de yer alıyor.",
+    "hook_ideas": [
+      "10 saniyede mükemmel kirpikler! Yapıştırıcıya veda edin! 👋",
+      "Mıknatıslı kirpiklerle makyajınızı bir üst seviyeye taşıyın!",
+      "Bu kirpikler sayesinde her sabah 5 dakika kazanın!"
+    ],
+    "est_price": "10.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-magnetic-eyelashes-no-glue.html",
+    "competitor_url": "https://www.shopify.com/search?q=reusable+magnetic+eyelashes",
+    "creative_style": "'POV Yaşam Hilesi', 'Hızlı Makyaj Rutini', 'Önce/Sonra Karşılaştırması'",
+    "target_audience": "Takma kirpik kullanmak isteyen ancak yapıştırıcıyla uğraşmak istemeyenler, hızlı ve pratik makyaj çözümleri arayanlar.",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 19,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Salyangoz Müsini Serumu",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Regular",
+    "description": "Cilt onarımını, nemlendirmeyi ve elastikiyeti destekleyen, sivilce izlerini ve ince çizgileri azaltmaya yardımcı olan salyangoz müsini (salgı filtratı) içeren K-Beauty ürünü.",
+    "image_url": "https://ae01.alicdn.com/kf/S227ee09e51924683a4c520141f021e06V.jpg",
+    "video_url": "https://www.tiktok.com/tag/snailmucinskincare",
+    "why_viral": "K-Beauty trendlerinin devam eden popülaritesi ve 'problem çözme' yeteneği (onarım, nemlendirme) nedeniyle dropshipping listelerinde sıkça yer alıyor. Özellikle 'cilt bariyeri onarımı' ve 'cam cilt' (glass skin) trendleriyle birlikte yeniden ivme kazandı.",
+    "hook_ideas": [
+      "Salyangoz müsiniyle 'cam cilt'e kavuşun! ✨",
+      "K-Beauty'nin sırrı: Cildinizi onaran serum!",
+      "Bu serumla sivilce izlerinize veda edin!"
+    ],
+    "est_price": "11.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-snail-mucin-serum.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+snail+mucin+essence",
+    "creative_style": "'Önce/Sonra Karşılaştırması', 'K-Beauty Rutini', 'Cilt Bakım Hikayesi'",
+    "target_audience": "Cilt bariyeri hasarı olanlar, sivilce izleri ve ince çizgilerle mücadele edenler, K-Beauty trendlerini takip edenler.",
+    "scores": {
+      "visual_satisfaction": 3,
+      "problem_solving": 4,
+      "immediate_understandability": 3,
+      "reaction_potential": 4
+    },
+    "total_score": 14,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Şarj Edilebilir Elektrikli Temizlik Fırçası (Duş ve Fayans İçin)",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Regular",
+    "description": "Duş ve fayans temizliğini zahmetsiz hale getiren, uzun saplı ve değiştirilebilir başlıklı, şarj edilebilir bir elektrikli temizlik fırçası. Sabun artıklarını ve kiri saniyeler içinde temizleyerek görsel olarak tatmin edici sonuçlar sunar.",
+    "image_url": "https://m.media-amazon.com/images/I/71R2o5nK1jL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=electric%20shower%20scrubber%20viral",
+    "why_viral": "Bu ürün, TikTok'ta sabun artıklarını ve kiri ne kadar hızlı ve etkili bir şekilde temizlediğini gösteren 'tatmin edici' videolarıyla viral oldu. Kullanıcılar, sırt ve kol ağrısını ortadan kaldırması ve derinlemesine temizlik sağlaması nedeniyle 'nereden alabilirim' gibi yorumlarla yoğun talep gösteriyor.",
+    "hook_ideas": [
+      "Duşunuzu fırçalamayı bırakın, elektrikli fırçanın sizin için yapmasına izin verin!",
+      "Temizliğin en tatmin edici yolu: Elektrikli fırçayla sabun artıklarını yok edin!"
+    ],
+    "est_price": "49.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-rechargeable-electric-cleaning-brush.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+rechargeable+electric+scrubber",
+    "creative_style": "'Önce/Sonra Karşılaştırması' ve 'POV Yaşam Hilesi' - Ürünün kirli yüzeyleri nasıl kolayca temizlediğini gösteren hızlı kesitler ve tatmin edici yakın çekimler.",
+    "target_audience": "Efor sarf etmeden temizlik yapmak isteyen ev sahipleri, kronik ağrıları olan kişiler, temizlik tutkunları.",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 20,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "JAYVAR Paslanmaz Çelik Soğan Dilimleyici Tutucu",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Regular",
+    "description": "Soğan, domates, avokado, patates veya limon gibi sebzeleri güvenli ve eşit bir şekilde dilimlemek için paslanmaz çelik çatal uçlara sahip, mutfakta pratik bir dilimleme yardımcısıdır. Parmak kesmelerini önler ve dilimlemeyi kolaylaştırır.",
+    "image_url": "https://m.media-amazon.com/images/I/61k1J7Ff-4L._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=jayvar%20onion%20holder%20slicer%20viral",
+    "why_viral": "Bu ürün, TikTok'taki yemek yapma videolarında soğanları güvenli ve mükemmel bir şekilde dilimlemeyi gösteren 'tatmin edici' gösterimleriyle milyonlarca izlenme topladı. Kullanıcılar 'fiyatı ne?', 'nereden alabilirim?' gibi yorumlarla yoğun ilgi gösteriyor.",
+    "hook_ideas": [
+      "Soğan doğrarken gözyaşlarına veda edin! Mükemmel dilimler artık çok kolay.",
+      "Mutfakta devrim: Parmaklarınızı koruyarak profesyonelce dilimleyin!"
+    ],
+    "est_price": "8.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-stainless-steel-onion-holder.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+jayvar+onion+slicer",
+    "creative_style": "'POV Yaşam Hilesi' ve 'Tatmin Edici Kesitler' - Ürünün nasıl çalıştığını gösteren hızlı, net ve görsel olarak çekici dilimleme videoları.",
+    "target_audience": "Mutfakta zaman geçirmeyi sevenler, güvenli ve pratik mutfak gereçleri arayanlar, yemek yaparken verimliliğini artırmak isteyenler.",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 19,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Kendi Kendini Soğutan Evcil Hayvan Minderi",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Regular",
+    "description": "Sıcak havalarda evcil hayvanların serin kalmasını sağlayan, elektrik, su veya dondurma gerektirmeyen, basınca duyarlı soğutma jeli içeren bir minderdir. İç ve dış mekanlarda kullanılabilir.",
+    "image_url": "https://m.media-amazon.com/images/I/71R2eT3g5qL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=self%20cooling%20pet%20mat%20viral",
+    "why_viral": "Evcil hayvan sahiplerinin yaz aylarındaki en büyük sorunlarından birini çözen bu ürün, TikTok'ta evcil hayvanların serinlerken ne kadar rahatladığını gösteren videolarla viral oldu. 'Evcil hayvanım buna bayılacak', 'nereden alabilirim' gibi yorumlarla güçlü duygusal bağ ve talep yaratıyor.",
+    "hook_ideas": [
+      "Sıcak yaz günlerinde patili dostunuzu serinletin!",
+      "Evcil hayvanınızın konforu için yazın olmazsa olmazı: Kendi kendini soğutan minder."
+    ],
+    "est_price": "24.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-self-cooling-pet-mat.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+self+cooling+pet+mat",
+    "creative_style": "'Duygusal Bağ Kuran Hikaye Anlatımı' ve 'POV Yaşam Hilesi' - Evcil hayvanların sıcakta zorlandığını ve minderle nasıl rahatladığını gösteren sevimli ve etkileyici videolar.",
+    "target_audience": "Köpek ve kedi sahipleri, evcil hayvanlarının konforuna ve sağlığına önem verenler, seyahat eden evcil hayvan sahipleri.",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 19,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Sevimli Kedi Tasarımlı Bitki Saksısı",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Showcase",
+    "description": "Kedi severler için özel olarak tasarlanmış, bitkilerinizi sergilemek için sevimli ve dekoratif bir saksıdır. Bitki bakımı tutkusunu evcil hayvan sevgisiyle birleştirir ve her ortama neşeli bir dokunuş katar.",
+    "image_url": "https://m.media-amazon.com/images/I/71u5w8cK7xL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=cat%20planter%20viral",
+    "why_viral": "Bu ürün, özellikle kedi severler arasında TikTok'ta büyük ilgi gördü ve 'çok tatlı', 'mutlaka almalıyım' gibi yorumlarla yüksek etkileşim elde etti. Duygusal bağı güçlü, estetik ve düşük fiyatlı bir dürtüsel satın alma ürünüdür.",
+    "hook_ideas": [
+      "Kedi aşığı mısınız? Bitkilerinizi bu sevimli saksıda sergileyin!",
+      "Ev dekorasyonunuza patili bir dokunuş: En şirin kedi saksısı."
+    ],
+    "est_price": "18.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-cat-planter.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+cat+planter",
+    "creative_style": "'Duygusal Bağ Kuran Görseller' ve 'Showcase' - Saksının bitkilerle ve bazen gerçek kedilerle etkileşimini gösteren sevimli, estetik ve kısa videolar.",
+    "target_audience": "Kedi sahipleri, bitki severler, ev dekorasyonuna özgün ve sevimli dokunuşlar katmak isteyenler, 'cat mom/dad' nişi.",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 3,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Taşınabilir Mutfak Egzost Fanı (Airhood)",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Regular",
+    "description": "Dahili aktivatörlü kömür filtreleri ve paslanmaz çelik yağ filtresi ile mutfakta oluşan duman ve kokuları azaltmak için tasarlanmış, kompakt ve şık bir portatif aspiratördür. Küçük mutfaklar ve apartman daireleri için idealdir.",
+    "image_url": "https://m.media-amazon.com/images/I/61W2m2A62YL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=airhood%20portable%20kitchen%20exhaust%20fan%20viral",
+    "why_viral": "TikTok'ta yemek pişirirken oluşan duman ve kokuları nasıl etkili bir şekilde yok ettiğini gösteren videolarla viral oldu. 'Bu benim ihtiyacım olan şey', 'mutfağım için harika olur' gibi yorumlarla pratik faydası nedeniyle talep görüyor.",
+    "hook_ideas": [
+      "Mutfağınızdaki duman ve kokulara son! Her yerde taze hava.",
+      "Açık mutfak sevenler dikkat: Yemek kokuları evinize yayılmasın."
+    ],
+    "est_price": "119.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-portable-kitchen-exhaust-fan.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+airhood+portable+fan",
+    "creative_style": "'Problem Çözme Gösterimi' ve 'POV Yaşam Hilesi' - Yemek pişirirken dumanın nasıl çekildiğini ve odanın nasıl taze kaldığını gösteren net ve etkileyici videolar.",
+    "target_audience": "Küçük mutfak sahipleri, apartman dairelerinde yaşayanlar, yemek yaparken koku ve dumandan rahatsız olanlar, modern mutfak eşyaları arayanlar.",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "SUSTEAS Paslanmaz Çelik Salata Kurutucu",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Regular",
+    "description": "Marul ve diğer yeşillikleri etkili bir şekilde kurutmak için tasarlanmış, paslanmaz çelikten yapılmış, şık ve dayanıklı bir salata kurutucusudur. Salatanın tazeliğini korur ve sosların daha iyi yapışmasını sağlar.",
+    "image_url": "https://m.media-amazon.com/images/I/719hT1a1SCL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=susteas%20salad%20spinner%20viral",
+    "why_viral": "Bu ürün, TikTok'ta yeşillikleri kuruturken ne kadar hızlı ve 'tatmin edici' bir şekilde çalıştığını gösteren videolarla viral oldu. Özellikle sağlıklı beslenmeye önem veren kullanıcılar arasında 'mutfak eşyası koleksiyonuma eklemeliyim' gibi yorumlarla talep görüyor.",
+    "hook_ideas": [
+      "Salatanızı şimdiye kadarki en taze haliyle deneyimleyin!",
+      "Mutfakta pratik çözüm: Yeşilliklerinizi saniyeler içinde kurutun."
+    ],
+    "est_price": "29.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-susteas-salad-spinner.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+susteas+salad+spinner",
+    "creative_style": "'Tatmin Edici Görseller' ve 'POV Yaşam Hilesi' - Ürünün hızlı ve verimli kurutma işlemini gösteren yakın çekim, dinamik videolar.",
+    "target_audience": "Sağlıklı beslenmeye önem verenler, salata severler, pratik mutfak gereçleri arayanlar, yemek yapmayı kolaylaştırmak isteyenler.",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 17,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Kablosuz Estetik Masa Lambası",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Showcase",
+    "description": "Priz arama derdini ortadan kaldıran, şık ve modern tasarıma sahip, pille çalışan veya şarj edilebilir bir masa lambasıdır. Evin herhangi bir köşesine rahatlıkla yerleştirilebilir ve estetik bir aydınlatma sağlar.",
+    "image_url": "https://m.media-amazon.com/images/I/61r5f-8M0WL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=cordless%20aesthetic%20table%20lamp%20viral",
+    "why_viral": "TikTok'ta, kablosuz olması sayesinde evin farklı köşelerinde nasıl kolayca kullanılabileceğini ve yarattığı estetik ambiyansı gösteren videolarla popüler oldu. 'Herkesin ihtiyacı olan lamba', 'nereden bulabilirim' gibi yorumlarla hem problem çözme hem de estetik arzuyu tetikliyor.",
+    "hook_ideas": [
+      "Dekorasyonunuzu prizlere bağımlı kalmadan tamamlayın!",
+      "Her köşeye uyan, şık ve pratik aydınlatma çözümü."
+    ],
+    "est_price": "44.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-cordless-table-lamp.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+cordless+aesthetic+lamp",
+    "creative_style": "'Estetik Tanıtım' ve 'Mekan Dönüşümü' - Lambanın farklı ortamlarda (yatak odası, oturma odası, balkon vb.) nasıl kullanıldığını ve ambiyansı nasıl değiştirdiğini gösteren çekici görseller.",
+    "target_audience": "İç mimari ve dekorasyon meraklıları, minimalist yaşam tarzını benimseyenler, küçük alanlarda yaşayanlar, esneklik ve estetik arayanlar.",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 17,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Şeffaf Akrilik Depolama Düzenleyicileri",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Regular",
+    "description": "Çekmeceleri, dolapları veya tezgahları düzenlemek için kullanılan, içeriği şeffaf yapısı sayesinde kolayca görülebilen, estetik ve işlevsel akrilik kutular ve bölücülerdir. Banyo, mutfak veya ofis gibi alanlarda düzen sağlar.",
+    "image_url": "https://m.media-amazon.com/images/I/61vYj-P-8gL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=clear%20acrylic%20storage%20organizers%20viral",
+    "why_viral": "TikTok'ta 'düzenleme takıntısı' ve 'mükemmel organizasyon' videolarıyla viral oldu. Ürünlerin içine yerleştirilen eşyaların şeffaf görünümü ve yarattığı estetik düzen, kullanıcıların 'link lütfen!', 'çok tatmin edici' gibi yorumlarla talep göstermesini sağlıyor.",
+    "hook_ideas": [
+      "Dağınıklığa son: Eşyalarınızı şık bir şekilde düzenleyin!",
+      "Mükemmel düzenleme sırrı: Akrilik düzenleyicilerle her şey elinizin altında."
+    ],
+    "est_price": "29.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-acrylic-storage-organizer.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+clear+acrylic+organizer",
+    "creative_style": "'Organize Etme Hilesi' ve 'Tatmin Edici Düzenleme' - Ürünlerin içini doldururkenki 'tatmin edici' yerleştirme anları ve 'önce/sonra' düzenleme gösterimleri.",
+    "target_audience": "Düzenli yaşamayı sevenler, minimalist dekorasyon takipçileri, banyo/mutfak/ofis gibi alanlarını organize etmek isteyenler.",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 17,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Uzun Saplı Ergonomik Bitki Sulama Kabı",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Regular",
+    "description": "İç ve dış mekan bitkilerini kolayca sulamak için tasarlanmış, uzun ve ince bir sulama ağzına sahip, modern ve ergonomik bir sulama kabıdır. Bitki bakımı rutinini daha pratik ve estetik hale getirir.",
+    "image_url": "https://m.media-amazon.com/images/I/61P6M3d3f9L._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=long%20spout%20watering%20can%20aesthetic",
+    "why_viral": "TikTok'ta bitki bakımı videolarında, özellikle hassas veya ulaşılması zor bitkileri sularken gösterdiği pratiklik ve şık tasarımıyla viral oldu. Bitki severler arasında 'nereden alırım', 'çok şık duruyor' gibi yorumlarla hem işlevselliği hem de estetiği takdir ediliyor.",
+    "hook_ideas": [
+      "Bitkilerinizi zarafetle sulayın: Hem pratik hem estetik.",
+      "Her köşedeki bitkiye kolayca ulaşın: Uzun saplı sulama kabı hayat kurtarıyor."
+    ],
+    "est_price": "21.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-long-spout-watering-can.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+aesthetic+watering+can",
+    "creative_style": "'Estetik Rutin' ve 'POV Yaşam Hilesi' - Bitkilerin zarifçe sulandığı, ürünün modern görünümünü ve kullanım kolaylığını vurgulayan sakin ve görsel olarak hoş videolar.",
+    "target_audience": "Bitki severler, 'plant parent' nişi, modern ev dekorasyonu tutkunları, bahçe ve balkon sahipleri, estetik ve fonksiyonel ürünleri bir arada arayanlar.",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 17,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
+  },
+  {
+    "name": "Mini Taşınabilir Çamaşır Makinesi (Katlanabilir)",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Regular",
+    "description": "Küçük çamaşırları (bebek kıyafetleri, iç çamaşırı, çorap vb.) yıkamak için ideal, katlanabilir ve ultra taşınabilir bir çamaşır makinesidir. Seyahat edenler, kampçılar, küçük dairelerde yaşayanlar ve anne-bebek nişi için pratik bir çözüm sunar.",
+    "image_url": "https://m.media-amazon.com/images/I/61o6W2t4mRL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=portable%20folding%20washing%20machine%20tiktok",
+    "why_viral": "TikTok'ta, özellikle 'seyahat hilesi' ve 'küçük daire yaşamı' kategorilerinde, ne kadar az yer kapladığını ve küçük eşyaları ne kadar pratik yıkadığını gösteren videolarla hızla yayıldı. 'Çok mantıklı!', 'nereden alabilirim?' gibi yorumlarla yüksek talep görüyor.",
+    "hook_ideas": [
+      "Küçük çamaşırlar birikmesin: Yanınızda taşıyabileceğiniz çamaşır makinesi!",
+      "Seyahat ederken veya küçük bir alanda yaşarken çamaşır derdine son."
+    ],
+    "est_price": "69.99",
+    "aliexpress_url": "https://www.aliexpress.com/w/wholesale-mini-folding-washing-machine.html",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+portable+folding+washing+machine",
+    "creative_style": "'Problem Çözme Gösterimi' ve 'POV Yaşam Hilesi' - Ürünün katlanıp açılmasını, az yer kaplamasını ve küçük çamaşırları yıkamasını gösteren hızlı ve etkileyici videolar.",
+    "target_audience": "Sık seyahat edenler, kampçılar, küçük dairelerde yaşayanlar, öğrenci evleri, yeni anneler (bebek kıyafetleri için).",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 3
+    },
+    "total_score": 17,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-05"
   }
 ]
