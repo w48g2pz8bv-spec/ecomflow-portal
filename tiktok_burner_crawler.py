@@ -258,9 +258,32 @@ def run_burner_automation(api_key, duration_minutes=30):
                 if match:
                     video_id = match.group(1)
                 else:
-                    # Alternative url hash or identifier
-                    video_id = current_url.split("?")[0]
+                    # Try to extract the active video link from the DOM
+                    active_link = page.query_selector('a[href*="/video/"]')
+                    if active_link:
+                        href = active_link.get_attribute("href")
+                        match = re.search(r"/video/(\d+)", href)
+                        if match:
+                            video_id = match.group(1)
+                            current_url = href
+
+                # Extract caption & author first to use as unique identifier fallback if no video ID found
+                caption_el = page.query_selector('h1[data-e2e="browse-video-desc"]') or page.query_selector('div[data-e2e="video-desc"]')
+                caption = caption_el.inner_text() if caption_el else "Ürün Açıklaması Alınamadı"
                 
+                author_el = page.query_selector('span[data-e2e="browse-username"]') or page.query_selector('h3[data-e2e="video-author-uniqueid"]')
+                author = author_el.inner_text() if author_el else "Bilinmeyen Kullanıcı"
+
+                if not video_id:
+                    if author != "Bilinmeyen Kullanıcı" or caption != "Ürün Açıklaması Alınamadı":
+                        clean_cap = re.sub(r'[^a-zA-Z0-9]', '', caption[:20])
+                        video_id = f"hash_{author}_{clean_cap}"
+                    else:
+                        # Video has not loaded yet, skip logging as seen and wait
+                        print("[*] Video loading, waiting...")
+                        time.sleep(2)
+                        page.keyboard.press("ArrowDown")
+                        continue
                 # Check for duplicates
                 if video_id in seen_videos:
                     print(f"[*] Skipping duplicate video: {video_id}")
@@ -270,15 +293,6 @@ def run_burner_automation(api_key, duration_minutes=30):
                 
                 seen_videos.add(video_id)
                 save_seen_videos(seen_videos)
-                
-                # Extract caption & author
-                caption_el = page.query_selector('h1[data-e2e="browse-video-desc"]') or page.query_selector('div[data-e2e="video-desc"]')
-                caption = caption_el.inner_text() if caption_el else "Ürün Açıklaması Alınamadı"
-                
-                author_el = page.query_selector('span[data-e2e="browse-username"]') or page.query_selector('h3[data-e2e="video-author-uniqueid"]')
-                author = author_el.inner_text() if author_el else "Bilinmeyen Kullanıcı"
-                
-                # Extract comments
                 comments = []
                 comment_els = page.query_selector_all('p[data-e2e="comment-level-1"]') or page.query_selector_all('p[class*="CommentText"]')
                 for el in comment_els[:10]: # Check first 10 comments
