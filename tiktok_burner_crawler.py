@@ -254,11 +254,14 @@ def run_burner_automation(api_key, duration_minutes=30):
                 # Get current video element or URL
                 current_url = page.url
                 video_id = None
-                match = re.search(r"/video/(\d+)", current_url)
-                if match:
-                    video_id = match.group(1)
-                else:
-                    # Try to extract the active video link from the DOM
+                
+                # Wait up to 3 seconds for the URL or DOM to settle
+                for _ in range(3):
+                    match = re.search(r"/video/(\d+)", page.url)
+                    if match:
+                        video_id = match.group(1)
+                        current_url = page.url
+                        break
                     active_link = page.query_selector('a[href*="/video/"]')
                     if active_link:
                         href = active_link.get_attribute("href")
@@ -266,24 +269,35 @@ def run_burner_automation(api_key, duration_minutes=30):
                         if match:
                             video_id = match.group(1)
                             current_url = href
+                            break
+                    time.sleep(1)
 
-                # Extract caption & author first to use as unique identifier fallback if no video ID found
-                caption_el = page.query_selector('h1[data-e2e="browse-video-desc"]') or page.query_selector('div[data-e2e="video-desc"]')
-                caption = caption_el.inner_text() if caption_el else "Ürün Açıklaması Alınamadı"
-                
-                author_el = page.query_selector('span[data-e2e="browse-username"]') or page.query_selector('h3[data-e2e="video-author-uniqueid"]')
-                author = author_el.inner_text() if author_el else "Bilinmeyen Kullanıcı"
+                # Extract author username from DOM profile links
+                author = "Bilinmeyen Kullanıcı"
+                profile_link = page.query_selector('a[href*="/@"]')
+                if profile_link:
+                    href = profile_link.get_attribute("href")
+                    match = re.search(r"/@([^/?#\s]+)", href)
+                    if match:
+                        author = match.group(1)
+                else:
+                    author_el = page.query_selector('span[data-e2e="browse-username"]') or page.query_selector('h3[data-e2e="video-author-uniqueid"]')
+                    if author_el:
+                        author = author_el.inner_text().strip()
 
+                # Extract caption
+                caption = "Ürün Açıklaması Alınamadı"
+                caption_el = page.query_selector('h1[data-e2e="browse-video-desc"]') or page.query_selector('div[data-e2e="video-desc"]') or page.query_selector('[class*="Desc"]') or page.query_selector('[class*="desc"]')
+                if caption_el:
+                    caption = caption_el.inner_text().strip()
+
+                # Fallback video_id to avoid infinite loading loops
                 if not video_id:
                     if author != "Bilinmeyen Kullanıcı" or caption != "Ürün Açıklaması Alınamadı":
                         clean_cap = re.sub(r'[^a-zA-Z0-9]', '', caption[:20])
                         video_id = f"hash_{author}_{clean_cap}"
                     else:
-                        # Video has not loaded yet, skip logging as seen and wait
-                        print("[*] Video loading, waiting...")
-                        time.sleep(2)
-                        page.keyboard.press("ArrowDown")
-                        continue
+                        video_id = f"fallback_{int(time.time())}"
                 # Check for duplicates
                 if video_id in seen_videos:
                     print(f"[*] Skipping duplicate video: {video_id}")
