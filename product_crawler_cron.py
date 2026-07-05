@@ -9,7 +9,26 @@ API_KEY = os.environ.get("GEMINI_API_KEY")
 if not API_KEY:
     raise ValueError("GEMINI_API_KEY environment variable not found. Please set the secret key in GitHub.")
 
-URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={API_KEY}"
+def call_gemini(prompt, use_lite=False, use_grounding=True):
+    model = "gemini-3.1-flash-lite" if use_lite else "gemini-3.5-flash"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={API_KEY}"
+    
+    payload = {
+        "contents": [{
+            "parts": [{"text": prompt}]
+        }]
+    }
+    if use_grounding:
+        payload["tools"] = [{"googleSearch": {}}]
+        
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json"}
+    )
+    
+    with urllib.request.urlopen(req, timeout=120) as response:
+        return json.loads(response.read().decode("utf-8"))
 
 CATEGORIES = [
     "Mutfak Gereçleri",
@@ -53,7 +72,7 @@ def scan_category(category):
     5. life hack products "{category}"
 
     Ürün Tespit ve Eleme Kriterleri:
-    - Tutku ve Duygusal Bağ Nişleri (Passion Niches): Evcil hayvan sevgisi, anne-bebek bağı, fanatik hobiler, pratik el aletleri gibi insanların gördüğü an duygusal bağ kurup satın alacağı alt nişlere odaklan.
+    - Çekilebilirlik ve Pratiklik (Çelik Kuralı): LEGO veya dizilmesi/hazırlığı saatler süren ürünleri yeni başlayanlar için ele. Çekimi evde veya dışarıda telefonla kolayca yapılabilecek, karmaşık olmayan pratik ürünleri seç.
     - Sosyal Kanıt ve Yorum Analizi: Ürün videolarının veya inceleme sayfalarının yorumlarında insanların "fiyatı ne?", "nereden alabilirim?", "link?" gibi doğrudan satın alma niyeti belirten sorular sorduğunu doğrula.
     - Satürasyon (Doygunluk) Kontrolü: Chomchom tüy toplayıcı, gün batımı lambası, galaksi projektörü, masaj tabancası, klasik sebze doğrayıcı, hava nemlendirici gibi çoktan doymuş ürünleri listeleme. Tamamen yeni trendlere odaklan.
 
@@ -74,7 +93,11 @@ def scan_category(category):
         "image_url": "Google Arama grounding aracıyla bulduğun, ürüne ait doğrudan geçerli bir görsel URL'si (Shopify CDN, AliExpress, Amazon, Pinterest vb. sitelerden hotlink edilebilir doğrudan jpg, png, webp vb. uzantılı resim adresi)",
         "video_url": "Google Arama grounding aracıyla bulduğun, bu ürünün viral olduğu TikTok veya Instagram video linki (örn: https://www.tiktok.com/@username/video/...) veya eğer doğrudan video linki bulamadıysan, bu ürünün TikTok üzerindeki arama linki (https://www.tiktok.com/search?q=urun-adi)",
         "why_viral": "Son 7-14 gündeki viral olma durumu, video yorumlarındaki talep seviyesi ve viral gerekçesi",
-        "hook_ideas": ["Kanca fikri 1", "Kanca fikri 2"],
+        "hook_ideas": [
+          "Sesli Kanca: [Merak uyandıran sesli başlangıç cümlesi]",
+          "Yazılı Kanca: [Sessiz izleyenler için ekranda görünecek dikkat çekici metin]",
+          "Görsel Kanca: [İlk saniyede yapılacak sıra dışı görsel aksiyon/hareket]"
+        ],
         "est_price": "29.99",
         "aliexpress_url": "https://www.aliexpress.com/w/wholesale-ürün-adı.html",
         "competitor_url": "Google Arama grounding aracıyla bulduğun, bu ürünü satan aktif bir dropshipping/Shopify mağaza linki (örn: https://storename.com/products/...) veya doğrudan bulamadıysan, bu ürünü satan Shopify mağazalarını aratacak Google arama linki (https://www.google.com/search?q=site:myshopify.com+urun-adi)",
@@ -92,40 +115,41 @@ def scan_category(category):
     ]
     """
 
-    payload = {
-        "contents": [{
-            "parts": [{"text": prompt}]
-        }],
-        "tools": [{"googleSearch": {}}]
-    }
-
-    req = urllib.request.Request(
-        URL,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json"}
-    )
+    res = None
+    try:
+        print("  -> Trying gemini-3.5-flash with search grounding...")
+        res = call_gemini(prompt, use_lite=False, use_grounding=True)
+    except Exception as e:
+        print(f"  -> Grounding search failed: {e}. Retrying WITHOUT grounding...")
+        try:
+            res = call_gemini(prompt, use_lite=False, use_grounding=False)
+        except Exception as e2:
+            print(f"  -> Grounding-free gemini-3.5-flash also failed: {e2}. Switching to gemini-3.1-flash-lite fallback...")
+            try:
+                res = call_gemini(prompt, use_lite=True, use_grounding=False)
+            except Exception as e3:
+                print(f"  -> All fallback attempts failed: {e3}")
+                return []
 
     try:
-        with urllib.request.urlopen(req) as response:
-            res = json.loads(response.read().decode("utf-8"))
-            if "candidates" in res and res["candidates"]:
-                text = res["candidates"][0]["content"]["parts"][0]["text"].strip()
-                cleaned = clean_json_string(text)
-                products = json.loads(cleaned)
-                
-                # Filter out saturated items
-                filtered = []
-                for p in products:
-                    if not is_saturated(p.get("name", ""), p.get("description", "")):
-                        filtered.append(p)
-                    else:
-                        print(f"Skipping saturated product: {p.get('name')}")
-                return filtered
-            else:
-                print(f"No candidates returned for {category}")
-                return []
+        if res and "candidates" in res and res["candidates"]:
+            text = res["candidates"][0]["content"]["parts"][0]["text"].strip()
+            cleaned = clean_json_string(text)
+            products = json.loads(cleaned)
+            
+            # Filter out saturated items
+            filtered = []
+            for p in products:
+                if not is_saturated(p.get("name", ""), p.get("description", "")):
+                    filtered.append(p)
+                else:
+                    print(f"Skipping saturated product: {p.get('name')}")
+            return filtered
+        else:
+            print(f"No candidates returned for {category}")
+            return []
     except Exception as e:
-        print(f"Error scanning category {category}: {e}")
+        print(f"Error parsing response for category {category}: {e}")
         return []
 
 def main():
@@ -134,7 +158,7 @@ def main():
         products = scan_category(cat)
         all_products.extend(products)
         # Sleep to avoid rate limiting
-        time.sleep(3)
+        time.sleep(15)
         
     print(f"\nTotal products found in this scan: {len(all_products)}")
     

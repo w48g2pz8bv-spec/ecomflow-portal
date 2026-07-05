@@ -1922,7 +1922,7 @@ ${contextText}`;
                         return;
                     }
                     
-                    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+                    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${apiKey}`;
                     const res = await fetch(url, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
@@ -2381,7 +2381,16 @@ ${contextText}`;
 
                         <div class="product-details" style="margin-top:12px; font-size:0.9rem;">
                             <p style="margin-bottom:6px; line-height:1.4;"><strong style="color:#9ca3af;">Açıklama:</strong> ${p.description}</p>
-                            <p style="margin-bottom:6px; line-height:1.4;"><strong style="color:#9ca3af;">Neden Viral?</strong> ${p.why_viral}</p>
+                            
+                            <div style="margin-top:12px; background:rgba(16, 185, 129, 0.05); border:1px solid rgba(16, 185, 129, 0.2); padding:12px; border-radius:8px; font-size:0.85rem; color:#d1d5db; line-height:1.5;">
+                                <div style="font-weight:700; color:#10b981; font-size:0.9rem; margin-bottom:6px; display:flex; align-items:center; gap:4px;">
+                                    🧠 Mentör Ürün Raporu
+                                </div>
+                                <p style="margin-bottom:4px;"><strong>🎯 Hedef Kitle:</strong> ${p.target_audience || 'Genel Kitle'}</p>
+                                <p style="margin-bottom:4px;"><strong>📹 Reklam Kurgusu:</strong> ${p.creative_style || 'Genel Konsept'}</p>
+                                <p style="margin-bottom:4px;"><strong>💡 Neden Viral:</strong> ${p.why_viral}</p>
+                            </div>
+                            
                             ${hooksHtml}
                         </div>
                     </div>
@@ -2448,7 +2457,16 @@ ${contextText}`;
 
                     <div class="product-details">
                         <p style="margin-bottom:8px;"><strong>Açıklama:</strong> ${p.description}</p>
-                        <p style="margin-bottom:8px;"><strong>Neden Viral?</strong> ${p.why_viral}</p>
+                        
+                        <div style="margin-top:12px; margin-bottom:12px; background:rgba(16, 185, 129, 0.05); border:1px solid rgba(16, 185, 129, 0.2); padding:12px; border-radius:8px; font-size:0.85rem; color:#d1d5db; line-height:1.5;">
+                            <div style="font-weight:700; color:#10b981; font-size:0.9rem; margin-bottom:6px; display:flex; align-items:center; gap:4px;">
+                                🧠 Mentör Ürün Raporu
+                            </div>
+                            <p style="margin-bottom:4px;"><strong>🎯 Hedef Kitle:</strong> ${p.target_audience || 'Genel Kitle'}</p>
+                            <p style="margin-bottom:4px;"><strong>📹 Reklam Kurgusu:</strong> ${p.creative_style || 'Genel Konsept'}</p>
+                            <p style="margin-bottom:4px;"><strong>💡 Neden Viral:</strong> ${p.why_viral}</p>
+                        </div>
+                        
                         ${hooksHtml}
                     </div>
 
@@ -2645,7 +2663,7 @@ ${contextText}`;
             5. Nihai Mentör Tavsiyesi
             `;
 
-            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${apiKey}`;
 
             try {
                 const response = await fetch(url, {
@@ -2746,7 +2764,7 @@ ${contextText}`;
               }
             ]`;
 
-            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${apiKey}`;
 
             try {
                 const response = await fetch(url, {
