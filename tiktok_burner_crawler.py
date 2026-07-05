@@ -58,6 +58,7 @@ def save_seen_videos(seen_set):
         print(f"[-] Error saving seen videos: {e}")
 
 def call_gemini(api_key, prompt, model="gemini-3.5-flash", use_grounding=False):
+    import urllib.error
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
     payload = {
         "contents": [{
@@ -72,12 +73,25 @@ def call_gemini(api_key, prompt, model="gemini-3.5-flash", use_grounding=False):
         data=json.dumps(payload).encode("utf-8"),
         headers={"Content-Type": "application/json"}
     )
-    try:
-        with urllib.request.urlopen(req, timeout=60) as response:
-            return json.loads(response.read().decode("utf-8"))
-    except Exception as e:
-        print(f"[-] Gemini API call failed: {e}")
-        return None
+    
+    retries = 3
+    delay = 6
+    for attempt in range(retries):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                print(f"[-] Gemini API Rate Limit (429) encountered. Retrying in {delay} seconds (Attempt {attempt+1}/{retries})...")
+                time.sleep(delay)
+                delay *= 2
+            else:
+                print(f"[-] Gemini HTTP Error {e.code}: {e.reason}")
+                break
+        except Exception as e:
+            print(f"[-] Gemini API call failed: {e}")
+            break
+    return None
 
 def evaluate_video_with_gemini(api_key, video_data):
     """Sends video data to Gemini to classify as dropshipping candidate, score it, and draft comment/likes strategy."""
