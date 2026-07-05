@@ -213,18 +213,49 @@ def run_burner_automation(api_key, duration_minutes=30):
 
         # Handle login if cookies were missing
         if not os.path.exists(COOKIES_PATH):
-            print("[!] PLEASE LOG IN to your TikTok Burner Account in the opened browser window.")
-            print("[*] Waiting 60 seconds for login completion...")
-            time.sleep(60)
-            
-            # Save cookies after login
+            print("[*] TikTok cookies not found! Initiating auto-login for 'xsonicburner'...")
             try:
+                page.goto("https://www.tiktok.com/login/phone-or-email/email", wait_until="domcontentloaded")
+                time.sleep(3)
+                
+                # Fill username/email
+                user_input = page.query_selector('input[name="username"]') or page.query_selector('input[placeholder*="Email"]')
+                if user_input:
+                    user_input.fill("xsonicburner")
+                    print("[*] Filled username.")
+                
+                # Fill password
+                pass_input = page.query_selector('input[type="password"]') or page.query_selector('input[placeholder*="Password"]')
+                if pass_input:
+                    pass_input.fill("Maced2shxua")
+                    print("[*] Filled password.")
+                
+                time.sleep(1)
+                
+                # Click Login Button
+                login_btn = page.query_selector('button[type="submit"]') or page.query_selector('button[class*="Button"]')
+                if login_btn:
+                    login_btn.click()
+                    print("[*] Clicked login submit. Checking for navigation or captcha...")
+                
+                # Wait for navigation or captcha slider
+                time.sleep(5)
+                
+                # If still on login page, wait for manual captcha solve helper
+                if "login" in page.url:
+                    print("[!] TikTok Captcha / Puzzle detected! Lütfen açılan tarayıcı ekranından yapbozu çözün.")
+                    print("[*] Yapbozu çözmeniz için 45 saniye bekleniyor...")
+                    time.sleep(45)
+                
+                # Save cookies after login
                 cookies = context.cookies()
                 with open(COOKIES_PATH, "w") as f:
                     json.dump(cookies, f, indent=2)
                 print("[+] Login cookies saved successfully for future automated headless runs!")
+                page.goto("https://www.tiktok.com/foryou", wait_until="domcontentloaded")
             except Exception as e:
-                print(f"[-] Failed to save cookies: {e}")
+                print(f"[-] Auto-login failed: {e}. Falling back to manual check...")
+                time.sleep(20)
 
         # Start scraping loop
         start_time = time.time()
