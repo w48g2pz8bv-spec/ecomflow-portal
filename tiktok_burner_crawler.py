@@ -196,7 +196,7 @@ def run_warmup_search(page):
     
     search_url = f"https://www.tiktok.com/search?q={urllib.parse.quote(selected_keyword)}"
     try:
-        page.goto(search_url, wait_until="domcontentloaded")
+        page.goto(search_url, wait_until="commit", timeout=15000)
         time.sleep(5)
         
         # Click on the first video link in search results to open the video feed player
@@ -294,7 +294,7 @@ def run_burner_automation(api_key, duration_minutes=30):
         
         # Navigate to For You Page to scan organically warmed feed
         print("\n[*] Organik Sizin İçin (For You) akışına bağlanılıyor...")
-        page.goto("https://www.tiktok.com/foryou", wait_until="domcontentloaded")
+        page.goto("https://www.tiktok.com/foryou", wait_until="commit", timeout=15000)
         time.sleep(5)
 
         # Start scraping loop
