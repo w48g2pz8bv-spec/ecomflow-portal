@@ -58,7 +58,8 @@ jobs:
           rm -f tiktok_cookies.json
           
           # Stage newly discovered products, updated seen database and screenshots
-          git add precrawled_products.json seen_tiktok_videos.json
+          git add precrawled_products.json
+          git add -f seen_tiktok_videos.json
           if [ -d product_images ]; then
             git add product_images/
           fi
