@@ -364,6 +364,8 @@ def run_burner_automation(api_key, duration_minutes=30):
         
         video_count = 0
         validated_count = 0
+        consecutive_duplicates = 0
+        last_seen_video_id = None
         
         while time.time() < end_time:
             time.sleep(3) # Wait for page load / transition
@@ -420,11 +422,33 @@ def run_burner_automation(api_key, duration_minutes=30):
                 # Check for duplicates
                 if video_id in seen_videos:
                     print(f"[*] Skipping duplicate video: {video_id}")
+                    
+                    if video_id == last_seen_video_id:
+                        consecutive_duplicates += 1
+                    else:
+                        last_seen_video_id = video_id
+                        consecutive_duplicates = 1
+                        
+                    if consecutive_duplicates >= 10:
+                        print(f"[!] Stuck detected on video {video_id} (consecutive skips: {consecutive_duplicates}). Attempting to recover...")
+                        consecutive_duplicates = 0
+                        try:
+                            # Reload page and navigate to /foryou to force load a scrollable feed
+                            page.reload()
+                            time.sleep(12)
+                            safe_goto(page, "https://www.tiktok.com/foryou")
+                            time.sleep(8)
+                        except Exception as re_err:
+                            print(f"[-] Recovery reload failed: {re_err}")
+                            
                     # Simulate humanlike quick evaluation before swiping (1 to 2 seconds)
                     import random
                     time.sleep(random.uniform(1.0, 2.5))
                     page.keyboard.press("ArrowDown")
                     continue
+                else:
+                    consecutive_duplicates = 0
+                    last_seen_video_id = None
                 
                 seen_videos.add(video_id)
                 save_seen_videos(seen_videos)
