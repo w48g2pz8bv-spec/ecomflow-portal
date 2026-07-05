@@ -254,27 +254,57 @@ def run_burner_automation(api_key, duration_minutes=30):
     print(f"[*] Loaded {len(seen_videos)} seen videos.")
     print(f"[*] Launching TikTok Burner automation (Target Duration: {duration_minutes} minutes)...")
 
+    # Read optional proxy environment variable
+    proxy_server = os.environ.get("TIKTOK_PROXY")
+    proxy_args = {}
+    if proxy_server:
+        print(f"[*] Proxy routing enabled: {proxy_server}")
+        proxy_args["proxy"] = {"server": proxy_server}
+
     # Start Playwright chromium
     with sync_playwright() as playwright_instance:
-        # Launch browser. Headless=False if we need to let the user log in
-        headless_mode = os.path.exists(COOKIES_PATH)
+        # Launch browser. Run headless in cloud, otherwise detect based on cookies
+        headless_mode = os.environ.get("GITHUB_ACTIONS") == "true" or os.path.exists(COOKIES_PATH)
         browser = playwright_instance.chromium.launch(
             headless=headless_mode,
-            args=["--mute-audio", "--no-sandbox"]
+            args=[
+                "--mute-audio",
+                "--no-sandbox",
+                "--disable-blink-features=AutomationControlled",
+                "--disable-infobars"
+            ],
+            **proxy_args
         )
+        
+        # Define desktop agent
+        user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
         
         # Load context
         if os.path.exists(COOKIES_PATH):
             print("[*] Stored TikTok cookies found. Loading session context...")
             with open(COOKIES_PATH, "r") as f:
                 cookies = json.load(f)
-            context = browser.new_context()
+            context = browser.new_context(
+                user_agent=user_agent,
+                viewport={"width": 1280, "height": 720},
+                device_scale_factor=1,
+                **proxy_args
+            )
             context.add_cookies(cookies)
         else:
             print("[!] TikTok cookies not found! Opening browser for manual login...")
-            context = browser.new_context()
+            context = browser.new_context(
+                user_agent=user_agent,
+                viewport={"width": 1280, "height": 720},
+                device_scale_factor=1,
+                **proxy_args
+            )
         
         page = context.new_page()
+        
+        # Inject Javascript to bypass navigator.webdriver bot check
+        page.add_init_script("delete navigator.__proto__.webdriver")
+        
         safe_goto(page, "https://www.tiktok.com/foryou")
 
         # Handle login if cookies were missing
@@ -376,7 +406,9 @@ def run_burner_automation(api_key, duration_minutes=30):
                 # Check for duplicates
                 if video_id in seen_videos:
                     print(f"[*] Skipping duplicate video: {video_id}")
-                    # Swipe down to next video
+                    # Simulate humanlike quick evaluation before swiping (1 to 2 seconds)
+                    import random
+                    time.sleep(random.uniform(1.0, 2.5))
                     page.keyboard.press("ArrowDown")
                     continue
                 
@@ -466,8 +498,10 @@ def run_burner_automation(api_key, duration_minutes=30):
                         "image_url": screenshot_img
                     })
                 else:
-                    # Swipe immediately
+                    # Swipe immediately with a tiny humanlike pause (1-2 seconds)
                     print("[-] Not a winner candidate. Swiping next.")
+                    import random
+                    time.sleep(random.uniform(1.0, 2.0))
                     
             except Exception as e:
                 print(f"[-] Error processing current video element: {e}")

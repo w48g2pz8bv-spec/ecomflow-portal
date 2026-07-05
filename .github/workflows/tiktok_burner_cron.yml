@@ -1,0 +1,68 @@
+name: TikTok Burner Cloud Crawler
+
+on:
+  schedule:
+    # Runs 3 times a day: 09:00, 15:00, 21:00 UTC (12:00, 18:00, 00:00 TSI)
+    - cron: '0 9,15,21 * * *'
+  workflow_dispatch: # Allows manual trigger from the GitHub Actions panel
+
+jobs:
+  run-crawler:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright pyee greenlet
+          python -m playwright install chromium
+
+      - name: Setup Secrets
+        run: |
+          # Write credentials and cookies from GitHub Secrets to ignored local files
+          echo "${{ secrets.GEMINI_API_KEY }}" > gemini_api_key.txt
+          echo '${{ secrets.TIKTOK_COOKIES }}' > tiktok_cookies.json
+          
+          # Initialize seen database if missing
+          if [ ! -f seen_tiktok_videos.json ]; then
+            echo '[]' > seen_tiktok_videos.json
+          fi
+
+      - name: Run TikTok Burner Crawler
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TIKTOK_PROXY: ${{ secrets.TIKTOK_PROXY }} # Optional residential proxy
+          GITHUB_ACTIONS: "true"
+        run: |
+          # Run the scraper for 20 minutes to prevent workflow timeouts
+          python tiktok_burner_crawler.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "ecomflow-bot"
+          git config --global user.email "bot@ecomflow.internal"
+          
+          # Clean secrets files before git operations to prevent security leaks
+          rm -f gemini_api_key.txt
+          rm -f tiktok_cookies.json
+          
+          # Stage newly discovered products, updated seen database and screenshots
+          git add precrawled_products.json seen_tiktok_videos.json
+          if [ -d product_images ]; then
+            git add product_images/
+          fi
+          
+          # Commit only if files have changed
+          git diff-index --quiet HEAD || git commit -m "chore: sync newly crawled winner products and screenshots [skip ci]"
+          
+          # Push updates back to remote main branch
+          git push origin main
