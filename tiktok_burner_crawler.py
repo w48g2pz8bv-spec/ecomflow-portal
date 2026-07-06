@@ -298,7 +298,7 @@ def run_warmup_search(page):
         # Click on the first video link in tag grid to open theater mode player
         first_video_link = page.query_selector('a[href*="/video/"]')
         if first_video_link:
-            first_video_link.click()
+            first_video_link.click(force=True)
             print("[*] Etiket akışındaki ilk video açıldı. Isıtma etkileşimleri yapılıyor...")
             time.sleep(4)
             
@@ -447,13 +447,13 @@ def run_burner_automation(api_key, duration_minutes=30):
             
             if unseen_video:
                 print("[+] Izgarada daha önce taranmamış yeni video bulundu. Tıklanarak açılıyor...")
-                unseen_video.click()
+                unseen_video.click(force=True)
                 time.sleep(4)
             else:
                 print("[-] Izgaradaki tüm videolar daha önce taranmış. İlk video tıklanıyor...")
                 first_video = page.query_selector('a[href*="/video/"]')
                 if first_video:
-                    first_video.click()
+                    first_video.click(force=True)
                     time.sleep(4)
                 else:
                     print("[-] Etiket sayfasında hiç video bulunamadı. For You akışına geçiliyor...")
@@ -490,7 +490,7 @@ def run_burner_automation(api_key, duration_minutes=30):
                     time.sleep(6)
                     first_video = page.query_selector('a[href*="/video/"]')
                     if first_video:
-                        first_video.click()
+                        first_video.click(force=True)
                         time.sleep(4)
                 except Exception as switch_err:
                     print(f"[-] Hashtag geçiş hatası: {switch_err}")
@@ -570,7 +570,7 @@ def run_burner_automation(api_key, duration_minutes=30):
                                 time.sleep(2)
                                 first_video = page.query_selector('a[href*="/video/"]')
                                 if first_video:
-                                    first_video.click()
+                                    first_video.click(force=True)
                                     time.sleep(4)
                             else:
                                 # Reload page and navigate to /foryou to force load a scrollable feed

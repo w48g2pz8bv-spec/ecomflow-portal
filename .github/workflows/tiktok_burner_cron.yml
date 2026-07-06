@@ -71,5 +71,6 @@ jobs:
           # Commit only if files have changed
           git diff-index --quiet HEAD || git commit -m "chore: sync newly crawled winner products and screenshots [skip ci]"
           
-          # Push updates back to remote main branch
+          # Pull latest remote changes to prevent race conditions, then push
+          git pull origin main --rebase
           git push origin main
