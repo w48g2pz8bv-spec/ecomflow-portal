@@ -2786,6 +2786,37 @@ ${contextText}`;
             }
         }
 
+        function calculateLandedMargin() {
+            const buyPrice = parseFloat(document.getElementById('calc-buy-price').value) || 0;
+            const shipCost = parseFloat(document.getElementById('calc-ship-cost').value) || 0;
+            const taxRate = parseFloat(document.getElementById('calc-tax-rate').value) || 0;
+            const otvRate = parseFloat(document.getElementById('calc-otv-rate').value) || 0;
+            const localCost = parseFloat(document.getElementById('calc-local-cost').value) || 0;
+            const sellPrice = parseFloat(document.getElementById('calc-sell-price').value) || 0;
+            
+            // Taxes are calculated on buyPrice + shipCost (CIF value)
+            const cif = buyPrice + shipCost;
+            const customsTax = cif * (taxRate / 100);
+            const otvTax = (cif + customsTax) * (otvRate / 100);
+            const totalTax = customsTax + otvTax;
+            
+            const landedCost = cif + totalTax + localCost;
+            const profit = sellPrice - landedCost;
+            const roi = landedCost > 0 ? (profit / landedCost) * 100 : 0;
+            
+            document.getElementById('out-landed-cost').innerText = '$' + landedCost.toFixed(2);
+            document.getElementById('out-total-tax').innerText = '$' + totalTax.toFixed(2);
+            document.getElementById('out-net-profit').innerText = '$' + profit.toFixed(2);
+            document.getElementById('out-roi').innerText = roi.toFixed(1) + '%';
+            
+            const profitEl = document.getElementById('out-net-profit');
+            if (profit >= 0) {
+                profitEl.style.color = '#10b981';
+            } else {
+                profitEl.style.color = '#f43f5e';
+            }
+        }
+
         function showSourcingGuide(productName) {
             const products = getFilteredProducts();
             const p = products.find(prod => prod.name === productName);
@@ -2795,40 +2826,152 @@ ${contextText}`;
             const content = document.getElementById('sourcing-guide-content');
             if (!modal || !content) return;
             
+            // Classification under Turkey Feb 6, 2026 Customs Decree
+            let difficulty = "KOLAY";
+            let difficultyColor = "#10b981";
+            let certificates = "Gerekmiyor (Standart Gümrük Beyanı yeterlidir)";
+            let defaultOtv = 0;
+            
+            const nameLower = p.name.toLowerCase();
+            const descLower = p.description.toLowerCase();
+            const catLower = p.category.toLowerCase();
+            
+            if (catLower.includes("teknoloji") || catLower.includes("oto") || nameLower.includes("led") || nameLower.includes("ultrasonic") || nameLower.includes("spatula") || nameLower.includes("cihaz")) {
+                difficulty = "ZOR (Yüksek Risk)";
+                difficultyColor = "#f43f5e";
+                certificates = "CE Belgesi, TSE Uygunluk Testi, Bataryalı Ürün Beyanı (Lityum İyon batarya varsa)";
+                defaultOtv = 20;
+            } else if (catLower.includes("güzellik") || catLower.includes("cilt") || nameLower.includes("globes") || nameLower.includes("masaj") || nameLower.includes("akne")) {
+                difficulty = "ORTA (Orta Risk)";
+                difficultyColor = "#f59e0b";
+                certificates = "MSDS (Malzeme Güvenlik Bilgi Formu - Sıvı/Kozmetik içeren ürünler için), Sağlık Bakanlığı Ürün Takip Sistemi (ÜTS) Kaydı";
+                defaultOtv = 20;
+            }
+
             content.innerHTML = `
-                <div style="background:rgba(16, 185, 129, 0.05); border:1px solid rgba(16, 185, 129, 0.2); padding:12px; border-radius:6px; color:#10b981; font-weight:700;">
-                    📦 Ürün: ${p.name}
+                <div style="background:rgba(59, 130, 246, 0.05); border:1px solid rgba(59, 130, 246, 0.2); padding:12px; border-radius:8px; color:#3b82f6; font-weight:700; font-size:1.05rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+                    <span>📦 Analiz Edilen Ürün: ${p.name}</span>
+                    <span style="font-size:0.85rem; color:#9ca3af; background:rgba(0,0,0,0.2); padding:4px 10px; border-radius:15px; border:1px solid rgba(255,255,255,0.05);">Tahmini Satış Fiyatı: $${p.est_price || '29.99'}</span>
                 </div>
-                <div style="margin-top:10px; display:flex; flex-direction:column; gap:10px;">
-                    <div>
-                        <strong style="color:#fff; font-size:0.95rem;">1. Test Aşaması (Numune Siparişi):</strong>
-                        <p style="margin:4px 0 0 0; color:#d1d5db;">
-                            Çin'den numune gelmesini haftalarca beklemek yerine, test sürecini hızlandırmak için ürünü <strong>Trendyol, Hepsiburada veya Amazon Türkiye</strong> üzerinden hemen 1 adet sipariş edin. Ürün elinize ulaştığı gün hemen deşifre kurallarına uygun olarak video çekimlerine (günde 2 video) başlayın.
-                        </p>
-                    </div>
-                    <div>
-                        <strong style="color:#fff; font-size:0.95rem;">2. Ölçekleme Aşaması (Özel Acente / Private Agent):</strong>
-                        <p style="margin:4px 0 0 0; color:#d1d5db;">
-                            AliExpress Türkiye gümrük sınırları ve ağır vergileri (30 Euro limiti) nedeniyle ölçeklenebilir değildir. Günlük siparişleriniz başladığında, AliExpress yerine <strong>CJ Dropshipping</strong> veya Çin'deki <strong>Özel Tedarik Acenteleri (Private Sourcing Agents)</strong> ile iletişime geçin. Acentenize Wise, Mercury veya 1688 entegrasyonuyla ödeme yapabilirsiniz.
-                        </p>
-                    </div>
-                    <div>
-                        <strong style="color:#fff; font-size:0.95rem;">3. Gümrük ve Kargo Anlaşması (DDP Cargo):</strong>
-                        <p style="margin:4px 0 0 0; color:#d1d5db; line-height:1.5;">
-                            Gümrük engellerini aşmak için acentenizle mutlaka <strong>DDP (Delivered Duty Paid - Gümrük Vergileri Ödenmiş)</strong> gönderi anlaşması yapın. Bu anlaşmada gümrük vergilerini acente peşin tahsil eder ve ürünler gümrükte takılmadan doğrudan müşterinizin kapısına (TR, Amerika veya Avrupa fark etmeksizin) teslim edilir.
-                        </p>
-                    </div>
-                    <div style="background:rgba(245, 158, 11, 0.05); border:1px solid rgba(245, 158, 11, 0.2); padding:10px 12px; border-radius:6px; font-size:0.85rem; display:flex; flex-direction:column; gap:4px; margin-top:5px;">
-                        <div style="font-weight:700; color:#f59e0b; display:flex; align-items:center; gap:4px;">
-                            💡 Bu Ürüne Özel Mentör Tavsiyesi:
+                
+                <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap:20px; margin-top:10px;">
+                    <!-- Sol Sütun: Gümrük ve Tedarik Kuralları -->
+                    <div style="display:flex; flex-direction:column; gap:15px;">
+                        <div style="background:rgba(0,0,0,0.2); border:1px solid rgba(255,255,255,0.05); border-radius:10px; padding:15px;">
+                            <h3 style="color:#fff; font-size:0.95rem; margin:0 0 10px 0; display:flex; align-items:center; gap:6px;">
+                                🇹🇷 Türkiye Gümrük ve İthalat Uyum Raporu
+                            </h3>
+                            <div style="display:flex; flex-direction:column; gap:8px; font-size:0.82rem; color:#d1d5db;">
+                                <div>
+                                    <strong style="color:#f43f5e;">📢 Güncel Durum (6 Şubat 2026 Kararnamesi):</strong>
+                                    <p style="margin:2px 0 0 0; color:#f43f5e; line-height:1.4;">
+                                        Yurt dışı bireysel siparişlerdeki 30 Euro gümrük muafiyeti tamamen kaldırılmıştır. Artık 1 Euro'luk ürün dahi vergiye tabidir ve bireysel dropshipping gümrük müşavirliği zorunluluğu nedeniyle engellenmiştir.
+                                    </p>
+                                </div>
+                                <div style="border-top:1px solid rgba(255,255,255,0.05); padding-top:8px;">
+                                    <strong>⚖️ İthalat Zorluk Derecesi:</strong> 
+                                    <span style="color:${difficultyColor}; font-weight:700; margin-left:4px;">${difficulty}</span>
+                                </div>
+                                <div>
+                                    <strong>📜 Gerekli Belgeler / Belgeler:</strong> 
+                                    <span style="color:#fff; display:block; margin-top:2px;">${certificates}</span>
+                                </div>
+                                <div style="border-top:1px solid rgba(255,255,255,0.05); padding-top:8px; display:flex; flex-direction:column; gap:4px;">
+                                    <strong style="color:#10b981;">💡 Önerilen Ticari Yol Haritası:</strong>
+                                    <p style="margin:0; line-height:1.4;">
+                                        Bu ürün için doğrudan Çin'den Türkiye'deki alıcıya dropshipping yapılamaz. Bunun yerine <strong>Toptan İthalat (Bulk Import - Örn: 50-100 adet)</strong> yöntemiyle gümrüklenerek Türkiye'ye sokulmalı ve yurt içi bir kargo/fulfillment firması (Örn: Navlungo) ile Türkiye'ye 1-2 günde faturalı teslim edilmelidir.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <p style="margin:0; color:#fff;"><strong>🚚 Tedarik Yolu:</strong> ${p.sourcing_tips || 'Numune tedarik edip çekime başlayın.'}</p>
-                        <p style="margin:0; color:#f43f5e;"><strong>⚠️ Gümrük Uyarısı:</strong> ${p.customs_warning || 'Gümrük sınırını aşmak için acente kargo hatlarını kullanın.'}</p>
+
+                        <!-- Shopify Rakip Analiz Modülü -->
+                        <div style="background:rgba(59, 130, 246, 0.05); border:1px solid rgba(59, 130, 246, 0.15); border-radius:10px; padding:15px;">
+                            <h3 style="color:#3b82f6; font-size:0.95rem; margin:0 0 10px 0; display:flex; align-items:center; gap:6px;">
+                                🎯 Shopify Rakip Analiz Kılavuzu
+                            </h3>
+                            <div style="display:flex; flex-direction:column; gap:8px; font-size:0.82rem; color:#d1d5db; line-height:1.4;">
+                                <p style="margin:0;">Rakipleriniz bu ürünü yurt dışında veya yurt içinde Shopify üzerinde satmaktadır. Rakip analizinde şunlara dikkat edin:</p>
+                                <div>
+                                    <strong>📈 Mağaza Arama Stratejisi:</strong>
+                                    <ul style="margin:4px 0 0 0; padding-left:15px; display:flex; flex-direction:column; gap:2px;">
+                                        <li>Rakiplerin reklam kütüphanesini bulmak için Meta Ad Library'de <strong>"${p.name}"</strong> veya <strong>"50% OFF + Free Shipping"</strong> araması yapın.</li>
+                                        <li>Shopify mağazalarının tasarımını incelemek için <a href="${p.competitor_url}" target="_blank" style="color:#3b82f6; text-decoration:underline;">bu Google arama linkini</a> kullanın.</li>
+                                    </ul>
+                                </div>
+                                <div style="border-top:1px solid rgba(59, 130, 246, 0.1); padding-top:8px;">
+                                    <strong>💡 Kritik Tavsiye:</strong> Rakiplerinizin kullandığı <strong>"Önce/Sonra"</strong> kurgularını ve yorumlardan çektikleri sosyal kanıtları kendi videolarınızda (kullanacağınız yerli kanca ve altyazılarla) birebir test edin.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sağ Sütun: Maliyet ve Kâr Hesaplayıcı -->
+                    <div style="background:rgba(0,0,0,0.25); border:1px solid rgba(255,255,255,0.05); border-radius:10px; padding:15px; display:flex; flex-direction:column; justify-content:space-between; gap:15px;">
+                        <div>
+                            <h3 style="color:#10b981; font-size:0.95rem; margin:0 0 12px 0; display:flex; align-items:center; gap:6px;">
+                                🧮 Kâr Marjı ve Vergi Maliyet Hesaplayıcı
+                            </h3>
+                            <div style="display:flex; flex-direction:column; gap:10px; font-size:0.8rem;">
+                                <div style="display:flex; justify-content:space-between; align-items:center; gap:10px;">
+                                    <label style="color:#9ca3af;">Ürün Alış Fiyatı (China Sourcing) ($):</label>
+                                    <input type="number" id="calc-buy-price" value="5.00" step="0.5" style="background:#111827; border:1px solid var(--border-color); color:#fff; border-radius:4px; padding:4px 8px; width:70px; text-align:right;" oninput="calculateLandedMargin()">
+                                </div>
+                                <div style="display:flex; justify-content:space-between; align-items:center; gap:10px;">
+                                    <label style="color:#9ca3af;">Toptan Kargo ($/Birim):</label>
+                                    <input type="number" id="calc-ship-cost" value="3.00" step="0.5" style="background:#111827; border:1px solid var(--border-color); color:#fff; border-radius:4px; padding:4px 8px; width:70px; text-align:right;" oninput="calculateLandedMargin()">
+                                </div>
+                                <div style="display:flex; justify-content:space-between; align-items:center; gap:10px;">
+                                    <label style="color:#9ca3af;">Gümrük Vergisi Oranı (%):</label>
+                                    <select id="calc-tax-rate" style="background:#111827; border:1px solid var(--border-color); color:#fff; border-radius:4px; padding:4px 8px; width:110px; text-align:right;" onchange="calculateLandedMargin()">
+                                        <option value="60" selected>Çin/Diğer (%60)</option>
+                                        <option value="30">AB Ülkesi (%30)</option>
+                                        <option value="0">Muaf (%0)</option>
+                                    </select>
+                                </div>
+                                <div style="display:flex; justify-content:space-between; align-items:center; gap:10px;">
+                                    <label style="color:#9ca3af;">Özel Tüketim Vergisi (ÖTV) (%):</label>
+                                    <select id="calc-otv-rate" style="background:#111827; border:1px solid var(--border-color); color:#fff; border-radius:4px; padding:4px 8px; width:110px; text-align:right;" onchange="calculateLandedMargin()">
+                                        <option value="20" ${defaultOtv === 20 ? 'selected' : ''}>Kozmetik/Elek. (%20)</option>
+                                        <option value="0" ${defaultOtv === 0 ? 'selected' : ''}>Yok (%0)</option>
+                                    </select>
+                                </div>
+                                <div style="display:flex; justify-content:space-between; align-items:center; gap:10px;">
+                                    <label style="color:#9ca3af;">Müşavirlik & Depo Maliyeti ($/Adet):</label>
+                                    <input type="number" id="calc-local-cost" value="2.50" step="0.5" style="background:#111827; border:1px solid var(--border-color); color:#fff; border-radius:4px; padding:4px 8px; width:70px; text-align:right;" oninput="calculateLandedMargin()">
+                                </div>
+                                <div style="display:flex; justify-content:space-between; align-items:center; gap:10px; border-top:1px dashed rgba(255,255,255,0.05); padding-top:8px;">
+                                    <label style="color:#fff; font-weight:700;">Satış Fiyatı (Landed) ($):</label>
+                                    <input type="number" id="calc-sell-price" value="${p.est_price || '29.99'}" step="1" style="background:#111827; border:1px solid #10b981; color:#fff; border-radius:4px; padding:4px 8px; width:70px; text-align:right; font-weight:700;" oninput="calculateLandedMargin()">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Hesaplama Çıktıları -->
+                        <div style="background:#111827; border:1px solid rgba(255,255,255,0.05); border-radius:8px; padding:12px; display:flex; flex-direction:column; gap:8px;">
+                            <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:#9ca3af;">
+                                <span>Toplam İthalat Vergisi:</span>
+                                <span id="out-total-tax" style="color:#fff; font-weight:700;">$0.00</span>
+                            </div>
+                            <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:#9ca3af;">
+                                <span>Kapı Teslim Maliyet (Landed):</span>
+                                <span id="out-landed-cost" style="color:#fff; font-weight:700;">$0.00</span>
+                            </div>
+                            <div style="border-top:1px solid rgba(255,255,255,0.05); padding-top:6px; display:flex; justify-content:space-between; font-size:0.9rem; font-weight:700;">
+                                <span style="color:#fff;">Net Kâr:</span>
+                                <span id="out-net-profit" style="color:#10b981;">$0.00</span>
+                            </div>
+                            <div style="display:flex; justify-content:space-between; font-size:0.85rem; font-weight:700;">
+                                <span style="color:#9ca3af;">ROI (Yatırım Getirisi):</span>
+                                <span id="out-roi" style="color:#3b82f6;">0.0%</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             `;
             
             modal.style.display = 'flex';
+            calculateLandedMargin(); // Run initial calculation
         }
 
         function closeSourcingGuide() {
@@ -3139,7 +3282,7 @@ ${contextText}`;
     </script>
     <!-- Sourcing / Tedarik Guide Modal -->
     <div id="sourcing-guide-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:99999; justify-content:center; align-items:center; box-sizing:border-box;">
-        <div style="background:#1f2937; border:1px solid var(--border-color); border-radius:12px; width:90%; max-width:600px; padding:25px; box-sizing:border-box; color:#d1d5db; position:relative; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+        <div style="background:#1f2937; border:1px solid var(--border-color); border-radius:12px; width:95%; max-width:900px; max-height:90vh; overflow-y:auto; padding:25px; box-sizing:border-box; color:#d1d5db; position:relative; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
             <button onclick="closeSourcingGuide(); return false;" style="position:absolute; top:15px; right:15px; background:none; border:none; color:var(--text-muted); font-size:1.5rem; cursor:pointer;">&times;</button>
             <h2 style="color:#fff; font-size:1.25rem; margin-bottom:15px; display:flex; align-items:center; gap:8px;">
                 🚚 Tedarik ve Ürün Getirtme Kılavuzu
