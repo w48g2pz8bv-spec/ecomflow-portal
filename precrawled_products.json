@@ -1,1 +1,785 @@
-[]
+[
+  {
+    "name": "Işıklı ve Vakumlu Akne Temizleme Spatulası (Ultrasonic Skin Scrubber with LED)",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Showcase",
+    "description": "Ultrasonik titreşimlerle ciltteki siyah noktaları ve fazla yağı derinlemesine temizleyen, mavi/kırmızı LED ışık terapisiyle gözenekleri sıkılaştıran ve akne oluşumunu önleyen yeni nesil cilt spatulası.",
+    "image_url": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=500&q=80",
+    "video_url": "https://www.tiktok.com/search?q=I%C5%9F%C4%B1kl%C4%B1%20ve%20Vakumlu%20Akne%20Temizleme%20Spatulas%C4%B1%20%28Ultrasonic%20Skin%20Scrubber%20with%20LED%29%20made%20me%20buy%20it",
+    "why_viral": "Gözeneklerden çıkan kirlerin spatula üzerinde biriktiği anların makro çekimleri son derece tatmin edici (satisfying) olduğu için organik olarak milyonlarca izleniyor. Yorumlarda 'Bu gerçekten işe yarıyor mu?', 'Nereden alabilirim?' soruları yoğunlukta.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Burnunuzdaki siyah noktaları sıkmaktan cildinizi mahvetmeyi ne zaman bırakacaksınız?'",
+      "Yazılı Kanca: 'Sadece 3 saniyede gözeneklerimden çıkanlara inanamayacaksınız 🤮'",
+      "Görsel Kanca: 'Cilt spatulasının burun üzerindeki siyah noktaları tek geçişte pürüzsüzce kazıdığı makro yakın çekim.'"
+    ],
+    "est_price": "24.99",
+    "sourcing_tips": "Cihazın CE sertifikalı olmasına dikkat edilmeli. AliExpress yerine özel bir dropshipping acentesinden (örn. CJ Dropshipping, SourcinBox) bataryalı ürün taşıma hattı (Special Line) ile gönderim talep edilmelidir.",
+    "customs_warning": "Ürünün pilli/şarjlı olması sebebiyle gümrükte takılmaması için göndericiye 'bataryalı ürün gönderim beyanı' yaptırın ve AB KDV (IOSS) sistemine dahil olan hızlı kargo hatlarını seçin.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+ultrasonic+skin+scrubber+led",
+    "creative_style": "Önce/Sonra Karşılaştırması",
+    "target_audience": "Akne ve siyah nokta problemi yaşayan gençler, evde profesyonel cilt bakımı yapmak isteyenler",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 20,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Buz Küresi Yüz Masaj Aleti (Cryo Ice Globes with Liquid Glow)",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Regular",
+    "description": "Buzdolabında soğutulup yüz masajında kullanılan, içi ışıltılı ve donmayan özel bir sıvı ile dolu olan, sabah şişkinliğini anında indiren ve cildi canlandıran cam yüz küreleri.",
+    "image_url": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=500&q=80",
+    "video_url": "https://www.tiktok.com/search?q=Buz%20K%C3%BCresi%20Y%C3%BCz%20Masaj%20Aleti%20%28Cryo%20Ice%20Globes%20with%20Liquid%20Glow%29%20made%20me%20buy%20it",
+    "why_viral": "Sabah rutinlerinde estetik ve 'Clean Girl' estetiğine sahip videoların arka plan müziğiyle birleşmesiyle viral oluyor. Yorumlarda izleyiciler estetik görünüme bayılıp link talep ediyor.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Her sabah şiş bir yüzle uyanmaktan bıktıysanız, bu 5 saniyelik sırrı deneyin.'",
+      "Yazılı Kanca: 'Sabah ödemini 1 dakikada yok eden o sihirli küreler 🧊'",
+      "Görsel Kanca: 'Kutudan çıkan parıldayan buz kürelerinin buğulanmış cam görüntüsü ve yüze ilk temas anındaki rahatlama ifadesi.'"
+    ],
+    "est_price": "19.99",
+    "sourcing_tips": "Cam kırılganlığı yüksek olduğu için tedarikçiden özel straforlu/köpüklü kutu paketlemesi talep edilmeli, kırık ürün iadeleri için bütçe ayrılmalıdır.",
+    "customs_warning": "Avrupa gümrüklerinde sıvı içeren kozmetik/bakım araçları denetime tabi tutulabilir; sıvının toksik olmayan antifriz su olduğunu belirten MSDS raporunu tedarikçiden hazır bulundurun.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+cryo+ice+globes",
+    "creative_style": "POV Yaşam Hilesi",
+    "target_audience": "Sabahları yüz şişkinliğinden şikayetçi olanlar, 'Clean Girl' estetiğini benimseyen cilt bakımı meraklıları",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Isısız İpek Saç Şekillendirme Seti (Heatless Silk Hair Roller Headband)",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Regular",
+    "description": "Saçları ısıya maruz bırakmadan, gece uyurken ipek dolgulu yumuşak silindirlere sararak doğal ve hacimli dalgalar elde etmeyi sağlayan pratik saç şekillendirme aparatı.",
+    "image_url": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=500&q=80",
+    "video_url": "https://www.tiktok.com/search?q=Is%C4%B1s%C4%B1z%20%C4%B0pek%20Sa%C3%A7%20%C5%9Eekillendirme%20Seti%20%28Heatless%20Silk%20Hair%20Roller%20Headband%29%20made%20me%20buy%20it",
+    "why_viral": "Gece sarıp sabah açma (reveal) videoları inanılmaz yüksek izlenme oranlarına ulaşıyor. İzleyiciler saçın son halini görmek için videonun sonuna kadar kalıyor ve 'Nereden aldın?' sorusuyla etkileşim patlıyor.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Saçlarımı hiç ısı kullanmadan nasıl bu kadar hacimli yaptığıma inanamayacaksınız.'",
+      "Yazılı Kanca: 'Gece bununla uyudum, sabah sonuca bakın! 😮'",
+      "Görsel Kanca: 'Kameraya yaklaşıp saçtaki ipek sargıyı tek bir hareketle çekip mükemmel spiral buklelerin aşağı dökülmesini göstermek.'"
+    ],
+    "est_price": "14.99",
+    "sourcing_tips": "Piyasada ucuz sünger dolgulu olanlar var, saçta kırılma yapmaması için mutlaka 'gerçek ipek ve pamuk dolgulu' kaliteli varyantları seçilmeli.",
+    "customs_warning": "Hafif ve hacimli bir ürün olduğundan kargoda desi (hacimsel ağırlık) maliyetini düşürmek için vakumlu poşetlerde paketlenmesini isteyin.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+heatless+silk+hair+roller",
+    "creative_style": "Tersine Sarma Kurgusu",
+    "target_audience": "Saçları ısıdan yıpranmış kadınlar, sabah saç yapmaya vakti olmayan çalışanlar ve öğrenciler",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 19,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Silikon Yüz Maskesi Sabitleyici (Reusable Silicone Face Mask Cover)",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Regular",
+    "description": "Kağıt maskelerin üzerine takılarak maskenin kaymasını önleyen, esansı hapsederek buharlaşmasını engelleyen ve emilimi maksimuma çıkaran tekrar kullanılabilir silikon koruyucu maske.",
+    "image_url": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=500&q=80",
+    "video_url": "https://www.tiktok.com/search?q=Silikon%20Y%C3%BCz%20Maskesi%20Sabitleyici%20%28Reusable%20Silicone%20Face%20Mask%20Cover%29%20made%20me%20buy%20it",
+    "why_viral": "Kağıt maske yaparken ev işi yapabilme, hareket edebilme özgürlüğü sunması ve 'komik/fütüristik' maske görüntüsüyle TikTok'ta hızlıca viral trend haline geldi.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Kağıt maskelerinizin 5 dakikada kuruyup çöp olduğunu biliyor muydunuz?'",
+      "Yazılı Kanca: 'Bu silikon maske sayesinde cilt bakım rutinimi yaparken artık temizlik yapabiliyorum!'",
+      "Görsel Kanca: 'Yüzünde ıslak maskeyle kafasını çılgınca sallayan ama maskesi hiç oynamayan bir kadının şaşkın yüz ifadesi.'"
+    ],
+    "est_price": "9.99",
+    "sourcing_tips": "Gıda sınıfı (food-grade) esnek ve kokusuz silikon malzemeden üretildiğinden emin olunmalı, renk varyasyonları sunulmalı.",
+    "customs_warning": "Ürünün ağırlığı çok düşük olduğundan toplu kargo paketlerine eklenerek lojistik maliyeti neredeyse sıfırlanabilir. IOSS ile tekli gönderimlerde sorun yaşanmaz.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+silicone+face+mask+cover",
+    "creative_style": "POV Yaşam Hilesi",
+    "target_audience": "Cilt bakımına önem veren, kağıt maskelerin kurumasından veya yüzünden düşmesinden sıkılan aktif kadınlar",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Elektrikli Makyaj Fırçası Temizleme Makinesi (Automatic Makeup Brush Cleaner)",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Showcase",
+    "description": "Makyaj fırçalarını su ve temizleme solüsyonu içinde yüksek hızda döndürerek saniyeler içinde kirden, yağdan ve bakteri birikintisinden arındıran otomatik temizleme cihazı.",
+    "image_url": "https://images.unsplash.com/photo-1522337628087-0278858f55b1?auto=format&fit=crop&w=500&q=80",
+    "video_url": "https://www.tiktok.com/search?q=Elektrikli%20Makyaj%20F%C4%B1r%C3%A7as%C4%B1%20Temizleme%20Makinesi%20%28Automatic%20Makeup%20Brush%20Cleaner%29%20made%20me%20buy%20it",
+    "why_viral": "Fırçadan çıkan kirli, kahverengi suyun berraklaşmasını izlemek müthiş bir rahatlama hissi yaratıyor. Akne oluşumunun arkasındaki kirli fırça gerçeğini gösterdiği için izleyicilerde hemen satın alma dürtüsü uyandırıyor.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Yüzünüzde neden sürekli sivilce çıktığını merak ediyorsanız, en son ne zaman fırçalarınızı yıkadığınızı düşünün.'",
+      "Yazılı Kanca: 'Kirli makyaj fırçalarımı temizlemenin en tatmin edici yolu 🤢✨'",
+      "Görsel Kanca: 'Simsiyah fondöten kaplı bir fırçanın suya girdikten 5 saniye sonra bembeyaz ve yepyeni çıkma anı.'"
+    ],
+    "est_price": "29.99",
+    "sourcing_tips": "Farklı fırça boyutlarına uyumlu silikon başlık aparatlarının eksiksiz paketlendiğinden emin olunmalıdır.",
+    "customs_warning": "Motorlu ve pilli elektrikli bir cihaz olduğundan CE sertifikası kargo gümrükleme sürecinde istenebilir, tedarikçiden bu evrakı önceden talep edin.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+automatic+makeup+brush+cleaner",
+    "creative_style": "Önce/Sonra Karşılaştırması",
+    "target_audience": "Günlük makyaj yapanlar, makyaj artistleri, cilt sağlığına ve hijyene aşırı dikkat edenler",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 20,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Kırışıklık Önleyici ve Çene Hattı Şekillendirici LED Maske (LED Neck and Face Massager)",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Showcase",
+    "description": "Boyun ve gıdı bölgesine tam oturan, mikro akım (EMS) titreşimleri ve LED ışık terapisiyle sarkmaları toparlayıp çene hattını (jawline) keskinleştiren ergonomik güzellik cihazı.",
+    "image_url": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=500&q=80",
+    "video_url": "https://www.tiktok.com/search?q=K%C4%B1r%C4%B1%C5%9F%C4%B1kl%C4%B1k%20%C3%96nleyici%20ve%20%C3%87ene%20Hatt%C4%B1%20%C5%9Eekillendirici%20LED%20Maske%20%28LED%20Neck%20and%20Face%20Massager%29%20made%20me%20buy%20it",
+    "why_viral": "Kullanıcıların gıdı bölgesindeki değişimi gün gün gösterdikleri 'glow-up' videoları inanılmaz ilgi görüyor. Yorumlarda 'Gerçekten işe yarıyor mu, kaç günde sonuç aldın?' tartışmaları dönüyor.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Gıdınızdan ve sarkan boyun derinizden kurtulmak için binlerce dolar harcamanıza gerek yok.'",
+      "Yazılı Kanca: 'Sadece 2 hafta boyunca her gün bunu boynuma uyguladım, sonuca inanamıyorum...'",
+      "Görsel Kanca: 'Kırmızı ışık saçan cihazın boyun boyunca yukarı doğru yavaşça kaydırılmasıyla cildin anında gerginleştiği an.'"
+    ],
+    "est_price": "34.99",
+    "sourcing_tips": "Ürünün şarj kablosu ve detaylı İngilizce kullanım kılavuzuyla birlikte şık bir kutuda gönderilmesini sağlayın. Kutunun ezilmemesi önemlidir.",
+    "customs_warning": "Teknolojik ve kişisel bakım ürünü kategorisinde gümrük vergisi takibinin doğru yapılması için gönderimde 'Kozmetik Masaj Cihazı' olarak net beyan edilmelidir.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+led+neck+and+face+massager",
+    "creative_style": "Önce/Sonra Karşılaştırması",
+    "target_audience": "Yaşlanma karşıtı bakım arayan 30+ yaş grubu kadınlar, çene hattını belirginleştirmek isteyen genç yetişkinler",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 4,
+      "reaction_potential": 5
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Yeniden Kullanılabilir Siyah Nokta Çıkarıcı Silikon Bant (Reusable Silicone Nose Pore Strip)",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Regular",
+    "description": "Tek kullanımlık burun bantlarına çevre dostu bir alternatif olan, gözenek temizleyici jel veya suyla birlikte kullanılarak siyah noktaları vakum etkisiyle yüzeye çeken yıkanabilir silikon burun bandı.",
+    "image_url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=500&q=80",
+    "video_url": "https://www.tiktok.com/search?q=Yeniden%20Kullan%C4%B1labilir%20Siyah%20Nokta%20%C3%87%C4%B1kar%C4%B1c%C4%B1%20Silikon%20Bant%20%28Reusable%20Silicone%20Nose%20Pore%20Strip%29%20made%20me%20buy%20it",
+    "why_viral": "Tek kullanımlık siyah nokta bantlarının yarattığı çöp yığınından ve cilt tahrişinden bıkan kitle için mucizevi, ekonomik ve sürdürülebilir bir çözüm olarak lanse edilmesiyle dikkat çekiyor.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Yırtıp attığınız o burun bantlarına para dökmeyi bugün durdurun.'",
+      "Yazılı Kanca: 'Ömür boyu kullanabileceğiniz, asla bitmeyen siyah nokta bandı yapmışlar 🤯'",
+      "Görsel Kanca: 'Yıkanabilir silikon bandın burundan tek seferde soyulup altındaki biriken kirlerin su altında saniyeler içinde temizlenip yepyeni olması.'"
+    ],
+    "est_price": "12.99",
+    "sourcing_tips": "Tıbbi sınıf silikondan (medical-grade silicone) üretilmiş olması cilde zarar vermemesi açısından kritiktir; üreticiden FDA veya RoHS sertifikalarını sorun.",
+    "customs_warning": "Boyutu çok küçük olduğundan kargo maliyeti yok denecek kadar azdır. Avrupa birliği siparişlerinde IOSS numaranızın kargo etiketine işlendiğinden emin olun.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+reusable+silicone+pore+strip",
+    "creative_style": "POV Yaşam Hilesi",
+    "target_audience": "Çevre dostu tüketiciler, sürekli siyah nokta problemiyle uğraşan cilt bakımı meraklıları",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Göz Altı Torbaları ve Koyu Halkalar için Soğutucu Metal Masaj Değneği (Depuffing Eye Massage Wand)",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Regular",
+    "description": "Göz kremlerinin emilimini kolaylaştıran, ergonomik paslanmaz çelik ucuyla göz altındaki kan dolaşımını hızlandırarak şişlikleri ve morlukları dakikalar içinde azaltan şık masaj kalemi.",
+    "image_url": "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=500&q=80",
+    "video_url": "https://www.tiktok.com/search?q=G%C3%B6z%20Alt%C4%B1%20Torbalar%C4%B1%20ve%20Koyu%20Halkalar%20i%C3%A7in%20So%C4%9Futucu%20Metal%20Masaj%20De%C4%9Fne%C4%9Fi%20%28Depuffing%20Eye%20Massage%20Wand%29%20made%20me%20buy%20it",
+    "why_viral": "Göz altındaki anlık şişlik inme (depuffing) videoları, uykusuz gecelerin sabahında işe giden veya okula hazırlanan milyonlarca insan için 'hayat kurtarıcı' nitelikte olduğu için hızla yayılıyor.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Sadece 3 saat uyuduğunuzu kimsenin anlamasını istemiyorsanız, bu göz rutinini uygulayın.'",
+      "Yazılı Kanca: 'Göz altı torbalarımı 2 dakikada nasıl yok ediyorum? İzleyin 👁️✨'",
+      "Görsel Kanca: 'Gözün bir tarafına soğutucu masaj aleti uygulanırken, diğer tarafın şiş ve mor kalarak aradaki şok edici farkın gösterilmesi.'"
+    ],
+    "est_price": "16.99",
+    "sourcing_tips": "Metal ucun paslanmaz ve hipoalerjenik malzemeden yapıldığından emin olun, ambalajının lüks kozmetik markaları kalitesinde olmasını talep edin.",
+    "customs_warning": "Elektronik olmayan (manuel) metal masaj çubukları gümrükte kozmetik cihaz regülasyonlarına takılmadan son derece hızlı bir şekilde geçer.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+depuffing+eye+massage+wand",
+    "creative_style": "Önce/Sonra Karşılaştırması",
+    "target_audience": "Uykusuzluk çekenler, yoğun çalışanlar, göz altı morlukları ve torbalarından kronik olarak şikayetçi olanlar",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Leke ve Sivilce Karşıtı Mikro İğneli Yama (Microneedle Acne Patches)",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Regular",
+    "description": "Üzerinde ağrısız, çözünebilir mikro iğneler barındıran; salisilik asit ve çay ağacı yağını doğrudan sivilcenin merkezine ileterek sivilceyi 6 saatte söndüren akıllı yamalar.",
+    "image_url": "https://images.unsplash.com/photo-1515688594390-b649af70d282?auto=format&fit=crop&w=500&q=80",
+    "video_url": "https://www.tiktok.com/search?q=Leke%20ve%20Sivilce%20Kar%C5%9F%C4%B1t%C4%B1%20Mikro%20%C4%B0%C4%9Fneli%20Yama%20%28Microneedle%20Acne%20Patches%29%20made%20me%20buy%20it",
+    "why_viral": "Sıradan sivilce bantlarından farklı olarak 'iğneli teknolojiye' sahip olması insanların ilgisini çekiyor. Yama çıkarıldığında sivilcenin tamamen kuruyup düzleştiği anlar milyonlarca izleniyor.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Yarın çok önemli bir buluşmanız var ve yüzünüzde devasa bir sivilce mi çıktı? Panik yapmayın.'",
+      "Yazılı Kanca: 'Mikro iğneli teknolojiyle sivilceyi uykuda yok etme testi 🤯 saniyeler içinde sönüyor.'",
+      "Görsel Kanca: 'Kameraya sivilceli bir bölgenin mikro iğneli bant takılmadan önceki ve takılıp çıkarıldıktan sonraki dümdüz olmuş pürüzsüz halinin makro karşılaştırması.'"
+    ],
+    "est_price": "14.99",
+    "sourcing_tips": "Hijyenik ambalajlama ve sterilizasyon sertifikaları (ISO 13485) olan güvenilir kozmetik üreticileriyle çalışılması son derece önemlidir.",
+    "customs_warning": "Tıbbi cihaz veya ilaç sınıfına girmemesi için gümrük beyannamesinde 'Hydrocolloid Cosmetic Patch' (Hidrokolloid Kozmetik Yama) olarak beyan edilmelidir.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+microneedle+acne+patches",
+    "creative_style": "Kışkırtıcı Hata / Yorum Çekme",
+    "target_audience": "Önemli etkinlikler öncesi acil sivilce çözümü arayanlar, sivilcelerini sıkıp iz bırakmaktan korkanlar",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 19,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Taşınabilir Mini Kozmetik Isıtıcı ve Soğutucu (Portable Mini Cosmetics Fridge)",
+    "category": "Güzellik ve Cilt Bakımı",
+    "product_type": "Showcase",
+    "description": "Kozmetik ürünleri, serumları ve yüz maskelerini taze tutmak için soğutabilen; aynı zamanda sıcak havlu veya gözenek açıcı maskeleri ısıtabilen ultra kompakt retro masaüstü mini buzdolabı.",
+    "image_url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=500&q=80",
+    "video_url": "https://www.tiktok.com/search?q=Ta%C5%9F%C4%B1nabilir%20Mini%20Kozmetik%20Is%C4%B1t%C4%B1c%C4%B1%20ve%20So%C4%9Futucu%20%28Portable%20Mini%20Cosmetics%20Fridge%29%20made%20me%20buy%20it",
+    "why_viral": "Masaüstü estetiği düzenleme (ASMR) ve 'Restocking' videolarında sıkça kullanılıyor. İzleyicilerin 'Bunu odama kesinlikle almalıyım' diyerek yorumlarda link istemesine neden oluyor.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Pahalı yüz kremlerinizi neden normal buzdolabında peynirlerin yanında saklamamanız gerektiğinin kanıtı.'",
+      "Yazılı Kanca: 'Cilt bakım köşemi baştan yaratıyorum! Yeni mini buzdolabımı dolduralım ASMR 🧴🧊'",
+      "Görsel Kanca: 'Estetik bir odada, mini pembe buzdolabının kapağının açılıp içindeki mükemmel dizilmiş renkli serum şişelerinin buğulanmış soğuk havasının kameraya yansıması.'"
+    ],
+    "est_price": "49.99",
+    "sourcing_tips": "Farklı ülkelerin priz standartlarına (EU/US/UK plug) uyumlu adaptör seçeneklerinin siparişe göre hatasız paketlendiğini her sevkiyatta kontrol edin.",
+    "customs_warning": "Ürünün ağırlığı ve desisi yüksek olduğu için deniz yolu veya gümrük vergileri dahil toplu lojistik kanalları (DDP kargo) kullanılarak ara depoya çekilmesi maliyeti optimize eder.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+mini+cosmetic+fridge",
+    "creative_style": "POV Yaşam Hilesi",
+    "target_audience": "Makyaj ve cilt bakımı koleksiyoncuları, ASMR ve estetik oda düzenleme videoları hayranları",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 19,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Silikon Musluk Emici Paspas",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Regular",
+    "description": "Musluk arkasında biriken suyun tezgaha akmasını engelleyen, silikon drenajlı paspas.",
+    "image_url": "https://m.media-amazon.com/images/I/71pCg1V-PzL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=Silikon%20Musluk%20Emici%20Paspas%20made%20me%20buy%20it",
+    "why_viral": "Temizlik 'hack'i olarak çok popüler. İnsanlar her zaman su lekesiyle uğraşmaktan nefret eder, bu ürün tam bir problem çözücü.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Neden mutfak tezgahınız her zaman su içinde kalıyor?'",
+      "Yazılı Kanca: 'Mutfak temizliğini 10 kat kolaylaştıran o ürün.'",
+      "Görsel Kanca: Musluktaki suyun paspas üzerinde birikip lavaboya akışını makro çekimle göstermek."
+    ],
+    "est_price": "14.99",
+    "sourcing_tips": "Birim maliyeti çok düşük, bundle (çoklu paket) olarak satılması karlılığı artırır.",
+    "customs_warning": "Plastik/Silikon içerik, gümrük limitleri dahilinde kolayca geçebilir.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+silicone+faucet+mat",
+    "creative_style": "POV Yaşam Hilesi",
+    "target_audience": "Titiz ev hanımları ve temizlik tutkunları",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Taşınabilir Mini Dikiş Makinesi",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Showcase",
+    "description": "Elde tutulabilen, hızlı tamiratlar için tasarlanmış şarjlı mini dikiş makinesi.",
+    "image_url": "https://images.unsplash.com/photo-1596462502224-f2bc1c78d4cb?q=80&w=1000",
+    "video_url": "https://www.tiktok.com/search?q=Ta%C5%9F%C4%B1nabilir%20Mini%20Diki%C5%9F%20Makinesi%20made%20me%20buy%20it",
+    "why_viral": "Kıyafet tamiri için terziye gitmeyi sevmeyenler için 'kurtarıcı' etkisi yaratıyor.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Terziye 50 dolar ödemeyi bırakın.'",
+      "Yazılı Kanca: 'Saniyeler içinde söküklerinizi onarın!'",
+      "Görsel Kanca: Büyük bir söküğün cihazla 5 saniyede kapanışı."
+    ],
+    "est_price": "19.99",
+    "sourcing_tips": "Kaliteli motorlu olanlarını seçin, iade riskini azaltmak için test edilmiş ürünleri stoklayın.",
+    "customs_warning": "Elektronik cihaz kategorisinde vergilendirmeye dikkat edilmeli.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+portable+sewing+machine",
+    "creative_style": "Kışkırtıcı Hata / Yorum Çekme",
+    "target_audience": "Moda severler, üniversite öğrencileri",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Duvara Monte Edilebilir Katlanır Sehpa",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Showcase",
+    "description": "Küçük evler için tasarlanmış, kullanılmadığında duvara sıfır kapanan dekoratif raf/sehpa.",
+    "image_url": "https://m.media-amazon.com/images/I/71YyM9lS-BL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=Duvara%20Monte%20Edilebilir%20Katlan%C4%B1r%20Sehpa%20made%20me%20buy%20it",
+    "why_viral": "Küçük ev akımı ve minimalist dekorasyon trendiyle uyumu yüksek.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Evinizde yeriniz mi yok? Bunu izleyin.'",
+      "Yazılı Kanca: 'Küçük daireler için en iyi yatırım.'",
+      "Görsel Kanca: Odanın boş halinden çalışma masasına dönüşümü."
+    ],
+    "est_price": "89.99",
+    "sourcing_tips": "Ağır bir ürün olduğu için yerel lojistik ortakları kullanın.",
+    "customs_warning": "Ağırlık ve boyut nedeniyle kargo maliyeti yüksek olabilir, lojistik maliyetini fiyata yansıtın.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+folding+wall+desk",
+    "creative_style": "Önce/Sonra Karşılaştırması",
+    "target_audience": "Öğrenci evleri, dar daire sahipleri",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 5,
+      "immediate_understandability": 4,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Buzdolabı İçin Düzenleyici Raylı Raf",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Regular",
+    "description": "Buzdolabı raflarının altına eklenen, sürgülü depolama çekmecesi.",
+    "image_url": "https://m.media-amazon.com/images/I/71-0s3n90nL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=Buzdolab%C4%B1%20%C4%B0%C3%A7in%20D%C3%BCzenleyici%20Rayl%C4%B1%20Raf%20made%20me%20buy%20it",
+    "why_viral": "Buzdolabı düzenleme videoları (Fridge Restock) TikTok'ta çok izleniyor.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Buzdolabınızı bir otel mutfağı gibi düzenleyin.'",
+      "Yazılı Kanca: 'Dağınık buzdolabı sorunu bitti.'",
+      "Görsel Kanca: İç içe geçmiş ürünleri çekmeceyle düzenli hale getirmek."
+    ],
+    "est_price": "22.00",
+    "sourcing_tips": "Farklı boylarda stoklayarak varyasyon oluşturun.",
+    "customs_warning": "Plastik ürün, vergi muafiyeti sınırları içerisinde kalması kolay.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+fridge+drawer+organizer",
+    "creative_style": "Tersine Sarma Kurgusu",
+    "target_audience": "Düzen tutkunları (Organized homes)",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Koltuk Kenarı Takılabilir Ahşap Tepsi",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Showcase",
+    "description": "Koltuk kolçaklarına takılan, içecek ve atıştırmalık için düz alan yaratan estetik tepsi.",
+    "image_url": "https://m.media-amazon.com/images/I/81xU-m-xP6L._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=Koltuk%20Kenar%C4%B1%20Tak%C4%B1labilir%20Ah%C5%9Fap%20Tepsi%20made%20me%20buy%20it",
+    "why_viral": "Konfor odaklı içeriklerle birleştiğinde 'lazy Sunday' (tembel Pazar) estetiğine çok uyuyor.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Kahvenizi koyacak yer mi bulamıyorsunuz?'",
+      "Yazılı Kanca: 'Koltuk konforunuzu zirveye taşıyın.'",
+      "Görsel Kanca: Ürünü kolçağa takıp üzerine kahve fincanı koyma anı."
+    ],
+    "est_price": "29.99",
+    "sourcing_tips": "Ahşap kalitesini vurgulayan görseller kullanın.",
+    "customs_warning": "Ahşap ürün olduğu için bazı ülkelerde gümrükte ek kontrol olabilir.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+couch+arm+tray",
+    "creative_style": "POV Yaşam Hilesi",
+    "target_audience": "Dizi-film severler, ev konforuna düşkünler",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 17,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Kendinden Yapışkanlı Kablo Düzenleyici Klips",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Regular",
+    "description": "Masa altı veya duvar köşeleri için görünmez kablo toplama aparatı.",
+    "image_url": "https://m.media-amazon.com/images/I/71P4H1ZpT-L._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=Kendinden%20Yap%C4%B1%C5%9Fkanl%C4%B1%20Kablo%20D%C3%BCzenleyici%20Klips%20made%20me%20buy%20it",
+    "why_viral": "Masa kurulumu (Desk Setup) estetiği çok popüler, kablo kirliliği herkesin sorunu.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Kablolarınız odanızı çirkin mi gösteriyor?'",
+      "Yazılı Kanca: 'Kablo karmaşasına veda edin.'",
+      "Görsel Kanca: Karmaşık kabloların ürünü kullanınca bir anda yok oluşu."
+    ],
+    "est_price": "9.99",
+    "sourcing_tips": "Çoklu set (50'li/100'lü) olarak satın, kar marjını adet ile koruyun.",
+    "customs_warning": "Küçük ve hafif, gümrük vergisi riski neredeyse sıfır.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+cable+organizer+clips",
+    "creative_style": "Önce/Sonra Karşılaştırması",
+    "target_audience": "Ofis çalışanları, oyuncular (gamers)",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 3
+    },
+    "total_score": 16,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Taşınabilir Şarjlı Blender Bardak",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Showcase",
+    "description": "Ofiste veya okulda taze smoothie yapmak için kullanılan, kendi kendine yıkanan şarjlı blender.",
+    "image_url": "https://m.media-amazon.com/images/I/71YyM9lS-BL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=Ta%C5%9F%C4%B1nabilir%20%C5%9Earjl%C4%B1%20Blender%20Bardak%20made%20me%20buy%20it",
+    "why_viral": "Sağlıklı yaşam (wellness) trendine tam oturuyor.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Nerede olursanız olun taze smoothie hazırlayın.'",
+      "Yazılı Kanca: 'Sadece 30 saniye sürdü!'",
+      "Görsel Kanca: Meyveleri içine atıp tek tuşla karışım anı."
+    ],
+    "est_price": "34.99",
+    "sourcing_tips": "Pil kapasitesi yüksek modelleri seçin.",
+    "customs_warning": "Batarya içeren ürünler için havayolu kargo kısıtlamalarına dikkat edin.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+portable+blender",
+    "creative_style": "POV Yaşam Hilesi",
+    "target_audience": "Spor yapanlar, sağlıklı beslenenler",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 4,
+      "immediate_understandability": 4,
+      "reaction_potential": 4
+    },
+    "total_score": 16,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Duş İçin Silikon Fırçalama ve Masaj Başlığı",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Regular",
+    "description": "Duşta vücudu ölü deriden arındıran, şampuan haznesi olan silikon fırça.",
+    "image_url": "https://m.media-amazon.com/images/I/71v1w9M6k-L._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=Du%C5%9F%20%C4%B0%C3%A7in%20Silikon%20F%C4%B1r%C3%A7alama%20ve%20Masaj%20Ba%C5%9Fl%C4%B1%C4%9F%C4%B1%20made%20me%20buy%20it",
+    "why_viral": "Kişisel bakım (self-care) videoları çok izleniyor, estetik banyo ürünleri revaçta.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Cildinizdeki farkı 1 dakikada görün.'",
+      "Yazılı Kanca: 'SPA deneyimini banyonuza taşıyın.'",
+      "Görsel Kanca: Şampuan köpüğünün fırçadan çıkış anı."
+    ],
+    "est_price": "12.99",
+    "sourcing_tips": "Farklı pastel renklerde set yapın.",
+    "customs_warning": "Hijyenik ürün sınıfında olduğu için paketlemede profesyonel görünün.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+silicone+shower+scrubber",
+    "creative_style": "POV Yaşam Hilesi",
+    "target_audience": "Skincare (cilt bakımı) tutkunları",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 3,
+      "immediate_understandability": 4,
+      "reaction_potential": 4
+    },
+    "total_score": 16,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Banyo Aynası İçin Buğu Önleyici Film",
+    "category": "Ev ve Yaşam / Dekorasyon",
+    "product_type": "Regular",
+    "description": "Banyo aynasının buğulanmasını önleyen, kolay yapıştırılan nanoteknolojik kaplama.",
+    "image_url": "https://m.media-amazon.com/images/I/61k8wO9jN9L._AC_SL1000_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=Banyo%20Aynas%C4%B1%20%C4%B0%C3%A7in%20Bu%C4%9Fu%20%C3%96nleyici%20Film%20made%20me%20buy%20it",
+    "why_viral": "Basit ama etkileyici bir yaşam hilesi, videoda anında sonuç gösterilebiliyor.",
+    "hook_ideas": [
+      "Sesli Kanca: 'Neden aynanız her duştan sonra buğulanıyor?'",
+      "Yazılı Kanca: 'Bu film hayat kurtarıyor!'",
+      "Görsel Kanca: Aynanın yarısına filmi yapıştırıp sıcak su buharı vermek."
+    ],
+    "est_price": "15.99",
+    "sourcing_tips": "İnce, kolay uygulanabilir kaliteli bir film seçin.",
+    "customs_warning": "Düşük maliyet, vergi eşiğine takılma riski çok düşük.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+anti+fog+mirror+film",
+    "creative_style": "Kışkırtıcı Hata / Yorum Çekme",
+    "target_audience": "Güzellik rutini olanlar, sabah acele edenler",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 2
+    },
+    "total_score": 16,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Seyahat Tipi Taşınabilir Evcil Hayvan Suluk ve Mama Kabı",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Regular",
+    "description": "Tek elde taşınabilen, geri emiş özellikli, su tasarrufu sağlayan pratik seyahat suluğu.",
+    "image_url": "https://m.media-amazon.com/images/I/71R2H+YwB5L._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=Seyahat%20Tipi%20Ta%C5%9F%C4%B1nabilir%20Evcil%20Hayvan%20Suluk%20ve%20Mama%20Kab%C4%B1%20made%20me%20buy%20it",
+    "why_viral": "Yaz aylarının yaklaşmasıyla outdoor içeriklerinde öne çıktı. 'Yürüyüş yaparken hayat kurtarıyor' yorumları çok yaygın.",
+    "hook_ideas": [
+      "Sesli Kanca: Köpeğinizle dışarı çıktığınızda en büyük sorununuz ne? İşte çözümü.",
+      "Yazılı Kanca: Yürüyüşler için oyunun kurallarını değiştiren ürün.",
+      "Görsel Kanca: Suyu tek elle doldurup artan suyu geri hazneye çekme hareketi."
+    ],
+    "est_price": "24.99",
+    "sourcing_tips": "BPA içermeyen modelleri tedarikçiden özellikle onaylayarak isteyin.",
+    "customs_warning": "Plastik ürünler olduğu için toplu ithalatta TSE kontrolüne takılabilir, dropshipping ile bireysel gönderim yapın.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+portable+dog+water+bottle",
+    "creative_style": "POV Yaşam Hilesi / Yürüyüş Günlüğü",
+    "target_audience": "Köpeğiyle kamp yapanlar, doğa yürüyüşü severler",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Kaymaz Silikon Kedi Mama Matı",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Regular",
+    "description": "Mama dökülmesini engelleyen, yükseltilmiş kenarlı, temizliği kolay silikon mat.",
+    "image_url": "https://m.media-amazon.com/images/I/71rM4p-FpVL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=Kaymaz%20Silikon%20Kedi%20Mama%20Mat%C4%B1%20made%20me%20buy%20it",
+    "why_viral": "Temizlik 'hacks' videolarının artmasıyla beraber, estetik görünümüyle viral oldu.",
+    "hook_ideas": [
+      "Sesli Kanca: Kediniz her yeri kirletiyor mu? Bunu izleyin.",
+      "Yazılı Kanca: Mama temizleme derdine son!",
+      "Görsel Kanca: Dağınık bir mama alanını saniyeler içinde tertemiz yapma."
+    ],
+    "est_price": "17.99",
+    "sourcing_tips": "Farklı pastel renk seçeneklerini paket yaparak ortalama sipariş değerini artırın.",
+    "customs_warning": "Hafif ürünlerdir, kargo maliyeti düşük olur, gümrük riski azdır.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+pet+feeding+mat",
+    "creative_style": "Önce/Sonra Karşılaştırması",
+    "target_audience": "Evcil hayvan sahipleri, minimalist yaşam severler",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 17,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Otomatik Lazer Kedi Oyuncağı (Akıllı Sensörlü)",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Showcase",
+    "description": "Hareket algıladığında kendi kendine lazer ışığı saçan, kedileri eğlendiren akıllı robot.",
+    "image_url": "https://m.media-amazon.com/images/I/61b7b0YnQWL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=Otomatik%20Lazer%20Kedi%20Oyunca%C4%9F%C4%B1%20%28Ak%C4%B1ll%C4%B1%20Sens%C3%B6rl%C3%BC%29%20made%20me%20buy%20it",
+    "why_viral": "Kedilerin şaşkınlık tepkileri videolarda çok yüksek izlenme alıyor.",
+    "hook_ideas": [
+      "Sesli Kanca: Evde yokken kedinize nasıl eğlence sağlarsınız?",
+      "Yazılı Kanca: Kediniz neden hep sıkılıyor?",
+      "Görsel Kanca: Kedinin lazeri yakalamaya çalışırken komik hareketleri."
+    ],
+    "est_price": "34.99",
+    "sourcing_tips": "Şarj edilebilir (USB) versiyonlarını tercih edin, pil derdi yaratmaz.",
+    "customs_warning": "Elektronik cihaz olduğu için CE belgesi sorgulanabilir, güvenilir tedarikçi seçimi kritiktir.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+smart+laser+cat+toy",
+    "creative_style": "Kışkırtıcı / Eğlenceli Montaj",
+    "target_audience": "Kedisiyle vakit geçiremeyen çalışan bireyler",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 3,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Evcil Hayvan Duş Başlığı (Masajlı)",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Showcase",
+    "description": "Elde takılan, hem masaj yapan hem de yıkayan entegre duş başlığı.",
+    "image_url": "https://m.media-amazon.com/images/I/71d1gqK3-eL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=Evcil%20Hayvan%20Du%C5%9F%20Ba%C5%9Fl%C4%B1%C4%9F%C4%B1%20%28Masajl%C4%B1%29%20made%20me%20buy%20it",
+    "why_viral": "Köpek yıkamanın zorluğunu çekenler için görsel olarak ikna edici bir çözüm.",
+    "hook_ideas": [
+      "Sesli Kanca: Köpeğinizi yıkarken yaşadığınız savaşa son verin.",
+      "Yazılı Kanca: Banyo zamanı artık bir ödül!",
+      "Görsel Kanca: Köpeğin duş alırken ne kadar mutlu olduğu an."
+    ],
+    "est_price": "27.99",
+    "sourcing_tips": "Musluk adaptörleri dahil olan setleri alın.",
+    "customs_warning": "Su tesisatı ekipmanı sayılabilir, bireysel gönderimle sorunsuz geçer.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+pet+shower+sprayer",
+    "creative_style": "Önce/Sonra (Banyo Korkusu)",
+    "target_audience": "Köpeğini evde yıkayanlar",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Katlanabilir Evcil Hayvan Havuzu",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Regular",
+    "description": "Kurulum gerektirmeyen, açılıp katlanabilen dayanıklı yazlık köpek havuzu.",
+    "image_url": "https://m.media-amazon.com/images/I/71a6Q8cO-qL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=Katlanabilir%20Evcil%20Hayvan%20Havuzu%20made%20me%20buy%20it",
+    "why_viral": "Yaz aylarının gelmesiyle 'köpeklerim çok eğleniyor' temalı videolar viralde.",
+    "hook_ideas": [
+      "Sesli Kanca: Bahçenizde köpeğiniz için bir su parkına ne dersiniz?",
+      "Yazılı Kanca: Yaz sıcağında köpeğinizi serinletin.",
+      "Görsel Kanca: Havuzun saniyeler içinde açılıp suyla dolması."
+    ],
+    "est_price": "45.00",
+    "sourcing_tips": "Dayanıklı PVC malzeme olduğundan emin olun.",
+    "customs_warning": "Hacim büyük olabilir, kargo masraflarını dikkatli hesaplayın.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+foldable+dog+pool",
+    "creative_style": "Yaz Temalı Eğlenceli Kurgu",
+    "target_audience": "Bahçesi olan evcil hayvan sahipleri",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 4,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Kedi Tırmalama Kaktüsü (Estetik)",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Showcase",
+    "description": "Evin dekoruna uygun, şık ve işlevsel kaktüs formunda kedi tırmalama ağacı.",
+    "image_url": "https://m.media-amazon.com/images/I/71D0Y9i8aBL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=Kedi%20T%C4%B1rmalama%20Kakt%C3%BCs%C3%BC%20%28Estetik%29%20made%20me%20buy%20it",
+    "why_viral": "Estetik ev dekorasyonu akımına uygunluğu nedeniyle 'dekorasyon' kategorisinde de paylaşıldığı için viral oluyor.",
+    "hook_ideas": [
+      "Sesli Kanca: Kediniz mobilyalarınızı mı parçalıyor? İşte şık çözüm.",
+      "Yazılı Kanca: Evinizi kirletmeden kedinizi mutlu edin.",
+      "Görsel Kanca: Kedinin tırmalamaya bayıldığı o an."
+    ],
+    "est_price": "39.99",
+    "sourcing_tips": "Sisal ip kalitesi yüksek üreticileri seçin.",
+    "customs_warning": "Ürün büyük, dropshipping acentesi ile kargo maliyeti optimizasyonu yapın.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+cactus+cat+scratcher",
+    "creative_style": "Estetik Ev/Dekorasyon Videosu",
+    "target_audience": "Kedisi olan tasarım severler",
+    "scores": {
+      "visual_satisfaction": 5,
+      "problem_solving": 3,
+      "immediate_understandability": 5,
+      "reaction_potential": 5
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Sessiz Kedi Su Çeşmesi (Paslanmaz Çelik)",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Regular",
+    "description": "Kedilerin temiz suya ulaşmasını sağlayan, filtreli, ultra sessiz paslanmaz çelik çeşme.",
+    "image_url": "https://m.media-amazon.com/images/I/61k1q0zXjZL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=Sessiz%20Kedi%20Su%20%C3%87e%C5%9Fmesi%20%28Paslanmaz%20%C3%87elik%29%20made%20me%20buy%20it",
+    "why_viral": "Plastik kapların akne yapmasıyla ilgili bilgi içerikleri sayesinde, paslanmaz çelik çeşmeler büyük ilgi görüyor.",
+    "hook_ideas": [
+      "Sesli Kanca: Kedinizin suyu taze değil mi? Bunu izleyin.",
+      "Yazılı Kanca: Kedinizin sağlığı için en önemli ürün.",
+      "Görsel Kanca: Suyun akan görüntüsünün yarattığı huzur."
+    ],
+    "est_price": "32.99",
+    "sourcing_tips": "Yedek filtreleri de upsell olarak satmayı unutmayın.",
+    "customs_warning": "Elektronik pompa içerir, CE sertifikalı tedarikçilerle çalışın.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+stainless+steel+cat+fountain",
+    "creative_style": "Bilgilendirici / Fayda Odaklı",
+    "target_audience": "Kedi sahipleri, sağlık bilinci yüksek kişiler",
+    "scores": {
+      "visual_satisfaction": 4,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 18,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  },
+  {
+    "name": "Yavaş Yiyen Mama Kabı (Puzzle Feeder)",
+    "category": "Evcil Hayvan Ürünleri",
+    "product_type": "Regular",
+    "description": "Hızlı yiyen köpekler için mide şişkinliğini önleyen bulmaca tipi mama kabı.",
+    "image_url": "https://m.media-amazon.com/images/I/71c6N-Wb3QL._AC_SL1500_.jpg",
+    "video_url": "https://www.tiktok.com/search?q=Yava%C5%9F%20Yiyen%20Mama%20Kab%C4%B1%20%28Puzzle%20Feeder%29%20made%20me%20buy%20it",
+    "why_viral": "Köpeğinin sağlığına düşkün olan bilinçli sahipler arasında sosyal kanıtı en yüksek ürün.",
+    "hook_ideas": [
+      "Sesli Kanca: Köpeğiniz yemeğini saniyeler içinde mi tüketiyor?",
+      "Yazılı Kanca: Sindirim sorunlarına son verin.",
+      "Görsel Kanca: Hızlı yiyen köpek vs. yavaş yiyen köpek karşılaştırması."
+    ],
+    "est_price": "22.99",
+    "sourcing_tips": "Eğlenceli ve zorluk seviyesi ayarlanabilir modelleri seçin.",
+    "customs_warning": "Gıda güvenliği standartlarına uygun malzemeli olduğunu vurgulayın, gümrük için güvenli.",
+    "competitor_url": "https://www.google.com/search?q=site:myshopify.com+slow+feeder+dog+bowl",
+    "creative_style": "Karşılaştırma / Bilgi Odaklı",
+    "target_audience": "Köpek sahipleri, evcil hayvan sağlığına önem verenler",
+    "scores": {
+      "visual_satisfaction": 3,
+      "problem_solving": 5,
+      "immediate_understandability": 5,
+      "reaction_potential": 4
+    },
+    "total_score": 17,
+    "verdict": "Winner Adayı",
+    "crawled_at": "2026-07-06"
+  }
+]
