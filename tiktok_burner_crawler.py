@@ -59,6 +59,8 @@ def save_seen_videos(seen_set):
 
 def call_vertex_gemini(json_path, prompt, model="gemini-3.5-flash"):
     try:
+        import urllib.request
+        import json
         from google.oauth2 import service_account
         import google.auth.transport.requests
         
