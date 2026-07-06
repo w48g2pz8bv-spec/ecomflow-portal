@@ -73,8 +73,13 @@ def call_vertex_gemini(json_path, prompt, model="gemini-3.5-flash"):
         token = credentials.token
         project_id = credentials.project_id
         
+        # Map model name to actual production Vertex AI model ID
+        vertex_model = model
+        if "3.5-flash" in model or "3.5" in model:
+            vertex_model = "gemini-1.5-flash-002"  # Safest globally-supported model on Vertex
+            
         region = "us-central1"
-        url = f"https://{region}-aiplatform.googleapis.com/v1/projects/{project_id}/locations/{region}/publishers/google/models/{model}:generateContent"
+        url = f"https://{region}-aiplatform.googleapis.com/v1/projects/{project_id}/locations/{region}/publishers/google/models/{vertex_model}:generateContent"
         
         payload = {
             "contents": [{
@@ -420,14 +425,40 @@ def run_burner_automation(api_key, duration_minutes=30):
             print(f"[*] Doğrudan #{selected_tag} etiket akışına bağlanılıyor...")
             safe_goto(page, f"https://www.tiktok.com/tag/{selected_tag}")
             time.sleep(6)
-            first_video = page.query_selector('a[href*="/video/"]')
-            if first_video:
-                first_video.click()
+            
+            # Scroll down the grid page first to load more videos and prevent duplicates
+            print("[*] Izgaradaki videoları çeşitlendirmek için aşağı kaydırılıyor...")
+            for _ in range(4):
+                page.evaluate("window.scrollBy(0, 1000)")
+                time.sleep(1.5)
+            
+            # Extract and select the first unseen video link
+            video_links = page.query_selector_all('a[href*="/video/"]')
+            unseen_video = None
+            for link in video_links:
+                href = link.get_attribute("href")
+                if href:
+                    v_match = re.search(r"/video/(\d+)", href)
+                    if v_match:
+                        v_id = v_match.group(1)
+                        if v_id not in seen_videos:
+                            unseen_video = link
+                            break
+            
+            if unseen_video:
+                print("[+] Izgarada daha önce taranmamış yeni video bulundu. Tıklanarak açılıyor...")
+                unseen_video.click()
                 time.sleep(4)
             else:
-                print("[-] Etiket sayfasında ilk video bulunamadı. For You akışına geçiliyor...")
-                safe_goto(page, "https://www.tiktok.com/foryou")
-                time.sleep(5)
+                print("[-] Izgaradaki tüm videolar daha önce taranmış. İlk video tıklanıyor...")
+                first_video = page.query_selector('a[href*="/video/"]')
+                if first_video:
+                    first_video.click()
+                    time.sleep(4)
+                else:
+                    print("[-] Etiket sayfasında hiç video bulunamadı. For You akışına geçiliyor...")
+                    safe_goto(page, "https://www.tiktok.com/foryou")
+                    time.sleep(5)
         else:
             # Active Algorithm Warming Phase (Algoritmayı Isıtma Aşaması)
             run_warmup_search(page)
@@ -529,11 +560,24 @@ def run_burner_automation(api_key, duration_minutes=30):
                         print(f"[!] Stuck detected on video {video_id} (consecutive skips: {consecutive_duplicates}). Attempting to recover...")
                         consecutive_duplicates = 0
                         try:
-                            # Reload page and navigate to /foryou to force load a scrollable feed
-                            page.reload()
-                            time.sleep(12)
-                            safe_goto(page, "https://www.tiktok.com/foryou")
-                            time.sleep(8)
+                            if warmup_only_mode:
+                                current_tag_idx = (current_tag_idx + 1) % len(hashtags)
+                                selected_tag = hashtags[current_tag_idx]
+                                print(f"[*] Recovery: Yeni etiket akışına geçiş yapılıyor: #{selected_tag}...")
+                                safe_goto(page, f"https://www.tiktok.com/tag/{selected_tag}")
+                                time.sleep(6)
+                                page.evaluate("window.scrollBy(0, 800)")
+                                time.sleep(2)
+                                first_video = page.query_selector('a[href*="/video/"]')
+                                if first_video:
+                                    first_video.click()
+                                    time.sleep(4)
+                            else:
+                                # Reload page and navigate to /foryou to force load a scrollable feed
+                                page.reload()
+                                time.sleep(12)
+                                safe_goto(page, "https://www.tiktok.com/foryou")
+                                time.sleep(8)
                         except Exception as re_err:
                             print(f"[-] Recovery reload failed: {re_err}")
                             
@@ -632,10 +676,26 @@ def run_burner_automation(api_key, duration_minutes=30):
                         "image_url": screenshot_img
                     })
                 else:
-                    # Swipe immediately with a tiny humanlike pause (1-2 seconds)
+                    # Swipe next
                     print("[-] Not a winner candidate. Swiping next.")
                     import random
-                    time.sleep(random.uniform(1.0, 2.0))
+                    if warmup_only_mode:
+                        # Since we are on dropshipping hashtag feeds, we watch longer to train the TikTok algorithm
+                        watch_time = random.uniform(8.0, 14.0)
+                        print(f"[*] Algoritma Eğitimi: Dropshipping videosu {watch_time:.1f} saniye izleniyor...")
+                        time.sleep(watch_time)
+                        # 20% chance to drop a like to further train the feed recommendation engine
+                        if random.random() < 0.20:
+                            try:
+                                like_btn = page.query_selector('span[data-e2e="like-icon"]') or page.query_selector('button[class*="Like"]')
+                                if like_btn:
+                                    like_btn.click()
+                                    print("[*] Algoritma Eğitimi: Etiket videosu beğeni ile beslendi.")
+                            except Exception:
+                                pass
+                    else:
+                        # On organic feed, swipe fast to hide irrelevant content (dances, memes, news)
+                        time.sleep(random.uniform(1.0, 2.5))
                     
             except Exception as e:
                 print(f"[-] Error processing current video element: {e}")
