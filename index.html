@@ -1076,7 +1076,7 @@
                 </div>
                 <div style="display:flex; gap:10px; align-items:center;">
                     <label style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">GitHub Reponuz:</label>
-                    <input type="text" id="git-repo-path" placeholder="kullaniciadi/depo-adi" style="background:#1f2937; border:1px solid var(--border-color); color:#fff; padding:8px 12px; border-radius:6px; outline:none; width:180px; font-size:0.9rem;" value="">
+                    <input type="text" id="git-repo-path" placeholder="kullaniciadi/depo-adi" style="background:#1f2937; border:1px solid var(--border-color); color:#fff; padding:8px 12px; border-radius:6px; outline:none; width:260px; font-size:0.9rem;" value="">
                     <button onclick="syncCloudProducts()" class="hunter-btn" style="display:flex; align-items:center; gap:6px;">
                         ☁️ Eşitle
                     </button>
@@ -1307,7 +1307,10 @@
             document.querySelectorAll('.lesson-item').forEach(el => el.classList.remove('active'));
             
             // Load saved settings and files
-            const savedRepo = localStorage.getItem('ecomflow_git_repo') || '';
+            let savedRepo = localStorage.getItem('ecomflow_git_repo') || 'w48g2pz8bv-spec/ecomflow-portal';
+            if (savedRepo === 'w48g2pz8bv-spec/eco' || !savedRepo) {
+                savedRepo = 'w48g2pz8bv-spec/ecomflow-portal';
+            }
             document.getElementById('git-repo-path').value = savedRepo;
             
             loadLocalSavedProducts();
@@ -3049,9 +3052,9 @@ ${contextText}`;
                             <a href="${p.video_url || `https://www.tiktok.com/search?q=${encodeURIComponent(p.name)}`}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:4px 6px; font-size:0.7rem; border-color:#ff0050; color:#fff; background:rgba(255, 0, 80, 0.05);">
                                 🎬 TikTok
                             </a>
-                            <a href="${p.aliexpress_url}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:4px 6px; font-size:0.7rem;">
-                                🛒 Tedarikçi
-                            </a>
+                            <button onclick="showSourcingGuide('${escapeJsString(p.name)}'); return false;" class="hunter-btn-outline" style="padding:4px 6px; font-size:0.7rem; border-color:#f59e0b; color:#fff; background:rgba(245, 158, 11, 0.05);">
+                                🚚 Tedarik
+                            </button>
                             <a href="${p.competitor_url || `https://www.google.com/search?q=site:myshopify.com+${encodeURIComponent(p.name)}`}" target="_blank" class="hunter-btn-outline" style="text-decoration:none; padding:4px 6px; font-size:0.7rem; border-color:#3b82f6; color:#fff; background:rgba(59, 130, 246, 0.05);">
                                 🎯 Rakip
                             </a>
