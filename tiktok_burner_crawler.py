@@ -556,24 +556,63 @@ def run_burner_automation(api_key, duration_minutes=30):
                         last_seen_video_id = video_id
                         consecutive_duplicates = 1
                         
-                    if consecutive_duplicates >= 10:
-                        print(f"[!] Stuck detected on video {video_id} (consecutive skips: {consecutive_duplicates}). Attempting to recover...")
+                    # Swipe to next video
+                    swipe_success = False
+                    if warmup_only_mode:
+                        # Try clicking the next video arrow button in the lightbox overlay
+                        for sel in ['button[data-e2e="arrow-dest"]', 'button[data-e2e="video-page-next"]', 'button[aria-label="Next video"]', 'button[class*="ArrowDown"]', 'button[class*="arrow"]']:
+                            try:
+                                btn = page.query_selector(sel)
+                                if btn and btn.is_visible():
+                                    init_url = page.url
+                                    btn.click(force=True)
+                                    time.sleep(2)
+                                    if page.url != init_url:
+                                        swipe_success = True
+                                        break
+                            except Exception:
+                                pass
+                                
+                    if not swipe_success:
+                        page.keyboard.press("ArrowDown")
+                        time.sleep(2.0)
+                        
+                    # If we are stuck on the exact same video ID (swipe did not work)
+                    if consecutive_duplicates >= 3:
+                        print(f"[!] Swiping stuck detected on duplicate video {video_id}. Attempting to reload tag grid...")
                         consecutive_duplicates = 0
                         try:
                             if warmup_only_mode:
-                                current_tag_idx = (current_tag_idx + 1) % len(hashtags)
+                                # Switch to next tag or reload current tag page
                                 selected_tag = hashtags[current_tag_idx]
-                                print(f"[*] Recovery: Yeni etiket akışına geçiş yapılıyor: #{selected_tag}...")
+                                print(f"[*] Recovery: #{selected_tag} etiket sayfasına geri dönülüyor...")
                                 safe_goto(page, f"https://www.tiktok.com/tag/{selected_tag}")
                                 time.sleep(6)
-                                page.evaluate("window.scrollBy(0, 800)")
-                                time.sleep(2)
-                                first_video = page.query_selector('a[href*="/video/"]')
-                                if first_video:
-                                    first_video.click(force=True)
+                                # Scroll down further to fetch fresh content
+                                scroll_amt = random.randint(3, 6)
+                                print(f"[*] Scrolling down grid {scroll_amt} times to load more unseen videos...")
+                                for _ in range(scroll_amt):
+                                    page.evaluate("window.scrollBy(0, 1000)")
+                                    time.sleep(1.5)
+                                    
+                                # Extract links and click first unseen
+                                video_links = page.query_selector_all('a[href*="/video/"]')
+                                clicked = False
+                                for link in video_links:
+                                    href = link.get_attribute("href")
+                                    if href:
+                                        v_m = re.search(r"/video/(\d+)", href)
+                                        if v_m and v_m.group(1) not in seen_videos:
+                                            print(f"[+] Clicked unseen video from grid: {v_m.group(1)}")
+                                            link.click(force=True)
+                                            time.sleep(4)
+                                            clicked = True
+                                            break
+                                if not clicked and video_links:
+                                    # Fallback click first link
+                                    video_links[0].click(force=True)
                                     time.sleep(4)
                             else:
-                                # Reload page and navigate to /foryou to force load a scrollable feed
                                 page.reload()
                                 time.sleep(12)
                                 safe_goto(page, "https://www.tiktok.com/foryou")
@@ -581,10 +620,6 @@ def run_burner_automation(api_key, duration_minutes=30):
                         except Exception as re_err:
                             print(f"[-] Recovery reload failed: {re_err}")
                             
-                    # Simulate humanlike quick evaluation before swiping (1 to 2 seconds)
-                    import random
-                    time.sleep(random.uniform(1.0, 2.5))
-                    page.keyboard.press("ArrowDown")
                     continue
                 else:
                     consecutive_duplicates = 0
