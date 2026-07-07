@@ -61,16 +61,38 @@ jobs:
           rm -f tiktok_cookies.json
           rm -f ecomflow_key.json
           
-          # Stage newly discovered products, updated seen database and screenshots
+          # 1. Fetch latest changes from remote
+          git fetch origin main
+          
+          # 2. Run merge script to combine local changes with remote HEAD
+          python merge_databases.py --remote-seen-ref origin/main:seen_tiktok_videos.json --remote-products-ref origin/main:precrawled_products.json
+          
+          # 3. Back up new screenshots to temp folder
+          if [ -d product_images ]; then
+            mkdir -p /tmp/ecomflow_merge/product_images
+            cp -r product_images/* /tmp/ecomflow_merge/product_images/ 2>/dev/null || true
+          fi
+          
+          # 4. Hard reset local workspace to remote HEAD (clean slate, no conflicts)
+          git reset --hard origin/main
+          
+          # 5. Restore merged databases and screenshots
+          cp /tmp/ecomflow_merge/seen_tiktok_videos.json seen_tiktok_videos.json
+          cp /tmp/ecomflow_merge/precrawled_products.json precrawled_products.json
+          if [ -d /tmp/ecomflow_merge/product_images ]; then
+            mkdir -p product_images
+            cp -r /tmp/ecomflow_merge/product_images/* product_images/ 2>/dev/null || true
+          fi
+          
+          # 6. Stage and commit
           git add precrawled_products.json
           git add -f seen_tiktok_videos.json
           if [ -d product_images ]; then
             git add product_images/
           fi
           
-          # Commit only if files have changed
-          git diff-index --quiet HEAD || git commit -m "chore: sync newly crawled winner products and screenshots [skip ci]"
-          
-          # Pull latest remote changes to prevent race conditions, then push
-          git pull origin main --rebase
-          git push origin main
+          # 7. Commit and push directly (guaranteed conflict-free)
+          git diff-index --quiet HEAD || {
+            git commit -m "chore: sync newly crawled winner products and screenshots [skip ci]"
+            git push origin main
+          }
