@@ -415,7 +415,7 @@ def run_burner_automation(api_key, duration_minutes=30):
                 return
 
         # Read option for warming up mode (staying on hashtags instead of For You feed)
-        warmup_only_mode = os.environ.get("WARMUP_ONLY_MODE", "true") == "true"
+        warmup_only_mode = os.environ.get("WARMUP_ONLY_MODE", "false") == "true"
         hashtags = ["tiktokmademebuyit", "amazonfinds", "dropshipping", "viralproduct"]
         current_tag_idx = 0
 
@@ -584,6 +584,7 @@ def run_burner_automation(api_key, duration_minutes=30):
                         try:
                             if warmup_only_mode:
                                 # Switch to next tag or reload current tag page
+                                current_tag_idx = (current_tag_idx + 1) % len(hashtags)
                                 selected_tag = hashtags[current_tag_idx]
                                 print(f"[*] Recovery: #{selected_tag} etiket sayfasına geri dönülüyor...")
                                 safe_goto(page, f"https://www.tiktok.com/tag/{selected_tag}")
@@ -605,13 +606,21 @@ def run_burner_automation(api_key, duration_minutes=30):
                                         if v_m and v_m.group(1) not in seen_videos:
                                             print(f"[+] Clicked unseen video from grid: {v_m.group(1)}")
                                             link.click(force=True)
-                                            time.sleep(4)
+                                            # Wait up to 5 seconds for URL to transition to the clicked video
+                                            for _ in range(5):
+                                                if "/video/" in page.url:
+                                                    break
+                                                time.sleep(1)
                                             clicked = True
                                             break
                                 if not clicked and video_links:
                                     # Fallback click first link
                                     video_links[0].click(force=True)
-                                    time.sleep(4)
+                                    # Wait for transition
+                                    for _ in range(5):
+                                        if "/video/" in page.url:
+                                            break
+                                        time.sleep(1)
                             else:
                                 page.reload()
                                 time.sleep(12)
