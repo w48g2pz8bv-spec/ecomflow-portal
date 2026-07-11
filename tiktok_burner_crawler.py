@@ -497,55 +497,84 @@ def run_burner_automation(api_key, duration_minutes=30):
 
             time.sleep(3) # Wait for page load / transition
             
-            # Extract video details
+            # Extract video details using active viewport element evaluation
             try:
-                # Get current video element or URL
-                current_url = page.url
-                video_id = None
+                active_info = page.evaluate("""() => {
+                    const containers = document.querySelectorAll('div[data-e2e="recommend-list-item-container"], div[class*="DivItemContainer"], div[class*="ItemContainer"]');
+                    let activeContainer = null;
+                    for (const c of containers) {
+                        const video = c.querySelector('video');
+                        if (video && !video.paused) {
+                            activeContainer = c;
+                            break;
+                        }
+                    }
+                    if (!activeContainer) {
+                        let minEl = null;
+                        let minDiff = Infinity;
+                        const viewportCenter = window.innerHeight / 2;
+                        for (const c of containers) {
+                            const rect = c.getBoundingClientRect();
+                            const center = rect.top + rect.height / 2;
+                            const diff = Math.abs(center - viewportCenter);
+                            if (diff < minDiff) {
+                                minDiff = diff;
+                                minEl = c;
+                            }
+                        }
+                        activeContainer = minEl;
+                    }
+                    if (!activeContainer) return null;
+                    
+                    const authorEl = activeContainer.querySelector('a[href*="/@"], [data-e2e="video-author-uniqueid"], [class*="UniqueId"], [class*="username"]');
+                    let author = "Bilinmeyen Kullanıcı";
+                    if (authorEl) {
+                        const href = authorEl.getAttribute('href');
+                        if (href) {
+                            const m = href.match(/\/@([^/?#\\s]+)/);
+                            if (m) author = m[1];
+                        } else {
+                            author = authorEl.innerText.trim();
+                        }
+                    }
+                    
+                    const captionEl = activeContainer.querySelector('div[data-e2e="video-desc"], [class*="DivDesc"], [class*="desc"], h1[data-e2e="browse-video-desc"]');
+                    const caption = captionEl ? captionEl.innerText.trim() : "Ürün Açıklaması Alınamadı";
+                    
+                    const videoLinkEl = activeContainer.querySelector('a[href*="/video/"]');
+                    let videoUrl = videoLinkEl ? videoLinkEl.getAttribute('href') : "";
+                    let videoId = "";
+                    if (videoUrl) {
+                        const m = videoUrl.match(/\/video\/(\\d+)/);
+                        if (m) videoId = m[1];
+                    }
+                    
+                    return { author, caption, videoUrl, videoId };
+                }""")
                 
-                # Wait up to 3 seconds for the URL or DOM to settle
-                for _ in range(3):
+                if active_info:
+                    author = active_info.get("author") or "Bilinmeyen Kullanıcı"
+                    caption = active_info.get("caption") or "Ürün Açıklaması Alınamadı"
+                    current_url = active_info.get("videoUrl") or page.url
+                    video_id = active_info.get("videoId")
+                else:
+                    author = "Bilinmeyen Kullanıcı"
+                    caption = "Ürün Açıklaması Alınamadı"
+                    current_url = page.url
+                    video_id = None
+                
+                # Fallback video_id to avoid infinite loading loops
+                if not video_id:
                     match = re.search(r"/video/(\d+)", page.url)
                     if match:
                         video_id = match.group(1)
                         current_url = page.url
-                        break
-                    active_link = page.query_selector('a[href*="/video/"]')
-                    if active_link:
-                        href = active_link.get_attribute("href")
-                        match = re.search(r"/video/(\d+)", href)
-                        if match:
-                            video_id = match.group(1)
-                            current_url = href
-                            break
-                    time.sleep(1)
-
-                # Extract author username from DOM profile links
-                author = "Bilinmeyen Kullanıcı"
-                profile_link = page.query_selector('a[href*="/@"]')
-                if profile_link:
-                    href = profile_link.get_attribute("href")
-                    match = re.search(r"/@([^/?#\s]+)", href)
-                    if match:
-                        author = match.group(1)
-                else:
-                    author_el = page.query_selector('span[data-e2e="browse-username"]') or page.query_selector('h3[data-e2e="video-author-uniqueid"]')
-                    if author_el:
-                        author = author_el.inner_text().strip()
-
-                # Extract caption
-                caption = "Ürün Açıklaması Alınamadı"
-                caption_el = page.query_selector('h1[data-e2e="browse-video-desc"]') or page.query_selector('div[data-e2e="video-desc"]') or page.query_selector('[class*="Desc"]') or page.query_selector('[class*="desc"]')
-                if caption_el:
-                    caption = caption_el.inner_text().strip()
-
-                # Fallback video_id to avoid infinite loading loops
-                if not video_id:
-                    if author != "Bilinmeyen Kullanıcı" or caption != "Ürün Açıklaması Alınamadı":
-                        clean_cap = re.sub(r'[^a-zA-Z0-9]', '', caption[:20])
-                        video_id = f"hash_{author}_{clean_cap}"
                     else:
-                        video_id = f"fallback_{int(time.time())}"
+                        if author != "Bilinmeyen Kullanıcı" or caption != "Ürün Açıklaması Alınamadı":
+                            clean_cap = re.sub(r'[^a-zA-Z0-9]', '', caption[:20])
+                            video_id = f"hash_{author}_{clean_cap}"
+                        else:
+                            video_id = f"fallback_{int(time.time())}"
                 # Check for duplicates
                 if video_id in seen_videos:
                     print(f"[*] Skipping duplicate video: {video_id}")
@@ -578,7 +607,7 @@ def run_burner_automation(api_key, duration_minutes=30):
                         time.sleep(2.0)
                         
                     # If we are stuck on the exact same video ID (swipe did not work)
-                    if consecutive_duplicates >= 3:
+                    if consecutive_duplicates >= 12:
                         print(f"[!] Swiping stuck detected on duplicate video {video_id}. Attempting to reload tag grid...")
                         consecutive_duplicates = 0
                         try:
@@ -746,6 +775,7 @@ def run_burner_automation(api_key, duration_minutes=30):
             
             # Swipe down to next video
             page.keyboard.press("ArrowDown")
+            time.sleep(3.0)
             
         browser.close()
         print(f"\n[+] Scans completed. Evaluated: {video_count} videos. Validated: {validated_count} products.")
