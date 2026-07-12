@@ -500,33 +500,42 @@ def run_burner_automation(api_key, duration_minutes=30):
             # Extract video details using active viewport element evaluation
             try:
                 active_info = page.evaluate("""() => {
-                    const containers = document.querySelectorAll('div[data-e2e="recommend-list-item-container"], div[class*="DivItemContainer"], div[class*="ItemContainer"]');
-                    let activeContainer = null;
-                    for (const c of containers) {
-                        const video = c.querySelector('video');
-                        if (video && !video.paused) {
-                            activeContainer = c;
-                            break;
-                        }
-                    }
-                    if (!activeContainer) {
-                        let minEl = null;
-                        let minDiff = Infinity;
-                        const viewportCenter = window.innerHeight / 2;
-                        for (const c of containers) {
-                            const rect = c.getBoundingClientRect();
+                    const videos = document.querySelectorAll('video');
+                    let activeVideo = null;
+                    let minDiff = Infinity;
+                    const viewportCenter = window.innerHeight / 2;
+                    
+                    for (const v of videos) {
+                        const rect = v.getBoundingClientRect();
+                        if (rect.height > 0 && rect.width > 0) {
                             const center = rect.top + rect.height / 2;
                             const diff = Math.abs(center - viewportCenter);
                             if (diff < minDiff) {
                                 minDiff = diff;
-                                minEl = c;
+                                activeVideo = v;
                             }
                         }
-                        activeContainer = minEl;
                     }
-                    if (!activeContainer) return null;
                     
-                    const authorEl = activeContainer.querySelector('a[href*="/@"], [data-e2e="video-author-uniqueid"], [class*="UniqueId"], [class*="username"]');
+                    if (!activeVideo) return null;
+                    
+                    // Traverse up to find container with author and caption info
+                    let c = activeVideo.parentElement;
+                    let authorEl = null;
+                    let captionEl = null;
+                    let videoLinkEl = null;
+                    
+                    for (let i = 0; i < 15; i++) {
+                        if (!c) break;
+                        authorEl = c.querySelector('a[href*="/@"], [data-e2e="video-author-uniqueid"], [data-e2e="video-user-name"], [class*="UniqueId"], [class*="username"]');
+                        captionEl = c.querySelector('[data-e2e="video-desc"], [data-e2e="feed-video-desc"], [class*="DivDesc"], [class*="desc"], h1[data-e2e="browse-video-desc"]');
+                        videoLinkEl = c.querySelector('a[href*="/video/"]');
+                        if (authorEl || captionEl) {
+                            break;
+                        }
+                        c = c.parentElement;
+                    }
+                    
                     let author = "Bilinmeyen Kullanıcı";
                     if (authorEl) {
                         const href = authorEl.getAttribute('href');
@@ -538,10 +547,7 @@ def run_burner_automation(api_key, duration_minutes=30):
                         }
                     }
                     
-                    const captionEl = activeContainer.querySelector('div[data-e2e="video-desc"], [class*="DivDesc"], [class*="desc"], h1[data-e2e="browse-video-desc"]');
                     const caption = captionEl ? captionEl.innerText.trim() : "Ürün Açıklaması Alınamadı";
-                    
-                    const videoLinkEl = activeContainer.querySelector('a[href*="/video/"]');
                     let videoUrl = videoLinkEl ? videoLinkEl.getAttribute('href') : "";
                     let videoId = "";
                     if (videoUrl) {
