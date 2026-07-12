@@ -119,11 +119,17 @@ def call_vertex_gemini(json_path, prompt, model="gemini-3.5-flash"):
     return None
 
 def call_gemini(api_key, prompt, model="gemini-3.5-flash", use_grounding=False):
-    # Check if Vertex AI service account credentials exist in workspace
+    # Check if Vertex AI service account credentials exist and are non-empty
     key_path = os.path.join(BASE_DIR, "ecomflow_key.json")
-    if os.path.exists(key_path):
-        print(f"[*] GCP Service Account key found. Routing request to Vertex AI ({model})...")
-        return call_vertex_gemini(key_path, prompt, model)
+    if os.path.exists(key_path) and os.path.getsize(key_path) > 10:
+        try:
+            print(f"[*] GCP Service Account key found. Routing request to Vertex AI ({model})...")
+            vertex_res = call_vertex_gemini(key_path, prompt, model)
+            if vertex_res:
+                return vertex_res
+            print("[-] Vertex AI returned empty response. Falling back to Developer API Key...")
+        except Exception as v_err:
+            print(f"[-] Vertex AI routing failed: {v_err}. Falling back to Developer API Key...")
 
     import urllib.error
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
