@@ -349,7 +349,7 @@ def run_burner_automation(api_key, duration_minutes=30):
     # Start Playwright chromium
     with sync_playwright() as playwright_instance:
         # Launch browser. Run headless in cloud, otherwise detect based on cookies
-        headless_mode = os.environ.get("GITHUB_ACTIONS") == "true" or os.path.exists(COOKIES_PATH)
+        headless_mode = os.environ.get("GITHUB_ACTIONS") == "true"
         browser = playwright_instance.chromium.launch(
             headless=headless_mode,
             args=[
