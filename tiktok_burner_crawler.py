@@ -415,8 +415,8 @@ def run_burner_automation(api_key, duration_minutes=30):
                 return
 
         # Read option for warming up mode (staying on hashtags instead of For You feed)
-        warmup_only_mode = os.environ.get("WARMUP_ONLY_MODE", "false") == "true"
-        hashtags = ["tiktokmademebuyit", "amazonfinds", "dropshipping", "viralproduct"]
+        warmup_only_mode = os.environ.get("WARMUP_ONLY_MODE", "true") == "true"
+        hashtags = ["tiktokmademebuyit", "amazonfinds", "dropshipping", "viralproduct", "uniquefinds", "coolproducts", "homehacks", "gadgets"]
         current_tag_idx = 0
 
         if warmup_only_mode:
