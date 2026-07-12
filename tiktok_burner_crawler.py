@@ -385,6 +385,17 @@ def run_burner_automation(api_key, duration_minutes=30):
         page.add_init_script("delete navigator.__proto__.webdriver")
         
         safe_goto(page, "https://www.tiktok.com/foryou")
+        
+        # Capture login/profile check screenshot to verify if we are correctly logged in
+        try:
+            print("[*] Oturum durumunu doğrulamak için profil ekran görüntüsü alınıyor...")
+            time.sleep(8) # Wait for page load and session cookies to be applied
+            os.makedirs(os.path.join(BASE_DIR, "product_images"), exist_ok=True)
+            screenshot_path = os.path.join(BASE_DIR, "product_images", "profile_login_check.png")
+            page.screenshot(path=screenshot_path)
+            print(f"[+] Profil ekran görüntüsü kaydedildi: {screenshot_path}")
+        except Exception as scr_err:
+            print(f"[-] Profil ekran görüntüsü alınamadı: {scr_err}")
 
         # Handle login if cookies were missing
         if not os.path.exists(COOKIES_PATH):
