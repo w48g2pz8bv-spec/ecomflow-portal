@@ -1080,6 +1080,9 @@
                     <button onclick="syncCloudProducts()" class="hunter-btn" style="display:flex; align-items:center; gap:6px;">
                         ☁️ Eşitle
                     </button>
+                    <button onclick="resetDiscoveryPool()" style="background:#374151; border:1px solid #4b5563; color:#d1d5db; padding:8px 12px; border-radius:6px; cursor:pointer; font-size:0.9rem; font-weight:600; display:flex; align-items:center; gap:6px; transition:all 0.2s;" onmouseover="this.style.background='#4b5563'" onmouseout="this.style.background='#374151'" title="Silinmiş tüm ürünleri geri getirip keşif havuzunu sıfırlar">
+                        🔄 Havuzu Sıfırla
+                    </button>
                 </div>
             </div>
 
@@ -2694,6 +2697,15 @@ ${contextText}`;
                 localStorage.setItem('ecomflow_deleted_products', JSON.stringify(deletedList));
             }
             renderHunterProducts();
+        }
+
+        function resetDiscoveryPool() {
+            if (!confirm('Silinmiş ve gizlenmiş tüm ürünleri keşif havuzunda tekrar göstermek istediğinize emin misiniz?')) {
+                return;
+            }
+            localStorage.removeItem('ecomflow_deleted_products');
+            renderHunterProducts();
+            alert('Keşif havuzu başarıyla sıfırlandı!');
         }
 
         function saveProductToWinner(name, silent = false) {
