@@ -803,6 +803,23 @@ def run_burner_automation(api_key, duration_minutes=30):
         browser.close()
         print(f"\n[+] Scans completed. Evaluated: {video_count} videos. Validated: {validated_count} products.")
 
+        # If running locally on Mac, automatically commit and push changes to GitHub
+        if os.environ.get("GITHUB_ACTIONS") != "true":
+            try:
+                print("\n[*] Yerel çalışmada keşfedilen yeni ürünleri GitHub'a göndermek için Git işlemleri başlatılıyor...")
+                import subprocess
+                subprocess.run("git add precrawled_products.json seen_tiktok_videos.json", shell=True, check=True)
+                # Check if there are changes before committing
+                status = subprocess.run("git diff-index --quiet HEAD --", shell=True)
+                if status.returncode != 0:
+                    subprocess.run('git commit -m "chore: sync local winner products and seen history"', shell=True, check=True)
+                    subprocess.run("git push origin main", shell=True, check=True)
+                    print("[+] Yeni ürünler ve taranmış video geçmişi GitHub deponuza başarıyla push edildi!")
+                else:
+                    print("[*] Yeni bulunmuş ürün veya değişiklik yok. Git push atlandı.")
+            except Exception as git_err:
+                print(f"[-] Yerel Git commit/push işlemi başarısız: {git_err}")
+
 if __name__ == "__main__":
     api_key = get_api_key()
     if not api_key:
